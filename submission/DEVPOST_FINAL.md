@@ -84,12 +84,12 @@ python, strands-agents, amazon-bedrock, claude-sonnet-4.6, claude-haiku-4.5, bed
 
 Upload these files in order:
 
-1. `submission/thumbnail.png` — Biddesk thumbnail (project cover image)
-2. `submission/architecture.png` — Architecture: firm profile, SAM.gov pull, tiered triage, Strands Graph desk, Decision Card, guard hooks, ledger
-3. `submission/media/hero_phone.png` — Decision Card for a real SAM.gov notice on a phone viewport
-4. `submission/media/flow.gif` — One continuous take: firm list, tier sieve, ledger, Decision Card with compliance matrix, answer, undo
-5. `submission/media/refusal.gif` — Guard hook cancels a submit tool call in code and writes the denial to the ledger
-6. `submission/media/qr_live.png` — QR code for the live demo (scan from a phone, no setup)
+1. `submission/thumbnail.png`: Biddesk thumbnail (project cover image)
+2. `submission/architecture.png`: Architecture: firm profile, SAM.gov pull, tiered triage, Strands Graph desk, Decision Card, guard hooks, ledger
+3. `submission/media/hero_phone.png`: Decision Card for a real SAM.gov notice on a phone viewport
+4. `submission/media/flow.gif`: One continuous take: firm list, tier sieve, ledger, Decision Card with compliance matrix, answer, undo
+5. `submission/media/refusal.gif`: Guard hook cancels a submit tool call in code and writes the denial to the ledger
+6. `submission/media/qr_live.png`: QR code for the live demo (scan from a phone, no setup)
 
 ## Video demo link
 
