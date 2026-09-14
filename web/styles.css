@@ -152,7 +152,7 @@ button{font:inherit}
 @media (max-width:599px){
   .seg-l{display:none}
   .sieve-bar{height:44px}
-  .seg{padding-inline:7px}
+  .seg{padding-inline:7px;min-width:44px}   /* a small count (2 of 75) still shows its digits */
   .seg-zero{min-width:54px}
 }
 

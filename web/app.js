@@ -473,6 +473,7 @@ async function runLivePull(slug, sec, btn, onLive) {
     const old = sec.querySelector(".sieve");
     const fresh = sieve(counts, true);
     old.replaceWith(fresh);
+    animateSieves();   /* a fresh sieve starts at width 0; grow it like the first render */
     const note = sec.querySelector(".mono");
     const routeText = live.route === "public" ? " via the public sam.gov route (API key throttled)"
       : live.route === "keyed" ? " via the keyed SAM.gov API" : "";
