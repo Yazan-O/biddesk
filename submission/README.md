@@ -4,7 +4,7 @@
 
 ![Strands Agents 1.55](https://img.shields.io/badge/Strands%20Agents-1.55-F2A93B?style=flat-square)
 ![Amazon Bedrock AgentCore](https://img.shields.io/badge/Amazon%20Bedrock-AgentCore%20Runtime-9AA3AD?style=flat-square)
-[![License: MIT](https://img.shields.io/badge/License-MIT-E9E4D8?style=flat-square)](../LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-E9E4D8?style=flat-square)](LICENSE)
 [![Live demo](https://img.shields.io/badge/Live%20demo-CloudFront-2EA043?style=flat-square)](https://dpnzgd4gtjs45.cloudfront.net/web/)
 
 <table>
@@ -23,6 +23,12 @@ Scan from a phone. No setup, no login, no upload.
 </table>
 
 ---
+
+## Architecture at a glance
+
+<img src="architecture.svg" width="900" alt="Biddesk architecture: firm profile and owner rules, SAM.gov pull, tier 0 rules in code, tier 1 Haiku read, tier 2 Strands Graph desk with compliance matrix, Decision Card, guard hooks and ledger">
+
+Full size: [`architecture.svg`](architecture.svg). The request path behind the live link is under [Deploy shape](#deploy-shape).
 
 ## The problem
 
@@ -282,7 +288,7 @@ Planned, not built: AgentCore Memory for standing owner rules, AgentCore Gateway
 
 ## Sources
 
-Every fixture in `data/` carries its source URL and fetch date in [`data/SOURCES.md`](../data/SOURCES.md): the SAM.gov Get Opportunities Public API v2 and its parameters, the public notice JSON fallback, the attachment resource links, the GeoNames postal code files and their CC BY 4.0 licence, and the pitch numbers with their primary sources.
+Every fixture in `data/` carries its source URL and fetch date in [`data/SOURCES.md`](data/SOURCES.md): the SAM.gov Get Opportunities Public API v2 and its parameters, the public notice JSON fallback, the attachment resource links, the GeoNames postal code files and their CC BY 4.0 licence, and the pitch numbers with their primary sources.
 
 No number appears in this README, the video, or the Devpost entry without a source in that file. A number that could not be sourced was cut, not estimated.
 
@@ -290,8 +296,6 @@ No number appears in this README, the video, or the Devpost entry without a sour
 
 ## License
 
-MIT. See [`LICENSE`](../LICENSE). Copyright 2026 Mohamad Yazan Sadoun.
+MIT. See [`LICENSE`](LICENSE). Copyright 2026 Mohamad Yazan Sadoun.
 
-GeoNames postal data under [`data/geo/`](../data/geo/) is redistributed under CC BY 4.0, attributed in `data/SOURCES.md`. SAM.gov notices and attachments are US government public data.
-
-Canonical copy: the repository root README.md.
+GeoNames postal data under [`data/geo/`](data/geo/) is redistributed under CC BY 4.0, attributed in `data/SOURCES.md`. SAM.gov notices and attachments are US government public data.
