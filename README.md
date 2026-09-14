@@ -24,6 +24,12 @@ Scan from a phone. No setup, no login, no upload.
 
 ---
 
+## Architecture at a glance
+
+<img src="submission/architecture.svg" width="900" alt="Biddesk architecture: firm profile and owner rules, SAM.gov pull, tier 0 rules in code, tier 1 Haiku read, tier 2 Strands Graph desk with compliance matrix, Decision Card, guard hooks and ledger">
+
+Full size: [`submission/architecture.svg`](submission/architecture.svg). The request path behind the live link is under [Deploy shape](#deploy-shape).
+
 ## The problem
 
 Federal agencies post every solicitation on SAM.gov. The law sets a goal of 23 percent of federal prime contract dollars going to small businesses (15 U.S.C. 644(g)(1)(A)(i), [source](https://www.law.cornell.edu/uscode/text/15/644)). The firms that win set-aside work are not always the ones that do the work best. They are the ones with somebody whose job is reading SAM.gov every morning, screening the notices, building a compliance matrix per solicitation, and tracking two deadlines per bid. An owner-operated firm of 1 to 50 people does not have that person.
