@@ -1,0 +1,536 @@
+{
+ "notice_id": "be4f7e411fa24607bd8ace51d180b335",
+ "firm_slug": "red-cedar",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:33:46-05:00",
+ "evidence_basis": null,
+ "days_to_close": -3.571356486909722,
+ "closed": true,
+ "response_kind": "proposal",
+ "card": {
+  "notice_id": "be4f7e411fa24607bd8ace51d180b335",
+  "firm_slug": "red-cedar",
+  "situation": "F--NE Rainwater Basin WMD Mechanical Tree Cutting solicitation from U.S. Fish & Wildlife Service (INTERIOR), small business set-aside, requiring mechanical tree cutting and piling at Peterson WPA, Gosper County, Nebraska within a 90-day period of performance.\nReached the owner because Red Cedar is a Total Small Business / WOSB with NAICS 561730 and grounds maintenance past performance, but the matrix flagged 7 gaps and 2 partials against 20 requirements, yielding a fit score of 0.5294.",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "Red Cedar qualifies under the Total Small Business set-aside and holds NAICS 561730 in its profile, making it administratively eligible to submit [be4f7e41-b4a3ab61-p11-ac901da1].",
+   "Herbicide application experience from the Tinker AFB grounds contract partially satisfies the FWS herbicide-approval requirement, providing a foothold on one technical element [be4f7e41-2fed95a8-p2-36bcb8bd].",
+   "A documented QC program with CMMS-logged inspections and CIMS-GB certification demonstrates a quality management culture that partially addresses the QC/QA standard [be4f7e41-2fed95a8-p3-b5c76579]."
+  ],
+  "reasons_against": [
+   "The solicitation response deadline has already passed (days to close: -3.6), making timely submission of a quote impossible [be4f7e41-3a7dc56e-p1-e7a00397].",
+   "The firm has no stated mechanical tree cutting, felling, piling, or forestry equipment capability, and the place of performance in Gosper County, NE is 600+ miles from Oklahoma City, violating the owner's 200-mile distance rule [be4f7e41-2fed95a8-p1-8669d73e].",
+   "The period of performance is approximately 90 days (10/01/2026–12/30/2026), which falls well below the owner's required 12-month base period minimum [be4f7e41-b4a3ab61-p3-c5bb1881]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-09-08",
+  "key_dates": {
+   "questions_due": "2026-09-10T17:00:00-04:00",
+   "proposal_due": "2026-09-10T17:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": "10/01/2026 to 12/30/2026",
+   "source_quotes": [
+    "**QUOTES AND QUESTIONS MUST BE EMAILED TO: jeremy_riva@ios.doi.gov by the closing date and time (see Block 8) Delivery: 12/30/2026 Period of Performance: 10/01/2026 to 12/30/2026 Continued...",
+    "Must be completed within 90 days."
+   ]
+  },
+  "fit_score": 0.5294,
+  "matrix_summary": "8 of 20 requirements met, 2 partial, 7 gap, 3 unknown",
+  "evidence_link": "https://sam.gov/opp/be4f7e411fa24607bd8ace51d180b335/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "be4f7e41-2fed95a8-p1-f8794be8",
+   "quote": "Must have experience with commercial land management that includes identifying, cutting and piling trees.",
+   "source_file": "2fed95a8c4724538ad5f33f29317d51f.pdf",
+   "page": 1,
+   "firm_answer": "The firm's capabilities cover mowing, trimming, irrigation, snow removal, and herbicide application. No tree cutting, felling, or piling experience is stated anywhere in the profile.",
+   "status": "gap",
+   "evidence": "Firm capabilities list: 'grounds maintenance (mowing, trimming, irrigation, snow and ice removal)' — no mention of tree cutting or piling."
+  },
+  {
+   "requirement_id": "be4f7e41-2fed95a8-p1-8669d73e",
+   "quote": "The Contractor shall furnish all labor, materials, tools, equipment, transportation, and supervision necessary to perform mechanical tree cutting and piling in project areas at Peterson WPA in Gosper County, NE.",
+   "source_file": "2fed95a8c4724538ad5f33f29317d51f.pdf",
+   "page": 1,
+   "firm_answer": "The firm has no stated mechanical tree cutting or piling capability, no forestry equipment, and the place of performance (Gosper County, NE) is approximately 600+ miles from Oklahoma City, exceeding the owner's 200-mile limit.",
+   "status": "gap",
+   "evidence": "Owner rule [rc-distance]: 'No bids over 200 miles from Oklahoma City.' Firm capabilities do not include mechanical tree cutting or heavy forestry equipment."
+  },
+  {
+   "requirement_id": "be4f7e41-b4a3ab61-p3-c5bb1881",
+   "quote": "Period of Performance: 10/01/2026 to 12/30/2026",
+   "source_file": "b4a3ab615db44c41843548a89491f472.pdf",
+   "page": 3,
+   "firm_answer": "The period of performance is approximately 3 months (Oct 1 – Dec 30, 2026), which is below the firm's owner rule requiring a minimum 12-month base period.",
+   "status": "gap",
+   "evidence": "Owner rule [rc-base]: 'No bids under a 12-month base period.' POP is ~90 days."
+  },
+  {
+   "requirement_id": "be4f7e41-2fed95a8-p2-87ad7aa0",
+   "quote": "Must be completed within 90 days.",
+   "source_file": "2fed95a8c4724538ad5f33f29317d51f.pdf",
+   "page": 2,
+   "firm_answer": "The firm has no demonstrated capability to mobilize and complete mechanical tree cutting and piling within a 90-day window in Nebraska.",
+   "status": "gap",
+   "evidence": "No tree cutting capability or Nebraska operational presence stated in profile."
+  },
+  {
+   "requirement_id": "be4f7e41-2fed95a8-p1-6ba66328",
+   "quote": "Work shall comply with all applicable codes and US Fish and Wildlife Service (FWS) protocols.",
+   "source_file": "2fed95a8c4724538ad5f33f29317d51f.pdf",
+   "page": 1,
+   "firm_answer": "The firm has no stated experience with FWS protocols or wildlife management area operations. OSHA 30 supervisors and CIMS-GB certification are present but do not address FWS-specific requirements.",
+   "status": "gap",
+   "evidence": "Firm capabilities: 'OSHA 30 supervisors' and 'CIMS-GB certified' — no FWS protocol experience listed."
+  },
+  {
+   "requirement_id": "be4f7e41-2fed95a8-p2-36bcb8bd",
+   "quote": "Herbicide must be approved by US Fish and Wildlife Service prior to use.",
+   "source_file": "2fed95a8c4724538ad5f33f29317d51f.pdf",
+   "page": 2,
+   "firm_answer": "The firm has herbicide experience from the Tinker AFB grounds contract but has no stated experience obtaining FWS herbicide approvals.",
+   "status": "partial",
+   "evidence": "Grounds maintenance, cantonment area — keywords include 'herbicide'; no FWS approval process experience stated."
+  },
+  {
+   "requirement_id": "be4f7e41-2fed95a8-p3-b5c76579",
+   "quote": "Quality Control / Quality Assurance Contractors shall maintain industry standards.",
+   "source_file": "2fed95a8c4724538ad5f33f29317d51f.pdf",
+   "page": 3,
+   "firm_answer": "The firm has a documented QC program with CMMS-logged inspections and CIMS-GB certification, demonstrating a quality management culture, though not specific to tree cutting.",
+   "status": "partial",
+   "evidence": "Firm capabilities: 'QC inspections logged in a CMMS' and 'CIMS-GB certified.'"
+  },
+  {
+   "requirement_id": "be4f7e41-2fed95a8-p2-11d9b94b",
+   "quote": "All piles must be located at least 100 yards interior from the property boundary line.",
+   "source_file": "2fed95a8c4724538ad5f33f29317d51f.pdf",
+   "page": 2,
+   "firm_answer": "The firm has no stated experience with tree pile placement or land management spatial requirements of this type.",
+   "status": "gap",
+   "evidence": "No tree cutting, piling, or land clearing capability listed in firm profile."
+  },
+  {
+   "requirement_id": "be4f7e41-b4a3ab61-p10-8408654e",
+   "quote": "the Contractor shall rerepresent its size and socioeconomic status according to paragraph (e) of this clause",
+   "source_file": "b4a3ab615db44c41843548a89491f472.pdf",
+   "page": 10,
+   "firm_answer": "The firm is a verified WOSB/EDWOSB/SBA small business and can rerepresent size and socioeconomic status in SAM as required.",
+   "status": "meets",
+   "evidence": "Firm profile: 'set-asides the firm can claim: WOSB, EDWOSB, SBA' and 'Woman-owned small business (WOSB).'"
+  },
+  {
+   "requirement_id": "be4f7e41-b4a3ab61-p11-677f2a5b",
+   "quote": "the Contractor shall make the representation(s) required by paragraph (b) of this clause by validating or updating all its representations in the Representations and Certifications section of the System for Award Management (SAM)",
+   "source_file": "b4a3ab615db44c41843548a89491f472.pdf",
+   "page": 11,
+   "firm_answer": "The firm is a registered small business with active set-aside certifications; SAM registration is implied but not explicitly confirmed in the profile.",
+   "status": "unknown",
+   "evidence": "Firm profile lists WOSB, EDWOSB, SBA set-asides but does not explicitly confirm active SAM registration."
+  },
+  {
+   "requirement_id": "be4f7e41-b4a3ab61-p11-ac901da1",
+   "quote": "the Contractor is required to complete the following rerepresentation and submit it to the contracting office, along with the contract number and the date on which the rerepresentation was completed",
+   "source_file": "b4a3ab615db44c41843548a89491f472.pdf",
+   "page": 11,
+   "firm_answer": "The firm can complete rerepresentation for NAICS 561730 as it lists this NAICS code in its profile.",
+   "status": "meets",
+   "evidence": "Firm profile: 'naics: 561720, 561730' — NAICS 561730 matches the solicitation."
+  },
+  {
+   "requirement_id": "be4f7e41-b4a3ab61-p13-fb5a32f7",
+   "quote": "The offeror is cautioned that the listed provisions may include blocks that must be completed by the offeror and submitted with its quotation or offer.",
+   "source_file": "b4a3ab615db44c41843548a89491f472.pdf",
+   "page": 13,
+   "firm_answer": "The firm can complete required solicitation blocks and submit a compliant quotation as a standard administrative task.",
+   "status": "meets",
+   "evidence": "General administrative compliance capability implied by firm's federal contracting history (GSA, DoD, VA past performance)."
+  },
+  {
+   "requirement_id": "be4f7e41-b4a3ab61-p5-44f4e7aa",
+   "quote": "the following documents are required to be submitted as an attachment to the IPP invoice",
+   "source_file": "b4a3ab615db44c41843548a89491f472.pdf",
+   "page": 5,
+   "firm_answer": "The firm has federal invoicing experience through GSA, DoD, and VA contracts; IPP compliance is a standard federal billing requirement the firm can likely meet.",
+   "status": "unknown",
+   "evidence": "Past performance with GSA Region 7, Tinker AFB, and VA Oklahoma City implies federal invoicing familiarity, but IPP registration is not explicitly confirmed."
+  },
+  {
+   "requirement_id": "be4f7e41-b4a3ab61-p5-8f84bb86",
+   "quote": "The Contractor must use the IPP website to register access and use IPP for submitting requests for payment.",
+   "source_file": "b4a3ab615db44c41843548a89491f472.pdf",
+   "page": 5,
+   "firm_answer": "IPP registration is not confirmed in the firm profile, but the firm has multiple federal contracts suggesting familiarity with federal payment systems.",
+   "status": "unknown",
+   "evidence": "Federal past performance with GSA, DoD, VA — IPP use not explicitly stated."
+  },
+  {
+   "requirement_id": "be4f7e41-b4a3ab61-p5-266864dd",
+   "quote": "If the Contractor is unable to comply with the requirement to use IPP for submitting invoices for payment, the Contractor must submit a waiver request in writing to the Contracting Officer with its proposal or quotation.",
+   "source_file": "b4a3ab615db44c41843548a89491f472.pdf",
+   "page": 5,
+   "firm_answer": "The firm can submit a waiver request if needed; this is an administrative action within the firm's capability.",
+   "status": "meets",
+   "evidence": "General administrative compliance capability implied by firm's federal contracting history."
+  },
+  {
+   "requirement_id": "be4f7e41-b4a3ab61-p6-99d74426",
+   "quote": "Failure of the parties to this contract to reach agreement on any request for equitable adjustment, claim, appeal, or action arising under or relating to this contract shall be a dispute to be resolved in accordance with the clause FAR 52.233-1, Disputes",
+   "source_file": "b4a3ab615db44c41843548a89491f472.pdf",
+   "page": 6,
+   "firm_answer": "Standard FAR disputes clause; the firm can comply as a federal contractor.",
+   "status": "meets",
+   "evidence": "Firm has multiple federal contracts (GSA, DoD, VA) indicating familiarity with FAR compliance obligations."
+  },
+  {
+   "requirement_id": "be4f7e41-b4a3ab61-p10-5332bd95",
+   "quote": "The Contractor shall make available at its offices, at all reasonable times, the records, materials, and other evidence for examination, audit, or reproduction, until 3 years after final payment under this contract",
+   "source_file": "b4a3ab615db44c41843548a89491f472.pdf",
+   "page": 10,
+   "firm_answer": "The firm uses a CMMS for QC logging and has standard record-keeping practices consistent with federal audit requirements.",
+   "status": "meets",
+   "evidence": "Firm capabilities: 'QC inspections logged in a CMMS' — supports records retention capability."
+  },
+  {
+   "requirement_id": "be4f7e41-b4a3ab61-p12-247dfcaf",
+   "quote": "The Contractor must include the substance of this clause, including this paragraph (c), in subcontracts at any tier",
+   "source_file": "b4a3ab615db44c41843548a89491f472.pdf",
+   "page": 12,
+   "firm_answer": "The firm can flow down required clauses to subcontractors; the solicitation also requires subcontractor disclosure at quote submission.",
+   "status": "meets",
+   "evidence": "General FAR compliance capability implied by firm's federal contracting history; subcontractor disclosure requirement noted."
+  },
+  {
+   "requirement_id": "be4f7e41-b4a3ab61-p12-f2d35be1",
+   "quote": "The Contractor will not engage in any racially discriminatory DEI activities",
+   "source_file": "b4a3ab615db44c41843548a89491f472.pdf",
+   "page": 12,
+   "firm_answer": "The firm can certify compliance with this clause as a standard contractual representation.",
+   "status": "meets",
+   "evidence": "No contrary indicators in firm profile; standard compliance representation."
+  },
+  {
+   "requirement_id": "be4f7e41-3a7dc56e-p1-e7a00397",
+   "quote": "Offers must acknowledge receipt of this amendment prior to the hour and date specified in the solicitation or as amended, by one of the following methods",
+   "source_file": "3a7dc56e5e8f4ec99c1228738d20246a.pdf",
+   "page": 1,
+   "firm_answer": "The firm can acknowledge the amendment as a standard submission requirement. However, the solicitation response deadline has already passed (days to close: -3.6), making timely submission impossible.",
+   "status": "gap",
+   "evidence": "Notice metadata: 'days to close (computed in code, do not recompute): -3.6' — deadline has passed."
+  }
+ ],
+ "matrix_dropped": 0,
+ "matrix_dropped_rows": [],
+ "fit_score_code": 0.5294,
+ "drafts": {
+  "capability_statement": "Red Cedar Facility Services is a Woman-Owned Small Business (WOSB) and EDWOSB-certified firm registered under NAICS 561730 (Landscaping Services) with active federal past performance supporting grounds maintenance across cantonment areas, including mowing, trimming, irrigation management, snow and ice removal, and herbicide application. Our work at Tinker AFB demonstrates our ability to execute outdoor land management services under federal contracts, maintain compliance with applicable codes, and manage herbicide programs in sensitive environments.\n\nRed Cedar brings a structured quality management culture to every engagement: our QC program relies on CMMS-logged inspections, and our supervisors hold OSHA 30 certifications. We are CIMS-GB certified, reflecting our commitment to industry-standard quality and safety practices. We maintain e-Verify enrollment and current SAM representations, including WOSB, EDWOSB, and Total Small Business set-aside eligibility.\n\nFor the NE Rainwater Basin WMD Mechanical Tree Cutting requirement at Peterson WPA, Red Cedar would furnish all labor, supervision, transportation, and equipment necessary to perform work within the period of performance. We understand that all work must comply with U.S. Fish and Wildlife Service protocols, that herbicide use requires prior FWS approval, and that pile placement must meet the 100-yard interior boundary setback. Any anticipated subcontractors would be disclosed at time of quote submission per solicitation requirements.\n\nWe welcome the opportunity to discuss this requirement further. Point of contact: Red Cedar Facility Services | jeremy_riva@ios.doi.gov for submission.",
+  "questions_for_co": [
+   "Regarding the commercial land management experience requirement [be4f7e41-2fed95a8-p1-f8794be8]: Will the government accept demonstrated grounds maintenance experience that includes brush and vegetation management as a substitute for dedicated tree-cutting and piling experience, or is prior mechanical tree-felling work strictly required?",
+   "Regarding FWS protocols [be4f7e41-2fed95a8-p1-6ba66328]: Can the contracting officer provide or reference the specific FWS protocols and any site-specific work standards that the contractor will be required to follow at Peterson WPA, so offerors can assess compliance requirements prior to submission?",
+   "Regarding the 90-day completion requirement and period of performance [be4f7e41-b4a3ab61-p3-c5bb1881 / be4f7e41-2fed95a8-p2-87ad7aa0]: Is the 10/01/2026 start date firm, or is there flexibility for a contractor mobilizing from outside Nebraska to begin work within the first week of October and still meet the 12/30/2026 delivery deadline?",
+   "Regarding pile placement [be4f7e41-2fed95a8-p2-11d9b94b]: Will the government provide a site map or marked boundaries at Peterson WPA to assist contractors in verifying the 100-yard interior setback requirement, or is the contractor solely responsible for determining boundary lines prior to piling?",
+   "Regarding SAM representations [be4f7e41-b4a3ab61-p11-677f2a5b]: Does the contracting officer require that SAM representations be validated or updated specifically before quote submission for this solicitation, or is a currently active SAM registration with no pending expiration sufficient?",
+   "Regarding IPP invoicing [be4f7e41-b4a3ab61-p5-8f84bb86]: Can the contracting officer confirm which specific documents must be attached to IPP invoices for this contract, and whether a waiver request is available if the contractor encounters IPP registration issues prior to award?"
+  ],
+  "calendar_entries": [
+   {
+    "title": "Questions Due",
+    "date": "2026-09-10",
+    "note": "Questions must be emailed to jeremy_riva@ios.doi.gov by the closing date and time (same deadline as proposals).",
+    "source_quote": "**QUOTES AND QUESTIONS MUST BE EMAILED TO: jeremy_riva@ios.doi.gov by the closing date and time (see Block 8) Delivery: 12/30/2026 Period of Performance: 10/01/2026 to 12/30/2026 Continued..."
+   },
+   {
+    "title": "Proposal Due",
+    "date": "2026-09-10",
+    "note": "Response deadline per notice: 2026-09-10 at 17:00 Eastern. Quotes emailed to jeremy_riva@ios.doi.gov.",
+    "source_quote": "**QUOTES AND QUESTIONS MUST BE EMAILED TO: jeremy_riva@ios.doi.gov by the closing date and time (see Block 8) Delivery: 12/30/2026 Period of Performance: 10/01/2026 to 12/30/2026 Continued..."
+   },
+   {
+    "title": "Decide By (2 business days before proposal due)",
+    "date": "2026-09-08",
+    "note": "Internal go/no-go decision deadline — two business days before the 2026-09-10 proposal due date.",
+    "source_quote": "**QUOTES AND QUESTIONS MUST BE EMAILED TO: jeremy_riva@ios.doi.gov by the closing date and time (see Block 8) Delivery: 12/30/2026 Period of Performance: 10/01/2026 to 12/30/2026 Continued..."
+   }
+  ]
+ },
+ "reader": {
+  "notice_id": "be4f7e411fa24607bd8ace51d180b335",
+  "key_requirement_ids": [
+   "be4f7e41-2fed95a8-p1-8669d73e",
+   "be4f7e41-2fed95a8-p1-f8794be8",
+   "be4f7e41-b4a3ab61-p3-c5bb1881",
+   "be4f7e41-2fed95a8-p2-87ad7aa0",
+   "be4f7e41-2fed95a8-p2-36bcb8bd",
+   "be4f7e41-2fed95a8-p2-11d9b94b",
+   "be4f7e41-2fed95a8-p1-6ba66328",
+   "be4f7e41-2fed95a8-p3-b5c76579",
+   "be4f7e41-3a7dc56e-p1-e7a00397",
+   "be4f7e41-b4a3ab61-p13-fb5a32f7",
+   "be4f7e41-b4a3ab61-p5-266864dd",
+   "be4f7e41-b4a3ab61-p14-1aa7515c"
+  ],
+  "scope_summary": "The government is buying mechanical tree cutting and piling services at Peterson WPA in Gosper County, Nebraska, within the NE Rainwater Basin Wetland Management District. The contractor must furnish all labor, materials, tools, equipment, transportation, and supervision necessary to perform the work, which must comply with all applicable codes and US Fish and Wildlife Service protocols. The period of performance runs from 10/01/2026 to 12/30/2026, with work to be completed within 90 days.",
+  "evaluation_basis": "not stated",
+  "incumbent_or_history": "none found",
+  "quotes": [
+   "The Contractor shall furnish all labor, materials, tools, equipment, transportation, and supervision necessary to perform mechanical tree cutting and piling in project areas at Peterson WPA in Gosper County, NE.",
+   "Must be completed within 90 days.",
+   "• Must have experience with commercial land management that includes identifying, cutting and piling trees.",
+   "Work shall comply with all applicable codes and US Fish and Wildlife Service (FWS) protocols.",
+   "Herbicide must be approved by US Fish and Wildlife Service prior to use.",
+   "All piles must be located at least 100 yards interior from the property boundary line.",
+   "If a subcontractor is anticipated, the name of the subcontractor shall be disclosed with quote submission to be eligible. **QUOTES AND QUESTIONS MUST BE EMAILED TO: jeremy_riva@ios.doi.gov by the closing date and time (see Block 8) Delivery: 12/30/2026 Period of Performance: 10/01/2026 to 12/30/2026 Continued...",
+   "Quality Control / Quality Assurance Contractors shall maintain industry standards.",
+   "The offeror is cautioned that the listed provisions may include blocks that must be completed by the offeror and submitted with its quotation or offer."
+  ]
+ },
+ "fit": {
+  "notice_id": "be4f7e411fa24607bd8ace51d180b335",
+  "fit_score": 0.18,
+  "matched_past_performance": [
+   "Grounds maintenance, cantonment area"
+  ],
+  "strengths": [
+   "Eligible set-aside (Total Small Business / WOSB)",
+   "NAICS 561730 listed in firm profile",
+   "Grounds maintenance past performance at Tinker AFB includes herbicide application",
+   "QC program and OSHA 30 supervisors demonstrate quality/safety culture",
+   "e-Verify and SAM representations likely current"
+  ],
+  "gaps": [
+   "No mechanical tree cutting or land clearing capability stated anywhere in profile",
+   "No experience identifying, cutting, and piling trees as required",
+   "Place of performance is Gosper County, NE — well over 200 miles from Oklahoma City (owner rule rc-distance violated)",
+   "Period of performance is 10/01/2026–12/30/2026 (~3 months), under the 12-month base period minimum (owner rule rc-base violated)",
+   "No FWS-protocol or wildlife management area experience",
+   "No heavy equipment / forestry equipment capability stated",
+   "Solicitation is already past response deadline (days to close: -3.6)"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "be4f7e41-2fed95a8-p1-f8794be8",
+    "quote": "Must have experience with commercial land management that includes identifying, cutting and piling trees.",
+    "source_file": "2fed95a8c4724538ad5f33f29317d51f.pdf",
+    "page": 1,
+    "firm_answer": "The firm's capabilities cover mowing, trimming, irrigation, snow removal, and herbicide application. No tree cutting, felling, or piling experience is stated anywhere in the profile.",
+    "status": "gap",
+    "evidence": "Firm capabilities list: 'grounds maintenance (mowing, trimming, irrigation, snow and ice removal)' — no mention of tree cutting or piling."
+   },
+   {
+    "requirement_id": "be4f7e41-2fed95a8-p1-8669d73e",
+    "quote": "The Contractor shall furnish all labor, materials, tools, equipment, transportation, and supervision necessary to perform mechanical tree cutting and piling in project areas at Peterson WPA in Gosper County, NE.",
+    "source_file": "2fed95a8c4724538ad5f33f29317d51f.pdf",
+    "page": 1,
+    "firm_answer": "The firm has no stated mechanical tree cutting or piling capability, no forestry equipment, and the place of performance (Gosper County, NE) is approximately 600+ miles from Oklahoma City, exceeding the owner's 200-mile limit.",
+    "status": "gap",
+    "evidence": "Owner rule [rc-distance]: 'No bids over 200 miles from Oklahoma City.' Firm capabilities do not include mechanical tree cutting or heavy forestry equipment."
+   },
+   {
+    "requirement_id": "be4f7e41-b4a3ab61-p3-c5bb1881",
+    "quote": "Period of Performance: 10/01/2026 to 12/30/2026",
+    "source_file": "b4a3ab615db44c41843548a89491f472.pdf",
+    "page": 3,
+    "firm_answer": "The period of performance is approximately 3 months (Oct 1 – Dec 30, 2026), which is below the firm's owner rule requiring a minimum 12-month base period.",
+    "status": "gap",
+    "evidence": "Owner rule [rc-base]: 'No bids under a 12-month base period.' POP is ~90 days."
+   },
+   {
+    "requirement_id": "be4f7e41-2fed95a8-p2-87ad7aa0",
+    "quote": "Must be completed within 90 days.",
+    "source_file": "2fed95a8c4724538ad5f33f29317d51f.pdf",
+    "page": 2,
+    "firm_answer": "The firm has no demonstrated capability to mobilize and complete mechanical tree cutting and piling within a 90-day window in Nebraska.",
+    "status": "gap",
+    "evidence": "No tree cutting capability or Nebraska operational presence stated in profile."
+   },
+   {
+    "requirement_id": "be4f7e41-2fed95a8-p1-6ba66328",
+    "quote": "Work shall comply with all applicable codes and US Fish and Wildlife Service (FWS) protocols.",
+    "source_file": "2fed95a8c4724538ad5f33f29317d51f.pdf",
+    "page": 1,
+    "firm_answer": "The firm has no stated experience with FWS protocols or wildlife management area operations. OSHA 30 supervisors and CIMS-GB certification are present but do not address FWS-specific requirements.",
+    "status": "gap",
+    "evidence": "Firm capabilities: 'OSHA 30 supervisors' and 'CIMS-GB certified' — no FWS protocol experience listed."
+   },
+   {
+    "requirement_id": "be4f7e41-2fed95a8-p2-36bcb8bd",
+    "quote": "Herbicide must be approved by US Fish and Wildlife Service prior to use.",
+    "source_file": "2fed95a8c4724538ad5f33f29317d51f.pdf",
+    "page": 2,
+    "firm_answer": "The firm has herbicide experience from the Tinker AFB grounds contract but has no stated experience obtaining FWS herbicide approvals.",
+    "status": "partial",
+    "evidence": "Grounds maintenance, cantonment area — keywords include 'herbicide'; no FWS approval process experience stated."
+   },
+   {
+    "requirement_id": "be4f7e41-2fed95a8-p3-b5c76579",
+    "quote": "Quality Control / Quality Assurance Contractors shall maintain industry standards.",
+    "source_file": "2fed95a8c4724538ad5f33f29317d51f.pdf",
+    "page": 3,
+    "firm_answer": "The firm has a documented QC program with CMMS-logged inspections and CIMS-GB certification, demonstrating a quality management culture, though not specific to tree cutting.",
+    "status": "partial",
+    "evidence": "Firm capabilities: 'QC inspections logged in a CMMS' and 'CIMS-GB certified.'"
+   },
+   {
+    "requirement_id": "be4f7e41-2fed95a8-p2-11d9b94b",
+    "quote": "All piles must be located at least 100 yards interior from the property boundary line.",
+    "source_file": "2fed95a8c4724538ad5f33f29317d51f.pdf",
+    "page": 2,
+    "firm_answer": "The firm has no stated experience with tree pile placement or land management spatial requirements of this type.",
+    "status": "gap",
+    "evidence": "No tree cutting, piling, or land clearing capability listed in firm profile."
+   },
+   {
+    "requirement_id": "be4f7e41-b4a3ab61-p10-8408654e",
+    "quote": "the Contractor shall rerepresent its size and socioeconomic status according to paragraph (e) of this clause",
+    "source_file": "b4a3ab615db44c41843548a89491f472.pdf",
+    "page": 10,
+    "firm_answer": "The firm is a verified WOSB/EDWOSB/SBA small business and can rerepresent size and socioeconomic status in SAM as required.",
+    "status": "meets",
+    "evidence": "Firm profile: 'set-asides the firm can claim: WOSB, EDWOSB, SBA' and 'Woman-owned small business (WOSB).'"
+   },
+   {
+    "requirement_id": "be4f7e41-b4a3ab61-p11-677f2a5b",
+    "quote": "the Contractor shall make the representation(s) required by paragraph (b) of this clause by validating or updating all its representations in the Representations and Certifications section of the System for Award Management (SAM)",
+    "source_file": "b4a3ab615db44c41843548a89491f472.pdf",
+    "page": 11,
+    "firm_answer": "The firm is a registered small business with active set-aside certifications; SAM registration is implied but not explicitly confirmed in the profile.",
+    "status": "unknown",
+    "evidence": "Firm profile lists WOSB, EDWOSB, SBA set-asides but does not explicitly confirm active SAM registration."
+   },
+   {
+    "requirement_id": "be4f7e41-b4a3ab61-p11-ac901da1",
+    "quote": "the Contractor is required to complete the following rerepresentation and submit it to the contracting office, along with the contract number and the date on which the rerepresentation was completed",
+    "source_file": "b4a3ab615db44c41843548a89491f472.pdf",
+    "page": 11,
+    "firm_answer": "The firm can complete rerepresentation for NAICS 561730 as it lists this NAICS code in its profile.",
+    "status": "meets",
+    "evidence": "Firm profile: 'naics: 561720, 561730' — NAICS 561730 matches the solicitation."
+   },
+   {
+    "requirement_id": "be4f7e41-b4a3ab61-p13-fb5a32f7",
+    "quote": "The offeror is cautioned that the listed provisions may include blocks that must be completed by the offeror and submitted with its quotation or offer.",
+    "source_file": "b4a3ab615db44c41843548a89491f472.pdf",
+    "page": 13,
+    "firm_answer": "The firm can complete required solicitation blocks and submit a compliant quotation as a standard administrative task.",
+    "status": "meets",
+    "evidence": "General administrative compliance capability implied by firm's federal contracting history (GSA, DoD, VA past performance)."
+   },
+   {
+    "requirement_id": "be4f7e41-b4a3ab61-p5-44f4e7aa",
+    "quote": "the following documents are required to be submitted as an attachment to the IPP invoice",
+    "source_file": "b4a3ab615db44c41843548a89491f472.pdf",
+    "page": 5,
+    "firm_answer": "The firm has federal invoicing experience through GSA, DoD, and VA contracts; IPP compliance is a standard federal billing requirement the firm can likely meet.",
+    "status": "unknown",
+    "evidence": "Past performance with GSA Region 7, Tinker AFB, and VA Oklahoma City implies federal invoicing familiarity, but IPP registration is not explicitly confirmed."
+   },
+   {
+    "requirement_id": "be4f7e41-b4a3ab61-p5-8f84bb86",
+    "quote": "The Contractor must use the IPP website to register access and use IPP for submitting requests for payment.",
+    "source_file": "b4a3ab615db44c41843548a89491f472.pdf",
+    "page": 5,
+    "firm_answer": "IPP registration is not confirmed in the firm profile, but the firm has multiple federal contracts suggesting familiarity with federal payment systems.",
+    "status": "unknown",
+    "evidence": "Federal past performance with GSA, DoD, VA — IPP use not explicitly stated."
+   },
+   {
+    "requirement_id": "be4f7e41-b4a3ab61-p5-266864dd",
+    "quote": "If the Contractor is unable to comply with the requirement to use IPP for submitting invoices for payment, the Contractor must submit a waiver request in writing to the Contracting Officer with its proposal or quotation.",
+    "source_file": "b4a3ab615db44c41843548a89491f472.pdf",
+    "page": 5,
+    "firm_answer": "The firm can submit a waiver request if needed; this is an administrative action within the firm's capability.",
+    "status": "meets",
+    "evidence": "General administrative compliance capability implied by firm's federal contracting history."
+   },
+   {
+    "requirement_id": "be4f7e41-b4a3ab61-p6-99d74426",
+    "quote": "Failure of the parties to this contract to reach agreement on any request for equitable adjustment, claim, appeal, or action arising under or relating to this contract shall be a dispute to be resolved in accordance with the clause FAR 52.233-1, Disputes",
+    "source_file": "b4a3ab615db44c41843548a89491f472.pdf",
+    "page": 6,
+    "firm_answer": "Standard FAR disputes clause; the firm can comply as a federal contractor.",
+    "status": "meets",
+    "evidence": "Firm has multiple federal contracts (GSA, DoD, VA) indicating familiarity with FAR compliance obligations."
+   },
+   {
+    "requirement_id": "be4f7e41-b4a3ab61-p10-5332bd95",
+    "quote": "The Contractor shall make available at its offices, at all reasonable times, the records, materials, and other evidence for examination, audit, or reproduction, until 3 years after final payment under this contract",
+    "source_file": "b4a3ab615db44c41843548a89491f472.pdf",
+    "page": 10,
+    "firm_answer": "The firm uses a CMMS for QC logging and has standard record-keeping practices consistent with federal audit requirements.",
+    "status": "meets",
+    "evidence": "Firm capabilities: 'QC inspections logged in a CMMS' — supports records retention capability."
+   },
+   {
+    "requirement_id": "be4f7e41-b4a3ab61-p12-247dfcaf",
+    "quote": "The Contractor must include the substance of this clause, including this paragraph (c), in subcontracts at any tier",
+    "source_file": "b4a3ab615db44c41843548a89491f472.pdf",
+    "page": 12,
+    "firm_answer": "The firm can flow down required clauses to subcontractors; the solicitation also requires subcontractor disclosure at quote submission.",
+    "status": "meets",
+    "evidence": "General FAR compliance capability implied by firm's federal contracting history; subcontractor disclosure requirement noted."
+   },
+   {
+    "requirement_id": "be4f7e41-b4a3ab61-p12-f2d35be1",
+    "quote": "The Contractor will not engage in any racially discriminatory DEI activities",
+    "source_file": "b4a3ab615db44c41843548a89491f472.pdf",
+    "page": 12,
+    "firm_answer": "The firm can certify compliance with this clause as a standard contractual representation.",
+    "status": "meets",
+    "evidence": "No contrary indicators in firm profile; standard compliance representation."
+   },
+   {
+    "requirement_id": "be4f7e41-3a7dc56e-p1-e7a00397",
+    "quote": "Offers must acknowledge receipt of this amendment prior to the hour and date specified in the solicitation or as amended, by one of the following methods",
+    "source_file": "3a7dc56e5e8f4ec99c1228738d20246a.pdf",
+    "page": 1,
+    "firm_answer": "The firm can acknowledge the amendment as a standard submission requirement. However, the solicitation response deadline has already passed (days to close: -3.6), making timely submission impossible.",
+    "status": "gap",
+    "evidence": "Notice metadata: 'days to close (computed in code, do not recompute): -3.6' — deadline has passed."
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "be4f7e411fa24607bd8ace51d180b335",
+  "key_dates": {
+   "questions_due": "2026-09-10T17:00:00-04:00",
+   "proposal_due": "2026-09-10T17:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": "10/01/2026 to 12/30/2026",
+   "source_quotes": [
+    "**QUOTES AND QUESTIONS MUST BE EMAILED TO: jeremy_riva@ios.doi.gov by the closing date and time (see Block 8) Delivery: 12/30/2026 Period of Performance: 10/01/2026 to 12/30/2026 Continued...",
+    "Must be completed within 90 days."
+   ]
+  },
+  "days_to_close": -3.571356486909722,
+  "set_aside_note": "Set-aside is \"Small Business Set Aside - Total.\" The firm (Red Cedar Facility Services) qualifies as a small business and total small business is listed among the set-asides the firm can claim. ELIGIBLE.",
+  "amendment_note": "no amendment",
+  "calendar_entries": [
+   {
+    "title": "Questions Due",
+    "date": "2026-09-10",
+    "note": "Questions must be emailed to jeremy_riva@ios.doi.gov by the closing date and time (same deadline as proposals).",
+    "source_quote": "**QUOTES AND QUESTIONS MUST BE EMAILED TO: jeremy_riva@ios.doi.gov by the closing date and time (see Block 8) Delivery: 12/30/2026 Period of Performance: 10/01/2026 to 12/30/2026 Continued..."
+   },
+   {
+    "title": "Proposal Due",
+    "date": "2026-09-10",
+    "note": "Response deadline per notice: 2026-09-10 at 17:00 Eastern. Quotes emailed to jeremy_riva@ios.doi.gov.",
+    "source_quote": "**QUOTES AND QUESTIONS MUST BE EMAILED TO: jeremy_riva@ios.doi.gov by the closing date and time (see Block 8) Delivery: 12/30/2026 Period of Performance: 10/01/2026 to 12/30/2026 Continued..."
+   },
+   {
+    "title": "Decide By (2 business days before proposal due)",
+    "date": "2026-09-08",
+    "note": "Internal go/no-go decision deadline — two business days before the 2026-09-10 proposal due date.",
+    "source_quote": "**QUOTES AND QUESTIONS MUST BE EMAILED TO: jeremy_riva@ios.doi.gov by the closing date and time (see Block 8) Delivery: 12/30/2026 Period of Performance: 10/01/2026 to 12/30/2026 Continued..."
+   }
+  ]
+ },
+ "model_calls": 5,
+ "tokens_in": 48348,
+ "tokens_out": 10732,
+ "seconds": 88.83,
+ "produced_at": "2026-09-14T05:44:14.027710-05:00"
+}

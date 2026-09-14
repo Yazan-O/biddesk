@@ -1,0 +1,14 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+_runs/
+data/raw/
+.agentcore/
+node_modules/
+.pytest_cache/
+*.egg-info/
+.playwright/
+deploy/*.zip
+.DS_Store
+data/attachments/

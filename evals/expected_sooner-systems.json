@@ -1,0 +1,2316 @@
+{
+ "firm": "sooner-systems",
+ "as_of": "2026-09-13T21:55:24-05:00",
+ "built_at": "2026-09-14T07:17:17.988668-05:00",
+ "derived_from": {
+  "bench": "data/bench/tiering_sooner-systems.json",
+  "gallery": "gallery/index.json"
+ },
+ "how_to_read": "filed_by_rule is the first owner rule that fires (tier 0 is first-kill-wins); should_surface is the set of notices that produced a gallery card. Tier 0 is re-run at as_of so the deadline rule decides the same way it did at bench time.",
+ "hand_checked": [
+  {
+   "notice_id": "00553ac547dd43568c73af3e15284c6b",
+   "checked": "ss-types: type 'Award Notice' is not a real solicitation"
+  },
+  {
+   "notice_id": "00f4df4e491e44328147405a9df1e276",
+   "checked": "ss-types: type 'Special Notice' is not a real solicitation"
+  },
+  {
+   "notice_id": "011fa3084d9c49e2913c41ec90961485",
+   "checked": "ss-types: type 'Special Notice' is not a real solicitation"
+  },
+  {
+   "notice_id": "206cebfc50484d1c98d7b071d1cb4004",
+   "checked": "ss-setaside: typeOfSetAside BICiv (Buy Indian) is not in SDVOSBC/SBA/unrestricted"
+  },
+  {
+   "notice_id": "6bd7483f306743ab94abc771cba503a5",
+   "checked": "ss-setaside: typeOfSetAside 8AN (8(a) sole source) is not one this firm can claim"
+  },
+  {
+   "notice_id": "6d83796d64264c13ad2043df6b2be5a9",
+   "checked": "ss-setaside: typeOfSetAside ISBEE is not one this firm can claim"
+  },
+  {
+   "notice_id": "09e9e201d4bd4a029627f117ee796967",
+   "checked": "ss-pp: 5827 chars of prose, 0 hits across all 32 past-performance keywords"
+  },
+  {
+   "notice_id": "459718bed3c94576a8590239b99c4f1e",
+   "checked": "ss-pp: 3547 chars ('Social Media Monitoring'), 0 keyword hits"
+  },
+  {
+   "notice_id": "7915ed25a6824922bb5023afd9e858ac",
+   "checked": "ss-pp: 4136 chars ('Enterprise Service Management'), 0 keyword hits"
+  },
+  {
+   "notice_id": "ab8ecb8feef747f89fe14c9c9465d21e",
+   "checked": "ss-pp: 2758 chars ('Content Authorizing Tools'), 0 keyword hits"
+  }
+ ],
+ "filed_by_rule": [
+  {
+   "notice_id": "6d83796d64264c13ad2043df6b2be5a9",
+   "rule_id": "ss-setaside",
+   "title": "GIMC - InformaCast Advanced Notification Maintenance Support Services",
+   "type": "Solicitation",
+   "set_aside_code": "ISBEE",
+   "pop": "Gallup, NM, 87301",
+   "response_deadline": "2026-09-15T17:00:00-06:00",
+   "why": "set-aside Indian Small Business Economic Enterprise is one the firm cannot claim"
+  },
+  {
+   "notice_id": "00f4df4e491e44328147405a9df1e276",
+   "rule_id": "ss-types",
+   "title": "Notice of Intent to Sole Source – HHS Modernization Discovery, Prototyping, and Implementation Planning",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "Washington, DC, 20201",
+   "response_deadline": "2026-09-15T16:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "ea14cd740eb24aaebc3dbb5ae2e7249c",
+   "rule_id": "ss-types",
+   "title": "Audio/Visual Equipment and Installation",
+   "type": "Award Notice",
+   "set_aside_code": "SBA",
+   "pop": "Jackson, MS, 39216",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "c87ec7632e0d44b6a737bd78e31e7a70",
+   "rule_id": "ss-types",
+   "title": "D--WebKnossos Enterprise Software License and Technical Support",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "a9c21be901df4a5f9337928c643f5a1d",
+   "rule_id": "ss-types",
+   "title": "AWARD NOTICE - Oracle EPM Operational Automation  & Data Integration: Account Reconciliation –  Implementation & Configuration",
+   "type": "Award Notice",
+   "set_aside_code": "NONE",
+   "pop": "Washington, DC, 20233",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "9f1310d8066c46aabf3d5eef59965396",
+   "rule_id": "ss-types",
+   "title": "Philips Products and Services for Southern Arizona Veterans Affairs Healthcare System",
+   "type": "Award Notice",
+   "set_aside_code": "SDVOSBC",
+   "pop": "Tucson, AZ, 85723",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "78f639818fe04055b97f4dcb18c97721",
+   "rule_id": "ss-types",
+   "title": "D--TSC - DELL SERVERS R640 R650 SUPPORT",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "7889ab3d2ad144ca9bc5e8ac7a2e4d12",
+   "rule_id": "ss-types",
+   "title": "DVS Clipster GEN6 Workstation Maintenance",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "Culpeper, VA, 22701",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "70426ba39af74a0288d6d3a55151ffae",
+   "rule_id": "ss-types",
+   "title": "ITW/AA IV",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "0, NE, 68113",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "452c00b8b6ba475e8d84f4ca0787a33a",
+   "rule_id": "ss-types",
+   "title": "Notice of Intent - Sole Source - AyData (DICONDE software)",
+   "type": "Special Notice",
+   "set_aside_code": "NONE",
+   "pop": "Bethesda, MD, 20817",
+   "response_deadline": "2026-09-18T12:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "2daa4224ef5a4ff0b7ba204a6bc887d5",
+   "rule_id": "ss-types",
+   "title": "63--GRAND COULEE AVIAT UPGRADE",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "2c2e78c8c6a2471aaaed1af66c5444f6",
+   "rule_id": "ss-types",
+   "title": "Sole Source: IT Support for NOAA Employees and Contractors at the Joint Hydrographic Center",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "Durham, NH, 03824",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "0e38de64773a40d89b666cb9e410f777",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-09-11T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "fe5e2f898c574e44941f4eecb8394193",
+   "rule_id": "ss-types",
+   "title": "7A--PUPPET ANNUAL SUBSCRIPTION",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "c97e446d2bf54b829d5f8f518b78f8ee",
+   "rule_id": "ss-setaside",
+   "title": "D--Red Hat Licenses for Bureau of Indian Affairs OIT",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "ISBEE",
+   "pop": "",
+   "response_deadline": "2026-09-14T17:00:00-04:00",
+   "why": "set-aside Indian Small Business Economic Enterprise is one the firm cannot claim"
+  },
+  {
+   "notice_id": "adccc156b26a42b1bf09d03278708c92",
+   "rule_id": "ss-types",
+   "title": "R--LINARO FORGE MAINTENANCE",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "ab8953dc26b545378db655f5d0d4304a",
+   "rule_id": "ss-types",
+   "title": "NOTICE OF INTENT TO SOLE SOURCE:Law Manager Software License, Maintenance, and Technical Support Services",
+   "type": "Special Notice",
+   "set_aside_code": "NONE",
+   "pop": "Washington, DC, 20593",
+   "response_deadline": "2026-09-14T15:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "a77f580fb2494984b9bb90386f6d147a",
+   "rule_id": "ss-types",
+   "title": "Medical Records Coding Software for the Cass Lake Service Unit",
+   "type": "Special Notice",
+   "set_aside_code": "8AN",
+   "pop": "Cass Lake, MN, 56633",
+   "response_deadline": "2026-09-19T14:00:00-05:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "9d61f466236849e3a45e801bd17ed677",
+   "rule_id": "ss-types",
+   "title": "GovSmart Voicebrook Services",
+   "type": "Special Notice",
+   "set_aside_code": "NONE",
+   "pop": "San Antonio, TX, 78229",
+   "response_deadline": "2026-09-17T13:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "869c882c604b4986a17b0e2f502108fe",
+   "rule_id": "ss-types",
+   "title": "Post Industry Day Notice HITS-UIII",
+   "type": "Special Notice",
+   "set_aside_code": "NONE",
+   "pop": "MS, 39180",
+   "response_deadline": "2026-09-15T17:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "7fda211e08f74702a4842176ac0a1f7e",
+   "rule_id": "ss-types",
+   "title": "D--WEKA SERVER MAINTENANCE",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "7aac6514abb54e0197da560fdc8c5f43",
+   "rule_id": "ss-types",
+   "title": "7B--Commission of Fine Arts Laptop Purchase",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "751163d455e24e57a13a8d22657eda47",
+   "rule_id": "ss-types",
+   "title": "Nutanix Software and Hardware Replacement",
+   "type": "Award Notice",
+   "set_aside_code": "SDVOSBC",
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "6ca813a2a4894275af0e7c709c96ea4f",
+   "rule_id": "ss-types",
+   "title": "7A--This is to award Cayosoft Guardian for HHS OIG.",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "699b0452578a48b082035b99353b2204",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-09-10T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "67685748468143ef99b123c13ffec0a2",
+   "rule_id": "ss-types",
+   "title": "Health Systems Technology Integrator RFI",
+   "type": "Special Notice",
+   "set_aside_code": "NONE",
+   "pop": "Fredericksburg, IN",
+   "response_deadline": "2026-10-02T12:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "64858977916047a2b5561b9b23878c75",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-09-10T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "5fd371287a514a14b588e7745fdd647e",
+   "rule_id": "ss-types",
+   "title": "Firewall Security Management Tool Tufin Support",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "Kearneysville, WV, 25430",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "538f6fbd8b7c4b8aa920d6d67f121445",
+   "rule_id": "ss-types",
+   "title": "5820--VA-26-00048856 -Police Radio Upgrade - New Task Order",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "3fc6e637e2674250b9338400a181060e",
+   "rule_id": "ss-types",
+   "title": "Glucometers and Abbott i-STAT Analyzers RALS Data Management System",
+   "type": "Special Notice",
+   "set_aside_code": "NONE",
+   "pop": "Sigonella, IT-CT, 95100",
+   "response_deadline": "2026-09-20T17:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "35ee7c90a1ad4804aa32ab9606247e78",
+   "rule_id": "ss-types",
+   "title": "7G--RAIDS CISCO SWITCHES",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "2d3024da723044fa841ce47c1cee9073",
+   "rule_id": "ss-types",
+   "title": "COMBINED PRE-SOLICITATION SYNOPSIS AND NOTICE OF INTENT TO AWARD  A SOLE-SOURCE CONTRACT: 5-year IDIQ/Enterprise Contract for Everfox Software Licenses, Maintenance and Support Services",
+   "type": "Special Notice",
+   "set_aside_code": "NONE",
+   "pop": "Aberdeen Proving Ground, MD, 21005",
+   "response_deadline": "2026-09-21T12:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "199fe6b274c44d85840677c091578c5c",
+   "rule_id": "ss-types",
+   "title": "Notice of Intent to Sole Source - COX",
+   "type": "Special Notice",
+   "set_aside_code": "NONE",
+   "pop": "Camp Pendleton, CA",
+   "response_deadline": "2026-09-11T11:59:00-07:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "16870cafbe73440f9d5f3dc08eb3ab8b",
+   "rule_id": "ss-types",
+   "title": "GenLogs Licenses",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "Springfield, VA, 22152",
+   "response_deadline": "2026-09-23T10:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "1375cdd9d5a74ef783590ff3f17eb8c3",
+   "rule_id": "ss-types",
+   "title": "J&A to Bridge MOD_FA8307-23-F-B173",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "San Antonio, TX",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "00553ac547dd43568c73af3e15284c6b",
+   "rule_id": "ss-types",
+   "title": "D--Atlassian Jira and Confluence Data Center Licenses",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "e289267da17a4ce9bde458b7bb8a8c56",
+   "rule_id": "ss-types",
+   "title": "Pre-Solicitation Notice with Intent to Sole Source R&D Technology Support Services for Update to Web-Based Decision Aid",
+   "type": "Special Notice",
+   "set_aside_code": "NONE",
+   "pop": "Los Angeles, CA, 90073",
+   "response_deadline": "2026-09-18T11:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "e0bf3b3d219e4b82bf7dc93173b7aa9d",
+   "rule_id": "ss-types",
+   "title": "COTTON MANAGEMENT SYSTEMS APPLICATION DEVELOPMENT SUPPORT SERVICES",
+   "type": "Award Notice",
+   "set_aside_code": "WOSB",
+   "pop": "Chantilly, VA, 20151",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "e065e2ecb92d455e9ed34564806a7473",
+   "rule_id": "ss-types",
+   "title": "Casepoint eDiscovery System and Services",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "Washington, DC, 20036",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "d82ebd0bce904b00b0f3ab9b4d141f9d",
+   "rule_id": "ss-types",
+   "title": "Pre-Solicitation Notice with Intent to Sole Source R&D Technology Support Services - Care Coordination and Passive Mobile Data Monitoring",
+   "type": "Special Notice",
+   "set_aside_code": "NONE",
+   "pop": "Berkeley, CA, 94702",
+   "response_deadline": "2026-09-18T11:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "d2c67ab0b616457aa4389b491e5d79bd",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-09-09T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "cfc67ad7ba6d4705aa4a7f2703b7d6bb",
+   "rule_id": "ss-types",
+   "title": "CFID with SkySafe",
+   "type": "Award Notice",
+   "set_aside_code": "SBA",
+   "pop": "Quantico, VA, 22134",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "c3fd40e3cd1a43d39316f56ba40d4e24",
+   "rule_id": "ss-types",
+   "title": "Ansys Subscription Renewal",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "9d83f901fc164150a2014e04261378cd",
+   "rule_id": "ss-types",
+   "title": "7E--Dell Laptops and docks",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "8f2bbd87dd5b44c6a087b4beb17c24a4",
+   "rule_id": "ss-types",
+   "title": "Award Notice for Atlassian Renewals",
+   "type": "Award Notice",
+   "set_aside_code": "SBA",
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "7184de90f78842aeaf5a183388e91fe7",
+   "rule_id": "ss-types",
+   "title": "AvaSure Patient Viewing System",
+   "type": "Award Notice",
+   "set_aside_code": "NONE",
+   "pop": "East Orange, NJ, 07018",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "6fe76a63551846ababfe83a5aece7abc",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-09-09T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "67a1829881764930adedf9461a28c479",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-09-09T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "5edfe2994b5b43208656761a01ccf498",
+   "rule_id": "ss-types",
+   "title": "Sole Source Justification IHS-JVN Teleophthalmology Program Support Contract",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "4a0eaca1bf3e4b5f93ce83c13856423d",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-09-09T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "2badd9a87fc54cf0ba4b37830ed8f2f7",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-09-09T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "29ee900129e84ba0bdf41c9001a72064",
+   "rule_id": "ss-types",
+   "title": "7A--FILE360 SOFTWARE & MICROGRAPHIC HARDWARE",
+   "type": "Special Notice",
+   "set_aside_code": "SBA",
+   "pop": "",
+   "response_deadline": "2026-09-14T09:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "23fe82aad7e04017a0d377f755f199b5",
+   "rule_id": "ss-types",
+   "title": "Award Notice to M2 Technology, Inc. for HPE Brand Equipment",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "Panama City Beach, FL, 32407",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "2189b802a8a14c8a815cfdd2f27c7add",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-09-09T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "206cebfc50484d1c98d7b071d1cb4004",
+   "rule_id": "ss-setaside",
+   "title": "Cisco SmartNet Services",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "BICiv",
+   "pop": "Sacramento, CA, 95814",
+   "response_deadline": "2026-09-14T15:00:00-04:00",
+   "why": "set-aside Buy Indian Set-Aside (specific to Department of Health and Human Services, Indian Health Services) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "0f27cb619ca94a889a56af8dac57c641",
+   "rule_id": "ss-types",
+   "title": "Notice of Intent to Award a Sole Source Contract: Stancil Voice Logger",
+   "type": "Special Notice",
+   "set_aside_code": "SBA",
+   "pop": "Joint Base Lewis McChord, WA, 98431",
+   "response_deadline": null,
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "09e9e201d4bd4a029627f117ee796967",
+   "rule_id": "ss-pp",
+   "title": "Consolidated Product-Line Management, Sustainment, and Modernization (CPMSM)",
+   "type": "Sources Sought",
+   "set_aside_code": null,
+   "pop": "FL, 32826",
+   "response_deadline": "2026-09-24T17:00:00-04:00",
+   "why": "no overlap with any past-performance record (owner requires 2 matches)"
+  },
+  {
+   "notice_id": "01e22befd37b471ab6e7ae2db488e679",
+   "rule_id": "ss-types",
+   "title": "Autodesk Architecture Engineering & Construction Collection",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-09-16T10:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "01357f29b6634dbab27ab6ec7444e778",
+   "rule_id": "ss-types",
+   "title": "J62A/DAI USSGL/ATM, A2R and Agile Support Services",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "Sterling, VA, 20166",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "f41f95a7afcf48b1a4e5f1cdfcc007e9",
+   "rule_id": "ss-types",
+   "title": "ITPS BPA Call Order 26, Duplicate and Identity Resolution Processing Justification for 3-Month Extension",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "Seaside, CA, 93955",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "cea3592d0d1b4ac988e3b9229d3d6804",
+   "rule_id": "ss-types",
+   "title": "7A--Software: Toad for Oracle",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "ccbf8a318cbc473ca2f48e213e7ba8e3",
+   "rule_id": "ss-types",
+   "title": "Alaris System Maintenance Software for Alaris Support Program (Alaris Infusion System), South Central VA Health Care Network (VISN 16), 715 S. Pear Orchard Road, Plaza 1, Ridgeland, MS 39157",
+   "type": "Award Notice",
+   "set_aside_code": "NONE",
+   "pop": "Ridgeland, MS, 39157",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "cc40c5a3f3ff4f42af9d8b7cdc0013d0",
+   "rule_id": "ss-types",
+   "title": "NATO Business Opportunity: Contractor Support for Quantum Zero Beacon Project (QZBP)",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-09-22T17:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "c9ee30451d9b4b348ece0a77c9b3e5cc",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-09-08T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "9bae206f1e184e63adef4afaea749423",
+   "rule_id": "ss-types",
+   "title": "CHANGE MOD PIV SUPPORT (VA-26-00078164)",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "Reston, VA, 20191",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "8a2ddebdcf5c433cb69c8942ca0012e7",
+   "rule_id": "ss-types",
+   "title": "DA10--DB Protect Software and Maintenance Bridge  (VA-26-00089068)(New Work)",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "8228b6292faa47a1aea591e30793056e",
+   "rule_id": "ss-types",
+   "title": "Mental Health Mobile Apps Design, Development, and Research Support",
+   "type": "Award Notice",
+   "set_aside_code": "8AN",
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "60cedbd2de5944a395935ed0e9f9aee3",
+   "rule_id": "ss-types",
+   "title": "PRATUS Platform Training and Implementation",
+   "type": "Award Notice",
+   "set_aside_code": "WOSBSS",
+   "pop": "Washington, DC, 20250",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "27f011b678354faeb9c7d434624f4336",
+   "rule_id": "ss-types",
+   "title": "DA01- NBEKRSS (VA-26-00031146) Professional Service - Network Based Encryption Key Recovery Storage Solution",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "cf86f7253efa42bfa093ce5d0642c20f",
+   "rule_id": "ss-types",
+   "title": "SAMHSA IT Security Support",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "Rockville, MD",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "8508708c150c43e4abf714b0a7a37f70",
+   "rule_id": "ss-types",
+   "title": "IHHC - Implementation of a network wireless system",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "Tonalea, AZ, 86044",
+   "response_deadline": "2026-09-14T08:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "547c9ef685e74ef1858047f9bf3e2646",
+   "rule_id": "ss-types",
+   "title": "Limited Source Justification",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "Weaverville, NC",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "e8f44afad3764b9eb2463acc13efb1f7",
+   "rule_id": "ss-pp",
+   "title": "Notice of Intent to Sole Source e-Cig Intelligence Database Subscription",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": null,
+   "pop": "Silver Spring, MD, 20903",
+   "response_deadline": "2026-09-11T14:00:00-04:00",
+   "why": "no overlap with any past-performance record (owner requires 2 matches)"
+  },
+  {
+   "notice_id": "c823bb44c5854d0dbb863dff6c41f6e3",
+   "rule_id": "ss-types",
+   "title": "DA01--Image Guided Procedure Tool",
+   "type": "Award Notice",
+   "set_aside_code": "SDVOSBC",
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "7510217de326466c9f974d22a6e5682f",
+   "rule_id": "ss-setaside",
+   "title": "Hologic Mammography SecureXchange Solution",
+   "type": "Solicitation",
+   "set_aside_code": "ISBEE",
+   "pop": "Gallup, NM, 87301",
+   "response_deadline": "2026-09-11T15:30:00-06:00",
+   "why": "set-aside Indian Small Business Economic Enterprise is one the firm cannot claim"
+  },
+  {
+   "notice_id": "67678298a23e475a896b949d99c43d84",
+   "rule_id": "ss-types",
+   "title": "Broadband Serviceable Location Fabric",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "Washington, DC, 20554",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "4d0f3a48591646ed84071fc199d51fa2",
+   "rule_id": "ss-types",
+   "title": "CADE Technical Support Services",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "DC, 20301",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "3bc9acb912174293aeb1a115a48ce6cd",
+   "rule_id": "ss-types",
+   "title": "J049--Centrak RTLS Equipment Replacement  See attached/within for details.",
+   "type": "Special Notice",
+   "set_aside_code": "SBA",
+   "pop": "Houston, TX, 77030",
+   "response_deadline": "2026-09-10T16:09:00-05:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "1687025271cf4a3fb75545b2d7adfd0a",
+   "rule_id": "ss-types",
+   "title": "JPES Continuation",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "Fort George G Meade, MD, 20755",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "f472a7c6d23c47b68fe6ed64802f220c",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-09-03T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "d4bc8071fd1743bc916e96e3b4fcdf8b",
+   "rule_id": "ss-types",
+   "title": "VAOIG IDEA/CASEWARE Renewal",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "DC, 20420",
+   "response_deadline": "2026-09-08T13:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "621e14e4f43d488ea2be32c42ba0cf2b",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-09-03T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "4bab654a745944b0b87a835623054e6d",
+   "rule_id": "ss-types",
+   "title": "Notice of Intent to Award Sole Source - SCADA Upgrade",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "JBER, AK, 99506",
+   "response_deadline": "2026-09-15T16:00:00-08:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "46e0e9aec3194725a982b1f95457ad12",
+   "rule_id": "ss-types",
+   "title": "7A--EO 14398 Entrust & Sectigo Credential and Certificate Management",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "459718bed3c94576a8590239b99c4f1e",
+   "rule_id": "ss-pp",
+   "title": "Sources Sought: Social Media Monitoring",
+   "type": "Sources Sought",
+   "set_aside_code": null,
+   "pop": "MD, 20850",
+   "response_deadline": "2026-09-09T11:00:00-04:00",
+   "why": "no overlap with any past-performance record (owner requires 2 matches)"
+  },
+  {
+   "notice_id": "26612559c9ec46e1b1b9741c460711de",
+   "rule_id": "ss-types",
+   "title": "Intent to Sole Source - Fire Alarm Reporting System (FARS) & PMI",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "Tucson, AZ, 85707",
+   "response_deadline": "2026-09-18T12:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "1178e25c7fc74018bdc188f9c6b68567",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-09-03T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "0d379197a06e451992d4790ee57df4e3",
+   "rule_id": "ss-types",
+   "title": "Notice of Intent for NIH/NCATS (RDCRN) Pantheon Licenses and Support Renewal",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "Bethesda, MD, 20817",
+   "response_deadline": "2026-09-08T10:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "011fa3084d9c49e2913c41ec90961485",
+   "rule_id": "ss-types",
+   "title": "Reality Defender Platform",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "VA",
+   "response_deadline": "2026-09-10T12:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "d8f088d917614a87854c48879bab6c09",
+   "rule_id": "ss-types",
+   "title": "Instrument Manager OEM  Laboratory Middleware Software Solution",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "WA, 98433",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "d121c70672674d44b8a9b29eaf3bdc5e",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-09-02T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "bec5a3e55c204ef994204a9880c60101",
+   "rule_id": "ss-types",
+   "title": "Biometric Identification Software Development Kit (SDK) License(s)",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "Oklahoma City, OK, 73159",
+   "response_deadline": "2026-09-17T11:00:00-05:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "872f85a4f0894a6ea043a743ec63073c",
+   "rule_id": "ss-types",
+   "title": "Intent to Sole Source for Statstrip Annual License Services",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "JBER, AK, 99506",
+   "response_deadline": "2026-09-09T10:00:00-07:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "5f378c9b3c4941d7a66ea2b69800d787",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-09-02T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "524ae93c318b4450a5c989fb9710b303",
+   "rule_id": "ss-types",
+   "title": "THIS IS A NOTICE OF INTENT TO AWARD A SOLE SOURCE CONTRACT AND IS NOT A REQUEST FOR COMPETITIVE QUOTES. ANNUAL MAINTENANCE AND SUPPORT OF THE WLM AND WLB SIMULATOR SYSTEM, PORTSMOUTH, VA.",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "Portsmouth, VA, 23703",
+   "response_deadline": "2026-09-10T11:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "352884798430429b8382936c1c3f2245",
+   "rule_id": "ss-types",
+   "title": "DA10--FleetCommander - Fleet Management and Control System",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "33bbb15bbef54bb3aebeddcbeb3384ee",
+   "rule_id": "ss-types",
+   "title": "Program Manager, Intelligence and Cyberspace Operations Maritime Targeting Cell Shelter Systems",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "Quantico, VA",
+   "response_deadline": "2026-09-17T12:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "2c0998075c674e1483a538760ed97454",
+   "rule_id": "ss-types",
+   "title": "RFID CABINETS",
+   "type": "Award Notice",
+   "set_aside_code": "SDVOSBC",
+   "pop": "TX, 75216",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "19618f22cb934393a1c3346de263c6bb",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-09-02T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "0ab302e1d0094b479ee86332e2175741",
+   "rule_id": "ss-types",
+   "title": "7A--DubScout Enterprise Single License",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "fb0abe8f7e74453989908958b6b05a7e",
+   "rule_id": "ss-types",
+   "title": "7A20--Telesitters Monitors",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "e0a8edc99e8d48cf950a46329345264e",
+   "rule_id": "ss-types",
+   "title": "7E--CA-LODI FWO-LAPTOPS & DESKTOPS",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "d9c3f1efbd9f4d02ab908a98aa3b8295",
+   "rule_id": "ss-types",
+   "title": "GEN Software Maintenance",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "Lanham, MD, 20706",
+   "response_deadline": "2026-09-15T10:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "d192fe073a664bb3a1a066a856f38ab2",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-09-01T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "cac0d45ac6bc4a7d9b2943db12517b11",
+   "rule_id": "ss-types",
+   "title": "Intent to Award Sole Source - STAR CCM",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "Wright Patterson AFB, OH, 45433",
+   "response_deadline": "2029-09-08T17:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "c349aaa2425f4e8ca6bb5fc8f45f4ded",
+   "rule_id": "ss-pp",
+   "title": "Combined Synopsis/Solicitation and Notice of Intent to Sole Source - Radioactive Liquid Waste Processing Process Controls Replacement (PLC Upgrade)",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": null,
+   "pop": "Portsmouth, VA, 23709",
+   "response_deadline": "2026-09-18T13:00:00-04:00",
+   "why": "no overlap with any past-performance record (owner requires 2 matches)"
+  },
+  {
+   "notice_id": "bc2b008a756042c09f367762aaf8e564",
+   "rule_id": "ss-types",
+   "title": "Hardware and Software - 3 infiniband director switches renewal",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "Rockville, MD, 20852",
+   "response_deadline": "2026-09-04T11:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "bb151441827a42fc83cdc604c5973938",
+   "rule_id": "ss-types",
+   "title": "NATO Business Opportunity: Provision of Global Seamless Vector Basemap Data",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-10-15T17:00:00+02:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "b6b9f6d336bc4ac9b993e3e9cb481452",
+   "rule_id": "ss-types",
+   "title": "Vertiv Battery Hardware and UPS Preventive Maintenance BLDG N26",
+   "type": "Award Notice",
+   "set_aside_code": "SBA",
+   "pop": "Norfolk, VA, 23511",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "9f8123c3c8e84da3905f443c15352d60",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-09-01T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "931b980a1e90485f8c4386b7bc2ce610",
+   "rule_id": "ss-types",
+   "title": "Elliptic Enterprises Requirement",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "VA, 22030",
+   "response_deadline": "2026-09-08T12:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "8e1048dc28ff4e578dc4c85d4bef933c",
+   "rule_id": "ss-types",
+   "title": "DA10--Intent to Sole Source KIT Check System Subscription",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-09-04T10:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "4197ff1ab7194584ae9b2e06e1c13ebd",
+   "rule_id": "ss-types",
+   "title": "Notice of Intent to Sole Source – ANARK Software Licenses, Maintenance, and Support",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "Patuxent River, MD, 20670",
+   "response_deadline": "2026-09-15T12:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "3e6caf6f09d749a698d274ffb5463805",
+   "rule_id": "ss-types",
+   "title": "7A--Information Technology Purchase for Portsmouth Pad",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "2eb0aaef09a34020b087169b79d09451",
+   "rule_id": "ss-types",
+   "title": "MARKFORGED 3D Printers Preventatives & Remedial Maintenance -AMENDED",
+   "type": "Award Notice",
+   "set_aside_code": "SBA",
+   "pop": "Kittery, ME, 03904",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "2ccf1661f3c84962836396983409d71b",
+   "rule_id": "ss-types",
+   "title": "CORAS AI JEFO",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "Patuxent River, MD, 20670",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "1ec7693c71794f5ba0a069de6aeeb067",
+   "rule_id": "ss-types",
+   "title": "Operations Research Systems Analysis (ORSA) Support Services for Capability Program Executive Enterprise Software and Services (CPE ES2)",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-09-16T11:00:00-05:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "0edefaa076984cc0992f743664d33b01",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-09-01T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "e9db1d87882e45c2811939105b890158",
+   "rule_id": "ss-types",
+   "title": "7A21--26 IR 26 DS 022 erwin Data Modeler IJP-109003  (VA-26-00069117)",
+   "type": "Award Notice",
+   "set_aside_code": "SDVOSBC",
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "c6b5773262fc405d93b214fbf3db59d0",
+   "rule_id": "ss-pp",
+   "title": "Atlassian Renewals",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "",
+   "response_deadline": "2026-09-03T12:00:00-04:00",
+   "why": "no overlap with any past-performance record (owner requires 2 matches)"
+  },
+  {
+   "notice_id": "b87383a3a1684cdaa2476268604db8d3",
+   "rule_id": "ss-types",
+   "title": "DA01-- VA-26-00070018 NTP Rhapsody Corepoint Sustainment Contract",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "b30a4be11e5947c1916fab9ccb9eb9f6",
+   "rule_id": "ss-types",
+   "title": "Microsoft CoPilot License for Microsoft 365 A3 and A5 (Education and Faculty)",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "Washington, DC",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "b2a08173fec04a99b8270f95ac478df4",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-08-31T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "947f3563beb44625945a63251ed932ad",
+   "rule_id": "ss-setaside",
+   "title": "Pharmacy Patient Workflow Tracking System",
+   "type": "Solicitation",
+   "set_aside_code": "ISBEE",
+   "pop": "Gallup, NM, 87301",
+   "response_deadline": "2026-09-10T14:00:00-06:00",
+   "why": "set-aside Indian Small Business Economic Enterprise is one the firm cannot claim"
+  },
+  {
+   "notice_id": "5c4d0c6452da44f694a9b5afa59aac93",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-08-31T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "ad76b303641f487185b3ca8e3f381a9d",
+   "rule_id": "ss-pp",
+   "title": "YELLO Software",
+   "type": "Sources Sought",
+   "set_aside_code": null,
+   "pop": "Washington Navy Yard, DC",
+   "response_deadline": "2026-09-02T18:00:00-07:00",
+   "why": "no overlap with any past-performance record (owner requires 2 matches)"
+  },
+  {
+   "notice_id": "190d6ce6186241e5ad7f6f1806c54980",
+   "rule_id": "ss-types",
+   "title": "ACE Business Analyst Support",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "Washington, DC, 20229",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "92026dea14734242be324ce0b06e55d7",
+   "rule_id": "ss-types",
+   "title": "Q201--VISN 21 Patient Elopement and Wandering Prevention  (VA-26-00049526)",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "91692709584d4cada593299d88cb87df",
+   "rule_id": "ss-types",
+   "title": "Enterprise Patient Radiation Dose Tracking System",
+   "type": "Special Notice",
+   "set_aside_code": "SDVOSBC",
+   "pop": "",
+   "response_deadline": "2026-09-03T18:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "8b088968e26a486a9170cea8ae22f455",
+   "rule_id": "ss-types",
+   "title": "7G22--Plum Case and Cradlepoint Retrofit (VA-26-00048810)",
+   "type": "Award Notice",
+   "set_aside_code": "SDVOSBC",
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "5e84d6bf9a9d44fba4869b82f6e4ab64",
+   "rule_id": "ss-types",
+   "title": "Notice of Intent to Sole Source ACF Technologies for Patient Queuing System Kiosk",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "Bakersfield, CA, 93311",
+   "response_deadline": "2026-09-07T12:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "5c0899b072374d788d85b51da8be8e49",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-08-28T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "551c62dd502e4905937ba82ebb07c440",
+   "rule_id": "ss-types",
+   "title": "7J20--Symplr Kiosk",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-07-17T10:00:00-05:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "49177696dcee4118a82867b922275e78",
+   "rule_id": "ss-types",
+   "title": "7G22--Plum Case and Cradlepoint Retrofit (VA-26-00048810)",
+   "type": "Award Notice",
+   "set_aside_code": "SDVOSBC",
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "33149149b3324e63ab5328c7b554af71",
+   "rule_id": "ss-types",
+   "title": "Consolidated Cross Command FY26 Red Hat Procurement",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "Keyport, WA, 98345",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "057936d5823e4892b8ad39db23434e1d",
+   "rule_id": "ss-types",
+   "title": "Berla iVe Forensic Hardware/Software Platform Renewal",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "Fairfax, VA, 22030",
+   "response_deadline": "2026-09-02T12:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "045a459ca7ab410fbc9ae9537053d87f",
+   "rule_id": "ss-types",
+   "title": "Notice of Intent to Sole Source: SockPuppet",
+   "type": "Special Notice",
+   "set_aside_code": "SBA",
+   "pop": "Arlington, VA",
+   "response_deadline": "2026-09-04T15:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "e722cac361344849888424706eacbaf0",
+   "rule_id": "ss-types",
+   "title": "D--Cyber and Operations Assurance Program (COAP) Support Services.",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "dd488bc59c764f8393fd07f944e73e9f",
+   "rule_id": "ss-types",
+   "title": "Computer System",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "c573ef213c5646b7885d48850b218fd5",
+   "rule_id": "ss-types",
+   "title": "LEWeb Subscription",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "Saint Louis, MO, 63108",
+   "response_deadline": "2026-09-04T08:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "c3164e692cbb44edbc05136707a3391d",
+   "rule_id": "ss-types",
+   "title": "MASTERCAM SOFTWARE MAINTENANCE",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-08-31T12:00:00-05:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "aace59eda0564feca353267219dd2b57",
+   "rule_id": "ss-types",
+   "title": "IT SWAT Enterprise",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "DC, 20005",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "8ccef6071e2d4261ae23f524bcfcd562",
+   "rule_id": "ss-types",
+   "title": "DA10--VISN 16 Secure DICOM Image Sharing Solution",
+   "type": "Award Notice",
+   "set_aside_code": "SBA",
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "6bd7483f306743ab94abc771cba503a5",
+   "rule_id": "ss-setaside",
+   "title": "Mental Health Mobile Apps Design, Development, and Research Support",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "8AN",
+   "pop": "",
+   "response_deadline": "2026-09-01T10:00:00-04:00",
+   "why": "set-aside 8(a) Sole Source (FAR 19.8) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "6a4ca55e1e4544fcb51d123c0d016d11",
+   "rule_id": "ss-types",
+   "title": "Enterprise Cybersecurity Services",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "Washington, DC, 20223",
+   "response_deadline": null,
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "2a9786428ce94b4eb7f81692980cc02c",
+   "rule_id": "ss-types",
+   "title": "Nutanix VDI Network System",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "1eb741b87a4a42b08166b3e3e7feb2e9",
+   "rule_id": "ss-types",
+   "title": "BRAND NAME REQUIREMENT - RUBRIK SECURITY CLOUD FOUNDATION SOFTWARE LICENSES AND SERVICES-SUPPORT.",
+   "type": "Special Notice",
+   "set_aside_code": "SBA",
+   "pop": "19112",
+   "response_deadline": "2026-09-10T15:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "ffce71624d324a68bc644604bb35b275",
+   "rule_id": "ss-types",
+   "title": "Vishnu Software Subscriptions and Support",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "d538513ff02049d098bf002032db9db7",
+   "rule_id": "ss-types",
+   "title": "Small Business Cybersecure Enclave Pilot Industry Day",
+   "type": "Special Notice",
+   "set_aside_code": "SBA",
+   "pop": "Edwards, CA, 93524",
+   "response_deadline": "2026-09-02T17:00:00-07:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "cf9f750a153c424488b727e08da8100d",
+   "rule_id": "ss-types",
+   "title": "Notice of Intent to Award Sole Source – ScholarOne Licenses Renewal",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "Atlanta, GA",
+   "response_deadline": "2026-08-31T12:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "b89606fe76a340b3b20978ea4e120a96",
+   "rule_id": "ss-types",
+   "title": "D--GRAY KEY LICENSE ESSENTIALS",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-09-07T17:00:00-07:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "a1e50a71f84f4c46bd22119c4c7ac719",
+   "rule_id": "ss-types",
+   "title": "INTENT TO SOLE SOURCE AEMS Think Trends Licenses (Brand Name)",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "Silver Spring, MD, 20993",
+   "response_deadline": "2026-09-09T13:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "a142a30312ef47119979ac49e6a21cbe",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-08-26T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "a058ab9cf2c24b2a92076198fea22a98",
+   "rule_id": "ss-types",
+   "title": "Redacted Sole Source Justification for TSA Online Learning Center Support",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "Springfield, VA",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "6791c25f94d0415b96fb3c1c36e830b9",
+   "rule_id": "ss-types",
+   "title": "Notice of Intent to Award Sole Source – ArcGIS Licenses Renewal",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "Atlanta, GA",
+   "response_deadline": "2026-08-31T12:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "42124a4aa46747438cf58562af27d675",
+   "rule_id": "ss-types",
+   "title": "Vishnu Software Subscriptions and Support",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "3806d5efe18941b89e8a459d707a906a",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-08-26T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "12a52bc1c7ac4eefa6d6ed6160814c9a",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-08-26T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "fede6dd9601441ac9a4a1683fd27e43d",
+   "rule_id": "ss-types",
+   "title": "EFO Redacted- FLIS WMS Audit Support",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "Philadelphia, PA",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "f308944445d84e34bac35f2c34e30d3e",
+   "rule_id": "ss-types",
+   "title": "J065--Federal EHR Oracle Migration Support in support of the VISN  23 VAHCS",
+   "type": "Award Notice",
+   "set_aside_code": "SDVOSBC",
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "deacd218f57945f29619e34dff4e37fb",
+   "rule_id": "ss-types",
+   "title": "JEFO for Integrated Enterprise Portals",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "Chicago, IL, 60673",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "cfb8c5734ea443cfb629a39b076cf91d",
+   "rule_id": "ss-types",
+   "title": "cybersecurity management support services",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "DC, 20590",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "cbe93c42b8574b39abe5e9d22cf99cbf",
+   "rule_id": "ss-pp",
+   "title": "NOAA SCALABLE FRAMEWORK FOR COASTAL OCEAN MODELING EMULATION",
+   "type": "Presolicitation",
+   "set_aside_code": "SBA",
+   "pop": "",
+   "response_deadline": "2026-09-09T15:00:00-04:00",
+   "why": "no overlap with any past-performance record (owner requires 2 matches)"
+  },
+  {
+   "notice_id": "bfe00b4a95994d7e983afd128b3fb710",
+   "rule_id": "ss-types",
+   "title": "USDA/ Research, Education, and Economics (REE) - Data Management & Analytics Support",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "Beltsville, MD, 20705",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "b20177d73a504722aaedbadb1713466f",
+   "rule_id": "ss-setaside",
+   "title": "Sources Sought Notice for Information Technology Client Services for the U.S. Naval Academy",
+   "type": "Sources Sought",
+   "set_aside_code": "HZC",
+   "pop": "Annapolis, MD, 21402",
+   "response_deadline": "2026-09-07T16:00:00-04:00",
+   "why": "set-aside Historically Underutilized Business (HUBZone) Set-Aside (FAR 19.13) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "997374a5aeb143ce93749e094b8f0490",
+   "rule_id": "ss-types",
+   "title": "J065--Scriptpro Oracle Migration Support in support of the VISN 23  VACHS",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "986c3da117ac4c0783251619ca17838f",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-08-25T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "8eb16237ab7e408fbb9a4b4856f597ac",
+   "rule_id": "ss-types",
+   "title": "J065--Intent to Sole Source  FY26 Durham Building 42 Varian Truebeam Move",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-08-28T10:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "39d5563a5ad14553888c5062915b979e",
+   "rule_id": "ss-types",
+   "title": "FY27-31 A34 CRFTF Spectrum Services",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "Asheville, NC, 28801",
+   "response_deadline": "2026-09-01T11:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "34ef1e655227403f836f829b01056869",
+   "rule_id": "ss-types",
+   "title": "MasterCAM on Athena",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "Tinker AFB, OK, 73145",
+   "response_deadline": "2026-09-01T17:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "2facd4644f6147379b5579891e12dedf",
+   "rule_id": "ss-types",
+   "title": "EFO - (SAP Platform) WMS & FLIS Application Security Support",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "Arlington, VA, 22203",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "285b4e7b96504d418e9a29c3b87856ab",
+   "rule_id": "ss-types",
+   "title": "EFO - (SAP Platform) FLIS 2.0 Sustainment",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "Arlington, VA, 22203",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "1ae5f94204e14e96b29cead80eb966a8",
+   "rule_id": "ss-types",
+   "title": "J065--Scriptpro Oracle Migration Support in support of the VISN 23  VACHS",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "15806c61a1754b60b39d664a85a1a927",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-08-25T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "e56ce68c7c5f4a1fb58d737fb4e77c42",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-08-24T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "be3293d04c864def8ca3a30894720b9b",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-08-24T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "ad207ae0eff84e15a2185b8935cb5f15",
+   "rule_id": "ss-types",
+   "title": "The Dalles Lock and Dam Tech Connect Support Services -- The Dalles, Oregon",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "The Dalles, OR, 97058",
+   "response_deadline": "2026-09-01T14:00:00-07:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "7c0c563478ff408095dabbc92546a5e7",
+   "rule_id": "ss-types",
+   "title": "Redacted Exception to Fair Opportunity Justification for Above Baseline Information Technology Services",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "Adelphi, MD, 20783",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "7915ed25a6824922bb5023afd9e858ac",
+   "rule_id": "ss-pp",
+   "title": "Enterprise Service Management (ESM) Deployment and Professional Services",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": null,
+   "pop": "VA, 22201",
+   "response_deadline": "2026-08-25T23:59:00-04:00",
+   "why": "no overlap with any past-performance record (owner requires 2 matches)"
+  },
+  {
+   "notice_id": "7335f85e07a14823ab620e4cb4e4b07b",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-08-24T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "5ada89ec376b46f685aab04618ec1868",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-08-24T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "382c289a99c6434a9b0563b19a848a08",
+   "rule_id": "ss-types",
+   "title": "Program Announcement: Kessel Run Seeking Innovative Solutions for the Next-Generation Air Operations Center (AOC) Weapon System",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "Langley AFB, VA",
+   "response_deadline": "2026-02-28T16:00:00-05:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "025c9f86944347bc94a4dcf84b1bc32f",
+   "rule_id": "ss-types",
+   "title": "Sunbird License",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "Kearneysville, WV, 25430",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "e6fa6ce1329d47a2b02dc13d6c6be5fd",
+   "rule_id": "ss-types",
+   "title": "7A21--VISN 12 Hands Free Clinical Communication and Workflow  System",
+   "type": "Consolidate/(Substantially) Bundle",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Consolidate/(Substantially) Bundle is not a solicitation"
+  },
+  {
+   "notice_id": "af5c66fdcf034a009881dd6c70b885c7",
+   "rule_id": "ss-setaside",
+   "title": "CISCO SECURE FIREWALL MANAGEMENT",
+   "type": "Solicitation",
+   "set_aside_code": "ISBEE",
+   "pop": "",
+   "response_deadline": "2026-09-03T14:00:00-05:00",
+   "why": "set-aside Indian Small Business Economic Enterprise is one the firm cannot claim"
+  },
+  {
+   "notice_id": "ab8ecb8feef747f89fe14c9c9465d21e",
+   "rule_id": "ss-pp",
+   "title": "RFI to support Content Authorizing Tools for the DLA",
+   "type": "Sources Sought",
+   "set_aside_code": null,
+   "pop": "Fort Belvoir, VA",
+   "response_deadline": "2026-09-30T13:00:00-04:00",
+   "why": "no overlap with any past-performance record (owner requires 2 matches)"
+  },
+  {
+   "notice_id": "5a44020c647047f1bea77408892806f9",
+   "rule_id": "ss-types",
+   "title": "Gigamon End of Life (EOL) Expansion Support",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "49ba61952139414da1ac37877e9ff439",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-08-21T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "dde743da735e46208eec7f582959fab7",
+   "rule_id": "ss-types",
+   "title": "7D20--Queuing Kiosk - SEPG 519908 EER 272280 (VA-26-00075155)",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-08-25T00:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "aa2a46d2cfc24102aa840be81f97980f",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-08-20T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "9ce7e91e2e7c4512b0890df0dec84faf",
+   "rule_id": "ss-types",
+   "title": "USDA/OCFO FMMI Operations O&M Support  – Accenture Federal Services",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "Washington, DC, 20250",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "80dafc165f1440bdaaff92bd59ce4c92",
+   "rule_id": "ss-types",
+   "title": "DA10--Agile Fleet Commander    Base plus 4 Option Years",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-08-25T13:00:00-05:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "675d660f4a5c415aa875383283b17dbe",
+   "rule_id": "ss-types",
+   "title": "7G21--IRP AITC PITC Cisco Switches (VA-26-00074579)",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-08-25T12:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "66203a0a8690439796c8c22fc8f09c9c",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-08-20T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "5549020764214b0b99ac99154869ea14",
+   "rule_id": "ss-types",
+   "title": "DA10--San Diego VAMC Call Recording- New Task Order  (VA-26-00078778)",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "5219c69352824b9e83242b6a84328923",
+   "rule_id": "ss-types",
+   "title": "Justification For An Exception To Fair Opportunity",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "29419",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "f0e0e84c537b440a8404a6d06c5beea4",
+   "rule_id": "ss-types",
+   "title": "DA10--VA-26-00065164 - VA MongoDB Enterprise License Agreement",
+   "type": "Award Notice",
+   "set_aside_code": "SDVOSBC",
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "ccdf6f98d5a842fabf671539467ef56c",
+   "rule_id": "ss-types",
+   "title": "USDA/OCFO Sustainment Support – Deloitte J&A",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "Washington, DC, 20250",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "bc4dc30792be4cfa84754bca5ad7cc8d",
+   "rule_id": "ss-types",
+   "title": "26-SIMACQ-E60-0008 RAM IETH Laptops",
+   "type": "Award Notice",
+   "set_aside_code": "SBA",
+   "pop": "Port Hueneme CBC Base, CA, 93043",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "98d053880fdb421fab596477bcc92261",
+   "rule_id": "ss-types",
+   "title": "Service to Provide Computer Programming Support for the LANDIS-II Forest Landscape Model",
+   "type": "Special Notice",
+   "set_aside_code": "SBA",
+   "pop": "Albuquerque, NM",
+   "response_deadline": "2026-09-03T17:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "7af39e0fd44b454382df890cbbf15552",
+   "rule_id": "ss-types",
+   "title": "NOTICE OF INTENT TO SOLE SOURCE",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "VA, 22554",
+   "response_deadline": "2026-09-03T17:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "64232d88543d44fa97d2b90c50781ebf",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-08-19T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "571d6fd5e90744e18dc2e043528645d9",
+   "rule_id": "ss-types",
+   "title": "7B22--Responder 5 Nurse Call Server and Software  EER 275057",
+   "type": "Award Notice",
+   "set_aside_code": "SBA",
+   "pop": "Oklahoma City, OK, 73104",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "3767e2e203d3496b842fdbced345b9e7",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-08-19T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "10325a7f6a5943be8246a016f0cae457",
+   "rule_id": "ss-types",
+   "title": "Integrated Defense Enterprise Acquisition System (IDEAS) Tier 2/Tier 3 Support Sole Source Bridge",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "0817db124a424e0b840dacb2e18cdd7b",
+   "rule_id": "ss-types",
+   "title": "DA01--VA EHRM IDIQ Contract 36C10B18D5000  Expanded Scope Modification P00008  (VA-26-00083233)",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "f3b9b36b02174fdd9ce7f60e33539fc6",
+   "rule_id": "ss-setaside",
+   "title": "TOTAL ENGINEERING AND INTEGRATION SERVICES  (TEIS) IV On-Ramp Opportunity",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBP",
+   "pop": "Fort Huachuca, AZ, 85613",
+   "response_deadline": "2026-10-07T16:00:00-06:00",
+   "why": "set-aside SBP is one the firm cannot claim"
+  },
+  {
+   "notice_id": "bfdf8cc9076b45548658a7b7f0f52752",
+   "rule_id": "ss-types",
+   "title": "Notice of Intent to Sole Soure Advisor Degree Auditing Software",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "Bethesda, MD, 20814",
+   "response_deadline": "2026-09-02T09:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "ac1af4acd9534119a3c567746731ac25",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-08-18T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "aa1a757612354e5b998bf62695410107",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-08-18T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "7b44ec76f1f64f27b7e7fa9e2b17e09e",
+   "rule_id": "ss-types",
+   "title": "Alaris Pump Software Maintenance",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "Kansas City, MO",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "64f6b1f76c664ec18e7f701f911238bf",
+   "rule_id": "ss-types",
+   "title": "D--WEB TO PRINT SUPPORT SERVICES",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-09-02T16:00:00-06:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "5f5f353bae094ec69e2fa5d0691e209f",
+   "rule_id": "ss-types",
+   "title": "Notice of Intent to Sole Source: Assurance Network (ANET) Integration into PHIS",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "Washington, DC, 20250",
+   "response_deadline": "2026-09-18T12:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "551997cb6a5d471e9927f6e59285947c",
+   "rule_id": "ss-types",
+   "title": "DA10--DSS Peri-Op Manager Suite (VA-26-00067516)",
+   "type": "Award Notice",
+   "set_aside_code": "SDVOSBC",
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "506206a776b246379095330fe5002461",
+   "rule_id": "ss-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-08-18T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "1213a799f97c438aa4114a9bad92ec7b",
+   "rule_id": "ss-types",
+   "title": "7A--Commvault Renewal - FY 26",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "3f7fef3cc8a0419e96d234b9eac368d4",
+   "rule_id": "ss-types",
+   "title": "Predictive Lake Analytics Nextgen eXchange Services (PLANXS)",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "GA, 30361",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "3e89ac100b284b6b907f826ea904a4cc",
+   "rule_id": "ss-types",
+   "title": "Next Generation Command and Control (NGC2) - Commercial Solutions Opening (CSO)",
+   "type": "Special Notice",
+   "set_aside_code": null,
+   "pop": "Aberdeen Proving Ground, MD, 21005",
+   "response_deadline": "2027-05-16T11:00:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "234ff30058fa470b820bb8f1596aa870",
+   "rule_id": "ss-types",
+   "title": "61--CABLE ASSEMBLY SPEC - AND OTHER REPLACEMENT PARTS",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "Portsmouth, NH, 03801",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "e8fb30b0971743949b7616e74b219255",
+   "rule_id": "ss-setaside",
+   "title": "Indian Health Service - Cisco Network Equipment and Software Maintenance",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "BICiv",
+   "pop": "Albuquerque, NM",
+   "response_deadline": "2026-08-18T14:00:00-04:00",
+   "why": "set-aside Buy Indian Set-Aside (specific to Department of Health and Human Services, Indian Health Services) is one the firm cannot claim"
+  }
+ ],
+ "should_surface": [
+  {
+   "notice_id": "07b8aa34c78244b08b6150e51bdb0c48",
+   "title": "DJ01--Cybersecurity Architecture and Engineering Services  RFI Loopback  (VA-26-00064748)"
+  },
+  {
+   "notice_id": "475ec0299ae04542bccd77d1049b5772",
+   "title": "Central Plant Computer System (CPCS) Maintenance"
+  },
+  {
+   "notice_id": "48a0b93b561a44369a6ee01f3e47e2f9",
+   "title": "Operations, Research, and Broad Innovative Technology Services (ORBIT)   Request for Information (RFI) and Sources Sought Notice (SSN)"
+  },
+  {
+   "notice_id": "53912490fe424fd7a9e11fdaaf6a22a4",
+   "title": "NCI Oncology Clinical Trial System, Management and Support"
+  },
+  {
+   "notice_id": "54a51abcd35345f581456df8a193e0ac",
+   "title": "R499--VA-26-00068264 - DASL Bridge Support Services"
+  },
+  {
+   "notice_id": "5ad10c73d29b487fa70e750479bb0517",
+   "title": "Portfolio Acquisition Executive, Medical Digital Solutions, (PAE MDS) End User Services (EUS) Area of Interest Application, Workflow, Adoption, and Change Support (AWACS)"
+  },
+  {
+   "notice_id": "633f42f21dec477cbd6d88327a7537f3",
+   "title": "CIO Microsoft Sentinel Implementation FY26"
+  },
+  {
+   "notice_id": "907ad2ce08a243079f41847b51acebe0",
+   "title": "AIE-ITS CSO"
+  },
+  {
+   "notice_id": "a707b8a1ffe64e1f81c0169928abd6d3",
+   "title": "DA01--Supply Chain Management DevSecOps and Integration (SCMDSO) -  New TO (VA-26-00021946)"
+  },
+  {
+   "notice_id": "a9ef3e73dd004004bb4cefb17d2cc292",
+   "title": "SOLICITATION _ SERVICENOW STAFF AUGMENTATION SERVICES - AMEND 0001"
+  },
+  {
+   "notice_id": "bb76a0d296574d508a645180aeaa8bc0",
+   "title": "Enterprise Messaging Modernization and Engineering Support"
+  },
+  {
+   "notice_id": "c4480de5e5464218825bcf83b1930011",
+   "title": "DA01--VA-26-00071371 Memorials Integration Services and Innovation"
+  },
+  {
+   "notice_id": "e4ca493c0b334b3d812882f4bdc2bc4e",
+   "title": "Microsoft 365 Data Migration Project"
+  },
+  {
+   "notice_id": "e6f67857e68e438ca800122c1b59a584",
+   "title": "191N6026Q0007 - PR16205087 - American Center Chennai’s Technology Infrastructure Modernization"
+  },
+  {
+   "notice_id": "ee15f287bd3049349277a9bd31c206df",
+   "title": "RFI: Air Force Enterprise Rapid Operations Support (AEROS)"
+  }
+ ]
+}

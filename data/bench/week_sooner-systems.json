@@ -1,0 +1,1035 @@
+{
+ "firm": "sooner-systems",
+ "name": "Sooner Systems LLC",
+ "as_of": "2026-09-14T07:13:03-05:00",
+ "bench_as_of": "2026-09-13T21:55:24-05:00",
+ "snapshot_written_at": "2026-09-13T21:55:24-05:00",
+ "gallery_produced_at": "2026-09-14T07:12:57.081266-05:00",
+ "window": {
+  "first_posted": "2026-08-14",
+  "last_posted": "2026-09-13",
+  "days_with_notices": 25
+ },
+ "model_calls": 0,
+ "sources": {
+  "snapshot": "data/snapshot/sooner-systems.json",
+  "bench": "data/bench/tiering_sooner-systems.json",
+  "gallery": "gallery/index.json",
+  "public_notice_cache": "data/raw/pub_*.json"
+ },
+ "days": [
+  {
+   "date": "2026-08-14",
+   "posted": 5,
+   "filed_by_rule": 1,
+   "by_rule": {
+    "scope": 4,
+    "ss-setaside": 1
+   },
+   "filed_by_model": 4,
+   "sent_to_desk": 0,
+   "surfaced": [],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-08-17",
+   "posted": 10,
+   "filed_by_rule": 3,
+   "by_rule": {
+    "scope": 6,
+    "ss-types": 3
+   },
+   "filed_by_model": 6,
+   "sent_to_desk": 1,
+   "surfaced": [
+    "a707b8a1ffe64e1f81c0169928abd6d3"
+   ],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-08-18",
+   "posted": 17,
+   "filed_by_rule": 10,
+   "by_rule": {
+    "ss-setaside": 1,
+    "scope": 7,
+    "ss-types": 9
+   },
+   "filed_by_model": 7,
+   "sent_to_desk": 0,
+   "surfaced": [],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-08-19",
+   "posted": 15,
+   "filed_by_rule": 10,
+   "by_rule": {
+    "ss-types": 10,
+    "scope": 5
+   },
+   "filed_by_model": 5,
+   "sent_to_desk": 0,
+   "surfaced": [],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-08-20",
+   "posted": 10,
+   "filed_by_rule": 8,
+   "by_rule": {
+    "ss-types": 8,
+    "scope": 1
+   },
+   "filed_by_model": 1,
+   "sent_to_desk": 1,
+   "surfaced": [],
+   "no_card": [
+    {
+     "notice_id": "10f4a347f83d452abddb6195edae5fbe",
+     "why": "sent to the desk, no card: no evidence"
+    }
+   ],
+   "amendments": []
+  },
+  {
+   "date": "2026-08-21",
+   "posted": 9,
+   "filed_by_rule": 5,
+   "by_rule": {
+    "scope": 4,
+    "ss-types": 3,
+    "ss-setaside": 1,
+    "ss-pp": 1
+   },
+   "filed_by_model": 4,
+   "sent_to_desk": 0,
+   "surfaced": [],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-08-24",
+   "posted": 12,
+   "filed_by_rule": 9,
+   "by_rule": {
+    "ss-types": 8,
+    "scope": 3,
+    "ss-pp": 1
+   },
+   "filed_by_model": 3,
+   "sent_to_desk": 0,
+   "surfaced": [],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-08-25",
+   "posted": 21,
+   "filed_by_rule": 16,
+   "by_rule": {
+    "ss-types": 14,
+    "ss-pp": 1,
+    "scope": 5,
+    "ss-setaside": 1
+   },
+   "filed_by_model": 5,
+   "sent_to_desk": 0,
+   "surfaced": [],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-08-26",
+   "posted": 19,
+   "filed_by_rule": 11,
+   "by_rule": {
+    "ss-types": 11,
+    "scope": 7
+   },
+   "filed_by_model": 7,
+   "sent_to_desk": 1,
+   "surfaced": [
+    "07b8aa34c78244b08b6150e51bdb0c48"
+   ],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-08-27",
+   "posted": 21,
+   "filed_by_rule": 10,
+   "by_rule": {
+    "scope": 10,
+    "ss-types": 9,
+    "ss-setaside": 1
+   },
+   "filed_by_model": 10,
+   "sent_to_desk": 1,
+   "surfaced": [
+    "475ec0299ae04542bccd77d1049b5772"
+   ],
+   "no_card": [],
+   "amendments": [
+    {
+     "notice_id": "2db3025b9a274cf08b3554f9323c8c1a",
+     "title": "Tower Simulation System (TSS) Tech Refresh -- Amendment 0001",
+     "why": "'amend' in the title",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": "2026-09-18T15:00:00-04:00",
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-28",
+   "posted": 15,
+   "filed_by_rule": 10,
+   "by_rule": {
+    "scope": 4,
+    "ss-types": 10
+   },
+   "filed_by_model": 4,
+   "sent_to_desk": 1,
+   "surfaced": [
+    "e6f67857e68e438ca800122c1b59a584"
+   ],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-08-29",
+   "posted": 3,
+   "filed_by_rule": 2,
+   "by_rule": {
+    "scope": 1,
+    "ss-pp": 1,
+    "ss-types": 1
+   },
+   "filed_by_model": 1,
+   "sent_to_desk": 0,
+   "surfaced": [],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-08-31",
+   "posted": 14,
+   "filed_by_rule": 7,
+   "by_rule": {
+    "ss-types": 5,
+    "scope": 5,
+    "ss-pp": 1,
+    "ss-setaside": 1
+   },
+   "filed_by_model": 5,
+   "sent_to_desk": 2,
+   "surfaced": [
+    "c4480de5e5464218825bcf83b1930011",
+    "bb76a0d296574d508a645180aeaa8bc0"
+   ],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-09-01",
+   "posted": 26,
+   "filed_by_rule": 18,
+   "by_rule": {
+    "scope": 7,
+    "ss-types": 17,
+    "ss-pp": 1
+   },
+   "filed_by_model": 7,
+   "sent_to_desk": 1,
+   "surfaced": [
+    "ee15f287bd3049349277a9bd31c206df"
+   ],
+   "no_card": [],
+   "amendments": [
+    {
+     "notice_id": "2eb0aaef09a34020b087169b79d09451",
+     "title": "MARKFORGED 3D Printers Preventatives & Remedial Maintenance -AMENDED",
+     "why": "'amend' in the title",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": null,
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-02",
+   "posted": 20,
+   "filed_by_rule": 11,
+   "by_rule": {
+    "scope": 8,
+    "ss-types": 11
+   },
+   "filed_by_model": 8,
+   "sent_to_desk": 1,
+   "surfaced": [
+    "a9ef3e73dd004004bb4cefb17d2cc292"
+   ],
+   "no_card": [],
+   "amendments": [
+    {
+     "notice_id": "a9ef3e73dd004004bb4cefb17d2cc292",
+     "title": "SOLICITATION _ SERVICENOW STAFF AUGMENTATION SERVICES - AMEND 0001",
+     "why": "'amend' in the title",
+     "parent_opportunity_id": "268f9d2c2552454b947b11925ceb2499",
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": "2026-09-04T11:00:00-07:00",
+     "deadline_moved": null,
+     "note": "previous version not cached"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-03",
+   "posted": 21,
+   "filed_by_rule": 10,
+   "by_rule": {
+    "scope": 10,
+    "ss-types": 9,
+    "ss-pp": 1
+   },
+   "filed_by_model": 10,
+   "sent_to_desk": 1,
+   "surfaced": [
+    "53912490fe424fd7a9e11fdaaf6a22a4"
+   ],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-09-04",
+   "posted": 11,
+   "filed_by_rule": 7,
+   "by_rule": {
+    "ss-pp": 1,
+    "scope": 2,
+    "ss-types": 5,
+    "ss-setaside": 1
+   },
+   "filed_by_model": 2,
+   "sent_to_desk": 2,
+   "surfaced": [
+    "633f42f21dec477cbd6d88327a7537f3",
+    "48a0b93b561a44369a6ee01f3e47e2f9"
+   ],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-09-05",
+   "posted": 1,
+   "filed_by_rule": 1,
+   "by_rule": {
+    "ss-types": 1
+   },
+   "filed_by_model": 0,
+   "sent_to_desk": 0,
+   "surfaced": [],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-09-06",
+   "posted": 2,
+   "filed_by_rule": 2,
+   "by_rule": {
+    "ss-types": 2
+   },
+   "filed_by_model": 0,
+   "sent_to_desk": 0,
+   "surfaced": [],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-09-08",
+   "posted": 27,
+   "filed_by_rule": 10,
+   "by_rule": {
+    "scope": 15,
+    "ss-types": 10
+   },
+   "filed_by_model": 15,
+   "sent_to_desk": 2,
+   "surfaced": [
+    "54a51abcd35345f581456df8a193e0ac"
+   ],
+   "no_card": [
+    {
+     "notice_id": "b6d8cb6478164a9cb1e69fb25ea11e9c",
+     "why": "sent to the desk, no card: no evidence"
+    }
+   ],
+   "amendments": [
+    {
+     "notice_id": "ccbf8a318cbc473ca2f48e213e7ba8e3",
+     "title": "Alaris System Maintenance Software for Alaris Support Program (Alaris Infusion System), South Central VA Health Care Network (VISN 16), 715 S. Pear Orchard Road, Plaza 1, Ridgeland, MS 39157",
+     "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": null,
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    },
+    {
+     "notice_id": "c9ee30451d9b4b348ece0a77c9b3e5cc",
+     "title": "Multiple Award Schedule",
+     "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": "2026-09-08T11:12:13-05:00",
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    },
+    {
+     "notice_id": "a61ff8e82f0c4f0ab28012f6ff80ea74",
+     "title": "AMEND 0001 TO ConnectAssure Integration and Licenses",
+     "why": "'amend' in the title",
+     "parent_opportunity_id": "3b496bf3b6734fdc91a9a57a69bca310",
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": "2026-09-08T15:00:00-04:00",
+     "deadline_moved": null,
+     "note": "previous version not cached"
+    },
+    {
+     "notice_id": "60cedbd2de5944a395935ed0e9f9aee3",
+     "title": "PRATUS Platform Training and Implementation",
+     "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": null,
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "posted": 28,
+   "filed_by_rule": 23,
+   "by_rule": {
+    "scope": 5,
+    "ss-types": 21,
+    "ss-setaside": 1,
+    "ss-pp": 1
+   },
+   "filed_by_model": 5,
+   "sent_to_desk": 0,
+   "surfaced": [],
+   "no_card": [],
+   "amendments": [
+    {
+     "notice_id": "d2c67ab0b616457aa4389b491e5d79bd",
+     "title": "Multiple Award Schedule",
+     "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": "2026-09-09T11:12:13-05:00",
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    },
+    {
+     "notice_id": "cfc67ad7ba6d4705aa4a7f2703b7d6bb",
+     "title": "CFID with SkySafe",
+     "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": null,
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    },
+    {
+     "notice_id": "8f2bbd87dd5b44c6a087b4beb17c24a4",
+     "title": "Award Notice for Atlassian Renewals",
+     "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": null,
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    },
+    {
+     "notice_id": "6fe76a63551846ababfe83a5aece7abc",
+     "title": "Multiple Award Schedule",
+     "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": "2026-09-09T11:12:13-05:00",
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    },
+    {
+     "notice_id": "67a1829881764930adedf9461a28c479",
+     "title": "Multiple Award Schedule",
+     "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": "2026-09-09T11:12:13-05:00",
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    },
+    {
+     "notice_id": "4a0eaca1bf3e4b5f93ce83c13856423d",
+     "title": "Multiple Award Schedule",
+     "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": "2026-09-09T11:12:13-05:00",
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    },
+    {
+     "notice_id": "2badd9a87fc54cf0ba4b37830ed8f2f7",
+     "title": "Multiple Award Schedule",
+     "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": "2026-09-09T11:12:13-05:00",
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    },
+    {
+     "notice_id": "2189b802a8a14c8a815cfdd2f27c7add",
+     "title": "Multiple Award Schedule",
+     "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": "2026-09-09T11:12:13-05:00",
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "posted": 37,
+   "filed_by_rule": 23,
+   "by_rule": {
+    "ss-types": 22,
+    "scope": 12,
+    "ss-setaside": 1
+   },
+   "filed_by_model": 12,
+   "sent_to_desk": 2,
+   "surfaced": [
+    "907ad2ce08a243079f41847b51acebe0",
+    "5ad10c73d29b487fa70e750479bb0517"
+   ],
+   "no_card": [],
+   "amendments": [
+    {
+     "notice_id": "699b0452578a48b082035b99353b2204",
+     "title": "Multiple Award Schedule",
+     "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": "2026-09-10T11:12:13-05:00",
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    },
+    {
+     "notice_id": "64858977916047a2b5561b9b23878c75",
+     "title": "Multiple Award Schedule",
+     "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": "2026-09-10T11:12:13-05:00",
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    },
+    {
+     "notice_id": "3fc6e637e2674250b9338400a181060e",
+     "title": "Glucometers and Abbott i-STAT Analyzers RALS Data Management System",
+     "why": "type Special Notice on base type Sources Sought",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": "2026-09-20T17:00:00-04:00",
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-11",
+   "posted": 19,
+   "filed_by_rule": 11,
+   "by_rule": {
+    "ss-types": 11,
+    "scope": 7
+   },
+   "filed_by_model": 7,
+   "sent_to_desk": 1,
+   "surfaced": [
+    "e4ca493c0b334b3d812882f4bdc2bc4e"
+   ],
+   "no_card": [],
+   "amendments": [
+    {
+     "notice_id": "ea14cd740eb24aaebc3dbb5ae2e7249c",
+     "title": "Audio/Visual Equipment and Installation",
+     "why": "type Award Notice on base type Solicitation",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": null,
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    },
+    {
+     "notice_id": "c87ec7632e0d44b6a737bd78e31e7a70",
+     "title": "D--WebKnossos Enterprise Software License and Technical Support",
+     "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": null,
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    },
+    {
+     "notice_id": "70426ba39af74a0288d6d3a55151ffae",
+     "title": "ITW/AA IV",
+     "why": "type Justification on base type Presolicitation",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": null,
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    },
+    {
+     "notice_id": "519fe220d41e46139b175480e810d5f9",
+     "title": "W912DY26RA030 OFFICIAL SOLICITATION_ AMENDMENT 2 FOR UTILITY MONITORING AND CONTROL SYSTEMS VI",
+     "why": "'amend' in the title",
+     "parent_opportunity_id": "620f67e5787042be94734f2826861509",
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": "2026-09-17T12:00:00-06:00",
+     "deadline_moved": null,
+     "note": "previous version not cached"
+    },
+    {
+     "notice_id": "2c2e78c8c6a2471aaaed1af66c5444f6",
+     "title": "Sole Source: IT Support for NOAA Employees and Contractors at the Joint Hydrographic Center",
+     "why": "type Justification on base type Special Notice",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": null,
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    },
+    {
+     "notice_id": "0e38de64773a40d89b666cb9e410f777",
+     "title": "Multiple Award Schedule",
+     "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": "2026-09-11T11:12:13-05:00",
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-12",
+   "posted": 2,
+   "filed_by_rule": 0,
+   "by_rule": {
+    "scope": 2
+   },
+   "filed_by_model": 2,
+   "sent_to_desk": 0,
+   "surfaced": [],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-09-13",
+   "posted": 2,
+   "filed_by_rule": 2,
+   "by_rule": {
+    "ss-setaside": 1,
+    "ss-types": 1
+   },
+   "filed_by_model": 0,
+   "sent_to_desk": 0,
+   "surfaced": [],
+   "no_card": [],
+   "amendments": [
+    {
+     "notice_id": "6d83796d64264c13ad2043df6b2be5a9",
+     "title": "GIMC - InformaCast Advanced Notification Maintenance Support Services",
+     "why": "type Solicitation on base type Sources Sought",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": "2026-09-15T17:00:00-06:00",
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    }
+   ]
+  }
+ ],
+ "totals": {
+  "days": 25,
+  "posted": 367,
+  "filed_by_rule": 220,
+  "filed_by_model": 130,
+  "sent_to_desk": 17,
+  "surfaced": 15,
+  "no_card": 2,
+  "amendments_seen": 25,
+  "by_rule": {
+   "scope": 130,
+   "ss-setaside": 10,
+   "ss-types": 201,
+   "ss-pp": 9
+  }
+ },
+ "amendments": {
+  "detected": 25,
+  "with_parent_id": 3,
+  "previous_version_cached": 0,
+  "deadline_moved": 0,
+  "rows": [
+   {
+    "notice_id": "2db3025b9a274cf08b3554f9323c8c1a",
+    "title": "Tower Simulation System (TSS) Tech Refresh -- Amendment 0001",
+    "why": "'amend' in the title",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": "2026-09-18T15:00:00-04:00",
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "2eb0aaef09a34020b087169b79d09451",
+    "title": "MARKFORGED 3D Printers Preventatives & Remedial Maintenance -AMENDED",
+    "why": "'amend' in the title",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": null,
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "a9ef3e73dd004004bb4cefb17d2cc292",
+    "title": "SOLICITATION _ SERVICENOW STAFF AUGMENTATION SERVICES - AMEND 0001",
+    "why": "'amend' in the title",
+    "parent_opportunity_id": "268f9d2c2552454b947b11925ceb2499",
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": "2026-09-04T11:00:00-07:00",
+    "deadline_moved": null,
+    "note": "previous version not cached"
+   },
+   {
+    "notice_id": "ccbf8a318cbc473ca2f48e213e7ba8e3",
+    "title": "Alaris System Maintenance Software for Alaris Support Program (Alaris Infusion System), South Central VA Health Care Network (VISN 16), 715 S. Pear Orchard Road, Plaza 1, Ridgeland, MS 39157",
+    "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": null,
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "c9ee30451d9b4b348ece0a77c9b3e5cc",
+    "title": "Multiple Award Schedule",
+    "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": "2026-09-08T11:12:13-05:00",
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "a61ff8e82f0c4f0ab28012f6ff80ea74",
+    "title": "AMEND 0001 TO ConnectAssure Integration and Licenses",
+    "why": "'amend' in the title",
+    "parent_opportunity_id": "3b496bf3b6734fdc91a9a57a69bca310",
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": "2026-09-08T15:00:00-04:00",
+    "deadline_moved": null,
+    "note": "previous version not cached"
+   },
+   {
+    "notice_id": "60cedbd2de5944a395935ed0e9f9aee3",
+    "title": "PRATUS Platform Training and Implementation",
+    "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": null,
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "d2c67ab0b616457aa4389b491e5d79bd",
+    "title": "Multiple Award Schedule",
+    "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": "2026-09-09T11:12:13-05:00",
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "cfc67ad7ba6d4705aa4a7f2703b7d6bb",
+    "title": "CFID with SkySafe",
+    "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": null,
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "8f2bbd87dd5b44c6a087b4beb17c24a4",
+    "title": "Award Notice for Atlassian Renewals",
+    "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": null,
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "6fe76a63551846ababfe83a5aece7abc",
+    "title": "Multiple Award Schedule",
+    "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": "2026-09-09T11:12:13-05:00",
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "67a1829881764930adedf9461a28c479",
+    "title": "Multiple Award Schedule",
+    "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": "2026-09-09T11:12:13-05:00",
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "4a0eaca1bf3e4b5f93ce83c13856423d",
+    "title": "Multiple Award Schedule",
+    "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": "2026-09-09T11:12:13-05:00",
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "2badd9a87fc54cf0ba4b37830ed8f2f7",
+    "title": "Multiple Award Schedule",
+    "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": "2026-09-09T11:12:13-05:00",
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "2189b802a8a14c8a815cfdd2f27c7add",
+    "title": "Multiple Award Schedule",
+    "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": "2026-09-09T11:12:13-05:00",
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "699b0452578a48b082035b99353b2204",
+    "title": "Multiple Award Schedule",
+    "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": "2026-09-10T11:12:13-05:00",
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "64858977916047a2b5561b9b23878c75",
+    "title": "Multiple Award Schedule",
+    "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": "2026-09-10T11:12:13-05:00",
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "3fc6e637e2674250b9338400a181060e",
+    "title": "Glucometers and Abbott i-STAT Analyzers RALS Data Management System",
+    "why": "type Special Notice on base type Sources Sought",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": "2026-09-20T17:00:00-04:00",
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "ea14cd740eb24aaebc3dbb5ae2e7249c",
+    "title": "Audio/Visual Equipment and Installation",
+    "why": "type Award Notice on base type Solicitation",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": null,
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "c87ec7632e0d44b6a737bd78e31e7a70",
+    "title": "D--WebKnossos Enterprise Software License and Technical Support",
+    "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": null,
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "70426ba39af74a0288d6d3a55151ffae",
+    "title": "ITW/AA IV",
+    "why": "type Justification on base type Presolicitation",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": null,
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "519fe220d41e46139b175480e810d5f9",
+    "title": "W912DY26RA030 OFFICIAL SOLICITATION_ AMENDMENT 2 FOR UTILITY MONITORING AND CONTROL SYSTEMS VI",
+    "why": "'amend' in the title",
+    "parent_opportunity_id": "620f67e5787042be94734f2826861509",
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": "2026-09-17T12:00:00-06:00",
+    "deadline_moved": null,
+    "note": "previous version not cached"
+   },
+   {
+    "notice_id": "2c2e78c8c6a2471aaaed1af66c5444f6",
+    "title": "Sole Source: IT Support for NOAA Employees and Contractors at the Joint Hydrographic Center",
+    "why": "type Justification on base type Special Notice",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": null,
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "0e38de64773a40d89b666cb9e410f777",
+    "title": "Multiple Award Schedule",
+    "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": "2026-09-11T11:12:13-05:00",
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "6d83796d64264c13ad2043df6b2be5a9",
+    "title": "GIMC - InformaCast Advanced Notification Maintenance Support Services",
+    "why": "type Solicitation on base type Sources Sought",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": "2026-09-15T17:00:00-06:00",
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   }
+  ]
+ },
+ "invariants": {
+  "all_ok": true,
+  "checks": [
+   {
+    "name": "every surfaced id is a gallery case",
+    "ok": true,
+    "detail": "15 surfaced, 15 gallery cards"
+   },
+   {
+    "name": "every gallery case surfaces exactly once",
+    "ok": true,
+    "detail": "15 distinct surfaced ids"
+   },
+   {
+    "name": "no tier-0 or tier-1 notice surfaces",
+    "ok": true,
+    "detail": "none"
+   },
+   {
+    "name": "per-day counts sum to the bench counts",
+    "ok": true,
+    "detail": "week posted/filed/model/desk = 367/220/130/17; bench = 367/220/130/17"
+   },
+   {
+    "name": "the replay made no model call",
+    "ok": true,
+    "detail": "0 model calls: every outcome is read from the committed bench"
+   }
+  ]
+ }
+}

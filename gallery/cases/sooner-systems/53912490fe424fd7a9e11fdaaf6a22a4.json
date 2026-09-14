@@ -1,0 +1,827 @@
+{
+ "notice_id": "53912490fe424fd7a9e11fdaaf6a22a4",
+ "firm_slug": "sooner-systems",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:53:20-05:00",
+ "evidence_basis": null,
+ "days_to_close": 3.3268241267592593,
+ "closed": false,
+ "response_kind": "RFI response (capability statement, not a proposal)",
+ "card": {
+  "notice_id": "53912490fe424fd7a9e11fdaaf6a22a4",
+  "firm_slug": "sooner-systems",
+  "situation": "NCI Oncology Clinical Trial System, Management and Support — a Sources Sought / RFI seeking small businesses capable of enterprise-level informatics, application development, modernization, and operational support for NCI's CTEP-ESYS clinical trial platform (HHS/NIH/NCI OLAO).\nReached the owner because Sooner Systems qualifies as a small business eligible to respond to this unrestricted sources-sought notice; a response is a capability statement only — no proposal or price is due.",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "Sooner Systems can satisfy the administrative submission requirements — electronic delivery in MS Word or PDF within the deadline — with 3.3 days remaining to close [req 53912490-descript-p0-a27ed7b0].",
+   "RMF/ATO documentation and FISMA/NIST vulnerability management experience (ACAS/Nessus) partially address the contract's security compliance requirements and could anchor a narrow cybersecurity section of a capability statement [req 53912490-b04ce8af-p8-e9536625].",
+   "The 24x7 NOC in Norman, OK and ITIL 4-certified Tier 1–3 help desk meet the after-hours logging and SLA response requirements for the user-support sub-task [req 53912490-b04ce8af-p11-af881e0d]."
+  ],
+  "reasons_against": [
+   "Sooner Systems has no biomedical or clinical trial informatics experience whatsoever — no CTEP-ESYS, protocol management, investigational agent management, or safety reporting capability — leaving Task Areas 3 and 4 entirely uncovered [req 53912490-b04ce8af-p3-ca2045b4].",
+   "The firm has no enterprise application development, maintenance, modernization, AI/ML integration, FHIR/CDISC interoperability, HHS EPLC, or Section 508 capability, accounting for 18 of 32 requirements rated as gaps [req 53912490-b04ce8af-p18-de9244fb; req 53912490-b04ce8af-p19-6f28203d; req 53912490-b04ce8af-p18-1b5bd551].",
+   "Past performance contract values ($0.74M–$2.1M) and scope (Army Corps help desk, FAA cybersecurity, OK National Guard M365 tenant migration) are far below the enterprise-scale clinical IT environment required, and neither record covers clinical or biomedical IT [profile: past performance, matched records — network administration/cybersecurity and IT help desk/desktop support only]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-09-15",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-09-17T15:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": null,
+   "source_quotes": [
+    "All capability statements sent in response to this Small Business Sources Sought notice must be sent electronically via email to Rosa Lopez, Contracting Officer at Rosa.Lopez@nih.gov in either MS Word or Adobe Portable Document Format (PDF) by September 17, 2026, 3:00PM ET."
+   ]
+  },
+  "fit_score": 0.2742,
+  "matrix_summary": "4 of 32 requirements met, 9 partial, 18 gap, 1 unknown",
+  "evidence_link": "https://sam.gov/opp/53912490fe424fd7a9e11fdaaf6a22a4/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "53912490-b04ce8af-p2-8071699c",
+   "quote": "the Contractor shall provide technical, informatics, analytical, engineering, operational, and modernization support that enables and improves the conduct, oversight, and evaluation of NCI-sponsored oncology clinical research",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 2,
+   "firm_answer": "Sooner Systems has no informatics, analytical engineering, or clinical research modernization capability. The firm provides IT help desk, network administration, and cybersecurity staffing only.",
+   "status": "gap",
+   "evidence": "Firm profile lists: help desk, desktop/network admin, M365/Azure admin, RMF/ATO, vulnerability management, cybersecurity staffing — no biomedical or clinical informatics."
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p3-ca2045b4",
+   "quote": "The Contractor shall provide technical and operational support services for CTEP-ESYS applications, services, infrastructure, and information management capabilities in direct support of the conduct, oversight, and evaluation of NCI-sponsored oncology clinical trials",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 3,
+   "firm_answer": "Sooner Systems has no experience with CTEP-ESYS or any oncology clinical trial enterprise application environment.",
+   "status": "gap",
+   "evidence": "Past performance covers Army Corps help desk, FAA cybersecurity, and OK National Guard M365 migration — no clinical or biomedical IT."
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p3-fb3b3a7f",
+   "quote": "TASKS The Contractor shall perform the following tasks: Task Area 1 – Task Order (TO) Management Task Area 2 – Infrastructure, Hosting, Security, and Continuity Task Area 3 – Operations, Maintenance, Enhancement, and Support Services Task Area 4 – Information Management, Data Integration, and Interoperability",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 3,
+   "firm_answer": "Task Area 1 (program management) and portions of Task Area 2 (security/continuity) are partially within scope; Task Areas 3 and 4 (application O&M, data integration, interoperability) are entirely outside the firm's stated capabilities.",
+   "status": "gap",
+   "evidence": "Firm profile covers cybersecurity staffing and help desk; no application development/maintenance or data integration capability listed."
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p5-1c411a83",
+   "quote": "The Contractor shall ensure all software supporting the CTEP-ESYS environment remains functional, secure, and compatible during ongoing operations and throughout the transition from NIH data center to cloud or alternate data center environment",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 5,
+   "firm_answer": "Sooner Systems has no software maintenance or application compatibility capability. Azure administration experience does not extend to managing custom enterprise application software.",
+   "status": "gap",
+   "evidence": "Firm profile lists Microsoft 365 and Azure administration but no custom software maintenance or application lifecycle management."
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p8-f9e88dc6",
+   "quote": "The Contractor shall continue to plan, coordinate, and execute the orderly, secure migration of CTEP-ESYS applications and supporting components from the current hosting environment to a Government-designated cloud environment or, if directed, to an alternate NIH data center",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 8,
+   "firm_answer": "Sooner Systems performed a Microsoft 365 migration for the Oklahoma National Guard but has no experience migrating large-scale custom enterprise application suites to cloud environments.",
+   "status": "gap",
+   "evidence": "Past performance: 'Systems administration and Microsoft 365 migration | Oklahoma National Guard' — tenant migration only, not enterprise application migration."
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p18-de9244fb",
+   "quote": "This capability shall conform to applicable interoperability standards including FHIR and CDISC and shall be maintained as a documented interface specification subject to version control and COR review",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 18,
+   "firm_answer": "Sooner Systems has no FHIR or CDISC interoperability capability. The firm profile makes no mention of healthcare data standards.",
+   "status": "gap",
+   "evidence": "Firm profile is entirely silent on FHIR, CDISC, HL7, or any healthcare interoperability standard."
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p18-1b5bd551",
+   "quote": "the Contractor shall develop, maintain, and enhance integration between CTEP-ESYS and NIH's enterprise AI platform, which serves as the authoritative environment for AI and machine learning capabilities",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 18,
+   "firm_answer": "Sooner Systems has no AI/ML development, integration, or platform capability listed in the firm profile.",
+   "status": "gap",
+   "evidence": "Firm profile is entirely silent on AI, ML, data science, or advanced analytics."
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p9-da1ac9d7",
+   "quote": "The Contractor shall maintain and verify system backups and support operational continuity for all critical CTEP-ESYS applications and data",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 9,
+   "firm_answer": "Backup and disaster recovery for enterprise applications is not listed. The firm's 24x7 NOC demonstrates operational monitoring posture but not application-level backup/DR management.",
+   "status": "gap",
+   "evidence": "Firm profile: '24x7 NOC in Norman, OK' — monitoring capability only; no application backup/DR management listed."
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p10-8086d5ac",
+   "quote": "Critical CTEP-ESYS applications must be operational within 4 hours and be fully operational within 24 hours of failure detection",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 10,
+   "firm_answer": "Sooner Systems operates a 24x7 NOC and provides incident response, but has no capability to restore custom enterprise clinical trial applications within defined RTO windows.",
+   "status": "gap",
+   "evidence": "Firm profile: '24x7 NOC in Norman, OK' and 'incident response' — applicable to network/infrastructure monitoring, not application-level RTO compliance."
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p4-f529e8ca",
+   "quote": "The Contractor shall comply with all applicable federal regulations, HHS/NIH/NCI policies, and contract clauses governing information technology, security, privacy, accessibility, continuity, and records management, including but not limited to Section 508, FISMA, FedRAMP, HIPAA, HHS/NIH/NCI policy, and applicable NIST guidance",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 4,
+   "firm_answer": "Sooner Systems has RMF/ATO documentation and FISMA/NIST experience via FAA cybersecurity contract. CMMC Level 2 self-assessed. No FedRAMP, HIPAA, or Section 508 experience is listed.",
+   "status": "partial",
+   "evidence": "Past performance: 'Network administration and cybersecurity support | FAA' — keywords: RMF, ATO, vulnerability, ACAS, STIG. Firm profile: 'RMF/ATO documentation, vulnerability management (ACAS/Nessus), CMMC Level 2 self-assessed.'"
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p8-e9536625",
+   "quote": "5.2.2 System Security The Contractor shall:",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 8,
+   "firm_answer": "Sooner Systems has cybersecurity staffing, vulnerability management (ACAS/Nessus), and RMF/ATO documentation capability. However, this must be applied to a complex clinical enterprise application environment the firm has no experience with.",
+   "status": "partial",
+   "evidence": "Firm profile: 'RMF/ATO documentation, vulnerability management (ACAS/Nessus)'; Past performance: 'Network administration and cybersecurity support | FAA Mike Monroney Aeronautical Center.'"
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p12-261153a1",
+   "quote": "Information systems designed or developed for or on behalf of NIH at non-NIH facilities shall comply with all NIH policies developed in accordance with Federal Information Security Modernization Act (FISMA), NIST, and related NIH security and privacy control requirements for Federal information systems",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 12,
+   "firm_answer": "Sooner Systems has FISMA/NIST RMF experience from FAA engagement. However, the firm has no experience designing or developing information systems — only supporting security controls on existing infrastructure.",
+   "status": "partial",
+   "evidence": "Past performance: 'Network administration and cybersecurity support | FAA' — keywords: RMF, ATO, STIG, FISMA-aligned controls."
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p13-1b9f10aa",
+   "quote": "The security controls must be designed, developed, approved by NIH, and implemented in accordance with the provisions of NIH security system development life cycle as outlined in NIST Special Publication 800-37",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 13,
+   "firm_answer": "Sooner Systems has RMF/ATO documentation experience consistent with NIST SP 800-37 RMF process, but no NIH-specific SDLC experience.",
+   "status": "partial",
+   "evidence": "Firm profile: 'RMF/ATO documentation'; Past performance: 'Network administration and cybersecurity support | FAA' — keywords: RMF, ATO."
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p11-631706fa",
+   "quote": "All information systems development or enhancement tasks supported by the Contractor shall follow the HHS EPLC framework",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 11,
+   "firm_answer": "Sooner Systems has no information systems development capability and no documented HHS EPLC framework experience.",
+   "status": "gap",
+   "evidence": "Firm profile is silent on HHS EPLC, SDLC, or any software development lifecycle framework."
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p11-b730c460",
+   "quote": "All tickets must be categorized, tracked, and resolved properly to support smooth business operations",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 11,
+   "firm_answer": "Sooner Systems has ITIL 4-certified help desk staff with ticketing and service desk experience from the Army Corps of Engineers contract.",
+   "status": "meets",
+   "evidence": "Firm profile: 'ITIL 4 and Security+ across the bench'; Past performance: 'IT help desk and desktop support | US Army Corps of Engineers' — keywords: help desk, ticketing, ITIL, service desk."
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p11-12e8cb6d",
+   "quote": "Requests received after normal help desk hours shall be logged and made available for response at the start of the next business day, unless otherwise directed by the COR or covered by separate incident escalation procedures",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 11,
+   "firm_answer": "Sooner Systems operates a 24x7 NOC and provides Tier 1-3 help desk services with after-hours logging capability consistent with this requirement.",
+   "status": "meets",
+   "evidence": "Firm profile: '24x7 NOC in Norman, OK'; 'Tier 1-3 help desk'; Past performance: 'IT help desk and desktop support | US Army Corps of Engineers.'"
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p11-af881e0d",
+   "quote": "Requests received after-hours shall receive a response within 4 working hours from the start of the next working day",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 11,
+   "firm_answer": "Sooner Systems' 24x7 NOC and ITIL 4 service desk practices support defined SLA response windows.",
+   "status": "meets",
+   "evidence": "Firm profile: '24x7 NOC in Norman, OK'; 'ITIL 4 and Security+ across the bench'; Past performance: 'IT help desk and desktop support | US Army Corps of Engineers' — keywords: ITIL, service desk."
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p12-edd83827",
+   "quote": "Work with COR and CTEP Leadership to ensure response timelines are appropriate for the type of assistance requested (e.g., currently CTEP-AERS SAE report submission issues must be addressed within 4 business hours)",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 12,
+   "firm_answer": "Sooner Systems can manage SLA-based response timelines via ITIL processes, but has no experience with CTEP-AERS or SAE (Serious Adverse Event) safety reporting systems.",
+   "status": "partial",
+   "evidence": "Firm profile: 'ITIL 4 and Security+ across the bench'; Past performance: 'IT help desk and desktop support | US Army Corps of Engineers' — ITIL, ticketing. No clinical safety reporting experience."
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p20-420145e3",
+   "quote": "No later than 90 calendar days after contract award, the Contractor shall deliver a functional overlap and consolidation assessment of the current CTEP-ESYS application portfolio to the COR",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 20,
+   "firm_answer": "Sooner Systems has no experience assessing enterprise clinical trial application portfolios for consolidation or modernization.",
+   "status": "gap",
+   "evidence": "Firm profile is silent on application portfolio assessment, enterprise architecture analysis, or clinical informatics portfolio management."
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p20-88857f82",
+   "quote": "This assessment shall identify applications, services, or components with overlapping, or duplicative functionality; evaluate candidates for consolidation, retirement, replacement, replatforming, or modernization; identify key dependencies, risks, and operational considerations; and provide recommendations with supporting rationale and prioritization",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 20,
+   "firm_answer": "No application modernization assessment capability is present in the firm profile.",
+   "status": "gap",
+   "evidence": "Firm profile is silent on application portfolio rationalization, modernization planning, or enterprise architecture."
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p19-6f28203d",
+   "quote": "The following 508 standards shall be employed: Section 508 of the Rehabilitation Act, as amended by the Workforce Investment Act of 1998 (P.L. 105-220) requires that when Federal agencies develop, procure, maintain, or use information and communication technology (ICT), it shall be accessible to people with disabilities",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 19,
+   "firm_answer": "Sooner Systems has no Section 508 compliance or accessibility conformance capability listed in the firm profile.",
+   "status": "gap",
+   "evidence": "Firm profile is entirely silent on Section 508, WCAG, accessibility testing, or ACR reporting."
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p20-55d108da",
+   "quote": "The Contractor shall comply with HHS Policy for Section 508 Compliance and Accessibility of ICT (July 2020) and shall confirm conformance using the HHS Accessibility Checklist, WCAG 2.0/2.1 guidance, or equivalent tools provided by HHS or GSA",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 20,
+   "firm_answer": "No Section 508 or WCAG compliance capability is documented in the firm profile.",
+   "status": "gap",
+   "evidence": "Firm profile is silent on Section 508, WCAG, or HHS accessibility policy compliance."
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p26-71838b5c",
+   "quote": "Migration shall be performed with zero downtime for IAM and all application modules within CTEP-ESYS during peak working hours",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 26,
+   "firm_answer": "Sooner Systems has no zero-downtime enterprise application migration capability. M365 migration for OK National Guard does not demonstrate this level of application migration engineering.",
+   "status": "gap",
+   "evidence": "Past performance: 'Systems administration and Microsoft 365 migration | Oklahoma National Guard' — tenant migration only, not zero-downtime enterprise application migration."
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p21-a888b257",
+   "quote": "The plan shall include complete documentation and artifacts related to any artificial intelligence (AI), automation, analytics, or other advanced technologies used within CTEP-ESYS, including system architecture, configurations, models or rules (as applicable), data sources, operational procedures, limitations, and dependencies, approvals, and support considerations",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 21,
+   "firm_answer": "Sooner Systems has no AI, automation, or advanced analytics documentation capability.",
+   "status": "gap",
+   "evidence": "Firm profile is entirely silent on AI, ML, automation, or analytics."
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p13-c02ee21d",
+   "quote": "Any AI or ML capabilities proposed, developed, or implemented under this contract shall align with NIH's validated enterprise AI platform and shall not introduce independent commercial AI tools or contractor-managed AI infrastructure without explicit written approval from the COR",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 13,
+   "firm_answer": "Sooner Systems has no AI/ML capability to propose, develop, or implement. This requirement is not applicable but cannot be met if needed.",
+   "status": "unknown",
+   "evidence": "Firm profile is entirely silent on AI/ML capabilities."
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p21-836b3378",
+   "quote": "The Contractor shall prepare and submit a draft Phase-Out transition plan to facilitate the accomplishment of a seamless transition",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 21,
+   "firm_answer": "General transition planning is within program management scope, but phase-out of a clinical enterprise application environment is outside the firm's documented experience.",
+   "status": "partial",
+   "evidence": "Firm profile: general IT support and staffing; no enterprise application phase-out planning documented."
+  },
+  {
+   "requirement_id": "53912490-descript-p0-a27ed7b0",
+   "quote": "All capability statements sent in response to this Small Business Sources Sought notice must be sent electronically via email to Rosa Lopez, Contracting Officer at Rosa.Lopez@nih.gov in either MS Word or Adobe Portable Document Format (PDF) by September 17, 2026, 3:00PM ET",
+   "source_file": "description",
+   "page": 0,
+   "firm_answer": "Sooner Systems can submit a capability statement electronically in MS Word or PDF format by the deadline. 3.3 days remain to close.",
+   "status": "meets",
+   "evidence": "Administrative submission requirement; no technical capability required."
+  },
+  {
+   "requirement_id": "53912490-descript-p0-9c1fdc2d",
+   "quote": "Information furnished must not exceed 12 pages (12-point font minimum), including all attachments, resumes, charts, etc., and should include an outline of previous or similar projects performed covering each requirement above",
+   "source_file": "description",
+   "page": 0,
+   "firm_answer": "Sooner Systems can format a 12-page capability statement. However, the firm has very limited relevant past performance to outline against the clinical trial system requirements.",
+   "status": "partial",
+   "evidence": "Administrative formatting is achievable; substantive coverage of clinical trial requirements is severely limited by the firm's profile."
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p5-77c28ba7",
+   "quote": "All information management, hosting, and migration activities shall be performed in compliance with applicable federal regulations and HHS/NIH/NCI policies governing data security, privacy, records management, and system performance",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 5,
+   "firm_answer": "Sooner Systems has FISMA/NIST compliance experience but no HHS/NIH/NCI-specific policy compliance, HIPAA, or clinical data privacy experience.",
+   "status": "partial",
+   "evidence": "Past performance: 'Network administration and cybersecurity support | FAA' — keywords: RMF, ATO, FISMA-aligned. No HHS/NIH or HIPAA experience listed."
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p27-01c1b72a",
+   "quote": "During all stages of migration, compliance with relevant regulatory requirements and industry standards, including FISMA, FedRAMP (for cloud systems), security protocols, and data protection regulation, must be maintained and assured",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 27,
+   "firm_answer": "Sooner Systems has FISMA/NIST RMF experience. No FedRAMP authorization support or cloud security compliance experience is documented.",
+   "status": "partial",
+   "evidence": "Firm profile: 'RMF/ATO documentation, vulnerability management (ACAS/Nessus)'; Past performance: 'Network administration and cybersecurity support | FAA.' No FedRAMP experience listed."
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p14-02df24eb",
+   "quote": "At a minimum, the contractor shall develop and maintain dependency diagrams for the following core workflows: protocol activation, protocol amendment propagation, and patient enrollment",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 14,
+   "firm_answer": "Sooner Systems has no clinical trial workflow knowledge (protocol activation, amendment propagation, patient enrollment) and no enterprise architecture diagramming capability for clinical systems.",
+   "status": "gap",
+   "evidence": "Firm profile is entirely silent on clinical trial workflows, protocol management, or patient enrollment systems."
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p15-1eac9298",
+   "quote": "The Contractor shall consider ways to reduce complexity of maintenance tasks, support data quality and increase ease of use of the application and other integrated systems",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 15,
+   "firm_answer": "Sooner Systems has no application maintenance, data quality management, or UX improvement capability for enterprise clinical applications.",
+   "status": "gap",
+   "evidence": "Firm profile is silent on application maintenance engineering, data quality, or user experience improvement."
+  }
+ ],
+ "matrix_dropped": 8,
+ "matrix_dropped_rows": [
+  {
+   "requirement_id": "53912490-b04ce8af-p2-eac9cae3",
+   "quote": "The Contractor's support shall directly enable protocol development, study administration, user and site credentialing, investigational agent management, safety reporting, regulatory support, interoperability, reporting, clinical data integration, and research decision support across trial phases",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 2,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p4-f529e8ca",
+   "quote": "The contractor shall plan for and implement, with COR approval, a transition to an alternative solution with the Government-approved Cloud environment the preferred option",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 4,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p4-602b98f2",
+   "quote": "all CTEP-ESYS applications and supporting components currently hosted in Building 12 shall be migrated to a Government-approved target environment no later than December 31, 2030, unless otherwise directed by the Government",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 4,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p18-947de708",
+   "quote": "the Contractor shall support Government-approved interoperability with external or partner systems, as directed, including but not limited to ClinicalTrials.gov, OnCore, NCORP-related systems, CTSU-supported applications, REDCap, LPO clinical trial applications, FDA systems, and other approved platforms requiring data exchange or workflow integration with CTEP-ESYS",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 18,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p4-108361a9",
+   "quote": "The contractor shall plan for and implement, with COR approval, a transition to an alternative solution with the Government-approved Cloud environment the preferred option",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 4,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p9-c2d86ad2",
+   "quote": "The contractor shall document all AI-enabled security tools, their data dependencies, and their integration points with NIH's broader AI platform as part of the system security plan maintained under this task",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 9,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p3-3ad931e0",
+   "quote": "As directed by NIH/NCI, the Contractor shall also support the establishment and use of measurable key performance indicators (KPIs) to assess operational effectiveness, modernization outcomes, and the value of deployed capabilities",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 3,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "53912490-b04ce8af-p20-1eddf8cb",
+   "quote": "Within seven (7) calendar days of the award, the draft Phase-In Transition Plan submitted with the proposal shall be revised, if necessary, and shall become the final Phase-In Transition Plan upon approval of the Contracting Officer's Representative (COR)",
+   "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+   "page": 20,
+   "reason": "not_verbatim"
+  }
+ ],
+ "fit_score_code": 0.2742,
+ "drafts": {
+  "capability_statement": "Rosa Lopez, Contracting Officer\nNational Institutes of Health, NCI OLAO\nRe: NCI Oncology Clinical Trial System, Management and Support — Sources Sought Notice 53912490fe424fd7a9e11fdaaf6a22a4\n\nSooner Systems LLC is a small business headquartered in Norman, Oklahoma, responding to NCI's request for information on qualified sources for CTEP-ESYS support.\n\nSooner Systems provides IT infrastructure support, cybersecurity, and service desk services to federal civilian and defense agencies. Our relevant capabilities include:\n\n**Cybersecurity & Compliance:** We hold hands-on experience with RMF/ATO documentation, vulnerability management using ACAS/Nessus, STIG implementation, and FISMA/NIST SP 800-37 RMF processes, demonstrated through our network administration and cybersecurity support engagement at the FAA Mike Monroney Aeronautical Center. We are CMMC Level 2 self-assessed.\n\n**Cloud & Infrastructure Administration:** Our team has performed Microsoft Azure and Microsoft 365 administration, including a migration engagement for the Oklahoma National Guard.\n\n**Service Desk & Operational Continuity:** We operate a 24x7 NOC in Norman, OK, staffed with ITIL 4- and Security+-certified personnel providing Tier 1–3 help desk support. We have delivered ticketing, SLA management, and after-hours incident logging for the U.S. Army Corps of Engineers.\n\nSooner Systems acknowledges that CTEP-ESYS requires deep clinical trial informatics, application development, FHIR/CDISC interoperability, and AI/ML integration capabilities that currently exceed our core service lines. We are submitting this statement to register our interest and understand the government's requirements as this acquisition develops.\n\nPoint of Contact: [Name, Title, Phone, Email]",
+  "questions_for_co": [
+   "Task Areas 3 and 4 (Operations, Maintenance, Enhancement, and Support; Information Management, Data Integration, and Interoperability) appear to require deep clinical trial application development and FHIR/CDISC interoperability expertise — does NCI anticipate that a prime contractor could satisfy these task areas through teaming arrangements with specialized subcontractors, or must the prime demonstrate all capabilities independently? [req 53912490-b04ce8af-p3-fb3b3a7f; req 53912490-b04ce8af-p18-de9244fb]",
+   "The solicitation states that AI/ML capabilities must align with NIH's validated enterprise AI platform and that no independent commercial AI tools may be introduced without written COR approval — can NCI describe the current state of that enterprise AI platform and whether contractors are expected to bring AI/ML development staff, or primarily to govern and document existing platform integrations? [req 53912490-b04ce8af-p13-c02ee21d; req 53912490-b04ce8af-p18-1b5bd551]",
+   "The RTO requirement specifies that critical CTEP-ESYS applications must be operational within 4 hours and fully operational within 24 hours of failure detection — does NCI expect the contractor to own application-level backup and recovery engineering, or will the government retain responsibility for application recovery while the contractor provides infrastructure and monitoring support? [req 53912490-b04ce8af-p10-8086d5ac; req 53912490-b04ce8af-p9-da1ac9d7]",
+   "The zero-downtime migration requirement applies to IAM and all application modules during peak working hours — does NCI anticipate that the incumbent contractor will provide a structured knowledge transfer and that the migration plan will be co-developed with the government, or is the incoming contractor expected to independently assess and execute the full migration from NIH Building 12? [req 53912490-b04ce8af-p26-71838b5c; req 53912490-b04ce8af-p8-f9e88dc6]",
+   "The HHS EPLC framework is required for all information systems development or enhancement tasks — will NCI provide EPLC templates, gate review schedules, and COR guidance to the contractor, or is the contractor expected to arrive with independent HHS EPLC implementation experience? [req 53912490-b04ce8af-p11-631706fa]",
+   "Section 508 conformance is required across all ICT developed or maintained under this contract — does NCI currently have an accessibility testing environment, HHS Accessibility Checklist tooling, or a designated 508 coordinator who will work with the contractor, or must the contractor independently stand up all Section 508 testing and ACR reporting infrastructure? [req 53912490-b04ce8af-p19-6f28203d; req 53912490-b04ce8af-p20-55d108da]"
+  ],
+  "calendar_entries": [
+   {
+    "title": "Response (Capability Statement) Due",
+    "date": "2026-09-17",
+    "note": "Capability statements must be emailed to Rosa.Lopez@nih.gov in MS Word or PDF by 3:00 PM ET. Responses received after this deadline will not be considered.",
+    "source_quote": "All capability statements sent in response to this Small Business Sources Sought notice must be sent electronically via email to Rosa Lopez, Contracting Officer at Rosa.Lopez@nih.gov in either MS Word or Adobe Portable Document Format (PDF) by September 17, 2026, 3:00PM ET."
+   },
+   {
+    "title": "All Responses Must Be Received",
+    "date": "2026-09-17",
+    "note": "Firm deadline — late responses are excluded from consideration.",
+    "source_quote": "All responses must be received by the specified due date and time in order to be considered."
+   },
+   {
+    "title": "Decide By (2 Business Days Before Response Due)",
+    "date": "2026-09-15",
+    "note": "Internal bid/no-bid decision deadline — two business days before the September 17 response due date, allowing time to finalize and submit the capability statement.",
+    "source_quote": "All capability statements sent in response to this Small Business Sources Sought notice must be sent electronically via email to Rosa Lopez, Contracting Officer at Rosa.Lopez@nih.gov in either MS Word or Adobe Portable Document Format (PDF) by September 17, 2026, 3:00PM ET."
+   }
+  ]
+ },
+ "reader": {
+  "notice_id": "53912490fe424fd7a9e11fdaaf6a22a4",
+  "key_requirement_ids": [
+   "53912490-b04ce8af-p3-ca2045b4",
+   "53912490-b04ce8af-p3-fb3b3a7f",
+   "53912490-b04ce8af-p2-e1d7815c",
+   "53912490-b04ce8af-p4-602b98f2",
+   "53912490-b04ce8af-p8-f9e88dc6",
+   "53912490-b04ce8af-p5-1c411a83",
+   "53912490-b04ce8af-p9-da1ac9d7",
+   "53912490-b04ce8af-p8-e9536625",
+   "53912490-b04ce8af-p4-f529e8ca",
+   "53912490-b04ce8af-p4-f529e8ca",
+   "53912490-b04ce8af-p10-8086d5ac",
+   "53912490-b04ce8af-p11-631706fa",
+   "53912490-b04ce8af-p4-108361a9",
+   "53912490-b04ce8af-p18-947de708",
+   "53912490-b04ce8af-p18-1b5bd551",
+   "53912490-b04ce8af-p13-c02ee21d",
+   "53912490-b04ce8af-p12-261153a1",
+   "53912490-b04ce8af-p13-1b9f10aa",
+   "53912490-b04ce8af-p20-ff97048e",
+   "53912490-b04ce8af-p20-420145e3",
+   "53912490-descript-p0-a27ed7b0",
+   "53912490-b04ce8af-p26-71838b5c",
+   "53912490-b04ce8af-p19-6f28203d",
+   "53912490-b04ce8af-p21-836b3378",
+   "53912490-b04ce8af-p11-b730c460"
+  ],
+  "scope_summary": "The government is buying enterprise-level technical and operational support services for CTEP-ESYS, NCI's integrated suite of applications that supports the conduct, oversight, and evaluation of NCI-sponsored oncology clinical trials, including protocol management, investigational agent management, safety reporting, and regulatory workflows. The work spans four task areas: task order management, infrastructure/hosting/security/continuity, operations/maintenance/enhancement/support, and information management/data integration/interoperability, while also requiring migration of all CTEP-ESYS applications from the NIH Building 12 data center to a Government-approved cloud or alternate data center no later than December 31, 2030. The contractor must also support modernization of legacy components, AI/ML integration via NIH's enterprise AI platform, Section 508 compliance, and FISMA/NIST/FedRAMP security controls, all without disrupting active clinical trial operations.",
+  "evaluation_basis": "not stated",
+  "incumbent_or_history": "\"The Contractor shall work with the predecessor Contractor to establish communication protocols and ensure that work operations are fully understood, and continuity of operations are maintained through the transition.\"",
+  "quotes": [
+   "CTEP's Enterprise System (CTEP-ESYS) is NCI's enterprise system environment for supporting the conduct, oversight, and evaluation of NCI-sponsored oncology clinical trials.",
+   "The Contractor shall provide technical and operational support services for CTEP-ESYS applications, services, infrastructure, and information management capabilities in direct support of the conduct, oversight, and evaluation of NCI-sponsored oncology clinical trials.",
+   "It is anticipated that the NIH Building 12 data center will be decommissioned during the life of this contract, and all CTEP-ESYS applications and supporting components currently hosted in Building 12 shall be migrated to a Government -approved target environment no later than December 31, 2030, unless otherwise directed by the Government.",
+   "The Contractor shall comply with all applicable federal regulations, HHS/NIH/NCI policies, and contract clauses governing information technology, security, privacy, accessibility, continuity, and records management, including but not limited to Section 508, FISMA, FedRAMP, HIPAA, HHS/NIH/NCI policy, and applicable NIST guidance.",
+   "Critical CTEP-ESYS applications must be operational within 4 hours and be fully operational within 24 hours of failure detection.",
+   "Any AI or ML capabilities proposed, developed, or implemented under this contract shall align with NIH's validated enterprise AI platform and shall not introduce independent commercial AI tools or contractor-managed AI infrastructure without explicit written approval from the COR.",
+   "Migration shall be performed with zero downtime for IAM and all application modules within CTEP-ESYS during peak working hours.",
+   "The Contractor shall work with the predecessor Contractor to establish communication protocols and ensure that work operations are fully understood, and continuity of operations are maintained through the transition.",
+   "All information systems development or enhancement tasks supported by the Contractor shall follow the HHS EPLC framework.",
+   "The goal of this acquisition is to identify qualified small business sources capable of providing enterprise-level informatics, application development, modernization, and operational support for CTEP-ESYS environment."
+  ]
+ },
+ "fit": {
+  "notice_id": "53912490fe424fd7a9e11fdaaf6a22a4",
+  "fit_score": 0.1,
+  "matched_past_performance": [
+   "Network administration and cybersecurity support",
+   "IT help desk and desktop support"
+  ],
+  "strengths": [
+   "SDVOSB set-aside eligibility aligns with sources-sought inquiry",
+   "RMF/ATO documentation and vulnerability management partially address FISMA/NIST security compliance requirements",
+   "ITIL 4 help desk capability addresses the narrow user-support and ticketing sub-task",
+   "Azure administration experience touches cloud environment awareness",
+   "24x7 NOC demonstrates operational continuity posture"
+  ],
+  "gaps": [
+   "No custom enterprise application development, maintenance, or modernization capability",
+   "No biomedical or clinical trial informatics experience (CTEP-ESYS, protocol management, study activation, investigational agent management)",
+   "No clinical data management, FHIR, or CDISC interoperability capability",
+   "No AI/ML development, integration, or governance capability",
+   "No cloud migration of mission-critical application suites (only M365 tenant migration)",
+   "No software engineering, DevSecOps, or Agile SDLC delivery capability",
+   "No safety reporting or regulatory workflow (FDA, CTEP-AERS) domain knowledge",
+   "No database administration, data engineering, or business intelligence capability",
+   "No HHS EPLC framework experience",
+   "No Section 508 / accessibility conformance reporting experience",
+   "Past performance contract values ($0.74M–$2.1M) far below enterprise-scale requirement",
+   "Only two marginally relevant past-performance records; neither covers clinical or biomedical IT"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "53912490-b04ce8af-p2-8071699c",
+    "quote": "the Contractor shall provide technical, informatics, analytical, engineering, operational, and modernization support that enables and improves the conduct, oversight, and evaluation of NCI-sponsored oncology clinical research",
+    "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+    "page": 2,
+    "firm_answer": "Sooner Systems has no informatics, analytical engineering, or clinical research modernization capability. The firm provides IT help desk, network administration, and cybersecurity staffing only.",
+    "status": "gap",
+    "evidence": "Firm profile lists: help desk, desktop/network admin, M365/Azure admin, RMF/ATO, vulnerability management, cybersecurity staffing — no biomedical or clinical informatics."
+   },
+   {
+    "requirement_id": "53912490-b04ce8af-p3-ca2045b4",
+    "quote": "The Contractor shall provide technical and operational support services for CTEP-ESYS applications, services, infrastructure, and information management capabilities in direct support of the conduct, oversight, and evaluation of NCI-sponsored oncology clinical trials",
+    "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+    "page": 3,
+    "firm_answer": "Sooner Systems has no experience with CTEP-ESYS or any oncology clinical trial enterprise application environment.",
+    "status": "gap",
+    "evidence": "Past performance covers Army Corps help desk, FAA cybersecurity, and OK National Guard M365 migration — no clinical or biomedical IT."
+   },
+   {
+    "requirement_id": "53912490-b04ce8af-p3-fb3b3a7f",
+    "quote": "TASKS The Contractor shall perform the following tasks: Task Area 1 – Task Order (TO) Management Task Area 2 – Infrastructure, Hosting, Security, and Continuity Task Area 3 – Operations, Maintenance, Enhancement, and Support Services Task Area 4 – Information Management, Data Integration, and Interoperability",
+    "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+    "page": 3,
+    "firm_answer": "Task Area 1 (program management) and portions of Task Area 2 (security/continuity) are partially within scope; Task Areas 3 and 4 (application O&M, data integration, interoperability) are entirely outside the firm's stated capabilities.",
+    "status": "gap",
+    "evidence": "Firm profile covers cybersecurity staffing and help desk; no application development/maintenance or data integration capability listed."
+   },
+   {
+    "requirement_id": "53912490-b04ce8af-p5-1c411a83",
+    "quote": "The Contractor shall ensure all software supporting the CTEP-ESYS environment remains functional, secure, and compatible during ongoing operations and throughout the transition from NIH data center to cloud or alternate data center environment",
+    "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+    "page": 5,
+    "firm_answer": "Sooner Systems has no software maintenance or application compatibility capability. Azure administration experience does not extend to managing custom enterprise application software.",
+    "status": "gap",
+    "evidence": "Firm profile lists Microsoft 365 and Azure administration but no custom software maintenance or application lifecycle management."
+   },
+   {
+    "requirement_id": "53912490-b04ce8af-p8-f9e88dc6",
+    "quote": "The Contractor shall continue to plan, coordinate, and execute the orderly, secure migration of CTEP-ESYS applications and supporting components from the current hosting environment to a Government-designated cloud environment or, if directed, to an alternate NIH data center",
+    "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+    "page": 8,
+    "firm_answer": "Sooner Systems performed a Microsoft 365 migration for the Oklahoma National Guard but has no experience migrating large-scale custom enterprise application suites to cloud environments.",
+    "status": "gap",
+    "evidence": "Past performance: 'Systems administration and Microsoft 365 migration | Oklahoma National Guard' — tenant migration only, not enterprise application migration."
+   },
+   {
+    "requirement_id": "53912490-b04ce8af-p18-de9244fb",
+    "quote": "This capability shall conform to applicable interoperability standards including FHIR and CDISC and shall be maintained as a documented interface specification subject to version control and COR review",
+    "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+    "page": 18,
+    "firm_answer": "Sooner Systems has no FHIR or CDISC interoperability capability. The firm profile makes no mention of healthcare data standards.",
+    "status": "gap",
+    "evidence": "Firm profile is entirely silent on FHIR, CDISC, HL7, or any healthcare interoperability standard."
+   },
+   {
+    "requirement_id": "53912490-b04ce8af-p18-1b5bd551",
+    "quote": "the Contractor shall develop, maintain, and enhance integration between CTEP-ESYS and NIH's enterprise AI platform, which serves as the authoritative environment for AI and machine learning capabilities",
+    "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+    "page": 18,
+    "firm_answer": "Sooner Systems has no AI/ML development, integration, or platform capability listed in the firm profile.",
+    "status": "gap",
+    "evidence": "Firm profile is entirely silent on AI, ML, data science, or advanced analytics."
+   },
+   {
+    "requirement_id": "53912490-b04ce8af-p9-da1ac9d7",
+    "quote": "The Contractor shall maintain and verify system backups and support operational continuity for all critical CTEP-ESYS applications and data",
+    "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+    "page": 9,
+    "firm_answer": "Backup and disaster recovery for enterprise applications is not listed. The firm's 24x7 NOC demonstrates operational monitoring posture but not application-level backup/DR management.",
+    "status": "gap",
+    "evidence": "Firm profile: '24x7 NOC in Norman, OK' — monitoring capability only; no application backup/DR management listed."
+   },
+   {
+    "requirement_id": "53912490-b04ce8af-p10-8086d5ac",
+    "quote": "Critical CTEP-ESYS applications must be operational within 4 hours and be fully operational within 24 hours of failure detection",
+    "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+    "page": 10,
+    "firm_answer": "Sooner Systems operates a 24x7 NOC and provides incident response, but has no capability to restore custom enterprise clinical trial applications within defined RTO windows.",
+    "status": "gap",
+    "evidence": "Firm profile: '24x7 NOC in Norman, OK' and 'incident response' — applicable to network/infrastructure monitoring, not application-level RTO compliance."
+   },
+   {
+    "requirement_id": "53912490-b04ce8af-p4-f529e8ca",
+    "quote": "The Contractor shall comply with all applicable federal regulations, HHS/NIH/NCI policies, and contract clauses governing information technology, security, privacy, accessibility, continuity, and records management, including but not limited to Section 508, FISMA, FedRAMP, HIPAA, HHS/NIH/NCI policy, and applicable NIST guidance",
+    "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+    "page": 4,
+    "firm_answer": "Sooner Systems has RMF/ATO documentation and FISMA/NIST experience via FAA cybersecurity contract. CMMC Level 2 self-assessed. No FedRAMP, HIPAA, or Section 508 experience is listed.",
+    "status": "partial",
+    "evidence": "Past performance: 'Network administration and cybersecurity support | FAA' — keywords: RMF, ATO, vulnerability, ACAS, STIG. Firm profile: 'RMF/ATO documentation, vulnerability management (ACAS/Nessus), CMMC Level 2 self-assessed.'"
+   },
+   {
+    "requirement_id": "53912490-b04ce8af-p8-e9536625",
+    "quote": "5.2.2 System Security The Contractor shall:",
+    "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+    "page": 8,
+    "firm_answer": "Sooner Systems has cybersecurity staffing, vulnerability management (ACAS/Nessus), and RMF/ATO documentation capability. However, this must be applied to a complex clinical enterprise application environment the firm has no experience with.",
+    "status": "partial",
+    "evidence": "Firm profile: 'RMF/ATO documentation, vulnerability management (ACAS/Nessus)'; Past performance: 'Network administration and cybersecurity support | FAA Mike Monroney Aeronautical Center.'"
+   },
+   {
+    "requirement_id": "53912490-b04ce8af-p12-261153a1",
+    "quote": "Information systems designed or developed for or on behalf of NIH at non-NIH facilities shall comply with all NIH policies developed in accordance with Federal Information Security Modernization Act (FISMA), NIST, and related NIH security and privacy control requirements for Federal information systems",
+    "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+    "page": 12,
+    "firm_answer": "Sooner Systems has FISMA/NIST RMF experience from FAA engagement. However, the firm has no experience designing or developing information systems — only supporting security controls on existing infrastructure.",
+    "status": "partial",
+    "evidence": "Past performance: 'Network administration and cybersecurity support | FAA' — keywords: RMF, ATO, STIG, FISMA-aligned controls."
+   },
+   {
+    "requirement_id": "53912490-b04ce8af-p13-1b9f10aa",
+    "quote": "The security controls must be designed, developed, approved by NIH, and implemented in accordance with the provisions of NIH security system development life cycle as outlined in NIST Special Publication 800-37",
+    "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+    "page": 13,
+    "firm_answer": "Sooner Systems has RMF/ATO documentation experience consistent with NIST SP 800-37 RMF process, but no NIH-specific SDLC experience.",
+    "status": "partial",
+    "evidence": "Firm profile: 'RMF/ATO documentation'; Past performance: 'Network administration and cybersecurity support | FAA' — keywords: RMF, ATO."
+   },
+   {
+    "requirement_id": "53912490-b04ce8af-p11-631706fa",
+    "quote": "All information systems development or enhancement tasks supported by the Contractor shall follow the HHS EPLC framework",
+    "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+    "page": 11,
+    "firm_answer": "Sooner Systems has no information systems development capability and no documented HHS EPLC framework experience.",
+    "status": "gap",
+    "evidence": "Firm profile is silent on HHS EPLC, SDLC, or any software development lifecycle framework."
+   },
+   {
+    "requirement_id": "53912490-b04ce8af-p11-b730c460",
+    "quote": "All tickets must be categorized, tracked, and resolved properly to support smooth business operations",
+    "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+    "page": 11,
+    "firm_answer": "Sooner Systems has ITIL 4-certified help desk staff with ticketing and service desk experience from the Army Corps of Engineers contract.",
+    "status": "meets",
+    "evidence": "Firm profile: 'ITIL 4 and Security+ across the bench'; Past performance: 'IT help desk and desktop support | US Army Corps of Engineers' — keywords: help desk, ticketing, ITIL, service desk."
+   },
+   {
+    "requirement_id": "53912490-b04ce8af-p11-12e8cb6d",
+    "quote": "Requests received after normal help desk hours shall be logged and made available for response at the start of the next business day, unless otherwise directed by the COR or covered by separate incident escalation procedures",
+    "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+    "page": 11,
+    "firm_answer": "Sooner Systems operates a 24x7 NOC and provides Tier 1-3 help desk services with after-hours logging capability consistent with this requirement.",
+    "status": "meets",
+    "evidence": "Firm profile: '24x7 NOC in Norman, OK'; 'Tier 1-3 help desk'; Past performance: 'IT help desk and desktop support | US Army Corps of Engineers.'"
+   },
+   {
+    "requirement_id": "53912490-b04ce8af-p11-af881e0d",
+    "quote": "Requests received after-hours shall receive a response within 4 working hours from the start of the next working day",
+    "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+    "page": 11,
+    "firm_answer": "Sooner Systems' 24x7 NOC and ITIL 4 service desk practices support defined SLA response windows.",
+    "status": "meets",
+    "evidence": "Firm profile: '24x7 NOC in Norman, OK'; 'ITIL 4 and Security+ across the bench'; Past performance: 'IT help desk and desktop support | US Army Corps of Engineers' — keywords: ITIL, service desk."
+   },
+   {
+    "requirement_id": "53912490-b04ce8af-p12-edd83827",
+    "quote": "Work with COR and CTEP Leadership to ensure response timelines are appropriate for the type of assistance requested (e.g., currently CTEP-AERS SAE report submission issues must be addressed within 4 business hours)",
+    "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+    "page": 12,
+    "firm_answer": "Sooner Systems can manage SLA-based response timelines via ITIL processes, but has no experience with CTEP-AERS or SAE (Serious Adverse Event) safety reporting systems.",
+    "status": "partial",
+    "evidence": "Firm profile: 'ITIL 4 and Security+ across the bench'; Past performance: 'IT help desk and desktop support | US Army Corps of Engineers' — ITIL, ticketing. No clinical safety reporting experience."
+   },
+   {
+    "requirement_id": "53912490-b04ce8af-p20-420145e3",
+    "quote": "No later than 90 calendar days after contract award, the Contractor shall deliver a functional overlap and consolidation assessment of the current CTEP-ESYS application portfolio to the COR",
+    "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+    "page": 20,
+    "firm_answer": "Sooner Systems has no experience assessing enterprise clinical trial application portfolios for consolidation or modernization.",
+    "status": "gap",
+    "evidence": "Firm profile is silent on application portfolio assessment, enterprise architecture analysis, or clinical informatics portfolio management."
+   },
+   {
+    "requirement_id": "53912490-b04ce8af-p20-88857f82",
+    "quote": "This assessment shall identify applications, services, or components with overlapping, or duplicative functionality; evaluate candidates for consolidation, retirement, replacement, replatforming, or modernization; identify key dependencies, risks, and operational considerations; and provide recommendations with supporting rationale and prioritization",
+    "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+    "page": 20,
+    "firm_answer": "No application modernization assessment capability is present in the firm profile.",
+    "status": "gap",
+    "evidence": "Firm profile is silent on application portfolio rationalization, modernization planning, or enterprise architecture."
+   },
+   {
+    "requirement_id": "53912490-b04ce8af-p19-6f28203d",
+    "quote": "The following 508 standards shall be employed: Section 508 of the Rehabilitation Act, as amended by the Workforce Investment Act of 1998 (P.L. 105-220) requires that when Federal agencies develop, procure, maintain, or use information and communication technology (ICT), it shall be accessible to people with disabilities",
+    "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+    "page": 19,
+    "firm_answer": "Sooner Systems has no Section 508 compliance or accessibility conformance capability listed in the firm profile.",
+    "status": "gap",
+    "evidence": "Firm profile is entirely silent on Section 508, WCAG, accessibility testing, or ACR reporting."
+   },
+   {
+    "requirement_id": "53912490-b04ce8af-p20-55d108da",
+    "quote": "The Contractor shall comply with HHS Policy for Section 508 Compliance and Accessibility of ICT (July 2020) and shall confirm conformance using the HHS Accessibility Checklist, WCAG 2.0/2.1 guidance, or equivalent tools provided by HHS or GSA",
+    "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+    "page": 20,
+    "firm_answer": "No Section 508 or WCAG compliance capability is documented in the firm profile.",
+    "status": "gap",
+    "evidence": "Firm profile is silent on Section 508, WCAG, or HHS accessibility policy compliance."
+   },
+   {
+    "requirement_id": "53912490-b04ce8af-p26-71838b5c",
+    "quote": "Migration shall be performed with zero downtime for IAM and all application modules within CTEP-ESYS during peak working hours",
+    "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+    "page": 26,
+    "firm_answer": "Sooner Systems has no zero-downtime enterprise application migration capability. M365 migration for OK National Guard does not demonstrate this level of application migration engineering.",
+    "status": "gap",
+    "evidence": "Past performance: 'Systems administration and Microsoft 365 migration | Oklahoma National Guard' — tenant migration only, not zero-downtime enterprise application migration."
+   },
+   {
+    "requirement_id": "53912490-b04ce8af-p21-a888b257",
+    "quote": "The plan shall include complete documentation and artifacts related to any artificial intelligence (AI), automation, analytics, or other advanced technologies used within CTEP-ESYS, including system architecture, configurations, models or rules (as applicable), data sources, operational procedures, limitations, and dependencies, approvals, and support considerations",
+    "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+    "page": 21,
+    "firm_answer": "Sooner Systems has no AI, automation, or advanced analytics documentation capability.",
+    "status": "gap",
+    "evidence": "Firm profile is entirely silent on AI, ML, automation, or analytics."
+   },
+   {
+    "requirement_id": "53912490-b04ce8af-p13-c02ee21d",
+    "quote": "Any AI or ML capabilities proposed, developed, or implemented under this contract shall align with NIH's validated enterprise AI platform and shall not introduce independent commercial AI tools or contractor-managed AI infrastructure without explicit written approval from the COR",
+    "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+    "page": 13,
+    "firm_answer": "Sooner Systems has no AI/ML capability to propose, develop, or implement. This requirement is not applicable but cannot be met if needed.",
+    "status": "unknown",
+    "evidence": "Firm profile is entirely silent on AI/ML capabilities."
+   },
+   {
+    "requirement_id": "53912490-b04ce8af-p21-836b3378",
+    "quote": "The Contractor shall prepare and submit a draft Phase-Out transition plan to facilitate the accomplishment of a seamless transition",
+    "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+    "page": 21,
+    "firm_answer": "General transition planning is within program management scope, but phase-out of a clinical enterprise application environment is outside the firm's documented experience.",
+    "status": "partial",
+    "evidence": "Firm profile: general IT support and staffing; no enterprise application phase-out planning documented."
+   },
+   {
+    "requirement_id": "53912490-descript-p0-a27ed7b0",
+    "quote": "All capability statements sent in response to this Small Business Sources Sought notice must be sent electronically via email to Rosa Lopez, Contracting Officer at Rosa.Lopez@nih.gov in either MS Word or Adobe Portable Document Format (PDF) by September 17, 2026, 3:00PM ET",
+    "source_file": "description",
+    "page": 0,
+    "firm_answer": "Sooner Systems can submit a capability statement electronically in MS Word or PDF format by the deadline. 3.3 days remain to close.",
+    "status": "meets",
+    "evidence": "Administrative submission requirement; no technical capability required."
+   },
+   {
+    "requirement_id": "53912490-descript-p0-9c1fdc2d",
+    "quote": "Information furnished must not exceed 12 pages (12-point font minimum), including all attachments, resumes, charts, etc., and should include an outline of previous or similar projects performed covering each requirement above",
+    "source_file": "description",
+    "page": 0,
+    "firm_answer": "Sooner Systems can format a 12-page capability statement. However, the firm has very limited relevant past performance to outline against the clinical trial system requirements.",
+    "status": "partial",
+    "evidence": "Administrative formatting is achievable; substantive coverage of clinical trial requirements is severely limited by the firm's profile."
+   },
+   {
+    "requirement_id": "53912490-b04ce8af-p5-77c28ba7",
+    "quote": "All information management, hosting, and migration activities shall be performed in compliance with applicable federal regulations and HHS/NIH/NCI policies governing data security, privacy, records management, and system performance",
+    "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+    "page": 5,
+    "firm_answer": "Sooner Systems has FISMA/NIST compliance experience but no HHS/NIH/NCI-specific policy compliance, HIPAA, or clinical data privacy experience.",
+    "status": "partial",
+    "evidence": "Past performance: 'Network administration and cybersecurity support | FAA' — keywords: RMF, ATO, FISMA-aligned. No HHS/NIH or HIPAA experience listed."
+   },
+   {
+    "requirement_id": "53912490-b04ce8af-p27-01c1b72a",
+    "quote": "During all stages of migration, compliance with relevant regulatory requirements and industry standards, including FISMA, FedRAMP (for cloud systems), security protocols, and data protection regulation, must be maintained and assured",
+    "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+    "page": 27,
+    "firm_answer": "Sooner Systems has FISMA/NIST RMF experience. No FedRAMP authorization support or cloud security compliance experience is documented.",
+    "status": "partial",
+    "evidence": "Firm profile: 'RMF/ATO documentation, vulnerability management (ACAS/Nessus)'; Past performance: 'Network administration and cybersecurity support | FAA.' No FedRAMP experience listed."
+   },
+   {
+    "requirement_id": "53912490-b04ce8af-p14-02df24eb",
+    "quote": "At a minimum, the contractor shall develop and maintain dependency diagrams for the following core workflows: protocol activation, protocol amendment propagation, and patient enrollment",
+    "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+    "page": 14,
+    "firm_answer": "Sooner Systems has no clinical trial workflow knowledge (protocol activation, amendment propagation, patient enrollment) and no enterprise architecture diagramming capability for clinical systems.",
+    "status": "gap",
+    "evidence": "Firm profile is entirely silent on clinical trial workflows, protocol management, or patient enrollment systems."
+   },
+   {
+    "requirement_id": "53912490-b04ce8af-p15-1eac9298",
+    "quote": "The Contractor shall consider ways to reduce complexity of maintenance tasks, support data quality and increase ease of use of the application and other integrated systems",
+    "source_file": "b04ce8afa47d4d159f9fe48e777e30bc.pdf",
+    "page": 15,
+    "firm_answer": "Sooner Systems has no application maintenance, data quality management, or UX improvement capability for enterprise clinical applications.",
+    "status": "gap",
+    "evidence": "Firm profile is silent on application maintenance engineering, data quality, or user experience improvement."
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "53912490fe424fd7a9e11fdaaf6a22a4",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-09-17T15:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": null,
+   "source_quotes": [
+    "All capability statements sent in response to this Small Business Sources Sought notice must be sent electronically via email to Rosa Lopez, Contracting Officer at Rosa.Lopez@nih.gov in either MS Word or Adobe Portable Document Format (PDF) by September 17, 2026, 3:00PM ET."
+   ]
+  },
+  "days_to_close": 3.3268241267592593,
+  "set_aside_note": "Set-aside is 'none' (unrestricted). Sooner Systems LLC qualifies as a small business (SBA) and may respond; the firm is eligible to participate in an unrestricted/total-small-business acquisition.",
+  "amendment_note": "no amendment",
+  "calendar_entries": [
+   {
+    "title": "Response (Capability Statement) Due",
+    "date": "2026-09-17",
+    "note": "Capability statements must be emailed to Rosa.Lopez@nih.gov in MS Word or PDF by 3:00 PM ET. Responses received after this deadline will not be considered.",
+    "source_quote": "All capability statements sent in response to this Small Business Sources Sought notice must be sent electronically via email to Rosa Lopez, Contracting Officer at Rosa.Lopez@nih.gov in either MS Word or Adobe Portable Document Format (PDF) by September 17, 2026, 3:00PM ET."
+   },
+   {
+    "title": "All Responses Must Be Received",
+    "date": "2026-09-17",
+    "note": "Firm deadline — late responses are excluded from consideration.",
+    "source_quote": "All responses must be received by the specified due date and time in order to be considered."
+   },
+   {
+    "title": "Decide By (2 Business Days Before Response Due)",
+    "date": "2026-09-15",
+    "note": "Internal bid/no-bid decision deadline — two business days before the September 17 response due date, allowing time to finalize and submit the capability statement.",
+    "source_quote": "All capability statements sent in response to this Small Business Sources Sought notice must be sent electronically via email to Rosa Lopez, Contracting Officer at Rosa.Lopez@nih.gov in either MS Word or Adobe Portable Document Format (PDF) by September 17, 2026, 3:00PM ET."
+   }
+  ]
+ },
+ "model_calls": 5,
+ "tokens_in": 75153,
+ "tokens_out": 16573,
+ "seconds": 154.81,
+ "produced_at": "2026-09-14T06:11:57.203016-05:00"
+}

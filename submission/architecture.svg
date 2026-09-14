@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1296" viewBox="0 0 1600 1296">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><polygon points="0 0, 10 4, 0 8" fill="#9AA3AD"/></marker><marker id="arrow-warn" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><polygon points="0 0, 10 4, 0 8" fill="#E06C5A"/></marker></defs>
+<rect x="0" y="0" width="1600" height="1296" fill="#14181D"/>
+<text x="40" y="56" fill="#F2A93B" font-size="12" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" letter-spacing="0.22em">BIDDESK  ·  ARCHITECTURE</text>
+<text x="40" y="100" fill="#E9E4D8" font-size="32" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-weight="600">From a QR code to a bid / no-bid Decision Card</text>
+<text x="40" y="128" fill="#9AA3AD" font-size="16" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">Strands Graph on Bedrock AgentCore Runtime  ·  tiered triage  ·  verbatim-quote bar  ·  append-only ledger with undo</text>
+<rect x="208" y="432" width="304" height="384" rx="8" fill="rgba(233,228,216,0.02)" stroke="rgba(233,228,216,0.09)" stroke-width="0.8"/>
+<rect x="224" y="434" width="160" height="18" fill="#14181D"/>
+<text x="232" y="446" fill="#9AA3AD" font-size="12" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" letter-spacing="0.16em">EDGE  /  PUBLIC LINK</text>
+<rect x="544" y="160" width="568" height="996" rx="8" fill="rgba(233,228,216,0.02)" stroke="rgba(233,228,216,0.09)" stroke-width="0.8"/>
+<rect x="560" y="162" width="196" height="18" fill="#14181D"/>
+<text x="568" y="174" fill="#9AA3AD" font-size="12" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" letter-spacing="0.16em">BEDROCK AGENTCORE RUNTIME</text>
+<text x="1280" y="248" fill="#9AA3AD" font-size="12" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" letter-spacing="0.16em">EXTERNAL SERVICES</text>
+<rect x="560" y="304" width="536" height="680" rx="8" fill="none" stroke="#2B333C" stroke-width="1.2" stroke-dasharray="6,5"/>
+<rect x="640" y="294" width="448" height="22" fill="#14181D"/>
+<text x="648" y="310" fill="#9AA3AD" font-size="16" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" letter-spacing="0.06em">NoSubmitGuard · TierCounter · ProvenanceStamp</text>
+<path d="M 200,596 H 208 Q 216,596 216,588 V 540 Q 216,532 224,532 H 232" fill="none" stroke="#9AA3AD" stroke-width="1.2" marker-end="url(#arrow)"/>
+<path d="M 200,652 H 208 Q 216,652 216,660 V 708 Q 216,716 224,716 H 232" fill="none" stroke="#9AA3AD" stroke-width="1.2" marker-end="url(#arrow)"/>
+<path d="M 488,716 H 520 Q 528,716 528,708 V 252 Q 528,244 536,244 H 576" fill="none" stroke="#9AA3AD" stroke-width="1.2" marker-end="url(#arrow)"/>
+<path d="M 600,288 V 320" fill="none" stroke="#9AA3AD" stroke-width="1.2" marker-end="url(#arrow)"/>
+<path d="M 712,428 V 476" fill="none" stroke="#9AA3AD" stroke-width="1.2" marker-end="url(#arrow)"/>
+<path d="M 828,428 V 476" fill="none" stroke="#9AA3AD" stroke-width="1.2" marker-end="url(#arrow)"/>
+<path d="M 964,428 V 476" fill="none" stroke="#9AA3AD" stroke-width="1.2" marker-end="url(#arrow)"/>
+<path d="M 652,564 V 576 Q 652,584 660,584 H 748 Q 756,584 756,592 V 604" fill="none" stroke="#9AA3AD" stroke-width="1.2" marker-end="url(#arrow)"/>
+<path d="M 828,564 V 604" fill="none" stroke="#9AA3AD" stroke-width="1.2" marker-end="url(#arrow)"/>
+<path d="M 1004,564 V 576 Q 1004,584 996,584 H 908 Q 900,584 900,592 V 604" fill="none" stroke="#9AA3AD" stroke-width="1.2" marker-end="url(#arrow)"/>
+<path d="M 828,692 V 732" fill="none" stroke="#9AA3AD" stroke-width="1.2" marker-end="url(#arrow)"/>
+<path d="M 828,820 V 860" fill="none" stroke="#9AA3AD" stroke-width="1.2" marker-end="url(#arrow)"/>
+<path d="M 828,968 V 1008" fill="none" stroke="#9AA3AD" stroke-width="1.2" marker-end="url(#arrow)"/>
+<path d="M 1112,380 H 1280" fill="none" stroke="#9AA3AD" stroke-width="1.2" marker-end="url(#arrow)"/>
+<path d="M 1112,696 H 1280" fill="none" stroke="#9AA3AD" stroke-width="1.2" marker-end="url(#arrow)"/>
+<path d="M 1112,768 H 1280" fill="none" stroke="#9AA3AD" stroke-width="1.2" marker-end="url(#arrow)"/>
+<path d="M 1056,916 H 1392 Q 1400,916 1400,908 V 888" fill="none" stroke="#E06C5A" stroke-width="1.2" stroke-dasharray="6,5"/>
+<line x1="1392" y1="860" x2="1408" y2="876" stroke="#E06C5A" stroke-width="2.4"/>
+<line x1="1408" y1="860" x2="1392" y2="876" stroke="#E06C5A" stroke-width="2.4"/>
+<rect x="393" y="620" width="131" height="22" fill="#14181D"/>
+<text x="516" y="636" fill="#9AA3AD" font-size="16" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="end" letter-spacing="0.06em">SIGV4 · HTTP</text>
+<rect x="1135" y="350" width="122" height="22" fill="#14181D"/>
+<text x="1196" y="366" fill="#9AA3AD" font-size="16" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle" letter-spacing="0.06em">INVOKEMODEL</text>
+<rect x="1121" y="666" width="150" height="22" fill="#14181D"/>
+<text x="1196" y="682" fill="#9AA3AD" font-size="16" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle" letter-spacing="0.06em">SEARCH · KEYED</text>
+<rect x="1121" y="738" width="150" height="22" fill="#14181D"/>
+<text x="1196" y="754" fill="#9AA3AD" font-size="16" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle" letter-spacing="0.06em">NOTICE + FILES</text>
+<rect x="1120" y="884" width="160" height="22" fill="#14181D"/>
+<text x="1200" y="900" fill="#E06C5A" font-size="16" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle" letter-spacing="0.06em">ASKED TO SUBMIT</text>
+<rect x="24" y="564" width="176" height="120" rx="6" fill="#14181D"/>
+<rect x="24" y="564" width="176" height="120" rx="6" fill="#1C2229" stroke="#2B333C" stroke-width="1.2"/>
+<rect x="40" y="576" width="52" height="18" rx="4" fill="none" stroke="#9AA3AD" stroke-width="0.8" opacity="0.55"/>
+<text x="66.0" y="589" fill="#9AA3AD" font-size="12" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle" letter-spacing="0.10em">OWNER</text>
+<text x="112.0" y="620" fill="#E9E4D8" font-size="20" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" text-anchor="middle" font-weight="600">Owner's phone</text>
+<text x="112.0" y="644" fill="#9AA3AD" font-size="16" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle">QR code</text>
+<text x="112.0" y="666" fill="#9AA3AD" font-size="16" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle">no setup</text>
+<rect x="232" y="480" width="256" height="104" rx="6" fill="#14181D"/>
+<rect x="232" y="480" width="256" height="104" rx="6" fill="#1C2229" stroke="#2B333C" stroke-width="1.2"/>
+<rect x="248" y="492" width="37" height="18" rx="4" fill="none" stroke="#9AA3AD" stroke-width="0.8" opacity="0.55"/>
+<text x="266.5" y="505" fill="#9AA3AD" font-size="12" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle" letter-spacing="0.10em">GET</text>
+<text x="360.0" y="536" fill="#E9E4D8" font-size="20" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" text-anchor="middle" font-weight="600">CloudFront + S3</text>
+<text x="360.0" y="560" fill="#9AA3AD" font-size="16" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle">static page</text>
+<text x="360.0" y="582" fill="#9AA3AD" font-size="16" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle">gallery JSON</text>
+<rect x="232" y="656" width="256" height="120" rx="6" fill="#14181D"/>
+<rect x="232" y="656" width="256" height="120" rx="6" fill="#1C2229" stroke="#2B333C" stroke-width="1.2"/>
+<rect x="248" y="668" width="44" height="18" rx="4" fill="none" stroke="#9AA3AD" stroke-width="0.8" opacity="0.55"/>
+<text x="270.0" y="681" fill="#9AA3AD" font-size="12" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle" letter-spacing="0.10em">POST</text>
+<text x="360.0" y="712" fill="#E9E4D8" font-size="20" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" text-anchor="middle" font-weight="600">Lambda Function URL</text>
+<text x="360.0" y="736" fill="#9AA3AD" font-size="16" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle">auth NONE · CORS</text>
+<text x="360.0" y="758" fill="#9AA3AD" font-size="16" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle">SigV4 proxy</text>
+<rect x="576" y="200" width="504" height="88" rx="6" fill="#14181D"/>
+<rect x="576" y="200" width="504" height="88" rx="6" fill="#1C2229" stroke="#2B333C" stroke-width="1.2"/>
+<rect x="592" y="212" width="59" height="18" rx="4" fill="none" stroke="#9AA3AD" stroke-width="0.8" opacity="0.55"/>
+<text x="621.5" y="225" fill="#9AA3AD" font-size="12" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle" letter-spacing="0.10em">TIER 0</text>
+<text x="828.0" y="256" fill="#E9E4D8" font-size="20" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" text-anchor="middle" font-weight="600">Owner rules in code</text>
+<text x="828.0" y="280" fill="#9AA3AD" font-size="16" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle">no model calls · filed silently</text>
+<rect x="576" y="320" width="504" height="108" rx="6" fill="#14181D"/>
+<rect x="576" y="320" width="504" height="108" rx="6" fill="#1C2229" stroke="#2B333C" stroke-width="1.2"/>
+<rect x="592" y="332" width="59" height="18" rx="4" fill="none" stroke="#9AA3AD" stroke-width="0.8" opacity="0.55"/>
+<text x="621.5" y="345" fill="#9AA3AD" font-size="12" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle" letter-spacing="0.10em">TIER 1</text>
+<text x="828.0" y="376" fill="#E9E4D8" font-size="20" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" text-anchor="middle" font-weight="600">Cheap scope check</text>
+<text x="828.0" y="400" fill="#9AA3AD" font-size="16" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle">us.anthropic.claude-haiku-4-5-20251001-v1:0</text>
+<text x="828.0" y="422" fill="#9AA3AD" font-size="16" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle">max_tokens 400 · bid / no-bid / unsure</text>
+<text x="576" y="446" fill="#9AA3AD" font-size="12" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" letter-spacing="0.10em">TIER 2 · STRANDS</text>
+<text x="576" y="464" fill="#9AA3AD" font-size="12" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" letter-spacing="0.10em">GRAPH · PARALLEL</text>
+<text x="1080" y="446" fill="#9AA3AD" font-size="12" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="end" letter-spacing="0.06em">all three run</text>
+<text x="1080" y="464" fill="#9AA3AD" font-size="12" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="end" letter-spacing="0.06em">the desk model</text>
+<rect x="576" y="476" width="152" height="88" rx="6" fill="#14181D"/>
+<rect x="576" y="476" width="152" height="88" rx="6" fill="#1C2229" stroke="#2B333C" stroke-width="1.2"/>
+<rect x="592" y="488" width="52" height="18" rx="4" fill="none" stroke="#9AA3AD" stroke-width="0.8" opacity="0.55"/>
+<text x="618.0" y="501" fill="#9AA3AD" font-size="12" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle" letter-spacing="0.10em">AGENT</text>
+<text x="652.0" y="532" fill="#E9E4D8" font-size="20" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" text-anchor="middle" font-weight="600">reader</text>
+<text x="652.0" y="556" fill="#9AA3AD" font-size="16" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle">key reqs</text>
+<rect x="752" y="476" width="152" height="88" rx="6" fill="#14181D"/>
+<rect x="752" y="476" width="152" height="88" rx="6" fill="#1C2229" stroke="#2B333C" stroke-width="1.2"/>
+<rect x="768" y="488" width="52" height="18" rx="4" fill="none" stroke="#9AA3AD" stroke-width="0.8" opacity="0.55"/>
+<text x="794.0" y="501" fill="#9AA3AD" font-size="12" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle" letter-spacing="0.10em">AGENT</text>
+<text x="828.0" y="532" fill="#E9E4D8" font-size="20" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" text-anchor="middle" font-weight="600">fit</text>
+<text x="828.0" y="556" fill="#9AA3AD" font-size="16" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle">matrix rows</text>
+<rect x="928" y="476" width="152" height="88" rx="6" fill="#14181D"/>
+<rect x="928" y="476" width="152" height="88" rx="6" fill="#1C2229" stroke="#2B333C" stroke-width="1.2"/>
+<rect x="944" y="488" width="52" height="18" rx="4" fill="none" stroke="#9AA3AD" stroke-width="0.8" opacity="0.55"/>
+<text x="970.0" y="501" fill="#9AA3AD" font-size="12" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle" letter-spacing="0.10em">AGENT</text>
+<text x="1004.0" y="532" fill="#E9E4D8" font-size="20" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" text-anchor="middle" font-weight="600">deadlines</text>
+<text x="1004.0" y="556" fill="#9AA3AD" font-size="16" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle">dates · ICS</text>
+<rect x="632" y="604" width="392" height="88" rx="6" fill="#14181D"/>
+<rect x="632" y="604" width="392" height="88" rx="6" fill="#1C2229" stroke="#2B333C" stroke-width="1.2"/>
+<rect x="648" y="616" width="44" height="18" rx="4" fill="none" stroke="#9AA3AD" stroke-width="0.8" opacity="0.55"/>
+<text x="670.0" y="629" fill="#9AA3AD" font-size="12" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle" letter-spacing="0.10em">CODE</text>
+<text x="828.0" y="660" fill="#E9E4D8" font-size="20" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" text-anchor="middle" font-weight="600">desk_merge</text>
+<text x="828.0" y="684" fill="#9AA3AD" font-size="16" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle">collects structured output · no model</text>
+<rect x="576" y="732" width="504" height="88" rx="6" fill="#14181D"/>
+<rect x="576" y="732" width="504" height="88" rx="6" fill="rgba(242,169,59,0.10)" stroke="#F2A93B" stroke-width="1.2"/>
+<rect x="592" y="744" width="37" height="18" rx="4" fill="none" stroke="#F2A93B" stroke-width="0.8" opacity="0.55"/>
+<text x="610.5" y="757" fill="#F2A93B" font-size="12" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle" letter-spacing="0.10em">BAR</text>
+<text x="828.0" y="788" fill="#F2A93B" font-size="20" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" text-anchor="middle" font-weight="600">validate_matrix</text>
+<text x="828.0" y="812" fill="#9AA3AD" font-size="16" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle">verbatim quote or the row is dropped</text>
+<rect x="600" y="860" width="456" height="108" rx="6" fill="#14181D"/>
+<rect x="600" y="860" width="456" height="108" rx="6" fill="rgba(242,169,59,0.10)" stroke="#F2A93B" stroke-width="1.2"/>
+<rect x="616" y="872" width="52" height="18" rx="4" fill="none" stroke="#F2A93B" stroke-width="0.8" opacity="0.55"/>
+<text x="642.0" y="885" fill="#F2A93B" font-size="12" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle" letter-spacing="0.10em">AGENT</text>
+<text x="828.0" y="916" fill="#F2A93B" font-size="20" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" text-anchor="middle" font-weight="600">desk agent</text>
+<text x="828.0" y="940" fill="#9AA3AD" font-size="16" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle">global.anthropic.claude-sonnet-4-6</text>
+<text x="828.0" y="962" fill="#9AA3AD" font-size="16" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle">Decision Card, then Drafts</text>
+<rect x="600" y="1008" width="456" height="108" rx="6" fill="#14181D"/>
+<rect x="600" y="1008" width="456" height="108" rx="6" fill="#1C2229" stroke="#2B333C" stroke-width="1.2"/>
+<rect x="616" y="1020" width="52" height="18" rx="4" fill="none" stroke="#9AA3AD" stroke-width="0.8" opacity="0.55"/>
+<text x="642.0" y="1033" fill="#9AA3AD" font-size="12" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle" letter-spacing="0.10em">JSONL</text>
+<text x="828.0" y="1064" fill="#E9E4D8" font-size="20" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" text-anchor="middle" font-weight="600">ledger</text>
+<text x="828.0" y="1088" fill="#9AA3AD" font-size="16" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle">append-only · data/ledger/&lt;slug&gt;.jsonl</text>
+<text x="828.0" y="1110" fill="#7BC47F" font-size="16" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle">undo · 10-minute veto window</text>
+<rect x="1280" y="320" width="264" height="152" rx="6" fill="#14181D"/>
+<rect x="1280" y="320" width="264" height="152" rx="6" fill="#1C2229" stroke="#2B333C" stroke-width="1.2"/>
+<rect x="1296" y="332" width="37" height="18" rx="4" fill="none" stroke="#9AA3AD" stroke-width="0.8" opacity="0.55"/>
+<text x="1314.5" y="345" fill="#9AA3AD" font-size="12" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle" letter-spacing="0.10em">AWS</text>
+<text x="1412.0" y="376" fill="#E9E4D8" font-size="20" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" text-anchor="middle" font-weight="600">Amazon Bedrock</text>
+<text x="1412.0" y="400" fill="#9AA3AD" font-size="16" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle">us-east-1</text>
+<text x="1412.0" y="422" fill="#9AA3AD" font-size="16" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle">Sonnet 4.6 primary</text>
+<text x="1412.0" y="444" fill="#9AA3AD" font-size="16" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle">Haiku 4.5 fallback</text>
+<rect x="1280" y="640" width="264" height="200" rx="6" fill="#14181D"/>
+<rect x="1280" y="640" width="264" height="200" rx="6" fill="#1C2229" stroke="#2B333C" stroke-width="1.2"/>
+<rect x="1296" y="652" width="37" height="18" rx="4" fill="none" stroke="#9AA3AD" stroke-width="0.8" opacity="0.55"/>
+<text x="1314.5" y="665" fill="#9AA3AD" font-size="12" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle" letter-spacing="0.10em">API</text>
+<text x="1412.0" y="696" fill="#E9E4D8" font-size="20" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" text-anchor="middle" font-weight="600">SAM.gov</text>
+<text x="1412.0" y="720" fill="#9AA3AD" font-size="16" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle">opportunities/v2</text>
+<text x="1412.0" y="742" fill="#9AA3AD" font-size="16" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle">search (API key)</text>
+<text x="1412.0" y="764" fill="#9AA3AD" font-size="16" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle">opps/v2 notice JSON</text>
+<text x="1412.0" y="786" fill="#9AA3AD" font-size="16" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle">attachment files</text>
+<text x="1400" y="944" fill="#E06C5A" font-size="20" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" text-anchor="middle" font-weight="600">Biddesk drafts.</text>
+<text x="1400" y="972" fill="#E06C5A" font-size="20" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" text-anchor="middle" font-weight="600">The owner submits.</text>
+<text x="1400" y="1000" fill="#9AA3AD" font-size="12" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="middle">sam_submit_offer denied by the hook</text>
+<line x1="40" y1="1204" x2="1560" y2="1204" stroke="rgba(233,228,216,0.10)" stroke-width="0.8"/>
+<rect x="40" y="1234" width="24" height="16" rx="4" fill="rgba(242,169,59,0.10)" stroke="#F2A93B" stroke-width="1.2"/>
+<text x="80" y="1245" fill="#9AA3AD" font-size="12" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" letter-spacing="0.10em">THE ZERO-FABRICATION BAR AND THE DESK AGENT</text>
+<line x1="560" y1="1242" x2="584" y2="1242" stroke="#E06C5A" stroke-width="1.6" stroke-dasharray="6,5"/>
+<text x="600" y="1245" fill="#9AA3AD" font-size="12" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" letter-spacing="0.10em">DENIED BY THE NO-SUBMIT GUARD</text>
+<rect x="1080" y="1234" width="24" height="16" rx="4" fill="none" stroke="#2B333C" stroke-width="1.2" stroke-dasharray="6,5"/>
+<text x="1120" y="1245" fill="#9AA3AD" font-size="12" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" letter-spacing="0.10em">HOOK BOUNDARY · WRAPS EVERY AGENT</text>
+<text x="40" y="1280" fill="#9AA3AD" font-size="12" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" letter-spacing="0.08em">Fictional firms. Real SAM.gov notices.</text>
+<text x="1560" y="1280" fill="#9AA3AD" font-size="12" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" text-anchor="end" letter-spacing="0.08em">Region us-east-1 · AgentCore Runtime: direct code deploy, PYTHON_3_13, ARM64 microVM</text>
+</svg>

@@ -1,0 +1,659 @@
+{
+ "notice_id": "a06d61e190ec4307a994a1ef824f0c23",
+ "firm_slug": "red-cedar",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:22:27-05:00",
+ "evidence_basis": null,
+ "days_to_close": 1.4448976333217594,
+ "closed": false,
+ "response_kind": "proposal",
+ "card": {
+  "notice_id": "a06d61e190ec4307a994a1ef824f0c23",
+  "firm_slug": "red-cedar",
+  "situation": "National Park Service solicitation (PMIS 340733A) for hazard tree removal and pruning at a Lakewood, CO site, period of performance 09/28/2026–03/31/2027, total small business set-aside.\nReached the owner because Red Cedar is SBA/WOSB/EDWOSB eligible and holds NAICS 561730, but two owner-rule hard limits and a core capability gap were flagged.",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "Red Cedar is fully eligible for the total small business set-aside as a WOSB/EDWOSB/SBA firm, removing any eligibility barrier to bidding [set_aside_note].",
+   "The firm holds NAICS 561730, carries OSHA 30 supervisors, and has a QC program that partially supports the safety and traffic-control plan requirement [a06d61e1-d186b0f7-p1-3e072167].",
+   "Federal contracting experience with GSA, Tinker AFB, and VA demonstrates procedural familiarity with SAM registration, SCA wage compliance, and federal quotation submission [a06d61e1-d186b0f7-p1-429be8cb]."
+  ],
+  "reasons_against": [
+   "Place of performance is Lakewood, CO (~900 miles from Oklahoma City), a hard disqualifier under owner rule [rc-distance] prohibiting bids over 200 miles from Oklahoma City [a06d61e1-d186b0f7-p1-b32e6385].",
+   "The period of performance is approximately 6 months (09/28/2026–03/31/2027), a hard disqualifier under owner rule [rc-base] prohibiting bids under a 12-month base period [a06d61e1-cd66a3af-p1-680211f7].",
+   "The firm profile lists no hazard tree removal, arborist, ISA certification, tree-climbing/rigging, or chainsaw/aerial-lift capability — the core technical scope of this contract [a06d61e1-cd66a3af-p1-680211f7]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-09-11",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-09-15T17:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": "09/28/2026 to 03/31/2027",
+   "source_quotes": [
+    "POC: Casey Winters, casey_winters@ios.doi.gov All email regarding this solicitation must have the solicitation number '140P3026Q0037' in the subject li Period of Performance: 09/28/2026 to 03/31/2027 00010 PMIS 340733A Remove or Prune Hazard Trees Product/Service Code: F014 Product/Service Description: NATURAL Continued... 1 2"
+   ]
+  },
+  "fit_score": 0.5385,
+  "matrix_summary": "5 of 26 requirements met, 4 partial, 4 gap, 13 unknown",
+  "evidence_link": "https://sam.gov/workspace/contract/opp/a06d61e190ec4307a994a1ef824f0c23/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "a06d61e1-cd66a3af-p1-680211f7",
+   "quote": "Period of Performance: 09/28/2026 to 03/31/2027",
+   "source_file": "cd66a3af47c749fabc805913d835b3a6.pdf",
+   "page": 1,
+   "firm_answer": "The period of performance is approximately 6 months. Owner rule [rc-base] prohibits bids under a 12-month base period. This is a hard disqualifier.",
+   "status": "gap",
+   "evidence": "Owner rule [rc-base]: No bids under a 12-month base period."
+  },
+  {
+   "requirement_id": "a06d61e1-d186b0f7-p1-b32e6385",
+   "quote": "The Contractor shall account for these conditions in its quotation and mobilization planning.",
+   "source_file": "d186b0f74b1a4fc8b46c8a45e858a5ca.docx",
+   "page": 1,
+   "firm_answer": "Place of performance is in the Lakewood, CO office area (~900 miles from Oklahoma City). Owner rule [rc-distance] prohibits bids over 200 miles from Oklahoma City. This is a hard disqualifier.",
+   "status": "gap",
+   "evidence": "Owner rule [rc-distance]: No bids over 200 miles from Oklahoma City."
+  },
+  {
+   "requirement_id": "a06d61e1-cd66a3af-p1-680211f7",
+   "quote": "PMIS 340733A Remove or Prune Hazard Trees",
+   "source_file": "cd66a3af47c749fabc805913d835b3a6.pdf",
+   "page": 1,
+   "firm_answer": "Firm profile lists no hazard tree removal, tree pruning, arborist, or tree-felling capability. Grounds maintenance capabilities are limited to mowing, trimming, irrigation, and snow removal.",
+   "status": "gap",
+   "evidence": "Firm capabilities: mowing, trimming, irrigation, snow and ice removal — no tree removal or arborist work listed."
+  },
+  {
+   "requirement_id": "a06d61e1-d186b0f7-p1-3e072167",
+   "quote": "Before mobilization, the Contractor shall submit a site-specific work/safety and traffic-control plan to the COR and Contracting Officer.",
+   "source_file": "d186b0f74b1a4fc8b46c8a45e858a5ca.docx",
+   "page": 1,
+   "firm_answer": "Firm has OSHA 30 supervisors and a QC program, which supports safety planning generally, but no documented experience preparing NPS-specific site safety or traffic-control plans for tree work.",
+   "status": "partial",
+   "evidence": "Firm capabilities: OSHA 30 supervisors, QC inspections logged in a CMMS."
+  },
+  {
+   "requirement_id": "a06d61e1-d186b0f7-p1-c1273052",
+   "quote": "The Contractor shall also comply with applicable local, State, and Federal codes, standards, and regulations in effect at award, including 29 CFR 1910.",
+   "source_file": "d186b0f74b1a4fc8b46c8a45e858a5ca.docx",
+   "page": 1,
+   "firm_answer": "Firm has OSHA 30 supervisors, indicating familiarity with 29 CFR 1910 general industry standards. However, tree removal typically requires 29 CFR 1910.266 or ANSI Z133 compliance, which is not mentioned.",
+   "status": "partial",
+   "evidence": "Firm capabilities: OSHA 30 supervisors."
+  },
+  {
+   "requirement_id": "a06d61e1-d186b0f7-p1-0deb250b",
+   "quote": "The authorized field supervisor shall check in with the COR at the start of each workday before field work begins and shall communicate the planned HT items and locations for that day.",
+   "source_file": "d186b0f74b1a4fc8b46c8a45e858a5ca.docx",
+   "page": 1,
+   "firm_answer": "Firm profile is silent on daily COR check-in procedures specific to hazard tree operations. General QC program exists but no tree-work field supervision protocol documented.",
+   "status": "unknown",
+   "evidence": "Firm capabilities: QC inspections logged in a CMMS — no tree-specific field supervision protocol listed."
+  },
+  {
+   "requirement_id": "a06d61e1-d186b0f7-p1-d3d1cee8",
+   "quote": "Working Hours: On-site work activities shall occur between 6:30 AM and 3:00 PM, Monday through Friday.",
+   "source_file": "d186b0f74b1a4fc8b46c8a45e858a5ca.docx",
+   "page": 1,
+   "firm_answer": "Firm profile does not address working hour constraints. No conflict identified from profile, but compliance cannot be confirmed.",
+   "status": "unknown",
+   "evidence": "Firm profile is silent on working hour scheduling constraints."
+  },
+  {
+   "requirement_id": "a06d61e1-d186b0f7-p1-c51d351f",
+   "quote": "Any proposed change to the specified work methods shall be submitted in writing to the CO with supporting justification.",
+   "source_file": "d186b0f74b1a4fc8b46c8a45e858a5ca.docx",
+   "page": 1,
+   "firm_answer": "Firm profile does not address change management procedures for work methods. General federal contracting experience implies awareness, but not confirmed.",
+   "status": "unknown",
+   "evidence": "Firm profile is silent on written change-of-method procedures."
+  },
+  {
+   "requirement_id": "a06d61e1-d186b0f7-p1-429be8cb",
+   "quote": "Other prequotation site-access requests and technical questions shall be submitted only to the Contracting Officer in accordance with the RFQ.",
+   "source_file": "d186b0f74b1a4fc8b46c8a45e858a5ca.docx",
+   "page": 1,
+   "firm_answer": "Standard submission requirement. Firm has federal contracting experience and can comply procedurally.",
+   "status": "meets",
+   "evidence": "Firm past performance: multiple federal contracts (GSA, Tinker AFB, VA) demonstrating familiarity with federal contracting procedures."
+  },
+  {
+   "requirement_id": "a06d61e1-d186b0f7-p1-739bd1c4",
+   "quote": "Quoters shall use the same HT item numbers on Attachment B.",
+   "source_file": "d186b0f74b1a4fc8b46c8a45e858a5ca.docx",
+   "page": 1,
+   "firm_answer": "Administrative submission requirement. Firm can comply, but HT (hazard tree) item numbering is specific to tree work scope the firm lacks capability to price accurately.",
+   "status": "partial",
+   "evidence": "Firm has federal proposal experience but no hazard tree scoping or pricing capability documented."
+  },
+  {
+   "requirement_id": "a06d61e1-cd66a3af-p65-7328109b",
+   "quote": "The Offeror shall have an active Federal Government contracts registration in the System for Award Management (SAM) when submitting an offer or quotation in response to this solicitation and at the time of award.",
+   "source_file": "cd66a3af47c749fabc805913d835b3a6.pdf",
+   "page": 65,
+   "firm_answer": "Firm profile lists e-Verify and SBA set-aside eligibility, strongly implying active SAM registration, but SAM registration is not explicitly confirmed in the profile.",
+   "status": "unknown",
+   "evidence": "Firm capabilities: e-Verify enrolled; SBA set-aside eligible — SAM registration not explicitly stated."
+  },
+  {
+   "requirement_id": "a06d61e1-cd66a3af-p11-2d4ae1e4",
+   "quote": "The Contractor shall maintain an active Federal Government contracts registration in the System for Award Management (SAM) at https://www.sam.gov during contract performance and through final payment under this contract.",
+   "source_file": "cd66a3af47c749fabc805913d835b3a6.pdf",
+   "page": 11,
+   "firm_answer": "Same as above — SAM registration not explicitly confirmed in profile, though federal past performance implies it.",
+   "status": "unknown",
+   "evidence": "Multiple active federal contracts listed in past performance imply SAM registration but it is not stated explicitly."
+  },
+  {
+   "requirement_id": "a06d61e1-cd66a3af-p60-a7f380e7",
+   "quote": "The contractor shall furnish the Contracting Officer with a copy of an acceptable insurance certificate prior to beginning the work.",
+   "source_file": "cd66a3af47c749fabc805913d835b3a6.pdf",
+   "page": 60,
+   "firm_answer": "Firm profile does not mention insurance coverage. Tree removal work typically requires higher liability limits than janitorial/grounds work. No insurance documentation referenced.",
+   "status": "unknown",
+   "evidence": "Firm profile is silent on insurance coverage types or limits."
+  },
+  {
+   "requirement_id": "a06d61e1-cd66a3af-p60-eeb42a81",
+   "quote": "The insurance company shall provide an endorsement to notify the Contracting Officer 30 days prior to the effective date of cancellation or termination of the policy or certificate",
+   "source_file": "cd66a3af47c749fabc805913d835b3a6.pdf",
+   "page": 60,
+   "firm_answer": "Firm profile is silent on insurance endorsement provisions. Cannot confirm compliance.",
+   "status": "unknown",
+   "evidence": "Firm profile is silent on insurance endorsement requirements."
+  },
+  {
+   "requirement_id": "a06d61e1-cd66a3af-p61-e7b007d8",
+   "quote": "The Contractor must use the IPP website to register, access, and use IPP for submitting requests for payment.",
+   "source_file": "cd66a3af47c749fabc805913d835b3a6.pdf",
+   "page": 61,
+   "firm_answer": "Firm profile does not mention IPP registration. Federal invoicing experience with GSA and VA suggests familiarity, but IPP use is not confirmed.",
+   "status": "unknown",
+   "evidence": "Firm past performance includes GSA and VA federal contracts; IPP use not explicitly stated."
+  },
+  {
+   "requirement_id": "a06d61e1-cd66a3af-p29-b1ddfbc9",
+   "quote": "The Contractor must pay to workers, while performing in the United States, and performing on, or in connection with, this contract, a minimum hourly wage rate of $15.00 per hour beginning January 30, 2022.",
+   "source_file": "cd66a3af47c749fabc805913d835b3a6.pdf",
+   "page": 29,
+   "firm_answer": "Firm profile does not state wage rates. Firm has 38 W-2 employees and prior federal SCA-covered contracts, implying awareness of wage requirements, but compliance with $15/hr minimum is not confirmed.",
+   "status": "unknown",
+   "evidence": "Firm capabilities: 38 W-2 employees; prior federal SCA contracts (GSA, Tinker AFB, VA)."
+  },
+  {
+   "requirement_id": "a06d61e1-4acf9469-p1-b37dcd15",
+   "quote": "the contractor must pay all covered workers at least $13.65 per hour (or the applicable wage rate listed on this wage determination, if it is higher) for all hours spent performing on the contract",
+   "source_file": "4acf94699c7d4b12a44e4143f8ba6a4c.txt",
+   "page": 1,
+   "firm_answer": "Firm has prior SCA-covered federal contracts and 38 W-2 employees, suggesting awareness of EO wage requirements, but specific compliance is not confirmed in the profile.",
+   "status": "unknown",
+   "evidence": "Firm past performance: Tinker AFB grounds maintenance (SCA-covered federal contract)."
+  },
+  {
+   "requirement_id": "a06d61e1-4acf9469-p1-fad7fbd0",
+   "quote": "the contractor must provide employees with 1 hour of paid sick leave for every 30 hours they work, up to 56 hours of paid sick leave each year.",
+   "source_file": "4acf94699c7d4b12a44e4143f8ba6a4c.txt",
+   "page": 1,
+   "firm_answer": "Firm profile does not address paid sick leave policy. Prior federal contracts imply EO 13706 compliance experience, but it is not confirmed.",
+   "status": "unknown",
+   "evidence": "Firm profile is silent on paid sick leave policy."
+  },
+  {
+   "requirement_id": "a06d61e1-cd66a3af-p42-32764d51",
+   "quote": "Chain and cable lubricants purchased as a direct cost of this contract for use in performing the services shall meet the applicable USDA-designated minimum biobased content unless the Contracting Officer identifies an applicable written justification or exception in this contract.",
+   "source_file": "cd66a3af47c749fabc805913d835b3a6.pdf",
+   "page": 42,
+   "firm_answer": "Firm profile mentions a green cleaning program but does not reference biobased lubricant procurement for chain/cable equipment. Tree removal equipment lubricant compliance is not addressed.",
+   "status": "gap",
+   "evidence": "Firm capabilities: green cleaning program — no biobased lubricant or tree equipment procurement policy listed."
+  },
+  {
+   "requirement_id": "a06d61e1-cd66a3af-p49-f1e898c4",
+   "quote": "The Contractor shall search SAM for the FASC-maintained list of American Security Drone Act—covered foreign entities before proposing, or using in performance of the contract, any unmanned aircraft system.",
+   "source_file": "cd66a3af47c749fabc805913d835b3a6.pdf",
+   "page": 49,
+   "firm_answer": "Firm profile does not mention UAS/drone use or a FASC SAM search policy. Compliance status is unknown.",
+   "status": "unknown",
+   "evidence": "Firm profile is silent on UAS/drone use or FASC SAM search procedures."
+  },
+  {
+   "requirement_id": "a06d61e1-cd66a3af-p16-cb8e740c",
+   "quote": "If the Contractor represented that it was a small business concern, a small disadvantaged business concern, or a joint venture that was any of the small business concerns identified in 19.000(a)(3) prior to award of this contract, the Contractor shall rerepresent its size and socioeconomic status",
+   "source_file": "cd66a3af47c749fabc805913d835b3a6.pdf",
+   "page": 16,
+   "firm_answer": "Firm is a WOSB/EDWOSB/SBA small business. Rerepresentation requirement is a standard compliance obligation the firm can meet.",
+   "status": "meets",
+   "evidence": "Firm set-asides: WOSB, EDWOSB, SBA — small business status confirmed."
+  },
+  {
+   "requirement_id": "a06d61e1-cd66a3af-p14-f257984f",
+   "quote": "the Contractor shall give written notice to the Contracting Officer within five business days from the date of the inversion event.",
+   "source_file": "cd66a3af47c749fabc805913d835b3a6.pdf",
+   "page": 14,
+   "firm_answer": "Firm is a domestic small business (Oklahoma City, OK). No inversion risk identified. Standard compliance obligation.",
+   "status": "meets",
+   "evidence": "Firm profile: Red Cedar Facility Services, Oklahoma City, OK — domestic small business."
+  },
+  {
+   "requirement_id": "a06d61e1-cd66a3af-p20-3b32fb10",
+   "quote": "The Contractor must submit Standard Form (SF) 1444, Request For Authorization of Additional Classification and Rate, to the Contracting Officer no later than 30 days after the unlisted class of employee performs any contract work.",
+   "source_file": "cd66a3af47c749fabc805913d835b3a6.pdf",
+   "page": 20,
+   "firm_answer": "Firm has prior SCA-covered federal contracts and is familiar with wage classification requirements. SF-1444 submission is a standard SCA compliance step.",
+   "status": "meets",
+   "evidence": "Firm past performance: Tinker AFB grounds maintenance and GSA custodial — both SCA-covered federal contracts."
+  },
+  {
+   "requirement_id": "a06d61e1-cd66a3af-p13-5a121590",
+   "quote": "the Contractor shall not enter into any subcontract, in excess of the threshold specified in FAR 9.405-2(b) on the date of subcontract award, with a Contractor that is debarred, suspended, or proposed for debarment",
+   "source_file": "cd66a3af47c749fabc805913d835b3a6.pdf",
+   "page": 13,
+   "firm_answer": "Standard federal subcontracting compliance requirement. Firm has multiple federal contracts and is expected to be familiar with SAM exclusions checks, but no explicit subcontracting policy is stated in the profile.",
+   "status": "unknown",
+   "evidence": "Firm profile is silent on subcontractor vetting procedures."
+  },
+  {
+   "requirement_id": "a06d61e1-cd66a3af-p62-25f9f996",
+   "quote": "The quotation shall include—",
+   "source_file": "cd66a3af47c749fabc805913d835b3a6.pdf",
+   "page": 62,
+   "firm_answer": "Firm has submitted federal quotations before (GSA, Tinker AFB, VA). Can prepare a compliant quotation package procedurally, but technical pricing of hazard tree work is outside documented capabilities.",
+   "status": "partial",
+   "evidence": "Firm past performance: multiple federal contracts — no hazard tree pricing experience documented."
+  },
+  {
+   "requirement_id": "a06d61e1-4acf9469-p1-e404055b",
+   "quote": "Information required by the Regulations must be submitted on SF-1444 or bond paper.",
+   "source_file": "4acf94699c7d4b12a44e4143f8ba6a4c.txt",
+   "page": 1,
+   "firm_answer": "Administrative compliance requirement. Firm has prior federal SCA contract experience and can comply with SF-1444 formatting requirements.",
+   "status": "meets",
+   "evidence": "Firm past performance: Tinker AFB grounds maintenance and GSA custodial — SCA-covered federal contracts."
+  }
+ ],
+ "matrix_dropped": 2,
+ "matrix_dropped_rows": [
+  {
+   "requirement_id": "a06d61e1-d186b0f7-p1-53017eaa",
+   "quote": "At least five (5) days before planned mobilization, the Contractor's authorized field supervisor shall coordinate planned workdays, arrival times, staging, access, and required park clearances with the COR.",
+   "source_file": "d186b0f74b1a4fc8b46c8a45e858a5ca.docx",
+   "page": 1,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "a06d61e1-cd66a3af-p1-cd66a3af",
+   "quote": "Any representations and/or certifications attached to this Request for Quotation must be completed by the quoter.",
+   "source_file": "cd66a3af47c749fabc805913d835b3a6.pdf",
+   "page": 1,
+   "reason": "unknown_requirement"
+  }
+ ],
+ "fit_score_code": 0.5385,
+ "drafts": {
+  "capability_statement": "Red Cedar Facility Services is a Woman-Owned Small Business (WOSB), Economically Disadvantaged WOSB (EDWOSB), and SBA-certified small business headquartered in Oklahoma City, OK, with active federal contracting experience across GSA, Department of Veterans Affairs, and Department of Defense installations including Tinker AFB.\n\nRed Cedar holds NAICS 561730 (Landscaping Services) and maintains a workforce of 38 W-2 employees supported by OSHA 30-certified field supervisors. Our quality control program logs inspections in a CMMS, enabling documented daily field coordination consistent with COR check-in requirements. We are enrolled in e-Verify and maintain compliance with Service Contract Act wage determinations and Executive Order minimum wage obligations on all federal contracts.\n\nOur safety infrastructure includes site-specific work and safety plan development capability, drawing on OSHA 30 supervisor expertise and familiarity with 29 CFR 1910 general industry standards. We operate a green procurement program and are experienced with federal administrative requirements including SAM registration maintenance, IPP invoicing, SF-1444 wage classification submissions, and FAR subcontractor vetting procedures.\n\nRed Cedar is committed to full compliance with all applicable local, state, and federal codes and regulations, and to transparent, responsive communication with the Contracting Officer and COR throughout performance.\n\nPoint of Contact: [Owner Name], Red Cedar Facility Services, Oklahoma City, OK | [Phone] | [Email] | SAM UEI: [UEI] | NAICS: 561730",
+  "questions_for_co": [
+   "Insurance requirements: What minimum liability coverage types and limits are required under the insurance certificate to be furnished prior to beginning work, and must the policy specifically cover tree removal or aerial lift operations? [a06d61e1-cd66a3af-p60-a7f380e7, a06d61e1-cd66a3af-p60-eeb42a81]",
+   "Biobased lubricants: Which specific chain and cable lubricants are anticipated to be used on this contract, and is there an existing written justification or exception on file with the Contracting Officer that would relieve the USDA-designated biobased content requirement? [a06d61e1-cd66a3af-p42-32764d51]",
+   "UAS/drone use: Does the government anticipate or require contractor use of any unmanned aircraft system (UAS/drone) during performance of this contract, or is the FASC SAM search obligation triggered only if the contractor independently proposes UAS use? [a06d61e1-cd66a3af-p49-f1e898c4]",
+   "Wage determination: Which specific wage determination number and occupation classifications apply to this contract under the Service Contract Act, and does the applicable wage determination supersede the EO $13.65/hr or $15.00/hr minimums for any covered classifications? [a06d61e1-cd66a3af-p29-b1ddfbc9, a06d61e1-4acf9469-p1-b37dcd15]",
+   "Work method changes: What is the government's expected process and turnaround time for reviewing written justifications for proposed changes to specified work methods, given the 09/28/2026–03/31/2027 period of performance? [a06d61e1-d186b0f7-p1-c51d351f]",
+   "Subcontracting: Is subcontracting anticipated or permitted under this contract, and if so, what is the applicable FAR 9.405-2(b) threshold in effect at the time of this solicitation for purposes of the debarment/suspension check requirement? [a06d61e1-cd66a3af-p13-5a121590]"
+  ],
+  "calendar_entries": [
+   {
+    "title": "Proposal Due",
+    "date": "2026-09-15",
+    "note": "Response deadline 2026-09-15 at 17:00 EDT per notice header.",
+    "source_quote": "POC: Casey Winters, casey_winters@ios.doi.gov All email regarding this solicitation must have the solicitation number '140P3026Q0037' in the subject li Period of Performance: 09/28/2026 to 03/31/2027 00010 PMIS 340733A Remove or Prune Hazard Trees Product/Service Code: F014 Product/Service Description: NATURAL Continued... 1 2"
+   },
+   {
+    "title": "Decide By (2 business days before proposal due)",
+    "date": "2026-09-11",
+    "note": "Internal go/no-go decision deadline — two business days before the 2026-09-15 proposal due date.",
+    "source_quote": "POC: Casey Winters, casey_winters@ios.doi.gov All email regarding this solicitation must have the solicitation number '140P3026Q0037' in the subject li Period of Performance: 09/28/2026 to 03/31/2027 00010 PMIS 340733A Remove or Prune Hazard Trees Product/Service Code: F014 Product/Service Description: NATURAL Continued... 1 2"
+   }
+  ]
+ },
+ "reader": {
+  "notice_id": "a06d61e190ec4307a994a1ef824f0c23",
+  "key_requirement_ids": [
+   "a06d61e1-cd66a3af-p1-680211f7",
+   "a06d61e1-d186b0f7-p1-3e072167",
+   "a06d61e1-d186b0f7-p1-739bd1c4",
+   "a06d61e1-d186b0f7-p1-429be8cb",
+   "a06d61e1-d186b0f7-p1-53017eaa",
+   "a06d61e1-d186b0f7-p1-d3d1cee8",
+   "a06d61e1-d186b0f7-p1-0deb250b",
+   "a06d61e1-d186b0f7-p1-b32e6385",
+   "a06d61e1-d186b0f7-p1-c51d351f",
+   "a06d61e1-d186b0f7-p1-c1273052",
+   "a06d61e1-cd66a3af-p60-a7f380e7",
+   "a06d61e1-cd66a3af-p61-e7b007d8",
+   "a06d61e1-cd66a3af-p65-7328109b",
+   "a06d61e1-cd66a3af-p62-25f9f996",
+   "a06d61e1-cd66a3af-p42-32764d51",
+   "a06d61e1-cd66a3af-p49-f1e898c4",
+   "a06d61e1-4acf9469-p1-b37dcd15",
+   "a06d61e1-cd66a3af-p29-b1ddfbc9",
+   "a06d61e1-4acf9469-p1-fad7fbd0",
+   "a06d61e1-cd66a3af-p20-3b32fb10"
+  ],
+  "scope_summary": "The government is buying hazard tree removal or pruning services under PMIS 340733A, with a period of performance from 09/28/2026 to 03/31/2027. Work is to be performed at a National Park Service site, with on-site activities restricted to 6:30 AM to 3:00 PM, Monday through Friday. The contractor must submit a site-specific work/safety and traffic-control plan before mobilization and coordinate with the COR at least five days prior to planned mobilization.",
+  "evaluation_basis": "not stated",
+  "incumbent_or_history": "none found",
+  "quotes": [
+   "Period of Performance: 09/28/2026 to 03/31/2027 00010 PMIS 340733A Remove or Prune Hazard Trees Product/Service Code: F014 Product/Service Description: NATURAL Continued... 1 2",
+   "Before mobilization, the Contractor shall submit a site-specific work/safety and traffic-control plan to the COR and Contracting Officer.",
+   "Working Hours: On-site work activities shall occur between 6:30 AM and 3:00 PM, Monday through Friday.",
+   "The authorized field supervisor shall check in with the COR at the start of each workday before field work begins and shall communicate the planned HT items and locations for that day.",
+   "Quoters shall use the same HT item numbers on Attachment B.",
+   "Other prequotation site-access requests and technical questions shall be submitted only to the Contracting Officer in accordance with the RFQ.",
+   "The Contractor shall also comply with applicable local, State, and Federal codes, standards, and regulations in effect at award, including 29 CFR 1910.",
+   "The contractor shall furnish the Contracting Officer with a copy of an acceptable insurance certificate prior to beginning the work.",
+   "Chain and cable lubricants purchased as a direct cost of this contract for use in performing the services shall meet the applicable USDA-designated minimum biobased content unless the Contracting Officer identifies an applicable written justification or exception in this contract.",
+   "The Contractor shall search SAM for the FASC-maintained list of American Security Drone Act—covered foreign entities before proposing, or using in performance of the contract, any unmanned aircraft system.",
+   "The Contractor must pay to workers, while performing in the United States, and performing on, or in connection with, this contract, a minimum hourly wage rate of $15.00 per hour beginning January 30, 2022.",
+   "If a contract is subject to Executive Order 13658, the contractor must pay all covered workers at least $13.65 per hour (or the applicable wage rate listed on this wage determination, if it is higher) for all hours spent performing on the contract from May 11, 2026, through December 31, 2026.",
+   "The Contractor must use the IPP website to register, access, and use IPP for submitting requests for payment.",
+   "FAR 52.204-7 System for Award Management—Registration (MAR 2026) (DEVIATION) The Offeror shall have an active Federal Government contracts registration in the System for Award Management (SAM) when submitting an offer or quotation in response to this solicitation and at the time of award."
+  ]
+ },
+ "fit": {
+  "notice_id": "a06d61e190ec4307a994a1ef824f0c23",
+  "fit_score": 0.07,
+  "matched_past_performance": [
+   "Grounds maintenance, cantonment area"
+  ],
+  "strengths": [
+   "NAICS 561730 listed in firm profile",
+   "Total small business set-aside eligibility (SBA)",
+   "e-Verify and OSHA 30 supervisors in place",
+   "Grounds maintenance past performance at Tinker AFB (federal customer)"
+  ],
+  "gaps": [
+   "[rc-distance] Place of performance is Lakewood CO (~900 miles from Oklahoma City), far exceeding the 200-mile owner rule hard limit",
+   "[rc-base] Period of performance is ~6 months (09/28/2026–03/31/2027), below the 12-month base period owner rule minimum",
+   "No arborist, tree removal, or hazard-tree pruning capability stated anywhere in the firm profile",
+   "No ISA-certified arborist or tree-climbing/rigging credentials listed",
+   "No chainsaw, aerial lift, or tree-felling equipment mentioned",
+   "No experience with NPS or DOI park-specific site-access and traffic-control plan requirements",
+   "No biobased/chain-and-cable lubricant procurement program documented",
+   "No drone/UAS policy documented (SAM FASC search requirement)",
+   "Grounds maintenance past performance is mowing/trimming/irrigation — not hazard tree work"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "a06d61e1-cd66a3af-p1-680211f7",
+    "quote": "Period of Performance: 09/28/2026 to 03/31/2027",
+    "source_file": "cd66a3af47c749fabc805913d835b3a6.pdf",
+    "page": 1,
+    "firm_answer": "The period of performance is approximately 6 months. Owner rule [rc-base] prohibits bids under a 12-month base period. This is a hard disqualifier.",
+    "status": "gap",
+    "evidence": "Owner rule [rc-base]: No bids under a 12-month base period."
+   },
+   {
+    "requirement_id": "a06d61e1-d186b0f7-p1-b32e6385",
+    "quote": "The Contractor shall account for these conditions in its quotation and mobilization planning.",
+    "source_file": "d186b0f74b1a4fc8b46c8a45e858a5ca.docx",
+    "page": 1,
+    "firm_answer": "Place of performance is in the Lakewood, CO office area (~900 miles from Oklahoma City). Owner rule [rc-distance] prohibits bids over 200 miles from Oklahoma City. This is a hard disqualifier.",
+    "status": "gap",
+    "evidence": "Owner rule [rc-distance]: No bids over 200 miles from Oklahoma City."
+   },
+   {
+    "requirement_id": "a06d61e1-cd66a3af-p1-680211f7",
+    "quote": "PMIS 340733A Remove or Prune Hazard Trees",
+    "source_file": "cd66a3af47c749fabc805913d835b3a6.pdf",
+    "page": 1,
+    "firm_answer": "Firm profile lists no hazard tree removal, tree pruning, arborist, or tree-felling capability. Grounds maintenance capabilities are limited to mowing, trimming, irrigation, and snow removal.",
+    "status": "gap",
+    "evidence": "Firm capabilities: mowing, trimming, irrigation, snow and ice removal — no tree removal or arborist work listed."
+   },
+   {
+    "requirement_id": "a06d61e1-d186b0f7-p1-3e072167",
+    "quote": "Before mobilization, the Contractor shall submit a site-specific work/safety and traffic-control plan to the COR and Contracting Officer.",
+    "source_file": "d186b0f74b1a4fc8b46c8a45e858a5ca.docx",
+    "page": 1,
+    "firm_answer": "Firm has OSHA 30 supervisors and a QC program, which supports safety planning generally, but no documented experience preparing NPS-specific site safety or traffic-control plans for tree work.",
+    "status": "partial",
+    "evidence": "Firm capabilities: OSHA 30 supervisors, QC inspections logged in a CMMS."
+   },
+   {
+    "requirement_id": "a06d61e1-d186b0f7-p1-c1273052",
+    "quote": "The Contractor shall also comply with applicable local, State, and Federal codes, standards, and regulations in effect at award, including 29 CFR 1910.",
+    "source_file": "d186b0f74b1a4fc8b46c8a45e858a5ca.docx",
+    "page": 1,
+    "firm_answer": "Firm has OSHA 30 supervisors, indicating familiarity with 29 CFR 1910 general industry standards. However, tree removal typically requires 29 CFR 1910.266 or ANSI Z133 compliance, which is not mentioned.",
+    "status": "partial",
+    "evidence": "Firm capabilities: OSHA 30 supervisors."
+   },
+   {
+    "requirement_id": "a06d61e1-d186b0f7-p1-0deb250b",
+    "quote": "The authorized field supervisor shall check in with the COR at the start of each workday before field work begins and shall communicate the planned HT items and locations for that day.",
+    "source_file": "d186b0f74b1a4fc8b46c8a45e858a5ca.docx",
+    "page": 1,
+    "firm_answer": "Firm profile is silent on daily COR check-in procedures specific to hazard tree operations. General QC program exists but no tree-work field supervision protocol documented.",
+    "status": "unknown",
+    "evidence": "Firm capabilities: QC inspections logged in a CMMS — no tree-specific field supervision protocol listed."
+   },
+   {
+    "requirement_id": "a06d61e1-d186b0f7-p1-d3d1cee8",
+    "quote": "Working Hours: On-site work activities shall occur between 6:30 AM and 3:00 PM, Monday through Friday.",
+    "source_file": "d186b0f74b1a4fc8b46c8a45e858a5ca.docx",
+    "page": 1,
+    "firm_answer": "Firm profile does not address working hour constraints. No conflict identified from profile, but compliance cannot be confirmed.",
+    "status": "unknown",
+    "evidence": "Firm profile is silent on working hour scheduling constraints."
+   },
+   {
+    "requirement_id": "a06d61e1-d186b0f7-p1-c51d351f",
+    "quote": "Any proposed change to the specified work methods shall be submitted in writing to the CO with supporting justification.",
+    "source_file": "d186b0f74b1a4fc8b46c8a45e858a5ca.docx",
+    "page": 1,
+    "firm_answer": "Firm profile does not address change management procedures for work methods. General federal contracting experience implies awareness, but not confirmed.",
+    "status": "unknown",
+    "evidence": "Firm profile is silent on written change-of-method procedures."
+   },
+   {
+    "requirement_id": "a06d61e1-d186b0f7-p1-429be8cb",
+    "quote": "Other prequotation site-access requests and technical questions shall be submitted only to the Contracting Officer in accordance with the RFQ.",
+    "source_file": "d186b0f74b1a4fc8b46c8a45e858a5ca.docx",
+    "page": 1,
+    "firm_answer": "Standard submission requirement. Firm has federal contracting experience and can comply procedurally.",
+    "status": "meets",
+    "evidence": "Firm past performance: multiple federal contracts (GSA, Tinker AFB, VA) demonstrating familiarity with federal contracting procedures."
+   },
+   {
+    "requirement_id": "a06d61e1-d186b0f7-p1-739bd1c4",
+    "quote": "Quoters shall use the same HT item numbers on Attachment B.",
+    "source_file": "d186b0f74b1a4fc8b46c8a45e858a5ca.docx",
+    "page": 1,
+    "firm_answer": "Administrative submission requirement. Firm can comply, but HT (hazard tree) item numbering is specific to tree work scope the firm lacks capability to price accurately.",
+    "status": "partial",
+    "evidence": "Firm has federal proposal experience but no hazard tree scoping or pricing capability documented."
+   },
+   {
+    "requirement_id": "a06d61e1-cd66a3af-p65-7328109b",
+    "quote": "The Offeror shall have an active Federal Government contracts registration in the System for Award Management (SAM) when submitting an offer or quotation in response to this solicitation and at the time of award.",
+    "source_file": "cd66a3af47c749fabc805913d835b3a6.pdf",
+    "page": 65,
+    "firm_answer": "Firm profile lists e-Verify and SBA set-aside eligibility, strongly implying active SAM registration, but SAM registration is not explicitly confirmed in the profile.",
+    "status": "unknown",
+    "evidence": "Firm capabilities: e-Verify enrolled; SBA set-aside eligible — SAM registration not explicitly stated."
+   },
+   {
+    "requirement_id": "a06d61e1-cd66a3af-p11-2d4ae1e4",
+    "quote": "The Contractor shall maintain an active Federal Government contracts registration in the System for Award Management (SAM) at https://www.sam.gov during contract performance and through final payment under this contract.",
+    "source_file": "cd66a3af47c749fabc805913d835b3a6.pdf",
+    "page": 11,
+    "firm_answer": "Same as above — SAM registration not explicitly confirmed in profile, though federal past performance implies it.",
+    "status": "unknown",
+    "evidence": "Multiple active federal contracts listed in past performance imply SAM registration but it is not stated explicitly."
+   },
+   {
+    "requirement_id": "a06d61e1-cd66a3af-p60-a7f380e7",
+    "quote": "The contractor shall furnish the Contracting Officer with a copy of an acceptable insurance certificate prior to beginning the work.",
+    "source_file": "cd66a3af47c749fabc805913d835b3a6.pdf",
+    "page": 60,
+    "firm_answer": "Firm profile does not mention insurance coverage. Tree removal work typically requires higher liability limits than janitorial/grounds work. No insurance documentation referenced.",
+    "status": "unknown",
+    "evidence": "Firm profile is silent on insurance coverage types or limits."
+   },
+   {
+    "requirement_id": "a06d61e1-cd66a3af-p60-eeb42a81",
+    "quote": "The insurance company shall provide an endorsement to notify the Contracting Officer 30 days prior to the effective date of cancellation or termination of the policy or certificate",
+    "source_file": "cd66a3af47c749fabc805913d835b3a6.pdf",
+    "page": 60,
+    "firm_answer": "Firm profile is silent on insurance endorsement provisions. Cannot confirm compliance.",
+    "status": "unknown",
+    "evidence": "Firm profile is silent on insurance endorsement requirements."
+   },
+   {
+    "requirement_id": "a06d61e1-cd66a3af-p61-e7b007d8",
+    "quote": "The Contractor must use the IPP website to register, access, and use IPP for submitting requests for payment.",
+    "source_file": "cd66a3af47c749fabc805913d835b3a6.pdf",
+    "page": 61,
+    "firm_answer": "Firm profile does not mention IPP registration. Federal invoicing experience with GSA and VA suggests familiarity, but IPP use is not confirmed.",
+    "status": "unknown",
+    "evidence": "Firm past performance includes GSA and VA federal contracts; IPP use not explicitly stated."
+   },
+   {
+    "requirement_id": "a06d61e1-cd66a3af-p29-b1ddfbc9",
+    "quote": "The Contractor must pay to workers, while performing in the United States, and performing on, or in connection with, this contract, a minimum hourly wage rate of $15.00 per hour beginning January 30, 2022.",
+    "source_file": "cd66a3af47c749fabc805913d835b3a6.pdf",
+    "page": 29,
+    "firm_answer": "Firm profile does not state wage rates. Firm has 38 W-2 employees and prior federal SCA-covered contracts, implying awareness of wage requirements, but compliance with $15/hr minimum is not confirmed.",
+    "status": "unknown",
+    "evidence": "Firm capabilities: 38 W-2 employees; prior federal SCA contracts (GSA, Tinker AFB, VA)."
+   },
+   {
+    "requirement_id": "a06d61e1-4acf9469-p1-b37dcd15",
+    "quote": "the contractor must pay all covered workers at least $13.65 per hour (or the applicable wage rate listed on this wage determination, if it is higher) for all hours spent performing on the contract",
+    "source_file": "4acf94699c7d4b12a44e4143f8ba6a4c.txt",
+    "page": 1,
+    "firm_answer": "Firm has prior SCA-covered federal contracts and 38 W-2 employees, suggesting awareness of EO wage requirements, but specific compliance is not confirmed in the profile.",
+    "status": "unknown",
+    "evidence": "Firm past performance: Tinker AFB grounds maintenance (SCA-covered federal contract)."
+   },
+   {
+    "requirement_id": "a06d61e1-4acf9469-p1-fad7fbd0",
+    "quote": "the contractor must provide employees with 1 hour of paid sick leave for every 30 hours they work, up to 56 hours of paid sick leave each year.",
+    "source_file": "4acf94699c7d4b12a44e4143f8ba6a4c.txt",
+    "page": 1,
+    "firm_answer": "Firm profile does not address paid sick leave policy. Prior federal contracts imply EO 13706 compliance experience, but it is not confirmed.",
+    "status": "unknown",
+    "evidence": "Firm profile is silent on paid sick leave policy."
+   },
+   {
+    "requirement_id": "a06d61e1-cd66a3af-p42-32764d51",
+    "quote": "Chain and cable lubricants purchased as a direct cost of this contract for use in performing the services shall meet the applicable USDA-designated minimum biobased content unless the Contracting Officer identifies an applicable written justification or exception in this contract.",
+    "source_file": "cd66a3af47c749fabc805913d835b3a6.pdf",
+    "page": 42,
+    "firm_answer": "Firm profile mentions a green cleaning program but does not reference biobased lubricant procurement for chain/cable equipment. Tree removal equipment lubricant compliance is not addressed.",
+    "status": "gap",
+    "evidence": "Firm capabilities: green cleaning program — no biobased lubricant or tree equipment procurement policy listed."
+   },
+   {
+    "requirement_id": "a06d61e1-cd66a3af-p49-f1e898c4",
+    "quote": "The Contractor shall search SAM for the FASC-maintained list of American Security Drone Act—covered foreign entities before proposing, or using in performance of the contract, any unmanned aircraft system.",
+    "source_file": "cd66a3af47c749fabc805913d835b3a6.pdf",
+    "page": 49,
+    "firm_answer": "Firm profile does not mention UAS/drone use or a FASC SAM search policy. Compliance status is unknown.",
+    "status": "unknown",
+    "evidence": "Firm profile is silent on UAS/drone use or FASC SAM search procedures."
+   },
+   {
+    "requirement_id": "a06d61e1-cd66a3af-p16-cb8e740c",
+    "quote": "If the Contractor represented that it was a small business concern, a small disadvantaged business concern, or a joint venture that was any of the small business concerns identified in 19.000(a)(3) prior to award of this contract, the Contractor shall rerepresent its size and socioeconomic status",
+    "source_file": "cd66a3af47c749fabc805913d835b3a6.pdf",
+    "page": 16,
+    "firm_answer": "Firm is a WOSB/EDWOSB/SBA small business. Rerepresentation requirement is a standard compliance obligation the firm can meet.",
+    "status": "meets",
+    "evidence": "Firm set-asides: WOSB, EDWOSB, SBA — small business status confirmed."
+   },
+   {
+    "requirement_id": "a06d61e1-cd66a3af-p14-f257984f",
+    "quote": "the Contractor shall give written notice to the Contracting Officer within five business days from the date of the inversion event.",
+    "source_file": "cd66a3af47c749fabc805913d835b3a6.pdf",
+    "page": 14,
+    "firm_answer": "Firm is a domestic small business (Oklahoma City, OK). No inversion risk identified. Standard compliance obligation.",
+    "status": "meets",
+    "evidence": "Firm profile: Red Cedar Facility Services, Oklahoma City, OK — domestic small business."
+   },
+   {
+    "requirement_id": "a06d61e1-cd66a3af-p20-3b32fb10",
+    "quote": "The Contractor must submit Standard Form (SF) 1444, Request For Authorization of Additional Classification and Rate, to the Contracting Officer no later than 30 days after the unlisted class of employee performs any contract work.",
+    "source_file": "cd66a3af47c749fabc805913d835b3a6.pdf",
+    "page": 20,
+    "firm_answer": "Firm has prior SCA-covered federal contracts and is familiar with wage classification requirements. SF-1444 submission is a standard SCA compliance step.",
+    "status": "meets",
+    "evidence": "Firm past performance: Tinker AFB grounds maintenance and GSA custodial — both SCA-covered federal contracts."
+   },
+   {
+    "requirement_id": "a06d61e1-cd66a3af-p13-5a121590",
+    "quote": "the Contractor shall not enter into any subcontract, in excess of the threshold specified in FAR 9.405-2(b) on the date of subcontract award, with a Contractor that is debarred, suspended, or proposed for debarment",
+    "source_file": "cd66a3af47c749fabc805913d835b3a6.pdf",
+    "page": 13,
+    "firm_answer": "Standard federal subcontracting compliance requirement. Firm has multiple federal contracts and is expected to be familiar with SAM exclusions checks, but no explicit subcontracting policy is stated in the profile.",
+    "status": "unknown",
+    "evidence": "Firm profile is silent on subcontractor vetting procedures."
+   },
+   {
+    "requirement_id": "a06d61e1-cd66a3af-p62-25f9f996",
+    "quote": "The quotation shall include—",
+    "source_file": "cd66a3af47c749fabc805913d835b3a6.pdf",
+    "page": 62,
+    "firm_answer": "Firm has submitted federal quotations before (GSA, Tinker AFB, VA). Can prepare a compliant quotation package procedurally, but technical pricing of hazard tree work is outside documented capabilities.",
+    "status": "partial",
+    "evidence": "Firm past performance: multiple federal contracts — no hazard tree pricing experience documented."
+   },
+   {
+    "requirement_id": "a06d61e1-4acf9469-p1-e404055b",
+    "quote": "Information required by the Regulations must be submitted on SF-1444 or bond paper.",
+    "source_file": "4acf94699c7d4b12a44e4143f8ba6a4c.txt",
+    "page": 1,
+    "firm_answer": "Administrative compliance requirement. Firm has prior federal SCA contract experience and can comply with SF-1444 formatting requirements.",
+    "status": "meets",
+    "evidence": "Firm past performance: Tinker AFB grounds maintenance and GSA custodial — SCA-covered federal contracts."
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "a06d61e190ec4307a994a1ef824f0c23",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-09-15T17:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": "09/28/2026 to 03/31/2027",
+   "source_quotes": [
+    "POC: Casey Winters, casey_winters@ios.doi.gov All email regarding this solicitation must have the solicitation number '140P3026Q0037' in the subject li Period of Performance: 09/28/2026 to 03/31/2027 00010 PMIS 340733A Remove or Prune Hazard Trees Product/Service Code: F014 Product/Service Description: NATURAL Continued... 1 2"
+   ]
+  },
+  "days_to_close": 1.4448976333217594,
+  "set_aside_note": "Set-aside is \"Small Business Set Aside - Total.\" The firm (Red Cedar Facility Services) can claim \"total small business\" eligibility under its set-aside list (WOSB, EDWOSB, SBA), so the firm IS eligible to bid on this set-aside.",
+  "amendment_note": "no amendment",
+  "calendar_entries": [
+   {
+    "title": "Proposal Due",
+    "date": "2026-09-15",
+    "note": "Response deadline 2026-09-15 at 17:00 EDT per notice header.",
+    "source_quote": "POC: Casey Winters, casey_winters@ios.doi.gov All email regarding this solicitation must have the solicitation number '140P3026Q0037' in the subject li Period of Performance: 09/28/2026 to 03/31/2027 00010 PMIS 340733A Remove or Prune Hazard Trees Product/Service Code: F014 Product/Service Description: NATURAL Continued... 1 2"
+   },
+   {
+    "title": "Decide By (2 business days before proposal due)",
+    "date": "2026-09-11",
+    "note": "Internal go/no-go decision deadline — two business days before the 2026-09-15 proposal due date.",
+    "source_quote": "POC: Casey Winters, casey_winters@ios.doi.gov All email regarding this solicitation must have the solicitation number '140P3026Q0037' in the subject li Period of Performance: 09/28/2026 to 03/31/2027 00010 PMIS 340733A Remove or Prune Hazard Trees Product/Service Code: F014 Product/Service Description: NATURAL Continued... 1 2"
+   }
+  ]
+ },
+ "model_calls": 5,
+ "tokens_in": 72535,
+ "tokens_out": 12752,
+ "seconds": 234.96,
+ "produced_at": "2026-09-14T05:23:15.805333-05:00"
+}

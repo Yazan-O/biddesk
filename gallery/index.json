@@ -1,0 +1,2901 @@
+{
+ "produced_at": "2026-09-14T07:12:57.081266-05:00",
+ "firms": [
+  {
+   "slug": "red-cedar",
+   "name": "Red Cedar Facility Services",
+   "city": "Oklahoma City",
+   "state": "OK",
+   "what": "Janitorial and grounds maintenance for federal buildings",
+   "rules": [
+    {
+     "id": "rc-types",
+     "text": "Only real solicitations: no award notices, no justifications, no special notices.",
+     "kind": "notice_types",
+     "value": [
+      "Solicitation",
+      "Combined Synopsis/Solicitation",
+      "Presolicitation",
+      "Sources Sought"
+     ]
+    },
+    {
+     "id": "rc-setaside",
+     "text": "Only bid where we are eligible: WOSB, EDWOSB, total small business, or unrestricted.",
+     "kind": "set_aside_eligible",
+     "value": [
+      "WOSB",
+      "EDWOSB",
+      "SBA",
+      "",
+      "NONE"
+     ]
+    },
+    {
+     "id": "rc-distance",
+     "text": "No bids over 200 miles from Oklahoma City.",
+     "kind": "max_distance_miles",
+     "value": 200
+    },
+    {
+     "id": "rc-base",
+     "text": "No bids under a 12-month base period.",
+     "kind": "min_base_months",
+     "value": 12
+    }
+   ],
+   "fictional": true,
+   "tiers": {
+    "total": 231,
+    "tier0": 178,
+    "tier1": 31,
+    "tier2": 22,
+    "by_rule": {
+     "rc-distance": 120,
+     "rc-types": 43,
+     "rc-setaside": 37,
+     "scope": 9
+    },
+    "model_calls": 53
+   },
+   "week": [
+    {
+     "date": "2026-08-14",
+     "posted": 9,
+     "filed": 7,
+     "surfaced": 2
+    },
+    {
+     "date": "2026-08-16",
+     "posted": 1,
+     "filed": 1,
+     "surfaced": 0
+    },
+    {
+     "date": "2026-08-17",
+     "posted": 3,
+     "filed": 3,
+     "surfaced": 0
+    },
+    {
+     "date": "2026-08-18",
+     "posted": 12,
+     "filed": 10,
+     "surfaced": 1
+    },
+    {
+     "date": "2026-08-19",
+     "posted": 7,
+     "filed": 6,
+     "surfaced": 1
+    },
+    {
+     "date": "2026-08-20",
+     "posted": 7,
+     "filed": 5,
+     "surfaced": 2
+    },
+    {
+     "date": "2026-08-21",
+     "posted": 6,
+     "filed": 6,
+     "surfaced": 0
+    },
+    {
+     "date": "2026-08-23",
+     "posted": 1,
+     "filed": 1,
+     "surfaced": 0
+    },
+    {
+     "date": "2026-08-24",
+     "posted": 9,
+     "filed": 9,
+     "surfaced": 0
+    },
+    {
+     "date": "2026-08-25",
+     "posted": 6,
+     "filed": 4,
+     "surfaced": 2
+    },
+    {
+     "date": "2026-08-26",
+     "posted": 13,
+     "filed": 13,
+     "surfaced": 0
+    },
+    {
+     "date": "2026-08-27",
+     "posted": 10,
+     "filed": 8,
+     "surfaced": 1
+    },
+    {
+     "date": "2026-08-28",
+     "posted": 8,
+     "filed": 7,
+     "surfaced": 1
+    },
+    {
+     "date": "2026-08-29",
+     "posted": 2,
+     "filed": 2,
+     "surfaced": 0
+    },
+    {
+     "date": "2026-08-31",
+     "posted": 15,
+     "filed": 14,
+     "surfaced": 1
+    },
+    {
+     "date": "2026-09-01",
+     "posted": 10,
+     "filed": 8,
+     "surfaced": 2
+    },
+    {
+     "date": "2026-09-02",
+     "posted": 14,
+     "filed": 13,
+     "surfaced": 1
+    },
+    {
+     "date": "2026-09-03",
+     "posted": 22,
+     "filed": 20,
+     "surfaced": 2
+    },
+    {
+     "date": "2026-09-04",
+     "posted": 9,
+     "filed": 8,
+     "surfaced": 1
+    },
+    {
+     "date": "2026-09-08",
+     "posted": 10,
+     "filed": 10,
+     "surfaced": 0
+    },
+    {
+     "date": "2026-09-09",
+     "posted": 13,
+     "filed": 11,
+     "surfaced": 2
+    },
+    {
+     "date": "2026-09-10",
+     "posted": 16,
+     "filed": 16,
+     "surfaced": 0
+    },
+    {
+     "date": "2026-09-11",
+     "posted": 24,
+     "filed": 23,
+     "surfaced": 1
+    },
+    {
+     "date": "2026-09-12",
+     "posted": 3,
+     "filed": 3,
+     "surfaced": 0
+    },
+    {
+     "date": "2026-09-14",
+     "posted": 1,
+     "filed": 1,
+     "surfaced": 0
+    }
+   ],
+   "cases": [
+    {
+     "notice_id": "23123dbc9dc04bae9701caddb03b3f0a",
+     "title": "R4-PR-Cabo Rojo NWR-126204A4CI0 Janitorial Service",
+     "type": "Solicitation",
+     "agency": "INTERIOR, DEPARTMENT OF THE.U.S. FISH AND WILDLIFE SERVICE.FWS SAT TEAM 3",
+     "deadline": "2026-09-18T15:00:00-04:00",
+     "days_to_close": 4.282673879421296,
+     "closed": false,
+     "response_kind": "proposal",
+     "ui_link": "https://sam.gov/opp/23123dbc9dc04bae9701caddb03b3f0a/view",
+     "card": {
+      "notice_id": "23123dbc9dc04bae9701caddb03b3f0a",
+      "firm_slug": "red-cedar",
+      "situation": "Solicitation R4-PR-Cabo Rojo NWR-126204A4CI0 is a janitorial services contract at Cabo Rojo National Wildlife Refuge, Puerto Rico, issued by U.S. Fish & Wildlife Service (INTERIOR), unrestricted, evaluated Best Value / Trade Off.\nIt reached the owner because Red Cedar Facility Services is an exact NAICS 561720 match with multiple federal janitorial past-performance records and WOSB/EDWOSB eligibility, but the site is ~2,000+ miles from the firm's Oklahoma City base.",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "NAICS 561720 exact match and small-business size standard ($22M) are fully satisfied, and three qualifying federal/state janitorial references are immediately available [23123dbc-ef2873c4-p2-b1f3c919; 23123dbc-ef2873c4-p5-5a036359].",
+       "CIMS-GB certification, CMMS-logged QC inspections, and OSHA 30 supervisors directly support the QCP, professional-standards, and OSHA 29 CFR 1910.141 requirements [23123dbc-d1ab2780-p2-bf2bb22e; 23123dbc-d1ab2780-p1-7224df30].",
+       "Established green cleaning program satisfies the environmentally compliant and non-toxic/low-odor supplies requirements without additional investment [23123dbc-ef2873c4-p4-4fc72b11; 23123dbc-d1ab2780-p5-32063a02]."
+      ],
+      "reasons_against": [
+       "Cabo Rojo NWR (Puerto Rico) is ~2,000+ miles from Oklahoma City, directly violating the firm's 200-mile operating rule, and no Puerto Rico workforce or mobilization capability is stated in the profile [profile: rc-distance 200-mile rule; gap: 23123dbc-d1ab2780-p2-f8de56a3].",
+       "No local workforce exists to guarantee uninterrupted performance, and accurate Puerto Rico pricing (travel, logistics, local labor) cannot be established from the firm's cost basis, making a competitive and compliant price schedule highly uncertain [23123dbc-d1ab2780-p2-f8de56a3; 23123dbc-c8115174-p2-824b084b].",
+       "Multiple unknown compliance items — SAM.gov active registration, background-check program, contract manager designation, IPP electronic invoicing, and anti-trafficking plan — remain unconfirmed in the profile and would need to be resolved in under 4 days [23123dbc-ef2873c4-p4-11bd4c88; 23123dbc-d1ab2780-p3-f216b14c; 23123dbc-ef2873c4-p14-c5f931c8; 23123dbc-ef2873c4-p29-4a2d087c]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-09-16",
+      "key_dates": {
+       "questions_due": null,
+       "proposal_due": "2026-09-18T15:00:00-04:00",
+       "site_visit": null,
+       "period_of_performance": null,
+       "source_quotes": []
+      },
+      "fit_score": 0.7692,
+      "matrix_summary": "15 of 35 requirements met, 10 partial, 1 gap, 9 unknown",
+      "evidence_link": "https://sam.gov/opp/23123dbc9dc04bae9701caddb03b3f0a/view"
+     },
+     "matrix_summary": "15 of 35 requirements met, 10 partial, 1 gap, 9 unknown",
+     "fit_score": 0.7692,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 35,
+     "matrix_dropped": 4,
+     "model_calls": 5,
+     "tokens_in": 69845,
+     "tokens_out": 13239,
+     "seconds": 131.49,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T05:35:42.692814-05:00",
+       "firm_slug": "red-cedar",
+       "notice_id": "23123dbc9dc04bae9701caddb03b3f0a",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 15 of 35 requirements met, 10 partial, 1 gap, 9 unknown",
+       "evidence": "{\"fit_score\": 0.7692, \"fit_score_model\": 0.12, \"evidence_basis\": null, \"matrix_kept\": 35, \"matrix_dropped\": 4, \"quotes_dropped\": 3, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 69845, \"tokens_out\": 13239, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "3d69977247d7458db3b9981e2668c174",
+     "title": "F--KS MARAIS DES CYGNES NWR VEGETATION TRIMMING AND C",
+     "type": "Solicitation",
+     "agency": "INTERIOR, DEPARTMENT OF THE.U.S. FISH AND WILDLIFE SERVICE.FWS, SAT TEAM 2",
+     "deadline": "2026-08-30T17:00:00-04:00",
+     "days_to_close": -14.6339928028125,
+     "closed": true,
+     "response_kind": "proposal",
+     "ui_link": "https://sam.gov/opp/3d69977247d7458db3b9981e2668c174/view",
+     "card": {
+      "notice_id": "3d69977247d7458db3b9981e2668c174",
+      "firm_slug": "red-cedar",
+      "situation": "Solicitation for tree and vegetation trimming, mulching, and clearing services at Marais des Cygnes National Wildlife Refuge in Kansas (trails and levees), set aside for Total Small Business, NAICS 561730, with a 12-month period of performance.\nReached the owner because Red Cedar's NAICS 561730 matches exactly and the firm holds Total Small Business eligibility, but the scope requires specialized forestry and wildland fire safety capabilities not documented in the firm profile.",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "NAICS 561730 is an exact match and Total Small Business set-aside eligibility is confirmed, making Red Cedar administratively eligible to compete [profile: WOSB/EDWOSB/SBA set-aside eligibility].",
+       "OSHA 30 supervisors and a CMMS-logged QC inspection program provide a credible foundation for the daily tailgate safety briefing requirement [3d699772-cae04cc8-p2-1b4ea67b].",
+       "Federal coordination experience across GSA, DoD, and VA demonstrates the administrative and compliance readiness needed for amendment acknowledgment, IPP invoicing, SAM rerepresentations, and records retention [3d699772-8ad8ca08-p2-366c1aa4]."
+      ],
+      "reasons_against": [
+       "The firm has no documented chainsaw, mulcher, chipper, or heavy forestry equipment capability, leaving the core technical scope entirely unmet [3d699772-cae04cc8-p2-0f306e34].",
+       "Four wildland fire safety requirements — spark arrestors, daily fire-risk inspections, suppression tools on equipment, and end-of-day fire watch — are all gaps with zero supporting evidence in the firm profile [3d699772-cae04cc8-p2-55c1d9c1; 3d699772-cae04cc8-p2-10bf6b5f; 3d699772-cae04cc8-p3-3afe0ad6].",
+       "Only one marginally relevant past-performance record exists (grounds maintenance, Tinker AFB), making it effectively impossible to submit the required two to three qualifying vegetation trimming/clearing examples without risking a non-responsive determination [3d699772-79173c4f-p3-c07b2f48]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-08-27",
+      "key_dates": {
+       "questions_due": "2026-08-30",
+       "proposal_due": "2026-08-30",
+       "site_visit": null,
+       "period_of_performance": "10/01/2026 to 09/30/2027",
+       "source_quotes": [
+        "**QUOTES AND QUESTIONS MUST BE EMAILED TO: jeremy_riva@ios.doi.gov by the closing date and time (see Block 8) PAGE 2 OF 2",
+        "Delivery: 09/30/2027 00010 TRAIL AND LEVEE TREE TRIMMING AND CLEARING Period of Performance: 10/01/2026 to 09/30/2027 PAGE 3 OF 14"
+       ]
+      },
+      "fit_score": 0.65,
+      "matrix_summary": "11 of 22 requirements met, 4 partial, 5 gap, 2 unknown",
+      "evidence_link": "https://sam.gov/opp/3d69977247d7458db3b9981e2668c174/view"
+     },
+     "matrix_summary": "11 of 22 requirements met, 4 partial, 5 gap, 2 unknown",
+     "fit_score": 0.65,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 22,
+     "matrix_dropped": 2,
+     "model_calls": 5,
+     "tokens_in": 50025,
+     "tokens_out": 11696,
+     "seconds": 91.18,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T05:51:19.228259-05:00",
+       "firm_slug": "red-cedar",
+       "notice_id": "3d69977247d7458db3b9981e2668c174",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 11 of 22 requirements met, 4 partial, 5 gap, 2 unknown",
+       "evidence": "{\"fit_score\": 0.65, \"fit_score_model\": 0.38, \"evidence_basis\": null, \"matrix_kept\": 22, \"matrix_dropped\": 2, \"quotes_dropped\": 0, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 50025, \"tokens_out\": 11696, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "4585b18bf9e745259b0be3e0289555c1",
+     "title": "Midwest Janitorial MATOC",
+     "type": "Solicitation",
+     "agency": "DEPT OF DEFENSE.DEPT OF THE ARMY.USACE.LRD.W072 ENDIST LOUISVILLE",
+     "deadline": "2026-08-27T13:00:00-04:00",
+     "days_to_close": -17.80065947898148,
+     "closed": true,
+     "response_kind": "proposal",
+     "ui_link": "https://sam.gov/opp/4585b18bf9e745259b0be3e0289555c1/view",
+     "card": {
+      "notice_id": "4585b18bf9e745259b0be3e0289555c1",
+      "firm_slug": "red-cedar",
+      "situation": "Midwest Janitorial MATOC — Army Corps of Engineers recruiting offices across IL, IN, KY, MI, and OH; ~7 FFP IDIQ awards, $20M shared ceiling, base + four option years.\nReached owner because NAICS 561720 is an exact match and Red Cedar is Total Small Business eligible, but the owner distance rule (rc-distance) flags all five states as out-of-range from Oklahoma City.",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "NAICS 561720 is an exact match for janitorial services and Red Cedar is fully eligible for the Total Small Business set-aside, clearing the threshold eligibility bar [profile: NAICS 561720 exact match; set_aside_note].",
+       "Relevant federal janitorial past performance (GSA federal building, VA outpatient clinic) and strong technical posture — CIMS-GB certification, green cleaning program, CMMS-based QC — would support a competitive proposal [profile: past performance, Oklahoma City Federal Building; outpatient clinic housekeeping].",
+       "The MATOC pool targets approximately seven awards, improving probability of selection and providing a long revenue runway (base + four option years, performance beginning 02 November 2026) [\"Each IDIQ contract will include a one (1) year base and four (4) one (1) year option periods.\"]."
+      ],
+      "reasons_against": [
+       "All five places of performance (IL, IN, KY, MI, OH) are well over 200 miles from Oklahoma City, directly triggering the owner's standing no-bid distance rule [rc-distance].",
+       "Zero requirements rows survived validation — no line-by-line compliance assessment is possible, so technical risk and any mandatory qualifications remain entirely unknown [matrix_summary: 0 requirements checked (no matrix row survived validation)].",
+       "Red Cedar's workforce of 38 W-2 employees and past performance concentrated in Oklahoma have no footprint in the five-state Midwest region, creating serious staffing and mobilization risk for a $20M multi-state MATOC [profile: workforce 38 W-2 employees; gaps: no Midwest past performance]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-08-25",
+      "key_dates": {
+       "questions_due": null,
+       "proposal_due": "2026-08-27T13:00:00-04:00",
+       "site_visit": null,
+       "period_of_performance": "Begins 2026-11-02; one (1) year base plus four (4) one (1) year option periods per IDIQ contract.",
+       "source_quotes": [
+        "The period of performance will begin 02 November 2026.",
+        "Each IDIQ contract will include a one (1) year base and four (4) one (1) year option periods."
+       ]
+      },
+      "fit_score": null,
+      "matrix_summary": "0 requirements checked (no matrix row survived validation)",
+      "evidence_link": "https://sam.gov/opp/4585b18bf9e745259b0be3e0289555c1/view"
+     },
+     "matrix_summary": "0 requirements checked (no matrix row survived validation)",
+     "fit_score": null,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": "description only (no attachments read)",
+     "matrix_kept": 0,
+     "matrix_dropped": 9,
+     "model_calls": 5,
+     "tokens_in": 19326,
+     "tokens_out": 6140,
+     "seconds": 43.67,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T05:44:57.697367-05:00",
+       "firm_slug": "red-cedar",
+       "notice_id": "4585b18bf9e745259b0be3e0289555c1",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 0 requirements checked (no matrix row survived validation)",
+       "evidence": "{\"fit_score\": null, \"fit_score_model\": 0.1, \"evidence_basis\": \"description only (no attachments read)\", \"matrix_kept\": 0, \"matrix_dropped\": 9, \"quotes_dropped\": 3, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 19326, \"tokens_out\": 6140, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "4f8dba025a32440284ae227c983342de",
+     "title": "Floor Stripping and Waxing at the Center for Grain and Animal Health Research",
+     "type": "Combined Synopsis/Solicitation",
+     "agency": "AGRICULTURE, DEPARTMENT OF.FOREST SERVICE.USDA-FS, CSA EAST 2",
+     "deadline": "2026-09-17T17:00:00-05:00",
+     "days_to_close": 3.4076738383333334,
+     "closed": false,
+     "response_kind": "proposal",
+     "ui_link": "https://sam.gov/workspace/contract/opp/4f8dba025a32440284ae227c983342de/view",
+     "card": {
+      "notice_id": "4f8dba025a32440284ae227c983342de",
+      "firm_slug": "red-cedar",
+      "situation": "USDA Forest Service combined synopsis/solicitation for floor stripping and waxing (~8,500 sq ft) at the Center for Grain and Animal Health Research, Manhattan, KS — a one-time spot task under a Total Small Business Set-Aside.\nReached the owner because NAICS 561720 is an exact match, the firm qualifies under the set-aside, and floor care is a listed core capability with relevant federal past performance.",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "Firm holds an exact NAICS 561720 match, floor care is an explicit core capability, and CIMS-GB certification directly supports the slip-resistance and product-approval requirements [4f8dba02-4d2a51d2-p18-028fa240].",
+       "Strong federal facility past performance (GSA Region 7, VA, Tinker AFB) demonstrates compliance with security access, safety, and COR coordination requirements [4f8dba02-4d2a51d2-p19-3837298e].",
+       "Firm qualifies for the Total Small Business Set-Aside and is e-Verify enrolled, with a green cleaning program that aligns with the advance product-approval requirement [4f8dba02-4d2a51d2-p18-fe4a1d15]."
+      ],
+      "reasons_against": [
+       "Manhattan, KS is approximately 360 miles from Oklahoma City, which is a FATAL violation of owner rule [rc-distance] prohibiting bids over 200 miles from OKC [4f8dba02-4d2a51d2-p18-de19740b].",
+       "This is a one-time spot task with no 12-month base period, which is a FATAL violation of owner rule [rc-base] requiring a minimum base period [4f8dba02-4d2a51d2-p18-171ae314].",
+       "The ~360-mile round trip from OKC to Manhattan, KS adds significant travel cost that would make the firm's pricing uncompetitive against local Kansas contractors [4f8dba02-4d2a51d2-p18-dff16849]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-09-15",
+      "key_dates": {
+       "questions_due": "2026-09-14T17:00:00-05:00",
+       "proposal_due": "2026-09-17T17:00:00-05:00",
+       "site_visit": null,
+       "period_of_performance": null,
+       "source_quotes": [
+        "Questions Questions shall be submitted via email to john.camacho@usda.gov and are due no later than September 14, 2026, at 5:00 PM CDT.",
+        "Quotes are due on 9/17/2026 5PM CDT Send quotes to john.camacho@usda.gov"
+       ]
+      },
+      "fit_score": 0.76,
+      "matrix_summary": "15 of 36 requirements met, 8 partial, 2 gap, 11 unknown",
+      "evidence_link": "https://sam.gov/workspace/contract/opp/4f8dba025a32440284ae227c983342de/view"
+     },
+     "matrix_summary": "15 of 36 requirements met, 8 partial, 2 gap, 11 unknown",
+     "fit_score": 0.76,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 36,
+     "matrix_dropped": 5,
+     "model_calls": 5,
+     "tokens_in": 66371,
+     "tokens_out": 14478,
+     "seconds": 115.69,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T05:17:30.277046-05:00",
+       "firm_slug": "red-cedar",
+       "notice_id": "4f8dba025a32440284ae227c983342de",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 15 of 36 requirements met, 8 partial, 2 gap, 11 unknown",
+       "evidence": "{\"fit_score\": 0.76, \"fit_score_model\": 0.18, \"evidence_basis\": null, \"matrix_kept\": 36, \"matrix_dropped\": 5, \"quotes_dropped\": 2, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 66371, \"tokens_out\": 14478, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "605b807449df46beac3adb1e03ed4bd3",
+     "title": "PR-CULEBRA NWR-JANITORIAL SERVICES",
+     "type": "Solicitation",
+     "agency": "INTERIOR, DEPARTMENT OF THE.U.S. FISH AND WILDLIFE SERVICE.FWS SAT TEAM 3",
+     "deadline": "2026-09-14T15:00:00-04:00",
+     "days_to_close": 0.2826738218865741,
+     "closed": false,
+     "response_kind": "proposal",
+     "ui_link": "https://sam.gov/opp/605b807449df46beac3adb1e03ed4bd3/view",
+     "card": {
+      "notice_id": "605b807449df46beac3adb1e03ed4bd3",
+      "firm_slug": "red-cedar",
+      "situation": "Full-service janitorial services at Culebra National Wildlife Refuge, Puerto Rico — two cleaning zones, all labor/materials/equipment furnished by contractor, 1 base year + four option years, Total Small Business Set-Aside, Best Value/Trade-Off evaluation.\nReached the owner because NAICS 561720 is an exact match, the firm is SBA/WOSB-eligible for the set-aside, and the fit score of 0.62 cleared the routing threshold — but a hard owner rule flags the 2,400-mile distance to Puerto Rico.",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "NAICS 561720 exact match and WOSB/SBA eligibility satisfy the set-aside and size-standard requirements outright [605b8074-a153fa6d-p2-976f7fc9].",
+       "Firm holds three qualifying federal past-performance references (GSA Region 7, VA Oklahoma City, Oklahoma OMES) sufficient to complete the mandatory references form [605b8074-296adf5d-p1-af197376].",
+       "CIMS-GB certification, CMMS-logged QC program, and green cleaning program directly meet the quality control, QASP-readiness, and environmentally compliant supplies requirements [605b8074-a8166aa3-p1-f300addc]."
+      ],
+      "reasons_against": [
+       "Place of performance is Culebra NWR, Puerto Rico — approximately 2,400 miles from Oklahoma City — triggering the hard owner 200-mile bid limit with no Caribbean or Puerto Rico presence documented [605b8074-a8166aa3-p2-594a3ab5].",
+       "Firm has no documented logistics capability to transport equipment, supplies, or personnel to a remote island location, leaving transportation and materials-supply requirements as confirmed gaps [605b8074-a153fa6d-p1-c5c19021].",
+       "No Puerto Rico-based workforce or background-cleared substitute pool exists, making the 98%-compliance attendance standard and uninterrupted-workforce requirement undemonstrable under best-value evaluation [605b8074-a8166aa3-p9-f6ed9832]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-09-10",
+      "key_dates": {
+       "questions_due": null,
+       "proposal_due": "2026-09-14T15:00:00-04:00",
+       "site_visit": null,
+       "period_of_performance": "1 base year of 12 months plus four 12-month option years",
+       "source_quotes": [
+        "1.2 Period of Performance: The period of performance shall be for one (1) Base Year of 12 months and four (4) 12-month option years each Option Year is subject to the availability of funds (SAF) ."
+       ]
+      },
+      "fit_score": 0.6167,
+      "matrix_summary": "9 of 35 requirements met, 19 partial, 2 gap, 5 unknown",
+      "evidence_link": "https://sam.gov/opp/605b807449df46beac3adb1e03ed4bd3/view"
+     },
+     "matrix_summary": "9 of 35 requirements met, 19 partial, 2 gap, 5 unknown",
+     "fit_score": 0.6167,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 35,
+     "matrix_dropped": 4,
+     "model_calls": 5,
+     "tokens_in": 70332,
+     "tokens_out": 14501,
+     "seconds": 146.18,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T05:40:24.074072-05:00",
+       "firm_slug": "red-cedar",
+       "notice_id": "605b807449df46beac3adb1e03ed4bd3",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 9 of 35 requirements met, 19 partial, 2 gap, 5 unknown",
+       "evidence": "{\"fit_score\": 0.6167, \"fit_score_model\": 0.18, \"evidence_basis\": null, \"matrix_kept\": 35, \"matrix_dropped\": 4, \"quotes_dropped\": 3, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 70332, \"tokens_out\": 14501, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "6d5f0cc80a1e4e4c9dfcd435deefd9c6",
+     "title": "S--CHRI CUSTODIAL SERVICES (FY27)",
+     "type": "Solicitation",
+     "agency": "INTERIOR, DEPARTMENT OF THE.NATIONAL PARK SERVICE.SER SOUTH MABO (54000)",
+     "deadline": "2026-09-08T17:00:00-04:00",
+     "days_to_close": -5.633992860833334,
+     "closed": true,
+     "response_kind": "proposal",
+     "ui_link": "https://sam.gov/opp/6d5f0cc80a1e4e4c9dfcd435deefd9c6/view",
+     "card": {
+      "notice_id": "6d5f0cc80a1e4e4c9dfcd435deefd9c6",
+      "firm_slug": "red-cedar",
+      "situation": "S--CHRI Custodial Services (FY27): a Total Small Business Set-Aside solicitation from the National Park Service for 12 months of custodial services at Christiansted National Historic Site, St. Croix, USVI (NAICS 561720).\nReached the owner because Red Cedar qualifies as a small business under NAICS 561720 and the set-aside is compatible with the firm's eligible set-aside list.",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "NAICS 561720 exact match and total small business set-aside eligibility are fully satisfied, clearing the baseline eligibility gate. [6d5f0cc8-9f5dba22-p8-146174bb]",
+       "Three directly relevant federal custodial past-performance references (Oklahoma City Federal Building, VA outpatient clinic, state office complex) satisfy the solicitation's three-reference requirement. [6d5f0cc8-9f5dba22-p8-4e2b063d]",
+       "The 12-month base period satisfies the owner's rc-base rule, and the firm's FFP pricing experience (GSA Region 7 at $1.24M, VA at $420K) supports a compliant price structure. [6d5f0cc8-749bcf90-p2-368f835a]"
+      ],
+      "reasons_against": [
+       "HARD OWNER RULE VIOLATION: Christiansted NHS is in St. Croix, USVI — over 2,000 miles from Oklahoma City — far exceeding the firm's 200-mile bid limit, making this a mandatory no-bid. [profile: rc-distance rule]",
+       "The solicitation deadline has already passed (days_to_close = -5.6); a timely quotation cannot be submitted regardless of any other factor. [6d5f0cc8-9f5dba22-p3-667436fa]",
+       "The firm has no USVI workforce or operational presence, making it operationally infeasible to place an employee on-site by 7:00 AM daily or provide a qualified same-day replacement by 9:00 AM from Oklahoma City. [6d5f0cc8-749bcf90-p2-026c2451; 6d5f0cc8-749bcf90-p2-9e699ab2]"
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-09-04",
+      "key_dates": {
+       "questions_due": null,
+       "proposal_due": "2026-09-08T17:00:00-04:00",
+       "site_visit": null,
+       "period_of_performance": "12 months from date of award",
+       "source_quotes": [
+        "Closing Response Date/Time: Quotes must be received no later than Tuesday, September 8, 2026, at 5:00 PM Eastern.",
+        "The period of performance shall be twelve (12) months from the date of award, unless otherwise stated in the award document.",
+        "Period of Performance The contract period shall be twelve (12) months."
+       ]
+      },
+      "fit_score": 0.7069,
+      "matrix_summary": "17 of 37 requirements met, 7 partial, 5 gap, 8 unknown",
+      "evidence_link": "https://sam.gov/opp/6d5f0cc80a1e4e4c9dfcd435deefd9c6/view"
+     },
+     "matrix_summary": "17 of 37 requirements met, 7 partial, 5 gap, 8 unknown",
+     "fit_score": 0.7069,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 37,
+     "matrix_dropped": 2,
+     "model_calls": 5,
+     "tokens_in": 62162,
+     "tokens_out": 14298,
+     "seconds": 130.4,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T05:29:38.594251-05:00",
+       "firm_slug": "red-cedar",
+       "notice_id": "6d5f0cc80a1e4e4c9dfcd435deefd9c6",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 17 of 37 requirements met, 7 partial, 5 gap, 8 unknown",
+       "evidence": "{\"fit_score\": 0.7069, \"fit_score_model\": 0.12, \"evidence_basis\": null, \"matrix_kept\": 37, \"matrix_dropped\": 2, \"quotes_dropped\": 1, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 62162, \"tokens_out\": 14298, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "6df14e5530d54ea493197948b2a5db49",
+     "title": "R--REMOVE HAZARDOUS TREES FROM CONVOY POINT",
+     "type": "Combined Synopsis/Solicitation",
+     "agency": "INTERIOR, DEPARTMENT OF THE.NATIONAL PARK SERVICE.SER SOUTH MABO (54000)",
+     "deadline": "2026-09-09T17:00:00-04:00",
+     "days_to_close": -4.6339928775,
+     "closed": true,
+     "response_kind": "proposal",
+     "ui_link": "https://sam.gov/opp/6df14e5530d54ea493197948b2a5db49/view",
+     "card": {
+      "notice_id": "6df14e5530d54ea493197948b2a5db49",
+      "firm_slug": "red-cedar",
+      "situation": "Combined Synopsis/Solicitation from NPS/Interior for hazardous tree, palm, mangrove, and woody vegetation pruning/trimming at Biscayne National Park – Convoy Point, FL; FFP, 30-day performance, Total Small Business set-aside under NAICS 561730.\nReached the owner because Red Cedar holds NAICS 561730 and qualifies as a small business, but the matrix flagged 18 gaps and two owner-rule violations (rc-distance, rc-base).",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "Red Cedar holds NAICS 561730 and qualifies under the Total Small Business set-aside, satisfying the threshold eligibility requirement [6df14e55-ebf10ea5-p8-d5a2c82b].",
+       "Firm has demonstrated FFP federal contract experience (GSA Region 7 $1.24M, Tinker AFB $880K) and can meet administrative pricing and COR-notification obligations [6df14e55-ebf10ea5-p4-b6876145].",
+       "Active federal past performance in grounds maintenance (Tinker AFB) and controlled-access federal facilities shows familiarity with access controls, QC protocols, and federal invoicing [6df14e55-ba3d6b51-p6-c9b3ee4b]."
+      ],
+      "reasons_against": [
+       "Firm has no ISA Certified Arborist on staff — a hard solicitation staffing requirement that must be satisfied before work begins and is central to the technical evaluation [6df14e55-ba3d6b51-p7-911fc93c].",
+       "Firm has no Professional Mangrove Trimmer qualification or any Florida environmental compliance experience, violating a Florida statutory requirement (§§403.9321–403.9334) that cannot be waived [6df14e55-ba3d6b51-p7-2557bd00].",
+       "Owner rules rc-distance and rc-base are both violated: the work site is ~1,300 miles from Oklahoma City (exceeds 200-mile limit) and the 30-calendar-day performance period falls far below the required 12-month base [6df14e55-ebf10ea5-p5-a4965574]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-09-07",
+      "key_dates": {
+       "questions_due": null,
+       "proposal_due": "2026-09-09T17:00:00-04:00",
+       "site_visit": null,
+       "period_of_performance": "30 calendar days after award",
+       "source_quotes": [
+        "Closing Response Date/Time: Quotes must be received no later than Friday, September 9, 2026, at 5:00 PM Eastern.",
+        "The period of performance shall be complete within thirty (30) calendar days after award, unless otherwise modified in writing by the Contracting Officer."
+       ]
+      },
+      "fit_score": 0.2759,
+      "matrix_summary": "5 of 35 requirements met, 6 partial, 18 gap, 6 unknown",
+      "evidence_link": "https://sam.gov/opp/6df14e5530d54ea493197948b2a5db49/view"
+     },
+     "matrix_summary": "5 of 35 requirements met, 6 partial, 18 gap, 6 unknown",
+     "fit_score": 0.2759,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 35,
+     "matrix_dropped": 2,
+     "model_calls": 5,
+     "tokens_in": 65817,
+     "tokens_out": 14197,
+     "seconds": 127.92,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T05:25:23.733714-05:00",
+       "firm_slug": "red-cedar",
+       "notice_id": "6df14e5530d54ea493197948b2a5db49",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 5 of 35 requirements met, 6 partial, 18 gap, 6 unknown",
+       "evidence": "{\"fit_score\": 0.2759, \"fit_score_model\": 0.05, \"evidence_basis\": null, \"matrix_kept\": 35, \"matrix_dropped\": 2, \"quotes_dropped\": 0, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 65817, \"tokens_out\": 14197, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "808e070c0ec749f2bdd8929b448edc78",
+     "title": "HASSEL ISLAND LANDSCAPING SERVICE",
+     "type": "Solicitation",
+     "agency": "INTERIOR, DEPARTMENT OF THE.NATIONAL PARK SERVICE.SER SOUTH MABO (54000)",
+     "deadline": "2026-09-16T13:00:00-04:00",
+     "days_to_close": 2.1993404414236113,
+     "closed": false,
+     "response_kind": "proposal",
+     "ui_link": "https://sam.gov/opp/808e070c0ec749f2bdd8929b448edc78/view",
+     "card": {
+      "notice_id": "808e070c0ec749f2bdd8929b448edc78",
+      "firm_slug": "red-cedar",
+      "situation": "NPS solicitation for landscaping services at Hassel Island, Virgin Islands National Park — clearing vegetation, removing dead trees, and disposing of debris around historic ruins, with a 150-day performance period.\nReached the owner because NAICS 561730 matches and the small-business set-aside is eligible, but two owner-rule fatals and deep capability gaps were flagged.",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "NAICS 561730 is self-certified and matches the solicitation exactly, satisfying the primary eligibility screen [808e070c-83acd03b-p2-9bd93187].",
+       "Small Business Set Aside - Total is eligible and the firm qualifies as an SBA small business, removing a common disqualifier [profile: set-asides the firm can claim: WOSB, EDWOSB, SBA].",
+       "OSHA 30 supervisors, PPE program, CMMS-logged QC inspections, and grounds maintenance past performance at Tinker AFB demonstrate baseline operational capability [808e070c-02b94ab8-p2-ee1dedb5]."
+      ],
+      "reasons_against": [
+       "FATAL — place of performance is Virgin Islands National Park, St. John, USVI, over 1,500 miles from Oklahoma City, directly violating owner rule [rc-distance] prohibiting bids over 200 miles [808e070c-02b94ab8-p2-db5ddf6c].",
+       "FATAL — the 150-day base period (~5 months), even with up to 6 months of options, does not constitute a 12-month base period, violating owner rule [rc-base] prohibiting bids under a 12-month base period [808e070c-02b94ab8-p6-34e244f7].",
+       "Firm has no NPS experience, no historic-site or cultural-resource vegetation-clearing capability, and no documented presence or mobilization plan in the USVI, leaving multiple scope-critical requirements as gaps [808e070c-02b94ab8-p4-440035ba]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-09-14",
+      "key_dates": {
+       "questions_due": null,
+       "proposal_due": "2026-09-16T13:00:00-04:00",
+       "site_visit": null,
+       "period_of_performance": "150 days from date of award",
+       "source_quotes": [
+        "Quotes shall be sent via email to william _vazquez@ios.doi.gov with subject line: QUOTE – 140P5426Q0044.",
+        "1.6 PERFORMANCE PERIOD The contract performance period shall be 150 days from the date of award."
+       ]
+      },
+      "fit_score": 0.4762,
+      "matrix_summary": "8 of 27 requirements met, 4 partial, 9 gap, 6 unknown",
+      "evidence_link": "https://sam.gov/opp/808e070c0ec749f2bdd8929b448edc78/view"
+     },
+     "matrix_summary": "8 of 27 requirements met, 4 partial, 9 gap, 6 unknown",
+     "fit_score": 0.4762,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 27,
+     "matrix_dropped": 3,
+     "model_calls": 5,
+     "tokens_in": 48584,
+     "tokens_out": 11163,
+     "seconds": 92.72,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T05:31:11.320528-05:00",
+       "firm_slug": "red-cedar",
+       "notice_id": "808e070c0ec749f2bdd8929b448edc78",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 8 of 27 requirements met, 4 partial, 9 gap, 6 unknown",
+       "evidence": "{\"fit_score\": 0.4762, \"fit_score_model\": 0.18, \"evidence_basis\": null, \"matrix_kept\": 27, \"matrix_dropped\": 3, \"quotes_dropped\": 2, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 48584, \"tokens_out\": 11163, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "819357517c044e6489e51644fc101775",
+     "title": "S--LANDSCAPE SERVICES AT NWS WFO IN DODGE CITY, KS",
+     "type": "Combined Synopsis/Solicitation",
+     "agency": "COMMERCE, DEPARTMENT OF.NATIONAL OCEANIC AND ATMOSPHERIC ADMINISTRATION.DEPT OF COMMERCE NOAA",
+     "deadline": "2026-08-18T10:00:00-06:00",
+     "days_to_close": -26.8423262466088,
+     "closed": true,
+     "response_kind": "proposal",
+     "ui_link": "https://sam.gov/opp/819357517c044e6489e51644fc101775/view",
+     "card": {
+      "notice_id": "819357517c044e6489e51644fc101775",
+      "firm_slug": "red-cedar",
+      "situation": "Combined Synopsis/Solicitation for non-personal landscape services (lawn care and grounds keeping) at the NWS Weather Forecast Office, 104 Airport Road, Dodge City, KS 67801 — firm-fixed-price purchase order, base year plus four option years, small business set-aside, NAICS 561730.\nReached the owner because Red Cedar matches NAICS 561730 exactly, holds Total Small Business set-aside eligibility, and has directly relevant federal grounds maintenance past performance (Tinker AFB).",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "Red Cedar's grounds maintenance capability (mowing, trimming, irrigation) and Tinker AFB cantonment grounds contract directly match the SOW scope and NAICS 561730 requirement [profile: past performance, Tinker AFB grounds maintenance].",
+       "The acquisition is a Total Small Business set-aside and Red Cedar is confirmed eligible, removing any large-business competition barrier [set_aside_note: SBA listed among firm's eligible set-asides].",
+       "Incumbent pricing of $21,475 aggregate over five years signals a very small, low-complexity contract well within Red Cedar's operational capacity as a 38-employee firm [81935751-01c68c24-p18-dddd10e4]."
+      ],
+      "reasons_against": [
+       "Dodge City, KS is approximately 370 miles from Oklahoma City, directly violating owner rule [rc-distance] which prohibits bids more than 200 miles from Oklahoma City [81935751-266263a0-p1-1e6fd84f].",
+       "Active services in the base period run only through 10/31/2026 (2–5 months depending on award date), triggering owner rule [rc-base] which prohibits bids where the base period active service window is under 12 months [81935751-01c68c24-p2-c1388fa4].",
+       "SAM registration, FedConnect registration, and IPP electronic invoicing capability are all unconfirmed in the firm profile, creating three eligibility-for-award unknowns that cannot be resolved without additional verification [81935751-01c68c24-p34-f535489a, 81935751-01c68c24-p12-a0dcf44c, 81935751-01c68c24-p26-8253f71d]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-08-14",
+      "key_dates": {
+       "questions_due": null,
+       "proposal_due": "2026-08-18T10:00:00-06:00",
+       "site_visit": null,
+       "period_of_performance": "Date of Award through 03/31/2027 (base); options through 03/31/2031",
+       "source_quotes": [
+        "THE CLOSING DATE HAS BEEN EXTENDED UNTIL TUESDAY, AUGUST 18, 2026 AT 10:00AM MDT END OF AMENDMENT 0001",
+        "(vii) Quotes are required to be received in the contracting office no later than 10:00am MDT on FRIDAY, AUGUST 14, 2026.",
+        "Period of performance shall be: Base Period is Date of Award through 03/31/2027. (Services are only provided from Date of Award-10/31/2026) Option Period 1 for a twelve month period 04/01/2027 through 03/31/2028. (Services are only provided from 04/01/2027-10/31/2027) Option Period 2 for a twelve month period 04/01/2028 through 03/31/2029. (Services are only provided from 04/01/2028-10/31/2028) Option Period 3 for a twelve month period 04/01/2029 through 03/31/2030. (Services are only provided from 04/01/2029-10/31/2029) Option Period 4 for a twelve month period 04/01/2030 through 03/31/2031.",
+        "A site visit is highly recommended but not required."
+       ]
+      },
+      "fit_score": 0.7667,
+      "matrix_summary": "19 of 39 requirements met, 8 partial, 3 gap, 9 unknown",
+      "evidence_link": "https://sam.gov/opp/819357517c044e6489e51644fc101775/view"
+     },
+     "matrix_summary": "19 of 39 requirements met, 8 partial, 3 gap, 9 unknown",
+     "fit_score": 0.7667,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 39,
+     "matrix_dropped": 1,
+     "model_calls": 5,
+     "tokens_in": 75115,
+     "tokens_out": 14960,
+     "seconds": 130.52,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T05:56:32.985505-05:00",
+       "firm_slug": "red-cedar",
+       "notice_id": "819357517c044e6489e51644fc101775",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 19 of 39 requirements met, 8 partial, 3 gap, 9 unknown",
+       "evidence": "{\"fit_score\": 0.7667, \"fit_score_model\": 0.27, \"evidence_basis\": null, \"matrix_kept\": 39, \"matrix_dropped\": 1, \"quotes_dropped\": 1, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 75115, \"tokens_out\": 14960, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "83debc9c57c44dbfbb6d8e140677efdc",
+     "title": "NACE FY26 HAZARDOUS TREE CYCLIC MAINTENANCE",
+     "type": "Solicitation",
+     "agency": "INTERIOR, DEPARTMENT OF THE.NATIONAL PARK SERVICE.WASHINGTON CONTRACTING OFFICE",
+     "deadline": "2026-09-15T17:00:00-04:00",
+     "days_to_close": 1.3660070627314815,
+     "closed": false,
+     "response_kind": "proposal",
+     "ui_link": "https://sam.gov/opp/83debc9c57c44dbfbb6d8e140677efdc/view",
+     "card": {
+      "notice_id": "83debc9c57c44dbfbb6d8e140677efdc",
+      "firm_slug": "red-cedar",
+      "situation": "NPS NACE FY26 Hazardous Tree Cyclic Maintenance (RFQ 140P3026Q0042): full-spectrum arboricultural services — tree removal, pruning, chipping, meadow restoration, storm response — in the Washington DC area under NAICS 561730, Total Small Business Set-Aside.\\nFlagged for owner review because the firm is SB-eligible and holds federal grounds maintenance past performance, but the matrix returned a fit score of 0.3 with two disqualifying gaps: place of performance is 1,000+ miles from Oklahoma City (violates owner distance rule), and no ISA Certified Arborist is on staff despite being a mandatory on-site requirement.",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "Firm is eligible for the Total Small Business set-aside as a WOSB/EDWOSB/SBA small business, so no eligibility barrier exists [83debc9c-1900ffa2-p1-bea87149].",
+       "OSHA 30 supervisors, QC/CMMS program, and occupied-federal-facility experience satisfy general worksite safety and orderliness requirements [83debc9c-6d4d27fc-p6-088b3de4].",
+       "Federal grounds maintenance past performance at Tinker AFB demonstrates scheduling, advance-notice coordination, and federal invoicing familiarity [83debc9c-6d4d27fc-p2-aa340b0c]."
+      ],
+      "reasons_against": [
+       "Place of performance is National Capital Parks-East (Washington DC area), well over 200 miles from Oklahoma City, triggering the owner's hard distance rule [rc-distance].",
+       "No ISA Certified Arborist is listed anywhere in the firm profile, yet one must be on-site at all times and a certification ID provided before work begins — a disqualifying gap [83debc9c-6d4d27fc-p5-1d4fbf28].",
+       "No tree climbing crew, hazardous tree removal capability, 12-inch chipper, log-moving machine, or chip truck is listed in the profile, leaving the core equipment and labor scope entirely unmet [83debc9c-6d4d27fc-p2-ec258b3e]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-09-11",
+      "key_dates": {
+       "questions_due": null,
+       "proposal_due": "2026-09-15T17:00:00-04:00",
+       "site_visit": null,
+       "period_of_performance": null,
+       "source_quotes": [
+        "3.7 Quotes must be received no later than: 5:00 PM EST Tuesday, September 15, 2026 4.OFFER FORMAT"
+       ]
+      },
+      "fit_score": 0.3,
+      "matrix_summary": "5 of 38 requirements met, 8 partial, 17 gap, 8 unknown",
+      "evidence_link": "https://sam.gov/opp/83debc9c57c44dbfbb6d8e140677efdc/view"
+     },
+     "matrix_summary": "5 of 38 requirements met, 8 partial, 17 gap, 8 unknown",
+     "fit_score": 0.3,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 38,
+     "matrix_dropped": 3,
+     "model_calls": 5,
+     "tokens_in": 70918,
+     "tokens_out": 14958,
+     "seconds": 139.86,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T05:33:31.197975-05:00",
+       "firm_slug": "red-cedar",
+       "notice_id": "83debc9c57c44dbfbb6d8e140677efdc",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 5 of 38 requirements met, 8 partial, 17 gap, 8 unknown",
+       "evidence": "{\"fit_score\": 0.3, \"fit_score_model\": 0.07, \"evidence_basis\": null, \"matrix_kept\": 38, \"matrix_dropped\": 3, \"quotes_dropped\": 2, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 70918, \"tokens_out\": 14958, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "8918bdf80a344fb98b1a64d71bcc30d9",
+     "title": "S--NEWELL BLDG JANITORIAL SERVICES",
+     "type": "Solicitation",
+     "agency": "INTERIOR, DEPARTMENT OF THE.BUREAU OF RECLAMATION.PACIFIC NW REGION PN 6615",
+     "deadline": "2026-09-09T16:30:00-06:00",
+     "days_to_close": -4.571492966527778,
+     "closed": true,
+     "response_kind": "proposal",
+     "ui_link": "https://sam.gov/opp/8918bdf80a344fb98b1a64d71bcc30d9/view",
+     "card": {
+      "notice_id": "8918bdf80a344fb98b1a64d71bcc30d9",
+      "firm_slug": "red-cedar",
+      "situation": "Solicitation for janitorial services at the Newell Building (SRAO), Boise, ID — NAICS 561720, set aside exclusively for SBA Certified WOSBs, evaluated on technical ability, past performance, and price.\nReached the owner because Red Cedar is WOSB-eligible and NAICS-matched, but the site is ~1,400 miles from the firm's Oklahoma City base, triggering the owner's 200-mile distance rule.",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "Red Cedar is WOSB-certified and NAICS 561720-matched, satisfying the set-aside eligibility gate that disqualifies most competitors [set_aside_note: 'Firm (Red Cedar Facility Services) lists WOSB among the set-asides it can claim — ELIGIBLE'].",
+       "Core technical capabilities — QCP/CMMS inspections, CIMS-GB certification, green cleaning program, OSHA 30 supervisors, window and floor care — directly address the solicitation's highest-weighted evaluation factors [8918bdf8-18a41736-p13-e3cbea93; 8918bdf8-18a41736-p7-34bdfe2f; 8918bdf8-18a41736-p13-10a353ae].",
+       "Relevant federal past performance (GSA Region 7 Oklahoma City Federal Building, state office complex, outpatient clinic) provides credible references for the past-performance evaluation factor [8918bdf8-18a41736-p51-04106e59]."
+      ],
+      "reasons_against": [
+       "Boise, ID is approximately 1,400 miles from Oklahoma City, hard-triggering the owner's 200-mile no-bid rule with no workforce, equipment, or mobilization capability stated for the Pacific Northwest [profile gap: rc-distance].",
+       "No bamboo or cork flooring specialized cleaning experience is documented, leaving two scored requirements unknown/partial against a solicitation that mandates specific seasonal bamboo schedules and manufacturer-compliant cork care [8918bdf8-18a41736-p9-4220d302; 8918bdf8-18a41736-p8-0d390f14].",
+       "Critical administrative readiness gaps — SAM/UEI confirmation, IPP electronic invoicing registration, and e-QIP/SF-85 background investigation processing — are unconfirmed in the firm profile, creating proposal-submission and award risk [8918bdf8-18a41736-p45-834264de; 8918bdf8-18a41736-p29-f8913642; 8918bdf8-18a41736-p6-df6f21d2]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-09-07",
+      "key_dates": {
+       "questions_due": null,
+       "proposal_due": "2026-09-09T16:30:00-06:00",
+       "site_visit": null,
+       "period_of_performance": null,
+       "source_quotes": []
+      },
+      "fit_score": 0.8,
+      "matrix_summary": "12 of 31 requirements met, 8 partial, 0 gap, 11 unknown",
+      "evidence_link": "https://sam.gov/opp/8918bdf80a344fb98b1a64d71bcc30d9/view"
+     },
+     "matrix_summary": "12 of 31 requirements met, 8 partial, 0 gap, 11 unknown",
+     "fit_score": 0.8,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 31,
+     "matrix_dropped": 6,
+     "model_calls": 5,
+     "tokens_in": 67580,
+     "tokens_out": 12645,
+     "seconds": 124.45,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T05:27:28.190999-05:00",
+       "firm_slug": "red-cedar",
+       "notice_id": "8918bdf80a344fb98b1a64d71bcc30d9",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 12 of 31 requirements met, 8 partial, 0 gap, 11 unknown",
+       "evidence": "{\"fit_score\": 0.8, \"fit_score_model\": 0.18, \"evidence_basis\": null, \"matrix_kept\": 31, \"matrix_dropped\": 6, \"quotes_dropped\": 4, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 67580, \"tokens_out\": 12645, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "954c262f233a4f9395857c3532e599bf",
+     "title": "NEW JANITORIAL CONTRACT FOR HBBS",
+     "type": "Solicitation",
+     "agency": "INTERIOR, DEPARTMENT OF THE.US GEOLOGICAL SURVEY.OFC OF ACQUISITION  GRANTS-DENVER",
+     "deadline": "2026-09-07T12:00:00-06:00",
+     "days_to_close": -6.758992996759259,
+     "closed": true,
+     "response_kind": "proposal",
+     "ui_link": "https://sam.gov/opp/954c262f233a4f9395857c3532e599bf/view",
+     "card": {
+      "notice_id": "954c262f233a4f9395857c3532e599bf",
+      "firm_slug": "red-cedar",
+      "situation": "USGS solicitation for janitorial services at Hammond Bay Biological Station (HBBS), Millersburg, MI — three buildings totaling ~4,958 sq. ft., small business set-aside, evaluated on price and technical/past-performance factors.\\nReached the owner because Red Cedar is NAICS 561720 exact-match, SBA-eligible, and holds relevant federal janitorial past performance — but the site is ~1,100 miles from Oklahoma City, triggering the owner's 200-mile distance rule.",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "Red Cedar is NAICS 561720 exact-match and SBA-eligible for this total small business set-aside, clearing the threshold eligibility bar with no waivers needed [set_aside_note: 'ELIGIBLE — The notice is set aside as Small Business Set Aside - Total, and Red Cedar qualifies as a small business'].",
+       "Technical capability is strong across all core scope tasks — office/restroom/floor/glass/carpet cleaning, after-hours scheduling, QCP via CMMS, and CIMS-GB certification — with 19 of 31 requirements fully met [matrix_summary: '19 of 31 requirements met, 7 partial, 3 gap, 2 unknown'].",
+       "Three qualifying past-performance references (Oklahoma City Federal Building, state office complex, VA outpatient clinic) are within the five-year window and similar in scope, satisfying the evaluation factor directly [954c262f-e8e3d739-p45-76d7df30]."
+      ],
+      "reasons_against": [
+       "Hammond Bay Biological Station is ~1,100 miles from Oklahoma City, hard-exceeding the owner's 200-mile operational limit, and the firm has no Michigan workforce or regional presence, making reliable performance mobilization undemonstrated [profile: rc-distance owner rule disqualifier].",
+       "Travel and mobilization costs from Oklahoma to Michigan would load the firm's price far above local Michigan competitors, creating a fatal disadvantage under the best-value price-and-technical evaluation [954c262f-e8e3d739-p46-c8615f6a].",
+       "The proposal deadline of 2026-09-07T12:00:00-06:00 has already passed (days to close = -6.7), so no conforming offer can be submitted in time [954c262f-e8e3d739-p47-ea6c6aa6]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-09-03",
+      "key_dates": {
+       "questions_due": null,
+       "proposal_due": "2026-09-07T12:00:00-06:00",
+       "site_visit": null,
+       "period_of_performance": null,
+       "source_quotes": [
+        "Quotes must be received in the contracting office no later than 12:00 P.M."
+       ]
+      },
+      "fit_score": 0.7759,
+      "matrix_summary": "19 of 31 requirements met, 7 partial, 3 gap, 2 unknown",
+      "evidence_link": "https://sam.gov/opp/954c262f233a4f9395857c3532e599bf/view"
+     },
+     "matrix_summary": "19 of 31 requirements met, 7 partial, 3 gap, 2 unknown",
+     "fit_score": 0.7759,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 31,
+     "matrix_dropped": 8,
+     "model_calls": 5,
+     "tokens_in": 66215,
+     "tokens_out": 14460,
+     "seconds": 151.84,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T05:49:48.044131-05:00",
+       "firm_slug": "red-cedar",
+       "notice_id": "954c262f233a4f9395857c3532e599bf",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 19 of 31 requirements met, 7 partial, 3 gap, 2 unknown",
+       "evidence": "{\"fit_score\": 0.7759, \"fit_score_model\": 0.12, \"evidence_basis\": null, \"matrix_kept\": 31, \"matrix_dropped\": 8, \"quotes_dropped\": 1, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 66215, \"tokens_out\": 14460, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "a06d61e190ec4307a994a1ef824f0c23",
+     "title": "PMIS 340733A REMOVE OR PRUNE HAZARD TREE",
+     "type": "Solicitation",
+     "agency": "INTERIOR, DEPARTMENT OF THE.NATIONAL PARK SERVICE.WASHINGTON CONTRACTING OFFICE",
+     "deadline": "2026-09-15T17:00:00-04:00",
+     "days_to_close": 1.3660069727083333,
+     "closed": false,
+     "response_kind": "proposal",
+     "ui_link": "https://sam.gov/workspace/contract/opp/a06d61e190ec4307a994a1ef824f0c23/view",
+     "card": {
+      "notice_id": "a06d61e190ec4307a994a1ef824f0c23",
+      "firm_slug": "red-cedar",
+      "situation": "National Park Service solicitation (PMIS 340733A) for hazard tree removal and pruning at a Lakewood, CO site, period of performance 09/28/2026–03/31/2027, total small business set-aside.\nReached the owner because Red Cedar is SBA/WOSB/EDWOSB eligible and holds NAICS 561730, but two owner-rule hard limits and a core capability gap were flagged.",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "Red Cedar is fully eligible for the total small business set-aside as a WOSB/EDWOSB/SBA firm, removing any eligibility barrier to bidding [set_aside_note].",
+       "The firm holds NAICS 561730, carries OSHA 30 supervisors, and has a QC program that partially supports the safety and traffic-control plan requirement [a06d61e1-d186b0f7-p1-3e072167].",
+       "Federal contracting experience with GSA, Tinker AFB, and VA demonstrates procedural familiarity with SAM registration, SCA wage compliance, and federal quotation submission [a06d61e1-d186b0f7-p1-429be8cb]."
+      ],
+      "reasons_against": [
+       "Place of performance is Lakewood, CO (~900 miles from Oklahoma City), a hard disqualifier under owner rule [rc-distance] prohibiting bids over 200 miles from Oklahoma City [a06d61e1-d186b0f7-p1-b32e6385].",
+       "The period of performance is approximately 6 months (09/28/2026–03/31/2027), a hard disqualifier under owner rule [rc-base] prohibiting bids under a 12-month base period [a06d61e1-cd66a3af-p1-680211f7].",
+       "The firm profile lists no hazard tree removal, arborist, ISA certification, tree-climbing/rigging, or chainsaw/aerial-lift capability — the core technical scope of this contract [a06d61e1-cd66a3af-p1-680211f7]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-09-11",
+      "key_dates": {
+       "questions_due": null,
+       "proposal_due": "2026-09-15T17:00:00-04:00",
+       "site_visit": null,
+       "period_of_performance": "09/28/2026 to 03/31/2027",
+       "source_quotes": [
+        "POC: Casey Winters, casey_winters@ios.doi.gov All email regarding this solicitation must have the solicitation number '140P3026Q0037' in the subject li Period of Performance: 09/28/2026 to 03/31/2027 00010 PMIS 340733A Remove or Prune Hazard Trees Product/Service Code: F014 Product/Service Description: NATURAL Continued... 1 2"
+       ]
+      },
+      "fit_score": 0.5385,
+      "matrix_summary": "5 of 26 requirements met, 4 partial, 4 gap, 13 unknown",
+      "evidence_link": "https://sam.gov/workspace/contract/opp/a06d61e190ec4307a994a1ef824f0c23/view"
+     },
+     "matrix_summary": "5 of 26 requirements met, 4 partial, 4 gap, 13 unknown",
+     "fit_score": 0.5385,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 26,
+     "matrix_dropped": 2,
+     "model_calls": 5,
+     "tokens_in": 72535,
+     "tokens_out": 12752,
+     "seconds": 234.96,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T05:23:15.805410-05:00",
+       "firm_slug": "red-cedar",
+       "notice_id": "a06d61e190ec4307a994a1ef824f0c23",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 5 of 26 requirements met, 4 partial, 4 gap, 13 unknown",
+       "evidence": "{\"fit_score\": 0.5385, \"fit_score_model\": 0.07, \"evidence_basis\": null, \"matrix_kept\": 26, \"matrix_dropped\": 2, \"quotes_dropped\": 1, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 72535, \"tokens_out\": 12752, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "be4f7e411fa24607bd8ace51d180b335",
+     "title": "F--NE RAINWATER BASIN WMD Mechanical Tree Cutting",
+     "type": "Solicitation",
+     "agency": "INTERIOR, DEPARTMENT OF THE.U.S. FISH AND WILDLIFE SERVICE.FWS, SAT TEAM 2",
+     "deadline": "2026-09-10T17:00:00-04:00",
+     "days_to_close": -3.6339930444675925,
+     "closed": true,
+     "response_kind": "proposal",
+     "ui_link": "https://sam.gov/opp/be4f7e411fa24607bd8ace51d180b335/view",
+     "card": {
+      "notice_id": "be4f7e411fa24607bd8ace51d180b335",
+      "firm_slug": "red-cedar",
+      "situation": "F--NE Rainwater Basin WMD Mechanical Tree Cutting solicitation from U.S. Fish & Wildlife Service (INTERIOR), small business set-aside, requiring mechanical tree cutting and piling at Peterson WPA, Gosper County, Nebraska within a 90-day period of performance.\nReached the owner because Red Cedar is a Total Small Business / WOSB with NAICS 561730 and grounds maintenance past performance, but the matrix flagged 7 gaps and 2 partials against 20 requirements, yielding a fit score of 0.5294.",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "Red Cedar qualifies under the Total Small Business set-aside and holds NAICS 561730 in its profile, making it administratively eligible to submit [be4f7e41-b4a3ab61-p11-ac901da1].",
+       "Herbicide application experience from the Tinker AFB grounds contract partially satisfies the FWS herbicide-approval requirement, providing a foothold on one technical element [be4f7e41-2fed95a8-p2-36bcb8bd].",
+       "A documented QC program with CMMS-logged inspections and CIMS-GB certification demonstrates a quality management culture that partially addresses the QC/QA standard [be4f7e41-2fed95a8-p3-b5c76579]."
+      ],
+      "reasons_against": [
+       "The solicitation response deadline has already passed (days to close: -3.6), making timely submission of a quote impossible [be4f7e41-3a7dc56e-p1-e7a00397].",
+       "The firm has no stated mechanical tree cutting, felling, piling, or forestry equipment capability, and the place of performance in Gosper County, NE is 600+ miles from Oklahoma City, violating the owner's 200-mile distance rule [be4f7e41-2fed95a8-p1-8669d73e].",
+       "The period of performance is approximately 90 days (10/01/2026–12/30/2026), which falls well below the owner's required 12-month base period minimum [be4f7e41-b4a3ab61-p3-c5bb1881]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-09-08",
+      "key_dates": {
+       "questions_due": "2026-09-10T17:00:00-04:00",
+       "proposal_due": "2026-09-10T17:00:00-04:00",
+       "site_visit": null,
+       "period_of_performance": "10/01/2026 to 12/30/2026",
+       "source_quotes": [
+        "**QUOTES AND QUESTIONS MUST BE EMAILED TO: jeremy_riva@ios.doi.gov by the closing date and time (see Block 8) Delivery: 12/30/2026 Period of Performance: 10/01/2026 to 12/30/2026 Continued...",
+        "Must be completed within 90 days."
+       ]
+      },
+      "fit_score": 0.5294,
+      "matrix_summary": "8 of 20 requirements met, 2 partial, 7 gap, 3 unknown",
+      "evidence_link": "https://sam.gov/opp/be4f7e411fa24607bd8ace51d180b335/view"
+     },
+     "matrix_summary": "8 of 20 requirements met, 2 partial, 7 gap, 3 unknown",
+     "fit_score": 0.5294,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 20,
+     "matrix_dropped": 0,
+     "model_calls": 5,
+     "tokens_in": 48348,
+     "tokens_out": 10732,
+     "seconds": 88.83,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T05:44:14.027781-05:00",
+       "firm_slug": "red-cedar",
+       "notice_id": "be4f7e411fa24607bd8ace51d180b335",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 8 of 20 requirements met, 2 partial, 7 gap, 3 unknown",
+       "evidence": "{\"fit_score\": 0.5294, \"fit_score_model\": 0.18, \"evidence_basis\": null, \"matrix_kept\": 20, \"matrix_dropped\": 0, \"quotes_dropped\": 0, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 48348, \"tokens_out\": 10732, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "bfe399280c8344a0923840dfb6989c90",
+     "title": "S--JANITORIAL SERVICES PER THE STATEMENT OF WORK",
+     "type": "Combined Synopsis/Solicitation",
+     "agency": "INTERIOR, DEPARTMENT OF THE.NATIONAL PARK SERVICE.SER SOUTH MABO (54000)",
+     "deadline": "2026-09-08T12:00:00-04:00",
+     "days_to_close": -5.842326398564815,
+     "closed": true,
+     "response_kind": "proposal",
+     "ui_link": "https://sam.gov/opp/bfe399280c8344a0923840dfb6989c90/view",
+     "card": {
+      "notice_id": "bfe399280c8344a0923840dfb6989c90",
+      "firm_slug": "red-cedar",
+      "situation": "Combined Synopsis/Solicitation for janitorial services at Virgin Islands National Park (Visitor Center, Facility Maintenance Building, and Resource Management & Science Building), St. John, USVI — NPS/Interior, small business total set-aside, NAICS 561720.\nReached the owner because NAICS 561720 matches exactly and Red Cedar qualifies under the small business set-aside, but the place of performance is ~2,100 miles from Oklahoma City, triggering the rc-distance 200-mile rule.",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "NAICS 561720 matches the solicitation exactly and Red Cedar is SBA-eligible, satisfying the Total Small Business set-aside with no teaming required [bfe39928-ec6a6e0c-p3-a98b36f5].",
+       "Firm's federal janitorial past performance (GSA Region 7 federal building, VA outpatient clinic) directly maps to the restroom, floor care, and custodial scope required across all five NPS locations [bfe39928-1256d376-p1-35356a2b].",
+       "QC program with CMMS-logged inspections and OSHA 30 supervisors satisfies the quality control and on-site supervisor designation requirements [bfe39928-948a5034-p2-dedea27e]."
+      ],
+      "reasons_against": [
+       "Place of performance is St. John, USVI (~2,100 miles from Oklahoma City), violating the rc-distance 200-mile rule — no USVI workforce, logistics, or inter-site transportation capability is documented in the profile [bfe39928-948a5034-p2-8c89e570].",
+       "On-site supervisor presence during every service period (8:00 AM–11:00 AM local, including weekends) cannot be met from Oklahoma City with no USVI-based staff, creating a fatal operational gap [bfe39928-1256d376-p6-350af9c5].",
+       "Accurate proposal pricing requires contractor verification of cleanable areas on-site in USVI, which is not feasible under the distance constraint, making a compliant price schedule submission unreliable [bfe39928-ec6a6e0c-p10-2edd7bd8]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-09-04",
+      "key_dates": {
+       "questions_due": null,
+       "proposal_due": "2026-09-08T12:00:00-04:00",
+       "site_visit": null,
+       "period_of_performance": null,
+       "source_quotes": [
+        "The Government is also extending the quotation due date to September 8, 2026, at 12:00 PM EST to allow offerors sufficient time to review the updated information and prepare their proposals accordingly."
+       ]
+      },
+      "fit_score": 0.5185,
+      "matrix_summary": "11 of 36 requirements met, 6 partial, 10 gap, 9 unknown",
+      "evidence_link": "https://sam.gov/opp/bfe399280c8344a0923840dfb6989c90/view"
+     },
+     "matrix_summary": "11 of 36 requirements met, 6 partial, 10 gap, 9 unknown",
+     "fit_score": 0.5185,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 36,
+     "matrix_dropped": 4,
+     "model_calls": 5,
+     "tokens_in": 66560,
+     "tokens_out": 14734,
+     "seconds": 135.19,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T05:37:57.888384-05:00",
+       "firm_slug": "red-cedar",
+       "notice_id": "bfe399280c8344a0923840dfb6989c90",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 11 of 36 requirements met, 6 partial, 10 gap, 9 unknown",
+       "evidence": "{\"fit_score\": 0.5185, \"fit_score_model\": 0.1, \"evidence_basis\": null, \"matrix_kept\": 36, \"matrix_dropped\": 4, \"quotes_dropped\": 0, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 66560, \"tokens_out\": 14734, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "ccf5e9659c194671a36bfc391bb023e0",
+     "title": "S208--Janitorial OKC VAMC Base w/4OY  09-01-2026 to 08-31-2027",
+     "type": "Solicitation",
+     "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.NETWORK CONTRACT OFFICE 19 (36C259)",
+     "deadline": "2026-08-31T10:00:00-05:00",
+     "days_to_close": -13.883993101967594,
+     "closed": true,
+     "response_kind": "proposal",
+     "ui_link": "https://sam.gov/opp/ccf5e9659c194671a36bfc391bb023e0/view",
+     "card": {
+      "notice_id": "ccf5e9659c194671a36bfc391bb023e0",
+      "firm_slug": "red-cedar",
+      "situation": "VA Network Contract Office 19 solicitation for janitorial services at Oklahoma City Main VAMC, Lawton Main Clinic, Lawton North Clinic, and Stillwater CBOC — base year 09-01-2026 through 08-31-2027 with four option years, unrestricted but award restricted to certified SDVOSB. Reached the owner because NAICS 561720 is an exact match and the firm holds direct VA Oklahoma City housekeeping past performance (2023–2025).",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "Red Cedar holds an exact NAICS 561720 match and direct VA Oklahoma City Health Care System housekeeping past performance (2023–2025), demonstrating proven capability in the precise setting required [profile: past performance, Housekeeping support, outpatient clinic].",
+       "Operational capacity is strong: 38 W-2 employees, two-shift coverage capability, OSHA 30 supervisors aligned to 29 CFR 1910 training requirements, and CIMS-GB certification supporting quality standards [ccf5e965-42587fc3-p1-d0087bb7].",
+       "Fit score of 0.7037 reflects 16 of 32 requirements fully met and only 5 hard gaps — the technical and past-performance foundation is solid if the eligibility barrier were resolved [matrix_summary: 16 of 32 requirements met, 6 partial, 5 gap, 5 unknown]."
+      ],
+      "reasons_against": [
+       "The solicitation mandates award exclusively to a certified SDVOSB listed in the SBA certification database; Red Cedar holds only WOSB, EDWOSB, and SBA certifications — SDVOSB is absent, making the firm ineligible for award [ccf5e965-42587fc3-p1-5f011c82].",
+       "Red Cedar cannot execute the required SDVOSB compliance agreement under VAAR subpart 819.70 and 13 CFR parts 121 and 125, as that agreement is only available to certified SDVOSBs — submitting an offer would be a false certification [ccf5e965-42587fc3-p1-c29f7f5f].",
+       "The opportunity is already past its response deadline by approximately 14 days (days to close: -13.8), so a proposal cannot be submitted in time regardless of eligibility [profile: days to close -13.819723164618056]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-08-27",
+      "key_dates": {
+       "questions_due": null,
+       "proposal_due": "2026-08-31T10:00:00-05:00",
+       "site_visit": null,
+       "period_of_performance": "09-01-2026 to 08-31-2027",
+       "source_quotes": []
+      },
+      "fit_score": 0.7037,
+      "matrix_summary": "16 of 32 requirements met, 6 partial, 5 gap, 5 unknown",
+      "evidence_link": "https://sam.gov/opp/ccf5e9659c194671a36bfc391bb023e0/view"
+     },
+     "matrix_summary": "16 of 32 requirements met, 6 partial, 5 gap, 5 unknown",
+     "fit_score": 0.7037,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 32,
+     "matrix_dropped": 7,
+     "model_calls": 5,
+     "tokens_in": 73095,
+     "tokens_out": 15482,
+     "seconds": 141.11,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T05:42:45.194631-05:00",
+       "firm_slug": "red-cedar",
+       "notice_id": "ccf5e9659c194671a36bfc391bb023e0",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 16 of 32 requirements met, 6 partial, 5 gap, 5 unknown",
+       "evidence": "{\"fit_score\": 0.7037, \"fit_score_model\": 0.18, \"evidence_basis\": null, \"matrix_kept\": 32, \"matrix_dropped\": 7, \"quotes_dropped\": 5, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 73095, \"tokens_out\": 15482, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "d698e02961294fffa1536d1a0c07fc5e",
+     "title": "DCMR Gardening service CONTRACTOR",
+     "type": "Solicitation",
+     "agency": "STATE, DEPARTMENT OF.STATE, DEPARTMENT OF.U.S. EMBASSY DJIBOUTI",
+     "deadline": "2026-09-17T16:30:00+03:00",
+     "days_to_close": 3.0535068769444447,
+     "closed": false,
+     "response_kind": "proposal",
+     "ui_link": "https://sam.gov/opp/d698e02961294fffa1536d1a0c07fc5e/view",
+     "card": {
+      "notice_id": "d698e02961294fffa1536d1a0c07fc5e",
+      "firm_slug": "red-cedar",
+      "situation": "U.S. Embassy Djibouti solicitation for firm-fixed-price gardening and grounds maintenance services at the DCMR compound, requiring all labor, equipment, and compliance with local Djibouti law and Embassy security requirements.\nReached the owner because NAICS 561730 matches exactly and the firm holds directly relevant grounds maintenance past performance — but the place of performance is Djibouti, Africa, triggering the owner's 200-mile distance rule.",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "NAICS 561730 is an exact match and the firm's grounds maintenance past performance (mowing, trimming, irrigation, landscaping) maps directly to the core scope [d698e029-6ae5b154-p10-c7d47434].",
+       "OSHA 30-certified supervisors and a CMMS-based QC inspection program satisfy the supervision, safety meeting, and monthly reporting requirements [d698e029-6ae5b154-p9-0eca90a2].",
+       "The firm holds multiple FAR-governed federal contracts (GSA, DoD, VA) demonstrating full compliance with the standard FAR and fixed-price contract clauses required here [d698e029-6ae5b154-p16-da5fc11c]."
+      ],
+      "reasons_against": [
+       "Place of performance is Djibouti — approximately 8,000+ miles from Oklahoma City — which is a hard violation of owner rule [rc-distance] prohibiting bids over 200 miles from Oklahoma City [d698e029-6ae5b154-p15-52bf2b4c].",
+       "The firm has no Defense Base Act (DBA) insurance, no international experience, and no presence in Djibouti or at any U.S. Embassy overseas, leaving critical proposal requirements unmet [d698e029-6ae5b154-p29-7e72b7dc].",
+       "The firm holds no Djibouti local licenses or permits, has no plan to obtain them, and has no experience complying with foreign country labor laws or DOSAR 652.242-73 [d698e029-6ae5b154-p30-93707aaf]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-09-15",
+      "key_dates": {
+       "questions_due": "2026-09-07T14:00:00+03:00",
+       "proposal_due": "2026-09-17T16:30:00+03:00",
+       "site_visit": "2026-09-06T10:30:00+03:00",
+       "period_of_performance": null,
+       "source_quotes": [
+        "Quotations submittals are due by September 17, 2026, at 16:30 p.m. No quotations will be accepted after this time.",
+        "Request For Information deadline is on September 07, 2026, at 14.00 p.m. and submitted to djiboutiprocbids@state.gov and copy to kayadse@state.gov.",
+        "The Embassy intends to conduct a site visit and pre-quotation conference will held on September 06, 2026, at 10.30 a.m."
+       ]
+      },
+      "fit_score": 0.5,
+      "matrix_summary": "8 of 38 requirements met, 19 partial, 8 gap, 3 unknown",
+      "evidence_link": "https://sam.gov/opp/d698e02961294fffa1536d1a0c07fc5e/view"
+     },
+     "matrix_summary": "8 of 38 requirements met, 19 partial, 8 gap, 3 unknown",
+     "fit_score": 0.5,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 38,
+     "matrix_dropped": 1,
+     "model_calls": 5,
+     "tokens_in": 76297,
+     "tokens_out": 15831,
+     "seconds": 138.49,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T05:47:16.196417-05:00",
+       "firm_slug": "red-cedar",
+       "notice_id": "d698e02961294fffa1536d1a0c07fc5e",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 8 of 38 requirements met, 19 partial, 8 gap, 3 unknown",
+       "evidence": "{\"fit_score\": 0.5, \"fit_score_model\": 0.06, \"evidence_basis\": null, \"matrix_kept\": 38, \"matrix_dropped\": 1, \"quotes_dropped\": 0, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 76297, \"tokens_out\": 15831, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "d8c230fbdc71404794eb216e72c7852a",
+     "title": "Robert S. Kerr Janitorial Services (Base and 4 Option Years)",
+     "type": "Solicitation",
+     "agency": "DEPT OF DEFENSE.DEPT OF THE ARMY.USACE.SWD.W076 ENDIST TULSA",
+     "deadline": "2026-09-10T14:00:00-06:00",
+     "days_to_close": -3.675659800960648,
+     "closed": true,
+     "response_kind": "proposal",
+     "ui_link": "https://sam.gov/opp/d8c230fbdc71404794eb216e72c7852a/view",
+     "card": {
+      "notice_id": "d8c230fbdc71404794eb216e72c7852a",
+      "firm_slug": "red-cedar",
+      "situation": "Solicitation for Firm-Fixed Price janitorial services (base + 4 option years) at the USACE Tulsa District Robert S. Kerr Powerhouse in Sallisaw, Oklahoma, set aside for Total Small Business under NAICS 561720.\nReached the owner because Red Cedar is an Oklahoma-based, NAICS 561720 exact-match small business with directly relevant federal janitorial past performance and eligible set-aside status.",
+      "recommendation": "bid",
+      "reasons_for": [
+       "Red Cedar holds an exact NAICS 561720 match and three directly relevant federal janitorial contracts — including a $1.24M GSA Oklahoma City Federal Building custodial contract — that exceed the incumbent's $282,000 total contract value and demonstrate competitive past performance [profile: past performance, Custodial services Oklahoma City Federal Building].",
+       "The firm qualifies for the Total Small Business set-aside and its Oklahoma City base places Sallisaw (~160 miles) within the owner's 200-mile rule, making mobilization and staffing feasible [set_aside_note: 'Red Cedar Facility Services can claim this — the firm qualifies as a small business'].",
+       "CIMS-GB certification, e-Verify enrollment, and OSHA 30 supervisors signal a compliance posture well-aligned with FAR sustainability clauses and the solicitation's responsibility standards [profile: CIMS-GB certified, e-Verify, OSHA 30 supervisors]."
+      ],
+      "reasons_against": [
+       "Active SAM registration is not confirmed in the firm profile, yet the solicitation explicitly states that firms without active SAM at time of quote and award will not be eligible — this must be verified immediately or the quote cannot be submitted [d8c230fb-descript-p0-ec4d2e32].",
+       "A NIST/SPRS score is required by the solicitation and firms without one are deemed NON-RESPONSIBLE, but the firm profile makes no mention of a NIST score having been entered or maintained [d8c230fb-descript-p0-08b5320a: 'Those without a NIST score will be deemed NON-RESPONSIBLE'].",
+       "The incumbent (Reliance Contractors Inc) holds an existing relationship with the Contracting Officer and site familiarity at the powerhouse/industrial facility, a setting not explicitly referenced in Red Cedar's past performance, creating a competitive disadvantage on past performance evaluation [d8c230fb-descript-p0-08b5320a: 'The Incumbent Contractor is: Reliance Contractors Inc']."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-09-08",
+      "key_dates": {
+       "questions_due": "2026-09-08T14:00:00-06:00",
+       "proposal_due": "2026-09-10T14:00:00-06:00",
+       "site_visit": null,
+       "period_of_performance": null,
+       "source_quotes": [
+        "Quotes are anticipated to be due on or before 10 September 2026 by 2:00 PM Central Time (CST).",
+        "The Bidder Inquiry System is anticipated to be unavailable for new inquiries after 2:00 p.m. on 08 September 2026 to ensure adequate time is allotted to form an appropriate response and amend the solicitation, if necessary."
+       ]
+      },
+      "fit_score": 0.5,
+      "matrix_summary": "0 of 5 requirements met, 1 partial, 0 gap, 4 unknown",
+      "evidence_link": "https://sam.gov/opp/d8c230fbdc71404794eb216e72c7852a/view"
+     },
+     "matrix_summary": "0 of 5 requirements met, 1 partial, 0 gap, 4 unknown",
+     "fit_score": 0.5,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 5,
+     "matrix_dropped": 0,
+     "model_calls": 5,
+     "tokens_in": 27317,
+     "tokens_out": 7613,
+     "seconds": 46.42,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T05:52:05.655732-05:00",
+       "firm_slug": "red-cedar",
+       "notice_id": "d8c230fbdc71404794eb216e72c7852a",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "bid: 0 of 5 requirements met, 1 partial, 0 gap, 4 unknown",
+       "evidence": "{\"fit_score\": 0.5, \"fit_score_model\": 0.72, \"evidence_basis\": null, \"matrix_kept\": 5, \"matrix_dropped\": 0, \"quotes_dropped\": 0, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 27317, \"tokens_out\": 7613, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "e1d2da67eb3844c3824442bf43e08a87",
+     "title": "S--Service, Landscaping Services within Virgin Island",
+     "type": "Combined Synopsis/Solicitation",
+     "agency": "INTERIOR, DEPARTMENT OF THE.NATIONAL PARK SERVICE.SER SOUTH MABO (54000)",
+     "deadline": "2026-09-11T12:00:00-04:00",
+     "days_to_close": -2.8423264807291666,
+     "closed": true,
+     "response_kind": "proposal",
+     "ui_link": "https://sam.gov/workspace/contract/opp/e1d2da67eb3844c3824442bf43e08a87/view",
+     "card": {
+      "notice_id": "e1d2da67eb3844c3824442bf43e08a87",
+      "firm_slug": "red-cedar",
+      "situation": "Combined Synopsis/Solicitation from NPS/DOI for landscaping and vegetation maintenance services at Virgin Islands National Park (VIIS), including roadside clearing, debris removal, and drainage/waterway cleaning on a quarterly schedule.\nReached the owner because NAICS 561730 matches exactly and the firm is eligible under the Total Small Business set-aside, but the place of performance is ~2,400 miles from Oklahoma City — a fatal violation of the firm's 200-mile bid radius rule.",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "NAICS 561730 is an exact match and the firm is self-certified in SAM, satisfying the primary eligibility threshold [e1d2da67-e09c4859-p3-edcd24b8].",
+       "Grounds maintenance past performance (mowing, trimming, landscaping) at Tinker AFB provides a directly relevant technical foundation for the vegetation maintenance scope [e1d2da67-eeb2285d-p3-dfa81c6e].",
+       "The firm qualifies under the Total Small Business set-aside and has active federal references (GSA, DoD, VA) available to serve as client points of contact [e1d2da67-e09c4859-p4-c4db91ee]."
+      ],
+      "reasons_against": [
+       "FATAL: Virgin Islands National Park is ~2,400+ miles from Oklahoma City, far exceeding the firm's 200-mile bid radius owner rule, making performance operationally infeasible [e1d2da67-eeb2285d-p2-b0342ea7].",
+       "Pre-mobilization site verification and quarterly on-site mobilizations to the USVI are required by the SOW but the firm has no documented Virgin Islands presence, local workforce, or equipment transport capability [e1d2da67-eeb2285d-p2-264c3aad].",
+       "The base period duration is not confirmed; if under 12 months, the contract would violate the rc-base owner rule, and the firm has no tropical/island vegetation, drainage, or waterway clearing experience required by the core scope [e1d2da67-e09c4859-p10-56b28143]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-09-09",
+      "key_dates": {
+       "questions_due": null,
+       "proposal_due": "2026-09-11T12:00:00-04:00",
+       "site_visit": null,
+       "period_of_performance": null,
+       "source_quotes": [
+        "the Government is extending the quote due date until: September 11, 2026, at 12:00 PM EST."
+       ]
+      },
+      "fit_score": 0.62,
+      "matrix_summary": "11 of 30 requirements met, 9 partial, 5 gap, 5 unknown",
+      "evidence_link": "https://sam.gov/workspace/contract/opp/e1d2da67eb3844c3824442bf43e08a87/view"
+     },
+     "matrix_summary": "11 of 30 requirements met, 9 partial, 5 gap, 5 unknown",
+     "fit_score": 0.62,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 30,
+     "matrix_dropped": 1,
+     "model_calls": 5,
+     "tokens_in": 53546,
+     "tokens_out": 12036,
+     "seconds": 110.55,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T05:19:20.830898-05:00",
+       "firm_slug": "red-cedar",
+       "notice_id": "e1d2da67eb3844c3824442bf43e08a87",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 11 of 30 requirements met, 9 partial, 5 gap, 5 unknown",
+       "evidence": "{\"fit_score\": 0.62, \"fit_score_model\": 0.07, \"evidence_basis\": null, \"matrix_kept\": 30, \"matrix_dropped\": 1, \"quotes_dropped\": 0, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 53546, \"tokens_out\": 12036, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "fbaa93b90ced45b594bde97ceaa6fb68",
+     "title": "S--LANDSCAPE SERVICES AT NWS WFO IN ST. CHARLES MO",
+     "type": "Combined Synopsis/Solicitation",
+     "agency": "COMMERCE, DEPARTMENT OF.NATIONAL OCEANIC AND ATMOSPHERIC ADMINISTRATION.DEPT OF COMMERCE NOAA",
+     "deadline": "2026-08-18T10:00:00-06:00",
+     "days_to_close": -26.84232649847222,
+     "closed": true,
+     "response_kind": "proposal",
+     "ui_link": "https://sam.gov/opp/fbaa93b90ced45b594bde97ceaa6fb68/view",
+     "card": {
+      "notice_id": "fbaa93b90ced45b594bde97ceaa6fb68",
+      "firm_slug": "red-cedar",
+      "situation": "Combined Synopsis/Solicitation for non-personal exterior landscape maintenance services at the National Weather Service Weather Forecast Office, St. Charles, MO — base year (active services award through 10/31/2026) plus three option years through 02/28/2030, awarded low-price/technically-acceptable, total small business set-aside.\nReached the owner because NAICS 561730 matches exactly, the firm is SBA/WOSB-eligible, and past performance at Tinker AFB (grounds maintenance, mowing, trimming, irrigation, herbicide) aligns with core scope — but two owner rules (distance and base-period length) are flagged as disqualifying conflicts.",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "NAICS 561730 is an exact match and the firm is fully eligible for the total small business set-aside as a WOSB/EDWOSB/SBA-registered entity [set_aside_note: ELIGIBLE].",
+       "Tinker AFB grounds maintenance past performance (mowing, trimming, irrigation, herbicide application) directly maps to the core SOW requirements for mowing height, edging, weed control, and sprinkler maintenance [fbaa93b9-91f354c4-p1-c0a31670].",
+       "Fit score of 0.80 with 20 of 36 requirements fully met and only 2 gaps indicates strong technical alignment on the majority of deliverables [matrix_summary: 20 of 36 requirements met, 8 partial, 2 gap, 6 unknown]."
+      ],
+      "reasons_against": [
+       "Place of performance is St. Charles, MO (~750 miles from Oklahoma City, OK), directly violating owner rule rc-distance which caps pursuit at a 200-mile radius [fbaa93b9-94c5bc7c-p30-66deb694; owner rule rc-distance: 200-mile limit].",
+       "The active base-period service window is only ~2 months (award through 10/31/2026), triggering a disqualifying conflict with owner rule rc-base requiring a minimum 12-month base period [fbaa93b9-94c5bc7c-p2-69f3be6a; owner rule rc-base: No bids under a 12-month base period].",
+       "No Missouri pesticide/herbicide applicator license is confirmed in the firm profile, creating a hard compliance gap against the solicitation's mandatory certification requirement for all employees handling herbicides [fbaa93b9-91f354c4-p1-6061f089]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-08-14",
+      "key_dates": {
+       "questions_due": null,
+       "proposal_due": "2026-08-18T10:00:00-06:00",
+       "site_visit": null,
+       "period_of_performance": "Date of Award through 02/28/2027 (base); options through 02/28/2030",
+       "source_quotes": [
+        "EXTEND THE CLOSING UNTIL 10:00AM MDT ON TUESDAY, AUGUST 18, 2026.",
+        "(vii) Quotes are required to be received in the contracting office no later than 10:00am MDT on FRIDAY, AUGUST 14, 2026.",
+        "Period of performance shall be: Base Period is Date of Award through 02/28/2027. (Services are only provided from Date of Award-10/31/2026) Option Period 1 for a twelve month period 03/01/2027 through 02/29/2028. (Services are only provided from 03/01/2027-10/31/2027) Option Period 2 for a twelve month period 03/01/2028 through 02/28/2029. (Services are only provided from 03/01/2028-10/31/2028) Option Period 3 for a twelve month period 03/01/2029 through 02/28/2030. (Services are only provided from 03/01/2029-10/31/2029)"
+       ]
+      },
+      "fit_score": 0.8,
+      "matrix_summary": "20 of 36 requirements met, 8 partial, 2 gap, 6 unknown",
+      "evidence_link": "https://sam.gov/opp/fbaa93b90ced45b594bde97ceaa6fb68/view"
+     },
+     "matrix_summary": "20 of 36 requirements met, 8 partial, 2 gap, 6 unknown",
+     "fit_score": 0.8,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 36,
+     "matrix_dropped": 4,
+     "model_calls": 5,
+     "tokens_in": 76634,
+     "tokens_out": 15138,
+     "seconds": 136.79,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T05:54:22.453495-05:00",
+       "firm_slug": "red-cedar",
+       "notice_id": "fbaa93b90ced45b594bde97ceaa6fb68",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 20 of 36 requirements met, 8 partial, 2 gap, 6 unknown",
+       "evidence": "{\"fit_score\": 0.8, \"fit_score_model\": 0.52, \"evidence_basis\": null, \"matrix_kept\": 36, \"matrix_dropped\": 4, \"quotes_dropped\": 1, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 76634, \"tokens_out\": 15138, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    }
+   ],
+   "ledger_summary": {
+    "firm_slug": "red-cedar",
+    "path": "D:\\PHD_Take2\\03_Competitions\\amazon_agents\\biddesk\\data\\ledger\\red-cedar.jsonl",
+    "total": 22,
+    "by_action": {
+     "surfaced": 20,
+     "skipped": 2
+    },
+    "by_tier": {
+     "2": 22
+    }
+   }
+  },
+  {
+   "slug": "sooner-systems",
+   "name": "Sooner Systems LLC",
+   "city": "Norman",
+   "state": "OK",
+   "what": "IT support, help desk, and cybersecurity staffing",
+   "rules": [
+    {
+     "id": "ss-types",
+     "text": "Only real solicitations: no award notices, no justifications, no special notices.",
+     "kind": "notice_types",
+     "value": [
+      "Solicitation",
+      "Combined Synopsis/Solicitation",
+      "Presolicitation",
+      "Sources Sought"
+     ]
+    },
+    {
+     "id": "ss-setaside",
+     "text": "Only bid where we are eligible: SDVOSB, total small business, or unrestricted.",
+     "kind": "set_aside_eligible",
+     "value": [
+      "SDVOSBC",
+      "SBA",
+      "",
+      "NONE"
+     ]
+    },
+    {
+     "id": "ss-pp",
+     "text": "Only bid where we have two past-performance matches.",
+     "kind": "min_past_performance_matches",
+     "value": 2
+    }
+   ],
+   "fictional": true,
+   "tiers": {
+    "total": 367,
+    "tier0": 220,
+    "tier1": 130,
+    "tier2": 17,
+    "by_rule": {
+     "ss-setaside": 10,
+     "ss-types": 201,
+     "scope": 130,
+     "ss-pp": 9
+    },
+    "model_calls": 147
+   },
+   "week": [
+    {
+     "date": "2026-08-14",
+     "posted": 5,
+     "filed": 5,
+     "surfaced": 0
+    },
+    {
+     "date": "2026-08-17",
+     "posted": 10,
+     "filed": 9,
+     "surfaced": 1
+    },
+    {
+     "date": "2026-08-18",
+     "posted": 17,
+     "filed": 17,
+     "surfaced": 0
+    },
+    {
+     "date": "2026-08-19",
+     "posted": 15,
+     "filed": 15,
+     "surfaced": 0
+    },
+    {
+     "date": "2026-08-20",
+     "posted": 10,
+     "filed": 9,
+     "surfaced": 0
+    },
+    {
+     "date": "2026-08-21",
+     "posted": 9,
+     "filed": 9,
+     "surfaced": 0
+    },
+    {
+     "date": "2026-08-24",
+     "posted": 12,
+     "filed": 12,
+     "surfaced": 0
+    },
+    {
+     "date": "2026-08-25",
+     "posted": 21,
+     "filed": 21,
+     "surfaced": 0
+    },
+    {
+     "date": "2026-08-26",
+     "posted": 19,
+     "filed": 18,
+     "surfaced": 1
+    },
+    {
+     "date": "2026-08-27",
+     "posted": 21,
+     "filed": 20,
+     "surfaced": 1
+    },
+    {
+     "date": "2026-08-28",
+     "posted": 15,
+     "filed": 14,
+     "surfaced": 1
+    },
+    {
+     "date": "2026-08-29",
+     "posted": 3,
+     "filed": 3,
+     "surfaced": 0
+    },
+    {
+     "date": "2026-08-31",
+     "posted": 14,
+     "filed": 12,
+     "surfaced": 2
+    },
+    {
+     "date": "2026-09-01",
+     "posted": 26,
+     "filed": 25,
+     "surfaced": 1
+    },
+    {
+     "date": "2026-09-02",
+     "posted": 20,
+     "filed": 19,
+     "surfaced": 1
+    },
+    {
+     "date": "2026-09-03",
+     "posted": 21,
+     "filed": 20,
+     "surfaced": 1
+    },
+    {
+     "date": "2026-09-04",
+     "posted": 11,
+     "filed": 9,
+     "surfaced": 2
+    },
+    {
+     "date": "2026-09-05",
+     "posted": 1,
+     "filed": 1,
+     "surfaced": 0
+    },
+    {
+     "date": "2026-09-06",
+     "posted": 2,
+     "filed": 2,
+     "surfaced": 0
+    },
+    {
+     "date": "2026-09-08",
+     "posted": 27,
+     "filed": 25,
+     "surfaced": 1
+    },
+    {
+     "date": "2026-09-09",
+     "posted": 28,
+     "filed": 28,
+     "surfaced": 0
+    },
+    {
+     "date": "2026-09-10",
+     "posted": 37,
+     "filed": 35,
+     "surfaced": 2
+    },
+    {
+     "date": "2026-09-11",
+     "posted": 19,
+     "filed": 18,
+     "surfaced": 1
+    },
+    {
+     "date": "2026-09-12",
+     "posted": 2,
+     "filed": 2,
+     "surfaced": 0
+    },
+    {
+     "date": "2026-09-13",
+     "posted": 2,
+     "filed": 2,
+     "surfaced": 0
+    }
+   ],
+   "cases": [
+    {
+     "notice_id": "07b8aa34c78244b08b6150e51bdb0c48",
+     "title": "DJ01--Cybersecurity Architecture and Engineering Services  RFI Loopback  (VA-26-00064748)",
+     "type": "Sources Sought",
+     "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B)",
+     "deadline": "2026-08-26T13:00:00-04:00",
+     "days_to_close": -18.80066010974537,
+     "closed": true,
+     "response_kind": "RFI response (capability statement, not a proposal)",
+     "ui_link": "https://sam.gov/opp/07b8aa34c78244b08b6150e51bdb0c48/view",
+     "card": {
+      "notice_id": "07b8aa34c78244b08b6150e51bdb0c48",
+      "firm_slug": "sooner-systems",
+      "situation": "VA Technology Acquisition Center is seeking sources for Cybersecurity Architecture and Engineering Services (COSE) — a 54-month enterprise engagement covering Zero Trust design, security engineering, DLP, AI governance, and supply chain risk management for VA information systems.\\nThis Sources Sought reached the owner because Sooner Systems is SDVOSB-eligible and holds NAICS 541512, matching the solicitation's set-aside and NAICS code.",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "Sooner Systems is SDVOSB-eligible under FAR 19.14, directly matching the solicitation's set-aside, so the firm clears the status gate [profile: set-asides SDVOSBC, SBA].",
+       "The firm's 22 cleared staff, 24x7 NOC, and vulnerability management capability (ACAS/Nessus) partially satisfy operational security and staffing requirements [07b8aa34-8fe148c3-p1-943fb8a7, 07b8aa34-8fe148c3-p1-2d4c22d7, 07b8aa34-8fe148c3-p1-87a028f6].",
+       "Responding to this RFI costs only a capability statement and could establish a relationship with VA TAC for a future full solicitation, with no proposal or price at risk [notice type: Sources Sought]."
+      ],
+      "reasons_against": [
+       "The firm holds no GSA MAS contract with SIN 54151HACS, which the notice explicitly states is required for award eligibility — a hard disqualifier that a capability statement cannot cure [07b8aa34-descript-p0-b83409aa, 07b8aa34-5453b3d0-p1-21f4608f].",
+       "Nineteen of 37 requirements are gaps, including enterprise security architecture, Zero Trust design, threat modeling, DLP, AI/LLM governance, and supply chain risk management — the core technical scope of the contract [07b8aa34-8fe148c3-p1-8fe148c3, 07b8aa34-8fe148c3-p1-4d4c11d9, 07b8aa34-8fe148c3-p1-924d1598].",
+       "The firm has only one credible past-performance match (FAA, $1.65M), failing the internal two-match bid gate, and the contract's 54-month enterprise VA scope far exceeds the firm's largest known contract at $2.1M [profile: past performance, FAA Mike Monroney Aeronautical Center; owner rule ss-pp]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-08-24",
+      "key_dates": {
+       "questions_due": null,
+       "proposal_due": "2026-08-26",
+       "site_visit": null,
+       "period_of_performance": "54 months total: 6-month base period, four 12-month option periods, and four optional tasks; no start date stated",
+       "source_quotes": [
+        "PERFORMANCE PERIOD The Period of Performance (PoP) shall consist of a 6-month base period, four 12-month option periods and four optional tasks for a total of 54 months."
+       ]
+      },
+      "fit_score": 0.3333,
+      "matrix_summary": "7 of 37 requirements met, 10 partial, 19 gap, 1 unknown",
+      "evidence_link": "https://sam.gov/opp/07b8aa34c78244b08b6150e51bdb0c48/view"
+     },
+     "matrix_summary": "7 of 37 requirements met, 10 partial, 19 gap, 1 unknown",
+     "fit_score": 0.3333,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 37,
+     "matrix_dropped": 3,
+     "model_calls": 5,
+     "tokens_in": 75229,
+     "tokens_out": 15250,
+     "seconds": 140.09,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T06:25:16.283919-05:00",
+       "firm_slug": "sooner-systems",
+       "notice_id": "07b8aa34c78244b08b6150e51bdb0c48",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 7 of 37 requirements met, 10 partial, 19 gap, 1 unknown",
+       "evidence": "{\"fit_score\": 0.3333, \"fit_score_model\": 0.1, \"evidence_basis\": null, \"matrix_kept\": 37, \"matrix_dropped\": 3, \"quotes_dropped\": 6, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 75229, \"tokens_out\": 15250, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "475ec0299ae04542bccd77d1049b5772",
+     "title": "Central Plant Computer System (CPCS) Maintenance",
+     "type": "Solicitation",
+     "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.FA2550  50 CONS PKP",
+     "deadline": "2026-09-03T09:00:00-06:00",
+     "days_to_close": -10.88399346064815,
+     "closed": true,
+     "response_kind": "proposal",
+     "ui_link": "https://sam.gov/opp/475ec0299ae04542bccd77d1049b5772/view",
+     "card": {
+      "notice_id": "475ec0299ae04542bccd77d1049b5772",
+      "firm_slug": "sooner-systems",
+      "situation": "Central Plant Computer System (CPCS) Maintenance solicitation (FA255026R0026) at Schriever Space Force Base, CO — Total Small Business Set-Aside, period of performance 1 Sep 2026 – 1 Mar 2032 (~66 months).\nReached the owner because the firm is SBA-eligible, holds an exact NAICS 541512 match, has two active federal past-performance records, and 22 Secret-cleared staff; fit score 0.7895 against 38 validated requirements.",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "Firm is eligible under the Total Small Business Set-Aside with active SAM registration and exact NAICS 541512 match, clearing the threshold gate [475ec029-0be6051f-p3-05e3cca6].",
+       "Twenty-two Secret-cleared staff make base-access and site-visit requirements achievable with no administrative barrier [475ec029-0be6051f-p5-ac02b98d].",
+       "Two active federal contracts (~$3.75M combined) support a credible statement of financial responsibility and WAWF/FAR compliance [475ec029-descript-p0-e7d2176a]."
+      ],
+      "reasons_against": [
+       "Core scope is CPCS/building-automation maintenance (BAS/SCADA/industrial controls); neither past-performance record involves plant-control systems, leaving the technical evaluation factor critically exposed [475ec029-49e8eb1a-p21-333bafaf].",
+       "Firm is based in Norman, OK with no stated Colorado office or on-site staffing capability, creating a sustained-presence risk across a 66-month period of performance at Schriever SFB [475ec029-49e8eb1a-p14-32023d56].",
+       "The PWS is not publicly available and the questions deadline has already passed (days-to-close: −10.8), so the firm cannot clarify hidden technical requirements before the 3 Sep 2026 proposal due date [475ec029-descript-p0-df3d5ab8]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-09-01",
+      "key_dates": {
+       "questions_due": "2026-08-17T09:00:00-06:00",
+       "proposal_due": "2026-09-03T09:00:00-06:00",
+       "site_visit": "2026-08-13T09:00:00-06:00",
+       "period_of_performance": "1 September 2026 – 1 March 2032",
+       "source_quotes": [
+        "Questions must be received on or before 17 August 2026, 9:00 AM MT.",
+        "On Thursday, 13 August 2026 at 0900 (9:00 AM) Mountain Time (MT) there will be a site visit.",
+        "Proposals submitted in response to this solicitation shall be submitted via email no later than Thursday, 3 September 2026, 9:00 AM MT.",
+        "The period of Performance is 1 September 2026 - 1 March 2032."
+       ]
+      },
+      "fit_score": 0.7895,
+      "matrix_summary": "25 of 38 requirements met, 10 partial, 3 gap, 0 unknown",
+      "evidence_link": "https://sam.gov/opp/475ec0299ae04542bccd77d1049b5772/view"
+     },
+     "matrix_summary": "25 of 38 requirements met, 10 partial, 3 gap, 0 unknown",
+     "fit_score": 0.7895,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 38,
+     "matrix_dropped": 0,
+     "model_calls": 5,
+     "tokens_in": 51408,
+     "tokens_out": 13042,
+     "seconds": 102.31,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T06:22:56.186235-05:00",
+       "firm_slug": "sooner-systems",
+       "notice_id": "475ec0299ae04542bccd77d1049b5772",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 25 of 38 requirements met, 10 partial, 3 gap, 0 unknown",
+       "evidence": "{\"fit_score\": 0.7895, \"fit_score_model\": 0.27, \"evidence_basis\": null, \"matrix_kept\": 38, \"matrix_dropped\": 0, \"quotes_dropped\": 0, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 51408, \"tokens_out\": 13042, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "48a0b93b561a44369a6ee01f3e47e2f9",
+     "title": "Operations, Research, and Broad Innovative Technology Services (ORBIT)   Request for Information (RFI) and Sources Sought Notice (SSN)",
+     "type": "Sources Sought",
+     "agency": "NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NASA JOHNSON SPACE CENTER",
+     "deadline": "2026-10-05T17:00:00-05:00",
+     "days_to_close": 21.40767319020833,
+     "closed": false,
+     "response_kind": "RFI response (capability statement, not a proposal)",
+     "ui_link": "https://sam.gov/opp/48a0b93b561a44369a6ee01f3e47e2f9/view",
+     "card": {
+      "notice_id": "48a0b93b561a44369a6ee01f3e47e2f9",
+      "firm_slug": "sooner-systems",
+      "situation": "NASA JSC ORBIT Sources Sought: multi-award IDIQ for flight operations support across four functional areas (Mission/Systems Engineering, Technical Evaluation, Specialized IT/Operations, Advanced R&D) as a follow-on to the expiring MESC-IDIQ vehicles.\\nReached the owner because NAICS 541512 matches exactly, the notice is a Total Small Business set-aside for which Sooner Systems qualifies, and Functional Area 3 (Specialized IT and Operations) directly maps to the firm's help desk and cybersecurity core services.",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "Functional Area 3 help desk and end-user support capability directly maps to the solicitation's mission support services requirement, with two qualifying past-performance records confirming Tier 1–3 service desk delivery [48a0b93b-696cd945-p7-df9f3994].",
+       "RMF/ATO documentation, ACAS/Nessus vulnerability management, CMMC Level 2 self-assessed, and 22 Secret-cleared staff provide a strong cybersecurity posture that substantially addresses the NPD 2810.1 IT security compliance requirement [48a0b93b-696cd945-p4-e2f0806d].",
+       "The notice is a Sources Sought RFI requiring only a capability statement — no proposal or price — and Sooner Systems can meet the submission deadline with 21.5 days remaining and all required company information on hand [48a0b93b-descript-p0-25e06605]."
+      ],
+      "reasons_against": [
+       "Sooner Systems has zero spaceflight, ISS, Artemis, or mission operations experience, leaving the core contract scope — enabling flight operations organizations to plan, train, and execute NASA space missions — entirely uncovered [48a0b93b-696cd945-p2-3b37fcad].",
+       "14 of 23 requirements are gaps, including all of FA1 (systems/mission engineering), FA2 (technical evaluation), and FA4 (advanced R&D and prototype software), yielding a fit score of only 0.33 and making a competitive IDIQ award highly unlikely [matrix_summary: 6 of 23 requirements met, 3 partial, 14 gap].",
+       "Contract value history ($2.1M, $1.65M, $740K) is far below the anticipated IDIQ scale, the firm has no Houston TX presence, and no experience with NASA-specific standards (JSC 63756, FOD SMP, CA-WI-54) required across all functional areas [48a0b93b-696cd945-p5-46e5352e]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-10-01",
+      "key_dates": {
+       "questions_due": null,
+       "proposal_due": "2026-10-05T17:00:00-05:00",
+       "site_visit": null,
+       "period_of_performance": null,
+       "source_quotes": [
+        "All responses must be submitted electronically via email to the Contracting Officer at jsc-orbit-procurement@mail.nasa.gov no later than 5:00 PM CENTRAL DAYLIGHT TIME on October 05, 2026."
+       ]
+      },
+      "fit_score": 0.3261,
+      "matrix_summary": "6 of 23 requirements met, 3 partial, 14 gap, 0 unknown",
+      "evidence_link": "https://sam.gov/opp/48a0b93b561a44369a6ee01f3e47e2f9/view"
+     },
+     "matrix_summary": "6 of 23 requirements met, 3 partial, 14 gap, 0 unknown",
+     "fit_score": 0.3261,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 23,
+     "matrix_dropped": 12,
+     "model_calls": 5,
+     "tokens_in": 48972,
+     "tokens_out": 13702,
+     "seconds": 117.57,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T06:09:22.388249-05:00",
+       "firm_slug": "sooner-systems",
+       "notice_id": "48a0b93b561a44369a6ee01f3e47e2f9",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 6 of 23 requirements met, 3 partial, 14 gap, 0 unknown",
+       "evidence": "{\"fit_score\": 0.3261, \"fit_score_model\": 0.27, \"evidence_basis\": null, \"matrix_kept\": 23, \"matrix_dropped\": 12, \"quotes_dropped\": 0, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 48972, \"tokens_out\": 13702, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "53912490fe424fd7a9e11fdaaf6a22a4",
+     "title": "NCI Oncology Clinical Trial System, Management and Support",
+     "type": "Sources Sought",
+     "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.NATIONAL INSTITUTES OF HEALTH.NATIONAL INSTITUTES OF HEALTH OLAO",
+     "deadline": "2026-09-17T15:00:00-04:00",
+     "days_to_close": 3.282673171793981,
+     "closed": false,
+     "response_kind": "RFI response (capability statement, not a proposal)",
+     "ui_link": "https://sam.gov/opp/53912490fe424fd7a9e11fdaaf6a22a4/view",
+     "card": {
+      "notice_id": "53912490fe424fd7a9e11fdaaf6a22a4",
+      "firm_slug": "sooner-systems",
+      "situation": "NCI Oncology Clinical Trial System, Management and Support — a Sources Sought / RFI seeking small businesses capable of enterprise-level informatics, application development, modernization, and operational support for NCI's CTEP-ESYS clinical trial platform (HHS/NIH/NCI OLAO).\nReached the owner because Sooner Systems qualifies as a small business eligible to respond to this unrestricted sources-sought notice; a response is a capability statement only — no proposal or price is due.",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "Sooner Systems can satisfy the administrative submission requirements — electronic delivery in MS Word or PDF within the deadline — with 3.3 days remaining to close [req 53912490-descript-p0-a27ed7b0].",
+       "RMF/ATO documentation and FISMA/NIST vulnerability management experience (ACAS/Nessus) partially address the contract's security compliance requirements and could anchor a narrow cybersecurity section of a capability statement [req 53912490-b04ce8af-p8-e9536625].",
+       "The 24x7 NOC in Norman, OK and ITIL 4-certified Tier 1–3 help desk meet the after-hours logging and SLA response requirements for the user-support sub-task [req 53912490-b04ce8af-p11-af881e0d]."
+      ],
+      "reasons_against": [
+       "Sooner Systems has no biomedical or clinical trial informatics experience whatsoever — no CTEP-ESYS, protocol management, investigational agent management, or safety reporting capability — leaving Task Areas 3 and 4 entirely uncovered [req 53912490-b04ce8af-p3-ca2045b4].",
+       "The firm has no enterprise application development, maintenance, modernization, AI/ML integration, FHIR/CDISC interoperability, HHS EPLC, or Section 508 capability, accounting for 18 of 32 requirements rated as gaps [req 53912490-b04ce8af-p18-de9244fb; req 53912490-b04ce8af-p19-6f28203d; req 53912490-b04ce8af-p18-1b5bd551].",
+       "Past performance contract values ($0.74M–$2.1M) and scope (Army Corps help desk, FAA cybersecurity, OK National Guard M365 tenant migration) are far below the enterprise-scale clinical IT environment required, and neither record covers clinical or biomedical IT [profile: past performance, matched records — network administration/cybersecurity and IT help desk/desktop support only]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-09-15",
+      "key_dates": {
+       "questions_due": null,
+       "proposal_due": "2026-09-17T15:00:00-04:00",
+       "site_visit": null,
+       "period_of_performance": null,
+       "source_quotes": [
+        "All capability statements sent in response to this Small Business Sources Sought notice must be sent electronically via email to Rosa Lopez, Contracting Officer at Rosa.Lopez@nih.gov in either MS Word or Adobe Portable Document Format (PDF) by September 17, 2026, 3:00PM ET."
+       ]
+      },
+      "fit_score": 0.2742,
+      "matrix_summary": "4 of 32 requirements met, 9 partial, 18 gap, 1 unknown",
+      "evidence_link": "https://sam.gov/opp/53912490fe424fd7a9e11fdaaf6a22a4/view"
+     },
+     "matrix_summary": "4 of 32 requirements met, 9 partial, 18 gap, 1 unknown",
+     "fit_score": 0.2742,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 32,
+     "matrix_dropped": 8,
+     "model_calls": 5,
+     "tokens_in": 75153,
+     "tokens_out": 16573,
+     "seconds": 154.81,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T06:11:57.203080-05:00",
+       "firm_slug": "sooner-systems",
+       "notice_id": "53912490fe424fd7a9e11fdaaf6a22a4",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 4 of 32 requirements met, 9 partial, 18 gap, 1 unknown",
+       "evidence": "{\"fit_score\": 0.2742, \"fit_score_model\": 0.1, \"evidence_basis\": null, \"matrix_kept\": 32, \"matrix_dropped\": 8, \"quotes_dropped\": 0, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 75153, \"tokens_out\": 16573, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "54a51abcd35345f581456df8a193e0ac",
+     "title": "R499--VA-26-00068264 - DASL Bridge Support Services",
+     "type": "Sources Sought",
+     "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B)",
+     "deadline": "2026-07-17T15:00:00-04:00",
+     "days_to_close": -58.71732685752314,
+     "closed": true,
+     "response_kind": "RFI response (capability statement, not a proposal)",
+     "ui_link": "https://sam.gov/workspace/contract/opp/54a51abcd35345f581456df8a193e0ac/view",
+     "card": {
+      "notice_id": "54a51abcd35345f581456df8a193e0ac",
+      "firm_slug": "sooner-systems",
+      "situation": "VA Technology Acquisition Center is seeking sources for DASL Bridge Support Services — enterprise data management, business architecture, data engineering, and Palantir/Foundry-compatible governance support for the NCA EISS modernization effort (R499--VA-26-00068264).\nThis Sources Sought reached the owner because Sooner Systems LLC holds NAICS 541512 and SDVOSB status; a response here means submitting a capability statement (RFI response), not a proposal.",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "Firm holds SDVOSB status and NAICS 541512, making it formally eligible to respond to this unrestricted Sources Sought notice [profile: SDVOSB eligibility, NAICS 541512 match].",
+       "22 cleared staff at Secret level satisfies the background investigation roster requirement and demonstrates a security-ready workforce [54a51abc-f36796d8-p1-bae7510d].",
+       "24x7 NOC in Norman, OK fulfills the contractor-facility performance requirement and supports the one-hour vulnerability notification obligation [54a51abc-f36796d8-p1-33ee0486]."
+      ],
+      "reasons_against": [
+       "VA has stated intent to solicit this requirement as a sole source, meaning no competitive opportunity exists regardless of the firm's qualifications [\"The purpose of this Amendment is to advise all prospective vendors that VA intends to solict this requirement as a sole source.\"].",
+       "The firm has zero capability in the core technical areas — enterprise data management, business architecture, data engineering, Palantir/Foundry, data reconciliation, or EISS modernization — leaving 16 of 29 requirements as outright gaps [54a51abc-f36796d8-p1-30e64ff8].",
+       "No past performance record matches data engineering, business architecture, Palantir/Foundry, or NCA/EISS modernization, violating owner rule ss-pp and leaving the capability statement without credible evidence of relevant experience [profile: matched past performance — none]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-07-15",
+      "key_dates": {
+       "questions_due": null,
+       "proposal_due": "2026-07-17T15:00:00-04:00",
+       "site_visit": null,
+       "period_of_performance": "Six (6) months from date of award",
+       "source_quotes": [
+        "PERFORMANCE DETAILS PERFORMANCE PERIOD The PoP shall be six (6) months from date of award."
+       ]
+      },
+      "fit_score": 0.2292,
+      "matrix_summary": "3 of 29 requirements met, 5 partial, 16 gap, 5 unknown",
+      "evidence_link": "https://sam.gov/workspace/contract/opp/54a51abcd35345f581456df8a193e0ac/view"
+     },
+     "matrix_summary": "3 of 29 requirements met, 5 partial, 16 gap, 5 unknown",
+     "fit_score": 0.2292,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 29,
+     "matrix_dropped": 8,
+     "model_calls": 5,
+     "tokens_in": 73322,
+     "tokens_out": 13319,
+     "seconds": 138.55,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T06:05:15.407311-05:00",
+       "firm_slug": "sooner-systems",
+       "notice_id": "54a51abcd35345f581456df8a193e0ac",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 3 of 29 requirements met, 5 partial, 16 gap, 5 unknown",
+       "evidence": "{\"fit_score\": 0.2292, \"fit_score_model\": 0.03, \"evidence_basis\": null, \"matrix_kept\": 29, \"matrix_dropped\": 8, \"quotes_dropped\": 4, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 73322, \"tokens_out\": 13319, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "5ad10c73d29b487fa70e750479bb0517",
+     "title": "Portfolio Acquisition Executive, Medical Digital Solutions, (PAE MDS) End User Services (EUS) Area of Interest Application, Workflow, Adoption, and Change Support (AWACS)",
+     "type": "Solicitation",
+     "agency": "DEPT OF DEFENSE.DEFENSE HEALTH AGENCY (DHA).DEFENSE HEALTH AGENCY",
+     "deadline": "2026-09-14T17:00:00-04:00",
+     "days_to_close": 0.3660064568287037,
+     "closed": false,
+     "response_kind": "proposal",
+     "ui_link": "https://sam.gov/workspace/contract/opp/5ad10c73d29b487fa70e750479bb0517/view",
+     "card": {
+      "notice_id": "5ad10c73d29b487fa70e750479bb0517",
+      "firm_slug": "sooner-systems",
+      "situation": "DHA PAE MDS AWACS solicitation seeking a unified Application, Workflow, Adoption, and Change Support services contractor across EUS Pillars 2, 3, and 5 for 11 clinical user domains, integrating with ServiceNow, JKO, MED365, and MHS GENESIS from Day 1 with 24/7 global hospital coverage.\nReached the owner because NAICS 541512 matches, the solicitation is unrestricted, and the firm holds Secret-cleared staff and ITIL 4/cybersecurity credentials that partially align to the IT infrastructure layer of the requirement.",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "22 Secret-cleared staff satisfy the Day-1 SECRET clearance mandate for trainers and DDIL-deploying personnel, removing a common disqualifier [5ad10c73-af9cb6ff-p10-48f98b1c].",
+       "ITIL 4 certification and Army CoE help desk past performance provide a credible foundation for the ITSM/ServiceNow integration layer of Pillar 1 pass-through requirements [5ad10c73-af9cb6ff-p3-f19b5676].",
+       "CMMC Level 2 self-assessment and NIST SP 800-171 implementation satisfy the cybersecurity baseline and Basic Assessment obligation required at contract award [5ad10c73-09f81d19-p5-5742f01d]."
+      ],
+      "reasons_against": [
+       "Zero clinical informatics, MHS GENESIS, or health IT experience exists in the profile, leaving the core scope of Pillars 2, 3, and 5 entirely unaddressed and the Section 1 whitepaper uncreditable [5ad10c73-af9cb6ff-p8-b3ed3b78].",
+       "No training design, adoption, change management, JKO LMS, or multimodal training delivery capability is stated, creating decisive gaps across Pillars 3 and 5 and the Day-1 continuity crosswalk [5ad10c73-425abe19-p1-01eafd57; 5ad10c73-425abe19-p1-4ba04d8a].",
+       "Firm revenue (~$4.5M total past performance) and a single domestic NOC cannot credibly support 24/7 global hospital operations or enterprise-scale Day-1 consolidation of an incumbent multi-pillar health IT program [5ad10c73-425abe19-p1-976b6a8d; 5ad10c73-425abe19-p1-697eff21]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-09-10",
+      "key_dates": {
+       "questions_due": "2026-09-02T11:00:00-04:00",
+       "proposal_due": "2026-09-14T17:00:00-04:00",
+       "site_visit": null,
+       "period_of_performance": "12-month base plus 4 12-month options",
+       "source_quotes": [
+        "Questions: Must be submitted via email to the POCs listed below no later than September 2, 2026, at 11:00 AM EDT.",
+        "Submission Deadline: Whitepapers must be submitted via email to Katelyn O'Connor, katelyn.j.oconnor.civ@health.mil and Jena Bowman, jena.l.bowman.civ@health.mil no later than September 14, 2026, at 5:00 PM EDT.",
+        "Anticipate a 12-month base plus 4 12-month options for this AOI."
+       ]
+      },
+      "fit_score": 0.4571,
+      "matrix_summary": "11 of 37 requirements met, 10 partial, 14 gap, 2 unknown",
+      "evidence_link": "https://sam.gov/workspace/contract/opp/5ad10c73d29b487fa70e750479bb0517/view"
+     },
+     "matrix_summary": "11 of 37 requirements met, 10 partial, 14 gap, 2 unknown",
+     "fit_score": 0.4571,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 37,
+     "matrix_dropped": 4,
+     "model_calls": 5,
+     "tokens_in": 86272,
+     "tokens_out": 16393,
+     "seconds": 157.51,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T06:02:56.845029-05:00",
+       "firm_slug": "sooner-systems",
+       "notice_id": "5ad10c73d29b487fa70e750479bb0517",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 11 of 37 requirements met, 10 partial, 14 gap, 2 unknown",
+       "evidence": "{\"fit_score\": 0.4571, \"fit_score_model\": 0.18, \"evidence_basis\": null, \"matrix_kept\": 37, \"matrix_dropped\": 4, \"quotes_dropped\": 2, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 86272, \"tokens_out\": 16393, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "633f42f21dec477cbd6d88327a7537f3",
+     "title": "CIO Microsoft Sentinel Implementation FY26",
+     "type": "Solicitation",
+     "agency": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.MISSION & INSTALLATION CONTRACTING COMMAND.FDO EUSTIS.W6QM MICC-CARLISLE BARRACKS",
+     "deadline": "2026-09-10T07:00:00-04:00",
+     "days_to_close": -4.050660225636574,
+     "closed": true,
+     "response_kind": "proposal",
+     "ui_link": "https://sam.gov/opp/633f42f21dec477cbd6d88327a7537f3/view",
+     "card": {
+      "notice_id": "633f42f21dec477cbd6d88327a7537f3",
+      "firm_slug": "sooner-systems",
+      "situation": "Army MICC-Carlisle Barracks solicitation for expert Microsoft Sentinel design, implementation, and operationalization for USAWC (~350 endpoints, M365 A5, NIST SP 800-53, OMB M-26-14 Optimal Tier logging, Zero Trust); Total Small Business set-aside. Reached the owner because Sooner Systems qualifies as a small business under the set-aside and holds adjacent M365/Azure and RMF/ATO capabilities, with two partial past-performance matches.",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "Firm is eligible under the Total Small Business set-aside and holds Microsoft 365 and Azure administration capability that partially aligns with the native M365/Azure ecosystem requirement [633f42f2-c4a40b6c-p1-37fce08b].",
+       "Two past-performance records (FAA cybersecurity support and Oklahoma National Guard M365 migration) provide partial technical relevance to the evaluation factors [633f42f2-236353d8-p1-8c1bf334].",
+       "22 cleared staff at Secret level and CMMC Level 2 self-assessment satisfy the IL2 access and personnel security posture expected for this DoD effort [633f42f2-c4a40b6c-p1-cf255981]."
+      ],
+      "reasons_against": [
+       "The firm is not listed as a Microsoft Solution Provider and no named individual holds SC-100, SC-200, CISSP, or equivalent certification required at time of offer — both are hard eligibility gaps [633f42f2-c4a40b6c-p1-ffbcd071] [633f42f2-236353d8-p1-28902381].",
+       "No Microsoft Sentinel-specific hands-on experience, no named Lead Sentinel Architect with 5+ years SIEM/SOAR design experience, and no OMB M-26-14/M-21-31 federal logging maturity experience are documented anywhere in the firm profile [633f42f2-236353d8-p1-544a9bb3] [633f42f2-236353d8-p1-39085fc7].",
+       "The solicitation response deadline has already passed (days_to_close = -4), making timely submission impossible without a formal extension [profile: fit_score gap, days_to_close = -4.0]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-09-08",
+      "key_dates": {
+       "questions_due": null,
+       "proposal_due": "2026-09-10T07:00:00-04:00",
+       "site_visit": null,
+       "period_of_performance": null,
+       "source_quotes": [
+        "Quotes shall be submitted via email to Contract and Contracting Officer prior to the deadline posted on RFQ."
+       ]
+      },
+      "fit_score": 0.5333,
+      "matrix_summary": "10 of 38 requirements met, 12 partial, 8 gap, 8 unknown",
+      "evidence_link": "https://sam.gov/opp/633f42f21dec477cbd6d88327a7537f3/view"
+     },
+     "matrix_summary": "10 of 38 requirements met, 12 partial, 8 gap, 8 unknown",
+     "fit_score": 0.5333,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 38,
+     "matrix_dropped": 1,
+     "model_calls": 5,
+     "tokens_in": 63895,
+     "tokens_out": 14111,
+     "seconds": 129.4,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T06:07:24.808557-05:00",
+       "firm_slug": "sooner-systems",
+       "notice_id": "633f42f21dec477cbd6d88327a7537f3",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 10 of 38 requirements met, 12 partial, 8 gap, 8 unknown",
+       "evidence": "{\"fit_score\": 0.5333, \"fit_score_model\": 0.31, \"evidence_basis\": null, \"matrix_kept\": 38, \"matrix_dropped\": 1, \"quotes_dropped\": 1, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 63895, \"tokens_out\": 14111, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "907ad2ce08a243079f41847b51acebe0",
+     "title": "AIE-ITS CSO",
+     "type": "Solicitation",
+     "agency": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC-DTA.W6QK ACC- DTA",
+     "deadline": "2027-09-11T17:00:00-04:00",
+     "days_to_close": 362.3660064288426,
+     "closed": false,
+     "response_kind": "proposal",
+     "ui_link": "https://sam.gov/workspace/contract/opp/907ad2ce08a243079f41847b51acebe0/view",
+     "card": {
+      "notice_id": "907ad2ce08a243079f41847b51acebe0",
+      "firm_slug": "sooner-systems",
+      "situation": "AIE-ITS CSO (W6QK ACC-DTA, Dept of the Army) seeks commercial IT solutions to enhance, secure, sustain, and modernize Army Intelligence IT operations CONUS/OCONUS; awards are fixed-price FAR Part 12 or non-FAR agreements under a Dual-Track (continuous white paper / periodic targeted call) architecture.\nReached the owner because NAICS 541512 matches exactly, three relevant past-performance records exist, and SDVOSB status makes the firm eligible on this unrestricted solicitation — but mandatory non-negotiable security eligibility requirements expose critical gaps.",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "NAICS 541512 matches the solicitation exactly and three past-performance records covering Army IT help desk, cybersecurity, and M365/Azure migration directly align with the CSO's modernization scope [profile: past performance, US Army Corps of Engineers Tulsa District; FAA Mike Monroney; Oklahoma National Guard].",
+       "The CSO's 10-year open window (closing September 11, 2036) and Track 1 continuous white-paper submission model mean the firm could re-enter after obtaining a Top Secret FCL without missing a hard deadline [key_dates: proposal_due 2027-09-11; quote: 'This CSO will remain open until September 11, 2036'].",
+       "Technical capabilities — 22-person cleared bench, ACAS/Nessus vulnerability management, RMF/ATO documentation, 24x7 NOC, and CMMC Level 2 self-assessment — provide a credible foundation for a future white paper once security eligibility is resolved [907ad2ce-4389fa0f-p1-7be3bb97]."
+      ],
+      "reasons_against": [
+       "The firm does not possess a Top Secret Facility Clearance (FCL), a non-negotiable mandatory eligibility requirement verified in NISS before peer-review; the profile lists only Secret-level cleared staff and no FCL of any level [907ad2ce-4389fa0f-p1-89bd2272].",
+       "The firm cannot certify TS/SCI-eligible personnel, a second non-negotiable mandatory screening criterion; failing either criterion means the firm is barred from peer-review and ineligible for award as currently profiled [907ad2ce-4389fa0f-p1-f0c9ea86].",
+       "Four additional eligibility unknowns — FOCI certification, SAM/UEI registration, OCI disclosure, and government invoicing system registration — compound the disqualifying gaps and cannot be resolved from the current profile [907ad2ce-4389fa0f-p1-c2f1d2f1; 907ad2ce-4389fa0f-p1-5e8e218c; 907ad2ce-4389fa0f-p1-51d86e10; 907ad2ce-4389fa0f-p1-514fddcd]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2027-09-09",
+      "key_dates": {
+       "questions_due": null,
+       "proposal_due": "2027-09-11T17:00:00-04:00",
+       "site_visit": null,
+       "period_of_performance": null,
+       "source_quotes": [
+        "This CSO will remain open until September 11, 2036."
+       ]
+      },
+      "fit_score": 0.587,
+      "matrix_summary": "10 of 31 requirements met, 7 partial, 6 gap, 8 unknown",
+      "evidence_link": "https://sam.gov/workspace/contract/opp/907ad2ce08a243079f41847b51acebe0/view"
+     },
+     "matrix_summary": "10 of 31 requirements met, 7 partial, 6 gap, 8 unknown",
+     "fit_score": 0.587,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 31,
+     "matrix_dropped": 1,
+     "model_calls": 5,
+     "tokens_in": 50025,
+     "tokens_out": 11817,
+     "seconds": 101.88,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T06:28:54.779129-05:00",
+       "firm_slug": "sooner-systems",
+       "notice_id": "907ad2ce08a243079f41847b51acebe0",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 20 of 39 requirements met, 2 partial, 3 gap, 14 unknown",
+       "evidence": "{\"fit_score\": 0.84, \"fit_score_model\": 0.62, \"evidence_basis\": null, \"matrix_kept\": 39, \"matrix_dropped\": 3, \"quotes_dropped\": 4, \"model_used\": \"us.anthropic.claude-haiku-4-5-20251001-v1:0\", \"fallback_used\": false, \"forced_model\": \"haiku\", \"tokens_in\": 76453, \"tokens_out\": 15649, \"model_calls\": 7, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "a707b8a1ffe64e1f81c0169928abd6d3",
+     "title": "DA01--Supply Chain Management DevSecOps and Integration (SCMDSO) -  New TO (VA-26-00021946)",
+     "type": "Sources Sought",
+     "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B)",
+     "deadline": "2026-08-17T10:00:00-04:00",
+     "days_to_close": -27.925660274305557,
+     "closed": true,
+     "response_kind": "RFI response (capability statement, not a proposal)",
+     "ui_link": "https://sam.gov/opp/a707b8a1ffe64e1f81c0169928abd6d3/view",
+     "card": {
+      "notice_id": "a707b8a1ffe64e1f81c0169928abd6d3",
+      "firm_slug": "sooner-systems",
+      "situation": "VA Technology Acquisition Center is seeking sources for comprehensive DevSecOps, SAFe Agile software development, and supply chain modernization support for VA's HELM Product Line — covering Asset Management, Inventory Management, and Prosthetics — under GSA Schedule procedures, open to large businesses only. This Sources Sought reached the owner because Sooner Systems holds relevant cybersecurity and IT support capabilities, but the fit score of 0.27 and a large-business-only restriction triggered desk review.",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "Sooner Systems operates a 24x7 NOC in Norman, OK and has 22 Secret-cleared staff, satisfying the contractor-facility performance and background investigation roster requirements [a707b8a1-37690f12-p71-5c1cd30a].",
+       "Vulnerability management (ACAS/Nessus) and FAA cybersecurity past performance partially address security patching, incident notification, and RMF activities [a707b8a1-37690f12-p77-12e7e6e8].",
+       "Three multi-year federal contracts (Army Corps 2022–2025, FAA 2021–2024, Oklahoma National Guard 2023–2025) demonstrate sustained performance capacity across a base-plus-options structure [a707b8a1-37690f12-p11-876a498f]."
+      ],
+      "reasons_against": [
+       "The solicitation is explicitly restricted to large businesses only; Sooner Systems is an SDVOSB small business and is ineligible to compete regardless of technical capability [a707b8a1-a96d9335-p6-0a37f0b8].",
+       "The firm has no SAFe Agile, DevSecOps engineering, software product development, data migration, or Agile Scrum team capability — the core of what the PWS requires [a707b8a1-37690f12-p12-6152e749].",
+       "No past performance in supply chain systems, HELM product line, VA enterprise modernization, or application-level software delivery; the two-match past-performance rule cannot be satisfied [profile: past performance, no DevSecOps or supply chain contracts]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-08-13",
+      "key_dates": {
+       "questions_due": null,
+       "proposal_due": "2026-08-17T10:00:00-04:00",
+       "site_visit": null,
+       "period_of_performance": "One 12-month base period with four 12-month option periods and four optional tasks, if exercised.",
+       "source_quotes": [
+        "4.1 PERFORMANCE PERIOD The PoP shall be one 12-month base period with four 12-month option periods and four optional tasks, if exercised."
+       ]
+      },
+      "fit_score": 0.2727,
+      "matrix_summary": "6 of 35 requirements met, 6 partial, 21 gap, 2 unknown",
+      "evidence_link": "https://sam.gov/opp/a707b8a1ffe64e1f81c0169928abd6d3/view"
+     },
+     "matrix_summary": "6 of 35 requirements met, 6 partial, 21 gap, 2 unknown",
+     "fit_score": 0.2727,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 35,
+     "matrix_dropped": 4,
+     "model_calls": 5,
+     "tokens_in": 70634,
+     "tokens_out": 13871,
+     "seconds": 142.08,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T06:27:38.375328-05:00",
+       "firm_slug": "sooner-systems",
+       "notice_id": "a707b8a1ffe64e1f81c0169928abd6d3",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 6 of 35 requirements met, 6 partial, 21 gap, 2 unknown",
+       "evidence": "{\"fit_score\": 0.2727, \"fit_score_model\": 0.04, \"evidence_basis\": null, \"matrix_kept\": 35, \"matrix_dropped\": 4, \"quotes_dropped\": 5, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 70634, \"tokens_out\": 13871, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "a9ef3e73dd004004bb4cefb17d2cc292",
+     "title": "SOLICITATION _ SERVICENOW STAFF AUGMENTATION SERVICES - AMEND 0001",
+     "type": "Combined Synopsis/Solicitation",
+     "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSEA.REGIONAL MAINTENANCE CENTER.SOUTHWEST REGIONAL MAINT CENTER",
+     "deadline": "2026-09-04T11:00:00-07:00",
+     "days_to_close": -9.758993623229166,
+     "closed": true,
+     "response_kind": "proposal",
+     "ui_link": "https://sam.gov/opp/a9ef3e73dd004004bb4cefb17d2cc292/view",
+     "card": {
+      "notice_id": "a9ef3e73dd004004bb4cefb17d2cc292",
+      "firm_slug": "sooner-systems",
+      "situation": "SWRMC requires two onsite ServiceNow Developer FTEs at Naval Base San Diego, CA, plus offsite advisory support, to migrate legacy systems and expand ServiceNow capabilities within the Cloud CITI environment — personnel must hold active CSA/CAD certifications, Top Secret/T5 eligibility, IAT-II, and DCWF 632 compliance on Day 1.\nThis notice reached the owner because Sooner Systems is SBA-eligible under the Total Small Business set-aside and NAICS 541512 matches exactly, but the solicitation deadline of 04 September 2026 has already passed (−9.7 days to close).",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "Firm is eligible for the Total Small Business set-aside and NAICS 541512 matches the solicitation exactly, clearing the threshold eligibility hurdle [profile: SBA-registered small business, NAICS 541512].",
+       "Security+ is held across the bench, satisfying the IAT-II baseline certification requirement on Day 1 without additional investment [req a9ef3e73-d2316e45-p4-0522c2b5].",
+       "Government confirmed that OEM/platform qualifications may be satisfied through a qualified ServiceNow subcontractor, leaving a teaming path open in principle [req a9ef3e73-45895b4c-p1-1e108f90]."
+      ],
+      "reasons_against": [
+       "The solicitation closed on 04 September 2026 and the computed days-to-close is −9.7, meaning any quote submitted now will not be considered for award [req a9ef3e73-descript-p0-b85c5d69].",
+       "No ServiceNow CSA or CAD certifications exist anywhere in the firm profile, and personnel must possess both active and non-expired on Day 1 of performance — a disqualifying gap that cannot be cured before the deadline [req a9ef3e73-d2316e45-p5-a29e304e].",
+       "All 22 cleared staff hold only Secret clearances; the solicitation requires an interim Top Secret based on a favorably adjudicated T5 investigation at the start of performance, and no T5-eligible personnel are documented [req a9ef3e73-45895b4c-p1-54c38c7f]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-09-02",
+      "key_dates": {
+       "questions_due": "2026-08-31T11:00:00-07:00",
+       "proposal_due": "2026-09-04T11:00:00-07:00",
+       "site_visit": null,
+       "period_of_performance": null,
+       "source_quotes": [
+        "All questions must be received no later than 31 August 2026, 11:00 AM (Pacific) to allow adequate time to prepare and issue responses to all offerors prior to the date and time set for receipt of quotes.",
+        "QUOTES must be received by the destination inbox no later than *04 September 2026, 11:00 AM (Pacific)* or they will not be considered for award.",
+        "AMEND 0001 - The due date for this Solicitation has been extended to Friday 09/04/2026 11:00 AM PST.",
+        "DESCRIPTION: Southwest Regional Maintenance Center (SWRMC) requires procurement of professional technical services in support of SWRMC at Naval Base San Diego as follows: Quote shall provide the Period of Performance."
+       ]
+      },
+      "fit_score": 0.1607,
+      "matrix_summary": "2 of 30 requirements met, 5 partial, 21 gap, 2 unknown",
+      "evidence_link": "https://sam.gov/opp/a9ef3e73dd004004bb4cefb17d2cc292/view"
+     },
+     "matrix_summary": "2 of 30 requirements met, 5 partial, 21 gap, 2 unknown",
+     "fit_score": 0.1607,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 30,
+     "matrix_dropped": 0,
+     "model_calls": 5,
+     "tokens_in": 61764,
+     "tokens_out": 14181,
+     "seconds": 110.8,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T06:13:48.009815-05:00",
+       "firm_slug": "sooner-systems",
+       "notice_id": "a9ef3e73dd004004bb4cefb17d2cc292",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 2 of 30 requirements met, 5 partial, 21 gap, 2 unknown",
+       "evidence": "{\"fit_score\": 0.1607, \"fit_score_model\": 0.22, \"evidence_basis\": null, \"matrix_kept\": 30, \"matrix_dropped\": 0, \"quotes_dropped\": 0, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 61764, \"tokens_out\": 14181, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "bb76a0d296574d508a645180aeaa8bc0",
+     "title": "Enterprise Messaging Modernization and Engineering Support",
+     "type": "Sources Sought",
+     "agency": "DEPT OF DEFENSE.DEFENSE INFORMATION SYSTEMS AGENCY (DISA).DEFENSE INFORMATION SYSTEMS AGENCY",
+     "deadline": "2026-10-02T16:00:00-04:00",
+     "days_to_close": 18.324339691006944,
+     "closed": false,
+     "response_kind": "RFI response (capability statement, not a proposal)",
+     "ui_link": "https://sam.gov/opp/bb76a0d296574d508a645180aeaa8bc0/view",
+     "card": {
+      "notice_id": "bb76a0d296574d508a645180aeaa8bc0",
+      "firm_slug": "sooner-systems",
+      "situation": "DISA Sources Sought for Enterprise Messaging Modernization and Engineering Support — a 24/7/365 DevSecOps-driven effort to modernize DoD's enterprise messaging infrastructure across unclassified and classified environments, requiring WSDL-based services, publish/subscribe messaging, interoperability certifications, and a Secret Facility Clearance.\nReached the owner because Sooner Systems LLC matches the solicitation NAICS (541512), holds 22 Secret-cleared staff, and performs RMF/ATO and cybersecurity work — but the fit score of 0.39 and eight capability gaps flag this as a high-risk response candidate.",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "NAICS 541512 is an exact match and the firm qualifies as a small business well under the $34M size standard, making it eligible to respond to this unrestricted notice [bb76a0d2-896e1443-p1-fbc272fd].",
+       "RMF/ATO documentation, ACAS/Nessus vulnerability management, and CMMC Level 2 self-assessment directly address the RMF and cybersecurity compliance requirement, providing a credible partial narrative [bb76a0d2-896e1443-p1-2cf8c73d].",
+       "A 24x7 NOC and 22 Secret-cleared staff demonstrate continuous operational support capability and personnel readiness that partially align with the 24/7/365 support and clearance-level expectations [profile: 24x7 NOC; profile: 22 cleared staff (Secret)]."
+      ],
+      "reasons_against": [
+       "The firm has no Secret Facility Clearance (FCL) issued by the DCSA Facility Clearance Branch — individual staff clearances do not satisfy this threshold eligibility requirement [bb76a0d2-896e1443-p1-856025bd].",
+       "Eight of fourteen requirements are gaps, including the core technical disciplines — WSDL/SOA proficiency, publish/subscribe enterprise messaging, DevSecOps methodology, PDR/CDR engineering lifecycle, and classified DevSecOps environments — none of which appear anywhere in the firm's profile or past performance [bb76a0d2-896e1443-p1-199bb228; bb76a0d2-896e1443-p1-c1f1cff7; bb76a0d2-896e1443-p1-4e002a30; bb76a0d2-896e1443-p1-fe67fa9b; bb76a0d2-896e1443-p1-729531d2].",
+       "The firm holds no prime contract vehicles (ENCORE III, SETI, OASIS, ALLIANT II, VETS II, STARS III, etc.) and has no enterprise messaging or systems engineering past performance, leaving the capability statement unable to meet the two past-performance matches required by owner rule [bb76a0d2-896e1443-p1-5b1b2482; profile: owner rule ss-pp]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-09-30",
+      "key_dates": {
+       "questions_due": null,
+       "proposal_due": "2026-10-02T16:00:00-04:00",
+       "site_visit": null,
+       "period_of_performance": null,
+       "source_quotes": []
+      },
+      "fit_score": 0.3929,
+      "matrix_summary": "5 of 14 requirements met, 1 partial, 8 gap, 0 unknown",
+      "evidence_link": "https://sam.gov/opp/bb76a0d296574d508a645180aeaa8bc0/view"
+     },
+     "matrix_summary": "5 of 14 requirements met, 1 partial, 8 gap, 0 unknown",
+     "fit_score": 0.3929,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 14,
+     "matrix_dropped": 2,
+     "model_calls": 5,
+     "tokens_in": 32191,
+     "tokens_out": 9511,
+     "seconds": 70.0,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T06:18:54.415005-05:00",
+       "firm_slug": "sooner-systems",
+       "notice_id": "bb76a0d296574d508a645180aeaa8bc0",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 5 of 14 requirements met, 1 partial, 8 gap, 0 unknown",
+       "evidence": "{\"fit_score\": 0.3929, \"fit_score_model\": 0.22, \"evidence_basis\": null, \"matrix_kept\": 14, \"matrix_dropped\": 2, \"quotes_dropped\": 4, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 32191, \"tokens_out\": 9511, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "c4480de5e5464218825bcf83b1930011",
+     "title": "DA01--VA-26-00071371 Memorials Integration Services and Innovation",
+     "type": "Sources Sought",
+     "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.TECHNOLOGY ACQUISITION CENTER NJ (36C10B)",
+     "deadline": null,
+     "days_to_close": null,
+     "closed": false,
+     "response_kind": "RFI response (capability statement, not a proposal)",
+     "ui_link": "https://sam.gov/opp/c4480de5e5464218825bcf83b1930011/view",
+     "card": {
+      "notice_id": "c4480de5e5464218825bcf83b1930011",
+      "firm_slug": "sooner-systems",
+      "situation": "VA Sources Sought (RFI) for Memorials Integration Services and Innovation (MISI): Agile software development, DevSecOps, AI/ML, enterprise architecture, and legacy modernization services supporting the VA-EISS platform and Memorial Benefits Services Product Line — forecasted Q1 FY27 procurement.\nReached the owner because NAICS 541512 matches and the firm holds SDVOSB eligibility, but the validated matrix returned a fit score of 0.1875 (3 met, 6 partial, 23 gap out of 33 requirements), and owner rule [ss-types] explicitly excludes RFIs from pursuit.",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "Owner rule [ss-types] explicitly prohibits responding to RFIs and Sources Sought notices, which are not real solicitations — this notice is an RFI for planning purposes only and no award will result from it [c4480de5-f2074d64-p1-5e2a7274].",
+       "The firm has zero Agile software development, DevSecOps, CI/CD, or AI/ML capability, which together constitute the overwhelming majority of the contract scope, leaving 23 of 33 requirements as outright gaps [c4480de5-2d388838-p1-93a42d6e].",
+       "With only 22 cleared staff total, the firm cannot field even a single Level 2 System Team (12–17 cross-functional Agile/DevSecOps FTEs) without gutting all other contracts [c4480de5-2d388838-p1-73a28fcd]."
+      ],
+      "reasons_against": [
+       "The firm's RMF/ATO documentation and NIST-aligned cybersecurity experience (ACAS/Nessus, CMMC Level 2) partially satisfies the security compliance and vulnerability remediation requirements, providing a credible foothold in a narrow slice of the work [c4480de5-2d388838-p1-0cb04dce].",
+       "Twenty-two Secret-cleared staff and a documented background-investigation roster process directly meet the personnel security requirements [c4480de5-2d388838-p1-2a58c4ca].",
+       "SDVOSB eligibility under NAICS 541512 keeps the firm competitive if a set-aside is applied at the full solicitation stage in Q1 FY27, making an early RFI response a low-cost way to establish visibility [profile: SDVOSB eligibility, NAICS 541512]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": null,
+      "key_dates": {
+       "questions_due": null,
+       "proposal_due": null,
+       "site_visit": null,
+       "period_of_performance": "One 6-month Base Period with two 12-month Option Periods (plus four Optional Tasks); no calendar start date stated — forecasted Q1 FY27 procurement.",
+       "source_quotes": [
+        "The Memorials Integration Services and Innovation requirement is now forecasted to be a first quarter FY27 procurement. An update will be provided with an estimated solicitation date as soon as it becomes available.",
+        "PERFORMANCE PERIOD The PoP shall be one 6-month Base Period with two 12-month Option Periods, along with four (4) Optional Tasks for additional Systems Teams, Agile Development Teams, Training Teams, and Transition Out Support."
+       ]
+      },
+      "fit_score": 0.1875,
+      "matrix_summary": "3 of 33 requirements met, 6 partial, 23 gap, 1 unknown",
+      "evidence_link": "https://sam.gov/opp/c4480de5e5464218825bcf83b1930011/view"
+     },
+     "matrix_summary": "3 of 33 requirements met, 6 partial, 23 gap, 1 unknown",
+     "fit_score": 0.1875,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 33,
+     "matrix_dropped": 3,
+     "model_calls": 5,
+     "tokens_in": 74388,
+     "tokens_out": 13112,
+     "seconds": 126.27,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T06:17:44.409884-05:00",
+       "firm_slug": "sooner-systems",
+       "notice_id": "c4480de5e5464218825bcf83b1930011",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 3 of 33 requirements met, 6 partial, 23 gap, 1 unknown",
+       "evidence": "{\"fit_score\": 0.1875, \"fit_score_model\": 0.1, \"evidence_basis\": null, \"matrix_kept\": 33, \"matrix_dropped\": 3, \"quotes_dropped\": 0, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 74388, \"tokens_out\": 13112, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "e4ca493c0b334b3d812882f4bdc2bc4e",
+     "title": "Microsoft 365 Data Migration Project",
+     "type": "Solicitation",
+     "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.SSP.STRATEGIC WEAPONS FAC PAC FINANCIAL",
+     "deadline": "2026-09-14T17:00:00-07:00",
+     "days_to_close": 0.491006293125,
+     "closed": false,
+     "response_kind": "proposal",
+     "ui_link": "https://sam.gov/workspace/contract/opp/e4ca493c0b334b3d812882f4bdc2bc4e/view",
+     "card": {
+      "notice_id": "e4ca493c0b334b3d812882f4bdc2bc4e",
+      "firm_slug": "sooner-systems",
+      "situation": "SWFPAC (Dept. of the Navy) solicits a firm-fixed-price professional services contract to migrate a legacy Microsoft Access 2003 warehouse/inventory database to the Navy's Microsoft 365 \"Flank Speed\" platform using SharePoint Online, Power Apps, and Power Automate, with UAT support and a Migration Guide, delivered 100% remotely within 180 calendar days.\nThis notice reached the owner because Sooner Systems' NAICS 541512 matches, the firm holds SDVOSB status, and one past-performance record references a Microsoft 365 migration.",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "CMMC Level 2 self-assessed exceeds the contract's CMMC Level 1 (Self) threshold, removing a common DoN compliance barrier [e4ca493c-4379a941-p22-72f61d3e].",
+       "The 100% remote place of performance aligns perfectly with the firm's Norman, OK facility and existing 24x7 NOC delivery model [e4ca493c-4379a941-p7-ff39d287].",
+       "NAICS 541512 matches the solicitation and the firm's SDVOSB status remains valid; the unrestricted set-aside does not disqualify the firm [e4ca493c-4379a941-p20-dec1759d]."
+      ],
+      "reasons_against": [
+       "No Microsoft certifications of any kind are listed in the firm profile, making it impossible to submit the required certification documentation with the quote — a hard submission requirement [e4ca493c-259937fc-p6-7b7c35a5].",
+       "The firm has no stated Power Apps, Power Automate, SharePoint Online architecture, or Access 2003 migration capability; 23 of 37 requirements are gaps directly tied to these missing technical competencies [e4ca493c-259937fc-p5-4a872785].",
+       "Only one past-performance record touches M365 migration (Oklahoma National Guard) and it does not reference Access-to-Power Platform work; the solicitation explicitly requires documented evidence of Access-to-M365/Power Platform migration competency, and the owner's two-PP rule cannot be satisfied [e4ca493c-4379a941-p5-5f3a9177]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-09-10",
+      "key_dates": {
+       "questions_due": null,
+       "proposal_due": "2026-09-14T17:00:00-07:00",
+       "site_visit": null,
+       "period_of_performance": "180 calendar days from date of contract award",
+       "source_quotes": [
+        "5.0 Period of Performance The Period of Performance (PoP) for this effort shall be 180 calendar days from the date of contract award.",
+        "All work required under this contract must be completed within 180 calendar days of contract award.",
+        "The contractor shall be liable for any nonperformance outside of the required 180 calendar day period of performance."
+       ]
+      },
+      "fit_score": 0.2917,
+      "matrix_summary": "8 of 37 requirements met, 5 partial, 23 gap, 1 unknown",
+      "evidence_link": "https://sam.gov/workspace/contract/opp/e4ca493c0b334b3d812882f4bdc2bc4e/view"
+     },
+     "matrix_summary": "8 of 37 requirements met, 5 partial, 23 gap, 1 unknown",
+     "fit_score": 0.2917,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 37,
+     "matrix_dropped": 2,
+     "model_calls": 5,
+     "tokens_in": 79014,
+     "tokens_out": 13185,
+     "seconds": 122.53,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T05:58:37.437098-05:00",
+       "firm_slug": "sooner-systems",
+       "notice_id": "e4ca493c0b334b3d812882f4bdc2bc4e",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 8 of 37 requirements met, 5 partial, 23 gap, 1 unknown",
+       "evidence": "{\"fit_score\": 0.2917, \"fit_score_model\": 0.27, \"evidence_basis\": null, \"matrix_kept\": 37, \"matrix_dropped\": 2, \"quotes_dropped\": 4, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 79014, \"tokens_out\": 13185, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "e6f67857e68e438ca800122c1b59a584",
+     "title": "191N6026Q0007 - PR16205087 - American Center Chennai’s Technology Infrastructure Modernization",
+     "type": "Solicitation",
+     "agency": "STATE, DEPARTMENT OF.STATE, DEPARTMENT OF.AMERICAN CONSULATE CHENNAI",
+     "deadline": "2026-09-15T15:00:00+05:30",
+     "days_to_close": 0.8868396027083334,
+     "closed": false,
+     "response_kind": "proposal",
+     "ui_link": "https://sam.gov/opp/e6f67857e68e438ca800122c1b59a584/view",
+     "card": {
+      "notice_id": "e6f67857e68e438ca800122c1b59a584",
+      "firm_slug": "sooner-systems",
+      "situation": "191N6026Q0007 — U.S. Consulate General Chennai solicits quotes for American Center Chennai's Technology Infrastructure Modernization (NAICS 541519, place of performance Chennai, India); unrestricted, proposal due 15 Sep 2026.\nReached the owner because NAICS 541519 matches exactly, two qualifying past-performance records exist, and cybersecurity/RMF capabilities align with the solicitation's IT security accreditation and C-SCRM requirements.",
+      "recommendation": "no-bid",
+      "reasons_for": [
+       "NAICS 541519 matches the solicitation exactly and the firm holds two qualifying past-performance records above the owner's threshold, satisfying basic eligibility [e6f67857-descript-p0-c9d0a032].",
+       "Cybersecurity depth — RMF/ATO documentation, ACAS/Nessus vulnerability management, CMMC Level 2 self-assessment, and 24x7 NOC — directly supports the IT Security Plan, C-SCRM Questionnaire, and 12-hour notification requirements [e6f67857-fa0d9f7f-p1-7c772cb9].",
+       "The solicitation is unrestricted, so the firm's SDVOSB small-business status creates no eligibility barrier and all responsible sources may submit [e6f67857-descript-p0-c9d0a032]."
+      ],
+      "reasons_against": [
+       "Place of performance is Chennai, India and the mandatory site-visit registration deadline of 01 Sep 2026 has already passed, making a compliant offer practically impossible with 0.9 days to close [e6f67857-descript-p0-b0192a1d].",
+       "Three hard gaps exist — no SBOM generation capability, no VEX-format reporting, and no FedRAMP-certified 3PAO relationship — each an unmitigated compliance requirement with no profile evidence to close them [e6f67857-fa0d9f7f-p1-a7da3b66; e6f67857-fa0d9f7f-p1-d6787e75; e6f67857-53508423-p4-ba85ab91].",
+       "SAM registration and CAGE code are unconfirmed in the firm profile, and both are required at time of submission and award, creating a disqualifying administrative risk [e6f67857-fa0d9f7f-p1-f97fc856]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-09-11",
+      "key_dates": {
+       "questions_due": "2026-09-05",
+       "proposal_due": "2026-09-15",
+       "site_visit": "2026-09-03",
+       "period_of_performance": null,
+       "source_quotes": [
+        "Registration for site visit: Tuesday, September 01, 2026 by 3:00 p.m. (IST) to ChennaiProcurement@state.gov",
+        "Mandatory Site visit with vendors: Thursday, September 03, 2026 at 11:30 a.m. (IST) at the U.S. Consulate General Chennai located at 220, Anna Salai, Gemini circle, Chennai 600 006.",
+        "Deadline to submit technical queries: Saturday, September 05, 2026 by 02:00 p.m. (IST) to ChennaiProcurement@state.gov",
+        "Deadline for RFQ Submittal: Tuesday, September 15, 2026 at 03:00 p.m. (IST) to ChennaiProcurement@state.gov"
+       ]
+      },
+      "fit_score": 0.6452,
+      "matrix_summary": "12 of 34 requirements met, 16 partial, 3 gap, 3 unknown",
+      "evidence_link": "https://sam.gov/opp/e6f67857e68e438ca800122c1b59a584/view"
+     },
+     "matrix_summary": "12 of 34 requirements met, 16 partial, 3 gap, 3 unknown",
+     "fit_score": 0.6452,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 34,
+     "matrix_dropped": 6,
+     "model_calls": 5,
+     "tokens_in": 81517,
+     "tokens_out": 16077,
+     "seconds": 139.45,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T06:21:13.873036-05:00",
+       "firm_slug": "sooner-systems",
+       "notice_id": "e6f67857e68e438ca800122c1b59a584",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "no-bid: 12 of 34 requirements met, 16 partial, 3 gap, 3 unknown",
+       "evidence": "{\"fit_score\": 0.6452, \"fit_score_model\": 0.27, \"evidence_basis\": null, \"matrix_kept\": 34, \"matrix_dropped\": 6, \"quotes_dropped\": 1, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 81517, \"tokens_out\": 16077, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    },
+    {
+     "notice_id": "ee15f287bd3049349277a9bd31c206df",
+     "title": "RFI: Air Force Enterprise Rapid Operations Support (AEROS)",
+     "type": "Sources Sought",
+     "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.FA2318  AFLCMC HBMK",
+     "deadline": "2026-09-30T17:00:00-04:00",
+     "days_to_close": 16.36600625341435,
+     "closed": false,
+     "response_kind": "RFI response (capability statement, not a proposal)",
+     "ui_link": "https://sam.gov/opp/ee15f287bd3049349277a9bd31c206df/view",
+     "card": {
+      "notice_id": "ee15f287bd3049349277a9bd31c206df",
+      "firm_slug": "sooner-systems",
+      "situation": "Sources Sought RFI for AFLCMC AEROS — comprehensive 24/7/365 functional and technical operations support for Air Mobility Command's Rapid Global Mobility C2 system portfolio, including legacy and next-gen applications, mission partner data feeds, and on-site support at a designated Government facility. Reached the owner because Sooner Systems is a Total Small Business under NAICS 541512 (exact match), holds Security+/IAT Level II certifications, and operates a 24x7 NOC — triggering multiple partial matches against core requirements.",
+      "recommendation": "bid",
+      "reasons_for": [
+       "Firm's 24x7 NOC in Norman, OK and Tier 1–3 help desk capability directly address the round-the-clock functional and technical operations support desk requirement [ee15f287-d29cc445-p3-d7784e6a].",
+       "Security+ held across the bench satisfies the DoDD 8140.01 IAT Level II certification mandate for all technical support desk personnel [ee15f287-d29cc445-p6-d5a34af5].",
+       "Two qualifying past-performance records (Army Corps help desk; FAA cybersecurity) demonstrate relevant IT operations and government-system-interaction experience that can be highlighted in the capability statement [profile: past performance, IT help desk and desktop support | US Army Corps of Engineers, Tulsa District]."
+      ],
+      "reasons_against": [
+       "No SMEs with AFTRANS, AMC, or Air Force C2 operational domain knowledge are documented, leaving a hard gap against the requirement for SMEs who understand the operational intent behind the tasks [ee15f287-d29cc445-p2-8eda4cba].",
+       "Firm's NOC is in Norman, OK with no evidence of on-site presence at a designated Government facility (Scott AFB, IL), requiring new investment to meet the on-site support desk mandate [ee15f287-d29cc445-p3-d7784e6a].",
+       "No experience with MAF C2 development team coordination, change management processes, or mission partner data feeds is documented, representing critical scope gaps for this enterprise C2 program [ee15f287-d29cc445-p5-ebdb9233]."
+      ],
+      "default": "filed as no-bid, nothing submitted",
+      "decide_by": "2026-09-28",
+      "key_dates": {
+       "questions_due": null,
+       "proposal_due": "2026-09-30T17:00:00-04:00",
+       "site_visit": null,
+       "period_of_performance": null,
+       "source_quotes": [
+        "Questions pertaining to this RFI shall be submitted no later than 5:00PM ET on",
+        "Responses to this RFI shall be submitted no later than 5:00PM ET on Wednesday 30 September 2026."
+       ]
+      },
+      "fit_score": 0.5588,
+      "matrix_summary": "10 of 35 requirements met, 18 partial, 6 gap, 1 unknown",
+      "evidence_link": "https://sam.gov/opp/ee15f287bd3049349277a9bd31c206df/view"
+     },
+     "matrix_summary": "10 of 35 requirements met, 18 partial, 6 gap, 1 unknown",
+     "fit_score": 0.5588,
+     "model_used": "us.anthropic.claude-sonnet-4-6",
+     "fallback_used": false,
+     "forced_model": null,
+     "evidence_basis": null,
+     "matrix_kept": 35,
+     "matrix_dropped": 3,
+     "model_calls": 5,
+     "tokens_in": 47693,
+     "tokens_out": 13835,
+     "seconds": 121.91,
+     "ledger_rows": [
+      {
+       "ts": "2026-09-14T06:32:48.095252-05:00",
+       "firm_slug": "sooner-systems",
+       "notice_id": "ee15f287bd3049349277a9bd31c206df",
+       "action": "surfaced",
+       "tier": 2,
+       "why": "bid: 10 of 35 requirements met, 18 partial, 6 gap, 1 unknown",
+       "evidence": "{\"fit_score\": 0.5588, \"fit_score_model\": 0.62, \"evidence_basis\": null, \"matrix_kept\": 35, \"matrix_dropped\": 3, \"quotes_dropped\": 1, \"model_used\": \"us.anthropic.claude-sonnet-4-6\", \"fallback_used\": false, \"forced_model\": null, \"tokens_in\": 47693, \"tokens_out\": 13835, \"model_calls\": 5, \"specialists_unavailable\": []}",
+       "undo": "mark card as filed"
+      }
+     ]
+    }
+   ],
+   "ledger_summary": {
+    "firm_slug": "sooner-systems",
+    "path": "D:\\PHD_Take2\\03_Competitions\\amazon_agents\\biddesk\\data\\ledger\\sooner-systems.jsonl",
+    "total": 20,
+    "by_action": {
+     "surfaced": 18,
+     "skipped": 2
+    },
+    "by_tier": {
+     "2": 20
+    }
+   }
+  },
+  {
+   "slug": "plains-med",
+   "name": "Plains Med Staffing",
+   "city": "Tulsa",
+   "state": "OK",
+   "what": "Nursing and allied health staffing for VA and IHS facilities",
+   "rules": [
+    {
+     "id": "pm-types",
+     "text": "Only real solicitations: no award notices, no justifications, no special notices.",
+     "kind": "notice_types",
+     "value": [
+      "Solicitation",
+      "Combined Synopsis/Solicitation",
+      "Presolicitation",
+      "Sources Sought"
+     ]
+    },
+    {
+     "id": "pm-setaside",
+     "text": "Only bid where we are eligible: 8(a), total small business, or unrestricted.",
+     "kind": "set_aside_eligible",
+     "value": [
+      "8A",
+      "SBA",
+      "",
+      "NONE"
+     ]
+    },
+    {
+     "id": "pm-days",
+     "text": "Never bid on a solicitation with under 10 days to close.",
+     "kind": "min_days_to_close",
+     "value": 10
+    }
+   ],
+   "fictional": true,
+   "tiers": {
+    "total": 10,
+    "tier0": 10,
+    "tier1": 0,
+    "tier2": 0,
+    "by_rule": {
+     "pm-days": 3,
+     "pm-types": 3,
+     "pm-setaside": 4
+    },
+    "model_calls": 0
+   },
+   "week": [
+    {
+     "date": "2026-09-07",
+     "posted": 1,
+     "filed": 1,
+     "surfaced": 0
+    },
+    {
+     "date": "2026-09-08",
+     "posted": 1,
+     "filed": 1,
+     "surfaced": 0
+    },
+    {
+     "date": "2026-09-09",
+     "posted": 2,
+     "filed": 2,
+     "surfaced": 0
+    },
+    {
+     "date": "2026-09-10",
+     "posted": 4,
+     "filed": 4,
+     "surfaced": 0
+    },
+    {
+     "date": "2026-09-11",
+     "posted": 2,
+     "filed": 2,
+     "surfaced": 0
+    }
+   ],
+   "cases": [],
+   "ledger_summary": {
+    "firm_slug": "plains-med",
+    "path": "D:\\PHD_Take2\\03_Competitions\\amazon_agents\\biddesk\\data\\ledger\\plains-med.jsonl",
+    "total": 1,
+    "by_action": {
+     "denied_tool": 1
+    },
+    "by_tier": {
+     "0": 1
+    }
+   }
+  }
+ ],
+ "case_count": 35,
+ "sources": [
+  {
+   "name": "SAM.gov Get Opportunities Public API v2",
+   "fetched": "2026-09-13",
+   "source_file": "data/SOURCES.md"
+  },
+  {
+   "name": "SAM.gov unkeyed search (the route the sam.gov web app itself calls)",
+   "fetched": "2026-09-13",
+   "source_file": "data/SOURCES.md"
+  },
+  {
+   "name": "Attachment list for a public notice",
+   "fetched": "2026-09-13",
+   "source_file": "data/SOURCES.md"
+  },
+  {
+   "name": "Snapshot window",
+   "fetched": "2026-08-14",
+   "source_file": "data/SOURCES.md"
+  },
+  {
+   "name": "Notice descriptions",
+   "fetched": null,
+   "source_file": "data/SOURCES.md"
+  },
+  {
+   "name": "Notice descriptions",
+   "fetched": "2026-09-13",
+   "source_file": "data/SOURCES.md"
+  },
+  {
+   "name": "Attachments",
+   "fetched": null,
+   "source_file": "data/SOURCES.md"
+  },
+  {
+   "name": "API key",
+   "fetched": null,
+   "source_file": "data/SOURCES.md"
+  },
+  {
+   "name": "GeoNames postal code files",
+   "fetched": "2026-09-13",
+   "source_file": "data/SOURCES.md"
+  },
+  {
+   "name": "`data/geo/us_zip_centroids.csv` (zip,lat,lon,city,state)",
+   "fetched": null,
+   "source_file": "data/SOURCES.md"
+  },
+  {
+   "name": "`data/geo/us_state_centroids.csv` (state,lat,lon)",
+   "fetched": null,
+   "source_file": "data/SOURCES.md"
+  },
+  {
+   "name": "Used by `src/biddesk/geo.py` for the owner distance rule only",
+   "fetched": null,
+   "source_file": "data/SOURCES.md"
+  }
+ ]
+}

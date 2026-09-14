@@ -1,0 +1,776 @@
+{
+ "notice_id": "c4480de5e5464218825bcf83b1930011",
+ "firm_slug": "sooner-systems",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:54:17-05:00",
+ "evidence_basis": null,
+ "days_to_close": null,
+ "closed": false,
+ "response_kind": "RFI response (capability statement, not a proposal)",
+ "card": {
+  "notice_id": "c4480de5e5464218825bcf83b1930011",
+  "firm_slug": "sooner-systems",
+  "situation": "VA Sources Sought (RFI) for Memorials Integration Services and Innovation (MISI): Agile software development, DevSecOps, AI/ML, enterprise architecture, and legacy modernization services supporting the VA-EISS platform and Memorial Benefits Services Product Line — forecasted Q1 FY27 procurement.\nReached the owner because NAICS 541512 matches and the firm holds SDVOSB eligibility, but the validated matrix returned a fit score of 0.1875 (3 met, 6 partial, 23 gap out of 33 requirements), and owner rule [ss-types] explicitly excludes RFIs from pursuit.",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "Owner rule [ss-types] explicitly prohibits responding to RFIs and Sources Sought notices, which are not real solicitations — this notice is an RFI for planning purposes only and no award will result from it [c4480de5-f2074d64-p1-5e2a7274].",
+   "The firm has zero Agile software development, DevSecOps, CI/CD, or AI/ML capability, which together constitute the overwhelming majority of the contract scope, leaving 23 of 33 requirements as outright gaps [c4480de5-2d388838-p1-93a42d6e].",
+   "With only 22 cleared staff total, the firm cannot field even a single Level 2 System Team (12–17 cross-functional Agile/DevSecOps FTEs) without gutting all other contracts [c4480de5-2d388838-p1-73a28fcd]."
+  ],
+  "reasons_against": [
+   "The firm's RMF/ATO documentation and NIST-aligned cybersecurity experience (ACAS/Nessus, CMMC Level 2) partially satisfies the security compliance and vulnerability remediation requirements, providing a credible foothold in a narrow slice of the work [c4480de5-2d388838-p1-0cb04dce].",
+   "Twenty-two Secret-cleared staff and a documented background-investigation roster process directly meet the personnel security requirements [c4480de5-2d388838-p1-2a58c4ca].",
+   "SDVOSB eligibility under NAICS 541512 keeps the firm competitive if a set-aside is applied at the full solicitation stage in Q1 FY27, making an early RFI response a low-cost way to establish visibility [profile: SDVOSB eligibility, NAICS 541512]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": null,
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": null,
+   "site_visit": null,
+   "period_of_performance": "One 6-month Base Period with two 12-month Option Periods (plus four Optional Tasks); no calendar start date stated — forecasted Q1 FY27 procurement.",
+   "source_quotes": [
+    "The Memorials Integration Services and Innovation requirement is now forecasted to be a first quarter FY27 procurement. An update will be provided with an estimated solicitation date as soon as it becomes available.",
+    "PERFORMANCE PERIOD The PoP shall be one 6-month Base Period with two 12-month Option Periods, along with four (4) Optional Tasks for additional Systems Teams, Agile Development Teams, Training Teams, and Transition Out Support."
+   ]
+  },
+  "fit_score": 0.1875,
+  "matrix_summary": "3 of 33 requirements met, 6 partial, 23 gap, 1 unknown",
+  "evidence_link": "https://sam.gov/opp/c4480de5e5464218825bcf83b1930011/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "c4480de5-f2074d64-p1-5e2a7274",
+   "quote": "Request for Information Memorials Integration Services and Innovation (MISI) VA-26-00071371 Introduction This Request for Information (RFI) is for planning purposes only and shall not be considered an Invitation for Bid, Request for Task Execution Plan, Request for Quotation or a Request for Proposal.",
+   "source_file": "f2074d64734745fabbd2ef9ae94f22cc.docx",
+   "page": 1,
+   "firm_answer": "This notice is an RFI/Sources Sought only, not a real solicitation. Owner rule [ss-types] states 'Only real solicitations: no award notices, no justifications, no special notices.' An RFI is not a real solicitation; the firm should not pursue this opportunity.",
+   "status": "gap",
+   "evidence": "Owner rule [ss-types]: Only real solicitations — RFI is explicitly excluded."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-39a33c29",
+   "quote": "Services shall include: Agile software development, enhancement, modernization, and sustainment of VA-EISS.",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "Sooner Systems LLC provides IT support, help desk, and cybersecurity staffing. No Agile software development, application enhancement, modernization, or sustainment capability is described in the firm profile.",
+   "status": "gap",
+   "evidence": "Firm profile lists no software development capability."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-65273d8c",
+   "quote": "The Contractor shall provide services to support IT DevSecOps for Memorial Benefits Services Product Line, Products in accordance with the working principles and definitions provided in Section 5.0.",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "No DevSecOps capability is listed in the firm profile. The firm has cybersecurity staffing and RMF/ATO documentation experience but no DevSecOps pipeline or software product line support.",
+   "status": "gap",
+   "evidence": "Firm profile does not mention DevSecOps."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-4df17d3b",
+   "quote": "The Contractor shall provide dedicated teams of cross-functional staff to operate, build, maintain, and develop the VA-EISS platform and associated benefits systems with capabilities to streamline systems, improve scalability, increase availability of services, and enable more efficient delivery.",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "Sooner Systems LLC does not have cross-functional platform development teams. The firm provides help desk, desktop/network administration, and cybersecurity staffing — not platform build/maintain/develop teams.",
+   "status": "gap",
+   "evidence": "Firm profile: IT support, help desk, and cybersecurity staffing only."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-93a42d6e",
+   "quote": "The Contractor shall provide VA with iterations of Agile software development and CI/CD.",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "No Agile software development or CI/CD capability is listed in the firm profile.",
+   "status": "gap",
+   "evidence": "Firm profile lists no CI/CD or Agile development capability."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-ed60ea7d",
+   "quote": "The Contractor shall provide cross-functional Agile Development Teams using a Scrum approach for the development and enhancement of VA Products and the underlying infrastructures.",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "No Scrum teams or Agile Development Team staffing model is described in the firm profile.",
+   "status": "gap",
+   "evidence": "Firm profile does not mention Scrum or Agile development teams."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-7381c5af",
+   "quote": "The Contractor shall design, develop, operationalize, and maintain solutions using AI/ML to enable new business capabilities that increase the speed and efficiency of business processes and reduce the number of user touches in BAM PL products and services.",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "No AI/ML design, development, or operationalization capability is listed in the firm profile.",
+   "status": "gap",
+   "evidence": "Firm profile lists no AI/ML capability."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-70bd4956",
+   "quote": "The Contractor shall provide recommendations for data innovation and data-driven AI/ML Solutions.",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "No data analytics, data innovation, or AI/ML solutions capability is listed in the firm profile.",
+   "status": "gap",
+   "evidence": "Firm profile lists no data analytics or AI/ML capability."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-d762de6d",
+   "quote": "The Contractor shall: Deliver cross-cutting tools for analytics, provide complex data analysis, data migration, data aggregation, and implement emergent data practices such as pattern recognition and data mining",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "No data analysis, data migration, data aggregation, pattern recognition, or data mining capability is listed in the firm profile.",
+   "status": "gap",
+   "evidence": "Firm profile lists no data analytics capability."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-58a3d348",
+   "quote": "The Contractor shall develop architecture in accordance with VA policy, Federal law, best practices, and product line guidance.",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "No enterprise or solution architecture capability is listed in the firm profile.",
+   "status": "gap",
+   "evidence": "Firm profile lists no architecture development capability."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-56b14282",
+   "quote": "The Contractor shall provide solution, architecture, and engineering support to enable the portfolio-level strategy for secure, modern, BAM enterprise solutions, services, and data.",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "No solution architecture or engineering support capability is listed in the firm profile.",
+   "status": "gap",
+   "evidence": "Firm profile lists no solution architecture or engineering support."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-ce33a441",
+   "quote": "The Contractor shall: Develop and deliver Software Source Code to support end-to-end business processing and implement CI/CD and automated testing to support TDD methodologies.",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "No software source code development, CI/CD, or TDD capability is listed in the firm profile.",
+   "status": "gap",
+   "evidence": "Firm profile lists no software development or TDD capability."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-9964ef6d",
+   "quote": "The Contractor shall provide support services for legacy systems and shall support transitioning legacy systems to the BIP Platform and decommissioning legacy systems.",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "No legacy system transition or BIP Platform experience is listed in the firm profile.",
+   "status": "gap",
+   "evidence": "Firm profile lists no legacy modernization or BIP Platform experience."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-83696432",
+   "quote": "The Contractor shall support requirements management processes and participate in an Intake Review Board (IRB) to demonstrate traceability of demand requests, with VA priority strategic objectives, VA investments, and associated metrics for measuring and reporting execution, outcomes, value, and end-user satisfaction.",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "No requirements management, IRB participation, or traceability capability is listed in the firm profile.",
+   "status": "gap",
+   "evidence": "Firm profile lists no requirements management capability."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-0cb04dce",
+   "quote": "The Contractor shall perform all work in accordance with applicable Federal laws, VA policies, NIST guidance, RMF requirements, VA Enterprise Architecture standards, VA Product Lifecycle Management (PLM) guidance, and VA Enterprise Cloud operational requirements.",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "Sooner Systems LLC has RMF/ATO documentation experience and NIST-aligned cybersecurity practices (ACAS/Nessus, CMMC Level 2). However, VA Enterprise Architecture standards, PLM guidance, and VA Enterprise Cloud operational requirements are not addressed in the profile.",
+   "status": "partial",
+   "evidence": "Network administration and cybersecurity support | FAA Mike Monroney Aeronautical Center — RMF, ATO keywords."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-fe172bae",
+   "quote": "The Contractor shall: Facilitate VA Assessment and Authorization (A&A) processes and continuously maintain the ATO for the current Products and environments they support.",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "Sooner Systems LLC has RMF/ATO documentation experience from the FAA Monroney contract. However, maintaining ATO for VA software products in a DevSecOps context goes beyond the firm's documented scope.",
+   "status": "partial",
+   "evidence": "Network administration and cybersecurity support | FAA Mike Monroney Aeronautical Center — RMF, ATO keywords."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-8d01698f",
+   "quote": "Coordinate and remediate vulnerabilities identified in scans, quality checks, or reviews/audits within required timeframes based on severity, in accordance with VA Handbook 6500.6: Critical – Must be remediated immediately (within 30 days) High – Must be remediated within 60 days Medium – Must be remediated within 90 days Low – Must be remediated within 120 days or per the timeframe established by the system owner Support Plan of Actions and Milestones (POA&M) management and quarterly reviews.",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "Sooner Systems LLC has vulnerability management experience using ACAS/Nessus and RMF/ATO documentation including POA&M support. This is a partial match; the firm has the cybersecurity skills but not in the context of a VA software product DevSecOps environment.",
+   "status": "partial",
+   "evidence": "Network administration and cybersecurity support | FAA Mike Monroney Aeronautical Center — vulnerability, ACAS, RMF, ATO keywords."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-2a58c4ca",
+   "quote": "Within 3 business days after award, the Contractor shall provide a roster of Contractor and Subcontractor employees to the COR to begin their background investigations in accordance with the PAL template artifact.",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "Sooner Systems LLC has 22 cleared staff (Secret) and experience managing background investigation rosters from prior federal contracts.",
+   "status": "meets",
+   "evidence": "Firm profile: 22 cleared staff (Secret); IT help desk and desktop support | US Army Corps of Engineers."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-756a771a",
+   "quote": "The submitted Contractor Staff Roster must indicate the required Background Investigation Level for each Contractor individual based upon the tasks the Contractor individual will be working, in accordance with their submitted proposal.",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "Sooner Systems LLC has 22 cleared staff (Secret) and experience submitting staff rosters with investigation levels on prior federal contracts.",
+   "status": "meets",
+   "evidence": "Firm profile: 22 cleared staff (Secret)."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-9331ddf2",
+   "quote": "Tier 3 tickets must be triaged/acted upon within 24 hours and resolved within a release cycle unless otherwise directed by the PM/COR.",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "Sooner Systems LLC provides Tier 1-3 help desk support with 24x7 NOC. Tier 3 triage within 24 hours is within the firm's documented capability. However, 'resolved within a release cycle' implies software release management, which is outside the firm's scope.",
+   "status": "partial",
+   "evidence": "IT help desk and desktop support | US Army Corps of Engineers — tier 1, tier 2 keywords; firm profile: Tier 1-3 help desk, 24x7 NOC."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-1eb9c977",
+   "quote": "PERFORMANCE DETAILS PERFORMANCE PERIOD The PoP shall be one 6-month Base Period with two 12-month Option Periods, along with four (4) Optional Tasks for additional Systems Teams, Agile Development Teams, Training Teams, and Transition Out Support.",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "The contract structure (Agile Development Teams, Systems Teams, Training Teams) is outside the firm's staffing model. The firm can staff help desk and cybersecurity roles but not Agile development or systems engineering teams at the scale described.",
+   "status": "gap",
+   "evidence": "Firm profile: IT support, help desk, and cybersecurity staffing only."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-73a28fcd",
+   "quote": "The range of required dedicated full-time equivalent (FTE) count for each team size is as follows: Required Team Sizes | Dedicated FTEs per Team Level 5 | 30 – 35 Level 4 | 24 – 29 Level 3 | 18 – 23 Level 2 | 12 – 17 Level 1 | 6 – 11 The Contractor shall maintain or exceed Service Level Targets",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "Sooner Systems LLC has 22 cleared staff total. The firm cannot staff even a Level 2 System Team (12–17 FTEs) of cross-functional Agile/DevSecOps professionals while maintaining other contracts.",
+   "status": "gap",
+   "evidence": "Firm profile: 22 cleared staff (Secret) total — insufficient for multi-team cross-functional staffing."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-1c5d7d52",
+   "quote": "The Contractor shall use VA's implementation of Jira and GitHub, or other VA-approved toolsets, to provide a single authoritative project and product data and artifact repository.",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "No Jira, GitHub, or Confluence experience is listed in the firm profile.",
+   "status": "unknown",
+   "evidence": "Firm profile does not mention Jira, GitHub, or Confluence."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-4983d241",
+   "quote": "The Contractor shall commit and push code to VA source control repositories on a daily basis.",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "No source code management or version control capability is listed in the firm profile.",
+   "status": "gap",
+   "evidence": "Firm profile lists no software development or source control capability."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-c44c92ee",
+   "quote": "The Contractor, in collaboration with VA, must evaluate the output of any AI tool for accuracy prior to using the output in VA efforts.",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "No AI tool evaluation capability is listed in the firm profile.",
+   "status": "gap",
+   "evidence": "Firm profile lists no AI/ML capability."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-603543f4",
+   "quote": "The documentation shall address summaries of training process, identified risks and mitigations, and model evaluation scores on LLM benchmarks at a minimum, where appropriate End User Resources The Contractor shall provide documentation to include product tutorials, developer guides, and/or other tools to assist VA in ensuring proper use of the AI/LLM to maximize utility",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "No LLM, AI documentation, or model evaluation capability is listed in the firm profile.",
+   "status": "gap",
+   "evidence": "Firm profile lists no AI/LLM capability."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-63f2a884",
+   "quote": "Tasks under this PWS shall be performed at Contractor facilities.",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "Sooner Systems LLC is located in Norman, OK and has a 24x7 NOC at that facility. Contractor-facility performance is feasible.",
+   "status": "meets",
+   "evidence": "Firm profile: 24x7 NOC in Norman, OK."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-df83c9cb",
+   "quote": "VIRUSES, FIRMWARE, AND MALWARE The Contractor shall execute due diligence to ensure all provided software and patches, including third-party patches, are free of viruses and/or malware before releasing them to or installing them on VA information systems.",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "Sooner Systems LLC has vulnerability management and cybersecurity staffing experience. However, the firm does not deliver software or patches as a primary service, so this requirement is only partially applicable.",
+   "status": "partial",
+   "evidence": "Network administration and cybersecurity support | FAA Mike Monroney Aeronautical Center — cybersecurity, vulnerability keywords."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-ed97b5f1",
+   "quote": "The phases shall support functional, regression, and integration testing, including test data conditioning, and incorporate at a minimum: Automated Unit Testing Automated Builds Automated Functional Testing Automated Performance Testing Automated Integration Testing Automated Resiliency Testing Automated Section 508 Compliance Testing Automated Static and Dynamic Security Testing (e.g., Fortify) Automated zero downtime deployments Automated rollback Automated deployment validation",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "No automated testing, CI/CD pipeline, or Section 508 compliance testing capability is listed in the firm profile.",
+   "status": "gap",
+   "evidence": "Firm profile lists no automated testing or CI/CD capability."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-83c218f3",
+   "quote": "The Contractor shall recommend and develop Business Intelligence (BI) solutions for the portfolio and product lines to enable data driven decisions and support decommissioning efforts.",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "No Business Intelligence development capability is listed in the firm profile.",
+   "status": "gap",
+   "evidence": "Firm profile lists no BI or data analytics capability."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-cb47e5bf",
+   "quote": "If the Contractor delivered application and system is not on the APL, the Contractor shall be responsible for taking the application and system through the FIPS 201 Evaluation Program.",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "No FIPS 201 Evaluation Program experience is listed in the firm profile. The firm does not deliver applications.",
+   "status": "gap",
+   "evidence": "Firm profile lists no application delivery or FIPS 201 experience."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-9c5ab780",
+   "quote": "The Contractor shall provide or arrange the provision of appropriate software and firmware updates to remediate newly discovered vulnerabilities or weaknesses for their products and services within 30 days of discovery.",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "Sooner Systems LLC has vulnerability management experience (ACAS/Nessus) but does not deliver software products or firmware. This requirement applies to product vendors, not the firm's service model.",
+   "status": "gap",
+   "evidence": "Firm profile: vulnerability management (ACAS/Nessus) — but no software/firmware product delivery."
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-9185973a",
+   "quote": "The Contractor shall engage in troubleshooting efforts for customers directly connected to products and services, which may include connection issues and/or inability to complete transactions.",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "firm_answer": "Sooner Systems LLC provides Tier 1-3 help desk and desktop support including troubleshooting. However, troubleshooting in the context of VA software product transactions and releases is beyond the firm's documented scope.",
+   "status": "partial",
+   "evidence": "IT help desk and desktop support | US Army Corps of Engineers — help desk, tier 1, tier 2, end user keywords."
+  }
+ ],
+ "matrix_dropped": 3,
+ "matrix_dropped_rows": [
+  {
+   "requirement_id": "c4480de5-2d388838-p1-ff5eadb2",
+   "quote": "SECURITY INCIDENT INVESTIGATION The Contractor, Subcontractor, their employees, or business associates shall immediately (within one hour) report suspected security / privacy incidents to the VA OIT's Enterprise Service Desk (ESD) by calling (855) 673-4357 (TTY: 711).",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-8802aca9",
+   "quote": "The Contractor shall identify the Contractor's place of performance in their proposal submission.",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "c4480de5-2d388838-p1-baddf91b",
+   "quote": "The Contractor shall deliver a Contractor Project Management Plan (CPMP) that lays out the Contractor's approach, timeline, and tools to be used in execution of the contract.",
+   "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+   "page": 1,
+   "reason": "not_verbatim"
+  }
+ ],
+ "fit_score_code": 0.1875,
+ "drafts": {
+  "capability_statement": "Sooner Systems LLC — Capability Statement\nResponse to RFI: Memorials Integration Services and Innovation (MISI) VA-26-00071371\n\nSooner Systems LLC is a Service-Disabled Veteran-Owned Small Business (SDVOSB) headquartered in Norman, OK, operating under NAICS 541512. We provide federal agencies with IT infrastructure support, network administration, cybersecurity staffing, and help desk services, supported by a 24x7 Network Operations Center.\n\nOur cybersecurity practice is grounded in NIST frameworks and Risk Management Framework (RMF) processes, including Assessment and Authorization (A&A) support, ATO documentation, Plan of Action and Milestones (POA&M) management, and vulnerability management using ACAS/Nessus and STIG compliance. We hold a CMMC Level 2 self-assessment and maintain 22 Secret-cleared staff, with demonstrated experience submitting personnel security rosters and managing background investigation requirements on federal contracts.\n\nWe acknowledge that the MISI requirement centers on Agile software development, DevSecOps, AI/ML, enterprise architecture, and legacy modernization — capabilities that fall outside our current core competency. We are submitting this response to establish awareness of the procurement, understand the government's teaming and subcontracting expectations, and assess whether a partnership with qualified Agile development firms could position Sooner Systems to contribute meaningfully in cybersecurity, RMF/ATO, and personnel security functions within a larger team.\n\nWe welcome the opportunity to discuss the government's vision for this requirement.\n\nPoint of Contact: [Owner Name], Sooner Systems LLC | Norman, OK | NAICS 541512 | SDVOSB",
+  "questions_for_co": [
+   "Does the government anticipate any set-aside designation (e.g., SDVOSB, VOSB, or small business) for the full solicitation expected in Q1 FY27, and will teaming arrangements between a prime and subcontractors with complementary capabilities be evaluated favorably? [c4480de5-2d388838-p1-1eb9c977]",
+   "What is the minimum team level (Level 1 through 5) the government expects offerors to propose at the Base Period award, and will offerors be permitted to propose a single team at the lowest FTE band (Level 1, 6–11 FTEs) for a specific functional area such as cybersecurity or RMF/ATO support? [c4480de5-2d388838-p1-73a28fcd]",
+   "Will the government accept VA-approved toolset alternatives to Jira and GitHub for artifact repository and project tracking, and if so, what is the approval process for proposing substitute tools? [c4480de5-2d388838-p1-1c5d7d52]",
+   "Does the government intend to require prior VA-specific experience (e.g., VA-EISS, BIP Platform) as a mandatory qualification, or will demonstrated experience on analogous federal agency platforms be considered acceptable past performance? [c4480de5-2d388838-p1-9964ef6d]",
+   "For the AI/ML and LLM documentation requirements, does the government anticipate providing a VA-approved AI framework or toolset that the contractor must operate within, or is the contractor expected to propose its own AI/ML stack subject to VA approval? [c4480de5-2d388838-p1-603543f4]",
+   "Will the government consider separating the cybersecurity, RMF/ATO, and vulnerability remediation functions into a discrete task order or Optional Task, allowing specialized small businesses to compete for that scope independently from the Agile development and AI/ML work? [c4480de5-2d388838-p1-65273d8c]"
+  ],
+  "calendar_entries": []
+ },
+ "reader": {
+  "notice_id": "c4480de5e5464218825bcf83b1930011",
+  "key_requirement_ids": [
+   "c4480de5-2d388838-p1-39a33c29",
+   "c4480de5-2d388838-p1-4df17d3b",
+   "c4480de5-2d388838-p1-65273d8c",
+   "c4480de5-2d388838-p1-93a42d6e",
+   "c4480de5-2d388838-p1-ed60ea7d",
+   "c4480de5-2d388838-p1-94891493",
+   "c4480de5-2d388838-p1-1eb9c977",
+   "c4480de5-2d388838-p1-73a28fcd",
+   "c4480de5-2d388838-p1-0382ba2e",
+   "c4480de5-2d388838-p1-7381c5af",
+   "c4480de5-2d388838-p1-58a3d348",
+   "c4480de5-2d388838-p1-70bd4956",
+   "c4480de5-2d388838-p1-9964ef6d",
+   "c4480de5-2d388838-p1-fe172bae",
+   "c4480de5-2d388838-p1-ed97b5f1",
+   "c4480de5-2d388838-p1-0cb04dce",
+   "c4480de5-2d388838-p1-9c9b5e18",
+   "c4480de5-2d388838-p1-d4c7feb6",
+   "c4480de5-2d388838-p1-ce33a441",
+   "c4480de5-2d388838-p1-f4014637",
+   "c4480de5-2d388838-p1-dc8bf107",
+   "c4480de5-f2074d64-p1-5e2a7274",
+   "c4480de5-2d388838-p1-83696432",
+   "c4480de5-2d388838-p1-8d01698f",
+   "c4480de5-2d388838-p1-2a58c4ca"
+  ],
+  "scope_summary": "The government is buying Agile software development, DevSecOps, systems operations, architecture, and data analytics services to support the VA's Memorial Benefits Services Product Line and the VA-EISS platform. The Contractor shall provide dedicated cross-functional teams—System Teams and Agile Development Teams—to operate, build, maintain, modernize, and develop the VA-EISS platform and associated benefits systems, including transitioning and decommissioning legacy systems to the BIP Platform. The performance period is one 6-month Base Period with two 12-month Option Periods, plus four Optional Tasks for additional Systems Teams, Agile Development Teams, Training Teams, and Transition Out Support.",
+  "evaluation_basis": "not stated",
+  "incumbent_or_history": "none found",
+  "quotes": [
+   "The Memorials Integration Services and Innovation requirement is now forecasted to be a first quarter FY27 procurement.",
+   "Request for Information Memorials Integration Services and Innovation (MISI) VA-26-00071371 Introduction This Request for Information (RFI) is for planning purposes only and shall not be considered an Invitation for Bid, Request for Task Execution Plan, Request for Quotation or a Request for Proposal.",
+   "Services shall include: Agile software development, enhancement, modernization, and sustainment of VA-EISS.",
+   "The Contractor shall provide dedicated teams of cross-functional staff to operate, build, maintain, and develop the VA-EISS platform and associated benefits systems with capabilities to streamline systems, improve scalability, increase availability of services, and enable more efficient delivery.",
+   "The Contractor shall provide services to support IT DevSecOps for Memorial Benefits Services Product Line, Products in accordance with the working principles and definitions provided in Section 5.0.",
+   "The PoP shall be one 6-month Base Period with two 12-month Option Periods, along with four (4) Optional Tasks for additional Systems Teams, Agile Development Teams, Training Teams, and Transition Out Support.",
+   "The Contractor shall provide support services for legacy systems and shall support transitioning legacy systems to the BIP Platform and decommissioning legacy systems.",
+   "The Contractor shall design, develop, operationalize, and maintain solutions using AI/ML to enable new business capabilities that increase the speed and efficiency of business processes and reduce the number of user touches in BAM PL products and services.",
+   "The range of required dedicated full-time equivalent (FTE) count for each team size is as follows: Required Team Sizes | Dedicated FTEs per Team Level 5 | 30 – 35 Level 4 | 24 – 29 Level 3 | 18 – 23 Level 2 | 12 – 17 Level 1 | 6 – 11 The Contractor shall maintain or exceed Service Level Targets",
+   "The Contractor shall perform all work in accordance with applicable Federal laws, VA policies, NIST guidance, RMF requirements, VA Enterprise Architecture standards, VA Product Lifecycle Management (PLM) guidance, and VA Enterprise Cloud operational requirements.",
+   "The Government will utilize the proposed firm fixed price labor rates which shall be incorporated into the order at time of award as set forth in the Price Schedule.",
+   "Tasks under this PWS shall be performed at Contractor facilities."
+  ]
+ },
+ "fit": {
+  "notice_id": "c4480de5e5464218825bcf83b1930011",
+  "fit_score": 0.1,
+  "matched_past_performance": [
+   "Network administration and cybersecurity support | customer FAA Mike Monroney Aeronautical Center | naics 541519 | 1650000 USD | 2021-2024 | keywords: network, cybersecurity, cyber, security, SOC, SIEM, SOAR, incident response, RMF, ATO, vulnerability, ACAS, STIG, firewall, ISSO"
+  ],
+  "strengths": [
+   "SDVOSB set-aside eligibility (NAICS 541512 matches)",
+   "RMF/ATO documentation experience partially relevant to security compliance requirements",
+   "Vulnerability management (ACAS/Nessus) aligns with vulnerability remediation schedule requirements",
+   "22 cleared staff (Secret) supports background investigation requirements",
+   "CMMC Level 2 self-assessed supports cybersecurity posture"
+  ],
+  "gaps": [
+   "No Agile software development or DevSecOps capability",
+   "No CI/CD pipeline or automated testing experience",
+   "No AI/ML or data analytics capability",
+   "No enterprise architecture or solution architecture experience",
+   "No VA-EISS, BIP Platform, or legacy modernization experience",
+   "No Scrum team delivery or sprint-based software development",
+   "No data migration, data aggregation, or business intelligence capability",
+   "No software source code delivery capability",
+   "Only one credible past-performance match (cybersecurity/RMF); owner rule requires two",
+   "No Jira/GitHub/Confluence toolset experience stated",
+   "No cross-functional Agile Development Team staffing model",
+   "Contract scope (Agile dev, architecture, AI/ML, data analytics) is entirely outside firm's core competency",
+   "Notice is a Sources Sought / RFI — not a real solicitation; owner rule [ss-types] prohibits bidding"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "c4480de5-f2074d64-p1-5e2a7274",
+    "quote": "Request for Information Memorials Integration Services and Innovation (MISI) VA-26-00071371 Introduction This Request for Information (RFI) is for planning purposes only and shall not be considered an Invitation for Bid, Request for Task Execution Plan, Request for Quotation or a Request for Proposal.",
+    "source_file": "f2074d64734745fabbd2ef9ae94f22cc.docx",
+    "page": 1,
+    "firm_answer": "This notice is an RFI/Sources Sought only, not a real solicitation. Owner rule [ss-types] states 'Only real solicitations: no award notices, no justifications, no special notices.' An RFI is not a real solicitation; the firm should not pursue this opportunity.",
+    "status": "gap",
+    "evidence": "Owner rule [ss-types]: Only real solicitations — RFI is explicitly excluded."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-39a33c29",
+    "quote": "Services shall include: Agile software development, enhancement, modernization, and sustainment of VA-EISS.",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "Sooner Systems LLC provides IT support, help desk, and cybersecurity staffing. No Agile software development, application enhancement, modernization, or sustainment capability is described in the firm profile.",
+    "status": "gap",
+    "evidence": "Firm profile lists no software development capability."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-65273d8c",
+    "quote": "The Contractor shall provide services to support IT DevSecOps for Memorial Benefits Services Product Line, Products in accordance with the working principles and definitions provided in Section 5.0.",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "No DevSecOps capability is listed in the firm profile. The firm has cybersecurity staffing and RMF/ATO documentation experience but no DevSecOps pipeline or software product line support.",
+    "status": "gap",
+    "evidence": "Firm profile does not mention DevSecOps."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-4df17d3b",
+    "quote": "The Contractor shall provide dedicated teams of cross-functional staff to operate, build, maintain, and develop the VA-EISS platform and associated benefits systems with capabilities to streamline systems, improve scalability, increase availability of services, and enable more efficient delivery.",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "Sooner Systems LLC does not have cross-functional platform development teams. The firm provides help desk, desktop/network administration, and cybersecurity staffing — not platform build/maintain/develop teams.",
+    "status": "gap",
+    "evidence": "Firm profile: IT support, help desk, and cybersecurity staffing only."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-93a42d6e",
+    "quote": "The Contractor shall provide VA with iterations of Agile software development and CI/CD.",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "No Agile software development or CI/CD capability is listed in the firm profile.",
+    "status": "gap",
+    "evidence": "Firm profile lists no CI/CD or Agile development capability."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-ed60ea7d",
+    "quote": "The Contractor shall provide cross-functional Agile Development Teams using a Scrum approach for the development and enhancement of VA Products and the underlying infrastructures.",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "No Scrum teams or Agile Development Team staffing model is described in the firm profile.",
+    "status": "gap",
+    "evidence": "Firm profile does not mention Scrum or Agile development teams."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-7381c5af",
+    "quote": "The Contractor shall design, develop, operationalize, and maintain solutions using AI/ML to enable new business capabilities that increase the speed and efficiency of business processes and reduce the number of user touches in BAM PL products and services.",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "No AI/ML design, development, or operationalization capability is listed in the firm profile.",
+    "status": "gap",
+    "evidence": "Firm profile lists no AI/ML capability."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-70bd4956",
+    "quote": "The Contractor shall provide recommendations for data innovation and data-driven AI/ML Solutions.",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "No data analytics, data innovation, or AI/ML solutions capability is listed in the firm profile.",
+    "status": "gap",
+    "evidence": "Firm profile lists no data analytics or AI/ML capability."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-d762de6d",
+    "quote": "The Contractor shall: Deliver cross-cutting tools for analytics, provide complex data analysis, data migration, data aggregation, and implement emergent data practices such as pattern recognition and data mining",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "No data analysis, data migration, data aggregation, pattern recognition, or data mining capability is listed in the firm profile.",
+    "status": "gap",
+    "evidence": "Firm profile lists no data analytics capability."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-58a3d348",
+    "quote": "The Contractor shall develop architecture in accordance with VA policy, Federal law, best practices, and product line guidance.",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "No enterprise or solution architecture capability is listed in the firm profile.",
+    "status": "gap",
+    "evidence": "Firm profile lists no architecture development capability."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-56b14282",
+    "quote": "The Contractor shall provide solution, architecture, and engineering support to enable the portfolio-level strategy for secure, modern, BAM enterprise solutions, services, and data.",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "No solution architecture or engineering support capability is listed in the firm profile.",
+    "status": "gap",
+    "evidence": "Firm profile lists no solution architecture or engineering support."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-ce33a441",
+    "quote": "The Contractor shall: Develop and deliver Software Source Code to support end-to-end business processing and implement CI/CD and automated testing to support TDD methodologies.",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "No software source code development, CI/CD, or TDD capability is listed in the firm profile.",
+    "status": "gap",
+    "evidence": "Firm profile lists no software development or TDD capability."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-9964ef6d",
+    "quote": "The Contractor shall provide support services for legacy systems and shall support transitioning legacy systems to the BIP Platform and decommissioning legacy systems.",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "No legacy system transition or BIP Platform experience is listed in the firm profile.",
+    "status": "gap",
+    "evidence": "Firm profile lists no legacy modernization or BIP Platform experience."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-83696432",
+    "quote": "The Contractor shall support requirements management processes and participate in an Intake Review Board (IRB) to demonstrate traceability of demand requests, with VA priority strategic objectives, VA investments, and associated metrics for measuring and reporting execution, outcomes, value, and end-user satisfaction.",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "No requirements management, IRB participation, or traceability capability is listed in the firm profile.",
+    "status": "gap",
+    "evidence": "Firm profile lists no requirements management capability."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-0cb04dce",
+    "quote": "The Contractor shall perform all work in accordance with applicable Federal laws, VA policies, NIST guidance, RMF requirements, VA Enterprise Architecture standards, VA Product Lifecycle Management (PLM) guidance, and VA Enterprise Cloud operational requirements.",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "Sooner Systems LLC has RMF/ATO documentation experience and NIST-aligned cybersecurity practices (ACAS/Nessus, CMMC Level 2). However, VA Enterprise Architecture standards, PLM guidance, and VA Enterprise Cloud operational requirements are not addressed in the profile.",
+    "status": "partial",
+    "evidence": "Network administration and cybersecurity support | FAA Mike Monroney Aeronautical Center — RMF, ATO keywords."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-fe172bae",
+    "quote": "The Contractor shall: Facilitate VA Assessment and Authorization (A&A) processes and continuously maintain the ATO for the current Products and environments they support.",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "Sooner Systems LLC has RMF/ATO documentation experience from the FAA Monroney contract. However, maintaining ATO for VA software products in a DevSecOps context goes beyond the firm's documented scope.",
+    "status": "partial",
+    "evidence": "Network administration and cybersecurity support | FAA Mike Monroney Aeronautical Center — RMF, ATO keywords."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-8d01698f",
+    "quote": "Coordinate and remediate vulnerabilities identified in scans, quality checks, or reviews/audits within required timeframes based on severity, in accordance with VA Handbook 6500.6: Critical – Must be remediated immediately (within 30 days) High – Must be remediated within 60 days Medium – Must be remediated within 90 days Low – Must be remediated within 120 days or per the timeframe established by the system owner Support Plan of Actions and Milestones (POA&M) management and quarterly reviews.",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "Sooner Systems LLC has vulnerability management experience using ACAS/Nessus and RMF/ATO documentation including POA&M support. This is a partial match; the firm has the cybersecurity skills but not in the context of a VA software product DevSecOps environment.",
+    "status": "partial",
+    "evidence": "Network administration and cybersecurity support | FAA Mike Monroney Aeronautical Center — vulnerability, ACAS, RMF, ATO keywords."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-2a58c4ca",
+    "quote": "Within 3 business days after award, the Contractor shall provide a roster of Contractor and Subcontractor employees to the COR to begin their background investigations in accordance with the PAL template artifact.",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "Sooner Systems LLC has 22 cleared staff (Secret) and experience managing background investigation rosters from prior federal contracts.",
+    "status": "meets",
+    "evidence": "Firm profile: 22 cleared staff (Secret); IT help desk and desktop support | US Army Corps of Engineers."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-756a771a",
+    "quote": "The submitted Contractor Staff Roster must indicate the required Background Investigation Level for each Contractor individual based upon the tasks the Contractor individual will be working, in accordance with their submitted proposal.",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "Sooner Systems LLC has 22 cleared staff (Secret) and experience submitting staff rosters with investigation levels on prior federal contracts.",
+    "status": "meets",
+    "evidence": "Firm profile: 22 cleared staff (Secret)."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-9331ddf2",
+    "quote": "Tier 3 tickets must be triaged/acted upon within 24 hours and resolved within a release cycle unless otherwise directed by the PM/COR.",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "Sooner Systems LLC provides Tier 1-3 help desk support with 24x7 NOC. Tier 3 triage within 24 hours is within the firm's documented capability. However, 'resolved within a release cycle' implies software release management, which is outside the firm's scope.",
+    "status": "partial",
+    "evidence": "IT help desk and desktop support | US Army Corps of Engineers — tier 1, tier 2 keywords; firm profile: Tier 1-3 help desk, 24x7 NOC."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-1eb9c977",
+    "quote": "PERFORMANCE DETAILS PERFORMANCE PERIOD The PoP shall be one 6-month Base Period with two 12-month Option Periods, along with four (4) Optional Tasks for additional Systems Teams, Agile Development Teams, Training Teams, and Transition Out Support.",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "The contract structure (Agile Development Teams, Systems Teams, Training Teams) is outside the firm's staffing model. The firm can staff help desk and cybersecurity roles but not Agile development or systems engineering teams at the scale described.",
+    "status": "gap",
+    "evidence": "Firm profile: IT support, help desk, and cybersecurity staffing only."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-73a28fcd",
+    "quote": "The range of required dedicated full-time equivalent (FTE) count for each team size is as follows: Required Team Sizes | Dedicated FTEs per Team Level 5 | 30 – 35 Level 4 | 24 – 29 Level 3 | 18 – 23 Level 2 | 12 – 17 Level 1 | 6 – 11 The Contractor shall maintain or exceed Service Level Targets",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "Sooner Systems LLC has 22 cleared staff total. The firm cannot staff even a Level 2 System Team (12–17 FTEs) of cross-functional Agile/DevSecOps professionals while maintaining other contracts.",
+    "status": "gap",
+    "evidence": "Firm profile: 22 cleared staff (Secret) total — insufficient for multi-team cross-functional staffing."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-1c5d7d52",
+    "quote": "The Contractor shall use VA's implementation of Jira and GitHub, or other VA-approved toolsets, to provide a single authoritative project and product data and artifact repository.",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "No Jira, GitHub, or Confluence experience is listed in the firm profile.",
+    "status": "unknown",
+    "evidence": "Firm profile does not mention Jira, GitHub, or Confluence."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-4983d241",
+    "quote": "The Contractor shall commit and push code to VA source control repositories on a daily basis.",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "No source code management or version control capability is listed in the firm profile.",
+    "status": "gap",
+    "evidence": "Firm profile lists no software development or source control capability."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-c44c92ee",
+    "quote": "The Contractor, in collaboration with VA, must evaluate the output of any AI tool for accuracy prior to using the output in VA efforts.",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "No AI tool evaluation capability is listed in the firm profile.",
+    "status": "gap",
+    "evidence": "Firm profile lists no AI/ML capability."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-603543f4",
+    "quote": "The documentation shall address summaries of training process, identified risks and mitigations, and model evaluation scores on LLM benchmarks at a minimum, where appropriate End User Resources The Contractor shall provide documentation to include product tutorials, developer guides, and/or other tools to assist VA in ensuring proper use of the AI/LLM to maximize utility",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "No LLM, AI documentation, or model evaluation capability is listed in the firm profile.",
+    "status": "gap",
+    "evidence": "Firm profile lists no AI/LLM capability."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-63f2a884",
+    "quote": "Tasks under this PWS shall be performed at Contractor facilities.",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "Sooner Systems LLC is located in Norman, OK and has a 24x7 NOC at that facility. Contractor-facility performance is feasible.",
+    "status": "meets",
+    "evidence": "Firm profile: 24x7 NOC in Norman, OK."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-df83c9cb",
+    "quote": "VIRUSES, FIRMWARE, AND MALWARE The Contractor shall execute due diligence to ensure all provided software and patches, including third-party patches, are free of viruses and/or malware before releasing them to or installing them on VA information systems.",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "Sooner Systems LLC has vulnerability management and cybersecurity staffing experience. However, the firm does not deliver software or patches as a primary service, so this requirement is only partially applicable.",
+    "status": "partial",
+    "evidence": "Network administration and cybersecurity support | FAA Mike Monroney Aeronautical Center — cybersecurity, vulnerability keywords."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-ed97b5f1",
+    "quote": "The phases shall support functional, regression, and integration testing, including test data conditioning, and incorporate at a minimum: Automated Unit Testing Automated Builds Automated Functional Testing Automated Performance Testing Automated Integration Testing Automated Resiliency Testing Automated Section 508 Compliance Testing Automated Static and Dynamic Security Testing (e.g., Fortify) Automated zero downtime deployments Automated rollback Automated deployment validation",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "No automated testing, CI/CD pipeline, or Section 508 compliance testing capability is listed in the firm profile.",
+    "status": "gap",
+    "evidence": "Firm profile lists no automated testing or CI/CD capability."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-83c218f3",
+    "quote": "The Contractor shall recommend and develop Business Intelligence (BI) solutions for the portfolio and product lines to enable data driven decisions and support decommissioning efforts.",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "No Business Intelligence development capability is listed in the firm profile.",
+    "status": "gap",
+    "evidence": "Firm profile lists no BI or data analytics capability."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-cb47e5bf",
+    "quote": "If the Contractor delivered application and system is not on the APL, the Contractor shall be responsible for taking the application and system through the FIPS 201 Evaluation Program.",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "No FIPS 201 Evaluation Program experience is listed in the firm profile. The firm does not deliver applications.",
+    "status": "gap",
+    "evidence": "Firm profile lists no application delivery or FIPS 201 experience."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-9c5ab780",
+    "quote": "The Contractor shall provide or arrange the provision of appropriate software and firmware updates to remediate newly discovered vulnerabilities or weaknesses for their products and services within 30 days of discovery.",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "Sooner Systems LLC has vulnerability management experience (ACAS/Nessus) but does not deliver software products or firmware. This requirement applies to product vendors, not the firm's service model.",
+    "status": "gap",
+    "evidence": "Firm profile: vulnerability management (ACAS/Nessus) — but no software/firmware product delivery."
+   },
+   {
+    "requirement_id": "c4480de5-2d388838-p1-9185973a",
+    "quote": "The Contractor shall engage in troubleshooting efforts for customers directly connected to products and services, which may include connection issues and/or inability to complete transactions.",
+    "source_file": "2d388838b6084c48bc928d3a85109560.docx",
+    "page": 1,
+    "firm_answer": "Sooner Systems LLC provides Tier 1-3 help desk and desktop support including troubleshooting. However, troubleshooting in the context of VA software product transactions and releases is beyond the firm's documented scope.",
+    "status": "partial",
+    "evidence": "IT help desk and desktop support | US Army Corps of Engineers — help desk, tier 1, tier 2, end user keywords."
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "c4480de5e5464218825bcf83b1930011",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": null,
+   "site_visit": null,
+   "period_of_performance": "One 6-month Base Period with two 12-month Option Periods (plus four Optional Tasks); no calendar start date stated — forecasted Q1 FY27 procurement.",
+   "source_quotes": [
+    "The Memorials Integration Services and Innovation requirement is now forecasted to be a first quarter FY27 procurement. An update will be provided with an estimated solicitation date as soon as it becomes available.",
+    "PERFORMANCE PERIOD The PoP shall be one 6-month Base Period with two 12-month Option Periods, along with four (4) Optional Tasks for additional Systems Teams, Agile Development Teams, Training Teams, and Transition Out Support."
+   ]
+  },
+  "days_to_close": null,
+  "set_aside_note": "The notice carries no set-aside (unrestricted). Under the firm's [ss-setaside] rule, unrestricted solicitations are eligible to bid. No conflict.",
+  "amendment_note": "no amendment",
+  "calendar_entries": []
+ },
+ "model_calls": 5,
+ "tokens_in": 74388,
+ "tokens_out": 13112,
+ "seconds": 126.27,
+ "produced_at": "2026-09-14T06:17:44.409818-05:00"
+}

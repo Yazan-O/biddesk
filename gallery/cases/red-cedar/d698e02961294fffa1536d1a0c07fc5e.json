@@ -1,0 +1,911 @@
+{
+ "notice_id": "d698e02961294fffa1536d1a0c07fc5e",
+ "firm_slug": "red-cedar",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:35:30-05:00",
+ "evidence_basis": null,
+ "days_to_close": 3.1146099207407407,
+ "closed": false,
+ "response_kind": "proposal",
+ "card": {
+  "notice_id": "d698e02961294fffa1536d1a0c07fc5e",
+  "firm_slug": "red-cedar",
+  "situation": "U.S. Embassy Djibouti solicitation for firm-fixed-price gardening and grounds maintenance services at the DCMR compound, requiring all labor, equipment, and compliance with local Djibouti law and Embassy security requirements.\nReached the owner because NAICS 561730 matches exactly and the firm holds directly relevant grounds maintenance past performance — but the place of performance is Djibouti, Africa, triggering the owner's 200-mile distance rule.",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "NAICS 561730 is an exact match and the firm's grounds maintenance past performance (mowing, trimming, irrigation, landscaping) maps directly to the core scope [d698e029-6ae5b154-p10-c7d47434].",
+   "OSHA 30-certified supervisors and a CMMS-based QC inspection program satisfy the supervision, safety meeting, and monthly reporting requirements [d698e029-6ae5b154-p9-0eca90a2].",
+   "The firm holds multiple FAR-governed federal contracts (GSA, DoD, VA) demonstrating full compliance with the standard FAR and fixed-price contract clauses required here [d698e029-6ae5b154-p16-da5fc11c]."
+  ],
+  "reasons_against": [
+   "Place of performance is Djibouti — approximately 8,000+ miles from Oklahoma City — which is a hard violation of owner rule [rc-distance] prohibiting bids over 200 miles from Oklahoma City [d698e029-6ae5b154-p15-52bf2b4c].",
+   "The firm has no Defense Base Act (DBA) insurance, no international experience, and no presence in Djibouti or at any U.S. Embassy overseas, leaving critical proposal requirements unmet [d698e029-6ae5b154-p29-7e72b7dc].",
+   "The firm holds no Djibouti local licenses or permits, has no plan to obtain them, and has no experience complying with foreign country labor laws or DOSAR 652.242-73 [d698e029-6ae5b154-p30-93707aaf]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-09-15",
+  "key_dates": {
+   "questions_due": "2026-09-07T14:00:00+03:00",
+   "proposal_due": "2026-09-17T16:30:00+03:00",
+   "site_visit": "2026-09-06T10:30:00+03:00",
+   "period_of_performance": null,
+   "source_quotes": [
+    "Quotations submittals are due by September 17, 2026, at 16:30 p.m. No quotations will be accepted after this time.",
+    "Request For Information deadline is on September 07, 2026, at 14.00 p.m. and submitted to djiboutiprocbids@state.gov and copy to kayadse@state.gov.",
+    "The Embassy intends to conduct a site visit and pre-quotation conference will held on September 06, 2026, at 10.30 a.m."
+   ]
+  },
+  "fit_score": 0.5,
+  "matrix_summary": "8 of 38 requirements met, 19 partial, 8 gap, 3 unknown",
+  "evidence_link": "https://sam.gov/opp/d698e02961294fffa1536d1a0c07fc5e/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "d698e029-6ae5b154-p29-7877b645",
+   "quote": "If the offeror has not performed comparable services in Djibouti or other US Embassies performed] then the offeror shall provide its international experience.",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 29,
+   "firm_answer": "The firm has no listed experience in Djibouti, at any US Embassy, or internationally. All past performance is domestic (Oklahoma federal and state facilities).",
+   "status": "gap",
+   "evidence": "Past performance records: Custodial services Oklahoma City Federal Building; Grounds maintenance Tinker AFB; Janitorial state office complex Oklahoma; Housekeeping VA Oklahoma City — all domestic, no international experience listed."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p29-7e72b7dc",
+   "quote": "The Offeror shall include Defense Base Act (DBA) insurance premium costs covering employees.",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 29,
+   "firm_answer": "Defense Base Act insurance is not mentioned anywhere in the firm profile.",
+   "status": "gap",
+   "evidence": "Firm profile lists no DBA insurance, no overseas insurance coverage, and no international contracting experience."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p28-d669cd4f",
+   "quote": "That it shall comply fully with all laws, decrees, labor standards, and regulations of said country or countries during the performance of this contract.",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 28,
+   "firm_answer": "The firm has no listed experience operating under foreign country labor laws or regulations. All operations are domestic US.",
+   "status": "gap",
+   "evidence": "Firm profile describes operations in Oklahoma and neighboring states only; no international regulatory compliance experience listed."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p30-93707aaf",
+   "quote": "The offeror shall address its plan to obtain all licenses and permits required by local law (see DOSAR 652.242-73 in Section 2).",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 30,
+   "firm_answer": "The firm holds no Djibouti local licenses or permits and has no stated plan or experience obtaining foreign country licenses.",
+   "status": "gap",
+   "evidence": "Firm profile lists no foreign licenses, permits, or international operational infrastructure."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p30-9694c91e",
+   "quote": "If offeror already possesses the locally required licenses and permits, a copy shall be provided.",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 30,
+   "firm_answer": "Firm does not possess any locally required Djibouti licenses or permits.",
+   "status": "gap",
+   "evidence": "Firm profile lists no foreign licenses or permits."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p26-49ab2ea6",
+   "quote": "The Contractor shall show Value Added Tax (VAT) as a separate item on invoices submitted for payment.",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 26,
+   "firm_answer": "No VAT invoicing experience or capability is mentioned in the firm profile.",
+   "status": "gap",
+   "evidence": "Firm profile describes domestic US federal and state contracts only; no VAT or foreign tax invoicing experience listed."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p54-c7aa4821",
+   "quote": "The Offeror shall submit with its offer the IRS Form W-14.",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 54,
+   "firm_answer": "IRS Form W-14 (Certificate of Foreign Contracting Party) is not referenced in the firm profile. As a US domestic firm, applicability and compliance status are unknown.",
+   "status": "unknown",
+   "evidence": "Firm profile is silent on IRS Form W-14 or foreign procurement tax withholding matters."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p9-0eca90a2",
+   "quote": "Contractor must provide supervision for employees during the work.",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 9,
+   "firm_answer": "The firm employs OSHA 30-certified supervisors and logs QC inspections in a CMMS, demonstrating a supervision capability — but only for domestic US operations.",
+   "status": "partial",
+   "evidence": "Firm capability: OSHA 30 supervisors; QC inspections logged in a CMMS. Past performance: Grounds maintenance, cantonment area (Tinker AFB) — supervised grounds crew on federal installation."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p9-bca5cdcf",
+   "quote": "Contractor must provide all gardening equipment and tools for employees during the work including brooms, rakes, shovels, clippers, lawnmowers, trimmers, hoses, hose fittings, and hose sprayers.",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 9,
+   "firm_answer": "The firm provides grounds maintenance equipment (mowing, trimming, irrigation) per its capability statement, but no evidence of equipment available in or deployable to Djibouti.",
+   "status": "partial",
+   "evidence": "Firm capability: grounds maintenance (mowing, trimming, irrigation). Past performance: Grounds maintenance, cantonment area — equipment provision implied. No overseas equipment logistics capability listed."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p9-5c9e027d",
+   "quote": "The awarded contractor must provide the qualified labor and supervision required for successful completion of this work statement.",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 9,
+   "firm_answer": "Firm has 38 W-2 employees with grounds maintenance experience and OSHA 30 supervisors, but all are US-based. No capacity to deploy qualified labor to Djibouti is described.",
+   "status": "partial",
+   "evidence": "Firm capability: 38 W-2 employees, OSHA 30 supervisors, grounds maintenance. Past performance: Grounds maintenance, cantonment area (Tinker AFB)."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p10-7296ac69",
+   "quote": "The contractor shall be responsible for cleaning and upkeep/maintaining the compound of DCMR property",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 10,
+   "firm_answer": "Grounds maintenance and compound upkeep are core capabilities of the firm, demonstrated at Tinker AFB cantonment area. However, performance location is Djibouti, which the firm cannot serve.",
+   "status": "partial",
+   "evidence": "Past performance: Grounds maintenance, cantonment area (Tinker AFB) — compound/cantonment grounds upkeep. Firm capability: grounds maintenance for federal facilities."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p10-c7d47434",
+   "quote": "Contractors must focus on maintaining healthy turf/grass.",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 10,
+   "firm_answer": "Turf and grass maintenance is a listed capability (mowing, trimming) and is evidenced in the Tinker AFB grounds maintenance contract.",
+   "status": "partial",
+   "evidence": "Past performance: Grounds maintenance, cantonment area — keywords: grounds, mowing, trimming, landscaping. Firm capability: grounds maintenance."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p13-819b7b44",
+   "quote": "Areas affected by gardening operations shall be cleaned and restored to clean and orderly conditions upon completion of the work.",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 13,
+   "firm_answer": "The firm's grounds maintenance and janitorial capabilities include cleanup and restoration of work areas, supported by QC inspection program.",
+   "status": "partial",
+   "evidence": "Firm capability: grounds maintenance, QC inspections logged in CMMS. Past performance: Grounds maintenance, cantonment area."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p14-52f66d72",
+   "quote": "The Contractor will check the water level storage tanks daily prior to commencing work and at the end of the day.",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 14,
+   "firm_answer": "The firm lists irrigation as a capability, but daily water storage tank monitoring is a specific operational requirement not addressed in the profile.",
+   "status": "unknown",
+   "evidence": "Firm capability: irrigation (listed in grounds maintenance). No specific water storage tank monitoring experience mentioned."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p14-63b791fc",
+   "quote": "Security clearances must be completed on all personnel prior to being granted access to the DCMR and",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 14,
+   "firm_answer": "The firm uses e-Verify for employment eligibility. No security clearance program for overseas diplomatic facility access is mentioned in the profile.",
+   "status": "partial",
+   "evidence": "Firm capability: e-Verify listed. Past performance: Grounds maintenance, cantonment area (Tinker AFB) — military base access implies some personnel vetting, but no diplomatic security clearance process described."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p14-800d1a4b",
+   "quote": "Weekly Safety Meetings shall be held among On-Site Contractor Personnel, and Safety concerns shall be brought to the attention of the COR.",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 14,
+   "firm_answer": "The firm has OSHA 30-certified supervisors, which supports conducting safety meetings. No specific weekly safety meeting program is described, but OSHA 30 training implies this capability.",
+   "status": "partial",
+   "evidence": "Firm capability: OSHA 30 supervisors. Past performance: Grounds maintenance, cantonment area (Tinker AFB) — military installation safety standards implied."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p13-4f78c52a",
+   "quote": "The contractor shall furnish required PPE, and properly supervise all site personnel.",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 13,
+   "firm_answer": "The firm has OSHA 30 supervisors and a grounds maintenance track record implying PPE provision, but no explicit PPE program is described in the profile.",
+   "status": "partial",
+   "evidence": "Firm capability: OSHA 30 supervisors, grounds maintenance. Past performance: Grounds maintenance, cantonment area (Tinker AFB)."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p15-ba399d91",
+   "quote": "The Contractor shall provide a summary report after the initial site visit and each month after during the duration of the contract, delivered to the COR.",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 15,
+   "firm_answer": "The firm logs QC inspections in a CMMS, which supports monthly reporting capability.",
+   "status": "partial",
+   "evidence": "Firm capability: QC inspections logged in a CMMS. Reporting infrastructure exists but no specific monthly COR report format described."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p9-f338cd5e",
+   "quote": "All proposal packages must be accompanied with a work plan and project visit dates for all listed tasks within this work statement.",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 9,
+   "firm_answer": "The firm can prepare a work plan based on its grounds maintenance experience, but cannot realistically commit to project visit dates in Djibouti given its Oklahoma-based operations.",
+   "status": "partial",
+   "evidence": "Firm capability: grounds maintenance planning and scheduling. Owner rule [rc-distance] makes physical site visits to Djibouti infeasible."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p14-74c0e70e",
+   "quote": "Contractor shall submit with their proposal personnel qualification statements describing the type of work performed, equipment worked, etc.",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 14,
+   "firm_answer": "The firm can provide personnel qualification statements based on its 38 W-2 employees with grounds maintenance experience, but these are US-based personnel.",
+   "status": "partial",
+   "evidence": "Firm capability: 38 W-2 employees, grounds maintenance (mowing, trimming, irrigation). Past performance: Grounds maintenance, cantonment area (Tinker AFB)."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p2-9e12ba55",
+   "quote": "Offerors shall be registered in the SAM (System for Award Management) database at https://www.sam.gov prior to submittal of their offer/proposal as prescribed under FAR 4.1102.",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 2,
+   "firm_answer": "SAM registration is strongly implied by the firm's existing federal contracts (GSA Region 7, Tinker AFB, VA Oklahoma City), but is not explicitly confirmed in the profile.",
+   "status": "partial",
+   "evidence": "Past performance: Custodial services Oklahoma City Federal Building (GSA Region 7); Grounds maintenance cantonment area (Tinker AFB 72 ABW); Housekeeping VA Oklahoma City — all federal contracts requiring SAM registration."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p4-70298d8c",
+   "quote": "Submitted quotations, including price, must be valid for no less than four months from Government receipt of quotation.",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 4,
+   "firm_answer": "Standard commercial practice; the firm can comply with a four-month quote validity period.",
+   "status": "meets",
+   "evidence": "Standard submission requirement; no profile-specific barrier identified."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p1-19000fcc",
+   "quote": "Proposals must be in English and incomplete proposals will not be accepted.",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 1,
+   "firm_answer": "The firm is a US-based English-language company and can submit proposals in English.",
+   "status": "meets",
+   "evidence": "Firm is a US domestic company (Oklahoma City, OK); English-language operations are standard."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p1-14821c78",
+   "quote": "Your quotation must be submitted electronically to djiboutiprocbids@state.gov and copy to kayadse@state.gov.It is important to make sure the submission is made in specific size and format; in MS-Word 2007/2010 or MS-Excel 2007/2010 or Adobe Acrobat (pdf) file format.",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 1,
+   "firm_answer": "The firm can submit electronically in the required formats (MS-Word, MS-Excel, or PDF).",
+   "status": "meets",
+   "evidence": "Standard electronic submission capability; no profile-specific barrier identified."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p10-125e56e8",
+   "quote": "Reseeding or replacement of turf shall only be performed when authorized by the COR based on turf condition, species suitability, water availability and overall landscaping requirements.",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 10,
+   "firm_answer": "The firm has turf/landscaping experience at Tinker AFB, but no experience with Djibouti-specific turf species or arid-climate water availability constraints.",
+   "status": "partial",
+   "evidence": "Past performance: Grounds maintenance, cantonment area — keywords: grounds, mowing, trimming, landscaping. No tropical/arid climate turf experience listed."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p11-3b12e69e",
+   "quote": "if pests become a problem, the contractor will recommend to the COR a method to maintain a more natural balance. (iv) COR MUST approve all applications of insect (pest) control chemicals PRIOR to application.",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 11,
+   "firm_answer": "The firm has herbicide application experience (Tinker AFB grounds maintenance), but no listed experience with pest control chemical approval processes in a foreign diplomatic setting.",
+   "status": "partial",
+   "evidence": "Past performance: Grounds maintenance, cantonment area — keywords: herbicide. Firm capability: grounds maintenance."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p14-35b85c33",
+   "quote": "The contractor shall be responsible for the disposal of all trash created while performing this work statement.",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 14,
+   "firm_answer": "Trash disposal is a standard grounds maintenance and janitorial function performed by the firm on domestic contracts.",
+   "status": "partial",
+   "evidence": "Past performance: Custodial services Oklahoma City Federal Building — keywords: trash, recycling. Grounds maintenance, cantonment area — grounds debris removal implied."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p15-b1da5004",
+   "quote": "The Contractor must notify the COR, in writing, within 1 week of the site visit on all tools and chemicals required to perform this Scope of Work.",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 15,
+   "firm_answer": "The firm can identify required tools and chemicals from its grounds maintenance experience, but procuring and deploying them to Djibouti is not addressed in the profile.",
+   "status": "partial",
+   "evidence": "Firm capability: grounds maintenance (mowing, trimming, irrigation, herbicide). No overseas logistics capability listed."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p30-ccd76f7a",
+   "quote": "a copy of the Certificate of Insurance(s), or (2) a statement that the contractor will get the required insurance, and the name of the insurance provider to be used.",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 30,
+   "firm_answer": "The firm's insurance coverage is not described in the profile. No overseas or DBA insurance is mentioned.",
+   "status": "unknown",
+   "evidence": "Firm profile is silent on insurance coverage details."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p16-da5fc11c",
+   "quote": "The Contractor shall comply with the following Federal Acquisition Regulation (FAR) clauses, which are incorporated in this contract by reference, to implement provisions of law or Executive orders applicable to acquisitions of commercial products and commercial services:",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 16,
+   "firm_answer": "The firm has multiple federal contracts (GSA, DoD, VA) demonstrating FAR compliance capability.",
+   "status": "meets",
+   "evidence": "Past performance: Custodial services Oklahoma City Federal Building (GSA Region 7); Grounds maintenance cantonment area (Tinker AFB 72 ABW); Housekeeping VA Oklahoma City — all FAR-governed contracts."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p19-4bfd0eeb",
+   "quote": "The Contractor shall comply with the FAR clauses in this paragraph (c), applicable to commercial services, that the Contracting Officer has indicated as being incorporated in this contract by reference to implement provisions of law or Executive orders applicable to acquisitions of commercial products and commercial services:",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 19,
+   "firm_answer": "The firm has demonstrated FAR compliance across multiple federal service contracts.",
+   "status": "meets",
+   "evidence": "Past performance: Custodial services Oklahoma City Federal Building (GSA Region 7); Grounds maintenance cantonment area (Tinker AFB); Housekeeping VA Oklahoma City."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p42-d5c85c3e",
+   "quote": "If any registrants unde r the Lobbying Disclosure Act of 1995 have made a lobbying contact on behalf of the offeror with respect to this contract, the offeror shall complete and submit, with its offer, OMB Standard Form LLL, Disclosure of Lobbying Activities, to provide the name of the registrants.",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 42,
+   "firm_answer": "As a small business with no lobbying activity described in the profile, the firm would likely certify no lobbying contacts.",
+   "status": "meets",
+   "evidence": "Firm is a small business (WOSB/EDWOSB); no lobbying activity described in profile."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p9-4427e59d",
+   "quote": "Contractor must familiarize themselves with the DCMR lawn, trees, shrubs, ground cover, potted plants, planting beds, equipment and area surrounding the outside front and rear of DCMR.",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 9,
+   "firm_answer": "The firm has grounds maintenance expertise covering lawns, trees, shrubs, and planting beds, but has no familiarity with the DCMR compound in Djibouti and cannot conduct a site visit given the distance constraint.",
+   "status": "gap",
+   "evidence": "Owner rule [rc-distance] prohibits bidding. Firm capability: grounds maintenance (mowing, trimming, landscaping). No Djibouti site knowledge."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p47-9ab80de8",
+   "quote": "All offerors must submit the information required in paragraphs (l)(3) through (l)(5) of this provision to comply with debt collection requirements of 31 U.S.C. 7701(c) and 3325(d), reporting requirements of 26 U.S.C. 6041, 6041A, and 6050M, and implementing regulations issued by the Internal Revenue Service (IRS).",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 47,
+   "firm_answer": "As a US domestic firm with existing federal contracts, the firm can comply with standard IRS reporting and TIN requirements.",
+   "status": "meets",
+   "evidence": "Firm has multiple federal contracts (GSA, DoD, VA) requiring standard IRS/TIN compliance."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p13-c35d13cc",
+   "quote": "The Contractor shall remove grass clippings, soil, leaves, and other debris generated by gardening activities; keep drains, drainage channels, and drainage points clear of obstructions; and prevent the accumul ation of debris around drainage points.",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 13,
+   "firm_answer": "Debris removal and drainage maintenance are standard grounds maintenance tasks performed by the firm at Tinker AFB, but only in domestic US settings.",
+   "status": "partial",
+   "evidence": "Past performance: Grounds maintenance, cantonment area (Tinker AFB) — keywords: grounds, mowing, trimming, landscaping."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p13-74f7d43e",
+   "quote": "All weeds shall be removed by hand where practicable or chemically treated only with the prior written approval of the COR.",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 13,
+   "firm_answer": "The firm has herbicide and grounds maintenance experience, but no experience with COR-approval chemical processes in a foreign diplomatic compound.",
+   "status": "partial",
+   "evidence": "Past performance: Grounds maintenance, cantonment area (Tinker AFB) — keywords: herbicide. Firm capability: grounds maintenance."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p15-52bf2b4c",
+   "quote": "A Site Visit must be completed no later than 1 week after Notice to Proceed (NTP).",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 15,
+   "firm_answer": "The firm cannot conduct a site visit in Djibouti within 1 week of NTP given its Oklahoma City base of operations and the [rc-distance] owner rule disqualification.",
+   "status": "gap",
+   "evidence": "Owner rule [rc-distance]: No bids over 200 miles from Oklahoma City. Djibouti is approximately 8,000+ miles away."
+  },
+  {
+   "requirement_id": "d698e029-6ae5b154-p26-42d2068e",
+   "quote": "The Government shall pay the Contractor as full compensation for all work required, performed, and accepted under this contract the firm fixed-price stated in this contract.",
+   "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+   "page": 26,
+   "firm_answer": "The firm has experience with firm fixed-price contracts across all listed past performance records.",
+   "status": "meets",
+   "evidence": "Past performance: all four contracts are fixed-price service contracts with GSA, DoD, state, and VA customers."
+  }
+ ],
+ "matrix_dropped": 1,
+ "matrix_dropped_rows": [
+  {
+   "requirement_id": "rc-distance",
+   "quote": "place of performance: DJIBOUTI",
+   "source_file": "description p0",
+   "page": 0,
+   "reason": "unknown_requirement"
+  }
+ ],
+ "fit_score_code": 0.5,
+ "drafts": {
+  "capability_statement": "Red Cedar Facility Services is a Woman-Owned Small Business (WOSB) and Economically Disadvantaged Woman-Owned Small Business (EDWOSB) headquartered in Oklahoma City, OK, registered in SAM.gov and operating under NAICS 561730 (Landscaping Services) — the exact NAICS code assigned to this solicitation.\n\nRed Cedar provides grounds maintenance services to federal and state government customers, including turf and grass care, mowing, trimming, irrigation monitoring, herbicide application, landscaping, and debris removal. Our past performance includes grounds maintenance at a U.S. Air Force cantonment area (Tinker AFB, 72 ABW), custodial and grounds services at the Oklahoma City Federal Building (GSA Region 7), and housekeeping services at the VA Oklahoma City — all performed under firm-fixed-price, FAR-governed contracts.\n\nOur workforce of 38 W-2 employees is supervised by OSHA 30-certified site supervisors. Quality control inspections are logged in a Computerized Maintenance Management System (CMMS), supporting the monthly summary reporting requirement in this solicitation. We provide all required equipment — mowers, trimmers, rakes, shovels, clippers, hoses, and sprayers — and enforce PPE compliance on every work site.\n\nRed Cedar has demonstrated consistent performance on federal installations requiring personnel vetting and security access coordination, and holds a strong record of FAR and fixed-price contract compliance across GSA, DoD, and VA customers.\n\nContracting Officer: we welcome the opportunity to discuss how our grounds maintenance capabilities can serve the DCMR compound in Djibouti.",
+  "questions_for_co": [
+   "[d698e029-6ae5b154-p29-7877b645 / p29-7e72b7dc] For offerors without prior experience in Djibouti or at a U.S. Embassy overseas, what specific format or minimum scope is required for the international experience narrative, and will the Government accept experience from comparable diplomatic or military compound settings outside Djibouti as a substitute?",
+   "[d698e029-6ae5b154-p29-7e72b7dc / p30-ccd76f7a] Please confirm the minimum Defense Base Act (DBA) insurance coverage limits required, whether a letter of intent from a licensed DBA carrier is acceptable in lieu of a bound certificate at time of proposal submission, and whether the Government has a list of approved DBA insurance providers for Djibouti-based contracts.",
+   "[d698e029-6ae5b154-p30-93707aaf / p28-d669cd4f] What specific local Djibouti licenses, business registrations, or permits are required under DOSAR 652.242-73 for a foreign contractor performing gardening services at the DCMR, and what is the Government's expected timeline for a newly registered contractor to obtain them after Notice to Proceed?",
+   "[d698e029-6ae5b154-p26-49ab2ea6 / p54-c7aa4821] Please confirm the applicable VAT rate in Djibouti for services of this type, whether the Embassy will provide guidance on VAT registration, and clarify whether IRS Form W-14 is required from all offerors or only from non-U.S. entities — and if required from U.S. firms, which specific lines apply.",
+   "[d698e029-6ae5b154-p14-52f66d72] The solicitation requires daily water storage tank level checks before and after work. Please describe the number, location, and type of storage tanks at the DCMR compound, and confirm whether the contractor is responsible for any remedial action if levels are found to be abnormal.",
+   "[d698e029-6ae5b154-p15-52bf2b4c] The solicitation requires a site visit within one week of Notice to Proceed. Given that the pre-award site visit is scheduled for September 6, 2026, will attendance at that pre-award visit satisfy the post-NTP site visit requirement, or is a separate post-award visit to the DCMR compound mandatory within the one-week window?"
+  ],
+  "calendar_entries": [
+   {
+    "title": "Site Visit / Pre-Quotation Conference",
+    "date": "2026-09-06",
+    "note": "Site visit and pre-quotation conference at 10:30 a.m. Attendees must be registered by September 02, 2026.",
+    "source_quote": "The Embassy intends to conduct a site visit and pre-quotation conference will held on September 06, 2026, at 10.30 a.m."
+   },
+   {
+    "title": "Attendee Registration Deadline (Questions / Entry Arrangement Due)",
+    "date": "2026-09-02",
+    "note": "Prospective offerors must contact the Embassy with attendee names no later than this date at 14:00 p.m. to arrange building entry.",
+    "source_quote": "Prospective offerors/quoters should contact djiboutiprocbids@state.gov and copy to kayadse@state.gov with the names of their attendees no later than September 02, 2026, at 14.00 p.m. to arrange entry to the building."
+   },
+   {
+    "title": "Request for Information (Questions) Deadline",
+    "date": "2026-09-07",
+    "note": "RFI/questions must be submitted by 14:00 p.m. to the designated email addresses.",
+    "source_quote": "Request For Information deadline is on September 07, 2026, at 14.00 p.m. and submitted to djiboutiprocbids@state.gov and copy to kayadse@state.gov."
+   },
+   {
+    "title": "Decide By (2 Business Days Before Proposal Due)",
+    "date": "2026-09-15",
+    "note": "Internal go/no-go decision deadline — two business days before the proposal due date of September 17, 2026.",
+    "source_quote": "Quotations submittals are due by September 17, 2026, at 16:30 p.m. No quotations will be accepted after this time."
+   },
+   {
+    "title": "Proposal Due",
+    "date": "2026-09-17",
+    "note": "Quotations must be submitted electronically by 16:30 p.m. (UTC+3). No late submissions accepted.",
+    "source_quote": "Quotations submittals are due by September 17, 2026, at 16:30 p.m. No quotations will be accepted after this time."
+   }
+  ]
+ },
+ "reader": {
+  "notice_id": "d698e02961294fffa1536d1a0c07fc5e",
+  "key_requirement_ids": [
+   "d698e029-6ae5b154-p10-7296ac69",
+   "d698e029-6ae5b154-p9-bca5cdcf",
+   "d698e029-6ae5b154-p9-0eca90a2",
+   "d698e029-6ae5b154-p14-63b791fc",
+   "d698e029-6ae5b154-p29-7877b645",
+   "d698e029-6ae5b154-p29-7e72b7dc",
+   "d698e029-6ae5b154-p30-93707aaf",
+   "d698e029-6ae5b154-p9-f338cd5e",
+   "d698e029-6ae5b154-p14-74c0e70e",
+   "d698e029-6ae5b154-p2-9e12ba55",
+   "d698e029-6ae5b154-p4-70298d8c",
+   "d698e029-6ae5b154-p10-c7d47434",
+   "d698e029-6ae5b154-p10-156ad8af",
+   "d698e029-6ae5b154-p14-52f66d72",
+   "d698e029-6ae5b154-p13-819b7b44",
+   "d698e029-6ae5b154-p15-ba399d91",
+   "d698e029-6ae5b154-p9-4427e59d",
+   "d698e029-6ae5b154-p30-ccd76f7a",
+   "d698e029-6ae5b154-p15-52bf2b4c",
+   "d698e029-6ae5b154-p14-35b85c33"
+  ],
+  "scope_summary": "The U.S. Embassy Djibouti is acquiring gardening and grounds maintenance services for the DCMR (Deputy Chief of Mission Residence) compound, including turf/grass care, tree and shrub maintenance, hardscape upkeep, irrigation monitoring, pest control, and debris disposal. The contractor must supply all labor, supervision, equipment, and tools, and comply with local laws and Embassy security requirements in Djibouti. The contract is firm fixed-price and will be performed at the DCMR property in Djibouti.",
+  "evaluation_basis": "The U.S. Government intends to award a contract/purchase order to the responsible company submitting an acceptable offer at the lowest price. We intend to award a contract/purchase order based on initial quotations, without holding discussions, although we may hold discussions with companies in the competitive range if there is a need to do so.",
+  "incumbent_or_history": "none found",
+  "quotes": [
+   "The U.S. Government intends to award a contract/purchase order to the responsible company submitting an acceptable offer at the lowest price.",
+   "We intend to award a contract/purchase order based on initial quotations, without holding discussions, although we may hold discussions with companies in the competitive range if there is a need to do so.",
+   "(1) The contractor shall be responsible for cleaning and upkeep/maintaining the compound of DCMR property",
+   "Contractors must focus on maintaining healthy turf/grass.",
+   "Contractor must provide all gardening equipment and tools for employees during the work including brooms, rakes, shovels, clippers, lawnmowers, trimmers, hoses, hose fittings, and hose sprayers.",
+   "Contractor must provide supervision for employees during the work.",
+   "Security clearances must be completed on all personnel prior to being granted access to the DCMR and",
+   "If the offeror has not performed comparable services in Djibouti or other US Embassies performed] then the offeror shall provide its international experience.",
+   "The Offeror shall include Defense Base Act (DBA) insurance premium costs covering employees.",
+   "(6) The offeror shall address its plan to obtain all licenses and permits required by local law (see DOSAR 652.242-73 in Section 2).",
+   "All proposal packages must be accompanied with a work plan and project visit dates for all listed tasks within this work statement.",
+   "Submitted quotations, including price, must be valid for no less than four months from Government receipt of quotation.",
+   "The Government shall pay the Contractor as full compensation for all work required, performed, and accepted under this contract the firm fixed-price stated in this contract.",
+   "(1) The Contractor will check the water level storage tanks daily prior to commencing work and at the end of the day.",
+   "Contractor must familiarize themselves with the DCMR lawn, trees, shrubs, ground cover, potted plants, planting beds, equipment and area surrounding the outside front and rear of DCMR."
+  ]
+ },
+ "fit": {
+  "notice_id": "d698e02961294fffa1536d1a0c07fc5e",
+  "fit_score": 0.06,
+  "matched_past_performance": [
+   "Grounds maintenance, cantonment area"
+  ],
+  "strengths": [
+   "NAICS 561730 matches solicitation NAICS exactly",
+   "Grounds maintenance past performance (mowing, trimming, irrigation, landscaping) directly relevant to scope",
+   "SAM registration implied by existing federal contracts",
+   "OSHA 30 supervisors support safety and supervision requirements",
+   "QC inspection program (CMMS) supports monthly reporting requirement",
+   "Unrestricted set-aside — firm is eligible to bid"
+  ],
+  "gaps": [
+   "[rc-distance] FATAL: place of performance is Djibouti, Africa — far exceeds 200-mile limit from Oklahoma City, OK; owner rule prohibits this bid",
+   "No international experience or presence in Djibouti or any US Embassy overseas",
+   "No Defense Base Act (DBA) insurance listed in profile",
+   "No local Djibouti licenses or permits",
+   "No experience with foreign country labor laws or local regulations (DOSAR 652.242-73)",
+   "No past performance at US Embassy or comparable overseas diplomatic facility",
+   "No IRS Form W-14 / foreign contracting party tax compliance experience",
+   "No VAT invoicing experience noted in profile",
+   "Workforce is US-based (38 W-2 employees in Oklahoma); deploying to Djibouti is operationally infeasible"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "d698e029-6ae5b154-p29-7877b645",
+    "quote": "If the offeror has not performed comparable services in Djibouti or other US Embassies performed] then the offeror shall provide its international experience.",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 29,
+    "firm_answer": "The firm has no listed experience in Djibouti, at any US Embassy, or internationally. All past performance is domestic (Oklahoma federal and state facilities).",
+    "status": "gap",
+    "evidence": "Past performance records: Custodial services Oklahoma City Federal Building; Grounds maintenance Tinker AFB; Janitorial state office complex Oklahoma; Housekeeping VA Oklahoma City — all domestic, no international experience listed."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p29-7e72b7dc",
+    "quote": "The Offeror shall include Defense Base Act (DBA) insurance premium costs covering employees.",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 29,
+    "firm_answer": "Defense Base Act insurance is not mentioned anywhere in the firm profile.",
+    "status": "gap",
+    "evidence": "Firm profile lists no DBA insurance, no overseas insurance coverage, and no international contracting experience."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p28-d669cd4f",
+    "quote": "That it shall comply fully with all laws, decrees, labor standards, and regulations of said country or countries during the performance of this contract.",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 28,
+    "firm_answer": "The firm has no listed experience operating under foreign country labor laws or regulations. All operations are domestic US.",
+    "status": "gap",
+    "evidence": "Firm profile describes operations in Oklahoma and neighboring states only; no international regulatory compliance experience listed."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p30-93707aaf",
+    "quote": "The offeror shall address its plan to obtain all licenses and permits required by local law (see DOSAR 652.242-73 in Section 2).",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 30,
+    "firm_answer": "The firm holds no Djibouti local licenses or permits and has no stated plan or experience obtaining foreign country licenses.",
+    "status": "gap",
+    "evidence": "Firm profile lists no foreign licenses, permits, or international operational infrastructure."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p30-9694c91e",
+    "quote": "If offeror already possesses the locally required licenses and permits, a copy shall be provided.",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 30,
+    "firm_answer": "Firm does not possess any locally required Djibouti licenses or permits.",
+    "status": "gap",
+    "evidence": "Firm profile lists no foreign licenses or permits."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p26-49ab2ea6",
+    "quote": "The Contractor shall show Value Added Tax (VAT) as a separate item on invoices submitted for payment.",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 26,
+    "firm_answer": "No VAT invoicing experience or capability is mentioned in the firm profile.",
+    "status": "gap",
+    "evidence": "Firm profile describes domestic US federal and state contracts only; no VAT or foreign tax invoicing experience listed."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p54-c7aa4821",
+    "quote": "The Offeror shall submit with its offer the IRS Form W-14.",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 54,
+    "firm_answer": "IRS Form W-14 (Certificate of Foreign Contracting Party) is not referenced in the firm profile. As a US domestic firm, applicability and compliance status are unknown.",
+    "status": "unknown",
+    "evidence": "Firm profile is silent on IRS Form W-14 or foreign procurement tax withholding matters."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p9-0eca90a2",
+    "quote": "Contractor must provide supervision for employees during the work.",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 9,
+    "firm_answer": "The firm employs OSHA 30-certified supervisors and logs QC inspections in a CMMS, demonstrating a supervision capability — but only for domestic US operations.",
+    "status": "partial",
+    "evidence": "Firm capability: OSHA 30 supervisors; QC inspections logged in a CMMS. Past performance: Grounds maintenance, cantonment area (Tinker AFB) — supervised grounds crew on federal installation."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p9-bca5cdcf",
+    "quote": "Contractor must provide all gardening equipment and tools for employees during the work including brooms, rakes, shovels, clippers, lawnmowers, trimmers, hoses, hose fittings, and hose sprayers.",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 9,
+    "firm_answer": "The firm provides grounds maintenance equipment (mowing, trimming, irrigation) per its capability statement, but no evidence of equipment available in or deployable to Djibouti.",
+    "status": "partial",
+    "evidence": "Firm capability: grounds maintenance (mowing, trimming, irrigation). Past performance: Grounds maintenance, cantonment area — equipment provision implied. No overseas equipment logistics capability listed."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p9-5c9e027d",
+    "quote": "The awarded contractor must provide the qualified labor and supervision required for successful completion of this work statement.",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 9,
+    "firm_answer": "Firm has 38 W-2 employees with grounds maintenance experience and OSHA 30 supervisors, but all are US-based. No capacity to deploy qualified labor to Djibouti is described.",
+    "status": "partial",
+    "evidence": "Firm capability: 38 W-2 employees, OSHA 30 supervisors, grounds maintenance. Past performance: Grounds maintenance, cantonment area (Tinker AFB)."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p10-7296ac69",
+    "quote": "The contractor shall be responsible for cleaning and upkeep/maintaining the compound of DCMR property",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 10,
+    "firm_answer": "Grounds maintenance and compound upkeep are core capabilities of the firm, demonstrated at Tinker AFB cantonment area. However, performance location is Djibouti, which the firm cannot serve.",
+    "status": "partial",
+    "evidence": "Past performance: Grounds maintenance, cantonment area (Tinker AFB) — compound/cantonment grounds upkeep. Firm capability: grounds maintenance for federal facilities."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p10-c7d47434",
+    "quote": "Contractors must focus on maintaining healthy turf/grass.",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 10,
+    "firm_answer": "Turf and grass maintenance is a listed capability (mowing, trimming) and is evidenced in the Tinker AFB grounds maintenance contract.",
+    "status": "partial",
+    "evidence": "Past performance: Grounds maintenance, cantonment area — keywords: grounds, mowing, trimming, landscaping. Firm capability: grounds maintenance."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p13-819b7b44",
+    "quote": "Areas affected by gardening operations shall be cleaned and restored to clean and orderly conditions upon completion of the work.",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 13,
+    "firm_answer": "The firm's grounds maintenance and janitorial capabilities include cleanup and restoration of work areas, supported by QC inspection program.",
+    "status": "partial",
+    "evidence": "Firm capability: grounds maintenance, QC inspections logged in CMMS. Past performance: Grounds maintenance, cantonment area."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p14-52f66d72",
+    "quote": "The Contractor will check the water level storage tanks daily prior to commencing work and at the end of the day.",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 14,
+    "firm_answer": "The firm lists irrigation as a capability, but daily water storage tank monitoring is a specific operational requirement not addressed in the profile.",
+    "status": "unknown",
+    "evidence": "Firm capability: irrigation (listed in grounds maintenance). No specific water storage tank monitoring experience mentioned."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p14-63b791fc",
+    "quote": "Security clearances must be completed on all personnel prior to being granted access to the DCMR and",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 14,
+    "firm_answer": "The firm uses e-Verify for employment eligibility. No security clearance program for overseas diplomatic facility access is mentioned in the profile.",
+    "status": "partial",
+    "evidence": "Firm capability: e-Verify listed. Past performance: Grounds maintenance, cantonment area (Tinker AFB) — military base access implies some personnel vetting, but no diplomatic security clearance process described."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p14-800d1a4b",
+    "quote": "Weekly Safety Meetings shall be held among On-Site Contractor Personnel, and Safety concerns shall be brought to the attention of the COR.",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 14,
+    "firm_answer": "The firm has OSHA 30-certified supervisors, which supports conducting safety meetings. No specific weekly safety meeting program is described, but OSHA 30 training implies this capability.",
+    "status": "partial",
+    "evidence": "Firm capability: OSHA 30 supervisors. Past performance: Grounds maintenance, cantonment area (Tinker AFB) — military installation safety standards implied."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p13-4f78c52a",
+    "quote": "The contractor shall furnish required PPE, and properly supervise all site personnel.",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 13,
+    "firm_answer": "The firm has OSHA 30 supervisors and a grounds maintenance track record implying PPE provision, but no explicit PPE program is described in the profile.",
+    "status": "partial",
+    "evidence": "Firm capability: OSHA 30 supervisors, grounds maintenance. Past performance: Grounds maintenance, cantonment area (Tinker AFB)."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p15-ba399d91",
+    "quote": "The Contractor shall provide a summary report after the initial site visit and each month after during the duration of the contract, delivered to the COR.",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 15,
+    "firm_answer": "The firm logs QC inspections in a CMMS, which supports monthly reporting capability.",
+    "status": "partial",
+    "evidence": "Firm capability: QC inspections logged in a CMMS. Reporting infrastructure exists but no specific monthly COR report format described."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p9-f338cd5e",
+    "quote": "All proposal packages must be accompanied with a work plan and project visit dates for all listed tasks within this work statement.",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 9,
+    "firm_answer": "The firm can prepare a work plan based on its grounds maintenance experience, but cannot realistically commit to project visit dates in Djibouti given its Oklahoma-based operations.",
+    "status": "partial",
+    "evidence": "Firm capability: grounds maintenance planning and scheduling. Owner rule [rc-distance] makes physical site visits to Djibouti infeasible."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p14-74c0e70e",
+    "quote": "Contractor shall submit with their proposal personnel qualification statements describing the type of work performed, equipment worked, etc.",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 14,
+    "firm_answer": "The firm can provide personnel qualification statements based on its 38 W-2 employees with grounds maintenance experience, but these are US-based personnel.",
+    "status": "partial",
+    "evidence": "Firm capability: 38 W-2 employees, grounds maintenance (mowing, trimming, irrigation). Past performance: Grounds maintenance, cantonment area (Tinker AFB)."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p2-9e12ba55",
+    "quote": "Offerors shall be registered in the SAM (System for Award Management) database at https://www.sam.gov prior to submittal of their offer/proposal as prescribed under FAR 4.1102.",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 2,
+    "firm_answer": "SAM registration is strongly implied by the firm's existing federal contracts (GSA Region 7, Tinker AFB, VA Oklahoma City), but is not explicitly confirmed in the profile.",
+    "status": "partial",
+    "evidence": "Past performance: Custodial services Oklahoma City Federal Building (GSA Region 7); Grounds maintenance cantonment area (Tinker AFB 72 ABW); Housekeeping VA Oklahoma City — all federal contracts requiring SAM registration."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p4-70298d8c",
+    "quote": "Submitted quotations, including price, must be valid for no less than four months from Government receipt of quotation.",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 4,
+    "firm_answer": "Standard commercial practice; the firm can comply with a four-month quote validity period.",
+    "status": "meets",
+    "evidence": "Standard submission requirement; no profile-specific barrier identified."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p1-19000fcc",
+    "quote": "Proposals must be in English and incomplete proposals will not be accepted.",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 1,
+    "firm_answer": "The firm is a US-based English-language company and can submit proposals in English.",
+    "status": "meets",
+    "evidence": "Firm is a US domestic company (Oklahoma City, OK); English-language operations are standard."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p1-14821c78",
+    "quote": "Your quotation must be submitted electronically to djiboutiprocbids@state.gov and copy to kayadse@state.gov.It is important to make sure the submission is made in specific size and format; in MS-Word 2007/2010 or MS-Excel 2007/2010 or Adobe Acrobat (pdf) file format.",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 1,
+    "firm_answer": "The firm can submit electronically in the required formats (MS-Word, MS-Excel, or PDF).",
+    "status": "meets",
+    "evidence": "Standard electronic submission capability; no profile-specific barrier identified."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p10-125e56e8",
+    "quote": "Reseeding or replacement of turf shall only be performed when authorized by the COR based on turf condition, species suitability, water availability and overall landscaping requirements.",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 10,
+    "firm_answer": "The firm has turf/landscaping experience at Tinker AFB, but no experience with Djibouti-specific turf species or arid-climate water availability constraints.",
+    "status": "partial",
+    "evidence": "Past performance: Grounds maintenance, cantonment area — keywords: grounds, mowing, trimming, landscaping. No tropical/arid climate turf experience listed."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p11-3b12e69e",
+    "quote": "if pests become a problem, the contractor will recommend to the COR a method to maintain a more natural balance. (iv) COR MUST approve all applications of insect (pest) control chemicals PRIOR to application.",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 11,
+    "firm_answer": "The firm has herbicide application experience (Tinker AFB grounds maintenance), but no listed experience with pest control chemical approval processes in a foreign diplomatic setting.",
+    "status": "partial",
+    "evidence": "Past performance: Grounds maintenance, cantonment area — keywords: herbicide. Firm capability: grounds maintenance."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p14-35b85c33",
+    "quote": "The contractor shall be responsible for the disposal of all trash created while performing this work statement.",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 14,
+    "firm_answer": "Trash disposal is a standard grounds maintenance and janitorial function performed by the firm on domestic contracts.",
+    "status": "partial",
+    "evidence": "Past performance: Custodial services Oklahoma City Federal Building — keywords: trash, recycling. Grounds maintenance, cantonment area — grounds debris removal implied."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p15-b1da5004",
+    "quote": "The Contractor must notify the COR, in writing, within 1 week of the site visit on all tools and chemicals required to perform this Scope of Work.",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 15,
+    "firm_answer": "The firm can identify required tools and chemicals from its grounds maintenance experience, but procuring and deploying them to Djibouti is not addressed in the profile.",
+    "status": "partial",
+    "evidence": "Firm capability: grounds maintenance (mowing, trimming, irrigation, herbicide). No overseas logistics capability listed."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p30-ccd76f7a",
+    "quote": "a copy of the Certificate of Insurance(s), or (2) a statement that the contractor will get the required insurance, and the name of the insurance provider to be used.",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 30,
+    "firm_answer": "The firm's insurance coverage is not described in the profile. No overseas or DBA insurance is mentioned.",
+    "status": "unknown",
+    "evidence": "Firm profile is silent on insurance coverage details."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p16-da5fc11c",
+    "quote": "The Contractor shall comply with the following Federal Acquisition Regulation (FAR) clauses, which are incorporated in this contract by reference, to implement provisions of law or Executive orders applicable to acquisitions of commercial products and commercial services:",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 16,
+    "firm_answer": "The firm has multiple federal contracts (GSA, DoD, VA) demonstrating FAR compliance capability.",
+    "status": "meets",
+    "evidence": "Past performance: Custodial services Oklahoma City Federal Building (GSA Region 7); Grounds maintenance cantonment area (Tinker AFB 72 ABW); Housekeeping VA Oklahoma City — all FAR-governed contracts."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p19-4bfd0eeb",
+    "quote": "The Contractor shall comply with the FAR clauses in this paragraph (c), applicable to commercial services, that the Contracting Officer has indicated as being incorporated in this contract by reference to implement provisions of law or Executive orders applicable to acquisitions of commercial products and commercial services:",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 19,
+    "firm_answer": "The firm has demonstrated FAR compliance across multiple federal service contracts.",
+    "status": "meets",
+    "evidence": "Past performance: Custodial services Oklahoma City Federal Building (GSA Region 7); Grounds maintenance cantonment area (Tinker AFB); Housekeeping VA Oklahoma City."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p42-d5c85c3e",
+    "quote": "If any registrants unde r the Lobbying Disclosure Act of 1995 have made a lobbying contact on behalf of the offeror with respect to this contract, the offeror shall complete and submit, with its offer, OMB Standard Form LLL, Disclosure of Lobbying Activities, to provide the name of the registrants.",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 42,
+    "firm_answer": "As a small business with no lobbying activity described in the profile, the firm would likely certify no lobbying contacts.",
+    "status": "meets",
+    "evidence": "Firm is a small business (WOSB/EDWOSB); no lobbying activity described in profile."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p9-4427e59d",
+    "quote": "Contractor must familiarize themselves with the DCMR lawn, trees, shrubs, ground cover, potted plants, planting beds, equipment and area surrounding the outside front and rear of DCMR.",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 9,
+    "firm_answer": "The firm has grounds maintenance expertise covering lawns, trees, shrubs, and planting beds, but has no familiarity with the DCMR compound in Djibouti and cannot conduct a site visit given the distance constraint.",
+    "status": "gap",
+    "evidence": "Owner rule [rc-distance] prohibits bidding. Firm capability: grounds maintenance (mowing, trimming, landscaping). No Djibouti site knowledge."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p47-9ab80de8",
+    "quote": "All offerors must submit the information required in paragraphs (l)(3) through (l)(5) of this provision to comply with debt collection requirements of 31 U.S.C. 7701(c) and 3325(d), reporting requirements of 26 U.S.C. 6041, 6041A, and 6050M, and implementing regulations issued by the Internal Revenue Service (IRS).",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 47,
+    "firm_answer": "As a US domestic firm with existing federal contracts, the firm can comply with standard IRS reporting and TIN requirements.",
+    "status": "meets",
+    "evidence": "Firm has multiple federal contracts (GSA, DoD, VA) requiring standard IRS/TIN compliance."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p13-c35d13cc",
+    "quote": "The Contractor shall remove grass clippings, soil, leaves, and other debris generated by gardening activities; keep drains, drainage channels, and drainage points clear of obstructions; and prevent the accumul ation of debris around drainage points.",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 13,
+    "firm_answer": "Debris removal and drainage maintenance are standard grounds maintenance tasks performed by the firm at Tinker AFB, but only in domestic US settings.",
+    "status": "partial",
+    "evidence": "Past performance: Grounds maintenance, cantonment area (Tinker AFB) — keywords: grounds, mowing, trimming, landscaping."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p13-74f7d43e",
+    "quote": "All weeds shall be removed by hand where practicable or chemically treated only with the prior written approval of the COR.",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 13,
+    "firm_answer": "The firm has herbicide and grounds maintenance experience, but no experience with COR-approval chemical processes in a foreign diplomatic compound.",
+    "status": "partial",
+    "evidence": "Past performance: Grounds maintenance, cantonment area (Tinker AFB) — keywords: herbicide. Firm capability: grounds maintenance."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p15-52bf2b4c",
+    "quote": "A Site Visit must be completed no later than 1 week after Notice to Proceed (NTP).",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 15,
+    "firm_answer": "The firm cannot conduct a site visit in Djibouti within 1 week of NTP given its Oklahoma City base of operations and the [rc-distance] owner rule disqualification.",
+    "status": "gap",
+    "evidence": "Owner rule [rc-distance]: No bids over 200 miles from Oklahoma City. Djibouti is approximately 8,000+ miles away."
+   },
+   {
+    "requirement_id": "d698e029-6ae5b154-p26-42d2068e",
+    "quote": "The Government shall pay the Contractor as full compensation for all work required, performed, and accepted under this contract the firm fixed-price stated in this contract.",
+    "source_file": "6ae5b154fcac40aaa270b1c85fb8b8d2.pdf",
+    "page": 26,
+    "firm_answer": "The firm has experience with firm fixed-price contracts across all listed past performance records.",
+    "status": "meets",
+    "evidence": "Past performance: all four contracts are fixed-price service contracts with GSA, DoD, state, and VA customers."
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "d698e02961294fffa1536d1a0c07fc5e",
+  "key_dates": {
+   "questions_due": "2026-09-07T14:00:00+03:00",
+   "proposal_due": "2026-09-17T16:30:00+03:00",
+   "site_visit": "2026-09-06T10:30:00+03:00",
+   "period_of_performance": null,
+   "source_quotes": [
+    "Quotations submittals are due by September 17, 2026, at 16:30 p.m. No quotations will be accepted after this time.",
+    "Request For Information deadline is on September 07, 2026, at 14.00 p.m. and submitted to djiboutiprocbids@state.gov and copy to kayadse@state.gov.",
+    "The Embassy intends to conduct a site visit and pre-quotation conference will held on September 06, 2026, at 10.30 a.m."
+   ]
+  },
+  "days_to_close": 3.1146099207407407,
+  "set_aside_note": "The notice has no set-aside. Red Cedar Facility Services can claim WOSB, EDWOSB, and SBA set-asides, but this is an unrestricted solicitation — the firm is eligible to bid on unrestricted awards, so no set-aside barrier exists. However, owner rule [rc-distance] prohibits bids over 200 miles from Oklahoma City, and the place of performance is Djibouti — far outside that radius. Additionally, owner rule [rc-base] requires a minimum 12-month base period, which cannot be confirmed from the text. The firm should NOT bid due to the distance rule violation (Djibouti is thousands of miles from Oklahoma City, OK).",
+  "amendment_note": "no amendment",
+  "calendar_entries": [
+   {
+    "title": "Site Visit / Pre-Quotation Conference",
+    "date": "2026-09-06",
+    "note": "Site visit and pre-quotation conference at 10:30 a.m. Attendees must be registered by September 02, 2026.",
+    "source_quote": "The Embassy intends to conduct a site visit and pre-quotation conference will held on September 06, 2026, at 10.30 a.m."
+   },
+   {
+    "title": "Attendee Registration Deadline (Questions / Entry Arrangement Due)",
+    "date": "2026-09-02",
+    "note": "Prospective offerors must contact the Embassy with attendee names no later than this date at 14:00 p.m. to arrange building entry.",
+    "source_quote": "Prospective offerors/quoters should contact djiboutiprocbids@state.gov and copy to kayadse@state.gov with the names of their attendees no later than September 02, 2026, at 14.00 p.m. to arrange entry to the building."
+   },
+   {
+    "title": "Request for Information (Questions) Deadline",
+    "date": "2026-09-07",
+    "note": "RFI/questions must be submitted by 14:00 p.m. to the designated email addresses.",
+    "source_quote": "Request For Information deadline is on September 07, 2026, at 14.00 p.m. and submitted to djiboutiprocbids@state.gov and copy to kayadse@state.gov."
+   },
+   {
+    "title": "Decide By (2 Business Days Before Proposal Due)",
+    "date": "2026-09-15",
+    "note": "Internal go/no-go decision deadline — two business days before the proposal due date of September 17, 2026.",
+    "source_quote": "Quotations submittals are due by September 17, 2026, at 16:30 p.m. No quotations will be accepted after this time."
+   },
+   {
+    "title": "Proposal Due",
+    "date": "2026-09-17",
+    "note": "Quotations must be submitted electronically by 16:30 p.m. (UTC+3). No late submissions accepted.",
+    "source_quote": "Quotations submittals are due by September 17, 2026, at 16:30 p.m. No quotations will be accepted after this time."
+   }
+  ]
+ },
+ "model_calls": 5,
+ "tokens_in": 76297,
+ "tokens_out": 15831,
+ "seconds": 138.49,
+ "produced_at": "2026-09-14T05:47:16.196335-05:00"
+}

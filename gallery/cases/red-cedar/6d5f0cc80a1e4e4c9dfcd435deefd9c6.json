@@ -1,0 +1,874 @@
+{
+ "notice_id": "6d5f0cc80a1e4e4c9dfcd435deefd9c6",
+ "firm_slug": "red-cedar",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:26:52-05:00",
+ "evidence_basis": null,
+ "days_to_close": -5.56074300417824,
+ "closed": true,
+ "response_kind": "proposal",
+ "card": {
+  "notice_id": "6d5f0cc80a1e4e4c9dfcd435deefd9c6",
+  "firm_slug": "red-cedar",
+  "situation": "S--CHRI Custodial Services (FY27): a Total Small Business Set-Aside solicitation from the National Park Service for 12 months of custodial services at Christiansted National Historic Site, St. Croix, USVI (NAICS 561720).\nReached the owner because Red Cedar qualifies as a small business under NAICS 561720 and the set-aside is compatible with the firm's eligible set-aside list.",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "NAICS 561720 exact match and total small business set-aside eligibility are fully satisfied, clearing the baseline eligibility gate. [6d5f0cc8-9f5dba22-p8-146174bb]",
+   "Three directly relevant federal custodial past-performance references (Oklahoma City Federal Building, VA outpatient clinic, state office complex) satisfy the solicitation's three-reference requirement. [6d5f0cc8-9f5dba22-p8-4e2b063d]",
+   "The 12-month base period satisfies the owner's rc-base rule, and the firm's FFP pricing experience (GSA Region 7 at $1.24M, VA at $420K) supports a compliant price structure. [6d5f0cc8-749bcf90-p2-368f835a]"
+  ],
+  "reasons_against": [
+   "HARD OWNER RULE VIOLATION: Christiansted NHS is in St. Croix, USVI — over 2,000 miles from Oklahoma City — far exceeding the firm's 200-mile bid limit, making this a mandatory no-bid. [profile: rc-distance rule]",
+   "The solicitation deadline has already passed (days_to_close = -5.6); a timely quotation cannot be submitted regardless of any other factor. [6d5f0cc8-9f5dba22-p3-667436fa]",
+   "The firm has no USVI workforce or operational presence, making it operationally infeasible to place an employee on-site by 7:00 AM daily or provide a qualified same-day replacement by 9:00 AM from Oklahoma City. [6d5f0cc8-749bcf90-p2-026c2451; 6d5f0cc8-749bcf90-p2-9e699ab2]"
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-09-04",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-09-08T17:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": "12 months from date of award",
+   "source_quotes": [
+    "Closing Response Date/Time: Quotes must be received no later than Tuesday, September 8, 2026, at 5:00 PM Eastern.",
+    "The period of performance shall be twelve (12) months from the date of award, unless otherwise stated in the award document.",
+    "Period of Performance The contract period shall be twelve (12) months."
+   ]
+  },
+  "fit_score": 0.7069,
+  "matrix_summary": "17 of 37 requirements met, 7 partial, 5 gap, 8 unknown",
+  "evidence_link": "https://sam.gov/opp/6d5f0cc80a1e4e4c9dfcd435deefd9c6/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "6d5f0cc8-9f5dba22-p3-667436fa",
+   "quote": "Quotes must be received no later than Tuesday, September 8, 2026, at 5:00 PM Eastern.",
+   "source_file": "9f5dba22097e4bd7818088b6213f2a57.pdf",
+   "page": 3,
+   "firm_answer": "The solicitation deadline has already passed (days_to_close = -5.6). The firm cannot submit a timely quotation.",
+   "status": "gap",
+   "evidence": "Notice metadata: days_to_close = -5.6; deadline was September 8, 2026 at 5:00 PM Eastern."
+  },
+  {
+   "requirement_id": "6d5f0cc8-9f5dba22-p3-06cc70a8",
+   "quote": "Your company must also be registered in the System for Award Management (SAM) and be considered a small business for the size standard associated with NAICS 561720.",
+   "source_file": "9f5dba22097e4bd7818088b6213f2a57.pdf",
+   "page": 3,
+   "firm_answer": "Firm lists NAICS 561720 and claims SBA small business status. SAM registration status is not confirmed in the profile.",
+   "status": "partial",
+   "evidence": "Firm profile: naics 561720, set-asides: WOSB, EDWOSB, SBA. SAM registration not explicitly stated."
+  },
+  {
+   "requirement_id": "6d5f0cc8-9f5dba22-p8-146174bb",
+   "quote": "Offerors must qualify as a small business under NAICS 561720 - Janitorial Services.",
+   "source_file": "9f5dba22097e4bd7818088b6213f2a57.pdf",
+   "page": 8,
+   "firm_answer": "Firm is a small business under NAICS 561720 per its profile.",
+   "status": "meets",
+   "evidence": "Firm profile: naics 561720, set-asides the firm can claim: SBA."
+  },
+  {
+   "requirement_id": "6d5f0cc8-749bcf90-p2-368f835a",
+   "quote": "Period of Performance The contract period shall be twelve (12) months.",
+   "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+   "page": 2,
+   "firm_answer": "Owner rule [rc-base] requires a minimum 12-month base period; this contract is exactly 12 months. Rule is satisfied.",
+   "status": "meets",
+   "evidence": "Owner rule [rc-base]: no bids under a 12-month base period. Contract is 12 months."
+  },
+  {
+   "requirement_id": "6d5f0cc8-9f5dba22-p4-a4003caa",
+   "quote": "the contractor/vendor shall provide custodial services necessary to maintain interior and exterior public-use, operational, restroom, office, museum, exhibit, support, and grounds areas throughout Christiansted National Historic Site in a clean, sanitary, safe, and visitor-ready condition.",
+   "source_file": "9f5dba22097e4bd7818088b6213f2a57.pdf",
+   "page": 4,
+   "firm_answer": "Firm provides janitorial, custodial, floor care, and grounds maintenance for federal buildings. No experience at a National Park, historic site, museum, or exhibit area is listed.",
+   "status": "partial",
+   "evidence": "Capabilities: janitorial, custodial, floor care, grounds maintenance for federal and state facilities. Past performance: Custodial services, Oklahoma City Federal Building; Janitorial, state office complex."
+  },
+  {
+   "requirement_id": "6d5f0cc8-749bcf90-p4-38485d28",
+   "quote": "Historic Resource Protection Cleaning must protect historic surfaces including masonry, limewash, woodwork, and historic architectural features.",
+   "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+   "page": 4,
+   "firm_answer": "No experience with historic resource protection, limewash, masonry, or historic architectural features is listed in the firm profile.",
+   "status": "gap",
+   "evidence": "Firm profile is silent on historic surface cleaning; no past performance references NPS, historic sites, or preservation-sensitive cleaning."
+  },
+  {
+   "requirement_id": "6d5f0cc8-749bcf90-p2-9e699ab2",
+   "quote": "If the assigned employee is absent due to illness, leave, resignation, or other circumstances, the contractor shall provide a qualified replacement employee no later than 9:00 AM on that day.",
+   "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+   "page": 2,
+   "firm_answer": "Firm has 38 W-2 employees but is based in Oklahoma City. Providing a same-day replacement by 9:00 AM in St. Croix, USVI from Oklahoma City is operationally infeasible given the firm's stated geography.",
+   "status": "gap",
+   "evidence": "Firm profile: 38 W-2 employees, Oklahoma City, OK. No USVI or Caribbean presence stated."
+  },
+  {
+   "requirement_id": "6d5f0cc8-749bcf90-p1-742a436a",
+   "quote": "The contractor shall furnish labor, supervision, communication devices, contractor-provided equipment, personal protective equipment (PPE), and management necessary to perform the work described in this Scope of Work.",
+   "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+   "page": 1,
+   "firm_answer": "Firm provides labor, supervision, and PPE per its capabilities. Equipment and communication devices are not explicitly mentioned but are standard for custodial contractors.",
+   "status": "partial",
+   "evidence": "Capabilities: 38 W-2 employees, OSHA 30 supervisors. No mention of communication devices or equipment inventory."
+  },
+  {
+   "requirement_id": "6d5f0cc8-749bcf90-p5-1d36a75a",
+   "quote": "Supply Inventory The contractor shall maintain a minimum 45-day supply of cleaning supplies & materials on site and notify the COR when supply levels reach approximately 45 days remaining so that additional supplies can be ordered.",
+   "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+   "page": 5,
+   "firm_answer": "Firm has a CMMS for QC inspections and supply monitoring capability, but maintaining a 45-day on-site supply inventory in St. Croix, USVI from an Oklahoma City base presents significant logistical challenges not addressed in the profile.",
+   "status": "partial",
+   "evidence": "Capabilities: QC inspections logged in a CMMS. No supply chain or inventory management in remote/island locations mentioned."
+  },
+  {
+   "requirement_id": "6d5f0cc8-491a89b7-p1-137f04b4",
+   "quote": "The Contractor shall be responsible for monitoring inventory, maintaining the required minimum supply levels, and notifying the COR by email when additional Governmentfurnished supplies are needed.",
+   "source_file": "491a89b78c414aaca04742c5a7a667e2.pdf",
+   "page": 1,
+   "firm_answer": "Firm uses a CMMS for QC and supply tracking. Capability to monitor and report inventory is consistent with firm's systems.",
+   "status": "meets",
+   "evidence": "Capabilities: QC inspections logged in a CMMS; green cleaning program implies supply management."
+  },
+  {
+   "requirement_id": "6d5f0cc8-749bcf90-p5-26b58a0a",
+   "quote": "Weekly Reporting The contractor shall submit weekly reports documenting completed work and observations.",
+   "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+   "page": 5,
+   "firm_answer": "Firm uses a CMMS for logging QC inspections, which supports weekly reporting capability.",
+   "status": "meets",
+   "evidence": "Capabilities: QC inspections logged in a CMMS."
+  },
+  {
+   "requirement_id": "6d5f0cc8-9f5dba22-p8-2a228d32",
+   "quote": "The Government will evaluate the offeror's understanding of the custodial requirement and the feasibility of its approach to performing the Statement of Work.",
+   "source_file": "9f5dba22097e4bd7818088b6213f2a57.pdf",
+   "page": 8,
+   "firm_answer": "Firm has strong custodial background (federal building, clinic, state office) but lacks NPS/historic site experience and has no demonstrated operational presence in USVI, weakening feasibility of approach.",
+   "status": "partial",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic; Janitorial, state office complex."
+  },
+  {
+   "requirement_id": "6d5f0cc8-9f5dba22-p8-4e2b063d",
+   "quote": "Offerors shall provide three (3) relevant references.",
+   "source_file": "9f5dba22097e4bd7818088b6213f2a57.pdf",
+   "page": 8,
+   "firm_answer": "Firm has four past performance records under NAICS 561720, three of which are directly relevant custodial/janitorial contracts.",
+   "status": "meets",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic; Janitorial, state office complex."
+  },
+  {
+   "requirement_id": "6d5f0cc8-9f5dba22-p3-e56f5f3c",
+   "quote": "To be considered for award your company must obtain a Unique Entity Identifier (UEI).",
+   "source_file": "9f5dba22097e4bd7818088b6213f2a57.pdf",
+   "page": 3,
+   "firm_answer": "UEI status is not mentioned in the firm profile.",
+   "status": "unknown",
+   "evidence": "Firm profile does not reference a UEI or DUNS number."
+  },
+  {
+   "requirement_id": "6d5f0cc8-9f5dba22-p8-8fc1c5af",
+   "quote": "Offerors must maintain active SAM registration at the time quotations are due, at award, and throughout contract performance.",
+   "source_file": "9f5dba22097e4bd7818088b6213f2a57.pdf",
+   "page": 8,
+   "firm_answer": "SAM registration is not explicitly confirmed in the firm profile.",
+   "status": "unknown",
+   "evidence": "Firm profile lists e-Verify and SBA set-aside eligibility but does not explicitly confirm active SAM registration."
+  },
+  {
+   "requirement_id": "6d5f0cc8-9f5dba22-p4-96cc71ac",
+   "quote": "The quoted Firm-Fixed-Price shall include all costs for performance of the requirement in accordance with the Statement of Work.",
+   "source_file": "9f5dba22097e4bd7818088b6213f2a57.pdf",
+   "page": 4,
+   "firm_answer": "Firm has experience pricing FFP custodial contracts (GSA Region 7 at $1.24M, VA at $420K). Pricing for USVI performance would need to account for island logistics, travel, and supply chain costs not reflected in prior contracts.",
+   "status": "partial",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building ($1,240,000 FFP); Housekeeping support, outpatient clinic ($420,000)."
+  },
+  {
+   "requirement_id": "6d5f0cc8-9f5dba22-p10-0f12f7ba",
+   "quote": "The Contractor shall procure and maintain during the term of this contract and any extension thereof liability insurance in form satisfactory to the Contracting Officer by an insurance company which is acceptable to the Contracting Officer.",
+   "source_file": "9f5dba22097e4bd7818088b6213f2a57.pdf",
+   "page": 10,
+   "firm_answer": "Firm profile does not mention liability insurance coverage.",
+   "status": "unknown",
+   "evidence": "Firm profile is silent on insurance; no certificate or coverage levels stated."
+  },
+  {
+   "requirement_id": "6d5f0cc8-9f5dba22-p10-eeb7e358",
+   "quote": "The amounts of the insurance shall be not less than as follows: $100,000.00 each person $500,000.00 each occurrence $500,000.00 property damage",
+   "source_file": "9f5dba22097e4bd7818088b6213f2a57.pdf",
+   "page": 10,
+   "firm_answer": "No insurance coverage amounts are stated in the firm profile.",
+   "status": "unknown",
+   "evidence": "Firm profile does not reference liability insurance minimums or current coverage."
+  },
+  {
+   "requirement_id": "6d5f0cc8-749bcf90-p2-026c2451",
+   "quote": "A contractor employee shall be present and working no later than 7:00 AM each workday and remain until 4:00 PM.",
+   "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+   "page": 2,
+   "firm_answer": "Firm has 38 W-2 employees and experience with structured daily schedules, but has no workforce or presence in St. Croix, USVI to fulfill this requirement.",
+   "status": "gap",
+   "evidence": "Firm profile: 38 W-2 employees, Oklahoma City, OK. No USVI presence or remote deployment capability stated."
+  },
+  {
+   "requirement_id": "6d5f0cc8-749bcf90-p2-be3c2fbd",
+   "quote": "Timekeeping Requirement The contractor shall maintain a timekeeping system documenting employee arrival and departure each workday.",
+   "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+   "page": 2,
+   "firm_answer": "Firm uses a CMMS for QC logging; timekeeping capability is consistent with this system.",
+   "status": "meets",
+   "evidence": "Capabilities: QC inspections logged in a CMMS."
+  },
+  {
+   "requirement_id": "6d5f0cc8-749bcf90-p3-70f546de",
+   "quote": "Restroom Cleaning Requirements Restrooms shall be maintained in a sanitary condition throughout the day.",
+   "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+   "page": 3,
+   "firm_answer": "Firm has demonstrated restroom cleaning in federal building and clinic past performance.",
+   "status": "meets",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building (keywords: restrooms); Housekeeping support, outpatient clinic (keywords: infection control, terminal cleaning)."
+  },
+  {
+   "requirement_id": "6d5f0cc8-749bcf90-p4-2e96a53e",
+   "quote": "Exterior Cleaning and Grounds Maintenance Exterior areas including walkways, gathering areas, and circulation areas shall be maintained free of litter and debris.",
+   "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+   "page": 4,
+   "firm_answer": "Firm provides grounds maintenance including mowing, trimming, and debris removal per capabilities and Tinker AFB past performance.",
+   "status": "meets",
+   "evidence": "Capabilities: grounds maintenance (mowing, trimming). Past performance: Grounds maintenance, cantonment area (keywords: grounds, mowing, trimming)."
+  },
+  {
+   "requirement_id": "6d5f0cc8-749bcf90-p5-f45fe5c0",
+   "quote": "Safety Requirements Contractor employees must wear closed-toe footwear such as boots or tennis shoes.",
+   "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+   "page": 5,
+   "firm_answer": "Firm has OSHA 30 supervisors and PPE capability; closed-toe footwear is a standard safety requirement consistent with firm's safety posture.",
+   "status": "meets",
+   "evidence": "Capabilities: OSHA 30 supervisors, contractor shall supply appropriate PPE."
+  },
+  {
+   "requirement_id": "6d5f0cc8-749bcf90-p5-8ff0f7de",
+   "quote": "The contractor shall supply appropriate PPE required to safely perform custodial duties.",
+   "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+   "page": 5,
+   "firm_answer": "Firm explicitly lists PPE provision in its capabilities.",
+   "status": "meets",
+   "evidence": "Capabilities: personal protective equipment (PPE) listed as contractor-furnished."
+  },
+  {
+   "requirement_id": "6d5f0cc8-9f5dba22-p3-9bfedfa8",
+   "quote": "Quotations shall be evaluated in an impartial manner.",
+   "source_file": "9f5dba22097e4bd7818088b6213f2a57.pdf",
+   "page": 3,
+   "firm_answer": "Informational clause; no firm action required.",
+   "status": "meets",
+   "evidence": "No firm-specific action required; standard FAR evaluation language."
+  },
+  {
+   "requirement_id": "6d5f0cc8-9f5dba22-p9-d300a00d",
+   "quote": "The Contractor must use the IPP website to register access and use IPP for submitting requests for payment.",
+   "source_file": "9f5dba22097e4bd7818088b6213f2a57.pdf",
+   "page": 9,
+   "firm_answer": "IPP registration is not mentioned in the firm profile, but it is a standard federal invoicing requirement compatible with the firm's federal contracting history.",
+   "status": "unknown",
+   "evidence": "Firm profile does not reference IPP; however, firm has prior federal contracts (GSA, VA) suggesting familiarity."
+  },
+  {
+   "requirement_id": "6d5f0cc8-9f5dba22-p5-8f41b756",
+   "quote": "The period of performance shall be twelve (12) months from the date of award, unless otherwise stated in the award document.",
+   "source_file": "9f5dba22097e4bd7818088b6213f2a57.pdf",
+   "page": 5,
+   "firm_answer": "12-month base period satisfies owner rule [rc-base].",
+   "status": "meets",
+   "evidence": "Owner rule [rc-base]: no bids under a 12-month base period. This contract is exactly 12 months."
+  },
+  {
+   "requirement_id": "6d5f0cc8-749bcf90-p1-e37c575a",
+   "quote": "These structures, along with surrounding grounds such as the David Hamilton Jackson Park area, form a highly visited historic district that must be maintained in a clean, safe, and visitor-ready condition at all times.",
+   "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+   "page": 1,
+   "firm_answer": "Firm has no demonstrated experience maintaining a historic district or high-visitation NPS site. Federal building and clinic experience is relevant but not equivalent.",
+   "status": "partial",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic. No NPS or historic district experience listed."
+  },
+  {
+   "requirement_id": "6d5f0cc8-749bcf90-p3-3d81d4e4",
+   "quote": "The contractor shall not clean, modify, or apply chemicals to the monument itself.",
+   "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+   "page": 3,
+   "firm_answer": "Firm profile does not address monument or historic artifact handling protocols.",
+   "status": "unknown",
+   "evidence": "Firm profile is silent on monument or historic artifact restrictions; no NPS experience listed."
+  },
+  {
+   "requirement_id": "6d5f0cc8-46b47e47-p2-f97b942f",
+   "quote": "Offerors shall review Attachment 0004 and all prior solicitation documents when preparing their quotations.",
+   "source_file": "46b47e477fea4395a9c1c6603ac299cf.pdf",
+   "page": 2,
+   "firm_answer": "Standard submission requirement; firm would need to review all attachments including Q&A II before preparing a quote.",
+   "status": "meets",
+   "evidence": "Standard procedural requirement; no firm-specific capability gap."
+  },
+  {
+   "requirement_id": "6d5f0cc8-46b47e47-p2-c6f7f720",
+   "quote": "Any assumption used in developing the technical approach, staffing, schedule, pricing, or any other portion of the quotation must be clearly identified in the quote package.",
+   "source_file": "46b47e477fea4395a9c1c6603ac299cf.pdf",
+   "page": 2,
+   "firm_answer": "Standard submission requirement; firm would need to document assumptions, particularly around USVI logistics and staffing.",
+   "status": "meets",
+   "evidence": "Standard procedural requirement; firm has prior federal quote experience."
+  },
+  {
+   "requirement_id": "6d5f0cc8-749bcf90-p2-805552a1",
+   "quote": "The contractor employee must remain on site during the full duty period unless otherwise authorized by the COR.",
+   "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+   "page": 2,
+   "firm_answer": "Firm has no workforce in St. Croix, USVI. Deploying and retaining an employee on-site full-time from Oklahoma City is operationally infeasible without a local presence.",
+   "status": "gap",
+   "evidence": "Firm profile: all employees and operations based in Oklahoma City, OK and neighboring states. No USVI presence."
+  },
+  {
+   "requirement_id": "6d5f0cc8-749bcf90-p2-27f0499b",
+   "quote": "However, additional staffing must be approved in writing by the COR and the contract price shall remain unchanged regardless of the number of contractor employees utilized.",
+   "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+   "page": 2,
+   "firm_answer": "Firm has 38 W-2 employees and experience with fixed-price contracts. Compliance with fixed-price staffing flexibility is within firm's capability.",
+   "status": "meets",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building ($1,240,000 FFP); firm has managed multi-employee custodial contracts."
+  },
+  {
+   "requirement_id": "6d5f0cc8-9f5dba22-p9-bc72171d",
+   "quote": "Payment requests must be submitted electronically through the U.",
+   "source_file": "9f5dba22097e4bd7818088b6213f2a57.pdf",
+   "page": 9,
+   "firm_answer": "Electronic invoicing is standard for federal contractors; firm has prior federal contracts suggesting this capability.",
+   "status": "unknown",
+   "evidence": "Firm profile does not explicitly reference electronic invoicing or IPP, but prior federal contracts (GSA, VA) imply familiarity."
+  },
+  {
+   "requirement_id": "6d5f0cc8-1c77fb26-p2-9b995fd8",
+   "quote": "Government Response: The contractor will not be provided with keys; instead, combination locks have been installed for areas the contractor is authorized to access.",
+   "source_file": "1c77fb266a184083964a2758ffce51da.pdf",
+   "page": 2,
+   "firm_answer": "Firm profile does not address access control procedures, but combination lock access is a standard operational accommodation.",
+   "status": "unknown",
+   "evidence": "Firm profile is silent on access control methods; no specific capability gap identified."
+  },
+  {
+   "requirement_id": "6d5f0cc8-749bcf90-p4-0684baa0",
+   "quote": "Trash Collection The contractor shall collect trash from interior and exterior areas.",
+   "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+   "page": 4,
+   "firm_answer": "Firm has demonstrated trash and recycling collection in federal building past performance.",
+   "status": "meets",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building (keywords: trash, recycling)."
+  },
+  {
+   "requirement_id": "6d5f0cc8-749bcf90-p5-145a7fa9",
+   "quote": "Contractor employees may clean surfaces only and shall not move documents, evidence, or official materials.",
+   "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+   "page": 5,
+   "firm_answer": "Standard custodial restriction; consistent with firm's federal building and government office experience.",
+   "status": "meets",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Janitorial, state office complex — both involve government document environments."
+  }
+ ],
+ "matrix_dropped": 2,
+ "matrix_dropped_rows": [
+  {
+   "requirement_id": "rc-distance",
+   "quote": "No bids over 200 miles from Oklahoma City.",
+   "source_file": "owner_rules",
+   "page": 0,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "6d5f0cc8-749bcf90-p4-abd8e1cb",
+   "quote": "Only approved environmentally friendly cleaning products shall be used in accordance with the park's green initiative.",
+   "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+   "page": 4,
+   "reason": "not_verbatim"
+  }
+ ],
+ "fit_score_code": 0.7069,
+ "drafts": {
+  "capability_statement": "Red Cedar Facility Services is a Woman-Owned Small Business (WOSB/EDWOSB) qualified under NAICS 561720 – Janitorial Services, with active federal custodial contracts supporting GSA Region 7 and the Department of Veterans Affairs. We self-perform all work using 38 W-2 employees supervised by OSHA 30-certified leads.\n\nOur core capabilities directly address the CHRI Statement of Work:\n\n• Interior and exterior custodial services for federal public-use, restroom, office, and grounds areas — demonstrated at the Oklahoma City Federal Building ($1.24M FFP) and a VA outpatient clinic ($420K FFP).\n• Grounds maintenance including litter removal, walkway clearing, and debris collection, as performed at a cantonment area grounds contract.\n• Green cleaning program using environmentally approved products, aligned with the park's environmentally friendly cleaning requirement.\n• CIMS-GB certification and CMMS-based quality control inspections with documented daily logs and weekly reporting.\n• PPE provision and closed-toe footwear enforcement consistent with OSHA safety standards.\n• Firm-fixed-price contract experience with structured timekeeping, COR communication, and supply inventory monitoring via CMMS.\n\nThree relevant past-performance references under NAICS 561720 are available upon request: custodial services at a federal office building, housekeeping support at an outpatient clinic, and janitorial services at a state office complex.\n\nRed Cedar is registered with e-Verify and maintains compliance with applicable wage determinations. We welcome the opportunity to discuss our technical approach with the Contracting Officer.",
+  "questions_for_co": [
+   "Historic surface protection protocols: The SOW requires cleaning that protects masonry, limewash, woodwork, and historic architectural features [6d5f0cc8-749bcf90-p4-38485d28]. Will the Government provide a list of approved cleaning products or application methods for each historic surface type, or is the contractor expected to propose its own preservation-compliant protocol for CO/COR approval prior to performance?",
+   "Same-day replacement feasibility: The SOW requires a qualified replacement employee on-site no later than 9:00 AM on any day of absence [6d5f0cc8-749bcf90-p2-9e699ab2]. Given the remote island location of CHRI in St. Croix, USVI, does the Government anticipate that offerors will maintain a local bench of qualified employees on St. Croix, and is there a local labor pool or incumbent workforce the contractor may draw from?",
+   "Monument and artifact cleaning restrictions: The SOW states the contractor shall not clean, modify, or apply chemicals to the monument itself [6d5f0cc8-749bcf90-p3-3d81d4e4]. Can the CO identify which specific structures or features are designated 'monuments' for this purpose, and will a site orientation or NPS preservation briefing be provided to the contractor before performance begins?",
+   "Liability insurance acceptability: The SOW requires liability insurance of at least $500,000 per occurrence and $500,000 property damage, in a form satisfactory to the Contracting Officer [6d5f0cc8-9f5dba22-p10-0f12f7ba; 6d5f0cc8-9f5dba22-p10-eeb7e358]. Will the CO confirm whether a standard commercial general liability (CGL) policy from an A.M. Best-rated carrier is acceptable, and whether a certificate of insurance is required at time of quote submission or only at award?",
+   "SAM registration and UEI confirmation timing: The solicitation requires active SAM registration at time of quote submission, at award, and throughout performance, and a valid UEI [6d5f0cc8-9f5dba22-p3-e56f5f3c; 6d5f0cc8-9f5dba22-p8-8fc1c5af]. Will the CO confirm whether SAM registration and UEI must be verified and active as of the September 8, 2026 quote deadline, and whether an offeror whose SAM registration is in a renewal/pending status at submission will be considered?",
+   "IPP enrollment and electronic payment: The SOW requires the contractor to register and submit all payment requests through the IPP website [6d5f0cc8-9f5dba22-p9-d300a00d; 6d5f0cc8-9f5dba22-p9-bc72171d]. Can the CO confirm the specific IPP agency portal (DOI/NPS) the contractor must enroll in, and whether IPP enrollment must be completed prior to award or may be completed within a specified number of days after award?"
+  ],
+  "calendar_entries": [
+   {
+    "title": "Proposal Due",
+    "date": "2026-09-08",
+    "note": "Quotes must be received no later than Tuesday, September 8, 2026, at 5:00 PM Eastern (17:00 ET). Submit electronically to noelli_medinamarin@ios.doi.gov with subject line 'Offer - Solicitation No. 140P5426Q0037'.",
+    "source_quote": "Closing Response Date/Time: Quotes must be received no later than Tuesday, September 8, 2026, at 5:00 PM Eastern."
+   },
+   {
+    "title": "Decide By (2 business days before proposal due)",
+    "date": "2026-09-04",
+    "note": "Internal go/no-go decision deadline — two business days before the September 8 proposal due date.",
+    "source_quote": "Closing Response Date/Time: Quotes must be received no later than Tuesday, September 8, 2026, at 5:00 PM Eastern."
+   }
+  ]
+ },
+ "reader": {
+  "notice_id": "6d5f0cc80a1e4e4c9dfcd435deefd9c6",
+  "key_requirement_ids": [
+   "6d5f0cc8-9f5dba22-p8-146174bb",
+   "6d5f0cc8-9f5dba22-p8-2a228d32",
+   "6d5f0cc8-9f5dba22-p5-8f41b756",
+   "6d5f0cc8-749bcf90-p2-368f835a",
+   "6d5f0cc8-9f5dba22-p3-06cc70a8",
+   "6d5f0cc8-9f5dba22-p4-a4003caa",
+   "6d5f0cc8-749bcf90-p1-4834a007",
+   "6d5f0cc8-749bcf90-p4-38485d28",
+   "6d5f0cc8-749bcf90-p4-abd8e1cb",
+   "6d5f0cc8-749bcf90-p5-1d36a75a",
+   "6d5f0cc8-749bcf90-p2-9e699ab2",
+   "6d5f0cc8-749bcf90-p2-026c2451",
+   "6d5f0cc8-9f5dba22-p3-667436fa",
+   "6d5f0cc8-9f5dba22-p3-db23585f",
+   "6d5f0cc8-9f5dba22-p4-0d8d7bcf",
+   "6d5f0cc8-9f5dba22-p4-96cc71ac",
+   "6d5f0cc8-9f5dba22-p8-4e2b063d",
+   "6d5f0cc8-1c77fb26-p3-681c39b2",
+   "6d5f0cc8-9f5dba22-p10-0f12f7ba",
+   "6d5f0cc8-9f5dba22-p10-eeb7e358",
+   "6d5f0cc8-749bcf90-p1-742a436a",
+   "6d5f0cc8-749bcf90-p4-2e96a53e",
+   "6d5f0cc8-749bcf90-p5-26b58a0a",
+   "6d5f0cc8-9f5dba22-p3-e56f5f3c",
+   "6d5f0cc8-9f5dba22-p8-8fc1c5af"
+  ],
+  "scope_summary": "The government is buying custodial services for facilities and grounds located within Christiansted National Historic Site (CHRI), a highly visited historic district that must be maintained in a clean, safe, and visitor-ready condition at all times. The contractor shall provide custodial services necessary to maintain interior and exterior public-use, operational, restroom, office, museum, exhibit, support, and grounds areas throughout the site, furnishing all labor, supervision, communication devices, contractor-provided equipment, PPE, and management. The contract period is twelve (12) months, with work performed Monday through Friday between 7:00 AM and 4:00 PM, and the contractor must use only approved environmentally friendly cleaning products and protect historic surfaces including masonry, limewash, woodwork, and historic architectural features.",
+  "evaluation_basis": "The Government will evaluate quotes and make award to the responsible offeror whose quotation represents the best value to the Government. Factor 1 is Technical Capability/Approach, under which the Government will evaluate the offeror's understanding of the custodial requirement and the feasibility of its approach to performing the Statement of Work. Offerors must qualify as a small business under NAICS 561720 - Janitorial Services.",
+  "incumbent_or_history": "Question 8 in Attachment 0004 asks: \"Please confirm whether there is an incumbent service employee and, if so, whether any length of service must be recognized for vacation benefits under the applicable wage determination.\" No government response to that question is recorded in the provided text; no incumbent contractor is named and no prior award details are stated.",
+  "quotes": [
+   "Scope of Services The contractor shall provide custodial services for facilities and grounds located within CHRI.",
+   "Independently, and not as an agent of the Government, the contractor/vendor shall provide custodial services necessary to maintain interior and exterior public-use, operational, restroom, office, museum, exhibit, support, and grounds areas throughout Christiansted National Historic Site in a clean, sanitary, safe, and visitor-ready condition.",
+   "These structures, along with surrounding grounds such as the David Hamilton Jackson Park area, form a highly visited historic district that must be maintained in a clean, safe, and visitor-ready condition at all times.",
+   "The contractor shall furnish labor, supervision, communication devices, contractor-provided equipment, personal protective equipment (PPE), and management necessary to perform the work described in this Scope of Work.",
+   "Period of Performance The contract period shall be twelve (12) months.",
+   "Work shall be performed Monday through Friday between the hours of 7:00 AM and 4:00 PM with a one-hour lunch break.",
+   "Historic Resource Protection Cleaning must protect historic surfaces including masonry, limewash, woodwork, and historic architectural features.",
+   "The Government will evaluate quotes and make award to the responsible offeror whose quotation represents the best value to the Government.",
+   "The following factors shall be evaluated: Factor 1 - Technical Capability/Approach The Government will evaluate the offeror's understanding of the custodial requirement and the feasibility of its approach to performing the Statement of Work.",
+   "Offerors must qualify as a small business under NAICS 561720 - Janitorial Services.",
+   "Your company must also be registered in the System for Award Management (SAM) and be considered a small business for the size standard associated with NAICS 561720.",
+   "The quoted Firm-Fixed-Price shall include all costs for performance of the requirement in accordance with the Statement of Work.",
+   "Supply Inventory The contractor shall maintain a minimum 45-day supply of cleaning supplies & materials on site and notify the COR when supply levels reach approximately 45 days remaining so that additional supplies can be ordered.",
+   "If the assigned employee is absent due to illness, leave, resignation, or other circumstances, the contractor shall provide a qualified replacement employee no later than 9:00 AM on that day.",
+   "Question 8 | Incumbent Workforce Please confirm whether there is an incumbent service employee and, if so, whether any length of service must be recognized for vacation benefits under the applicable wage determination.",
+   "Closing Response Date/Time: Quotes must be received no later than Tuesday, September 8, 2026, at 5:00 PM Eastern.",
+   "Pricing shall remain firm for the twelve (12) month period of performance."
+  ]
+ },
+ "fit": {
+  "notice_id": "6d5f0cc80a1e4e4c9dfcd435deefd9c6",
+  "fit_score": 0.12,
+  "matched_past_performance": [
+   "Custodial services, Oklahoma City Federal Building",
+   "Janitorial, state office complex",
+   "Housekeeping support, outpatient clinic"
+  ],
+  "strengths": [
+   "NAICS 561720 exact match and qualifies as small business under that code",
+   "Demonstrated federal custodial past performance (GSA Region 7, VA)",
+   "WOSB/EDWOSB eligible — satisfies total small business set-aside",
+   "Green cleaning program aligns with park green initiative requirement",
+   "CIMS-GB certification and CMMS-based QC inspections support technical capability evaluation",
+   "Three relevant past-performance references available as required",
+   "12-month base period matches firm's rc-base rule",
+   "e-Verify and OSHA 30 supervisors support staffing compliance"
+  ],
+  "gaps": [
+   "HARD OWNER RULE VIOLATION [rc-distance]: Christiansted NHS is in St. Croix, USVI — over 2,000 miles from Oklahoma City, far exceeding the 200-mile bid limit",
+   "Solicitation deadline already passed (days_to_close = -5.6 days); quote cannot be submitted on time",
+   "No demonstrated experience in historic resource protection or limewash/masonry surface cleaning",
+   "No Caribbean or USVI operational presence, workforce, or supply chain",
+   "No evidence of ability to mobilize qualified replacement employee by 9:00 AM same day from Oklahoma City to St. Croix",
+   "No evidence of maintaining 45-day on-site supply inventory in a remote island location",
+   "No evidence of liability insurance meeting DOI minimums ($500K occurrence) currently in place",
+   "No experience with National Park Service or DOI contracts listed in profile"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "6d5f0cc8-9f5dba22-p3-667436fa",
+    "quote": "Quotes must be received no later than Tuesday, September 8, 2026, at 5:00 PM Eastern.",
+    "source_file": "9f5dba22097e4bd7818088b6213f2a57.pdf",
+    "page": 3,
+    "firm_answer": "The solicitation deadline has already passed (days_to_close = -5.6). The firm cannot submit a timely quotation.",
+    "status": "gap",
+    "evidence": "Notice metadata: days_to_close = -5.6; deadline was September 8, 2026 at 5:00 PM Eastern."
+   },
+   {
+    "requirement_id": "6d5f0cc8-9f5dba22-p3-06cc70a8",
+    "quote": "Your company must also be registered in the System for Award Management (SAM) and be considered a small business for the size standard associated with NAICS 561720.",
+    "source_file": "9f5dba22097e4bd7818088b6213f2a57.pdf",
+    "page": 3,
+    "firm_answer": "Firm lists NAICS 561720 and claims SBA small business status. SAM registration status is not confirmed in the profile.",
+    "status": "partial",
+    "evidence": "Firm profile: naics 561720, set-asides: WOSB, EDWOSB, SBA. SAM registration not explicitly stated."
+   },
+   {
+    "requirement_id": "6d5f0cc8-9f5dba22-p8-146174bb",
+    "quote": "Offerors must qualify as a small business under NAICS 561720 - Janitorial Services.",
+    "source_file": "9f5dba22097e4bd7818088b6213f2a57.pdf",
+    "page": 8,
+    "firm_answer": "Firm is a small business under NAICS 561720 per its profile.",
+    "status": "meets",
+    "evidence": "Firm profile: naics 561720, set-asides the firm can claim: SBA."
+   },
+   {
+    "requirement_id": "6d5f0cc8-749bcf90-p2-368f835a",
+    "quote": "Period of Performance The contract period shall be twelve (12) months.",
+    "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+    "page": 2,
+    "firm_answer": "Owner rule [rc-base] requires a minimum 12-month base period; this contract is exactly 12 months. Rule is satisfied.",
+    "status": "meets",
+    "evidence": "Owner rule [rc-base]: no bids under a 12-month base period. Contract is 12 months."
+   },
+   {
+    "requirement_id": "6d5f0cc8-9f5dba22-p4-a4003caa",
+    "quote": "the contractor/vendor shall provide custodial services necessary to maintain interior and exterior public-use, operational, restroom, office, museum, exhibit, support, and grounds areas throughout Christiansted National Historic Site in a clean, sanitary, safe, and visitor-ready condition.",
+    "source_file": "9f5dba22097e4bd7818088b6213f2a57.pdf",
+    "page": 4,
+    "firm_answer": "Firm provides janitorial, custodial, floor care, and grounds maintenance for federal buildings. No experience at a National Park, historic site, museum, or exhibit area is listed.",
+    "status": "partial",
+    "evidence": "Capabilities: janitorial, custodial, floor care, grounds maintenance for federal and state facilities. Past performance: Custodial services, Oklahoma City Federal Building; Janitorial, state office complex."
+   },
+   {
+    "requirement_id": "6d5f0cc8-749bcf90-p4-38485d28",
+    "quote": "Historic Resource Protection Cleaning must protect historic surfaces including masonry, limewash, woodwork, and historic architectural features.",
+    "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+    "page": 4,
+    "firm_answer": "No experience with historic resource protection, limewash, masonry, or historic architectural features is listed in the firm profile.",
+    "status": "gap",
+    "evidence": "Firm profile is silent on historic surface cleaning; no past performance references NPS, historic sites, or preservation-sensitive cleaning."
+   },
+   {
+    "requirement_id": "6d5f0cc8-749bcf90-p2-9e699ab2",
+    "quote": "If the assigned employee is absent due to illness, leave, resignation, or other circumstances, the contractor shall provide a qualified replacement employee no later than 9:00 AM on that day.",
+    "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+    "page": 2,
+    "firm_answer": "Firm has 38 W-2 employees but is based in Oklahoma City. Providing a same-day replacement by 9:00 AM in St. Croix, USVI from Oklahoma City is operationally infeasible given the firm's stated geography.",
+    "status": "gap",
+    "evidence": "Firm profile: 38 W-2 employees, Oklahoma City, OK. No USVI or Caribbean presence stated."
+   },
+   {
+    "requirement_id": "6d5f0cc8-749bcf90-p1-742a436a",
+    "quote": "The contractor shall furnish labor, supervision, communication devices, contractor-provided equipment, personal protective equipment (PPE), and management necessary to perform the work described in this Scope of Work.",
+    "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+    "page": 1,
+    "firm_answer": "Firm provides labor, supervision, and PPE per its capabilities. Equipment and communication devices are not explicitly mentioned but are standard for custodial contractors.",
+    "status": "partial",
+    "evidence": "Capabilities: 38 W-2 employees, OSHA 30 supervisors. No mention of communication devices or equipment inventory."
+   },
+   {
+    "requirement_id": "6d5f0cc8-749bcf90-p5-1d36a75a",
+    "quote": "Supply Inventory The contractor shall maintain a minimum 45-day supply of cleaning supplies & materials on site and notify the COR when supply levels reach approximately 45 days remaining so that additional supplies can be ordered.",
+    "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+    "page": 5,
+    "firm_answer": "Firm has a CMMS for QC inspections and supply monitoring capability, but maintaining a 45-day on-site supply inventory in St. Croix, USVI from an Oklahoma City base presents significant logistical challenges not addressed in the profile.",
+    "status": "partial",
+    "evidence": "Capabilities: QC inspections logged in a CMMS. No supply chain or inventory management in remote/island locations mentioned."
+   },
+   {
+    "requirement_id": "6d5f0cc8-491a89b7-p1-137f04b4",
+    "quote": "The Contractor shall be responsible for monitoring inventory, maintaining the required minimum supply levels, and notifying the COR by email when additional Governmentfurnished supplies are needed.",
+    "source_file": "491a89b78c414aaca04742c5a7a667e2.pdf",
+    "page": 1,
+    "firm_answer": "Firm uses a CMMS for QC and supply tracking. Capability to monitor and report inventory is consistent with firm's systems.",
+    "status": "meets",
+    "evidence": "Capabilities: QC inspections logged in a CMMS; green cleaning program implies supply management."
+   },
+   {
+    "requirement_id": "6d5f0cc8-749bcf90-p5-26b58a0a",
+    "quote": "Weekly Reporting The contractor shall submit weekly reports documenting completed work and observations.",
+    "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+    "page": 5,
+    "firm_answer": "Firm uses a CMMS for logging QC inspections, which supports weekly reporting capability.",
+    "status": "meets",
+    "evidence": "Capabilities: QC inspections logged in a CMMS."
+   },
+   {
+    "requirement_id": "6d5f0cc8-9f5dba22-p8-2a228d32",
+    "quote": "The Government will evaluate the offeror's understanding of the custodial requirement and the feasibility of its approach to performing the Statement of Work.",
+    "source_file": "9f5dba22097e4bd7818088b6213f2a57.pdf",
+    "page": 8,
+    "firm_answer": "Firm has strong custodial background (federal building, clinic, state office) but lacks NPS/historic site experience and has no demonstrated operational presence in USVI, weakening feasibility of approach.",
+    "status": "partial",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic; Janitorial, state office complex."
+   },
+   {
+    "requirement_id": "6d5f0cc8-9f5dba22-p8-4e2b063d",
+    "quote": "Offerors shall provide three (3) relevant references.",
+    "source_file": "9f5dba22097e4bd7818088b6213f2a57.pdf",
+    "page": 8,
+    "firm_answer": "Firm has four past performance records under NAICS 561720, three of which are directly relevant custodial/janitorial contracts.",
+    "status": "meets",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic; Janitorial, state office complex."
+   },
+   {
+    "requirement_id": "6d5f0cc8-9f5dba22-p3-e56f5f3c",
+    "quote": "To be considered for award your company must obtain a Unique Entity Identifier (UEI).",
+    "source_file": "9f5dba22097e4bd7818088b6213f2a57.pdf",
+    "page": 3,
+    "firm_answer": "UEI status is not mentioned in the firm profile.",
+    "status": "unknown",
+    "evidence": "Firm profile does not reference a UEI or DUNS number."
+   },
+   {
+    "requirement_id": "6d5f0cc8-9f5dba22-p8-8fc1c5af",
+    "quote": "Offerors must maintain active SAM registration at the time quotations are due, at award, and throughout contract performance.",
+    "source_file": "9f5dba22097e4bd7818088b6213f2a57.pdf",
+    "page": 8,
+    "firm_answer": "SAM registration is not explicitly confirmed in the firm profile.",
+    "status": "unknown",
+    "evidence": "Firm profile lists e-Verify and SBA set-aside eligibility but does not explicitly confirm active SAM registration."
+   },
+   {
+    "requirement_id": "6d5f0cc8-9f5dba22-p4-96cc71ac",
+    "quote": "The quoted Firm-Fixed-Price shall include all costs for performance of the requirement in accordance with the Statement of Work.",
+    "source_file": "9f5dba22097e4bd7818088b6213f2a57.pdf",
+    "page": 4,
+    "firm_answer": "Firm has experience pricing FFP custodial contracts (GSA Region 7 at $1.24M, VA at $420K). Pricing for USVI performance would need to account for island logistics, travel, and supply chain costs not reflected in prior contracts.",
+    "status": "partial",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building ($1,240,000 FFP); Housekeeping support, outpatient clinic ($420,000)."
+   },
+   {
+    "requirement_id": "6d5f0cc8-9f5dba22-p10-0f12f7ba",
+    "quote": "The Contractor shall procure and maintain during the term of this contract and any extension thereof liability insurance in form satisfactory to the Contracting Officer by an insurance company which is acceptable to the Contracting Officer.",
+    "source_file": "9f5dba22097e4bd7818088b6213f2a57.pdf",
+    "page": 10,
+    "firm_answer": "Firm profile does not mention liability insurance coverage.",
+    "status": "unknown",
+    "evidence": "Firm profile is silent on insurance; no certificate or coverage levels stated."
+   },
+   {
+    "requirement_id": "6d5f0cc8-9f5dba22-p10-eeb7e358",
+    "quote": "The amounts of the insurance shall be not less than as follows: $100,000.00 each person $500,000.00 each occurrence $500,000.00 property damage",
+    "source_file": "9f5dba22097e4bd7818088b6213f2a57.pdf",
+    "page": 10,
+    "firm_answer": "No insurance coverage amounts are stated in the firm profile.",
+    "status": "unknown",
+    "evidence": "Firm profile does not reference liability insurance minimums or current coverage."
+   },
+   {
+    "requirement_id": "6d5f0cc8-749bcf90-p2-026c2451",
+    "quote": "A contractor employee shall be present and working no later than 7:00 AM each workday and remain until 4:00 PM.",
+    "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+    "page": 2,
+    "firm_answer": "Firm has 38 W-2 employees and experience with structured daily schedules, but has no workforce or presence in St. Croix, USVI to fulfill this requirement.",
+    "status": "gap",
+    "evidence": "Firm profile: 38 W-2 employees, Oklahoma City, OK. No USVI presence or remote deployment capability stated."
+   },
+   {
+    "requirement_id": "6d5f0cc8-749bcf90-p2-be3c2fbd",
+    "quote": "Timekeeping Requirement The contractor shall maintain a timekeeping system documenting employee arrival and departure each workday.",
+    "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+    "page": 2,
+    "firm_answer": "Firm uses a CMMS for QC logging; timekeeping capability is consistent with this system.",
+    "status": "meets",
+    "evidence": "Capabilities: QC inspections logged in a CMMS."
+   },
+   {
+    "requirement_id": "6d5f0cc8-749bcf90-p3-70f546de",
+    "quote": "Restroom Cleaning Requirements Restrooms shall be maintained in a sanitary condition throughout the day.",
+    "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+    "page": 3,
+    "firm_answer": "Firm has demonstrated restroom cleaning in federal building and clinic past performance.",
+    "status": "meets",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building (keywords: restrooms); Housekeeping support, outpatient clinic (keywords: infection control, terminal cleaning)."
+   },
+   {
+    "requirement_id": "6d5f0cc8-749bcf90-p4-2e96a53e",
+    "quote": "Exterior Cleaning and Grounds Maintenance Exterior areas including walkways, gathering areas, and circulation areas shall be maintained free of litter and debris.",
+    "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+    "page": 4,
+    "firm_answer": "Firm provides grounds maintenance including mowing, trimming, and debris removal per capabilities and Tinker AFB past performance.",
+    "status": "meets",
+    "evidence": "Capabilities: grounds maintenance (mowing, trimming). Past performance: Grounds maintenance, cantonment area (keywords: grounds, mowing, trimming)."
+   },
+   {
+    "requirement_id": "6d5f0cc8-749bcf90-p5-f45fe5c0",
+    "quote": "Safety Requirements Contractor employees must wear closed-toe footwear such as boots or tennis shoes.",
+    "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+    "page": 5,
+    "firm_answer": "Firm has OSHA 30 supervisors and PPE capability; closed-toe footwear is a standard safety requirement consistent with firm's safety posture.",
+    "status": "meets",
+    "evidence": "Capabilities: OSHA 30 supervisors, contractor shall supply appropriate PPE."
+   },
+   {
+    "requirement_id": "6d5f0cc8-749bcf90-p5-8ff0f7de",
+    "quote": "The contractor shall supply appropriate PPE required to safely perform custodial duties.",
+    "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+    "page": 5,
+    "firm_answer": "Firm explicitly lists PPE provision in its capabilities.",
+    "status": "meets",
+    "evidence": "Capabilities: personal protective equipment (PPE) listed as contractor-furnished."
+   },
+   {
+    "requirement_id": "6d5f0cc8-9f5dba22-p3-9bfedfa8",
+    "quote": "Quotations shall be evaluated in an impartial manner.",
+    "source_file": "9f5dba22097e4bd7818088b6213f2a57.pdf",
+    "page": 3,
+    "firm_answer": "Informational clause; no firm action required.",
+    "status": "meets",
+    "evidence": "No firm-specific action required; standard FAR evaluation language."
+   },
+   {
+    "requirement_id": "6d5f0cc8-9f5dba22-p9-d300a00d",
+    "quote": "The Contractor must use the IPP website to register access and use IPP for submitting requests for payment.",
+    "source_file": "9f5dba22097e4bd7818088b6213f2a57.pdf",
+    "page": 9,
+    "firm_answer": "IPP registration is not mentioned in the firm profile, but it is a standard federal invoicing requirement compatible with the firm's federal contracting history.",
+    "status": "unknown",
+    "evidence": "Firm profile does not reference IPP; however, firm has prior federal contracts (GSA, VA) suggesting familiarity."
+   },
+   {
+    "requirement_id": "6d5f0cc8-9f5dba22-p5-8f41b756",
+    "quote": "The period of performance shall be twelve (12) months from the date of award, unless otherwise stated in the award document.",
+    "source_file": "9f5dba22097e4bd7818088b6213f2a57.pdf",
+    "page": 5,
+    "firm_answer": "12-month base period satisfies owner rule [rc-base].",
+    "status": "meets",
+    "evidence": "Owner rule [rc-base]: no bids under a 12-month base period. This contract is exactly 12 months."
+   },
+   {
+    "requirement_id": "6d5f0cc8-749bcf90-p1-e37c575a",
+    "quote": "These structures, along with surrounding grounds such as the David Hamilton Jackson Park area, form a highly visited historic district that must be maintained in a clean, safe, and visitor-ready condition at all times.",
+    "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+    "page": 1,
+    "firm_answer": "Firm has no demonstrated experience maintaining a historic district or high-visitation NPS site. Federal building and clinic experience is relevant but not equivalent.",
+    "status": "partial",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic. No NPS or historic district experience listed."
+   },
+   {
+    "requirement_id": "6d5f0cc8-749bcf90-p3-3d81d4e4",
+    "quote": "The contractor shall not clean, modify, or apply chemicals to the monument itself.",
+    "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+    "page": 3,
+    "firm_answer": "Firm profile does not address monument or historic artifact handling protocols.",
+    "status": "unknown",
+    "evidence": "Firm profile is silent on monument or historic artifact restrictions; no NPS experience listed."
+   },
+   {
+    "requirement_id": "6d5f0cc8-46b47e47-p2-f97b942f",
+    "quote": "Offerors shall review Attachment 0004 and all prior solicitation documents when preparing their quotations.",
+    "source_file": "46b47e477fea4395a9c1c6603ac299cf.pdf",
+    "page": 2,
+    "firm_answer": "Standard submission requirement; firm would need to review all attachments including Q&A II before preparing a quote.",
+    "status": "meets",
+    "evidence": "Standard procedural requirement; no firm-specific capability gap."
+   },
+   {
+    "requirement_id": "6d5f0cc8-46b47e47-p2-c6f7f720",
+    "quote": "Any assumption used in developing the technical approach, staffing, schedule, pricing, or any other portion of the quotation must be clearly identified in the quote package.",
+    "source_file": "46b47e477fea4395a9c1c6603ac299cf.pdf",
+    "page": 2,
+    "firm_answer": "Standard submission requirement; firm would need to document assumptions, particularly around USVI logistics and staffing.",
+    "status": "meets",
+    "evidence": "Standard procedural requirement; firm has prior federal quote experience."
+   },
+   {
+    "requirement_id": "6d5f0cc8-749bcf90-p2-805552a1",
+    "quote": "The contractor employee must remain on site during the full duty period unless otherwise authorized by the COR.",
+    "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+    "page": 2,
+    "firm_answer": "Firm has no workforce in St. Croix, USVI. Deploying and retaining an employee on-site full-time from Oklahoma City is operationally infeasible without a local presence.",
+    "status": "gap",
+    "evidence": "Firm profile: all employees and operations based in Oklahoma City, OK and neighboring states. No USVI presence."
+   },
+   {
+    "requirement_id": "6d5f0cc8-749bcf90-p2-27f0499b",
+    "quote": "However, additional staffing must be approved in writing by the COR and the contract price shall remain unchanged regardless of the number of contractor employees utilized.",
+    "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+    "page": 2,
+    "firm_answer": "Firm has 38 W-2 employees and experience with fixed-price contracts. Compliance with fixed-price staffing flexibility is within firm's capability.",
+    "status": "meets",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building ($1,240,000 FFP); firm has managed multi-employee custodial contracts."
+   },
+   {
+    "requirement_id": "6d5f0cc8-9f5dba22-p9-bc72171d",
+    "quote": "Payment requests must be submitted electronically through the U.",
+    "source_file": "9f5dba22097e4bd7818088b6213f2a57.pdf",
+    "page": 9,
+    "firm_answer": "Electronic invoicing is standard for federal contractors; firm has prior federal contracts suggesting this capability.",
+    "status": "unknown",
+    "evidence": "Firm profile does not explicitly reference electronic invoicing or IPP, but prior federal contracts (GSA, VA) imply familiarity."
+   },
+   {
+    "requirement_id": "6d5f0cc8-1c77fb26-p2-9b995fd8",
+    "quote": "Government Response: The contractor will not be provided with keys; instead, combination locks have been installed for areas the contractor is authorized to access.",
+    "source_file": "1c77fb266a184083964a2758ffce51da.pdf",
+    "page": 2,
+    "firm_answer": "Firm profile does not address access control procedures, but combination lock access is a standard operational accommodation.",
+    "status": "unknown",
+    "evidence": "Firm profile is silent on access control methods; no specific capability gap identified."
+   },
+   {
+    "requirement_id": "6d5f0cc8-749bcf90-p4-0684baa0",
+    "quote": "Trash Collection The contractor shall collect trash from interior and exterior areas.",
+    "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+    "page": 4,
+    "firm_answer": "Firm has demonstrated trash and recycling collection in federal building past performance.",
+    "status": "meets",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building (keywords: trash, recycling)."
+   },
+   {
+    "requirement_id": "6d5f0cc8-749bcf90-p5-145a7fa9",
+    "quote": "Contractor employees may clean surfaces only and shall not move documents, evidence, or official materials.",
+    "source_file": "749bcf9052724c0f9a46e37923ea727d.pdf",
+    "page": 5,
+    "firm_answer": "Standard custodial restriction; consistent with firm's federal building and government office experience.",
+    "status": "meets",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Janitorial, state office complex — both involve government document environments."
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "6d5f0cc80a1e4e4c9dfcd435deefd9c6",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-09-08T17:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": "12 months from date of award",
+   "source_quotes": [
+    "Closing Response Date/Time: Quotes must be received no later than Tuesday, September 8, 2026, at 5:00 PM Eastern.",
+    "The period of performance shall be twelve (12) months from the date of award, unless otherwise stated in the award document.",
+    "Period of Performance The contract period shall be twelve (12) months."
+   ]
+  },
+  "days_to_close": -5.56074300417824,
+  "set_aside_note": "Set-aside is \"Small Business Set Aside - Total.\" The firm (Red Cedar Facility Services) can claim \"total small business\" per its eligible set-aside list, so the firm IS eligible to bid on this notice.",
+  "amendment_note": "no amendment",
+  "calendar_entries": [
+   {
+    "title": "Proposal Due",
+    "date": "2026-09-08",
+    "note": "Quotes must be received no later than Tuesday, September 8, 2026, at 5:00 PM Eastern (17:00 ET). Submit electronically to noelli_medinamarin@ios.doi.gov with subject line 'Offer - Solicitation No. 140P5426Q0037'.",
+    "source_quote": "Closing Response Date/Time: Quotes must be received no later than Tuesday, September 8, 2026, at 5:00 PM Eastern."
+   },
+   {
+    "title": "Decide By (2 business days before proposal due)",
+    "date": "2026-09-04",
+    "note": "Internal go/no-go decision deadline — two business days before the September 8 proposal due date.",
+    "source_quote": "Closing Response Date/Time: Quotes must be received no later than Tuesday, September 8, 2026, at 5:00 PM Eastern."
+   }
+  ]
+ },
+ "model_calls": 5,
+ "tokens_in": 62162,
+ "tokens_out": 14298,
+ "seconds": 130.4,
+ "produced_at": "2026-09-14T05:29:38.594169-05:00"
+}

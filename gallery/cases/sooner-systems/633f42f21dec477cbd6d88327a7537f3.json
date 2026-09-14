@@ -1,0 +1,883 @@
+{
+ "notice_id": "633f42f21dec477cbd6d88327a7537f3",
+ "firm_slug": "sooner-systems",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:52:43-05:00",
+ "evidence_basis": null,
+ "days_to_close": -4.003650616122686,
+ "closed": true,
+ "response_kind": "proposal",
+ "card": {
+  "notice_id": "633f42f21dec477cbd6d88327a7537f3",
+  "firm_slug": "sooner-systems",
+  "situation": "Army MICC-Carlisle Barracks solicitation for expert Microsoft Sentinel design, implementation, and operationalization for USAWC (~350 endpoints, M365 A5, NIST SP 800-53, OMB M-26-14 Optimal Tier logging, Zero Trust); Total Small Business set-aside. Reached the owner because Sooner Systems qualifies as a small business under the set-aside and holds adjacent M365/Azure and RMF/ATO capabilities, with two partial past-performance matches.",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "Firm is eligible under the Total Small Business set-aside and holds Microsoft 365 and Azure administration capability that partially aligns with the native M365/Azure ecosystem requirement [633f42f2-c4a40b6c-p1-37fce08b].",
+   "Two past-performance records (FAA cybersecurity support and Oklahoma National Guard M365 migration) provide partial technical relevance to the evaluation factors [633f42f2-236353d8-p1-8c1bf334].",
+   "22 cleared staff at Secret level and CMMC Level 2 self-assessment satisfy the IL2 access and personnel security posture expected for this DoD effort [633f42f2-c4a40b6c-p1-cf255981]."
+  ],
+  "reasons_against": [
+   "The firm is not listed as a Microsoft Solution Provider and no named individual holds SC-100, SC-200, CISSP, or equivalent certification required at time of offer — both are hard eligibility gaps [633f42f2-c4a40b6c-p1-ffbcd071] [633f42f2-236353d8-p1-28902381].",
+   "No Microsoft Sentinel-specific hands-on experience, no named Lead Sentinel Architect with 5+ years SIEM/SOAR design experience, and no OMB M-26-14/M-21-31 federal logging maturity experience are documented anywhere in the firm profile [633f42f2-236353d8-p1-544a9bb3] [633f42f2-236353d8-p1-39085fc7].",
+   "The solicitation response deadline has already passed (days_to_close = -4), making timely submission impossible without a formal extension [profile: fit_score gap, days_to_close = -4.0]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-09-08",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-09-10T07:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": null,
+   "source_quotes": [
+    "Quotes shall be submitted via email to Contract and Contracting Officer prior to the deadline posted on RFQ."
+   ]
+  },
+  "fit_score": 0.5333,
+  "matrix_summary": "10 of 38 requirements met, 12 partial, 8 gap, 8 unknown",
+  "evidence_link": "https://sam.gov/opp/633f42f21dec477cbd6d88327a7537f3/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "633f42f2-c4a40b6c-p1-ffbcd071",
+   "quote": "Offeror must be a Microsoft Solution Provider.",
+   "source_file": "c4a40b6c6f6f42deb0fd696826bfd08c.docx",
+   "page": 1,
+   "firm_answer": "The firm profile does not list Microsoft Solution Provider status or any Microsoft partner designation.",
+   "status": "gap",
+   "evidence": "No Microsoft partner designation appears anywhere in the firm profile."
+  },
+  {
+   "requirement_id": "633f42f2-236353d8-p1-28902381",
+   "quote": "Certification: Candidate must possess, at the time of offer, at least one (1) of the following active industry certifications: Microsoft Certified: Cybersecurity Architect Expert (SC-100) Microsoft Certified: Security Operations Analyst Associate (SC-200) Certified Information Systems Security Professional (CISSP) DoD Baseline Certification",
+   "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+   "page": 1,
+   "firm_answer": "Profile lists ITIL 4 and Security+ across the bench but does not list SC-100, SC-200, CISSP, or a named DoDM 8140 IA baseline cert for any proposed individual.",
+   "status": "gap",
+   "evidence": "Capabilities state 'ITIL 4 and Security+ across the bench'; no SC-100, SC-200, or CISSP mentioned."
+  },
+  {
+   "requirement_id": "633f42f2-236353d8-p1-bce54133",
+   "quote": "General Experience: Candidate must have a minimum of five (5) years of hands-on experience designing, implementing, and managing enterprise-level Security Information and Event Management (SIEM) and/or Security Orchestration, Automation, and Response (SOAR) solutions.",
+   "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+   "page": 1,
+   "firm_answer": "Profile references SOC and SIEM keywords in the FAA past-performance record but does not name an individual with 5+ years of SIEM/SOAR design and implementation experience.",
+   "status": "gap",
+   "evidence": "Network administration and cybersecurity support (FAA) lists SIEM/SOAR as keywords but no individual experience years are documented."
+  },
+  {
+   "requirement_id": "633f42f2-236353d8-p1-544a9bb3",
+   "quote": "Specific Experience: Candidate must have a minimum of two (2) years of direct, hands-on experience with the architecture, deployment, configuration, and operational tuning of Microsoft Sentinel within a cloud or hybrid enterprise environment.",
+   "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+   "page": 1,
+   "firm_answer": "The firm profile does not mention Microsoft Sentinel by name in any capability statement or past-performance record.",
+   "status": "gap",
+   "evidence": "No Sentinel-specific experience appears in the firm profile."
+  },
+  {
+   "requirement_id": "633f42f2-236353d8-p1-acfbd067",
+   "quote": "Lead Sentinel Architect Education: Candidate must possess a minimum of a bachelor's degree in Cybersecurity, Information Technology, Computer Science, or a related field.",
+   "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+   "page": 1,
+   "firm_answer": "No named Lead Sentinel Architect is identified in the profile; educational credentials of proposed personnel are not stated.",
+   "status": "unknown",
+   "evidence": "Profile is silent on individual personnel educational credentials."
+  },
+  {
+   "requirement_id": "633f42f2-236353d8-p1-5b2294ed",
+   "quote": "Contract Manager (and Alternate Contract Manager) Experience: Candidate must have a minimum of three (3) years of experience in a project or contract management role on information technology and/or cybersecurity projects of similar size and scope.",
+   "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+   "page": 1,
+   "firm_answer": "No named Contract Manager is identified in the profile; individual project management experience years are not documented.",
+   "status": "unknown",
+   "evidence": "Profile is silent on named Contract Manager and individual PM experience years."
+  },
+  {
+   "requirement_id": "633f42f2-236353d8-p1-39085fc7",
+   "quote": "Federal Logging Experience: Candidate must demonstrate experience implementing or operating event logging to meet OMB M-21-31 Event Logging Tier 2 (EL2) maturity, or equivalent federal logging maturity requirements.",
+   "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+   "page": 1,
+   "firm_answer": "Profile references RMF/ATO documentation and ACAS/Nessus vulnerability management but does not mention OMB M-21-31 or federal event logging maturity tiers.",
+   "status": "gap",
+   "evidence": "Capabilities list 'RMF/ATO documentation' but no OMB M-21-31 logging experience is stated."
+  },
+  {
+   "requirement_id": "633f42f2-c4a40b6c-p1-d96019f9",
+   "quote": "Architecture Principles: Per PWS 5.1.1, the implementation must strictly incorporate Zero Trust principles .",
+   "source_file": "c4a40b6c6f6f42deb0fd696826bfd08c.docx",
+   "page": 1,
+   "firm_answer": "Profile does not mention Zero Trust architecture design or implementation experience.",
+   "status": "gap",
+   "evidence": "No Zero Trust capability or past-performance reference appears in the firm profile."
+  },
+  {
+   "requirement_id": "633f42f2-c4a40b6c-p1-1385428d",
+   "quote": "Logging Baseline: In accordance with Round 1 Q&A, event logging and retention must align with the Optimal Tier under OMB M-26-14 (which supersedes M-21-31).",
+   "source_file": "c4a40b6c6f6f42deb0fd696826bfd08c.docx",
+   "page": 1,
+   "firm_answer": "Profile does not reference OMB M-26-14 or any federal logging maturity tier compliance.",
+   "status": "gap",
+   "evidence": "No OMB M-26-14 or logging maturity tier experience appears in the firm profile."
+  },
+  {
+   "requirement_id": "633f42f2-c4a40b6c-p1-37fce08b",
+   "quote": "All notifications, workflow escalations, and automated response actions shall remain within the native Microsoft 365 / Azure ecosystem (e.g., Microsoft Sentinel, Entra ID, Defender XDR, Intune, Teams, and Exchange/Email).",
+   "source_file": "c4a40b6c6f6f42deb0fd696826bfd08c.docx",
+   "page": 1,
+   "firm_answer": "Profile lists Microsoft 365 and Azure administration as a capability and the Oklahoma National Guard contract covers M365/Azure migration, but Sentinel, Entra ID, Defender XDR, and Intune are not specifically mentioned.",
+   "status": "partial",
+   "evidence": "Capabilities: 'Microsoft 365 and Azure administration'; Systems administration and Microsoft 365 migration (Oklahoma National Guard)."
+  },
+  {
+   "requirement_id": "633f42f2-descript-p0-923666dc",
+   "quote": "The contractor shall successfully onboard approximately 350 endpoints and all",
+   "source_file": "description",
+   "page": 0,
+   "firm_answer": "Profile covers desktop and network administration and M365 administration, which are adjacent skills, but no endpoint onboarding at scale into a SIEM is documented.",
+   "status": "partial",
+   "evidence": "Capabilities: 'desktop and network administration, Microsoft 365 and Azure administration'."
+  },
+  {
+   "requirement_id": "633f42f2-descript-p0-11bfa5f3",
+   "quote": "The contractor must design a system that complies with NIST SP 800-53 and OMB M-",
+   "source_file": "description",
+   "page": 0,
+   "firm_answer": "Profile references RMF/ATO documentation which is NIST SP 800-53-based, providing partial alignment; OMB M-21-31/M-26-14 compliance is not documented.",
+   "status": "partial",
+   "evidence": "Capabilities: 'RMF/ATO documentation'; Network administration and cybersecurity support (FAA) lists RMF/ATO keywords."
+  },
+  {
+   "requirement_id": "633f42f2-descript-p0-c443421a",
+   "quote": "The contractor must also deliver",
+   "source_file": "description",
+   "page": 0,
+   "firm_answer": "Profile does not specifically reference delivery of 'as-built' documentation or comprehensive end-user training for a security platform implementation.",
+   "status": "unknown",
+   "evidence": "Profile is silent on training delivery and as-built documentation for security platforms."
+  },
+  {
+   "requirement_id": "633f42f2-236353d8-p1-8c1bf334",
+   "quote": "Quoters shall submit three (3) current and relevant examples of Past Performance, e.g., contracts and/or subcontract work performed within the past three years for similar services.",
+   "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+   "page": 1,
+   "firm_answer": "Profile lists three past-performance records; however, only two (FAA cybersecurity and Oklahoma National Guard M365) are reasonably relevant. The Army Corps help desk contract is a weak match for Sentinel implementation.",
+   "status": "partial",
+   "evidence": "Network administration and cybersecurity support (FAA); Systems administration and Microsoft 365 migration (Oklahoma National Guard); IT help desk and desktop support (Army Corps)."
+  },
+  {
+   "requirement_id": "633f42f2-c4a40b6c-p1-ff40efe6",
+   "quote": "Quoters must clearly demonstrate how past projects align with these technical areas.",
+   "source_file": "c4a40b6c6f6f42deb0fd696826bfd08c.docx",
+   "page": 1,
+   "firm_answer": "The FAA and Oklahoma National Guard contracts provide partial alignment to cybersecurity and M365 technical areas, but no Sentinel-specific project alignment can be demonstrated.",
+   "status": "partial",
+   "evidence": "Network administration and cybersecurity support (FAA); Systems administration and Microsoft 365 migration (Oklahoma National Guard)."
+  },
+  {
+   "requirement_id": "633f42f2-236353d8-p1-e2f56702",
+   "quote": "The Contractor shall propose a single individual to fill each Key Personnel role.",
+   "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+   "page": 1,
+   "firm_answer": "Profile does not name any specific individual for Key Personnel roles (Lead Sentinel Architect or Contract Manager).",
+   "status": "unknown",
+   "evidence": "Profile is silent on named key personnel."
+  },
+  {
+   "requirement_id": "633f42f2-c4a40b6c-p1-64442885",
+   "quote": "Answer: For a services contract, the prime small business must perform at least 50% of the cost of the contract incurred for personnel with its own employees or employees of a similarly situated entity (another certified small business under the same NAICS).",
+   "source_file": "c4a40b6c6f6f42deb0fd696826bfd08c.docx",
+   "page": 1,
+   "firm_answer": "Firm is a small business under NAICS 541512 with 22 cleared staff; can likely meet the 50% personnel cost rule if qualified Sentinel staff can be identified.",
+   "status": "partial",
+   "evidence": "Capabilities: 'Service-disabled veteran-owned small business (SDVOSB)'; '22 cleared staff (Secret)'."
+  },
+  {
+   "requirement_id": "633f42f2-c4a40b6c-p1-cf255981",
+   "quote": "Please confirm: (a) Whether contractor personnel performing on this effort will require routine access to IL2 systems and therefore must hold a CAC or similar DoD-issued credential; (b) Whether any facility clearance (FCL), cleared workspace, or secure-room access is required for performance; and (c) Whether the Government will sponsor contractor personnel for IT-II/IT-III positions",
+   "source_file": "c4a40b6c6f6f42deb0fd696826bfd08c.docx",
+   "page": 1,
+   "firm_answer": "Firm has 22 cleared staff at Secret level and CMMC Level 2 self-assessed, which supports IL2 access requirements. No FCL or secure facility is mentioned in the profile.",
+   "status": "partial",
+   "evidence": "Capabilities: '22 cleared staff (Secret), CMMC Level 2 self-assessed'."
+  },
+  {
+   "requirement_id": "633f42f2-2a298083-p3-8ab23516",
+   "quote": "All contractors must be actively registered in SAM in order to receive a Department of Defense contract.",
+   "source_file": "2a298083218046a49499fd656624c5d1.pdf",
+   "page": 3,
+   "firm_answer": "Profile does not explicitly confirm active SAM registration, but the firm is described as an SBA-eligible small business with past DoD/federal contracts, making active SAM registration highly likely.",
+   "status": "unknown",
+   "evidence": "Profile lists SBA and SDVOSB set-aside eligibility and prior federal contracts but does not explicitly state SAM registration status."
+  },
+  {
+   "requirement_id": "633f42f2-236353d8-p1-623d152f",
+   "quote": "This shall include the SAM Unique Entity Identifier (UEI) that you are submitting your offer under.",
+   "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+   "page": 1,
+   "firm_answer": "Profile does not list a SAM UEI number.",
+   "status": "unknown",
+   "evidence": "No SAM UEI is provided in the firm profile."
+  },
+  {
+   "requirement_id": "633f42f2-236353d8-p1-0e78329e",
+   "quote": "Responsibility: Candidate's resume must demonstrate experience serving as the primary point of contact for a customer, managing project schedules, overseeing team performance, and ensuring the quality and timely submission of all deliverables.",
+   "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+   "page": 1,
+   "firm_answer": "No named Contract Manager resume is available in the profile to demonstrate this experience.",
+   "status": "unknown",
+   "evidence": "Profile is silent on named Contract Manager and individual resume content."
+  },
+  {
+   "requirement_id": "633f42f2-236353d8-p1-cfbbe670",
+   "quote": "Quoters shall assume that the Government has no prior knowledge of their companies and experience and will base its evaluation on the information presented in the quotation.",
+   "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+   "page": 1,
+   "firm_answer": "Firm must present all relevant experience in the quote; the profile provides a basis but lacks Sentinel-specific content to present compellingly.",
+   "status": "partial",
+   "evidence": "Capabilities and past-performance records exist but are not Sentinel-specific."
+  },
+  {
+   "requirement_id": "633f42f2-236353d8-p1-80e27a77",
+   "quote": "VOLUME 2 – TECHNICAL & PAST PERFORMANCE Factor 1: Technical/Past Performance The Technical Volume shall be clear, concise, and include sufficient detail for effective evaluation and for substantiating the validity of stated claims in the Quote.",
+   "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+   "page": 1,
+   "firm_answer": "Firm can submit a Technical Volume but lacks Sentinel-specific substantiation; the FAA and Oklahoma National Guard contracts provide partial technical relevance.",
+   "status": "partial",
+   "evidence": "Network administration and cybersecurity support (FAA); Systems administration and Microsoft 365 migration (Oklahoma National Guard)."
+  },
+  {
+   "requirement_id": "633f42f2-236353d8-p1-88c69157",
+   "quote": "Absence of a PMP certification shall not render an offer technically unacceptable.",
+   "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+   "page": 1,
+   "firm_answer": "Favorable clause; PMP is not required. Firm does not list PMP but this is not disqualifying.",
+   "status": "meets",
+   "evidence": "Requirement explicitly states PMP absence is not disqualifying."
+  },
+  {
+   "requirement_id": "633f42f2-c4a40b6c-p1-2af0bbd5",
+   "quote": "The requirements state the contractor must 'design a system that complies with NIST SP 800-53 and OMB M-21-31 event logging mandates.' Please confirm the OMB M-21-31 maturity tier required for this effort",
+   "source_file": "c4a40b6c6f6f42deb0fd696826bfd08c.docx",
+   "page": 1,
+   "firm_answer": "Profile references RMF/ATO documentation (NIST SP 800-53 adjacent) but does not document OMB M-21-31 maturity tier experience at any level.",
+   "status": "partial",
+   "evidence": "Capabilities: 'RMF/ATO documentation'; Network administration and cybersecurity support (FAA) lists RMF/ATO."
+  },
+  {
+   "requirement_id": "633f42f2-99409fba-p1-b7fc4bb1",
+   "quote": "If additional licensing is required to execute elements of the PWS, contractor will notify the government who will procure licensing through their current MS support partner.",
+   "source_file": "99409fba767b444b85b68fccc2087768.docx",
+   "page": 1,
+   "firm_answer": "Favorable clause; licensing procurement is the Government's responsibility. No action required from the firm beyond notification.",
+   "status": "meets",
+   "evidence": "Clause places licensing procurement obligation on the Government, not the contractor."
+  },
+  {
+   "requirement_id": "633f42f2-236353d8-p1-21420d41",
+   "quote": "VOLUME 4 – PRICING Factor 3: Price Price shall be evaluated using price analysis techniques in accordance with FAR 12.204.",
+   "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+   "page": 1,
+   "firm_answer": "Firm can prepare a price volume; no specific pricing constraint prevents submission.",
+   "status": "meets",
+   "evidence": "Standard FAR pricing evaluation; no firm-specific barrier identified."
+  },
+  {
+   "requirement_id": "633f42f2-236353d8-p1-d1e2adc6",
+   "quote": "OF DIGITAL COPIES | PAGE LIMITS 1 | General | 1 | 10 pages (this does not include the original solicitation, if included in the submission) 2 | Technical Capability & Past Performance | 1 | 15 (includes resume(s), does not include attachments to resume(s)) 3 | Price | 1 | 5 pages - MUST BE SEPARATE FILE Quote Limitation.",
+   "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+   "page": 1,
+   "firm_answer": "Firm can comply with the three-volume page limit structure as a procedural matter.",
+   "status": "meets",
+   "evidence": "Procedural submission requirement; no firm-specific barrier."
+  },
+  {
+   "requirement_id": "633f42f2-2a298083-p2-cce08cee",
+   "quote": "Quotes shall be emailed to the POC's for this requirement, Contract Specialist Jennifer Wohlford at jennifer.a.wohlford.civ@army.",
+   "source_file": "2a298083218046a49499fd656624c5d1.pdf",
+   "page": 2,
+   "firm_answer": "Firm can comply with email submission requirement.",
+   "status": "meets",
+   "evidence": "Procedural submission requirement; no firm-specific barrier."
+  },
+  {
+   "requirement_id": "633f42f2-58c4bdb3-p20-559df738",
+   "quote": "The Offeror shall review the list of excluded parties in the System for Award Management (SAM) at https://www.sam.gov for entities that are excluded when providing any equipment, system, or service to carry out covered missions that uses covered defense telecommunications equipment or services",
+   "source_file": "58c4bdb3f7304078ae33f12945ec5e7a.pdf",
+   "page": 20,
+   "firm_answer": "Standard compliance requirement; firm profile does not indicate any covered defense telecom equipment involvement.",
+   "status": "meets",
+   "evidence": "No covered defense telecommunications equipment or services indicated in the firm profile."
+  },
+  {
+   "requirement_id": "633f42f2-236353d8-p1-398f6a0d",
+   "quote": "VOLUME 1 – GENERAL Volume 1: General The General section shall include all other information to include acknowledgement(s) and signed Amendment(s), Representation & Certifications, Exceptions, and any other information not applicable to Volumes 2 through 4.",
+   "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+   "page": 1,
+   "firm_answer": "Firm can prepare Volume 1 General section as a procedural matter.",
+   "status": "meets",
+   "evidence": "Procedural submission requirement; no firm-specific barrier."
+  },
+  {
+   "requirement_id": "633f42f2-c4a40b6c-p1-070f0d2e",
+   "quote": "Does USAWC have an existing set of security use cases, threat scenarios, detection requirements, or analytics rules that the contractor will be expected to migrate or implement, or should the contractor develop the initial detection catalog as part of the engagement? Answer: In Round 1, Question 5, the Government explicitly stated: \"The offeror should assume to be green fielding this solution, there is no requirement for dashboard, detections, or logs migration.",
+   "source_file": "c4a40b6c6f6f42deb0fd696826bfd08c.docx",
+   "page": 1,
+   "firm_answer": "Green-field implementation scope is clarified; firm would need to design and build from scratch, which requires deep Sentinel expertise the profile does not demonstrate.",
+   "status": "gap",
+   "evidence": "No Sentinel architecture or green-field SIEM implementation experience documented in the firm profile."
+  },
+  {
+   "requirement_id": "633f42f2-236353d8-p1-1d72f1e8",
+   "quote": "This must be in place upon contract award in accordance with PWS 1.23.4.3.",
+   "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+   "page": 1,
+   "firm_answer": "Refers to Contract Manager being in place at award; firm has not named a qualifying Contract Manager.",
+   "status": "unknown",
+   "evidence": "Profile is silent on named Contract Manager ready at award."
+  },
+  {
+   "requirement_id": "633f42f2-c4a40b6c-p1-a2d4e559",
+   "quote": "However, you must ensure that your company (the prime) still performs at least 50% of the personnel costs for the entire contract with your own employees to remain compliant with the small business set-aside regulations.",
+   "source_file": "c4a40b6c6f6f42deb0fd696826bfd08c.docx",
+   "page": 1,
+   "firm_answer": "Firm has 22 cleared staff and is a small business; can likely meet the 50% personnel cost rule, but lacks Sentinel-qualified staff to fill key roles without subcontracting.",
+   "status": "partial",
+   "evidence": "Capabilities: '22 cleared staff (Secret)'; small business under NAICS 541512."
+  },
+  {
+   "requirement_id": "633f42f2-236353d8-p1-ab03cd10",
+   "quote": "Contractors shall detail all their experience and capabilities.",
+   "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+   "page": 1,
+   "firm_answer": "Firm can document its M365/Azure administration, RMF/ATO, and cybersecurity staffing capabilities, though Sentinel-specific experience is absent.",
+   "status": "partial",
+   "evidence": "Capabilities: 'Microsoft 365 and Azure administration, RMF/ATO documentation, vulnerability management (ACAS/Nessus), and cybersecurity staffing'."
+  },
+  {
+   "requirement_id": "633f42f2-9bda22e2-p1-ca060167",
+   "quote": "If a contract is subject to Executive Order 13658, the contractor must pay all covered workers at least $13.65 per hour (or the applicable wage rate listed on this wage determination, if it is higher) for all hours spent performing on the contract from May 11, 2026, through December 31, 2026.",
+   "source_file": "9bda22e2ea894b768a072283c797ebc2.docx",
+   "page": 1,
+   "firm_answer": "Standard wage determination compliance requirement; no firm-specific barrier identified.",
+   "status": "meets",
+   "evidence": "Standard labor law compliance; no indication firm cannot meet minimum wage requirements."
+  },
+  {
+   "requirement_id": "633f42f2-58c4bdb3-p23-048cb00b",
+   "quote": "(b) The Offeror shall indicate by checking the appropriate blank in paragraph (c) of this provision whether the use of cloud computing is anticipated under the resultant contract.",
+   "source_file": "58c4bdb3f7304078ae33f12945ec5e7a.pdf",
+   "page": 23,
+   "firm_answer": "Microsoft Sentinel is a cloud-native SIEM; firm would need to indicate cloud computing use. Firm has Azure administration capability.",
+   "status": "meets",
+   "evidence": "Capabilities: 'Microsoft 365 and Azure administration'."
+  },
+  {
+   "requirement_id": "633f42f2-236353d8-p1-7e7c0ec5",
+   "quote": "Unless indicated otherwise, all lines shall be quoted for, as is required to facilitate FAR Clause 52.217-5.",
+   "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+   "page": 1,
+   "firm_answer": "Standard FAR clause compliance; firm can comply procedurally.",
+   "status": "meets",
+   "evidence": "Procedural FAR compliance requirement; no firm-specific barrier."
+  }
+ ],
+ "matrix_dropped": 1,
+ "matrix_dropped_rows": [
+  {
+   "requirement_id": "633f42f2-236353d8-p1-a83ae8e4",
+   "quote": "Quoters shall include the source of the information, e.g., points of contact, email addresses, and telephone numbers, the context of the data, e.g., type of contract, contract amount, period of performance, and comments on any performance problems encountered and the offeror's corrective actions.",
+   "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+   "page": 1,
+   "reason": "not_verbatim"
+  }
+ ],
+ "fit_score_code": 0.5333,
+ "drafts": {
+  "capability_statement": "Sooner Systems LLC is a Service-Disabled Veteran-Owned Small Business (SDVOSB) and SBA-eligible small business under NAICS 541512, fully qualified under the Total Small Business set-aside for this requirement.\n\nOur team brings direct experience in Microsoft 365 and Azure administration, including a completed M365 migration and ongoing systems administration for the Oklahoma National Guard, and network administration and cybersecurity support for the FAA — both performed within the past three years. We maintain 22 personnel holding active Secret-level clearances, satisfying the IL2 access posture required for USAWC systems, and have self-assessed to CMMC Level 2.\n\nOur cybersecurity capabilities include RMF/ATO documentation, vulnerability management using ACAS/Nessus, and SIEM/SOC support, with relevant keywords demonstrated in our FAA past-performance record. Our bench holds ITIL 4 and Security+ certifications across multiple staff members. We operate entirely within the Microsoft 365 and Azure ecosystem — the same native environment specified for all notifications, workflow escalations, and automated response actions under this PWS.\n\nSooner Systems understands that USAWC requires a green-field Microsoft Sentinel implementation covering approximately 350 endpoints, full M365 data-source onboarding, Zero Trust architecture alignment, and OMB M-26-14 Optimal Tier logging compliance. We are actively assessing our ability to staff a qualified Lead Sentinel Architect and Contract Manager who meet the Key Personnel requirements prior to any offer submission.\n\nWe welcome the opportunity to discuss our qualifications further with the Contracting Officer.",
+  "questions_for_co": [
+   "The solicitation requires the offeror to be a Microsoft Solution Provider [633f42f2-c4a40b6c-p1-ffbcd071] — will the Government accept a teaming arrangement where the Microsoft Solution Provider designation is held by a subcontractor or teammate rather than the prime, provided the prime small business still performs at least 50% of personnel costs?",
+   "The Key Personnel certification requirement lists SC-100, SC-200, CISSP, and DoDM 8140 baseline certifications as alternatives [633f42f2-236353d8-p1-28902381] — is the Government willing to confirm the complete list of acceptable equivalent certifications, and whether a certification obtained after quote submission but before contract award would satisfy the 'at time of offer' standard?",
+   "The Lead Sentinel Architect must be named and proposed as a single individual [633f42f2-236353d8-p1-e2f56702] — may this individual be proposed as a subcontracted or 1099 resource of the prime, or must they be a W-2 employee of the prime quoter at the time of offer?",
+   "The Contract Manager must be in place upon contract award per PWS 1.23.4.3 [633f42f2-236353d8-p1-1d72f1e8] — does 'in place' require the individual to be a current employee at time of quote submission, or is a signed letter of intent from the proposed individual sufficient?",
+   "The PWS requires event logging and retention to align with the Optimal Tier under OMB M-26-14 [633f42f2-c4a40b6c-p1-1385428d] — can the Government confirm the specific log source categories and retention periods it considers mandatory for Optimal Tier compliance in the USAWC M365 A5 environment, so offerors can accurately scope and price the effort?",
+   "The Round 1 Q&A confirms this is a green-field implementation requiring the contractor to develop the initial detection catalog from scratch [633f42f2-c4a40b6c-p1-070f0d2e] — can the Government provide the approximate number of initial analytics rules, workbooks, or use cases expected at delivery, or confirm whether that number is left to the contractor's professional judgment as part of the technical approach?"
+  ],
+  "calendar_entries": [
+   {
+    "title": "Proposal Due",
+    "date": "2026-09-10",
+    "note": "Response deadline per SAM.gov notice header (07:00 EDT). Quotes submitted via email to Contracting Officer. Notice is already past due (days_to_close: -4.0).",
+    "source_quote": "Quotes shall be submitted via email to Contract and Contracting Officer prior to the deadline posted on RFQ."
+   },
+   {
+    "title": "Decide By (2 business days before proposal due)",
+    "date": "2026-09-08",
+    "note": "Internal go/no-go decision deadline — two business days before proposal due date of 2026-09-10.",
+    "source_quote": "Quotes shall be submitted via email to Contract and Contracting Officer prior to the deadline posted on RFQ."
+   }
+  ]
+ },
+ "reader": {
+  "notice_id": "633f42f21dec477cbd6d88327a7537f3",
+  "key_requirement_ids": [
+   "633f42f2-c4a40b6c-p1-ffbcd071",
+   "633f42f2-236353d8-p1-28902381",
+   "633f42f2-236353d8-p1-acfbd067",
+   "633f42f2-236353d8-p1-bce54133",
+   "633f42f2-236353d8-p1-544a9bb3",
+   "633f42f2-236353d8-p1-39085fc7",
+   "633f42f2-c4a40b6c-p1-37fce08b",
+   "633f42f2-c4a40b6c-p1-d96019f9",
+   "633f42f2-c4a40b6c-p1-1385428d",
+   "633f42f2-c4a40b6c-p1-64442885",
+   "633f42f2-c4a40b6c-p1-a2d4e559",
+   "633f42f2-236353d8-p1-e2f56702",
+   "633f42f2-236353d8-p1-5b2294ed",
+   "633f42f2-236353d8-p1-0e78329e",
+   "633f42f2-236353d8-p1-80e27a77",
+   "633f42f2-236353d8-p1-21420d41",
+   "633f42f2-236353d8-p1-8c1bf334",
+   "633f42f2-c4a40b6c-p1-ff40efe6",
+   "633f42f2-c4a40b6c-p1-070f0d2e",
+   "633f42f2-2a298083-p3-8ab23516",
+   "633f42f2-236353d8-p1-cfbbe670",
+   "633f42f2-c4a40b6c-p1-cf255981",
+   "633f42f2-99409fba-p1-b7fc4bb1",
+   "633f42f2-236353d8-p1-d1e2adc6",
+   "633f42f2-descript-p0-923666dc"
+  ],
+  "scope_summary": "The government is procuring highly specialized commercial professional services to design, implement, and operationalize the Microsoft Sentinel platform for USAWC, requiring expert-level knowledge of USAWC's specific Microsoft 365 A5 licensing and security configuration. The contractor must onboard approximately 350 endpoints and all specified M365 data sources, achieving at least a 98% data ingestion success rate, while designing a system that complies with NIST SP 800-53 and OMB M-21-31 event logging mandates. The contractor must also deliver comprehensive training and \"as-built\" documentation to ensure Government self-sufficiency, with all notifications, workflow escalations, and automated response actions remaining within the native Microsoft 365 / Azure ecosystem.",
+  "evaluation_basis": "Technical/Past Performance (Factor 1) and Price (Factor 3) are the stated evaluation factors. The Technical Volume is evaluated for clarity, conciseness, and sufficient detail to substantiate claims. Price is evaluated using price analysis techniques in accordance with FAR 12.204. Relative weight between factors is not stated.",
+  "incumbent_or_history": "none found",
+  "quotes": [
+   "Offeror must be a Microsoft Solution Provider.",
+   "Certification: Candidate must possess, at the time of offer, at least one (1) of the following active industry certifications: Microsoft Certified: Cybersecurity Architect Expert (SC-100) Microsoft Certified: Security Operations Analyst Associate (SC-200) Certified Information Systems Security Professional (CISSP) DoD Baseline Certification: For any information assurance or privileged function performed on the DoD Impact Level 2 (IL2) information system, the candidate shall hold a certification meeting the applicable DoDM 8140 / DoD 8570.01-M baseline for that function.",
+   "Lead Sentinel Architect Education: Candidate must possess a minimum of a bachelor's degree in Cybersecurity, Information Technology, Computer Science, or a related field.",
+   "General Experience: Candidate must have a minimum of five (5) years of hands-on experience designing, implementing, and managing enterprise-level Security Information and Event Management (SIEM) and/or Security Orchestration, Automation, and Response (SOAR) solutions.",
+   "Specific Experience: Candidate must have a minimum of two (2) years of direct, hands-on experience with the architecture, deployment, configuration, and operational tuning of Microsoft Sentinel within a cloud or hybrid enterprise environment.",
+   "Federal Logging Experience: Candidate must demonstrate experience implementing or operating event logging to meet OMB M-21-31 Event Logging Tier 2 (EL2) maturity, or equivalent federal logging maturity requirements.",
+   "All notifications, workflow escalations, and automated response actions shall remain within the native Microsoft 365 / Azure ecosystem (e.g., Microsoft Sentinel, Entra ID, Defender XDR, Intune, Teams, and Exchange/Email).",
+   "Architecture Principles: Per PWS 5.1.1, the implementation must strictly incorporate Zero Trust principles .",
+   "Logging Baseline: In accordance with Round 1 Q&A, event logging and retention must align with the Optimal Tier under OMB M-26-14 (which supersedes M-21-31).",
+   "For a Total Small Business set-aside, please confirm whether the Lead Sentinel Architect and Contract Manager may be proposed as subcontracted personnel (i.e., via a teammate or 1099 arrangement), or whether both Key Personnel must be W-2 employees of the prime quoter.",
+   "Answer: For a services contract, the prime small business must perform at least 50% of the cost of the contract incurred for personnel with its own employees or employees of a similarly situated entity (another certified small business under the same NAICS).",
+   "However, you must ensure that your company (the prime) still performs at least 50% of the personnel costs for the entire contract with your own employees to remain compliant with the small business set-aside regulations.",
+   "The Contractor shall propose a single individual to fill each Key Personnel role.",
+   "VOLUME 2 – TECHNICAL & PAST PERFORMANCE Factor 1: Technical/Past Performance The Technical Volume shall be clear, concise, and include sufficient detail for effective evaluation and for substantiating the validity of stated claims in the Quote.",
+   "VOLUME 4 – PRICING Factor 3: Price Price shall be evaluated using price analysis techniques in accordance with FAR 12.204.",
+   "Quoters shall submit three (3) current and relevant examples of Past Performance, e.g., contracts and/or subcontract work performed within the past three years for similar services.",
+   "Quoters must clearly demonstrate how past projects align with these technical areas.",
+   "Does USAWC have an existing set of security use cases, threat scenarios, detection requirements, or analytics rules that the contractor will be expected to migrate or implement, or should the contractor develop the initial detection catalog as part of the engagement? Answer: In Round 1, Question 5, the Government explicitly stated: \"The offeror should assume to be green fielding this solution, there is no requirement for dashboard, detections, or logs migration.",
+   "All contractors must be actively registered in SAM in order to receive a Department of Defense contract.",
+   "Quoters shall assume that the Government has no prior knowledge of their companies and experience and will base its evaluation on the information presented in the quotation."
+  ]
+ },
+ "fit": {
+  "notice_id": "633f42f21dec477cbd6d88327a7537f3",
+  "fit_score": 0.31,
+  "matched_past_performance": [
+   "Network administration and cybersecurity support",
+   "Systems administration and Microsoft 365 migration"
+  ],
+  "strengths": [
+   "Eligible for Total Small Business set-aside",
+   "Microsoft 365 and Azure administration capability",
+   "RMF/ATO documentation experience",
+   "SIEM/SOC keywords in past performance (FAA contract)",
+   "22 cleared staff at Secret level",
+   "CMMC Level 2 self-assessed",
+   "Two past-performance matches exist (owner rule ss-pp met)"
+  ],
+  "gaps": [
+   "No Microsoft Solution Provider designation listed in profile",
+   "No SC-100, SC-200, or CISSP certifications listed for any named individual",
+   "No Microsoft Sentinel-specific hands-on experience stated",
+   "No named Lead Sentinel Architect with 5+ years SIEM/SOAR design experience",
+   "No named Contract Manager with 3+ years IT/cyber project management experience",
+   "No OMB M-21-31 / M-26-14 federal logging maturity experience documented",
+   "No Zero Trust architecture implementation experience stated",
+   "Only three past-performance examples available; third (Oklahoma National Guard) is weak match for Sentinel scope",
+   "Solicitation is already past response deadline (days_to_close = -4)"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "633f42f2-c4a40b6c-p1-ffbcd071",
+    "quote": "Offeror must be a Microsoft Solution Provider.",
+    "source_file": "c4a40b6c6f6f42deb0fd696826bfd08c.docx",
+    "page": 1,
+    "firm_answer": "The firm profile does not list Microsoft Solution Provider status or any Microsoft partner designation.",
+    "status": "gap",
+    "evidence": "No Microsoft partner designation appears anywhere in the firm profile."
+   },
+   {
+    "requirement_id": "633f42f2-236353d8-p1-28902381",
+    "quote": "Certification: Candidate must possess, at the time of offer, at least one (1) of the following active industry certifications: Microsoft Certified: Cybersecurity Architect Expert (SC-100) Microsoft Certified: Security Operations Analyst Associate (SC-200) Certified Information Systems Security Professional (CISSP) DoD Baseline Certification",
+    "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+    "page": 1,
+    "firm_answer": "Profile lists ITIL 4 and Security+ across the bench but does not list SC-100, SC-200, CISSP, or a named DoDM 8140 IA baseline cert for any proposed individual.",
+    "status": "gap",
+    "evidence": "Capabilities state 'ITIL 4 and Security+ across the bench'; no SC-100, SC-200, or CISSP mentioned."
+   },
+   {
+    "requirement_id": "633f42f2-236353d8-p1-bce54133",
+    "quote": "General Experience: Candidate must have a minimum of five (5) years of hands-on experience designing, implementing, and managing enterprise-level Security Information and Event Management (SIEM) and/or Security Orchestration, Automation, and Response (SOAR) solutions.",
+    "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+    "page": 1,
+    "firm_answer": "Profile references SOC and SIEM keywords in the FAA past-performance record but does not name an individual with 5+ years of SIEM/SOAR design and implementation experience.",
+    "status": "gap",
+    "evidence": "Network administration and cybersecurity support (FAA) lists SIEM/SOAR as keywords but no individual experience years are documented."
+   },
+   {
+    "requirement_id": "633f42f2-236353d8-p1-544a9bb3",
+    "quote": "Specific Experience: Candidate must have a minimum of two (2) years of direct, hands-on experience with the architecture, deployment, configuration, and operational tuning of Microsoft Sentinel within a cloud or hybrid enterprise environment.",
+    "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+    "page": 1,
+    "firm_answer": "The firm profile does not mention Microsoft Sentinel by name in any capability statement or past-performance record.",
+    "status": "gap",
+    "evidence": "No Sentinel-specific experience appears in the firm profile."
+   },
+   {
+    "requirement_id": "633f42f2-236353d8-p1-acfbd067",
+    "quote": "Lead Sentinel Architect Education: Candidate must possess a minimum of a bachelor's degree in Cybersecurity, Information Technology, Computer Science, or a related field.",
+    "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+    "page": 1,
+    "firm_answer": "No named Lead Sentinel Architect is identified in the profile; educational credentials of proposed personnel are not stated.",
+    "status": "unknown",
+    "evidence": "Profile is silent on individual personnel educational credentials."
+   },
+   {
+    "requirement_id": "633f42f2-236353d8-p1-5b2294ed",
+    "quote": "Contract Manager (and Alternate Contract Manager) Experience: Candidate must have a minimum of three (3) years of experience in a project or contract management role on information technology and/or cybersecurity projects of similar size and scope.",
+    "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+    "page": 1,
+    "firm_answer": "No named Contract Manager is identified in the profile; individual project management experience years are not documented.",
+    "status": "unknown",
+    "evidence": "Profile is silent on named Contract Manager and individual PM experience years."
+   },
+   {
+    "requirement_id": "633f42f2-236353d8-p1-39085fc7",
+    "quote": "Federal Logging Experience: Candidate must demonstrate experience implementing or operating event logging to meet OMB M-21-31 Event Logging Tier 2 (EL2) maturity, or equivalent federal logging maturity requirements.",
+    "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+    "page": 1,
+    "firm_answer": "Profile references RMF/ATO documentation and ACAS/Nessus vulnerability management but does not mention OMB M-21-31 or federal event logging maturity tiers.",
+    "status": "gap",
+    "evidence": "Capabilities list 'RMF/ATO documentation' but no OMB M-21-31 logging experience is stated."
+   },
+   {
+    "requirement_id": "633f42f2-c4a40b6c-p1-d96019f9",
+    "quote": "Architecture Principles: Per PWS 5.1.1, the implementation must strictly incorporate Zero Trust principles .",
+    "source_file": "c4a40b6c6f6f42deb0fd696826bfd08c.docx",
+    "page": 1,
+    "firm_answer": "Profile does not mention Zero Trust architecture design or implementation experience.",
+    "status": "gap",
+    "evidence": "No Zero Trust capability or past-performance reference appears in the firm profile."
+   },
+   {
+    "requirement_id": "633f42f2-c4a40b6c-p1-1385428d",
+    "quote": "Logging Baseline: In accordance with Round 1 Q&A, event logging and retention must align with the Optimal Tier under OMB M-26-14 (which supersedes M-21-31).",
+    "source_file": "c4a40b6c6f6f42deb0fd696826bfd08c.docx",
+    "page": 1,
+    "firm_answer": "Profile does not reference OMB M-26-14 or any federal logging maturity tier compliance.",
+    "status": "gap",
+    "evidence": "No OMB M-26-14 or logging maturity tier experience appears in the firm profile."
+   },
+   {
+    "requirement_id": "633f42f2-c4a40b6c-p1-37fce08b",
+    "quote": "All notifications, workflow escalations, and automated response actions shall remain within the native Microsoft 365 / Azure ecosystem (e.g., Microsoft Sentinel, Entra ID, Defender XDR, Intune, Teams, and Exchange/Email).",
+    "source_file": "c4a40b6c6f6f42deb0fd696826bfd08c.docx",
+    "page": 1,
+    "firm_answer": "Profile lists Microsoft 365 and Azure administration as a capability and the Oklahoma National Guard contract covers M365/Azure migration, but Sentinel, Entra ID, Defender XDR, and Intune are not specifically mentioned.",
+    "status": "partial",
+    "evidence": "Capabilities: 'Microsoft 365 and Azure administration'; Systems administration and Microsoft 365 migration (Oklahoma National Guard)."
+   },
+   {
+    "requirement_id": "633f42f2-descript-p0-923666dc",
+    "quote": "The contractor shall successfully onboard approximately 350 endpoints and all",
+    "source_file": "description",
+    "page": 0,
+    "firm_answer": "Profile covers desktop and network administration and M365 administration, which are adjacent skills, but no endpoint onboarding at scale into a SIEM is documented.",
+    "status": "partial",
+    "evidence": "Capabilities: 'desktop and network administration, Microsoft 365 and Azure administration'."
+   },
+   {
+    "requirement_id": "633f42f2-descript-p0-11bfa5f3",
+    "quote": "The contractor must design a system that complies with NIST SP 800-53 and OMB M-",
+    "source_file": "description",
+    "page": 0,
+    "firm_answer": "Profile references RMF/ATO documentation which is NIST SP 800-53-based, providing partial alignment; OMB M-21-31/M-26-14 compliance is not documented.",
+    "status": "partial",
+    "evidence": "Capabilities: 'RMF/ATO documentation'; Network administration and cybersecurity support (FAA) lists RMF/ATO keywords."
+   },
+   {
+    "requirement_id": "633f42f2-descript-p0-c443421a",
+    "quote": "The contractor must also deliver",
+    "source_file": "description",
+    "page": 0,
+    "firm_answer": "Profile does not specifically reference delivery of 'as-built' documentation or comprehensive end-user training for a security platform implementation.",
+    "status": "unknown",
+    "evidence": "Profile is silent on training delivery and as-built documentation for security platforms."
+   },
+   {
+    "requirement_id": "633f42f2-236353d8-p1-8c1bf334",
+    "quote": "Quoters shall submit three (3) current and relevant examples of Past Performance, e.g., contracts and/or subcontract work performed within the past three years for similar services.",
+    "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+    "page": 1,
+    "firm_answer": "Profile lists three past-performance records; however, only two (FAA cybersecurity and Oklahoma National Guard M365) are reasonably relevant. The Army Corps help desk contract is a weak match for Sentinel implementation.",
+    "status": "partial",
+    "evidence": "Network administration and cybersecurity support (FAA); Systems administration and Microsoft 365 migration (Oklahoma National Guard); IT help desk and desktop support (Army Corps)."
+   },
+   {
+    "requirement_id": "633f42f2-c4a40b6c-p1-ff40efe6",
+    "quote": "Quoters must clearly demonstrate how past projects align with these technical areas.",
+    "source_file": "c4a40b6c6f6f42deb0fd696826bfd08c.docx",
+    "page": 1,
+    "firm_answer": "The FAA and Oklahoma National Guard contracts provide partial alignment to cybersecurity and M365 technical areas, but no Sentinel-specific project alignment can be demonstrated.",
+    "status": "partial",
+    "evidence": "Network administration and cybersecurity support (FAA); Systems administration and Microsoft 365 migration (Oklahoma National Guard)."
+   },
+   {
+    "requirement_id": "633f42f2-236353d8-p1-e2f56702",
+    "quote": "The Contractor shall propose a single individual to fill each Key Personnel role.",
+    "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+    "page": 1,
+    "firm_answer": "Profile does not name any specific individual for Key Personnel roles (Lead Sentinel Architect or Contract Manager).",
+    "status": "unknown",
+    "evidence": "Profile is silent on named key personnel."
+   },
+   {
+    "requirement_id": "633f42f2-c4a40b6c-p1-64442885",
+    "quote": "Answer: For a services contract, the prime small business must perform at least 50% of the cost of the contract incurred for personnel with its own employees or employees of a similarly situated entity (another certified small business under the same NAICS).",
+    "source_file": "c4a40b6c6f6f42deb0fd696826bfd08c.docx",
+    "page": 1,
+    "firm_answer": "Firm is a small business under NAICS 541512 with 22 cleared staff; can likely meet the 50% personnel cost rule if qualified Sentinel staff can be identified.",
+    "status": "partial",
+    "evidence": "Capabilities: 'Service-disabled veteran-owned small business (SDVOSB)'; '22 cleared staff (Secret)'."
+   },
+   {
+    "requirement_id": "633f42f2-c4a40b6c-p1-cf255981",
+    "quote": "Please confirm: (a) Whether contractor personnel performing on this effort will require routine access to IL2 systems and therefore must hold a CAC or similar DoD-issued credential; (b) Whether any facility clearance (FCL), cleared workspace, or secure-room access is required for performance; and (c) Whether the Government will sponsor contractor personnel for IT-II/IT-III positions",
+    "source_file": "c4a40b6c6f6f42deb0fd696826bfd08c.docx",
+    "page": 1,
+    "firm_answer": "Firm has 22 cleared staff at Secret level and CMMC Level 2 self-assessed, which supports IL2 access requirements. No FCL or secure facility is mentioned in the profile.",
+    "status": "partial",
+    "evidence": "Capabilities: '22 cleared staff (Secret), CMMC Level 2 self-assessed'."
+   },
+   {
+    "requirement_id": "633f42f2-2a298083-p3-8ab23516",
+    "quote": "All contractors must be actively registered in SAM in order to receive a Department of Defense contract.",
+    "source_file": "2a298083218046a49499fd656624c5d1.pdf",
+    "page": 3,
+    "firm_answer": "Profile does not explicitly confirm active SAM registration, but the firm is described as an SBA-eligible small business with past DoD/federal contracts, making active SAM registration highly likely.",
+    "status": "unknown",
+    "evidence": "Profile lists SBA and SDVOSB set-aside eligibility and prior federal contracts but does not explicitly state SAM registration status."
+   },
+   {
+    "requirement_id": "633f42f2-236353d8-p1-623d152f",
+    "quote": "This shall include the SAM Unique Entity Identifier (UEI) that you are submitting your offer under.",
+    "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+    "page": 1,
+    "firm_answer": "Profile does not list a SAM UEI number.",
+    "status": "unknown",
+    "evidence": "No SAM UEI is provided in the firm profile."
+   },
+   {
+    "requirement_id": "633f42f2-236353d8-p1-0e78329e",
+    "quote": "Responsibility: Candidate's resume must demonstrate experience serving as the primary point of contact for a customer, managing project schedules, overseeing team performance, and ensuring the quality and timely submission of all deliverables.",
+    "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+    "page": 1,
+    "firm_answer": "No named Contract Manager resume is available in the profile to demonstrate this experience.",
+    "status": "unknown",
+    "evidence": "Profile is silent on named Contract Manager and individual resume content."
+   },
+   {
+    "requirement_id": "633f42f2-236353d8-p1-cfbbe670",
+    "quote": "Quoters shall assume that the Government has no prior knowledge of their companies and experience and will base its evaluation on the information presented in the quotation.",
+    "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+    "page": 1,
+    "firm_answer": "Firm must present all relevant experience in the quote; the profile provides a basis but lacks Sentinel-specific content to present compellingly.",
+    "status": "partial",
+    "evidence": "Capabilities and past-performance records exist but are not Sentinel-specific."
+   },
+   {
+    "requirement_id": "633f42f2-236353d8-p1-80e27a77",
+    "quote": "VOLUME 2 – TECHNICAL & PAST PERFORMANCE Factor 1: Technical/Past Performance The Technical Volume shall be clear, concise, and include sufficient detail for effective evaluation and for substantiating the validity of stated claims in the Quote.",
+    "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+    "page": 1,
+    "firm_answer": "Firm can submit a Technical Volume but lacks Sentinel-specific substantiation; the FAA and Oklahoma National Guard contracts provide partial technical relevance.",
+    "status": "partial",
+    "evidence": "Network administration and cybersecurity support (FAA); Systems administration and Microsoft 365 migration (Oklahoma National Guard)."
+   },
+   {
+    "requirement_id": "633f42f2-236353d8-p1-88c69157",
+    "quote": "Absence of a PMP certification shall not render an offer technically unacceptable.",
+    "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+    "page": 1,
+    "firm_answer": "Favorable clause; PMP is not required. Firm does not list PMP but this is not disqualifying.",
+    "status": "meets",
+    "evidence": "Requirement explicitly states PMP absence is not disqualifying."
+   },
+   {
+    "requirement_id": "633f42f2-c4a40b6c-p1-2af0bbd5",
+    "quote": "The requirements state the contractor must 'design a system that complies with NIST SP 800-53 and OMB M-21-31 event logging mandates.' Please confirm the OMB M-21-31 maturity tier required for this effort",
+    "source_file": "c4a40b6c6f6f42deb0fd696826bfd08c.docx",
+    "page": 1,
+    "firm_answer": "Profile references RMF/ATO documentation (NIST SP 800-53 adjacent) but does not document OMB M-21-31 maturity tier experience at any level.",
+    "status": "partial",
+    "evidence": "Capabilities: 'RMF/ATO documentation'; Network administration and cybersecurity support (FAA) lists RMF/ATO."
+   },
+   {
+    "requirement_id": "633f42f2-99409fba-p1-b7fc4bb1",
+    "quote": "If additional licensing is required to execute elements of the PWS, contractor will notify the government who will procure licensing through their current MS support partner.",
+    "source_file": "99409fba767b444b85b68fccc2087768.docx",
+    "page": 1,
+    "firm_answer": "Favorable clause; licensing procurement is the Government's responsibility. No action required from the firm beyond notification.",
+    "status": "meets",
+    "evidence": "Clause places licensing procurement obligation on the Government, not the contractor."
+   },
+   {
+    "requirement_id": "633f42f2-236353d8-p1-21420d41",
+    "quote": "VOLUME 4 – PRICING Factor 3: Price Price shall be evaluated using price analysis techniques in accordance with FAR 12.204.",
+    "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+    "page": 1,
+    "firm_answer": "Firm can prepare a price volume; no specific pricing constraint prevents submission.",
+    "status": "meets",
+    "evidence": "Standard FAR pricing evaluation; no firm-specific barrier identified."
+   },
+   {
+    "requirement_id": "633f42f2-236353d8-p1-d1e2adc6",
+    "quote": "OF DIGITAL COPIES | PAGE LIMITS 1 | General | 1 | 10 pages (this does not include the original solicitation, if included in the submission) 2 | Technical Capability & Past Performance | 1 | 15 (includes resume(s), does not include attachments to resume(s)) 3 | Price | 1 | 5 pages - MUST BE SEPARATE FILE Quote Limitation.",
+    "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+    "page": 1,
+    "firm_answer": "Firm can comply with the three-volume page limit structure as a procedural matter.",
+    "status": "meets",
+    "evidence": "Procedural submission requirement; no firm-specific barrier."
+   },
+   {
+    "requirement_id": "633f42f2-2a298083-p2-cce08cee",
+    "quote": "Quotes shall be emailed to the POC's for this requirement, Contract Specialist Jennifer Wohlford at jennifer.a.wohlford.civ@army.",
+    "source_file": "2a298083218046a49499fd656624c5d1.pdf",
+    "page": 2,
+    "firm_answer": "Firm can comply with email submission requirement.",
+    "status": "meets",
+    "evidence": "Procedural submission requirement; no firm-specific barrier."
+   },
+   {
+    "requirement_id": "633f42f2-58c4bdb3-p20-559df738",
+    "quote": "The Offeror shall review the list of excluded parties in the System for Award Management (SAM) at https://www.sam.gov for entities that are excluded when providing any equipment, system, or service to carry out covered missions that uses covered defense telecommunications equipment or services",
+    "source_file": "58c4bdb3f7304078ae33f12945ec5e7a.pdf",
+    "page": 20,
+    "firm_answer": "Standard compliance requirement; firm profile does not indicate any covered defense telecom equipment involvement.",
+    "status": "meets",
+    "evidence": "No covered defense telecommunications equipment or services indicated in the firm profile."
+   },
+   {
+    "requirement_id": "633f42f2-236353d8-p1-398f6a0d",
+    "quote": "VOLUME 1 – GENERAL Volume 1: General The General section shall include all other information to include acknowledgement(s) and signed Amendment(s), Representation & Certifications, Exceptions, and any other information not applicable to Volumes 2 through 4.",
+    "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+    "page": 1,
+    "firm_answer": "Firm can prepare Volume 1 General section as a procedural matter.",
+    "status": "meets",
+    "evidence": "Procedural submission requirement; no firm-specific barrier."
+   },
+   {
+    "requirement_id": "633f42f2-c4a40b6c-p1-070f0d2e",
+    "quote": "Does USAWC have an existing set of security use cases, threat scenarios, detection requirements, or analytics rules that the contractor will be expected to migrate or implement, or should the contractor develop the initial detection catalog as part of the engagement? Answer: In Round 1, Question 5, the Government explicitly stated: \"The offeror should assume to be green fielding this solution, there is no requirement for dashboard, detections, or logs migration.",
+    "source_file": "c4a40b6c6f6f42deb0fd696826bfd08c.docx",
+    "page": 1,
+    "firm_answer": "Green-field implementation scope is clarified; firm would need to design and build from scratch, which requires deep Sentinel expertise the profile does not demonstrate.",
+    "status": "gap",
+    "evidence": "No Sentinel architecture or green-field SIEM implementation experience documented in the firm profile."
+   },
+   {
+    "requirement_id": "633f42f2-236353d8-p1-1d72f1e8",
+    "quote": "This must be in place upon contract award in accordance with PWS 1.23.4.3.",
+    "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+    "page": 1,
+    "firm_answer": "Refers to Contract Manager being in place at award; firm has not named a qualifying Contract Manager.",
+    "status": "unknown",
+    "evidence": "Profile is silent on named Contract Manager ready at award."
+   },
+   {
+    "requirement_id": "633f42f2-c4a40b6c-p1-a2d4e559",
+    "quote": "However, you must ensure that your company (the prime) still performs at least 50% of the personnel costs for the entire contract with your own employees to remain compliant with the small business set-aside regulations.",
+    "source_file": "c4a40b6c6f6f42deb0fd696826bfd08c.docx",
+    "page": 1,
+    "firm_answer": "Firm has 22 cleared staff and is a small business; can likely meet the 50% personnel cost rule, but lacks Sentinel-qualified staff to fill key roles without subcontracting.",
+    "status": "partial",
+    "evidence": "Capabilities: '22 cleared staff (Secret)'; small business under NAICS 541512."
+   },
+   {
+    "requirement_id": "633f42f2-236353d8-p1-ab03cd10",
+    "quote": "Contractors shall detail all their experience and capabilities.",
+    "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+    "page": 1,
+    "firm_answer": "Firm can document its M365/Azure administration, RMF/ATO, and cybersecurity staffing capabilities, though Sentinel-specific experience is absent.",
+    "status": "partial",
+    "evidence": "Capabilities: 'Microsoft 365 and Azure administration, RMF/ATO documentation, vulnerability management (ACAS/Nessus), and cybersecurity staffing'."
+   },
+   {
+    "requirement_id": "633f42f2-9bda22e2-p1-ca060167",
+    "quote": "If a contract is subject to Executive Order 13658, the contractor must pay all covered workers at least $13.65 per hour (or the applicable wage rate listed on this wage determination, if it is higher) for all hours spent performing on the contract from May 11, 2026, through December 31, 2026.",
+    "source_file": "9bda22e2ea894b768a072283c797ebc2.docx",
+    "page": 1,
+    "firm_answer": "Standard wage determination compliance requirement; no firm-specific barrier identified.",
+    "status": "meets",
+    "evidence": "Standard labor law compliance; no indication firm cannot meet minimum wage requirements."
+   },
+   {
+    "requirement_id": "633f42f2-58c4bdb3-p23-048cb00b",
+    "quote": "(b) The Offeror shall indicate by checking the appropriate blank in paragraph (c) of this provision whether the use of cloud computing is anticipated under the resultant contract.",
+    "source_file": "58c4bdb3f7304078ae33f12945ec5e7a.pdf",
+    "page": 23,
+    "firm_answer": "Microsoft Sentinel is a cloud-native SIEM; firm would need to indicate cloud computing use. Firm has Azure administration capability.",
+    "status": "meets",
+    "evidence": "Capabilities: 'Microsoft 365 and Azure administration'."
+   },
+   {
+    "requirement_id": "633f42f2-236353d8-p1-7e7c0ec5",
+    "quote": "Unless indicated otherwise, all lines shall be quoted for, as is required to facilitate FAR Clause 52.217-5.",
+    "source_file": "236353d8e36a483689eab3eb9ed54da4.docx",
+    "page": 1,
+    "firm_answer": "Standard FAR clause compliance; firm can comply procedurally.",
+    "status": "meets",
+    "evidence": "Procedural FAR compliance requirement; no firm-specific barrier."
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "633f42f21dec477cbd6d88327a7537f3",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-09-10T07:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": null,
+   "source_quotes": [
+    "Quotes shall be submitted via email to Contract and Contracting Officer prior to the deadline posted on RFQ."
+   ]
+  },
+  "days_to_close": -4.003650616122686,
+  "set_aside_note": "Set-aside is Total Small Business. Firm (Sooner Systems LLC) qualifies as a small business (SBA set-aside eligible per firm profile), so the firm IS eligible to bid under [ss-setaside].",
+  "amendment_note": "no amendment",
+  "calendar_entries": [
+   {
+    "title": "Proposal Due",
+    "date": "2026-09-10",
+    "note": "Response deadline per SAM.gov notice header (07:00 EDT). Quotes submitted via email to Contracting Officer. Notice is already past due (days_to_close: -4.0).",
+    "source_quote": "Quotes shall be submitted via email to Contract and Contracting Officer prior to the deadline posted on RFQ."
+   },
+   {
+    "title": "Decide By (2 business days before proposal due)",
+    "date": "2026-09-08",
+    "note": "Internal go/no-go decision deadline — two business days before proposal due date of 2026-09-10.",
+    "source_quote": "Quotes shall be submitted via email to Contract and Contracting Officer prior to the deadline posted on RFQ."
+   }
+  ]
+ },
+ "model_calls": 5,
+ "tokens_in": 63895,
+ "tokens_out": 14111,
+ "seconds": 129.4,
+ "produced_at": "2026-09-14T06:07:24.808491-05:00"
+}

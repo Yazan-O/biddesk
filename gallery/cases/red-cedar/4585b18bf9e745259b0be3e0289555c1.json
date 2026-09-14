@@ -1,0 +1,196 @@
+{
+ "notice_id": "4585b18bf9e745259b0be3e0289555c1",
+ "firm_slug": "red-cedar",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:33:47-05:00",
+ "evidence_basis": "description only (no attachments read)",
+ "days_to_close": -17.73905128633102,
+ "closed": true,
+ "response_kind": "proposal",
+ "card": {
+  "notice_id": "4585b18bf9e745259b0be3e0289555c1",
+  "firm_slug": "red-cedar",
+  "situation": "Midwest Janitorial MATOC — Army Corps of Engineers recruiting offices across IL, IN, KY, MI, and OH; ~7 FFP IDIQ awards, $20M shared ceiling, base + four option years.\nReached owner because NAICS 561720 is an exact match and Red Cedar is Total Small Business eligible, but the owner distance rule (rc-distance) flags all five states as out-of-range from Oklahoma City.",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "NAICS 561720 is an exact match for janitorial services and Red Cedar is fully eligible for the Total Small Business set-aside, clearing the threshold eligibility bar [profile: NAICS 561720 exact match; set_aside_note].",
+   "Relevant federal janitorial past performance (GSA federal building, VA outpatient clinic) and strong technical posture — CIMS-GB certification, green cleaning program, CMMS-based QC — would support a competitive proposal [profile: past performance, Oklahoma City Federal Building; outpatient clinic housekeeping].",
+   "The MATOC pool targets approximately seven awards, improving probability of selection and providing a long revenue runway (base + four option years, performance beginning 02 November 2026) [\"Each IDIQ contract will include a one (1) year base and four (4) one (1) year option periods.\"]."
+  ],
+  "reasons_against": [
+   "All five places of performance (IL, IN, KY, MI, OH) are well over 200 miles from Oklahoma City, directly triggering the owner's standing no-bid distance rule [rc-distance].",
+   "Zero requirements rows survived validation — no line-by-line compliance assessment is possible, so technical risk and any mandatory qualifications remain entirely unknown [matrix_summary: 0 requirements checked (no matrix row survived validation)].",
+   "Red Cedar's workforce of 38 W-2 employees and past performance concentrated in Oklahoma have no footprint in the five-state Midwest region, creating serious staffing and mobilization risk for a $20M multi-state MATOC [profile: workforce 38 W-2 employees; gaps: no Midwest past performance]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-08-25",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-08-27T13:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": "Begins 2026-11-02; one (1) year base plus four (4) one (1) year option periods per IDIQ contract.",
+   "source_quotes": [
+    "The period of performance will begin 02 November 2026.",
+    "Each IDIQ contract will include a one (1) year base and four (4) one (1) year option periods."
+   ]
+  },
+  "fit_score": null,
+  "matrix_summary": "0 requirements checked (no matrix row survived validation)",
+  "evidence_link": "https://sam.gov/opp/4585b18bf9e745259b0be3e0289555c1/view"
+ },
+ "matrix": [],
+ "matrix_dropped": 9,
+ "matrix_dropped_rows": [
+  {
+   "requirement_id": "owner-rule-rc-distance",
+   "quote": "No bids over 200 miles from Oklahoma City.",
+   "source_file": "FIRM PROFILE – owner rules",
+   "page": 0,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "owner-rule-rc-types",
+   "quote": "Only real solicitations: no award notices, no justifications, no special notices.",
+   "source_file": "FIRM PROFILE – owner rules",
+   "page": 0,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "owner-rule-rc-setaside",
+   "quote": "Only bid where we are eligible: WOSB, EDWOSB, total small business, or unrestricted.",
+   "source_file": "FIRM PROFILE – owner rules",
+   "page": 0,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "owner-rule-rc-base",
+   "quote": "No bids under a 12-month base period.",
+   "source_file": "FIRM PROFILE – owner rules",
+   "page": 0,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "notice-naics",
+   "quote": "naics: 561720",
+   "source_file": "NOTICE",
+   "page": 0,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "notice-scope-states",
+   "quote": "Janitorial Services for the U.S. Army Corps of Engineers at various Military Recruiting Offices in the States of Illinois, Indiana, Kentucky, Michigan, and Ohio.",
+   "source_file": "NOTICE",
+   "page": 0,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "notice-contract-type",
+   "quote": "Multiple Award Task Order Contract (MATOC) pool consisting of approximately seven (7) firm-fixed-price Indefinite Quantity Indefinite Delivery (IDIQ) contracts",
+   "source_file": "NOTICE",
+   "page": 0,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "notice-capacity",
+   "quote": "The MATOC will have a total (base year plus all option years) shared capacity of $20,000,000.00.",
+   "source_file": "NOTICE",
+   "page": 0,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "no-requirements-extracted",
+   "quote": "no requirements were extracted for this notice",
+   "source_file": "REQUIREMENTS",
+   "page": 0,
+   "reason": "unknown_requirement"
+  }
+ ],
+ "fit_score_code": null,
+ "drafts": {
+  "capability_statement": "Red Cedar Facility Services — Capability Statement\nSubmitted in Response to: Midwest Janitorial MATOC (Notice ID: 4585b18bf9e745259b0be3e0289555c1)\nContracting Office: USACE Louisville District (W072 ENDIST LOUISVILLE)\n\nRed Cedar Facility Services is a Woman-Owned Small Business (WOSB) and Total Small Business fully eligible for this set-aside. Our NAICS code is 561720 (Janitorial Services) — an exact match for this requirement.\n\nWe deliver professional janitorial and custodial services to federal and state clients, including the GSA Oklahoma City Federal Building and a VA outpatient clinic. Our performance record demonstrates reliable service delivery in occupied, security-sensitive government facilities.\n\nOur technical approach is built on three pillars:\n• Quality Control: CMMS-based inspection and corrective-action tracking with documented close-out.\n• Green Cleaning: An active green cleaning program aligned with federal sustainability objectives.\n• Certification: CIMS-GB certification validates our systems-based approach to janitorial management.\n\nOur 38 W-2 employees form a trained, vetted core workforce. We supplement with a qualified subcontractor and staffing network when task order scope requires additional coverage.\n\nWe are committed to responsive, compliant performance across all assigned locations and welcome the opportunity to discuss our qualifications further.\n\nPoint of Contact:\nRed Cedar Facility Services\n[Name] | [Title]\n[Phone] | [Email]",
+  "questions_for_co": [
+   "No requirements matrix rows survived validation from the solicitation description alone — will the Contracting Officer confirm whether attachments (e.g., a Performance Work Statement or Statement of Work) are available on SAM.gov or will be issued by amendment, and if so, by what date?",
+   "The solicitation lists approximately seven MATOC awards across IL, IN, KY, MI, and OH — will task orders be geographically restricted to specific states or districts, or may any pool member compete for any task order regardless of home-office location?",
+   "What are the minimum past performance requirements (number of contracts, dollar thresholds, recency window, and geographic scope) that offerors must demonstrate to be considered technically acceptable?",
+   "What workforce or staffing documentation will be required at proposal submission — for example, letters of commitment from subcontractors or a staffing plan demonstrating coverage across all five states?",
+   "The evaluation basis was not stated in the available notice text — will a formal evaluation criteria section (e.g., technical/price weighting, adjectival ratings) be published in the RFP attachments or a forthcoming amendment?",
+   "Is there a minimum guaranteed order value per individual IDIQ contract, and will the government provide estimated task order frequency or historical workload data to support price proposal development?"
+  ],
+  "calendar_entries": [
+   {
+    "title": "Period of Performance Start",
+    "date": "2026-11-02",
+    "note": "MATOC period of performance begins 02 November 2026.",
+    "source_quote": "The period of performance will begin 02 November 2026."
+   }
+  ]
+ },
+ "reader": {
+  "notice_id": "4585b18bf9e745259b0be3e0289555c1",
+  "key_requirement_ids": [],
+  "scope_summary": "The government is buying janitorial services for U.S. Army Corps of Engineers Military Recruiting Offices across Illinois, Indiana, Kentucky, Michigan, and Ohio. The contract vehicle is a Multiple Award Task Order Contract (MATOC) pool of approximately seven firm-fixed-price IDIQ contracts, each with a one-year base period and four one-year option periods. The MATOC carries a total shared capacity of $20,000,000.00, with performance beginning 02 November 2026.",
+  "evaluation_basis": "not stated",
+  "incumbent_or_history": "none found",
+  "quotes": [
+   "This Request for Proposal (RFP) is for Janitorial Services for the U.S. Army Corps of Engineers at various Military Recruiting Offices in the States of Illinois, Indiana, Kentucky, Michigan, and Ohio.",
+   "This solicitation is for the award of a Multiple Award Task Order Contract (MATOC) pool consisting of approximately seven (7) firm-fixed-price Indefinite Quantity Indefinite Delivery (IDIQ) contracts.",
+   "Each IDIQ contract will include a one (1) year base and four (4) one (1) year option periods.",
+   "Task orders will typically be competed among the entire MATOC pool.",
+   "The MATOC will have a total (base year plus all option years) shared capacity of $20,000,000.00.",
+   "The period of performance will begin 02 November 2026."
+  ]
+ },
+ "fit": {
+  "notice_id": "4585b18bf9e745259b0be3e0289555c1",
+  "fit_score": 0.1,
+  "matched_past_performance": [
+   "Custodial services, Oklahoma City Federal Building",
+   "Janitorial, state office complex",
+   "Housekeeping support, outpatient clinic"
+  ],
+  "strengths": [
+   "NAICS 561720 exact match — janitorial services",
+   "WOSB/small business eligible for Total Small Business set-aside",
+   "Relevant federal janitorial past performance (GSA, VA)",
+   "CIMS-GB certified, green cleaning program, CMMS-based QC — strong technical posture"
+  ],
+  "gaps": [
+   "[rc-distance] Places of performance (IL, IN, KY, MI, OH) are all well over 200 miles from Oklahoma City, OK — owner rule rc-distance prohibits this bid",
+   "No requirements were extracted for this notice — no line-by-line compliance assessment is possible",
+   "No past performance in the five-state Midwest region (IL, IN, KY, MI, OH)",
+   "Workforce of 38 W-2 employees may be insufficient to staff a $20M MATOC across five states"
+  ],
+  "matrix": []
+ },
+ "deadlines": {
+  "notice_id": "4585b18bf9e745259b0be3e0289555c1",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-08-27T13:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": "Begins 2026-11-02; one (1) year base plus four (4) one (1) year option periods per IDIQ contract.",
+   "source_quotes": [
+    "The period of performance will begin 02 November 2026.",
+    "Each IDIQ contract will include a one (1) year base and four (4) one (1) year option periods."
+   ]
+  },
+  "days_to_close": -17.73905128633102,
+  "set_aside_note": "Set-aside is \"Small Business Set Aside - Total.\" The firm (Red Cedar Facility Services) lists \"total small business\" among the set-asides it can claim (via its SBA eligibility), so the firm IS eligible for this set-aside.",
+  "amendment_note": "no amendment",
+  "calendar_entries": [
+   {
+    "title": "Period of Performance Start",
+    "date": "2026-11-02",
+    "note": "MATOC period of performance begins 02 November 2026.",
+    "source_quote": "The period of performance will begin 02 November 2026."
+   }
+  ]
+ },
+ "model_calls": 5,
+ "tokens_in": 19326,
+ "tokens_out": 6140,
+ "seconds": 43.67,
+ "produced_at": "2026-09-14T05:44:57.697273-05:00"
+}

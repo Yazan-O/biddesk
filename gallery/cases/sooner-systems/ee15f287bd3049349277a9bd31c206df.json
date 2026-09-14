@@ -1,0 +1,853 @@
+{
+ "notice_id": "ee15f287bd3049349277a9bd31c206df",
+ "firm_slug": "sooner-systems",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:53:38-05:00",
+ "evidence_basis": null,
+ "days_to_close": 16.39529873023148,
+ "closed": false,
+ "response_kind": "RFI response (capability statement, not a proposal)",
+ "card": {
+  "notice_id": "ee15f287bd3049349277a9bd31c206df",
+  "firm_slug": "sooner-systems",
+  "situation": "Sources Sought RFI for AFLCMC AEROS — comprehensive 24/7/365 functional and technical operations support for Air Mobility Command's Rapid Global Mobility C2 system portfolio, including legacy and next-gen applications, mission partner data feeds, and on-site support at a designated Government facility. Reached the owner because Sooner Systems is a Total Small Business under NAICS 541512 (exact match), holds Security+/IAT Level II certifications, and operates a 24x7 NOC — triggering multiple partial matches against core requirements.",
+  "recommendation": "bid",
+  "reasons_for": [
+   "Firm's 24x7 NOC in Norman, OK and Tier 1–3 help desk capability directly address the round-the-clock functional and technical operations support desk requirement [ee15f287-d29cc445-p3-d7784e6a].",
+   "Security+ held across the bench satisfies the DoDD 8140.01 IAT Level II certification mandate for all technical support desk personnel [ee15f287-d29cc445-p6-d5a34af5].",
+   "Two qualifying past-performance records (Army Corps help desk; FAA cybersecurity) demonstrate relevant IT operations and government-system-interaction experience that can be highlighted in the capability statement [profile: past performance, IT help desk and desktop support | US Army Corps of Engineers, Tulsa District]."
+  ],
+  "reasons_against": [
+   "No SMEs with AFTRANS, AMC, or Air Force C2 operational domain knowledge are documented, leaving a hard gap against the requirement for SMEs who understand the operational intent behind the tasks [ee15f287-d29cc445-p2-8eda4cba].",
+   "Firm's NOC is in Norman, OK with no evidence of on-site presence at a designated Government facility (Scott AFB, IL), requiring new investment to meet the on-site support desk mandate [ee15f287-d29cc445-p3-d7784e6a].",
+   "No experience with MAF C2 development team coordination, change management processes, or mission partner data feeds is documented, representing critical scope gaps for this enterprise C2 program [ee15f287-d29cc445-p5-ebdb9233]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-09-28",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-09-30T17:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": null,
+   "source_quotes": [
+    "Questions pertaining to this RFI shall be submitted no later than 5:00PM ET on",
+    "Responses to this RFI shall be submitted no later than 5:00PM ET on Wednesday 30 September 2026."
+   ]
+  },
+  "fit_score": 0.5588,
+  "matrix_summary": "10 of 35 requirements met, 18 partial, 6 gap, 1 unknown",
+  "evidence_link": "https://sam.gov/opp/ee15f287bd3049349277a9bd31c206df/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "ee15f287-fa83f9be-p3-7c1dbf85",
+   "quote": "Responses to this RFI shall be submitted no later than 5:00PM ET on Wednesday 30 September 2026.",
+   "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+   "page": 3,
+   "firm_answer": "16.4 days remain to deadline; firm can comply with submission timeline.",
+   "status": "meets",
+   "evidence": "No profile constraint prevents timely submission; deadline is administratively achievable."
+  },
+  {
+   "requirement_id": "ee15f287-fa83f9be-p3-908a0d8e",
+   "quote": "All submittals must be unclassified.",
+   "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+   "page": 3,
+   "firm_answer": "Firm will submit unclassified response only.",
+   "status": "meets",
+   "evidence": "Profile notes 22 cleared staff but RFI response itself is unclassified."
+  },
+  {
+   "requirement_id": "ee15f287-d29cc445-p2-a92f9b9c",
+   "quote": "T he Contractor shall provide comprehensive functional and technical operations support of critical command and control (C2) capabilities within a government-provided environment.",
+   "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+   "page": 2,
+   "firm_answer": "Firm delivers Tier 1–3 help desk and technical operations support; however, no C2-specific or AFTRANS application experience is documented in the profile.",
+   "status": "partial",
+   "evidence": "IT help desk and desktop support | customer US Army Corps of Engineers — covers functional/technical help desk; gap is C2/AFTRANS domain expertise."
+  },
+  {
+   "requirement_id": "ee15f287-d29cc445-p2-c5eae99c",
+   "quote": "1.2 Scope and Shared Responsibility Model The Contractor shall provide 24/7/365 support focused on the System Portfolio applications, all supporting environment components, and the mission partner data feeds that are critical to the operational capabilities within the System Portfolio architecture.",
+   "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+   "page": 2,
+   "firm_answer": "Firm operates a 24x7 NOC in Norman, OK. No evidence of supporting mission partner data feeds or a multi-application DoD system portfolio.",
+   "status": "partial",
+   "evidence": "Capabilities statement: '24x7 NOC in Norman, OK.' Gap: no mission partner data feed or DoD system portfolio experience documented."
+  },
+  {
+   "requirement_id": "ee15f287-d29cc445-p3-d7784e6a",
+   "quote": "2.1.3 The Contractor shall establish and sustain a 24/7/365 Support Desk at designated Government facility that provides functional and technical operations support services for the System Portfolio applications.",
+   "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+   "page": 3,
+   "firm_answer": "Firm has a 24x7 NOC but it is located in Norman, OK, not at a designated Government facility (Scott AFB, IL). Establishing on-site presence would require new investment.",
+   "status": "partial",
+   "evidence": "Capabilities: '24x7 NOC in Norman, OK.' Gap: NOC is not at a designated Government facility as required."
+  },
+  {
+   "requirement_id": "ee15f287-d29cc445-p2-6c065b78",
+   "quote": "This distributed user base dictates that the vendor support model must be capable of supporting both centralized global strategic planning and decentralized, theater-specific tactical execution across all time zones.",
+   "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+   "page": 2,
+   "firm_answer": "Firm's 24x7 NOC supports all-hours coverage, but no evidence of global/theater-level C2 support model or multi-time-zone distributed user base experience.",
+   "status": "partial",
+   "evidence": "Capabilities: '24x7 NOC in Norman, OK.' Gap: no documented global/theater C2 support model."
+  },
+  {
+   "requirement_id": "ee15f287-d29cc445-p2-7a0e4ebc",
+   "quote": "Consequently, the Operations Support Desk (OSD) must be proficient in high -severity triage and immediate escalation protocols that account for both global and regional mission priorities.",
+   "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+   "page": 2,
+   "firm_answer": "Firm has ITIL 4 across the bench and Tier 1–3 escalation capability; no evidence of high-severity triage for global/regional C2 mission priorities specifically.",
+   "status": "partial",
+   "evidence": "Capabilities: 'ITIL 4 and Security+ across the bench'; IT help desk past performance includes tier 1, tier 2 escalation. Gap: no C2 mission-priority triage experience documented."
+  },
+  {
+   "requirement_id": "ee15f287-d29cc445-p2-8eda4cba",
+   "quote": "The Contractor must provide Subject Matter Experts (SMEs) who understand not just the software, but the operational intent behind the tasks.",
+   "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+   "page": 2,
+   "firm_answer": "Firm has IT SMEs with ITIL 4 and cybersecurity expertise; no evidence of SMEs with AFTRANS or Air Mobility Command operational domain knowledge.",
+   "status": "gap",
+   "evidence": "No past performance or capability statement references AFTRANS, AMC, or Air Force C2 operational intent."
+  },
+  {
+   "requirement_id": "ee15f287-fa83f9be-p2-4a13912e",
+   "quote": "The Contractor must provide Subject Matter Experts (SMEs) who understand not just the software, but the operational intent behind the tasks.",
+   "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+   "page": 2,
+   "firm_answer": "Same gap as above — no AFTRANS/AMC/C2 operational domain SMEs documented in profile.",
+   "status": "gap",
+   "evidence": "No capability or past performance entry references Air Force transportation or C2 operational domain expertise."
+  },
+  {
+   "requirement_id": "ee15f287-d29cc445-p3-a62bf893",
+   "quote": "The Contractor will provide functional SMEs to interac t with the System Portfolio application users world-wide to resolve functional issues in an expedite manner.",
+   "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+   "page": 3,
+   "firm_answer": "Firm provides Tier 1–3 help desk with end-user interaction; no evidence of worldwide user base support or AFTRANS System Portfolio application functional expertise.",
+   "status": "partial",
+   "evidence": "IT help desk and desktop support | US Army Corps of Engineers — end user support documented. Gap: no worldwide user base or AFTRANS application functional SME experience."
+  },
+  {
+   "requirement_id": "ee15f287-d29cc445-p3-b1d20638",
+   "quote": "The Contractor shall provide technical SMEs that will monitor the System Portfolio applications and supporting environment components in all production environments.",
+   "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+   "page": 3,
+   "firm_answer": "Firm has network/systems administration and NOC monitoring capability; no evidence of monitoring AFTRANS or DoD C2 system portfolio applications across multiple production environments.",
+   "status": "partial",
+   "evidence": "Network administration and cybersecurity support | FAA Mike Monroney — monitoring/SOC experience. Gap: no DoD C2 multi-environment application monitoring documented."
+  },
+  {
+   "requirement_id": "ee15f287-d29cc445-p3-b5a4386f",
+   "quote": "2.1 General Requirements The Contractor shall maintain and update Support Desk Standard Operating Procedures (SOP) to reflect environment-native processes and triage responsibilities (CDRL A025).",
+   "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+   "page": 3,
+   "firm_answer": "Firm's ITIL 4 framework supports SOP development and maintenance; no evidence of CDRL deliverable experience or environment-native DoD C2 SOP authorship.",
+   "status": "partial",
+   "evidence": "Capabilities: 'ITIL 4 and Security+ across the bench.' Gap: no CDRL documentation experience cited in profile."
+  },
+  {
+   "requirement_id": "ee15f287-d29cc445-p3-1e1943b6",
+   "quote": "2.1.1 The Contractor shall support the migration and continuous modernization of systems supporting the capabilities within the government provided environment.",
+   "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+   "page": 3,
+   "firm_answer": "Firm has Microsoft 365 migration experience (Oklahoma National Guard); no evidence of supporting legacy-to-next-gen DoD C2 system modernization.",
+   "status": "partial",
+   "evidence": "Systems administration and Microsoft 365 migration | Oklahoma National Guard — migration experience. Gap: no DoD C2 legacy/next-gen modernization documented."
+  },
+  {
+   "requirement_id": "ee15f287-d29cc445-p3-81f4a1a8",
+   "quote": "2.1.2 The Contractor shall utilize procedures provided by the application developers to monitor, troubleshoot, and sustain the operational System Portfolio applications.",
+   "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+   "page": 3,
+   "firm_answer": "Firm has troubleshooting and monitoring capability; no evidence of working from developer-provided procedures for a DoD C2 system portfolio.",
+   "status": "partial",
+   "evidence": "IT help desk and desktop support | US Army Corps of Engineers — troubleshooting documented. Gap: no developer-procedure-driven C2 application sustainment experience."
+  },
+  {
+   "requirement_id": "ee15f287-d29cc445-p6-88650d61",
+   "quote": "2.3.4.1 The Contractor shall provide account management services executed via modern, government -approved Identity and Access Management (IAM) tools and processes.",
+   "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+   "page": 6,
+   "firm_answer": "Firm has Active Directory and Microsoft 365 administration experience; no specific government-approved IAM tool experience (e.g., SailPoint, Okta FedRAMP) documented.",
+   "status": "partial",
+   "evidence": "Systems administration and Microsoft 365 migration | Oklahoma National Guard — Active Directory cited. Gap: no government-approved IAM toolset experience documented."
+  },
+  {
+   "requirement_id": "ee15f287-d29cc445-p6-f1325f5f",
+   "quote": "2.4.2 Application & Data Platform Management The Contractor shall monitor the operational System Portfolio applications and all related Environment services (e.g.",
+   "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+   "page": 6,
+   "firm_answer": "Firm has NOC monitoring and network administration; no evidence of application and data platform management for a DoD C2 system portfolio.",
+   "status": "partial",
+   "evidence": "Network administration and cybersecurity support | FAA Mike Monroney — monitoring/SOC. Gap: no DoD application/data platform management documented."
+  },
+  {
+   "requirement_id": "ee15f287-d29cc445-p2-553aadb9",
+   "quote": "A successful vendor must implement robus t training pipelines to ensure their staff remains proficient in these unique interfaces.",
+   "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+   "page": 2,
+   "firm_answer": "Firm maintains ITIL 4 and Security+ certifications across the bench, indicating a training culture; no evidence of formal training pipelines for proprietary DoD C2 interfaces.",
+   "status": "partial",
+   "evidence": "Capabilities: 'ITIL 4 and Security+ across the bench.' Gap: no documented training pipeline for unique/proprietary government system interfaces."
+  },
+  {
+   "requirement_id": "ee15f287-d29cc445-p2-952e3551",
+   "quote": "These SMEs must grasp the distinct nuances between enterpriselevel global management and the rapid, theater -specific agility requ ired by personnel coordinating intra-theater operations.",
+   "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+   "page": 2,
+   "firm_answer": "No evidence in profile of SMEs with enterprise-level global management or theater-specific intra-theater operations experience.",
+   "status": "gap",
+   "evidence": "No past performance or capability statement references global enterprise C2 management or theater-level operations support."
+  },
+  {
+   "requirement_id": "ee15f287-d29cc445-p3-1d3fc7d1",
+   "quote": "The Support Desk shall be staffed with both funct ional and technical SMEs that are able to support the complex System Portfolio applications and the interaction with mission partners.",
+   "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+   "page": 3,
+   "firm_answer": "Firm has functional (help desk) and technical (network/cyber) staff; no evidence of SMEs experienced with AFTRANS System Portfolio applications or DoD mission partner interaction.",
+   "status": "partial",
+   "evidence": "IT help desk and desktop support | US Army Corps of Engineers; Network administration and cybersecurity support | FAA. Gap: no AFTRANS/mission partner SME experience."
+  },
+  {
+   "requirement_id": "ee15f287-d29cc445-p4-0545092f",
+   "quote": "Contractor personnel are required to accomplish tasks designated as Mission Essential Personnel shall report to assigned work locations and perform required tasks, regardless of weather or security conditions.",
+   "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+   "page": 4,
+   "firm_answer": "No Mission Essential Personnel (MEP) program or continuity-of-operations posture is documented in the firm profile.",
+   "status": "unknown",
+   "evidence": "Profile is silent on MEP designation, COOP plans, or on-site reporting obligations at government facilities."
+  },
+  {
+   "requirement_id": "ee15f287-d29cc445-p6-d5a34af5",
+   "quote": "2.4.1.3 Technical support desk personnel shall possess relevant, current DODD 8140.01 compliant certifications (e.g., Sec+) and maintain IAT Level II certification.",
+   "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+   "page": 6,
+   "firm_answer": "Firm explicitly holds Security+ across the bench, which is a DoDD 8140.01 IAT Level II compliant certification.",
+   "status": "meets",
+   "evidence": "Capabilities: 'ITIL 4 and Security+ across the bench' — Security+ satisfies DoDD 8140.01 IAT Level II requirement."
+  },
+  {
+   "requirement_id": "ee15f287-fa83f9be-p2-724ad027",
+   "quote": "A successful contractor must implement robust training pipelines to ensure their staff remain proficient in these unique and often proprietary interfaces.",
+   "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+   "page": 2,
+   "firm_answer": "Firm maintains certifications (ITIL 4, Security+) indicating ongoing training; no documented training pipeline for proprietary AFTRANS/C2 interfaces.",
+   "status": "partial",
+   "evidence": "Capabilities: 'ITIL 4 and Security+ across the bench.' Gap: no proprietary interface training pipeline documented."
+  },
+  {
+   "requirement_id": "ee15f287-fa83f9be-p2-db8f6f36",
+   "quote": "These SMEs must grasp the distinct nuances between enterprise -level global management and the rapid, theater-specific agility required by personnel coordinating intra-theater operations.",
+   "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+   "page": 2,
+   "firm_answer": "No evidence of SMEs with enterprise-level global C2 management or theater-specific agility experience in the firm profile.",
+   "status": "gap",
+   "evidence": "No past performance or capability statement references global enterprise management or intra-theater operations coordination."
+  },
+  {
+   "requirement_id": "ee15f287-fa83f9be-p1-0c92f9fd",
+   "quote": "To effectively support the Joint Force, the Mobility Air Forces ( MAF) must globally command, control, and collaborate, navigate in degraded or operationally limited environments, conduct enroute logistics while under attack, and operate at the highest required tempo.",
+   "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+   "page": 1,
+   "firm_answer": "Firm has no documented experience supporting MAF, joint force C2, degraded environment operations, or enroute logistics.",
+   "status": "gap",
+   "evidence": "No past performance or capability statement references joint force, MAF, or degraded/contested environment operations."
+  },
+  {
+   "requirement_id": "ee15f287-fa83f9be-p2-a2f1cb4e",
+   "quote": "This distributed user base dictates that the contractor support model must be capable of supporting both centralized global strategic planning and decentralized, theater -specific tactical execution across all time zones.",
+   "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+   "page": 2,
+   "firm_answer": "Firm's 24x7 NOC provides all-hours coverage; no evidence of a support model designed for global strategic/theater-tactical distributed user bases.",
+   "status": "partial",
+   "evidence": "Capabilities: '24x7 NOC in Norman, OK.' Gap: no global/theater distributed support model documented."
+  },
+  {
+   "requirement_id": "ee15f287-fa83f9be-p2-cf427cb0",
+   "quote": "Consequently, the Functional Help Desk must be proficient in high -severity triage and immediate escalation protocols that account for both global and regional missio n priorities.",
+   "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+   "page": 2,
+   "firm_answer": "Firm has ITIL 4-based escalation and Tier 1–3 help desk; no evidence of high-severity triage for global/regional C2 mission priorities.",
+   "status": "partial",
+   "evidence": "IT help desk and desktop support | US Army Corps of Engineers — tier 1, tier 2 escalation. Gap: no global/regional C2 mission-priority triage experience."
+  },
+  {
+   "requirement_id": "ee15f287-fa83f9be-p5-8114be0e",
+   "quote": "Functional: F1) What is your experience in operational support of other developer solutions that must interact with a complex ecosystem of external government systems? F2) Describe your organization's corporate str ucture and methodology for providing operational sustainment and support to programs containing classified data.",
+   "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+   "page": 5,
+   "firm_answer": "F1: Firm supported FAA systems interacting with government infrastructure; limited complex ecosystem experience. F2: Firm has 22 Secret-cleared staff, CMMC Level 2 self-assessed, and RMF/ATO documentation capability supporting classified-environment sustainment.",
+   "status": "partial",
+   "evidence": "Network administration and cybersecurity support | FAA Mike Monroney — government system interaction. Capabilities: '22 cleared staff (Secret), CMMC Level 2 self-assessed, RMF/ATO documentation.'"
+  },
+  {
+   "requirement_id": "ee15f287-d29cc445-p5-ebdb9233",
+   "quote": "All changes must be coordinated with the MAF C2 development team and documented using the approved MAF C2 change processes",
+   "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+   "page": 5,
+   "firm_answer": "No experience with MAF C2 development team coordination or MAF C2 change management processes documented in profile.",
+   "status": "gap",
+   "evidence": "No past performance or capability statement references MAF C2 change management or coordination with Air Force development teams."
+  },
+  {
+   "requirement_id": "ee15f287-fa83f9be-p3-d0a2abe3",
+   "quote": "1.3 Format Submissions shall be provided as either Microsoft Word (.docx) or Adobe Acrobat (.pdf).",
+   "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+   "page": 3,
+   "firm_answer": "Firm can produce submissions in .docx or .pdf format.",
+   "status": "meets",
+   "evidence": "Standard administrative requirement; Microsoft 365 capability noted in profile supports .docx production."
+  },
+  {
+   "requirement_id": "ee15f287-fa83f9be-p3-86989a4b",
+   "quote": "1.4 Cover Letter Responses shall include a cover page that provides the following information, at a minimum:",
+   "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+   "page": 3,
+   "firm_answer": "Firm can prepare a compliant cover page.",
+   "status": "meets",
+   "evidence": "Standard administrative requirement; no profile constraint prevents compliance."
+  },
+  {
+   "requirement_id": "ee15f287-fa83f9be-p3-3f72de6d",
+   "quote": "1.2 Contents Responses shall address all questions below and responses shall be organized in the same order that the questions are posed in.",
+   "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+   "page": 3,
+   "firm_answer": "Firm can organize response to match question order.",
+   "status": "meets",
+   "evidence": "Standard administrative requirement."
+  },
+  {
+   "requirement_id": "ee15f287-fa83f9be-p3-2fdbc0de",
+   "quote": "Submissions shall not include classified information.",
+   "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+   "page": 3,
+   "firm_answer": "Firm will submit unclassified content only.",
+   "status": "meets",
+   "evidence": "Standard administrative requirement; firm has cleared staff but RFI response is unclassified."
+  },
+  {
+   "requirement_id": "ee15f287-fa83f9be-p3-079b5db3",
+   "quote": "Responses shall use letter sized pages (8.5in by 11in) with a layout of at least 1in margins for the top, bottom, left, a nd right margins.",
+   "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+   "page": 3,
+   "firm_answer": "Firm can comply with page size and margin requirements.",
+   "status": "meets",
+   "evidence": "Standard administrative requirement."
+  },
+  {
+   "requirement_id": "ee15f287-fa83f9be-p3-6225517e",
+   "quote": "Responses shall not exceed 5 single -sided pages (excluding the cover page).",
+   "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+   "page": 3,
+   "firm_answer": "Firm can comply with 5-page limit.",
+   "status": "meets",
+   "evidence": "Standard administrative requirement."
+  },
+  {
+   "requirement_id": "ee15f287-fa83f9be-p3-b42d37d7",
+   "quote": "Responses shall not contain images, gifs, and/or other media.",
+   "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+   "page": 3,
+   "firm_answer": "Firm can produce a text-only response.",
+   "status": "meets",
+   "evidence": "Standard administrative requirement."
+  }
+ ],
+ "matrix_dropped": 3,
+ "matrix_dropped_rows": [
+  {
+   "requirement_id": "ee15f287-fa83f9be-p2-fa83f9be",
+   "quote": "All submittals must be unclassified.",
+   "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+   "page": 2,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "ee15f287-fa83f9be-p1-dd217126",
+   "quote": "AFLCMC C3BM OL-2 is executing Software Development Lifecyle Management for Air Mobility Command's (AMC) Rapid Global Mobility Command and Control (RGM C2) Program, that leverages technical solutions and practices for all Air Force Transportation (AFTRANS) operations.",
+   "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+   "page": 1,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "ee15f287-fa83f9be-p3-f0c65e50",
+   "quote": "Responses shall use a professional font (e.g., Times New Roman, Arial, Calibri, Aptos) with a font size no smaller than 11pts and line spacing no less than 1.0 (i.e. \"single - spaced\").",
+   "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+   "page": 3,
+   "reason": "not_verbatim"
+  }
+ ],
+ "fit_score_code": 0.5588,
+ "drafts": {
+  "capability_statement": "Sooner Systems LLC — Capability Statement\nAir Force Enterprise Rapid Operations Support (AEROS) | Notice ee15f287bd3049349277a9bd31c206df\n\nSooner Systems LLC is a Service-Disabled Veteran-Owned Small Business (SDVOSB) and SBA-recognized small business under NAICS 541512, fully eligible under the Total Small Business set-aside for AEROS.\n\nWe deliver Tier 1–3 functional and technical IT operations support from a 24x7 Network Operations Center (NOC) in Norman, OK, providing the always-on coverage model AEROS requires. Our help desk staff hold ITIL 4 certifications across the bench, enabling structured SOP development, incident triage, and escalation protocols aligned to high-severity operational environments. All technical support desk personnel hold CompTIA Security+, satisfying DoDD 8140.01 IAT Level II requirements.\n\nOur 22 Secret-cleared staff support classified-environment work, and our CMMC Level 2 self-assessed posture demonstrates a mature cybersecurity compliance foundation. RMF/ATO documentation experience supports government-provided environment compliance obligations.\n\nRelevant past performance includes:\n• IT Help Desk and Desktop Support — U.S. Army Corps of Engineers, Tulsa District (NAICS 541512, 2022–2025): Tier 1–2 service desk, ITIL-based ticketing, and end-user support.\n• Network Administration and Cybersecurity Support — FAA Mike Monroney Aeronautical Center (NAICS 541519, 2021–2024): NOC monitoring, RMF/ATO, SIEM/SOAR, incident response, and government-system interaction.\n\nSooner Systems is prepared to scale staffing, establish on-site presence at the designated Government facility, and develop AFTRANS-domain SME capability to meet AEROS requirements. We welcome the opportunity to discuss our fit with the AFLCMC C3BM OL-2 team.",
+  "questions_for_co": [
+   "Regarding the SME operational-domain requirement [ee15f287-d29cc445-p2-8eda4cba]: Will the Government consider offerors who propose a teaming or hiring plan to develop AFTRANS/AMC C2 operational domain expertise, or is demonstrated prior experience with Air Force C2 or AFTRANS applications a mandatory qualifier for award?",
+   "Regarding enterprise-level global management and theater-specific agility [ee15f287-d29cc445-p2-952e3551]: Can the Government describe the specific AFTRANS System Portfolio applications and mission partner interfaces that SMEs must be proficient in at contract start, versus those for which on-the-job or government-provided training will be available during transition?",
+   "Regarding the on-site support desk requirement [ee15f287-d29cc445-p3-d7784e6a]: Is the designated Government facility exclusively Scott AFB, IL, or will the Government consider a hybrid model that combines an on-site presence with a contractor-operated remote NOC for after-hours or surge coverage?",
+   "Regarding Mission Essential Personnel (MEP) designation [ee15f287-d29cc445-p4-0545092f]: How many contractor positions are anticipated to carry MEP designation, and will the Government provide facility access, billeting, or other support to MEP personnel required to report during weather or security events?",
+   "Regarding MAF C2 change management coordination [ee15f187-d29cc445-p5-ebdb9233]: Will the Government provide access to existing MAF C2 change management process documentation and the MAF C2 development team during the transition period, and is familiarity with those processes expected at proposal submission or achievable through post-award onboarding?",
+   "Regarding contract size and scope: Can the Government share an anticipated period of performance, estimated contract value range, or number of FTE positions envisioned, to help small businesses assess whether teaming arrangements are appropriate for AEROS?"
+  ],
+  "calendar_entries": [
+   {
+    "title": "Questions Due",
+    "date": "INCOMPLETE — date not provided in text",
+    "note": "The questions-due sentence is truncated in the source document; no specific date is given. Do not submit questions without confirming the actual deadline from the posted solicitation on SAM.gov.",
+    "source_quote": "Questions pertaining to this RFI shall be submitted no later than 5:00PM ET on"
+   },
+   {
+    "title": "RFI Response Due",
+    "date": "2026-09-30",
+    "note": "RFI responses due by 5:00 PM ET. This is the hard submission deadline.",
+    "source_quote": "Responses to this RFI shall be submitted no later than 5:00PM ET on Wednesday 30 September 2026."
+   },
+   {
+    "title": "Decide By (internal)",
+    "date": "2026-09-28",
+    "note": "Internal go/no-go decision deadline — two business days before the RFI response due date of 2026-09-30 (Wednesday). Two business days prior lands on Monday 2026-09-28.",
+    "source_quote": "Responses to this RFI shall be submitted no later than 5:00PM ET on Wednesday 30 September 2026."
+   }
+  ]
+ },
+ "reader": {
+  "notice_id": "ee15f287bd3049349277a9bd31c206df",
+  "key_requirement_ids": [
+   "ee15f287-d29cc445-p2-c5eae99c",
+   "ee15f287-d29cc445-p3-d7784e6a",
+   "ee15f287-d29cc445-p3-1d3fc7d1",
+   "ee15f287-d29cc445-p6-d5a34af5",
+   "ee15f287-d29cc445-p2-8eda4cba",
+   "ee15f287-d29cc445-p2-6c065b78",
+   "ee15f287-d29cc445-p2-7a0e4ebc",
+   "ee15f287-d29cc445-p2-952e3551",
+   "ee15f287-d29cc445-p2-553aadb9",
+   "ee15f287-d29cc445-p3-b1d20638",
+   "ee15f287-d29cc445-p3-a62bf893",
+   "ee15f287-d29cc445-p3-81f4a1a8",
+   "ee15f287-d29cc445-p3-1e1943b6",
+   "ee15f287-d29cc445-p6-88650d61",
+   "ee15f287-d29cc445-p4-0545092f",
+   "ee15f287-fa83f9be-p5-8114be0e",
+   "ee15f287-fa83f9be-p2-724ad027",
+   "ee15f287-fa83f9be-p3-7c1dbf85",
+   "ee15f287-fa83f9be-p3-908a0d8e",
+   "ee15f287-fa83f9be-p3-3f72de6d",
+   "ee15f287-fa83f9be-p3-6225517e",
+   "ee15f287-fa83f9be-p3-2fdbc0de",
+   "ee15f287-fa83f9be-p2-db8f6f36",
+   "ee15f287-fa83f9be-p2-cf427cb0",
+   "ee15f287-d29cc445-p5-ebdb9233"
+  ],
+  "scope_summary": "AFLCMC C3BM OL-2 is executing Software Development Lifecyle Management for Air Mobility Command's (AMC) Rapid Global Mobility Command and Control (RGM C2) Program, that leverages technical solutions and practices for all Air Force Transportation (AFTRANS) operations. The Contractor shall provide comprehensive functional and technical operations support of critical command and control (C2) capabilities within a government-provided environment, including 24/7/365 support focused on the System Portfolio applications, all supporting environment components, and the mission partner data feeds that are critical to the operational capabilities within the System Portfolio architecture. The support model must be capable of supporting both centralized global strategic planning and decentralized, theater-specific tactical execution across all time zones, covering both legacy and Next Generation modernized system portfolio applications.",
+  "evaluation_basis": "not stated",
+  "incumbent_or_history": "none found",
+  "quotes": [
+   "The Contractor shall establish and sustain a 24/7/365 Support Desk at designated Government facility that provides functional and technical operations support services for the System Portfolio applications.",
+   "The Support Desk shall be staffed with both funct ional and technical SMEs that are able to support the complex System Portfolio applications and the interaction with mission partners.",
+   "Technical support desk personnel shall possess relevant, current DODD 8140.01 compliant certifications (e.g., Sec+) and maintain IAT Level II certification.",
+   "The Contractor must provide Subject Matter Experts (SMEs) who understand not just the software, but the operational intent behind the tasks.",
+   "This distributed user base dictates that the vendor support model must be capable of supporting both centralized global strategic planning and decentralized, theater-specific tactical execution across all time zones.",
+   "Consequently, the Operations Support Desk (OSD) must be proficient in high -severity triage and immediate escalation protocols that account for both global and regional mission priorities.",
+   "A successful vendor must implement robus t training pipelines to ensure their staff remains proficient in these unique interfaces.",
+   "The Contractor shall support the migration and continuous modernization of systems supporting the capabilities within the government provided environment.",
+   "The solicitation is anticipated to be posted during the first quarter of the 2027 calendar year.",
+   "Responses to this RFI shall be submitted no later than 5:00PM ET on Wednesday 30 September 2026.",
+   "All submittals must be unclassified.",
+   "Responses shall not exceed 5 single -sided pages (excluding the cover page)."
+  ]
+ },
+ "fit": {
+  "notice_id": "ee15f287bd3049349277a9bd31c206df",
+  "fit_score": 0.62,
+  "matched_past_performance": [
+   "IT help desk and desktop support | customer US Army Corps of Engineers, Tulsa District | naics 541512 | 2100000 USD | 2022-2025 | keywords: help desk, desktop, tier 1, tier 2, service desk, ITIL, ticketing, end user, information technology, IT services, IT support",
+   "Network administration and cybersecurity support | customer FAA Mike Monroney Aeronautical Center | naics 541519 | 1650000 USD | 2021-2024 | keywords: network, cybersecurity, cyber, security, SOC, SIEM, SOAR, incident response, RMF, ATO, vulnerability, ACAS, STIG, firewall, ISSO"
+  ],
+  "strengths": [
+   "SDVOSB and Total Small Business eligible — matches set-aside",
+   "NAICS 541512 is primary NAICS — exact match",
+   "24x7 NOC in Norman, OK directly supports 24/7/365 support desk requirement",
+   "ITIL 4 across the bench aligns with structured help desk / SOP requirements",
+   "Security+ / IAT Level II certifications meet DoDD 8140.01 staffing requirement",
+   "22 cleared staff (Secret) supports classified-environment work",
+   "CMMC Level 2 self-assessed supports cybersecurity compliance posture",
+   "Two qualifying past-performance records (Army Corps help desk; FAA cybersecurity) satisfy owner rule ss-pp",
+   "Tier 1–3 help desk capability maps directly to functional and technical OSD scope",
+   "RMF/ATO documentation experience relevant to government-provided environment compliance"
+  ],
+  "gaps": [
+   "No demonstrated experience with Air Force / DoD C2 or AFTRANS-specific applications",
+   "No evidence of SMEs proficient in enterprise-level global C2 or theater-specific tactical execution",
+   "No experience supporting classified mission partner data feeds or C2 system portfolios",
+   "No evidence of on-site presence at Scott AFB or designated Government facility (NOC is in Norman, OK)",
+   "No demonstrated experience with Identity and Access Management (IAM) tools in a DoD context",
+   "No evidence of application/data platform monitoring for complex multi-environment DoD portfolios",
+   "No evidence of supporting migration/modernization of legacy-to-next-gen DoD system portfolios",
+   "No evidence of Mission Essential Personnel (MEP) program or continuity-of-operations posture",
+   "No demonstrated experience coordinating with MAF C2 development teams or change management processes",
+   "Firm size ($2.1M largest contract) may be small relative to enterprise-scale AEROS requirement"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "ee15f287-fa83f9be-p3-7c1dbf85",
+    "quote": "Responses to this RFI shall be submitted no later than 5:00PM ET on Wednesday 30 September 2026.",
+    "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+    "page": 3,
+    "firm_answer": "16.4 days remain to deadline; firm can comply with submission timeline.",
+    "status": "meets",
+    "evidence": "No profile constraint prevents timely submission; deadline is administratively achievable."
+   },
+   {
+    "requirement_id": "ee15f287-fa83f9be-p3-908a0d8e",
+    "quote": "All submittals must be unclassified.",
+    "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+    "page": 3,
+    "firm_answer": "Firm will submit unclassified response only.",
+    "status": "meets",
+    "evidence": "Profile notes 22 cleared staff but RFI response itself is unclassified."
+   },
+   {
+    "requirement_id": "ee15f287-d29cc445-p2-a92f9b9c",
+    "quote": "T he Contractor shall provide comprehensive functional and technical operations support of critical command and control (C2) capabilities within a government-provided environment.",
+    "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+    "page": 2,
+    "firm_answer": "Firm delivers Tier 1–3 help desk and technical operations support; however, no C2-specific or AFTRANS application experience is documented in the profile.",
+    "status": "partial",
+    "evidence": "IT help desk and desktop support | customer US Army Corps of Engineers — covers functional/technical help desk; gap is C2/AFTRANS domain expertise."
+   },
+   {
+    "requirement_id": "ee15f287-d29cc445-p2-c5eae99c",
+    "quote": "1.2 Scope and Shared Responsibility Model The Contractor shall provide 24/7/365 support focused on the System Portfolio applications, all supporting environment components, and the mission partner data feeds that are critical to the operational capabilities within the System Portfolio architecture.",
+    "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+    "page": 2,
+    "firm_answer": "Firm operates a 24x7 NOC in Norman, OK. No evidence of supporting mission partner data feeds or a multi-application DoD system portfolio.",
+    "status": "partial",
+    "evidence": "Capabilities statement: '24x7 NOC in Norman, OK.' Gap: no mission partner data feed or DoD system portfolio experience documented."
+   },
+   {
+    "requirement_id": "ee15f287-d29cc445-p3-d7784e6a",
+    "quote": "2.1.3 The Contractor shall establish and sustain a 24/7/365 Support Desk at designated Government facility that provides functional and technical operations support services for the System Portfolio applications.",
+    "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+    "page": 3,
+    "firm_answer": "Firm has a 24x7 NOC but it is located in Norman, OK, not at a designated Government facility (Scott AFB, IL). Establishing on-site presence would require new investment.",
+    "status": "partial",
+    "evidence": "Capabilities: '24x7 NOC in Norman, OK.' Gap: NOC is not at a designated Government facility as required."
+   },
+   {
+    "requirement_id": "ee15f287-d29cc445-p2-6c065b78",
+    "quote": "This distributed user base dictates that the vendor support model must be capable of supporting both centralized global strategic planning and decentralized, theater-specific tactical execution across all time zones.",
+    "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+    "page": 2,
+    "firm_answer": "Firm's 24x7 NOC supports all-hours coverage, but no evidence of global/theater-level C2 support model or multi-time-zone distributed user base experience.",
+    "status": "partial",
+    "evidence": "Capabilities: '24x7 NOC in Norman, OK.' Gap: no documented global/theater C2 support model."
+   },
+   {
+    "requirement_id": "ee15f287-d29cc445-p2-7a0e4ebc",
+    "quote": "Consequently, the Operations Support Desk (OSD) must be proficient in high -severity triage and immediate escalation protocols that account for both global and regional mission priorities.",
+    "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+    "page": 2,
+    "firm_answer": "Firm has ITIL 4 across the bench and Tier 1–3 escalation capability; no evidence of high-severity triage for global/regional C2 mission priorities specifically.",
+    "status": "partial",
+    "evidence": "Capabilities: 'ITIL 4 and Security+ across the bench'; IT help desk past performance includes tier 1, tier 2 escalation. Gap: no C2 mission-priority triage experience documented."
+   },
+   {
+    "requirement_id": "ee15f287-d29cc445-p2-8eda4cba",
+    "quote": "The Contractor must provide Subject Matter Experts (SMEs) who understand not just the software, but the operational intent behind the tasks.",
+    "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+    "page": 2,
+    "firm_answer": "Firm has IT SMEs with ITIL 4 and cybersecurity expertise; no evidence of SMEs with AFTRANS or Air Mobility Command operational domain knowledge.",
+    "status": "gap",
+    "evidence": "No past performance or capability statement references AFTRANS, AMC, or Air Force C2 operational intent."
+   },
+   {
+    "requirement_id": "ee15f287-fa83f9be-p2-4a13912e",
+    "quote": "The Contractor must provide Subject Matter Experts (SMEs) who understand not just the software, but the operational intent behind the tasks.",
+    "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+    "page": 2,
+    "firm_answer": "Same gap as above — no AFTRANS/AMC/C2 operational domain SMEs documented in profile.",
+    "status": "gap",
+    "evidence": "No capability or past performance entry references Air Force transportation or C2 operational domain expertise."
+   },
+   {
+    "requirement_id": "ee15f287-d29cc445-p3-a62bf893",
+    "quote": "The Contractor will provide functional SMEs to interac t with the System Portfolio application users world-wide to resolve functional issues in an expedite manner.",
+    "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+    "page": 3,
+    "firm_answer": "Firm provides Tier 1–3 help desk with end-user interaction; no evidence of worldwide user base support or AFTRANS System Portfolio application functional expertise.",
+    "status": "partial",
+    "evidence": "IT help desk and desktop support | US Army Corps of Engineers — end user support documented. Gap: no worldwide user base or AFTRANS application functional SME experience."
+   },
+   {
+    "requirement_id": "ee15f287-d29cc445-p3-b1d20638",
+    "quote": "The Contractor shall provide technical SMEs that will monitor the System Portfolio applications and supporting environment components in all production environments.",
+    "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+    "page": 3,
+    "firm_answer": "Firm has network/systems administration and NOC monitoring capability; no evidence of monitoring AFTRANS or DoD C2 system portfolio applications across multiple production environments.",
+    "status": "partial",
+    "evidence": "Network administration and cybersecurity support | FAA Mike Monroney — monitoring/SOC experience. Gap: no DoD C2 multi-environment application monitoring documented."
+   },
+   {
+    "requirement_id": "ee15f287-d29cc445-p3-b5a4386f",
+    "quote": "2.1 General Requirements The Contractor shall maintain and update Support Desk Standard Operating Procedures (SOP) to reflect environment-native processes and triage responsibilities (CDRL A025).",
+    "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+    "page": 3,
+    "firm_answer": "Firm's ITIL 4 framework supports SOP development and maintenance; no evidence of CDRL deliverable experience or environment-native DoD C2 SOP authorship.",
+    "status": "partial",
+    "evidence": "Capabilities: 'ITIL 4 and Security+ across the bench.' Gap: no CDRL documentation experience cited in profile."
+   },
+   {
+    "requirement_id": "ee15f287-d29cc445-p3-1e1943b6",
+    "quote": "2.1.1 The Contractor shall support the migration and continuous modernization of systems supporting the capabilities within the government provided environment.",
+    "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+    "page": 3,
+    "firm_answer": "Firm has Microsoft 365 migration experience (Oklahoma National Guard); no evidence of supporting legacy-to-next-gen DoD C2 system modernization.",
+    "status": "partial",
+    "evidence": "Systems administration and Microsoft 365 migration | Oklahoma National Guard — migration experience. Gap: no DoD C2 legacy/next-gen modernization documented."
+   },
+   {
+    "requirement_id": "ee15f287-d29cc445-p3-81f4a1a8",
+    "quote": "2.1.2 The Contractor shall utilize procedures provided by the application developers to monitor, troubleshoot, and sustain the operational System Portfolio applications.",
+    "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+    "page": 3,
+    "firm_answer": "Firm has troubleshooting and monitoring capability; no evidence of working from developer-provided procedures for a DoD C2 system portfolio.",
+    "status": "partial",
+    "evidence": "IT help desk and desktop support | US Army Corps of Engineers — troubleshooting documented. Gap: no developer-procedure-driven C2 application sustainment experience."
+   },
+   {
+    "requirement_id": "ee15f287-d29cc445-p6-88650d61",
+    "quote": "2.3.4.1 The Contractor shall provide account management services executed via modern, government -approved Identity and Access Management (IAM) tools and processes.",
+    "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+    "page": 6,
+    "firm_answer": "Firm has Active Directory and Microsoft 365 administration experience; no specific government-approved IAM tool experience (e.g., SailPoint, Okta FedRAMP) documented.",
+    "status": "partial",
+    "evidence": "Systems administration and Microsoft 365 migration | Oklahoma National Guard — Active Directory cited. Gap: no government-approved IAM toolset experience documented."
+   },
+   {
+    "requirement_id": "ee15f287-d29cc445-p6-f1325f5f",
+    "quote": "2.4.2 Application & Data Platform Management The Contractor shall monitor the operational System Portfolio applications and all related Environment services (e.g.",
+    "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+    "page": 6,
+    "firm_answer": "Firm has NOC monitoring and network administration; no evidence of application and data platform management for a DoD C2 system portfolio.",
+    "status": "partial",
+    "evidence": "Network administration and cybersecurity support | FAA Mike Monroney — monitoring/SOC. Gap: no DoD application/data platform management documented."
+   },
+   {
+    "requirement_id": "ee15f287-d29cc445-p2-553aadb9",
+    "quote": "A successful vendor must implement robus t training pipelines to ensure their staff remains proficient in these unique interfaces.",
+    "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+    "page": 2,
+    "firm_answer": "Firm maintains ITIL 4 and Security+ certifications across the bench, indicating a training culture; no evidence of formal training pipelines for proprietary DoD C2 interfaces.",
+    "status": "partial",
+    "evidence": "Capabilities: 'ITIL 4 and Security+ across the bench.' Gap: no documented training pipeline for unique/proprietary government system interfaces."
+   },
+   {
+    "requirement_id": "ee15f287-d29cc445-p2-952e3551",
+    "quote": "These SMEs must grasp the distinct nuances between enterpriselevel global management and the rapid, theater -specific agility requ ired by personnel coordinating intra-theater operations.",
+    "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+    "page": 2,
+    "firm_answer": "No evidence in profile of SMEs with enterprise-level global management or theater-specific intra-theater operations experience.",
+    "status": "gap",
+    "evidence": "No past performance or capability statement references global enterprise C2 management or theater-level operations support."
+   },
+   {
+    "requirement_id": "ee15f287-d29cc445-p3-1d3fc7d1",
+    "quote": "The Support Desk shall be staffed with both funct ional and technical SMEs that are able to support the complex System Portfolio applications and the interaction with mission partners.",
+    "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+    "page": 3,
+    "firm_answer": "Firm has functional (help desk) and technical (network/cyber) staff; no evidence of SMEs experienced with AFTRANS System Portfolio applications or DoD mission partner interaction.",
+    "status": "partial",
+    "evidence": "IT help desk and desktop support | US Army Corps of Engineers; Network administration and cybersecurity support | FAA. Gap: no AFTRANS/mission partner SME experience."
+   },
+   {
+    "requirement_id": "ee15f287-d29cc445-p4-0545092f",
+    "quote": "Contractor personnel are required to accomplish tasks designated as Mission Essential Personnel shall report to assigned work locations and perform required tasks, regardless of weather or security conditions.",
+    "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+    "page": 4,
+    "firm_answer": "No Mission Essential Personnel (MEP) program or continuity-of-operations posture is documented in the firm profile.",
+    "status": "unknown",
+    "evidence": "Profile is silent on MEP designation, COOP plans, or on-site reporting obligations at government facilities."
+   },
+   {
+    "requirement_id": "ee15f287-d29cc445-p6-d5a34af5",
+    "quote": "2.4.1.3 Technical support desk personnel shall possess relevant, current DODD 8140.01 compliant certifications (e.g., Sec+) and maintain IAT Level II certification.",
+    "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+    "page": 6,
+    "firm_answer": "Firm explicitly holds Security+ across the bench, which is a DoDD 8140.01 IAT Level II compliant certification.",
+    "status": "meets",
+    "evidence": "Capabilities: 'ITIL 4 and Security+ across the bench' — Security+ satisfies DoDD 8140.01 IAT Level II requirement."
+   },
+   {
+    "requirement_id": "ee15f287-fa83f9be-p2-724ad027",
+    "quote": "A successful contractor must implement robust training pipelines to ensure their staff remain proficient in these unique and often proprietary interfaces.",
+    "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+    "page": 2,
+    "firm_answer": "Firm maintains certifications (ITIL 4, Security+) indicating ongoing training; no documented training pipeline for proprietary AFTRANS/C2 interfaces.",
+    "status": "partial",
+    "evidence": "Capabilities: 'ITIL 4 and Security+ across the bench.' Gap: no proprietary interface training pipeline documented."
+   },
+   {
+    "requirement_id": "ee15f287-fa83f9be-p2-db8f6f36",
+    "quote": "These SMEs must grasp the distinct nuances between enterprise -level global management and the rapid, theater-specific agility required by personnel coordinating intra-theater operations.",
+    "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+    "page": 2,
+    "firm_answer": "No evidence of SMEs with enterprise-level global C2 management or theater-specific agility experience in the firm profile.",
+    "status": "gap",
+    "evidence": "No past performance or capability statement references global enterprise management or intra-theater operations coordination."
+   },
+   {
+    "requirement_id": "ee15f287-fa83f9be-p1-0c92f9fd",
+    "quote": "To effectively support the Joint Force, the Mobility Air Forces ( MAF) must globally command, control, and collaborate, navigate in degraded or operationally limited environments, conduct enroute logistics while under attack, and operate at the highest required tempo.",
+    "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+    "page": 1,
+    "firm_answer": "Firm has no documented experience supporting MAF, joint force C2, degraded environment operations, or enroute logistics.",
+    "status": "gap",
+    "evidence": "No past performance or capability statement references joint force, MAF, or degraded/contested environment operations."
+   },
+   {
+    "requirement_id": "ee15f287-fa83f9be-p2-a2f1cb4e",
+    "quote": "This distributed user base dictates that the contractor support model must be capable of supporting both centralized global strategic planning and decentralized, theater -specific tactical execution across all time zones.",
+    "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+    "page": 2,
+    "firm_answer": "Firm's 24x7 NOC provides all-hours coverage; no evidence of a support model designed for global strategic/theater-tactical distributed user bases.",
+    "status": "partial",
+    "evidence": "Capabilities: '24x7 NOC in Norman, OK.' Gap: no global/theater distributed support model documented."
+   },
+   {
+    "requirement_id": "ee15f287-fa83f9be-p2-cf427cb0",
+    "quote": "Consequently, the Functional Help Desk must be proficient in high -severity triage and immediate escalation protocols that account for both global and regional missio n priorities.",
+    "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+    "page": 2,
+    "firm_answer": "Firm has ITIL 4-based escalation and Tier 1–3 help desk; no evidence of high-severity triage for global/regional C2 mission priorities.",
+    "status": "partial",
+    "evidence": "IT help desk and desktop support | US Army Corps of Engineers — tier 1, tier 2 escalation. Gap: no global/regional C2 mission-priority triage experience."
+   },
+   {
+    "requirement_id": "ee15f287-fa83f9be-p5-8114be0e",
+    "quote": "Functional: F1) What is your experience in operational support of other developer solutions that must interact with a complex ecosystem of external government systems? F2) Describe your organization's corporate str ucture and methodology for providing operational sustainment and support to programs containing classified data.",
+    "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+    "page": 5,
+    "firm_answer": "F1: Firm supported FAA systems interacting with government infrastructure; limited complex ecosystem experience. F2: Firm has 22 Secret-cleared staff, CMMC Level 2 self-assessed, and RMF/ATO documentation capability supporting classified-environment sustainment.",
+    "status": "partial",
+    "evidence": "Network administration and cybersecurity support | FAA Mike Monroney — government system interaction. Capabilities: '22 cleared staff (Secret), CMMC Level 2 self-assessed, RMF/ATO documentation.'"
+   },
+   {
+    "requirement_id": "ee15f287-d29cc445-p5-ebdb9233",
+    "quote": "All changes must be coordinated with the MAF C2 development team and documented using the approved MAF C2 change processes",
+    "source_file": "d29cc44563484c7e9f866ec9f7102f5b.pdf",
+    "page": 5,
+    "firm_answer": "No experience with MAF C2 development team coordination or MAF C2 change management processes documented in profile.",
+    "status": "gap",
+    "evidence": "No past performance or capability statement references MAF C2 change management or coordination with Air Force development teams."
+   },
+   {
+    "requirement_id": "ee15f287-fa83f9be-p3-d0a2abe3",
+    "quote": "1.3 Format Submissions shall be provided as either Microsoft Word (.docx) or Adobe Acrobat (.pdf).",
+    "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+    "page": 3,
+    "firm_answer": "Firm can produce submissions in .docx or .pdf format.",
+    "status": "meets",
+    "evidence": "Standard administrative requirement; Microsoft 365 capability noted in profile supports .docx production."
+   },
+   {
+    "requirement_id": "ee15f287-fa83f9be-p3-86989a4b",
+    "quote": "1.4 Cover Letter Responses shall include a cover page that provides the following information, at a minimum:",
+    "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+    "page": 3,
+    "firm_answer": "Firm can prepare a compliant cover page.",
+    "status": "meets",
+    "evidence": "Standard administrative requirement; no profile constraint prevents compliance."
+   },
+   {
+    "requirement_id": "ee15f287-fa83f9be-p3-3f72de6d",
+    "quote": "1.2 Contents Responses shall address all questions below and responses shall be organized in the same order that the questions are posed in.",
+    "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+    "page": 3,
+    "firm_answer": "Firm can organize response to match question order.",
+    "status": "meets",
+    "evidence": "Standard administrative requirement."
+   },
+   {
+    "requirement_id": "ee15f287-fa83f9be-p3-2fdbc0de",
+    "quote": "Submissions shall not include classified information.",
+    "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+    "page": 3,
+    "firm_answer": "Firm will submit unclassified content only.",
+    "status": "meets",
+    "evidence": "Standard administrative requirement; firm has cleared staff but RFI response is unclassified."
+   },
+   {
+    "requirement_id": "ee15f287-fa83f9be-p3-079b5db3",
+    "quote": "Responses shall use letter sized pages (8.5in by 11in) with a layout of at least 1in margins for the top, bottom, left, a nd right margins.",
+    "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+    "page": 3,
+    "firm_answer": "Firm can comply with page size and margin requirements.",
+    "status": "meets",
+    "evidence": "Standard administrative requirement."
+   },
+   {
+    "requirement_id": "ee15f287-fa83f9be-p3-6225517e",
+    "quote": "Responses shall not exceed 5 single -sided pages (excluding the cover page).",
+    "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+    "page": 3,
+    "firm_answer": "Firm can comply with 5-page limit.",
+    "status": "meets",
+    "evidence": "Standard administrative requirement."
+   },
+   {
+    "requirement_id": "ee15f287-fa83f9be-p3-b42d37d7",
+    "quote": "Responses shall not contain images, gifs, and/or other media.",
+    "source_file": "fa83f9be70404aad8fc4cb846f2990e2.pdf",
+    "page": 3,
+    "firm_answer": "Firm can produce a text-only response.",
+    "status": "meets",
+    "evidence": "Standard administrative requirement."
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "ee15f287bd3049349277a9bd31c206df",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-09-30T17:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": null,
+   "source_quotes": [
+    "Questions pertaining to this RFI shall be submitted no later than 5:00PM ET on",
+    "Responses to this RFI shall be submitted no later than 5:00PM ET on Wednesday 30 September 2026."
+   ]
+  },
+  "days_to_close": 16.39529873023148,
+  "set_aside_note": "Set-aside is Total Small Business. Sooner Systems LLC qualifies — the firm is an SBA-recognized small business under NAICS 541512, which matches the notice NAICS exactly. Firm is eligible to respond.",
+  "amendment_note": "no amendment",
+  "calendar_entries": [
+   {
+    "title": "Questions Due",
+    "date": "INCOMPLETE — date not provided in text",
+    "note": "The questions-due sentence is truncated in the source document; no specific date is given. Do not submit questions without confirming the actual deadline from the posted solicitation on SAM.gov.",
+    "source_quote": "Questions pertaining to this RFI shall be submitted no later than 5:00PM ET on"
+   },
+   {
+    "title": "RFI Response Due",
+    "date": "2026-09-30",
+    "note": "RFI responses due by 5:00 PM ET. This is the hard submission deadline.",
+    "source_quote": "Responses to this RFI shall be submitted no later than 5:00PM ET on Wednesday 30 September 2026."
+   },
+   {
+    "title": "Decide By (internal)",
+    "date": "2026-09-28",
+    "note": "Internal go/no-go decision deadline — two business days before the RFI response due date of 2026-09-30 (Wednesday). Two business days prior lands on Monday 2026-09-28.",
+    "source_quote": "Responses to this RFI shall be submitted no later than 5:00PM ET on Wednesday 30 September 2026."
+   }
+  ]
+ },
+ "model_calls": 5,
+ "tokens_in": 47693,
+ "tokens_out": 13835,
+ "seconds": 121.91,
+ "produced_at": "2026-09-14T06:32:48.095164-05:00"
+}

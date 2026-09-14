@@ -1,0 +1,825 @@
+{
+ "firm": "red-cedar",
+ "name": "Red Cedar Facility Services",
+ "as_of": "2026-09-14T07:13:03-05:00",
+ "bench_as_of": "2026-09-13T21:54:20-05:00",
+ "snapshot_written_at": "2026-09-13T21:54:20-05:00",
+ "gallery_produced_at": "2026-09-14T07:12:57.081266-05:00",
+ "window": {
+  "first_posted": "2026-08-14",
+  "last_posted": "2026-09-14",
+  "days_with_notices": 25
+ },
+ "model_calls": 0,
+ "sources": {
+  "snapshot": "data/snapshot/red-cedar.json",
+  "bench": "data/bench/tiering_red-cedar.json",
+  "gallery": "gallery/index.json",
+  "public_notice_cache": "data/raw/pub_*.json"
+ },
+ "days": [
+  {
+   "date": "2026-08-14",
+   "posted": 9,
+   "filed_by_rule": 6,
+   "by_rule": {
+    "rc-distance": 5,
+    "rc-types": 1,
+    "rc-setaside": 1
+   },
+   "filed_by_model": 1,
+   "sent_to_desk": 2,
+   "surfaced": [
+    "fbaa93b90ced45b594bde97ceaa6fb68",
+    "819357517c044e6489e51644fc101775"
+   ],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-08-16",
+   "posted": 1,
+   "filed_by_rule": 1,
+   "by_rule": {
+    "rc-setaside": 1
+   },
+   "filed_by_model": 0,
+   "sent_to_desk": 0,
+   "surfaced": [],
+   "no_card": [],
+   "amendments": [
+    {
+     "notice_id": "d3763be8bdf04ef9a5c1fb7e44ee5d37",
+     "title": "Amended Tree pruning, tree removal and stump grinding for Togus National Cemetery",
+     "why": "'amend' in the title",
+     "parent_opportunity_id": "850df31ca4884821bd3566deb5228633",
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": "2026-08-21T16:00:00-04:00",
+     "deadline_moved": null,
+     "note": "previous version not cached"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-17",
+   "posted": 3,
+   "filed_by_rule": 3,
+   "by_rule": {
+    "rc-distance": 1,
+    "rc-types": 1,
+    "rc-setaside": 1
+   },
+   "filed_by_model": 0,
+   "sent_to_desk": 0,
+   "surfaced": [],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-08-18",
+   "posted": 12,
+   "filed_by_rule": 9,
+   "by_rule": {
+    "rc-types": 7,
+    "rc-setaside": 2,
+    "rc-distance": 1
+   },
+   "filed_by_model": 1,
+   "sent_to_desk": 2,
+   "surfaced": [
+    "d8c230fbdc71404794eb216e72c7852a"
+   ],
+   "no_card": [
+    {
+     "notice_id": "6222a6bf655247ce8c4931c6de179316",
+     "why": "sent to the desk, no card: no evidence"
+    }
+   ],
+   "amendments": []
+  },
+  {
+   "date": "2026-08-19",
+   "posted": 7,
+   "filed_by_rule": 5,
+   "by_rule": {
+    "rc-distance": 4,
+    "rc-setaside": 1,
+    "rc-types": 1
+   },
+   "filed_by_model": 1,
+   "sent_to_desk": 1,
+   "surfaced": [
+    "3d69977247d7458db3b9981e2668c174"
+   ],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-08-20",
+   "posted": 7,
+   "filed_by_rule": 4,
+   "by_rule": {
+    "rc-distance": 3,
+    "scope": 1,
+    "rc-setaside": 1
+   },
+   "filed_by_model": 1,
+   "sent_to_desk": 2,
+   "surfaced": [
+    "d698e02961294fffa1536d1a0c07fc5e",
+    "954c262f233a4f9395857c3532e599bf"
+   ],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-08-21",
+   "posted": 6,
+   "filed_by_rule": 6,
+   "by_rule": {
+    "rc-setaside": 5,
+    "rc-distance": 1
+   },
+   "filed_by_model": 0,
+   "sent_to_desk": 0,
+   "surfaced": [],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-08-23",
+   "posted": 1,
+   "filed_by_rule": 1,
+   "by_rule": {
+    "rc-distance": 1
+   },
+   "filed_by_model": 0,
+   "sent_to_desk": 0,
+   "surfaced": [],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-08-24",
+   "posted": 9,
+   "filed_by_rule": 7,
+   "by_rule": {
+    "rc-setaside": 3,
+    "scope": 1,
+    "rc-types": 1,
+    "rc-distance": 4
+   },
+   "filed_by_model": 2,
+   "sent_to_desk": 0,
+   "surfaced": [],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-08-25",
+   "posted": 6,
+   "filed_by_rule": 3,
+   "by_rule": {
+    "rc-distance": 4
+   },
+   "filed_by_model": 1,
+   "sent_to_desk": 2,
+   "surfaced": [
+    "be4f7e411fa24607bd8ace51d180b335",
+    "4585b18bf9e745259b0be3e0289555c1"
+   ],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-08-26",
+   "posted": 13,
+   "filed_by_rule": 13,
+   "by_rule": {
+    "rc-distance": 9,
+    "rc-setaside": 2,
+    "rc-types": 2
+   },
+   "filed_by_model": 0,
+   "sent_to_desk": 0,
+   "surfaced": [],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-08-27",
+   "posted": 10,
+   "filed_by_rule": 6,
+   "by_rule": {
+    "rc-setaside": 1,
+    "scope": 1,
+    "rc-types": 1,
+    "rc-distance": 5
+   },
+   "filed_by_model": 2,
+   "sent_to_desk": 2,
+   "surfaced": [
+    "ccf5e9659c194671a36bfc391bb023e0"
+   ],
+   "no_card": [
+    {
+     "notice_id": "63b4867a83c1431189f31b95833015ae",
+     "why": "sent to the desk, no card: no evidence"
+    }
+   ],
+   "amendments": []
+  },
+  {
+   "date": "2026-08-28",
+   "posted": 8,
+   "filed_by_rule": 6,
+   "by_rule": {
+    "rc-types": 1,
+    "rc-distance": 3,
+    "rc-setaside": 2,
+    "scope": 1
+   },
+   "filed_by_model": 1,
+   "sent_to_desk": 1,
+   "surfaced": [
+    "605b807449df46beac3adb1e03ed4bd3"
+   ],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-08-29",
+   "posted": 2,
+   "filed_by_rule": 1,
+   "by_rule": {
+    "rc-types": 1,
+    "rc-distance": 1
+   },
+   "filed_by_model": 1,
+   "sent_to_desk": 0,
+   "surfaced": [],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-08-31",
+   "posted": 15,
+   "filed_by_rule": 11,
+   "by_rule": {
+    "rc-distance": 10,
+    "rc-types": 3,
+    "rc-setaside": 1
+   },
+   "filed_by_model": 3,
+   "sent_to_desk": 1,
+   "surfaced": [
+    "bfe399280c8344a0923840dfb6989c90"
+   ],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-09-01",
+   "posted": 10,
+   "filed_by_rule": 6,
+   "by_rule": {
+    "rc-setaside": 2,
+    "rc-distance": 5,
+    "rc-types": 1
+   },
+   "filed_by_model": 2,
+   "sent_to_desk": 2,
+   "surfaced": [
+    "83debc9c57c44dbfbb6d8e140677efdc",
+    "23123dbc9dc04bae9701caddb03b3f0a"
+   ],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-09-02",
+   "posted": 14,
+   "filed_by_rule": 13,
+   "by_rule": {
+    "rc-distance": 7,
+    "rc-types": 5,
+    "rc-setaside": 1
+   },
+   "filed_by_model": 0,
+   "sent_to_desk": 1,
+   "surfaced": [
+    "808e070c0ec749f2bdd8929b448edc78"
+   ],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-09-03",
+   "posted": 22,
+   "filed_by_rule": 16,
+   "by_rule": {
+    "rc-types": 6,
+    "rc-distance": 12,
+    "rc-setaside": 2
+   },
+   "filed_by_model": 4,
+   "sent_to_desk": 2,
+   "surfaced": [
+    "8918bdf80a344fb98b1a64d71bcc30d9",
+    "6d5f0cc80a1e4e4c9dfcd435deefd9c6"
+   ],
+   "no_card": [],
+   "amendments": [
+    {
+     "notice_id": "ab647880419849c9ab409fbf7bb33b1c",
+     "title": "Amendment 0002 - Removal of Invasive Species (Bush Honeysuckle)",
+     "why": "'amend' in the title",
+     "parent_opportunity_id": "d3c7146ad97f4c45831270da33f666db",
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": "2026-09-10T14:00:00-05:00",
+     "deadline_moved": null,
+     "note": "previous version not cached"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-04",
+   "posted": 9,
+   "filed_by_rule": 7,
+   "by_rule": {
+    "rc-distance": 6,
+    "rc-types": 1,
+    "scope": 1
+   },
+   "filed_by_model": 1,
+   "sent_to_desk": 1,
+   "surfaced": [
+    "6df14e5530d54ea493197948b2a5db49"
+   ],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-09-08",
+   "posted": 10,
+   "filed_by_rule": 8,
+   "by_rule": {
+    "rc-types": 1,
+    "rc-setaside": 4,
+    "rc-distance": 4,
+    "scope": 1
+   },
+   "filed_by_model": 2,
+   "sent_to_desk": 0,
+   "surfaced": [],
+   "no_card": [],
+   "amendments": [
+    {
+     "notice_id": "fba080da5a9541e0a6cc01d8ad8f1a23",
+     "title": "S208--Tree Removal Service - Dead and Damaged - Pineville, LA",
+     "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": null,
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "posted": 13,
+   "filed_by_rule": 9,
+   "by_rule": {
+    "rc-types": 1,
+    "rc-distance": 6,
+    "scope": 1,
+    "rc-setaside": 3
+   },
+   "filed_by_model": 2,
+   "sent_to_desk": 2,
+   "surfaced": [
+    "e1d2da67eb3844c3824442bf43e08a87",
+    "a06d61e190ec4307a994a1ef824f0c23"
+   ],
+   "no_card": [],
+   "amendments": [
+    {
+     "notice_id": "e92ecf619ee7469e8222979f9dc59dbf",
+     "title": "Grounds maintenance services for Riverside National Cemetery. -- S208",
+     "why": "type Special Notice on base type Solicitation",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": "2026-09-21T17:00:00-07:00",
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "posted": 16,
+   "filed_by_rule": 12,
+   "by_rule": {
+    "rc-distance": 10,
+    "scope": 2,
+    "rc-types": 3,
+    "rc-setaside": 1
+   },
+   "filed_by_model": 4,
+   "sent_to_desk": 0,
+   "surfaced": [],
+   "no_card": [],
+   "amendments": [
+    {
+     "notice_id": "77ed9059f3f54d98ab6010e288ca2288",
+     "title": "S--WA-JULIA BUTLER HANSEN REFUGE JANITORIAL",
+     "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": null,
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    },
+    {
+     "notice_id": "6de7eac93ec04ceaa76555ed9bab55d7",
+     "title": "Grounds Maintenance with 4 Option Years",
+     "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": null,
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    },
+    {
+     "notice_id": "5a0335526fd041ebb3791980523a0b23",
+     "title": "Groundskeeping",
+     "why": "type Presolicitation on base type Sources Sought",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": "2026-09-21T12:00:00-04:00",
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    },
+    {
+     "notice_id": "28e7dc54ed9444778ac2d805b007620e",
+     "title": "Annual Janitorial Service Base +4 Option Years",
+     "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": null,
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-11",
+   "posted": 24,
+   "filed_by_rule": 21,
+   "by_rule": {
+    "rc-types": 6,
+    "rc-distance": 14,
+    "rc-setaside": 3
+   },
+   "filed_by_model": 2,
+   "sent_to_desk": 1,
+   "surfaced": [
+    "4f8dba025a32440284ae227c983342de"
+   ],
+   "no_card": [],
+   "amendments": [
+    {
+     "notice_id": "fd390fa671004351a1d96f2b1594dc6e",
+     "title": "Grounds Maintenance Services – Guayama Research Station",
+     "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": null,
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    },
+    {
+     "notice_id": "df614bc937e4475f8afc12f2670f93cd",
+     "title": "Janitorial Services for Englebright Lake",
+     "why": "type Award Notice on base type Solicitation",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": null,
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    },
+    {
+     "notice_id": "c765b0477ae842ffbcc8980dd0f8f6bd",
+     "title": "AMENDMENT 0003 - FY 26 Barnes Center Interior Cleaning Service",
+     "why": "'amend' in the title",
+     "parent_opportunity_id": "7909731d96554bcfa16c4ebf8456c67d",
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": "2026-09-15T12:00:00-05:00",
+     "deadline_moved": null,
+     "note": "previous version not cached"
+    },
+    {
+     "notice_id": "75b72cd9a2d74d5bb9904daba641132f",
+     "title": "Custodial and Janitorial Services for Defense Information Systems Agency Pacific (DISA PAC), Building 77 AMD 0001",
+     "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": null,
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    },
+    {
+     "notice_id": "6c68ed1544224e8fba99f376554660cb",
+     "title": "S201--Janitorial Services - Dayton VA Medical Center",
+     "why": "type Special Notice on base type Combined Synopsis/Solicitation",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": "2026-09-15T13:30:00-04:00",
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    },
+    {
+     "notice_id": "22cb4ef7494d4c56948b907f9a67431c",
+     "title": "Grounds Maintenance/Snow Removal Services,  BP Station, Swanton, VT",
+     "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": null,
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    },
+    {
+     "notice_id": "15cd0127120b429aae5382fc4a4a81fb",
+     "title": "Janitorial Services at Benbrook Lake, Fort Worth, Texas",
+     "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": null,
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-12",
+   "posted": 3,
+   "filed_by_rule": 3,
+   "by_rule": {
+    "rc-distance": 3
+   },
+   "filed_by_model": 0,
+   "sent_to_desk": 0,
+   "surfaced": [],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-09-14",
+   "posted": 1,
+   "filed_by_rule": 1,
+   "by_rule": {
+    "rc-distance": 1
+   },
+   "filed_by_model": 0,
+   "sent_to_desk": 0,
+   "surfaced": [],
+   "no_card": [],
+   "amendments": []
+  }
+ ],
+ "totals": {
+  "days": 25,
+  "posted": 231,
+  "filed_by_rule": 178,
+  "filed_by_model": 31,
+  "sent_to_desk": 22,
+  "surfaced": 20,
+  "no_card": 2,
+  "amendments_seen": 15,
+  "by_rule": {
+   "rc-distance": 120,
+   "rc-types": 43,
+   "rc-setaside": 37,
+   "scope": 9
+  }
+ },
+ "amendments": {
+  "detected": 15,
+  "with_parent_id": 3,
+  "previous_version_cached": 0,
+  "deadline_moved": 0,
+  "rows": [
+   {
+    "notice_id": "d3763be8bdf04ef9a5c1fb7e44ee5d37",
+    "title": "Amended Tree pruning, tree removal and stump grinding for Togus National Cemetery",
+    "why": "'amend' in the title",
+    "parent_opportunity_id": "850df31ca4884821bd3566deb5228633",
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": "2026-08-21T16:00:00-04:00",
+    "deadline_moved": null,
+    "note": "previous version not cached"
+   },
+   {
+    "notice_id": "ab647880419849c9ab409fbf7bb33b1c",
+    "title": "Amendment 0002 - Removal of Invasive Species (Bush Honeysuckle)",
+    "why": "'amend' in the title",
+    "parent_opportunity_id": "d3c7146ad97f4c45831270da33f666db",
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": "2026-09-10T14:00:00-05:00",
+    "deadline_moved": null,
+    "note": "previous version not cached"
+   },
+   {
+    "notice_id": "fba080da5a9541e0a6cc01d8ad8f1a23",
+    "title": "S208--Tree Removal Service - Dead and Damaged - Pineville, LA",
+    "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": null,
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "e92ecf619ee7469e8222979f9dc59dbf",
+    "title": "Grounds maintenance services for Riverside National Cemetery. -- S208",
+    "why": "type Special Notice on base type Solicitation",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": "2026-09-21T17:00:00-07:00",
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "77ed9059f3f54d98ab6010e288ca2288",
+    "title": "S--WA-JULIA BUTLER HANSEN REFUGE JANITORIAL",
+    "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": null,
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "6de7eac93ec04ceaa76555ed9bab55d7",
+    "title": "Grounds Maintenance with 4 Option Years",
+    "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": null,
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "5a0335526fd041ebb3791980523a0b23",
+    "title": "Groundskeeping",
+    "why": "type Presolicitation on base type Sources Sought",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": "2026-09-21T12:00:00-04:00",
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "28e7dc54ed9444778ac2d805b007620e",
+    "title": "Annual Janitorial Service Base +4 Option Years",
+    "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": null,
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "fd390fa671004351a1d96f2b1594dc6e",
+    "title": "Grounds Maintenance Services – Guayama Research Station",
+    "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": null,
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "df614bc937e4475f8afc12f2670f93cd",
+    "title": "Janitorial Services for Englebright Lake",
+    "why": "type Award Notice on base type Solicitation",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": null,
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "c765b0477ae842ffbcc8980dd0f8f6bd",
+    "title": "AMENDMENT 0003 - FY 26 Barnes Center Interior Cleaning Service",
+    "why": "'amend' in the title",
+    "parent_opportunity_id": "7909731d96554bcfa16c4ebf8456c67d",
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": "2026-09-15T12:00:00-05:00",
+    "deadline_moved": null,
+    "note": "previous version not cached"
+   },
+   {
+    "notice_id": "75b72cd9a2d74d5bb9904daba641132f",
+    "title": "Custodial and Janitorial Services for Defense Information Systems Agency Pacific (DISA PAC), Building 77 AMD 0001",
+    "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": null,
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "6c68ed1544224e8fba99f376554660cb",
+    "title": "S201--Janitorial Services - Dayton VA Medical Center",
+    "why": "type Special Notice on base type Combined Synopsis/Solicitation",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": "2026-09-15T13:30:00-04:00",
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "22cb4ef7494d4c56948b907f9a67431c",
+    "title": "Grounds Maintenance/Snow Removal Services,  BP Station, Swanton, VT",
+    "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": null,
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "15cd0127120b429aae5382fc4a4a81fb",
+    "title": "Janitorial Services at Benbrook Lake, Fort Worth, Texas",
+    "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": null,
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   }
+  ]
+ },
+ "invariants": {
+  "all_ok": true,
+  "checks": [
+   {
+    "name": "every surfaced id is a gallery case",
+    "ok": true,
+    "detail": "20 surfaced, 20 gallery cards"
+   },
+   {
+    "name": "every gallery case surfaces exactly once",
+    "ok": true,
+    "detail": "20 distinct surfaced ids"
+   },
+   {
+    "name": "no tier-0 or tier-1 notice surfaces",
+    "ok": true,
+    "detail": "none"
+   },
+   {
+    "name": "per-day counts sum to the bench counts",
+    "ok": true,
+    "detail": "week posted/filed/model/desk = 231/178/31/22; bench = 231/178/31/22"
+   },
+   {
+    "name": "the replay made no model call",
+    "ok": true,
+    "detail": "0 model calls: every outcome is read from the committed bench"
+   }
+  ]
+ }
+}

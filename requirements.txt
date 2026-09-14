@@ -1,0 +1,8 @@
+# Runtime list mirrors deploy/build_zip.py REQUIREMENTS; pytest is for `python -m pytest biddesk/tests`.
+bedrock-agentcore==1.23.0
+strands-agents==1.55.1
+python-dotenv
+requests
+pydantic
+pypdf
+pytest

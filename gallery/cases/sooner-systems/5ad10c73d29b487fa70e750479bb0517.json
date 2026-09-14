@@ -1,0 +1,898 @@
+{
+ "notice_id": "5ad10c73d29b487fa70e750479bb0517",
+ "firm_slug": "sooner-systems",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:39:20-05:00",
+ "evidence_basis": null,
+ "days_to_close": 0.4164429378819444,
+ "closed": false,
+ "response_kind": "proposal",
+ "card": {
+  "notice_id": "5ad10c73d29b487fa70e750479bb0517",
+  "firm_slug": "sooner-systems",
+  "situation": "DHA PAE MDS AWACS solicitation seeking a unified Application, Workflow, Adoption, and Change Support services contractor across EUS Pillars 2, 3, and 5 for 11 clinical user domains, integrating with ServiceNow, JKO, MED365, and MHS GENESIS from Day 1 with 24/7 global hospital coverage.\nReached the owner because NAICS 541512 matches, the solicitation is unrestricted, and the firm holds Secret-cleared staff and ITIL 4/cybersecurity credentials that partially align to the IT infrastructure layer of the requirement.",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "22 Secret-cleared staff satisfy the Day-1 SECRET clearance mandate for trainers and DDIL-deploying personnel, removing a common disqualifier [5ad10c73-af9cb6ff-p10-48f98b1c].",
+   "ITIL 4 certification and Army CoE help desk past performance provide a credible foundation for the ITSM/ServiceNow integration layer of Pillar 1 pass-through requirements [5ad10c73-af9cb6ff-p3-f19b5676].",
+   "CMMC Level 2 self-assessment and NIST SP 800-171 implementation satisfy the cybersecurity baseline and Basic Assessment obligation required at contract award [5ad10c73-09f81d19-p5-5742f01d]."
+  ],
+  "reasons_against": [
+   "Zero clinical informatics, MHS GENESIS, or health IT experience exists in the profile, leaving the core scope of Pillars 2, 3, and 5 entirely unaddressed and the Section 1 whitepaper uncreditable [5ad10c73-af9cb6ff-p8-b3ed3b78].",
+   "No training design, adoption, change management, JKO LMS, or multimodal training delivery capability is stated, creating decisive gaps across Pillars 3 and 5 and the Day-1 continuity crosswalk [5ad10c73-425abe19-p1-01eafd57; 5ad10c73-425abe19-p1-4ba04d8a].",
+   "Firm revenue (~$4.5M total past performance) and a single domestic NOC cannot credibly support 24/7 global hospital operations or enterprise-scale Day-1 consolidation of an incumbent multi-pillar health IT program [5ad10c73-425abe19-p1-976b6a8d; 5ad10c73-425abe19-p1-697eff21]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-09-10",
+  "key_dates": {
+   "questions_due": "2026-09-02T11:00:00-04:00",
+   "proposal_due": "2026-09-14T17:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": "12-month base plus 4 12-month options",
+   "source_quotes": [
+    "Questions: Must be submitted via email to the POCs listed below no later than September 2, 2026, at 11:00 AM EDT.",
+    "Submission Deadline: Whitepapers must be submitted via email to Katelyn O'Connor, katelyn.j.oconnor.civ@health.mil and Jena Bowman, jena.l.bowman.civ@health.mil no later than September 14, 2026, at 5:00 PM EDT.",
+    "Anticipate a 12-month base plus 4 12-month options for this AOI."
+   ]
+  },
+  "fit_score": 0.4571,
+  "matrix_summary": "11 of 37 requirements met, 10 partial, 14 gap, 2 unknown",
+  "evidence_link": "https://sam.gov/workspace/contract/opp/5ad10c73d29b487fa70e750479bb0517/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "5ad10c73-af9cb6ff-p8-b3ed3b78",
+   "quote": "Section 1: Innovation and Technical Strategy (Pillars 2, 3, & 5) Offerors must demonstrate a unified, non-siloed technical modernization approach addressing:",
+   "source_file": "af9cb6fffc68481f94cb87b577e24498.pdf",
+   "page": 8,
+   "firm_answer": "Profile lists help desk, desktop support, and M365 administration. No clinical workflow support, training/adoption modernization, or change management capability is described. Cannot demonstrate a unified technical strategy for Pillars 2, 3, and 5.",
+   "status": "gap",
+   "evidence": "No capability sentence or past-performance record addresses clinical application workflow support, enablement/adoption services, or change/communications/trust."
+  },
+  {
+   "requirement_id": "5ad10c73-af9cb6ff-p3-f19b5676",
+   "quote": "Any IT solution, automated framework, or workflow compliance strategy proposed under this AoI must be designed to seamlessly integrate with the broader EUS ecosystem, specifically, passing data to the enterprise ITSM Service Desk (Pillar 1) and supporting the overarching Government Service Integration and Management (SIAM) processes and integration authorities.",
+   "source_file": "af9cb6fffc68481f94cb87b577e24498.pdf",
+   "page": 3,
+   "firm_answer": "Profile includes ITIL 4 and service desk experience (Army CoE help desk), which provides a partial foundation for ITSM integration concepts. However, no ServiceNow administration, SIAM governance, or enterprise EUS ecosystem integration experience is stated.",
+   "status": "partial",
+   "evidence": "IT help desk and desktop support | customer US Army Corps of Engineers — keywords: ITIL, service desk, ticketing"
+  },
+  {
+   "requirement_id": "5ad10c73-af9cb6ff-p9-872ff787",
+   "quote": "the Contractor's proposed solutions must integrate with and utilize the following Government-provided platforms from the start of performance: Government ITSM: ServiceNow Government Learning Management System: Joint Knowledge Online (JKO) Government Collaboration Platform: Microsoft Office 365 (MED365), Joint Operational Information Systems (JOMIS) Connect (health.mil)",
+   "source_file": "af9cb6fffc68481f94cb87b577e24498.pdf",
+   "page": 9,
+   "firm_answer": "Profile confirms Microsoft 365 and Azure administration experience. No ServiceNow, JKO, JOMIS, or health.mil integration experience is stated.",
+   "status": "partial",
+   "evidence": "Systems administration and Microsoft 365 migration | customer Oklahoma National Guard — keywords: Microsoft 365, Azure"
+  },
+  {
+   "requirement_id": "5ad10c73-af9cb6ff-p11-78518c0d",
+   "quote": "The Contractor must maintain an adequate workforce for the uninterrupted performance of all tasks defined herein, including 24/7 support for global hospitals and healthcare operations.",
+   "source_file": "af9cb6fffc68481f94cb87b577e24498.pdf",
+   "page": 11,
+   "firm_answer": "Profile lists a 24x7 NOC in Norman, OK. However, this is a single domestic NOC supporting IT/network operations, not a global hospital healthcare operations workforce. No evidence of scale, geographic distribution, or healthcare operations coverage.",
+   "status": "partial",
+   "evidence": "Firm capability: 24x7 NOC in Norman, OK — limited to domestic IT/network scope, not global healthcare."
+  },
+  {
+   "requirement_id": "5ad10c73-425abe19-p1-cebc3df6",
+   "quote": "Contractors must ensure that all functional and technical trainers supporting applications, as well as any personnel deploying to austere (DDIL) environments, possess active SECRET clearances.",
+   "source_file": "425abe1942ef4d6c8a47ef521c422f7f.xlsx",
+   "page": 1,
+   "firm_answer": "Profile confirms 22 cleared staff at Secret level. This satisfies the SECRET clearance requirement for trainers and DDIL-deploying personnel. However, the profile lists no functional/technical trainers or DDIL-environment experience.",
+   "status": "partial",
+   "evidence": "Firm capability: 22 cleared staff (Secret)"
+  },
+  {
+   "requirement_id": "5ad10c73-af9cb6ff-p10-48f98b1c",
+   "quote": "The Contractor will be required to have some number of employees that possess and maintain a SECRET clearance from the Defense Security Service (DSS) / Defense Counterintelligence and Security Agency (DCSA) on day 1.",
+   "source_file": "af9cb6fffc68481f94cb87b577e24498.pdf",
+   "page": 10,
+   "firm_answer": "Profile confirms 22 cleared staff (Secret) available on Day 1.",
+   "status": "meets",
+   "evidence": "Firm capability: 22 cleared staff (Secret)"
+  },
+  {
+   "requirement_id": "5ad10c73-09f81d19-p5-5742f01d",
+   "quote": "The contractor shall, at time of award, have implemented the security requirements prescribed in the National Institute of Standards and Technology (NIST) Special Publication (SP) 800-171",
+   "source_file": "09f81d1913544fc990e3057603de456a.pdf",
+   "page": 5,
+   "firm_answer": "Profile states CMMC Level 2 self-assessed, which is based on NIST SP 800-171. This satisfies the requirement at the self-assessment level, though a third-party assessment has not been completed.",
+   "status": "meets",
+   "evidence": "Firm capability: CMMC Level 2 self-assessed, NIST SP 800-171 implementation implied"
+  },
+  {
+   "requirement_id": "5ad10c73-09f81d19-p8-0873335f",
+   "quote": "Systems and/or product(s) must have and maintain Authority to Operate (ATO) or ATO with Conditions (ATO-C) by contract award.",
+   "source_file": "09f81d1913544fc990e3057603de456a.pdf",
+   "page": 8,
+   "firm_answer": "Profile includes RMF/ATO documentation capability. However, no existing ATO or ATO-C for any contractor-provided system or product is stated in the profile.",
+   "status": "partial",
+   "evidence": "Firm capability: RMF/ATO documentation — supports pursuit of ATO but no existing ATO/ATO-C confirmed for a product"
+  },
+  {
+   "requirement_id": "5ad10c73-425abe19-p1-1f2c6b41",
+   "quote": "Contractors must propose and justify their minimum qualifications for clinical informaticists to demonstrate credible healthcare domain expertise.",
+   "source_file": "425abe1942ef4d6c8a47ef521c422f7f.xlsx",
+   "page": 1,
+   "firm_answer": "Profile contains no clinical informaticists, no clinical licensure, no health informatics experience, and no healthcare domain expertise. This is a decisive gap for the core scope of the contract.",
+   "status": "gap",
+   "evidence": "No capability sentence or past-performance record references clinical informatics, healthcare, or health IT."
+  },
+  {
+   "requirement_id": "5ad10c73-3dd887bf-p1-27735af0",
+   "quote": "Must support a government infrastructure of local super users/peer experts, regional trainers, and local health informatics steering committees, and communities of practice.",
+   "source_file": "3dd887bf855c47148e0fc021281237e6.xlsx",
+   "page": 1,
+   "firm_answer": "Profile has no experience supporting health informatics steering committees, communities of practice, or regional trainer networks. No training delivery or change network management capability is stated.",
+   "status": "gap",
+   "evidence": "No capability sentence or past-performance record addresses health informatics governance, super-user networks, or communities of practice."
+  },
+  {
+   "requirement_id": "5ad10c73-425abe19-p1-bc761d72",
+   "quote": "A comprehensive list of current applications (e.g., MHS GENESIS, MHS GENESIS - Theater, Phillips, Henry Schein, Amwell, Operational Medicine Data Service (OMDS), Theater Blood-Mobile (TBLD-M), MedHUB, BATTAK, Maritime Medical Modules",
+   "source_file": "425abe1942ef4d6c8a47ef521c422f7f.xlsx",
+   "page": 1,
+   "firm_answer": "Profile lists no experience with any DHA/MHS clinical applications including MHS GENESIS, OMDS, BATTAK, or any other health IT system in the PAE MDS portfolio.",
+   "status": "gap",
+   "evidence": "No capability sentence or past-performance record references any MHS, DHA, or clinical application."
+  },
+  {
+   "requirement_id": "5ad10c73-425abe19-p1-01eafd57",
+   "quote": "The contractor must sustain necessary multimodal training on Day 1, while demonstrating an innovative framework to organically transition users to self-service and in-workflow methods over the contract lifecycle.",
+   "source_file": "425abe1942ef4d6c8a47ef521c422f7f.xlsx",
+   "page": 1,
+   "firm_answer": "Profile has no training design, multimodal training delivery, or self-service/in-workflow enablement capability stated. No instructional design or learning management experience is described.",
+   "status": "gap",
+   "evidence": "No capability sentence or past-performance record addresses training delivery, instructional design, or adoption frameworks."
+  },
+  {
+   "requirement_id": "5ad10c73-425abe19-p1-2edf08f9",
+   "quote": "Contractors shall use the Government ITSM system (e.g., ServiceNow) to manage request.",
+   "source_file": "425abe1942ef4d6c8a47ef521c422f7f.xlsx",
+   "page": 1,
+   "firm_answer": "Profile references ITIL 4 and ticketing experience from the Army CoE help desk contract, but no ServiceNow administration or configuration experience is explicitly stated.",
+   "status": "partial",
+   "evidence": "IT help desk and desktop support | customer US Army Corps of Engineers — keywords: ITIL, ticketing, service desk"
+  },
+  {
+   "requirement_id": "5ad10c73-425abe19-p1-5ae6f094",
+   "quote": "The Contractor must maintain 100% compliance with Continuing Education Program Office (CEPO) standards with zero critical audit findings.",
+   "source_file": "425abe1942ef4d6c8a47ef521c422f7f.xlsx",
+   "page": 1,
+   "firm_answer": "Profile has no reference to CEPO standards, continuing education program compliance, or DHA training audit requirements.",
+   "status": "gap",
+   "evidence": "No capability sentence or past-performance record references CEPO or continuing education compliance."
+  },
+  {
+   "requirement_id": "5ad10c73-425abe19-p1-976b6a8d",
+   "quote": "Contractors must propose an adequate workforce to ensure uninterrupted 24/7 support for global hospital operations and weekend system implementations.",
+   "source_file": "425abe1942ef4d6c8a47ef521c422f7f.xlsx",
+   "page": 1,
+   "firm_answer": "Profile lists a 24x7 NOC in Norman, OK, but this is a domestic IT/network operations center. No global hospital operations workforce, no OCONUS presence, and no healthcare operations staffing model is described.",
+   "status": "partial",
+   "evidence": "Firm capability: 24x7 NOC in Norman, OK"
+  },
+  {
+   "requirement_id": "5ad10c73-09f81d19-p6-b9a2f782",
+   "quote": "The contractor shall perform a Basic Assessment, using the NIST SP 800-171 DoD Assessment Scoring Template, and provide the results for each covered contractor information system that is relevant to the contract.",
+   "source_file": "09f81d1913544fc990e3057603de456a.pdf",
+   "page": 6,
+   "firm_answer": "Profile states CMMC Level 2 self-assessed, which requires use of the NIST SP 800-171 DoD Assessment Scoring Template. Firm can perform and provide a Basic Assessment.",
+   "status": "meets",
+   "evidence": "Firm capability: CMMC Level 2 self-assessed, vulnerability management (ACAS/Nessus), RMF/ATO documentation"
+  },
+  {
+   "requirement_id": "5ad10c73-09f81d19-p6-735ac1eb",
+   "quote": "The contractor shall submit requests to vary from NIST SP 800-171 in writing to the Contracting Officer or COR, for consideration by the DoW Chief Information Officer (CIO).",
+   "source_file": "09f81d1913544fc990e3057603de456a.pdf",
+   "page": 6,
+   "firm_answer": "This is a procedural compliance requirement. Profile's CMMC Level 2 and RMF experience indicates familiarity with NIST SP 800-171 variance procedures.",
+   "status": "meets",
+   "evidence": "Firm capability: CMMC Level 2 self-assessed, RMF/ATO documentation"
+  },
+  {
+   "requirement_id": "5ad10c73-09f81d19-p10-7fb655d2",
+   "quote": "the contractor shall report it, within 1 hour of confirmation, to the US-CERT Incident Reporting System.",
+   "source_file": "09f81d1913544fc990e3057603de456a.pdf",
+   "page": 10,
+   "firm_answer": "Profile's cybersecurity and incident response experience supports compliance with US-CERT reporting timelines. 24x7 NOC enables rapid detection and reporting.",
+   "status": "meets",
+   "evidence": "Network administration and cybersecurity support | customer FAA Mike Monroney Aeronautical Center — keywords: incident response, SOC; Firm capability: 24x7 NOC"
+  },
+  {
+   "requirement_id": "5ad10c73-09f81d19-p10-e8631b26",
+   "quote": "the contractor shall report to the DHA Privacy Office by submitting the required form within 24 hours of discovery of a breach.",
+   "source_file": "09f81d1913544fc990e3057603de456a.pdf",
+   "page": 10,
+   "firm_answer": "Profile's cybersecurity and incident response experience supports 24-hour breach reporting. However, no specific DHA Privacy Office or HIPAA breach reporting experience is stated.",
+   "status": "partial",
+   "evidence": "Network administration and cybersecurity support | customer FAA Mike Monroney Aeronautical Center — keywords: incident response, cybersecurity"
+  },
+  {
+   "requirement_id": "5ad10c73-09f81d19-p4-2c33563a",
+   "quote": "The contractor shall ensure that personnel accessing Information Systems (IS) have the proper and current IA certification to perform IA functions at contract award in accordance with the most current version of DoDM 8140.03",
+   "source_file": "09f81d1913544fc990e3057603de456a.pdf",
+   "page": 4,
+   "firm_answer": "Profile confirms Security+ certifications across the bench, which satisfies baseline DoDM 8140.03 IA certification requirements for most roles.",
+   "status": "meets",
+   "evidence": "Firm capability: ITIL 4 and Security+ across the bench"
+  },
+  {
+   "requirement_id": "5ad10c73-09f81d19-p8-388961e1",
+   "quote": "Prior to starting work, all contractor personnel shall complete the required security background investigation to obtain the minimum required clearance for this contract.",
+   "source_file": "09f81d1913544fc990e3057603de456a.pdf",
+   "page": 8,
+   "firm_answer": "Profile confirms 22 cleared staff (Secret). Background investigations are in place for existing cleared personnel.",
+   "status": "meets",
+   "evidence": "Firm capability: 22 cleared staff (Secret)"
+  },
+  {
+   "requirement_id": "5ad10c73-09f81d19-p10-1cfa14a9",
+   "quote": "The contractor shall ensure that its entire staff receives training on the Privacy Act, HIPAA, and the federal regulations on confidentiality of substance use disorder patient records, 42 CFR Part 2.",
+   "source_file": "09f81d1913544fc990e3057603de456a.pdf",
+   "page": 10,
+   "firm_answer": "Profile has no reference to HIPAA training, Privacy Act training, or 42 CFR Part 2 compliance for staff. No healthcare privacy training program is described.",
+   "status": "unknown",
+   "evidence": "Profile is silent on HIPAA, Privacy Act, or healthcare privacy training for staff."
+  },
+  {
+   "requirement_id": "5ad10c73-09f81d19-p6-6d20d09e",
+   "quote": "the contractor shall require the cloud service provider meets security requirements equivalent to those established by the Government for the Federal Risk and Authorization Management Program (FedRAMP) Moderate baseline",
+   "source_file": "09f81d1913544fc990e3057603de456a.pdf",
+   "page": 6,
+   "firm_answer": "Profile lists Microsoft Azure administration experience. Azure holds FedRAMP Moderate authorization. Firm has demonstrated awareness of cloud security requirements through RMF/ATO documentation work.",
+   "status": "meets",
+   "evidence": "Firm capability: Microsoft 365 and Azure administration, RMF/ATO documentation"
+  },
+  {
+   "requirement_id": "5ad10c73-425abe19-p1-88a3163f",
+   "quote": "Training and end user materials must be Section 508 compliant.",
+   "source_file": "425abe1942ef4d6c8a47ef521c422f7f.xlsx",
+   "page": 1,
+   "firm_answer": "Profile has no reference to Section 508 accessibility compliance for training materials or end-user content. No instructional design or content development capability is stated.",
+   "status": "gap",
+   "evidence": "No capability sentence or past-performance record references Section 508 compliance or accessible content development."
+  },
+  {
+   "requirement_id": "5ad10c73-425abe19-p1-697eff21",
+   "quote": "Government expect those existing activities to be fully consolidated under a unified AWACS operating model on Day 1.",
+   "source_file": "425abe1942ef4d6c8a47ef521c422f7f.xlsx",
+   "page": 1,
+   "firm_answer": "Profile has no experience with enterprise-wide service consolidation, transition-in management, or Day-1 operational readiness for a complex multi-pillar health IT environment.",
+   "status": "gap",
+   "evidence": "No capability sentence or past-performance record addresses enterprise service consolidation or complex transition-in management."
+  },
+  {
+   "requirement_id": "5ad10c73-09f81d19-p2-78129a8a",
+   "quote": "The contractor shall coordinate to understand fully and to complete and submit necessary documents to the SOFA authority for each country where such support is to be scheduled.",
+   "source_file": "09f81d1913544fc990e3057603de456a.pdf",
+   "page": 2,
+   "firm_answer": "Profile has no OCONUS experience, no SOFA coordination experience, and no international travel or support history.",
+   "status": "gap",
+   "evidence": "No capability sentence or past-performance record references OCONUS operations, SOFA, or international support."
+  },
+  {
+   "requirement_id": "5ad10c73-09f81d19-p4-0ec96b44",
+   "quote": "Contractors shall identify, document, track, and report qualifications of contractor support personnel who perform cyberspace roles.",
+   "source_file": "09f81d1913544fc990e3057603de456a.pdf",
+   "page": 4,
+   "firm_answer": "Profile confirms Security+ and ITIL 4 certifications across the bench, and cybersecurity staffing experience. Firm can document and track IA qualifications for cyberspace roles.",
+   "status": "meets",
+   "evidence": "Firm capability: ITIL 4 and Security+ across the bench; cybersecurity staffing"
+  },
+  {
+   "requirement_id": "5ad10c73-af9cb6ff-p8-402a7cd1",
+   "quote": "For each of the baseline operational tasks detailed in the EUS Baseline Data, the Offeror must provide a 1-to-2 sentence explanation of how their technical strategy will continuously and safely execute that capability from Day 1 of performance.",
+   "source_file": "af9cb6fffc68481f94cb87b577e24498.pdf",
+   "page": 8,
+   "firm_answer": "Profile cannot credibly address baseline operational tasks for clinical application workflow support, health IT training, or adoption services. Help desk and M365 experience covers only a narrow subset of the baseline tasks.",
+   "status": "gap",
+   "evidence": "No capability sentence or past-performance record covers clinical application workflow, health IT training delivery, or adoption/change management baseline tasks."
+  },
+  {
+   "requirement_id": "5ad10c73-425abe19-p1-45555448",
+   "quote": "Offerors must propose an optimized, modernized service model based on the operational volumes provided in Appendix A.",
+   "source_file": "425abe1942ef4d6c8a47ef521c422f7f.xlsx",
+   "page": 1,
+   "firm_answer": "Profile has no experience designing outcome-based or modernized service delivery models for health IT at enterprise scale. Help desk experience is relevant only to a narrow subset of Appendix A operational volumes.",
+   "status": "partial",
+   "evidence": "IT help desk and desktop support | customer US Army Corps of Engineers — keywords: service desk, ITIL, end user"
+  },
+  {
+   "requirement_id": "5ad10c73-09f81d19-p10-ed4bfdbb",
+   "quote": "The contractor shall notify the Contracting Officer immediately whenever it becomes aware that such access or participation may result in any actual or potential OCI and shall promptly submit a plan to the Contracting Officer to avoid or mitigate any such OCI.",
+   "source_file": "09f81d1913544fc990e3057603de456a.pdf",
+   "page": 10,
+   "firm_answer": "Standard OCI notification requirement. Profile's government contracting experience supports compliance with this procedural obligation.",
+   "status": "meets",
+   "evidence": "Firm capability: government contracting experience across multiple federal customers"
+  },
+  {
+   "requirement_id": "5ad10c73-09f81d19-p10-932a4f3e",
+   "quote": "The contractor shall consult with the DHA Privacy Office to determine if the contractor must obtain a DSA or Data Use Agreement (DUA) when DHA data will be accessed, used, disclosed, or stored, to perform the requirements of this contract.",
+   "source_file": "09f81d1913544fc990e3057603de456a.pdf",
+   "page": 10,
+   "firm_answer": "Profile has no DHA Privacy Office experience, no DSA/DUA history, and no healthcare data governance experience. This is a procedural requirement the firm can comply with but has no demonstrated experience.",
+   "status": "unknown",
+   "evidence": "Profile is silent on DHA data governance, DSA/DUA, or healthcare data agreements."
+  },
+  {
+   "requirement_id": "5ad10c73-425abe19-p1-f5a029fa",
+   "quote": "The overarching outcome requirements are unified, but technical execution must adapt to the respective connected and austere environments.",
+   "source_file": "425abe1942ef4d6c8a47ef521c422f7f.xlsx",
+   "page": 1,
+   "firm_answer": "Profile has no experience with austere/DDIL environments, operational medicine, or disconnected healthcare IT support. No OCONUS or field-deployed IT support experience is stated.",
+   "status": "gap",
+   "evidence": "No capability sentence or past-performance record references DDIL, austere environments, or operational medicine IT support."
+  },
+  {
+   "requirement_id": "5ad10c73-af9cb6ff-p8-8a06cf26",
+   "quote": "The testing and scaling framework for \"parallel innovation\" in a live health-delivery environment, avoiding risky \"hard cutovers.\"",
+   "source_file": "af9cb6fffc68481f94cb87b577e24498.pdf",
+   "page": 8,
+   "firm_answer": "Profile has no experience with parallel innovation frameworks, live health-delivery environment testing, or phased technology scaling in a clinical setting.",
+   "status": "gap",
+   "evidence": "No capability sentence or past-performance record addresses innovation frameworks, clinical environment testing, or health IT modernization."
+  },
+  {
+   "requirement_id": "5ad10c73-af9cb6ff-p3-22a8c6d5",
+   "quote": "The gap between legacy manual processes and modernized service delivery must be bridged without disrupting provider onboarding, user trust, or system governance on Day 1.",
+   "source_file": "af9cb6fffc68481f94cb87b577e24498.pdf",
+   "page": 3,
+   "firm_answer": "Profile has no change management, provider onboarding, or user trust/adoption experience in a healthcare context. The M365 migration for the Oklahoma National Guard is the closest analog but is not a healthcare environment.",
+   "status": "gap",
+   "evidence": "Systems administration and Microsoft 365 migration | customer Oklahoma National Guard — limited analog; no healthcare change management experience."
+  },
+  {
+   "requirement_id": "5ad10c73-425abe19-p1-e4f5a2c7",
+   "quote": "Contractor is required to manage and maintain hardware kits.",
+   "source_file": "425abe1942ef4d6c8a47ef521c422f7f.xlsx",
+   "page": 1,
+   "firm_answer": "Profile lists desktop and network administration experience. Hardware kit management is within the general scope of desktop support, though no specific hardware kit management for clinical environments is stated.",
+   "status": "partial",
+   "evidence": "IT help desk and desktop support | customer US Army Corps of Engineers — keywords: desktop, end user"
+  },
+  {
+   "requirement_id": "5ad10c73-425abe19-p1-4ba04d8a",
+   "quote": "Contractors shall use JKO to track training and JKO is where the existing CBTs are hosted.",
+   "source_file": "425abe1942ef4d6c8a47ef521c422f7f.xlsx",
+   "page": 1,
+   "firm_answer": "Profile has no Joint Knowledge Online (JKO) experience, no LMS administration capability, and no computer-based training (CBT) development or hosting experience stated.",
+   "status": "gap",
+   "evidence": "No capability sentence or past-performance record references JKO, LMS administration, or CBT development."
+  },
+  {
+   "requirement_id": "5ad10c73-af9cb6ff-p1-64261661",
+   "quote": "Vendors must submit proposed solutions in accordance with the submission instructions and requirements contained herein.",
+   "source_file": "af9cb6fffc68481f94cb87b577e24498.pdf",
+   "page": 1,
+   "firm_answer": "Firm can comply with whitepaper submission requirements (email to POCs by September 14, 2026, 5:00 PM EDT) and Appendix A Crosswalk as a separate Excel workbook.",
+   "status": "meets",
+   "evidence": "Standard submission compliance; no special capability required beyond administrative follow-through."
+  }
+ ],
+ "matrix_dropped": 4,
+ "matrix_dropped_rows": [
+  {
+   "requirement_id": "5ad10c73-09f81d19-p7-5947f13d",
+   "quote": "When the contractor discovers a cyber incident that affects a covered contractor information system or the covered defense information residing therein, or that affects the contractor's ability to perform the requirements of this contract that are designated as operationally-critical support, the contractor shall:",
+   "source_file": "09f81d1913544fc990e3057603de456a.pdf",
+   "page": 7,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "5ad10c73-425abe19-p1-96-3683df2c",
+   "quote": "AWACS must independently build/integrate the workflow analytics and XLA measurement tools specific to Pillars 2, 3, and 5, and feed that data to Pillar 6/SIAM.",
+   "source_file": "425abe1942ef4d6c8a47ef521c422f7f.xlsx",
+   "page": 1,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "5ad10c73-09f81d19-p2-160189e4",
+   "quote": "The contractor shall provide a list of two points of contact that delineate responsibility by function and assure that this staff is available during the Government's normal working hours and within 1-hour after hours or on holidays.",
+   "source_file": "09f81d1913544fc990e3057603de456a.pdf",
+   "page": 2,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "5ad10c73-09f81d19-p5-958619b1",
+   "quote": "The contractor shall submit the most current version of DD Form 2875, \"System Authorization Access Request (SAAR), in accordance with the Contracting Officer guidance for all contractors that use the DoW Gateways to access Government IT systems and/or DoW applications.",
+   "source_file": "09f81d1913544fc990e3057603de456a.pdf",
+   "page": 5,
+   "reason": "not_verbatim"
+  }
+ ],
+ "fit_score_code": 0.4571,
+ "drafts": {
+  "capability_statement": "Sooner Systems LLC is a NAICS 541512 information technology firm with a demonstrated record of delivering end-user IT services to federal defense customers. Our relevant experience includes a Tier 1/Tier 2 help desk and desktop support contract for the U.S. Army Corps of Engineers, Tulsa District (2022–2025), and a systems administration and Microsoft 365/Azure migration engagement for the Oklahoma National Guard (2023–2025).\n\nWe maintain 22 personnel holding active Secret clearances, satisfying the Day-1 SECRET clearance requirement for personnel supporting application training and DDIL-environment deployments. Our bench holds ITIL 4 certifications and Security+ credentials across technical staff, supporting DoDM 8140.03 IA role compliance and ITSM-aligned service delivery. We operate a 24×7 Network Operations Center in Norman, Oklahoma, enabling continuous monitoring and sub-one-hour US-CERT incident reporting.\n\nOur cybersecurity posture includes a CMMC Level 2 self-assessment grounded in NIST SP 800-171, RMF/ATO documentation experience, and Microsoft Azure administration on a FedRAMP Moderate-authorized platform.\n\nWe recognize that the AWACS scope — spanning clinical application workflow support, health IT adoption, change management, and global hospital operations — extends significantly beyond our current profile. We are evaluating teaming arrangements with health IT and clinical informatics partners to address Pillars 2, 3, and 5 capability gaps before determining whether to submit a Phase 1 whitepaper.\n\nPoint of Contact: [Owner Name], [Title], Sooner Systems LLC | [email] | [phone]",
+  "questions_for_co": [
+   "Clinical Informaticist Minimum Qualifications [5ad10c73-425abe19-p1-1f2c6b41]: The solicitation requires offerors to propose and justify minimum qualifications for clinical informaticists — will the Government provide a minimum qualification baseline or acceptable credential equivalency list (e.g., CPHIMS, RN with informatics experience, AMIA certification) to guide offeror proposals, or is qualification determination entirely at offeror discretion?",
+   "Day-1 Consolidation Scope and Incumbent Transition Data [5ad10c73-425abe19-p1-697eff21]: The Government confirmed that all existing activities must be fully consolidated under the AWACS operating model on Day 1 — will a sanitized workload-to-capacity baseline or incumbent staffing model be released prior to proposal submission to allow offerors to right-size their Day-1 transition plans?",
+   "JKO Access and CBT Ownership [5ad10c73-425abe19-p1-4ba04d8a]: The solicitation states JKO is the Government LMS and hosts existing CBTs — will the contractor be granted JKO author/administrator access to update or create content, or is the contractor's role limited to tracking and reporting against Government-owned CBT content?",
+   "CEPO Compliance Applicability [5ad10c73-425abe19-p1-5ae6f094]: The requirement to maintain 100% compliance with Continuing Education Program Office (CEPO) standards applies to training delivery — does CEPO compliance apply to all contractor-delivered training across all 11 User Domains, or only to clinical continuing education activities, and will the Government provide the current CEPO standards document as a reference attachment?",
+   "HIPAA, Privacy Act, and 42 CFR Part 2 Staff Training Mechanism [5ad10c73-09f81d19-p10-1cfa14a9]: The solicitation requires all contractor staff to receive training on the Privacy Act, HIPAA, and 42 CFR Part 2 — will the Government provide or designate an approved training course (e.g., via JKO or DHA learning portal), or is the contractor responsible for developing and delivering a compliant training program independently?",
+   "DSA and DUA Determination Timeline [5ad10c73-09f81d19-p10-932a4f3e]: The solicitation requires the contractor to consult with the DHA Privacy Office to determine whether a Data Sharing Agreement or Data Use Agreement is required — will this determination occur pre-award, allowing offerors to account for it in their technical approach, or is it a post-award administrative action?"
+  ],
+  "calendar_entries": [
+   {
+    "title": "Questions Due",
+    "date": "2026-09-02",
+    "note": "Questions must be submitted via email to the POCs no later than 11:00 AM EDT. Questions received after this deadline will not be considered.",
+    "source_quote": "Questions: Must be submitted via email to the POCs listed below no later than September 2, 2026, at 11:00 AM EDT."
+   },
+   {
+    "title": "Decide By (2 business days before proposal due)",
+    "date": "2026-09-10",
+    "note": "Internal bid/no-bid decision deadline — two business days before the September 14 whitepaper submission deadline.",
+    "source_quote": "Submission Deadline: Whitepapers must be submitted via email to Katelyn O'Connor, katelyn.j.oconnor.civ@health.mil and Jena Bowman, jena.l.bowman.civ@health.mil no later than September 14, 2026, at 5:00 PM EDT."
+   },
+   {
+    "title": "Proposal (Whitepaper) Due",
+    "date": "2026-09-14",
+    "note": "Whitepapers must be submitted via email to the listed POCs by 5:00 PM EDT. Submissions received after this date and time will not be considered.",
+    "source_quote": "Submission Deadline: Whitepapers must be submitted via email to Katelyn O'Connor, katelyn.j.oconnor.civ@health.mil and Jena Bowman, jena.l.bowman.civ@health.mil no later than September 14, 2026, at 5:00 PM EDT. Submissions received after this date and time will not be considered."
+   }
+  ]
+ },
+ "reader": {
+  "notice_id": "5ad10c73d29b487fa70e750479bb0517",
+  "key_requirement_ids": [
+   "5ad10c73-af9cb6ff-p8-b3ed3b78",
+   "5ad10c73-af9cb6ff-p8-402a7cd1",
+   "5ad10c73-af9cb6ff-p8-8a06cf26",
+   "5ad10c73-af9cb6ff-p9-872ff787",
+   "5ad10c73-af9cb6ff-p11-78518c0d",
+   "5ad10c73-425abe19-p1-cebc3df6",
+   "5ad10c73-af9cb6ff-p10-48f98b1c",
+   "5ad10c73-09f81d19-p8-0873335f",
+   "5ad10c73-09f81d19-p5-5742f01d",
+   "5ad10c73-09f81d19-p6-b9a2f782",
+   "5ad10c73-09f81d19-p6-6d20d09e",
+   "5ad10c73-425abe19-p1-45555448",
+   "5ad10c73-425abe19-p1-3fdbcb6e",
+   "5ad10c73-425abe19-p1-697eff21",
+   "5ad10c73-af9cb6ff-p3-f19b5676",
+   "5ad10c73-425abe19-p1-dec24adb",
+   "5ad10c73-425abe19-p1-976b6a8d",
+   "5ad10c73-425abe19-p1-1f2c6b41",
+   "5ad10c73-425abe19-p1-f493906f",
+   "5ad10c73-af9cb6ff-p9-e0a14d71",
+   "5ad10c73-af9cb6ff-p10-4a2ebff7",
+   "5ad10c73-af9cb6ff-p8-1e2a6b67",
+   "5ad10c73-425abe19-p1-e804a102",
+   "5ad10c73-af9cb6ff-p1-64261661",
+   "5ad10c73-descript-p0-0d7b64fb"
+  ],
+  "scope_summary": "DHA PAE MDS is acquiring Application, Workflow, Adoption, and Change Support (AWACS) services focused on transforming and integrating EUS Service Pillars 2 (Application & Clinical Workflow Support), 3 (Enablement & Adoption Services), and 5 (Change, Communications, & Trust) across 11 distinct User Domains ranging from point-of-care clinicians to operational combat medics. The contractor must deliver an outcome-based, unified service model integrating with Government-provided platforms (ServiceNow, JKO, MED365, MHS GENESIS) from Day 1, maintaining 24/7 support for global hospital operations, and feeding data to the enterprise ITSM and SIAM. The anticipated contract structure is a 12-month base plus four 12-month options, awarded as either a FAR-based contract or a Prototype Project Other Transaction Agreement under 10 U.S.C. § 4022, leveraging the DHA Enterprise-Wide Commercial Solutions Opening (CSO) HT003826SC005.",
+  "evaluation_basis": "Phase 1 whitepapers must be organized into three sections: Section 1 (Innovation and Technical Strategy for Pillars 2, 3, & 5), Section 2 (Proposed Performance Outcomes including SLAs and XLAs), and a mandatory Appendix A Day 1 Continuity Crosswalk; the AOI references evaluation of \"Innovation and Modernization Value\" and requires ATO or ATO-C by contract award, but a detailed weighting or factor-by-factor evaluation scheme is not stated.",
+  "incumbent_or_history": "The Q&A references \"existing activities\" currently dispersed across teams and asks whether consolidation must occur on Day 1, and the Government confirmed \"Government expect those existing activities to be fully consolidated under a unified AWACS operating model on Day 1\"; one Q&A entry asks \"If incumbent-specific information cannot be released, will the Government provide a sanitized workload-to-capacity baseline\" — indicating an incumbent exists but no incumbent name or prior award details are disclosed in the text.",
+  "quotes": [
+   "PAE MDS is transitioning from legacy, labor-intensive support contracts to a unified, outcome-based EUS delivery model.",
+   "Any IT solution, automated framework, or workflow compliance strategy proposed under this AoI must be designed to seamlessly integrate with the broader EUS ecosystem, specifically, passing data to the enterprise ITSM Service Desk (Pillar 1) and supporting the overarching Government Service Integration and Management (SIAM) processes and integration authorities.",
+   "The Contractor must maintain an adequate workforce for the uninterrupted performance of all tasks defined herein, including 24/7 support for global hospitals and healthcare operations.",
+   "Contractors shall be able to deliver services outlined in Appendix A upon award.",
+   "Government expect those existing activities to be fully consolidated under a unified AWACS operating model on Day 1.",
+   "As a planning parameter, Contractors must ensure that all functional and technical trainers supporting applications, as well as any personnel deploying to austere (DDIL) environments, possess active SECRET clearances.",
+   "4.3 Security Clearance Requirements Clearance: The Contractor will be required to have some number of employees that possess and maintain a SECRET clearance from the Defense Security Service (DSS) / Defense Counterintelligence and Security Agency (DCSA) on day 1.",
+   "Systems and/or product(s) must have and maintain Authority to Operate (ATO) or ATO with Conditions (ATO-C) by contract award.",
+   "3.3 Whitepaper Content Requirements To be evaluated, the Phase 1 submission must be organized into the following three distinct sections: Section 1: Innovation and Technical Strategy (Pillars 2, 3, & 5) Offerors must demonstrate a unified, non-siloed technical modernization approach addressing:",
+   "Offerors must propose an optimized, modernized service model based on the operational volumes provided in Appendix A.",
+   "Licensing and tenant costs for net-new commercial platforms proposed by the Offeror must be included within the Offeror's pricing solution.",
+   "The gap between legacy manual processes and modernized service delivery must be bridged without disrupting provider onboarding, user trust, or system governance on Day 1.",
+   "Whitepapers must be submitted via email to Katelyn O'Connor, katelyn.j.oconnor.civ@health.mil and Jena Bowman, jena.l.bowman.civ@health.mil no later than September 14, 2026, at 5:00 PM EDT."
+  ]
+ },
+ "fit": {
+  "notice_id": "5ad10c73d29b487fa70e750479bb0517",
+  "fit_score": 0.18,
+  "matched_past_performance": [
+   "IT help desk and desktop support | customer US Army Corps of Engineers, Tulsa District | naics 541512 | 2100000 USD | 2022-2025 | keywords: help desk, desktop, tier 1, tier 2, service desk, ITIL, ticketing, end user, information technology, IT services, IT support",
+   "Systems administration and Microsoft 365 migration | customer Oklahoma National Guard | naics 541512 | 740000 USD | 2023-2025 | keywords: systems administration, Microsoft 365, Azure, migration, Active Directory, Exchange"
+  ],
+  "strengths": [
+   "ITIL 4 certified bench aligns with ITSM/ServiceNow workflow requirements",
+   "22 cleared staff (Secret) satisfies Day-1 SECRET clearance requirement for trainers and DDIL-deploying personnel",
+   "CMMC Level 2 self-assessed and NIST SP 800-171 implementation supports cybersecurity compliance requirement",
+   "Microsoft 365 / Azure administration experience aligns with Government MED365 platform integration",
+   "RMF/ATO documentation capability supports ATO/ATO-C and NIST SP 800-171 assessment requirements",
+   "NAICS 541512 matches solicitation NAICS; unrestricted set-aside means firm is eligible to bid",
+   "Two past-performance records (Army CoE help desk; OK National Guard M365) satisfy the ss-pp owner rule"
+  ],
+  "gaps": [
+   "No clinical informatics or health IT experience — MHS GENESIS, EHR workflow support, clinical change management are core scope with zero evidence in profile",
+   "No training design, delivery, or adoption/change management capability — Pillars 3 and 5 (Enablement & Adoption; Change, Communications & Trust) are primary focus areas with no profile evidence",
+   "No ServiceNow administration or ITSM platform integration experience stated in profile",
+   "No Joint Knowledge Online (JKO) LMS experience or learning content development capability",
+   "No 24/7 global hospital operations workforce — profile lists a single NOC in Norman OK; solicitation requires uninterrupted 24/7 support for global hospital operations",
+   "No clinical informaticist staff or qualifications — solicitation requires credible healthcare domain expertise with clinical licensure or informatics experience",
+   "No experience with disconnected/DDIL (Denied, Degraded, Intermittent, Limited) environments required for operational combat medic user domain",
+   "No Section 508 accessibility conformance capability stated for training and end-user materials",
+   "No experience with OCONUS/SOFA travel coordination or global MTF support",
+   "No XLA/SLA performance outcome framework or experience with outcome-based service delivery models",
+   "No experience with MEPCOM, National Guard health IT workflows, or DHA enterprise governance (SIAM)",
+   "Firm size and revenue (~$4.5M total past performance) likely insufficient for a 12-month base + 4-option enterprise health IT contract at DHA scale"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "5ad10c73-af9cb6ff-p8-b3ed3b78",
+    "quote": "Section 1: Innovation and Technical Strategy (Pillars 2, 3, & 5) Offerors must demonstrate a unified, non-siloed technical modernization approach addressing:",
+    "source_file": "af9cb6fffc68481f94cb87b577e24498.pdf",
+    "page": 8,
+    "firm_answer": "Profile lists help desk, desktop support, and M365 administration. No clinical workflow support, training/adoption modernization, or change management capability is described. Cannot demonstrate a unified technical strategy for Pillars 2, 3, and 5.",
+    "status": "gap",
+    "evidence": "No capability sentence or past-performance record addresses clinical application workflow support, enablement/adoption services, or change/communications/trust."
+   },
+   {
+    "requirement_id": "5ad10c73-af9cb6ff-p3-f19b5676",
+    "quote": "Any IT solution, automated framework, or workflow compliance strategy proposed under this AoI must be designed to seamlessly integrate with the broader EUS ecosystem, specifically, passing data to the enterprise ITSM Service Desk (Pillar 1) and supporting the overarching Government Service Integration and Management (SIAM) processes and integration authorities.",
+    "source_file": "af9cb6fffc68481f94cb87b577e24498.pdf",
+    "page": 3,
+    "firm_answer": "Profile includes ITIL 4 and service desk experience (Army CoE help desk), which provides a partial foundation for ITSM integration concepts. However, no ServiceNow administration, SIAM governance, or enterprise EUS ecosystem integration experience is stated.",
+    "status": "partial",
+    "evidence": "IT help desk and desktop support | customer US Army Corps of Engineers — keywords: ITIL, service desk, ticketing"
+   },
+   {
+    "requirement_id": "5ad10c73-af9cb6ff-p9-872ff787",
+    "quote": "the Contractor's proposed solutions must integrate with and utilize the following Government-provided platforms from the start of performance: Government ITSM: ServiceNow Government Learning Management System: Joint Knowledge Online (JKO) Government Collaboration Platform: Microsoft Office 365 (MED365), Joint Operational Information Systems (JOMIS) Connect (health.mil)",
+    "source_file": "af9cb6fffc68481f94cb87b577e24498.pdf",
+    "page": 9,
+    "firm_answer": "Profile confirms Microsoft 365 and Azure administration experience. No ServiceNow, JKO, JOMIS, or health.mil integration experience is stated.",
+    "status": "partial",
+    "evidence": "Systems administration and Microsoft 365 migration | customer Oklahoma National Guard — keywords: Microsoft 365, Azure"
+   },
+   {
+    "requirement_id": "5ad10c73-af9cb6ff-p11-78518c0d",
+    "quote": "The Contractor must maintain an adequate workforce for the uninterrupted performance of all tasks defined herein, including 24/7 support for global hospitals and healthcare operations.",
+    "source_file": "af9cb6fffc68481f94cb87b577e24498.pdf",
+    "page": 11,
+    "firm_answer": "Profile lists a 24x7 NOC in Norman, OK. However, this is a single domestic NOC supporting IT/network operations, not a global hospital healthcare operations workforce. No evidence of scale, geographic distribution, or healthcare operations coverage.",
+    "status": "partial",
+    "evidence": "Firm capability: 24x7 NOC in Norman, OK — limited to domestic IT/network scope, not global healthcare."
+   },
+   {
+    "requirement_id": "5ad10c73-425abe19-p1-cebc3df6",
+    "quote": "Contractors must ensure that all functional and technical trainers supporting applications, as well as any personnel deploying to austere (DDIL) environments, possess active SECRET clearances.",
+    "source_file": "425abe1942ef4d6c8a47ef521c422f7f.xlsx",
+    "page": 1,
+    "firm_answer": "Profile confirms 22 cleared staff at Secret level. This satisfies the SECRET clearance requirement for trainers and DDIL-deploying personnel. However, the profile lists no functional/technical trainers or DDIL-environment experience.",
+    "status": "partial",
+    "evidence": "Firm capability: 22 cleared staff (Secret)"
+   },
+   {
+    "requirement_id": "5ad10c73-af9cb6ff-p10-48f98b1c",
+    "quote": "The Contractor will be required to have some number of employees that possess and maintain a SECRET clearance from the Defense Security Service (DSS) / Defense Counterintelligence and Security Agency (DCSA) on day 1.",
+    "source_file": "af9cb6fffc68481f94cb87b577e24498.pdf",
+    "page": 10,
+    "firm_answer": "Profile confirms 22 cleared staff (Secret) available on Day 1.",
+    "status": "meets",
+    "evidence": "Firm capability: 22 cleared staff (Secret)"
+   },
+   {
+    "requirement_id": "5ad10c73-09f81d19-p5-5742f01d",
+    "quote": "The contractor shall, at time of award, have implemented the security requirements prescribed in the National Institute of Standards and Technology (NIST) Special Publication (SP) 800-171",
+    "source_file": "09f81d1913544fc990e3057603de456a.pdf",
+    "page": 5,
+    "firm_answer": "Profile states CMMC Level 2 self-assessed, which is based on NIST SP 800-171. This satisfies the requirement at the self-assessment level, though a third-party assessment has not been completed.",
+    "status": "meets",
+    "evidence": "Firm capability: CMMC Level 2 self-assessed, NIST SP 800-171 implementation implied"
+   },
+   {
+    "requirement_id": "5ad10c73-09f81d19-p8-0873335f",
+    "quote": "Systems and/or product(s) must have and maintain Authority to Operate (ATO) or ATO with Conditions (ATO-C) by contract award.",
+    "source_file": "09f81d1913544fc990e3057603de456a.pdf",
+    "page": 8,
+    "firm_answer": "Profile includes RMF/ATO documentation capability. However, no existing ATO or ATO-C for any contractor-provided system or product is stated in the profile.",
+    "status": "partial",
+    "evidence": "Firm capability: RMF/ATO documentation — supports pursuit of ATO but no existing ATO/ATO-C confirmed for a product"
+   },
+   {
+    "requirement_id": "5ad10c73-425abe19-p1-1f2c6b41",
+    "quote": "Contractors must propose and justify their minimum qualifications for clinical informaticists to demonstrate credible healthcare domain expertise.",
+    "source_file": "425abe1942ef4d6c8a47ef521c422f7f.xlsx",
+    "page": 1,
+    "firm_answer": "Profile contains no clinical informaticists, no clinical licensure, no health informatics experience, and no healthcare domain expertise. This is a decisive gap for the core scope of the contract.",
+    "status": "gap",
+    "evidence": "No capability sentence or past-performance record references clinical informatics, healthcare, or health IT."
+   },
+   {
+    "requirement_id": "5ad10c73-3dd887bf-p1-27735af0",
+    "quote": "Must support a government infrastructure of local super users/peer experts, regional trainers, and local health informatics steering committees, and communities of practice.",
+    "source_file": "3dd887bf855c47148e0fc021281237e6.xlsx",
+    "page": 1,
+    "firm_answer": "Profile has no experience supporting health informatics steering committees, communities of practice, or regional trainer networks. No training delivery or change network management capability is stated.",
+    "status": "gap",
+    "evidence": "No capability sentence or past-performance record addresses health informatics governance, super-user networks, or communities of practice."
+   },
+   {
+    "requirement_id": "5ad10c73-425abe19-p1-bc761d72",
+    "quote": "A comprehensive list of current applications (e.g., MHS GENESIS, MHS GENESIS - Theater, Phillips, Henry Schein, Amwell, Operational Medicine Data Service (OMDS), Theater Blood-Mobile (TBLD-M), MedHUB, BATTAK, Maritime Medical Modules",
+    "source_file": "425abe1942ef4d6c8a47ef521c422f7f.xlsx",
+    "page": 1,
+    "firm_answer": "Profile lists no experience with any DHA/MHS clinical applications including MHS GENESIS, OMDS, BATTAK, or any other health IT system in the PAE MDS portfolio.",
+    "status": "gap",
+    "evidence": "No capability sentence or past-performance record references any MHS, DHA, or clinical application."
+   },
+   {
+    "requirement_id": "5ad10c73-425abe19-p1-01eafd57",
+    "quote": "The contractor must sustain necessary multimodal training on Day 1, while demonstrating an innovative framework to organically transition users to self-service and in-workflow methods over the contract lifecycle.",
+    "source_file": "425abe1942ef4d6c8a47ef521c422f7f.xlsx",
+    "page": 1,
+    "firm_answer": "Profile has no training design, multimodal training delivery, or self-service/in-workflow enablement capability stated. No instructional design or learning management experience is described.",
+    "status": "gap",
+    "evidence": "No capability sentence or past-performance record addresses training delivery, instructional design, or adoption frameworks."
+   },
+   {
+    "requirement_id": "5ad10c73-425abe19-p1-2edf08f9",
+    "quote": "Contractors shall use the Government ITSM system (e.g., ServiceNow) to manage request.",
+    "source_file": "425abe1942ef4d6c8a47ef521c422f7f.xlsx",
+    "page": 1,
+    "firm_answer": "Profile references ITIL 4 and ticketing experience from the Army CoE help desk contract, but no ServiceNow administration or configuration experience is explicitly stated.",
+    "status": "partial",
+    "evidence": "IT help desk and desktop support | customer US Army Corps of Engineers — keywords: ITIL, ticketing, service desk"
+   },
+   {
+    "requirement_id": "5ad10c73-425abe19-p1-5ae6f094",
+    "quote": "The Contractor must maintain 100% compliance with Continuing Education Program Office (CEPO) standards with zero critical audit findings.",
+    "source_file": "425abe1942ef4d6c8a47ef521c422f7f.xlsx",
+    "page": 1,
+    "firm_answer": "Profile has no reference to CEPO standards, continuing education program compliance, or DHA training audit requirements.",
+    "status": "gap",
+    "evidence": "No capability sentence or past-performance record references CEPO or continuing education compliance."
+   },
+   {
+    "requirement_id": "5ad10c73-425abe19-p1-976b6a8d",
+    "quote": "Contractors must propose an adequate workforce to ensure uninterrupted 24/7 support for global hospital operations and weekend system implementations.",
+    "source_file": "425abe1942ef4d6c8a47ef521c422f7f.xlsx",
+    "page": 1,
+    "firm_answer": "Profile lists a 24x7 NOC in Norman, OK, but this is a domestic IT/network operations center. No global hospital operations workforce, no OCONUS presence, and no healthcare operations staffing model is described.",
+    "status": "partial",
+    "evidence": "Firm capability: 24x7 NOC in Norman, OK"
+   },
+   {
+    "requirement_id": "5ad10c73-09f81d19-p6-b9a2f782",
+    "quote": "The contractor shall perform a Basic Assessment, using the NIST SP 800-171 DoD Assessment Scoring Template, and provide the results for each covered contractor information system that is relevant to the contract.",
+    "source_file": "09f81d1913544fc990e3057603de456a.pdf",
+    "page": 6,
+    "firm_answer": "Profile states CMMC Level 2 self-assessed, which requires use of the NIST SP 800-171 DoD Assessment Scoring Template. Firm can perform and provide a Basic Assessment.",
+    "status": "meets",
+    "evidence": "Firm capability: CMMC Level 2 self-assessed, vulnerability management (ACAS/Nessus), RMF/ATO documentation"
+   },
+   {
+    "requirement_id": "5ad10c73-09f81d19-p6-735ac1eb",
+    "quote": "The contractor shall submit requests to vary from NIST SP 800-171 in writing to the Contracting Officer or COR, for consideration by the DoW Chief Information Officer (CIO).",
+    "source_file": "09f81d1913544fc990e3057603de456a.pdf",
+    "page": 6,
+    "firm_answer": "This is a procedural compliance requirement. Profile's CMMC Level 2 and RMF experience indicates familiarity with NIST SP 800-171 variance procedures.",
+    "status": "meets",
+    "evidence": "Firm capability: CMMC Level 2 self-assessed, RMF/ATO documentation"
+   },
+   {
+    "requirement_id": "5ad10c73-09f81d19-p10-7fb655d2",
+    "quote": "the contractor shall report it, within 1 hour of confirmation, to the US-CERT Incident Reporting System.",
+    "source_file": "09f81d1913544fc990e3057603de456a.pdf",
+    "page": 10,
+    "firm_answer": "Profile's cybersecurity and incident response experience supports compliance with US-CERT reporting timelines. 24x7 NOC enables rapid detection and reporting.",
+    "status": "meets",
+    "evidence": "Network administration and cybersecurity support | customer FAA Mike Monroney Aeronautical Center — keywords: incident response, SOC; Firm capability: 24x7 NOC"
+   },
+   {
+    "requirement_id": "5ad10c73-09f81d19-p10-e8631b26",
+    "quote": "the contractor shall report to the DHA Privacy Office by submitting the required form within 24 hours of discovery of a breach.",
+    "source_file": "09f81d1913544fc990e3057603de456a.pdf",
+    "page": 10,
+    "firm_answer": "Profile's cybersecurity and incident response experience supports 24-hour breach reporting. However, no specific DHA Privacy Office or HIPAA breach reporting experience is stated.",
+    "status": "partial",
+    "evidence": "Network administration and cybersecurity support | customer FAA Mike Monroney Aeronautical Center — keywords: incident response, cybersecurity"
+   },
+   {
+    "requirement_id": "5ad10c73-09f81d19-p4-2c33563a",
+    "quote": "The contractor shall ensure that personnel accessing Information Systems (IS) have the proper and current IA certification to perform IA functions at contract award in accordance with the most current version of DoDM 8140.03",
+    "source_file": "09f81d1913544fc990e3057603de456a.pdf",
+    "page": 4,
+    "firm_answer": "Profile confirms Security+ certifications across the bench, which satisfies baseline DoDM 8140.03 IA certification requirements for most roles.",
+    "status": "meets",
+    "evidence": "Firm capability: ITIL 4 and Security+ across the bench"
+   },
+   {
+    "requirement_id": "5ad10c73-09f81d19-p8-388961e1",
+    "quote": "Prior to starting work, all contractor personnel shall complete the required security background investigation to obtain the minimum required clearance for this contract.",
+    "source_file": "09f81d1913544fc990e3057603de456a.pdf",
+    "page": 8,
+    "firm_answer": "Profile confirms 22 cleared staff (Secret). Background investigations are in place for existing cleared personnel.",
+    "status": "meets",
+    "evidence": "Firm capability: 22 cleared staff (Secret)"
+   },
+   {
+    "requirement_id": "5ad10c73-09f81d19-p10-1cfa14a9",
+    "quote": "The contractor shall ensure that its entire staff receives training on the Privacy Act, HIPAA, and the federal regulations on confidentiality of substance use disorder patient records, 42 CFR Part 2.",
+    "source_file": "09f81d1913544fc990e3057603de456a.pdf",
+    "page": 10,
+    "firm_answer": "Profile has no reference to HIPAA training, Privacy Act training, or 42 CFR Part 2 compliance for staff. No healthcare privacy training program is described.",
+    "status": "unknown",
+    "evidence": "Profile is silent on HIPAA, Privacy Act, or healthcare privacy training for staff."
+   },
+   {
+    "requirement_id": "5ad10c73-09f81d19-p6-6d20d09e",
+    "quote": "the contractor shall require the cloud service provider meets security requirements equivalent to those established by the Government for the Federal Risk and Authorization Management Program (FedRAMP) Moderate baseline",
+    "source_file": "09f81d1913544fc990e3057603de456a.pdf",
+    "page": 6,
+    "firm_answer": "Profile lists Microsoft Azure administration experience. Azure holds FedRAMP Moderate authorization. Firm has demonstrated awareness of cloud security requirements through RMF/ATO documentation work.",
+    "status": "meets",
+    "evidence": "Firm capability: Microsoft 365 and Azure administration, RMF/ATO documentation"
+   },
+   {
+    "requirement_id": "5ad10c73-425abe19-p1-88a3163f",
+    "quote": "Training and end user materials must be Section 508 compliant.",
+    "source_file": "425abe1942ef4d6c8a47ef521c422f7f.xlsx",
+    "page": 1,
+    "firm_answer": "Profile has no reference to Section 508 accessibility compliance for training materials or end-user content. No instructional design or content development capability is stated.",
+    "status": "gap",
+    "evidence": "No capability sentence or past-performance record references Section 508 compliance or accessible content development."
+   },
+   {
+    "requirement_id": "5ad10c73-425abe19-p1-697eff21",
+    "quote": "Government expect those existing activities to be fully consolidated under a unified AWACS operating model on Day 1.",
+    "source_file": "425abe1942ef4d6c8a47ef521c422f7f.xlsx",
+    "page": 1,
+    "firm_answer": "Profile has no experience with enterprise-wide service consolidation, transition-in management, or Day-1 operational readiness for a complex multi-pillar health IT environment.",
+    "status": "gap",
+    "evidence": "No capability sentence or past-performance record addresses enterprise service consolidation or complex transition-in management."
+   },
+   {
+    "requirement_id": "5ad10c73-09f81d19-p2-78129a8a",
+    "quote": "The contractor shall coordinate to understand fully and to complete and submit necessary documents to the SOFA authority for each country where such support is to be scheduled.",
+    "source_file": "09f81d1913544fc990e3057603de456a.pdf",
+    "page": 2,
+    "firm_answer": "Profile has no OCONUS experience, no SOFA coordination experience, and no international travel or support history.",
+    "status": "gap",
+    "evidence": "No capability sentence or past-performance record references OCONUS operations, SOFA, or international support."
+   },
+   {
+    "requirement_id": "5ad10c73-09f81d19-p4-0ec96b44",
+    "quote": "Contractors shall identify, document, track, and report qualifications of contractor support personnel who perform cyberspace roles.",
+    "source_file": "09f81d1913544fc990e3057603de456a.pdf",
+    "page": 4,
+    "firm_answer": "Profile confirms Security+ and ITIL 4 certifications across the bench, and cybersecurity staffing experience. Firm can document and track IA qualifications for cyberspace roles.",
+    "status": "meets",
+    "evidence": "Firm capability: ITIL 4 and Security+ across the bench; cybersecurity staffing"
+   },
+   {
+    "requirement_id": "5ad10c73-af9cb6ff-p8-402a7cd1",
+    "quote": "For each of the baseline operational tasks detailed in the EUS Baseline Data, the Offeror must provide a 1-to-2 sentence explanation of how their technical strategy will continuously and safely execute that capability from Day 1 of performance.",
+    "source_file": "af9cb6fffc68481f94cb87b577e24498.pdf",
+    "page": 8,
+    "firm_answer": "Profile cannot credibly address baseline operational tasks for clinical application workflow support, health IT training, or adoption services. Help desk and M365 experience covers only a narrow subset of the baseline tasks.",
+    "status": "gap",
+    "evidence": "No capability sentence or past-performance record covers clinical application workflow, health IT training delivery, or adoption/change management baseline tasks."
+   },
+   {
+    "requirement_id": "5ad10c73-425abe19-p1-45555448",
+    "quote": "Offerors must propose an optimized, modernized service model based on the operational volumes provided in Appendix A.",
+    "source_file": "425abe1942ef4d6c8a47ef521c422f7f.xlsx",
+    "page": 1,
+    "firm_answer": "Profile has no experience designing outcome-based or modernized service delivery models for health IT at enterprise scale. Help desk experience is relevant only to a narrow subset of Appendix A operational volumes.",
+    "status": "partial",
+    "evidence": "IT help desk and desktop support | customer US Army Corps of Engineers — keywords: service desk, ITIL, end user"
+   },
+   {
+    "requirement_id": "5ad10c73-09f81d19-p10-ed4bfdbb",
+    "quote": "The contractor shall notify the Contracting Officer immediately whenever it becomes aware that such access or participation may result in any actual or potential OCI and shall promptly submit a plan to the Contracting Officer to avoid or mitigate any such OCI.",
+    "source_file": "09f81d1913544fc990e3057603de456a.pdf",
+    "page": 10,
+    "firm_answer": "Standard OCI notification requirement. Profile's government contracting experience supports compliance with this procedural obligation.",
+    "status": "meets",
+    "evidence": "Firm capability: government contracting experience across multiple federal customers"
+   },
+   {
+    "requirement_id": "5ad10c73-09f81d19-p10-932a4f3e",
+    "quote": "The contractor shall consult with the DHA Privacy Office to determine if the contractor must obtain a DSA or Data Use Agreement (DUA) when DHA data will be accessed, used, disclosed, or stored, to perform the requirements of this contract.",
+    "source_file": "09f81d1913544fc990e3057603de456a.pdf",
+    "page": 10,
+    "firm_answer": "Profile has no DHA Privacy Office experience, no DSA/DUA history, and no healthcare data governance experience. This is a procedural requirement the firm can comply with but has no demonstrated experience.",
+    "status": "unknown",
+    "evidence": "Profile is silent on DHA data governance, DSA/DUA, or healthcare data agreements."
+   },
+   {
+    "requirement_id": "5ad10c73-425abe19-p1-f5a029fa",
+    "quote": "The overarching outcome requirements are unified, but technical execution must adapt to the respective connected and austere environments.",
+    "source_file": "425abe1942ef4d6c8a47ef521c422f7f.xlsx",
+    "page": 1,
+    "firm_answer": "Profile has no experience with austere/DDIL environments, operational medicine, or disconnected healthcare IT support. No OCONUS or field-deployed IT support experience is stated.",
+    "status": "gap",
+    "evidence": "No capability sentence or past-performance record references DDIL, austere environments, or operational medicine IT support."
+   },
+   {
+    "requirement_id": "5ad10c73-af9cb6ff-p8-8a06cf26",
+    "quote": "The testing and scaling framework for \"parallel innovation\" in a live health-delivery environment, avoiding risky \"hard cutovers.\"",
+    "source_file": "af9cb6fffc68481f94cb87b577e24498.pdf",
+    "page": 8,
+    "firm_answer": "Profile has no experience with parallel innovation frameworks, live health-delivery environment testing, or phased technology scaling in a clinical setting.",
+    "status": "gap",
+    "evidence": "No capability sentence or past-performance record addresses innovation frameworks, clinical environment testing, or health IT modernization."
+   },
+   {
+    "requirement_id": "5ad10c73-af9cb6ff-p3-22a8c6d5",
+    "quote": "The gap between legacy manual processes and modernized service delivery must be bridged without disrupting provider onboarding, user trust, or system governance on Day 1.",
+    "source_file": "af9cb6fffc68481f94cb87b577e24498.pdf",
+    "page": 3,
+    "firm_answer": "Profile has no change management, provider onboarding, or user trust/adoption experience in a healthcare context. The M365 migration for the Oklahoma National Guard is the closest analog but is not a healthcare environment.",
+    "status": "gap",
+    "evidence": "Systems administration and Microsoft 365 migration | customer Oklahoma National Guard — limited analog; no healthcare change management experience."
+   },
+   {
+    "requirement_id": "5ad10c73-425abe19-p1-e4f5a2c7",
+    "quote": "Contractor is required to manage and maintain hardware kits.",
+    "source_file": "425abe1942ef4d6c8a47ef521c422f7f.xlsx",
+    "page": 1,
+    "firm_answer": "Profile lists desktop and network administration experience. Hardware kit management is within the general scope of desktop support, though no specific hardware kit management for clinical environments is stated.",
+    "status": "partial",
+    "evidence": "IT help desk and desktop support | customer US Army Corps of Engineers — keywords: desktop, end user"
+   },
+   {
+    "requirement_id": "5ad10c73-425abe19-p1-4ba04d8a",
+    "quote": "Contractors shall use JKO to track training and JKO is where the existing CBTs are hosted.",
+    "source_file": "425abe1942ef4d6c8a47ef521c422f7f.xlsx",
+    "page": 1,
+    "firm_answer": "Profile has no Joint Knowledge Online (JKO) experience, no LMS administration capability, and no computer-based training (CBT) development or hosting experience stated.",
+    "status": "gap",
+    "evidence": "No capability sentence or past-performance record references JKO, LMS administration, or CBT development."
+   },
+   {
+    "requirement_id": "5ad10c73-af9cb6ff-p1-64261661",
+    "quote": "Vendors must submit proposed solutions in accordance with the submission instructions and requirements contained herein.",
+    "source_file": "af9cb6fffc68481f94cb87b577e24498.pdf",
+    "page": 1,
+    "firm_answer": "Firm can comply with whitepaper submission requirements (email to POCs by September 14, 2026, 5:00 PM EDT) and Appendix A Crosswalk as a separate Excel workbook.",
+    "status": "meets",
+    "evidence": "Standard submission compliance; no special capability required beyond administrative follow-through."
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "5ad10c73d29b487fa70e750479bb0517",
+  "key_dates": {
+   "questions_due": "2026-09-02T11:00:00-04:00",
+   "proposal_due": "2026-09-14T17:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": "12-month base plus 4 12-month options",
+   "source_quotes": [
+    "Questions: Must be submitted via email to the POCs listed below no later than September 2, 2026, at 11:00 AM EDT.",
+    "Submission Deadline: Whitepapers must be submitted via email to Katelyn O'Connor, katelyn.j.oconnor.civ@health.mil and Jena Bowman, jena.l.bowman.civ@health.mil no later than September 14, 2026, at 5:00 PM EDT.",
+    "Anticipate a 12-month base plus 4 12-month options for this AOI."
+   ]
+  },
+  "days_to_close": 0.4164429378819444,
+  "set_aside_note": "No set-aside is used on this notice (listed as \"No Set aside used\"). The notice is unrestricted, which Sooner Systems LLC can bid under per the owner rule allowing unrestricted solicitations.",
+  "amendment_note": "no amendment",
+  "calendar_entries": [
+   {
+    "title": "Questions Due",
+    "date": "2026-09-02",
+    "note": "Questions must be submitted via email to the POCs no later than 11:00 AM EDT. Questions received after this deadline will not be considered.",
+    "source_quote": "Questions: Must be submitted via email to the POCs listed below no later than September 2, 2026, at 11:00 AM EDT."
+   },
+   {
+    "title": "Decide By (2 business days before proposal due)",
+    "date": "2026-09-10",
+    "note": "Internal bid/no-bid decision deadline — two business days before the September 14 whitepaper submission deadline.",
+    "source_quote": "Submission Deadline: Whitepapers must be submitted via email to Katelyn O'Connor, katelyn.j.oconnor.civ@health.mil and Jena Bowman, jena.l.bowman.civ@health.mil no later than September 14, 2026, at 5:00 PM EDT."
+   },
+   {
+    "title": "Proposal (Whitepaper) Due",
+    "date": "2026-09-14",
+    "note": "Whitepapers must be submitted via email to the listed POCs by 5:00 PM EDT. Submissions received after this date and time will not be considered.",
+    "source_quote": "Submission Deadline: Whitepapers must be submitted via email to Katelyn O'Connor, katelyn.j.oconnor.civ@health.mil and Jena Bowman, jena.l.bowman.civ@health.mil no later than September 14, 2026, at 5:00 PM EDT. Submissions received after this date and time will not be considered."
+   }
+  ]
+ },
+ "model_calls": 5,
+ "tokens_in": 86272,
+ "tokens_out": 16393,
+ "seconds": 157.51,
+ "produced_at": "2026-09-14T06:02:56.844945-05:00"
+}

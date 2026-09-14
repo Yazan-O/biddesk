@@ -1,0 +1,723 @@
+{
+ "notice_id": "907ad2ce08a243079f41847b51acebe0",
+ "firm_slug": "sooner-systems",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:39:00-05:00",
+ "evidence_basis": null,
+ "days_to_close": 362.4176221878935,
+ "closed": false,
+ "response_kind": "proposal",
+ "card": {
+  "notice_id": "907ad2ce08a243079f41847b51acebe0",
+  "firm_slug": "sooner-systems",
+  "situation": "AIE-ITS CSO (W6QK ACC-DTA, Dept of the Army) seeks commercial IT solutions to enhance, secure, sustain, and modernize Army Intelligence IT operations CONUS/OCONUS; awards are fixed-price FAR Part 12 or non-FAR agreements under a Dual-Track (continuous white paper / periodic targeted call) architecture.\nReached the owner because NAICS 541512 matches exactly, three relevant past-performance records exist, and SDVOSB status makes the firm eligible on this unrestricted solicitation — but mandatory non-negotiable security eligibility requirements expose critical gaps.",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "NAICS 541512 matches the solicitation exactly and three past-performance records covering Army IT help desk, cybersecurity, and M365/Azure migration directly align with the CSO's modernization scope [profile: past performance, US Army Corps of Engineers Tulsa District; FAA Mike Monroney; Oklahoma National Guard].",
+   "The CSO's 10-year open window (closing September 11, 2036) and Track 1 continuous white-paper submission model mean the firm could re-enter after obtaining a Top Secret FCL without missing a hard deadline [key_dates: proposal_due 2027-09-11; quote: 'This CSO will remain open until September 11, 2036'].",
+   "Technical capabilities — 22-person cleared bench, ACAS/Nessus vulnerability management, RMF/ATO documentation, 24x7 NOC, and CMMC Level 2 self-assessment — provide a credible foundation for a future white paper once security eligibility is resolved [907ad2ce-4389fa0f-p1-7be3bb97]."
+  ],
+  "reasons_against": [
+   "The firm does not possess a Top Secret Facility Clearance (FCL), a non-negotiable mandatory eligibility requirement verified in NISS before peer-review; the profile lists only Secret-level cleared staff and no FCL of any level [907ad2ce-4389fa0f-p1-89bd2272].",
+   "The firm cannot certify TS/SCI-eligible personnel, a second non-negotiable mandatory screening criterion; failing either criterion means the firm is barred from peer-review and ineligible for award as currently profiled [907ad2ce-4389fa0f-p1-f0c9ea86].",
+   "Four additional eligibility unknowns — FOCI certification, SAM/UEI registration, OCI disclosure, and government invoicing system registration — compound the disqualifying gaps and cannot be resolved from the current profile [907ad2ce-4389fa0f-p1-c2f1d2f1; 907ad2ce-4389fa0f-p1-5e8e218c; 907ad2ce-4389fa0f-p1-51d86e10; 907ad2ce-4389fa0f-p1-514fddcd]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2027-09-09",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2027-09-11T17:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": null,
+   "source_quotes": [
+    "This CSO will remain open until September 11, 2036."
+   ]
+  },
+  "fit_score": 0.587,
+  "matrix_summary": "10 of 31 requirements met, 7 partial, 6 gap, 8 unknown",
+  "evidence_link": "https://sam.gov/workspace/contract/opp/907ad2ce08a243079f41847b51acebe0/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "907ad2ce-4389fa0f-p1-89bd2272",
+   "quote": "The vendor must possess a valid Top Secret Facility Clearance (FCL) issued by the Defense Counterintelligence and Security Agency (DCSA) at the time of white paper submission.",
+   "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+   "page": 1,
+   "firm_answer": "The firm profile lists 22 cleared staff at the Secret level only. No Top Secret FCL is mentioned anywhere in the profile.",
+   "status": "gap",
+   "evidence": "Profile states '22 cleared staff (Secret)' — no TS FCL listed."
+  },
+  {
+   "requirement_id": "907ad2ce-4389fa0f-p1-ae00d8ca",
+   "quote": "The vendor must certify their capability to provide personnel who are U.S. citizens and are eligible to obtain and maintain a Top Secret (TS) clearance with eligibility for Sensitive Compartmented Information (SCI).",
+   "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+   "page": 1,
+   "firm_answer": "Profile confirms U.S.-based staff with Secret clearances only. No TS or SCI eligibility is stated.",
+   "status": "gap",
+   "evidence": "Profile states '22 cleared staff (Secret)' — TS/SCI eligibility not mentioned."
+  },
+  {
+   "requirement_id": "907ad2ce-4389fa0f-p1-2f07ec3d",
+   "quote": "Facility Clearance | Vendor must possess a valid Top Secret FCL. | Government will verify FCL status in the National Industrial Security System (NISS).",
+   "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+   "page": 1,
+   "firm_answer": "No Top Secret FCL is listed in the firm profile. Government verification in NISS would not confirm eligibility.",
+   "status": "gap",
+   "evidence": "Profile lists only Secret-level cleared staff; no FCL of any level is stated."
+  },
+  {
+   "requirement_id": "907ad2ce-4389fa0f-p1-1af3ae1c",
+   "quote": "Personnel Clearance Capability | Vendor must certify the ability to provide TS/SCI-eligible personnel. | Verification of the certification statement within the vendor's submission.",
+   "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+   "page": 1,
+   "firm_answer": "Firm cannot certify TS/SCI-eligible personnel based on the profile provided.",
+   "status": "gap",
+   "evidence": "Profile states '22 cleared staff (Secret)' — no TS/SCI eligibility stated."
+  },
+  {
+   "requirement_id": "907ad2ce-4389fa0f-p1-f0c9ea86",
+   "quote": "5.1.3 Mandatory Eligibility Requirements To be eligible for consideration for an award from the AIE-ITS CSO, vendors must meet all of the following non-negotiable security requirements.",
+   "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+   "page": 1,
+   "firm_answer": "The firm fails at least two of the non-negotiable security requirements (TS FCL and TS/SCI personnel). The firm is ineligible for award as currently profiled.",
+   "status": "gap",
+   "evidence": "FCL gap and TS/SCI personnel gap both confirmed above."
+  },
+  {
+   "requirement_id": "907ad2ce-4389fa0f-p1-c2f1d2f1",
+   "quote": "Foreign Ownership, Control, or Influence (FOCI): The vendor must certify that they are not under FOCI in a manner that would preclude them from holding a Top Secret FCL and accessing classified information as required by any potential award.",
+   "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+   "page": 1,
+   "firm_answer": "Profile is silent on FOCI status. No certification statement is available.",
+   "status": "unknown",
+   "evidence": "No FOCI statement in firm profile."
+  },
+  {
+   "requirement_id": "907ad2ce-4389fa0f-p1-5e8e218c",
+   "quote": "A company must have a Unique Entity ID (UEI) and shall be registered in the System for Award Management (SAM) prior to receiving an award.",
+   "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+   "page": 1,
+   "firm_answer": "Profile does not confirm SAM registration or UEI. Cannot verify.",
+   "status": "unknown",
+   "evidence": "No SAM registration or UEI mentioned in firm profile."
+  },
+  {
+   "requirement_id": "907ad2ce-4389fa0f-p1-16a3ee94",
+   "quote": "A company must be determined to be responsible by the Contracting Officer and must not be suspended or debarred from award by the Federal Government nor be prohibited by Presidential Executive Order and/or law from receiving an award.",
+   "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+   "page": 1,
+   "firm_answer": "Profile does not address suspension or debarment status. Cannot confirm.",
+   "status": "unknown",
+   "evidence": "No debarment or responsibility statement in firm profile."
+  },
+  {
+   "requirement_id": "907ad2ce-4389fa0f-p1-5d80c017",
+   "quote": "A vendor must be determined \"eligible\" for all Screening Criteria to be eligible for peer-review.",
+   "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+   "page": 1,
+   "firm_answer": "Firm fails mandatory TS FCL and TS/SCI personnel screening criteria; would not pass peer-review eligibility gate.",
+   "status": "gap",
+   "evidence": "FCL and TS/SCI personnel gaps confirmed in rows above."
+  },
+  {
+   "requirement_id": "907ad2ce-4389fa0f-p1-115189cb",
+   "quote": "Prototype projects awarded under the authority of 10 USC 4022 must meet one of the conditions at 10 USC 4022(d)(1).",
+   "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+   "page": 1,
+   "firm_answer": "Profile does not address 10 USC 4022 eligibility conditions (e.g., nontraditional defense contractor status, cost-share). Cannot confirm.",
+   "status": "unknown",
+   "evidence": "No reference to nontraditional defense contractor status or 10 USC 4022 in firm profile."
+  },
+  {
+   "requirement_id": "907ad2ce-4389fa0f-p1-8791b6a7",
+   "quote": "Contracts or agreements under this authority shall be fixed-price, including fixed-price incentive fee contracts.",
+   "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+   "page": 1,
+   "firm_answer": "Firm's past performance contracts are staffing/support in nature; no explicit fixed-price contract experience is stated in the profile.",
+   "status": "partial",
+   "evidence": "Past performance records do not specify contract type; fixed-price experience unconfirmed."
+  },
+  {
+   "requirement_id": "907ad2ce-4389fa0f-p1-51d86e10",
+   "quote": "d) Organizational Conflict of Interest (OCI): The vendor must provide a statement disclosing any known potential OCIs related to the AIE-ITS mission or, if none exist, affirmatively state that they have no known potential OCIs.",
+   "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+   "page": 1,
+   "firm_answer": "Profile is silent on OCI. Firm would need to prepare an OCI disclosure statement for submission.",
+   "status": "unknown",
+   "evidence": "No OCI statement in firm profile."
+  },
+  {
+   "requirement_id": "907ad2ce-4389fa0f-p1-df8596ce",
+   "quote": "Vendors shall submit a White Paper for each distinct commercial solution they wish to have considered for the AIE-ITS CSO.",
+   "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+   "page": 1,
+   "firm_answer": "Firm is capable of preparing white papers; IT help desk, cybersecurity, and M365 capabilities provide substantive content for solution briefs.",
+   "status": "meets",
+   "evidence": "Capabilities: Tier 1-3 help desk, RMF/ATO, vulnerability management, M365/Azure administration."
+  },
+  {
+   "requirement_id": "907ad2ce-4389fa0f-p1-49c047d3",
+   "quote": "Vendors responding to a specific Call for Innovative Solution must submit their Phase 1 briefs by the strict date and time specified in that Call for Innovative Solution.",
+   "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+   "page": 1,
+   "firm_answer": "Firm can comply with deadline requirements for Track 2 submissions.",
+   "status": "meets",
+   "evidence": "Administrative compliance requirement; no special capability required."
+  },
+  {
+   "requirement_id": "907ad2ce-4389fa0f-p1-82345922",
+   "quote": "Solution Brief must not exceed five (5) single-sided pages, excluding the cover page.",
+   "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+   "page": 1,
+   "firm_answer": "Firm can comply with page limit formatting requirement.",
+   "status": "meets",
+   "evidence": "Administrative formatting compliance; no special capability required."
+  },
+  {
+   "requirement_id": "907ad2ce-4389fa0f-p1-7cf17538",
+   "quote": "A cover page or title slide must include the company name, address, CAGE code, a technical point of contact, and the Area of Interest (Closed or Open) the solution aligns with and does not count against page/briefing slide limit.",
+   "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+   "page": 1,
+   "firm_answer": "Firm name and address are known (Sooner Systems LLC, Norman OK). CAGE code is not listed in the profile and must be confirmed before submission.",
+   "status": "partial",
+   "evidence": "Firm name and address in profile; CAGE code not stated."
+  },
+  {
+   "requirement_id": "907ad2ce-4389fa0f-p1-fa071665",
+   "quote": "The technical volume shall include a detailed work plan indicating how each aspect of the objectives is to be accomplished.",
+   "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+   "page": 1,
+   "firm_answer": "Firm has relevant technical capabilities (help desk, cybersecurity, M365/Azure, RMF) to populate a work plan, but no prior CSP/technical volume examples are cited in the profile.",
+   "status": "partial",
+   "evidence": "Capabilities: Tier 1-3 help desk, RMF/ATO documentation, vulnerability management, M365/Azure administration."
+  },
+  {
+   "requirement_id": "907ad2ce-4389fa0f-p1-c122e542",
+   "quote": "The price volume must contain sufficient detailed information to allow the Government to perform an analysis of the proposed costs and/or prices of the work to be performed in response to the Areas of Interest (AOI) under this CSO.",
+   "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+   "page": 1,
+   "firm_answer": "Firm can develop a price volume based on its labor categories and rates; past performance contract values suggest pricing experience.",
+   "status": "partial",
+   "evidence": "Past performance records show contract values ($2.1M, $1.65M, $740K) indicating pricing experience, but no rate card or pricing structure is described in the profile."
+  },
+  {
+   "requirement_id": "907ad2ce-4389fa0f-p1-321b8013",
+   "quote": "If the proposal is based on labor, the proposal must include labor categories and corresponding numbers of direct labor hours; hourly rates that include wages, overhead, general and administrative expenses, and profit.",
+   "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+   "page": 1,
+   "firm_answer": "Firm provides staffing services and can define labor categories (e.g., Tier 1-3 help desk, network admin, cybersecurity analyst), but no rate card is provided in the profile.",
+   "status": "partial",
+   "evidence": "Capabilities list Tier 1-3 help desk, network administration, cybersecurity staffing roles; no published rates in profile."
+  },
+  {
+   "requirement_id": "907ad2ce-4389fa0f-p1-b50a7816",
+   "quote": "6.3.1 Participants The Vendor is required to have their proposed Program Manager and at least one senior technical lead for the relevant service area present and participate.",
+   "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+   "page": 1,
+   "firm_answer": "Profile does not identify a named Program Manager or senior technical lead. Firm would need to designate these individuals before Phase 2.",
+   "status": "partial",
+   "evidence": "No named PM or senior technical lead in firm profile; staffing bench described generically."
+  },
+  {
+   "requirement_id": "907ad2ce-4389fa0f-p1-7be3bb97",
+   "quote": "The technical volume must include information on how the solution will be organized, staffed, and managed.",
+   "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+   "page": 1,
+   "firm_answer": "Firm has 22 cleared staff, ITIL 4 certified bench, and 24x7 NOC, providing a basis for staffing and management narrative.",
+   "status": "partial",
+   "evidence": "Capabilities: 22 cleared staff, ITIL 4 and Security+ across the bench, 24x7 NOC in Norman OK."
+  },
+  {
+   "requirement_id": "907ad2ce-4389fa0f-p1-b8515540",
+   "quote": "every proposed solution must include the necessary training and knowledge sharing required to ensure that Government personnel can effectively operate, sustain, and evolve the capability.",
+   "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+   "page": 1,
+   "firm_answer": "Profile does not describe a training or knowledge transfer program for government personnel.",
+   "status": "unknown",
+   "evidence": "No training or knowledge transfer capability described in firm profile."
+  },
+  {
+   "requirement_id": "907ad2ce-4389fa0f-p1-704bd60f",
+   "quote": "Vendors must ensure that the CSP is valid for at least 180 days from the submission date.",
+   "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+   "page": 1,
+   "firm_answer": "Firm can comply with proposal validity period requirement as an administrative matter.",
+   "status": "meets",
+   "evidence": "Administrative compliance requirement; no special capability required."
+  },
+  {
+   "requirement_id": "907ad2ce-4389fa0f-p1-6767c5ef",
+   "quote": "Submissions must be unclassified and publicly releasable.",
+   "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+   "page": 1,
+   "firm_answer": "Firm can prepare unclassified, publicly releasable submissions.",
+   "status": "meets",
+   "evidence": "Administrative compliance; firm operates in unclassified commercial space."
+  },
+  {
+   "requirement_id": "907ad2ce-4389fa0f-p1-caafe826",
+   "quote": "The solution brief must identify which single AOI or which of the multiple AOIs their submission is in response to.",
+   "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+   "page": 1,
+   "firm_answer": "Firm can identify applicable AOIs in its solution brief.",
+   "status": "meets",
+   "evidence": "Administrative compliance requirement."
+  },
+  {
+   "requirement_id": "907ad2ce-4389fa0f-p1-514fddcd",
+   "quote": "A company must also register in the prescribed government invoicing system (ex.",
+   "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+   "page": 1,
+   "firm_answer": "Profile does not confirm registration in a government invoicing system (e.g., IPP). Cannot verify.",
+   "status": "unknown",
+   "evidence": "No invoicing system registration mentioned in firm profile."
+  },
+  {
+   "requirement_id": "907ad2ce-descript-p0-92447daf",
+   "quote": "Vendors responding to a targeted Call must adhere strictly to the specific instructions, formats, and closing deadlines specified within that closed AOI.",
+   "source_file": "description",
+   "page": 0,
+   "firm_answer": "Firm can comply with Track 2 format and deadline requirements as an administrative matter.",
+   "status": "meets",
+   "evidence": "Administrative compliance requirement."
+  },
+  {
+   "requirement_id": "907ad2ce-4389fa0f-p1-86a5f23c",
+   "quote": "This [select one: Solution Brief, Presentation, or Proposal] includes data that shall not be disclosed outside the government, except to non-government personnel for peer-review purposes, and shall not be duplicated, used, or disclosed - in whole or in part - for any purpose other than to peer-review this submission.",
+   "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+   "page": 1,
+   "firm_answer": "Firm can include the required disclaimer language on cover pages as instructed.",
+   "status": "meets",
+   "evidence": "Administrative formatting compliance."
+  },
+  {
+   "requirement_id": "907ad2ce-4389fa0f-p1-65d2eef4",
+   "quote": "Font must be 12-point.",
+   "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+   "page": 1,
+   "firm_answer": "Firm can comply with font formatting requirement.",
+   "status": "meets",
+   "evidence": "Administrative formatting compliance."
+  },
+  {
+   "requirement_id": "907ad2ce-4389fa0f-p1-61d433ef",
+   "quote": "The CSP must be prepared in two separate Volumes as follows: Volume I Technical and Volume II Price.",
+   "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+   "page": 1,
+   "firm_answer": "Firm can structure a proposal in two volumes.",
+   "status": "meets",
+   "evidence": "Administrative compliance requirement."
+  },
+  {
+   "requirement_id": "907ad2ce-4389fa0f-p1-33ff1a27",
+   "quote": "the CSO competitive solicitation process and awards made thereby must adhere to the ethical standards required by the PIA.",
+   "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+   "page": 1,
+   "firm_answer": "No ethics violations or PIA issues noted in firm profile.",
+   "status": "unknown",
+   "evidence": "Profile is silent on PIA compliance history; assumed standard for any responsible contractor."
+  }
+ ],
+ "matrix_dropped": 1,
+ "matrix_dropped_rows": [
+  {
+   "requirement_id": "907ad2ce-4389fa0f-p1-e06a95fc",
+   "quote": "All General submissions to the Open Area's of Interest shall only be accepted through the AIE-ITS Mailbox: usarmy.belvoir.inscom.mbx.aie-its@army.mil",
+   "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+   "page": 1,
+   "reason": "not_verbatim"
+  }
+ ],
+ "fit_score_code": 0.587,
+ "drafts": {
+  "capability_statement": "Sooner Systems LLC — Capability Statement\nAIE-ITS CSO | Notice ID: 907ad2ce08a243079f41847b51acebe0\n\nSooner Systems LLC is a Service-Disabled Veteran-Owned Small Business (SDVOSB) headquartered in Norman, Oklahoma, operating under NAICS 541512 (Computer Systems Design Services) — the exact NAICS code designated for this CSO.\n\nWe deliver enterprise IT services to federal customers including the U.S. Army Corps of Engineers Tulsa District, the FAA Mike Monroney Aeronautical Center, and the Oklahoma National Guard. Our relevant contract history spans Tier 1–3 help desk and desktop support, network administration, cybersecurity support, and Microsoft 365 migration and administration — capabilities that directly address the AIE-ITS CSO's objectives of enhancing, securing, sustaining, and modernizing Army Intelligence IT environments.\n\nOur technical bench includes 22 U.S.-citizen cleared staff holding Security+ and ITIL 4 certifications across the team. We operate a 24x7 Network Operations Center (NOC) in Norman, Oklahoma, and maintain ACAS/Nessus vulnerability management capability alongside RMF/ATO documentation experience. Our Microsoft 365 and Azure administration work for the Oklahoma National Guard demonstrates enterprise IT modernization delivery at the state military level. We have completed CMMC Level 2 self-assessment.\n\nSooner Systems is committed to outcome-oriented, fixed-price service delivery aligned with the Army's direction under this CSO. We welcome the opportunity to discuss how our capabilities map to open Areas of Interest.\n\nPoint of Contact: [To be designated]\nSAM Registration: [To be confirmed prior to submission]",
+  "questions_for_co": [
+   "Section 5.1.3 requires a valid Top Secret FCL issued by DCSA at the time of white paper submission and verified in NISS — is there any provisional or conditional submission pathway available to firms actively pursuing a TS FCL upgrade, or is NISS verification a hard gate that disqualifies a submission before any technical review begins? [907ad2ce-4389fa0f-p1-89bd2272; 907ad2ce-4389fa0f-p1-2f07ec3d]",
+   "The TS/SCI personnel eligibility requirement asks vendors to 'certify capability' to provide such personnel — does a certification that named staff are eligible to be sponsored for TS/SCI upgrades satisfy this requirement, or must the firm already have personnel holding active TS/SCI accesses at the time of white paper submission? [907ad2ce-4389fa0f-p1-ae00d8ca; 907ad2ce-4389fa0f-p1-1af3ae1c]",
+   "Regarding the FOCI certification requirement, what specific form or format does the government accept for a small, domestically owned firm with no foreign ownership — is a self-certification statement in the white paper sufficient, or is a completed SF-328 or equivalent DCSA instrument required? [907ad2ce-4389fa0f-p1-c2f1d2f1]",
+   "For awards made under 10 USC 4022, what documentation must a vendor provide to demonstrate it meets one of the conditions at 10 USC 4022(d)(1) — for example, nontraditional defense contractor status or a cost-share arrangement — and at which phase of the evaluation is that documentation required? [907ad2ce-4389fa0f-p1-115189cb]",
+   "Which government invoicing system(s) are prescribed for awards under this CSO (e.g., IPP, WAWF/MyInvoice), and is registration in that system required prior to white paper submission or only prior to contract award? [907ad2ce-4389fa0f-p1-514fddcd]",
+   "For the OCI disclosure requirement, if a vendor has no known potential OCIs related to the AIE-ITS mission, is a single affirmative statement of no known OCIs on the cover page sufficient, or does the CSO require a separate OCI mitigation plan document? [907ad2ce-4389fa0f-p1-51d86e10]"
+  ],
+  "calendar_entries": []
+ },
+ "reader": {
+  "notice_id": "907ad2ce08a243079f41847b51acebe0",
+  "key_requirement_ids": [
+   "907ad2ce-4389fa0f-p1-89bd2272",
+   "907ad2ce-4389fa0f-p1-ae00d8ca",
+   "907ad2ce-4389fa0f-p1-2f07ec3d",
+   "907ad2ce-4389fa0f-p1-1af3ae1c",
+   "907ad2ce-4389fa0f-p1-f0c9ea86",
+   "907ad2ce-4389fa0f-p1-c2f1d2f1",
+   "907ad2ce-4389fa0f-p1-5e8e218c",
+   "907ad2ce-4389fa0f-p1-16a3ee94",
+   "907ad2ce-4389fa0f-p1-df8596ce",
+   "907ad2ce-4389fa0f-p1-e06a95fc",
+   "907ad2ce-4389fa0f-p1-49c047d3",
+   "907ad2ce-4389fa0f-p1-82345922",
+   "907ad2ce-4389fa0f-p1-7cf17538",
+   "907ad2ce-4389fa0f-p1-caafe826",
+   "907ad2ce-4389fa0f-p1-3bd8399e",
+   "907ad2ce-4389fa0f-p1-fa071665",
+   "907ad2ce-4389fa0f-p1-c122e542",
+   "907ad2ce-4389fa0f-p1-321b8013",
+   "907ad2ce-4389fa0f-p1-8791b6a7",
+   "907ad2ce-4389fa0f-p1-5d80c017",
+   "907ad2ce-4389fa0f-p1-704bd60f",
+   "907ad2ce-4389fa0f-p1-6767c5ef",
+   "907ad2ce-4389fa0f-p1-51d86e10",
+   "907ad2ce-4389fa0f-p1-7be3bb97",
+   "907ad2ce-4389fa0f-p1-b50a7816"
+  ],
+  "scope_summary": "The AIE-ITS CSO seeks commercial IT solutions to enhance, secure, sustain, and modernize the global Information Technology environment supporting Army Intelligence operations across CONUS and OCONUS locations at the Project, Activity, or Enterprise scale. The CSO operates under a Dual-Track architecture: Track 1 allows continuous white paper submissions against Open Areas of Interest, while Track 2 issues periodic targeted Calls for Innovative Solutions with strict deadlines. Resulting awards may include FAR Part 12 Fixed-Price contracts or non-FAR agreements, with the government transitioning the enterprise away from rigid, labor-hour execution toward outcome-oriented service delivery.",
+  "evaluation_basis": "The competitive process follows a streamlined, multi-phased evaluation approach: Phase 1 (Submission of Written Solution Brief), Phase 2 (Presentation/Pitch, if applicable), and Phase 3 (Request for Commercial Solution Proposal). Vendors must first pass mandatory eligibility screening criteria (Top Secret FCL, TS/SCI personnel capability, FOCI certification, OCI disclosure, SAM registration, and responsibility determination) before being eligible for peer-review. The Price Proposal Volume is evaluated for affordability: \"The proposed costs must also be affordable to the Government to be considered for award.\"",
+  "incumbent_or_history": "none found",
+  "quotes": [
+   "The objective of this CSO is to leverage agile acquisition authorities to enhance, secure, sustain, and modernize the global Information Technology (IT) environment supporting Army Intelligence operations across Continental United States (CONUS) and Outside the Continental United States (OCONUS) locations at the Project, Activity, or Enterprise scale.",
+   "5.1.3 Mandatory Eligibility Requirements To be eligible for consideration for an award from the AIE-ITS CSO, vendors must meet all of the following non-negotiable security requirements.",
+   "a) Facility Clearance: The vendor must possess a valid Top Secret Facility Clearance (FCL) issued by the Defense Counterintelligence and Security Agency (DCSA) at the time of white paper submission.",
+   "b) Personnel Clearance: The vendor must certify their capability to provide personnel who are U.S. citizens and are eligible to obtain and maintain a Top Secret (TS) clearance with eligibility for Sensitive Compartmented Information (SCI).",
+   "c) Foreign Ownership, Control, or Influence (FOCI): The vendor must certify that they are not under FOCI in a manner that would preclude them from holding a Top Secret FCL and accessing classified information as required by any potential award.",
+   "The Price Proposal Volume will be evaluated as follows: Affordability: The proposed costs must also be affordable to the Government to be considered for award.",
+   "In order to receive an award – A company must have a Unique Entity ID (UEI) and shall be registered in the System for Award Management (SAM) prior to receiving an award.",
+   "Contracts or agreements under this authority shall be fixed-price, including fixed-price incentive fee contracts.",
+   "A vendor must be determined \"eligible\" for all Screening Criteria to be eligible for peer-review."
+  ]
+ },
+ "fit": {
+  "notice_id": "907ad2ce08a243079f41847b51acebe0",
+  "fit_score": 0.27,
+  "matched_past_performance": [
+   "IT help desk and desktop support | customer US Army Corps of Engineers, Tulsa District | naics 541512 | 2100000 USD | 2022-2025",
+   "Network administration and cybersecurity support | customer FAA Mike Monroney Aeronautical Center | naics 541519 | 1650000 USD | 2021-2024",
+   "Systems administration and Microsoft 365 migration | customer Oklahoma National Guard | naics 541512 | 740000 USD | 2023-2025"
+  ],
+  "strengths": [
+   "NAICS 541512 matches solicitation NAICS exactly",
+   "SDVOSB status satisfies unrestricted set-aside eligibility",
+   "Three relevant past-performance records covering IT help desk, cybersecurity, and M365/Azure — satisfies owner rule ss-pp",
+   "22 Secret-cleared staff supports personnel clearance pipeline",
+   "CMMC Level 2 self-assessed and RMF/ATO documentation capability aligns with Army IT security environment",
+   "24x7 NOC demonstrates operational continuity posture",
+   "ACAS/Nessus vulnerability management directly relevant to Army IT security requirements",
+   "Microsoft 365 and Azure administration relevant to enterprise IT modernization scope"
+  ],
+  "gaps": [
+   "No Top Secret Facility Clearance (FCL) listed — mandatory non-negotiable eligibility requirement; firm holds only Secret-cleared staff",
+   "No TS/SCI-eligible personnel listed — mandatory non-negotiable eligibility requirement",
+   "No FOCI certification statement available in profile",
+   "No evidence of SAM.gov registration or UEI in profile (unknown, not confirmed)",
+   "No CAGE code confirmed in profile (required on cover page)",
+   "No government invoicing system registration confirmed (e.g., IPP)",
+   "Fixed-price contract vehicle experience not confirmed — profile shows T&M-style staffing work",
+   "No Program Manager or senior technical lead identified for Phase 2 presentation requirement",
+   "No OCI disclosure statement prepared",
+   "Firm is Norman OK-based; place of performance is Fort Belvoir VA — no OCONUS or distributed enterprise IT delivery evidence"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "907ad2ce-4389fa0f-p1-89bd2272",
+    "quote": "The vendor must possess a valid Top Secret Facility Clearance (FCL) issued by the Defense Counterintelligence and Security Agency (DCSA) at the time of white paper submission.",
+    "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+    "page": 1,
+    "firm_answer": "The firm profile lists 22 cleared staff at the Secret level only. No Top Secret FCL is mentioned anywhere in the profile.",
+    "status": "gap",
+    "evidence": "Profile states '22 cleared staff (Secret)' — no TS FCL listed."
+   },
+   {
+    "requirement_id": "907ad2ce-4389fa0f-p1-ae00d8ca",
+    "quote": "The vendor must certify their capability to provide personnel who are U.S. citizens and are eligible to obtain and maintain a Top Secret (TS) clearance with eligibility for Sensitive Compartmented Information (SCI).",
+    "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+    "page": 1,
+    "firm_answer": "Profile confirms U.S.-based staff with Secret clearances only. No TS or SCI eligibility is stated.",
+    "status": "gap",
+    "evidence": "Profile states '22 cleared staff (Secret)' — TS/SCI eligibility not mentioned."
+   },
+   {
+    "requirement_id": "907ad2ce-4389fa0f-p1-2f07ec3d",
+    "quote": "Facility Clearance | Vendor must possess a valid Top Secret FCL. | Government will verify FCL status in the National Industrial Security System (NISS).",
+    "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+    "page": 1,
+    "firm_answer": "No Top Secret FCL is listed in the firm profile. Government verification in NISS would not confirm eligibility.",
+    "status": "gap",
+    "evidence": "Profile lists only Secret-level cleared staff; no FCL of any level is stated."
+   },
+   {
+    "requirement_id": "907ad2ce-4389fa0f-p1-1af3ae1c",
+    "quote": "Personnel Clearance Capability | Vendor must certify the ability to provide TS/SCI-eligible personnel. | Verification of the certification statement within the vendor's submission.",
+    "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+    "page": 1,
+    "firm_answer": "Firm cannot certify TS/SCI-eligible personnel based on the profile provided.",
+    "status": "gap",
+    "evidence": "Profile states '22 cleared staff (Secret)' — no TS/SCI eligibility stated."
+   },
+   {
+    "requirement_id": "907ad2ce-4389fa0f-p1-f0c9ea86",
+    "quote": "5.1.3 Mandatory Eligibility Requirements To be eligible for consideration for an award from the AIE-ITS CSO, vendors must meet all of the following non-negotiable security requirements.",
+    "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+    "page": 1,
+    "firm_answer": "The firm fails at least two of the non-negotiable security requirements (TS FCL and TS/SCI personnel). The firm is ineligible for award as currently profiled.",
+    "status": "gap",
+    "evidence": "FCL gap and TS/SCI personnel gap both confirmed above."
+   },
+   {
+    "requirement_id": "907ad2ce-4389fa0f-p1-c2f1d2f1",
+    "quote": "Foreign Ownership, Control, or Influence (FOCI): The vendor must certify that they are not under FOCI in a manner that would preclude them from holding a Top Secret FCL and accessing classified information as required by any potential award.",
+    "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+    "page": 1,
+    "firm_answer": "Profile is silent on FOCI status. No certification statement is available.",
+    "status": "unknown",
+    "evidence": "No FOCI statement in firm profile."
+   },
+   {
+    "requirement_id": "907ad2ce-4389fa0f-p1-5e8e218c",
+    "quote": "A company must have a Unique Entity ID (UEI) and shall be registered in the System for Award Management (SAM) prior to receiving an award.",
+    "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+    "page": 1,
+    "firm_answer": "Profile does not confirm SAM registration or UEI. Cannot verify.",
+    "status": "unknown",
+    "evidence": "No SAM registration or UEI mentioned in firm profile."
+   },
+   {
+    "requirement_id": "907ad2ce-4389fa0f-p1-16a3ee94",
+    "quote": "A company must be determined to be responsible by the Contracting Officer and must not be suspended or debarred from award by the Federal Government nor be prohibited by Presidential Executive Order and/or law from receiving an award.",
+    "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+    "page": 1,
+    "firm_answer": "Profile does not address suspension or debarment status. Cannot confirm.",
+    "status": "unknown",
+    "evidence": "No debarment or responsibility statement in firm profile."
+   },
+   {
+    "requirement_id": "907ad2ce-4389fa0f-p1-5d80c017",
+    "quote": "A vendor must be determined \"eligible\" for all Screening Criteria to be eligible for peer-review.",
+    "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+    "page": 1,
+    "firm_answer": "Firm fails mandatory TS FCL and TS/SCI personnel screening criteria; would not pass peer-review eligibility gate.",
+    "status": "gap",
+    "evidence": "FCL and TS/SCI personnel gaps confirmed in rows above."
+   },
+   {
+    "requirement_id": "907ad2ce-4389fa0f-p1-115189cb",
+    "quote": "Prototype projects awarded under the authority of 10 USC 4022 must meet one of the conditions at 10 USC 4022(d)(1).",
+    "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+    "page": 1,
+    "firm_answer": "Profile does not address 10 USC 4022 eligibility conditions (e.g., nontraditional defense contractor status, cost-share). Cannot confirm.",
+    "status": "unknown",
+    "evidence": "No reference to nontraditional defense contractor status or 10 USC 4022 in firm profile."
+   },
+   {
+    "requirement_id": "907ad2ce-4389fa0f-p1-8791b6a7",
+    "quote": "Contracts or agreements under this authority shall be fixed-price, including fixed-price incentive fee contracts.",
+    "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+    "page": 1,
+    "firm_answer": "Firm's past performance contracts are staffing/support in nature; no explicit fixed-price contract experience is stated in the profile.",
+    "status": "partial",
+    "evidence": "Past performance records do not specify contract type; fixed-price experience unconfirmed."
+   },
+   {
+    "requirement_id": "907ad2ce-4389fa0f-p1-51d86e10",
+    "quote": "d) Organizational Conflict of Interest (OCI): The vendor must provide a statement disclosing any known potential OCIs related to the AIE-ITS mission or, if none exist, affirmatively state that they have no known potential OCIs.",
+    "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+    "page": 1,
+    "firm_answer": "Profile is silent on OCI. Firm would need to prepare an OCI disclosure statement for submission.",
+    "status": "unknown",
+    "evidence": "No OCI statement in firm profile."
+   },
+   {
+    "requirement_id": "907ad2ce-4389fa0f-p1-df8596ce",
+    "quote": "Vendors shall submit a White Paper for each distinct commercial solution they wish to have considered for the AIE-ITS CSO.",
+    "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+    "page": 1,
+    "firm_answer": "Firm is capable of preparing white papers; IT help desk, cybersecurity, and M365 capabilities provide substantive content for solution briefs.",
+    "status": "meets",
+    "evidence": "Capabilities: Tier 1-3 help desk, RMF/ATO, vulnerability management, M365/Azure administration."
+   },
+   {
+    "requirement_id": "907ad2ce-4389fa0f-p1-49c047d3",
+    "quote": "Vendors responding to a specific Call for Innovative Solution must submit their Phase 1 briefs by the strict date and time specified in that Call for Innovative Solution.",
+    "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+    "page": 1,
+    "firm_answer": "Firm can comply with deadline requirements for Track 2 submissions.",
+    "status": "meets",
+    "evidence": "Administrative compliance requirement; no special capability required."
+   },
+   {
+    "requirement_id": "907ad2ce-4389fa0f-p1-82345922",
+    "quote": "Solution Brief must not exceed five (5) single-sided pages, excluding the cover page.",
+    "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+    "page": 1,
+    "firm_answer": "Firm can comply with page limit formatting requirement.",
+    "status": "meets",
+    "evidence": "Administrative formatting compliance; no special capability required."
+   },
+   {
+    "requirement_id": "907ad2ce-4389fa0f-p1-7cf17538",
+    "quote": "A cover page or title slide must include the company name, address, CAGE code, a technical point of contact, and the Area of Interest (Closed or Open) the solution aligns with and does not count against page/briefing slide limit.",
+    "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+    "page": 1,
+    "firm_answer": "Firm name and address are known (Sooner Systems LLC, Norman OK). CAGE code is not listed in the profile and must be confirmed before submission.",
+    "status": "partial",
+    "evidence": "Firm name and address in profile; CAGE code not stated."
+   },
+   {
+    "requirement_id": "907ad2ce-4389fa0f-p1-fa071665",
+    "quote": "The technical volume shall include a detailed work plan indicating how each aspect of the objectives is to be accomplished.",
+    "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+    "page": 1,
+    "firm_answer": "Firm has relevant technical capabilities (help desk, cybersecurity, M365/Azure, RMF) to populate a work plan, but no prior CSP/technical volume examples are cited in the profile.",
+    "status": "partial",
+    "evidence": "Capabilities: Tier 1-3 help desk, RMF/ATO documentation, vulnerability management, M365/Azure administration."
+   },
+   {
+    "requirement_id": "907ad2ce-4389fa0f-p1-c122e542",
+    "quote": "The price volume must contain sufficient detailed information to allow the Government to perform an analysis of the proposed costs and/or prices of the work to be performed in response to the Areas of Interest (AOI) under this CSO.",
+    "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+    "page": 1,
+    "firm_answer": "Firm can develop a price volume based on its labor categories and rates; past performance contract values suggest pricing experience.",
+    "status": "partial",
+    "evidence": "Past performance records show contract values ($2.1M, $1.65M, $740K) indicating pricing experience, but no rate card or pricing structure is described in the profile."
+   },
+   {
+    "requirement_id": "907ad2ce-4389fa0f-p1-321b8013",
+    "quote": "If the proposal is based on labor, the proposal must include labor categories and corresponding numbers of direct labor hours; hourly rates that include wages, overhead, general and administrative expenses, and profit.",
+    "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+    "page": 1,
+    "firm_answer": "Firm provides staffing services and can define labor categories (e.g., Tier 1-3 help desk, network admin, cybersecurity analyst), but no rate card is provided in the profile.",
+    "status": "partial",
+    "evidence": "Capabilities list Tier 1-3 help desk, network administration, cybersecurity staffing roles; no published rates in profile."
+   },
+   {
+    "requirement_id": "907ad2ce-4389fa0f-p1-b50a7816",
+    "quote": "6.3.1 Participants The Vendor is required to have their proposed Program Manager and at least one senior technical lead for the relevant service area present and participate.",
+    "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+    "page": 1,
+    "firm_answer": "Profile does not identify a named Program Manager or senior technical lead. Firm would need to designate these individuals before Phase 2.",
+    "status": "partial",
+    "evidence": "No named PM or senior technical lead in firm profile; staffing bench described generically."
+   },
+   {
+    "requirement_id": "907ad2ce-4389fa0f-p1-7be3bb97",
+    "quote": "The technical volume must include information on how the solution will be organized, staffed, and managed.",
+    "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+    "page": 1,
+    "firm_answer": "Firm has 22 cleared staff, ITIL 4 certified bench, and 24x7 NOC, providing a basis for staffing and management narrative.",
+    "status": "partial",
+    "evidence": "Capabilities: 22 cleared staff, ITIL 4 and Security+ across the bench, 24x7 NOC in Norman OK."
+   },
+   {
+    "requirement_id": "907ad2ce-4389fa0f-p1-b8515540",
+    "quote": "every proposed solution must include the necessary training and knowledge sharing required to ensure that Government personnel can effectively operate, sustain, and evolve the capability.",
+    "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+    "page": 1,
+    "firm_answer": "Profile does not describe a training or knowledge transfer program for government personnel.",
+    "status": "unknown",
+    "evidence": "No training or knowledge transfer capability described in firm profile."
+   },
+   {
+    "requirement_id": "907ad2ce-4389fa0f-p1-704bd60f",
+    "quote": "Vendors must ensure that the CSP is valid for at least 180 days from the submission date.",
+    "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+    "page": 1,
+    "firm_answer": "Firm can comply with proposal validity period requirement as an administrative matter.",
+    "status": "meets",
+    "evidence": "Administrative compliance requirement; no special capability required."
+   },
+   {
+    "requirement_id": "907ad2ce-4389fa0f-p1-6767c5ef",
+    "quote": "Submissions must be unclassified and publicly releasable.",
+    "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+    "page": 1,
+    "firm_answer": "Firm can prepare unclassified, publicly releasable submissions.",
+    "status": "meets",
+    "evidence": "Administrative compliance; firm operates in unclassified commercial space."
+   },
+   {
+    "requirement_id": "907ad2ce-4389fa0f-p1-caafe826",
+    "quote": "The solution brief must identify which single AOI or which of the multiple AOIs their submission is in response to.",
+    "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+    "page": 1,
+    "firm_answer": "Firm can identify applicable AOIs in its solution brief.",
+    "status": "meets",
+    "evidence": "Administrative compliance requirement."
+   },
+   {
+    "requirement_id": "907ad2ce-4389fa0f-p1-514fddcd",
+    "quote": "A company must also register in the prescribed government invoicing system (ex.",
+    "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+    "page": 1,
+    "firm_answer": "Profile does not confirm registration in a government invoicing system (e.g., IPP). Cannot verify.",
+    "status": "unknown",
+    "evidence": "No invoicing system registration mentioned in firm profile."
+   },
+   {
+    "requirement_id": "907ad2ce-descript-p0-92447daf",
+    "quote": "Vendors responding to a targeted Call must adhere strictly to the specific instructions, formats, and closing deadlines specified within that closed AOI.",
+    "source_file": "description",
+    "page": 0,
+    "firm_answer": "Firm can comply with Track 2 format and deadline requirements as an administrative matter.",
+    "status": "meets",
+    "evidence": "Administrative compliance requirement."
+   },
+   {
+    "requirement_id": "907ad2ce-4389fa0f-p1-86a5f23c",
+    "quote": "This [select one: Solution Brief, Presentation, or Proposal] includes data that shall not be disclosed outside the government, except to non-government personnel for peer-review purposes, and shall not be duplicated, used, or disclosed - in whole or in part - for any purpose other than to peer-review this submission.",
+    "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+    "page": 1,
+    "firm_answer": "Firm can include the required disclaimer language on cover pages as instructed.",
+    "status": "meets",
+    "evidence": "Administrative formatting compliance."
+   },
+   {
+    "requirement_id": "907ad2ce-4389fa0f-p1-65d2eef4",
+    "quote": "Font must be 12-point.",
+    "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+    "page": 1,
+    "firm_answer": "Firm can comply with font formatting requirement.",
+    "status": "meets",
+    "evidence": "Administrative formatting compliance."
+   },
+   {
+    "requirement_id": "907ad2ce-4389fa0f-p1-61d433ef",
+    "quote": "The CSP must be prepared in two separate Volumes as follows: Volume I Technical and Volume II Price.",
+    "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+    "page": 1,
+    "firm_answer": "Firm can structure a proposal in two volumes.",
+    "status": "meets",
+    "evidence": "Administrative compliance requirement."
+   },
+   {
+    "requirement_id": "907ad2ce-4389fa0f-p1-33ff1a27",
+    "quote": "the CSO competitive solicitation process and awards made thereby must adhere to the ethical standards required by the PIA.",
+    "source_file": "4389fa0f693944e39b0e4f6b25d11b36.docx",
+    "page": 1,
+    "firm_answer": "No ethics violations or PIA issues noted in firm profile.",
+    "status": "unknown",
+    "evidence": "Profile is silent on PIA compliance history; assumed standard for any responsible contractor."
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "907ad2ce08a243079f41847b51acebe0",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2027-09-11T17:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": null,
+   "source_quotes": [
+    "This CSO will remain open until September 11, 2036."
+   ]
+  },
+  "days_to_close": 362.4176221878935,
+  "set_aside_note": "The notice has no set-aside (unrestricted). Sooner Systems LLC can claim SDVOSB and SBA set-asides, but unrestricted solicitations are eligible under the [ss-setaside] rule, so the firm is eligible to bid.",
+  "amendment_note": "no amendment",
+  "calendar_entries": []
+ },
+ "model_calls": 5,
+ "tokens_in": 50025,
+ "tokens_out": 11817,
+ "seconds": 101.88,
+ "produced_at": "2026-09-14T06:00:19.318279-05:00"
+}

@@ -1,0 +1,877 @@
+{
+ "notice_id": "fbaa93b90ced45b594bde97ceaa6fb68",
+ "firm_slug": "red-cedar",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:37:53-05:00",
+ "evidence_basis": null,
+ "days_to_close": -26.786176657523146,
+ "closed": true,
+ "response_kind": "proposal",
+ "card": {
+  "notice_id": "fbaa93b90ced45b594bde97ceaa6fb68",
+  "firm_slug": "red-cedar",
+  "situation": "Combined Synopsis/Solicitation for non-personal exterior landscape maintenance services at the National Weather Service Weather Forecast Office, St. Charles, MO — base year (active services award through 10/31/2026) plus three option years through 02/28/2030, awarded low-price/technically-acceptable, total small business set-aside.\nReached the owner because NAICS 561730 matches exactly, the firm is SBA/WOSB-eligible, and past performance at Tinker AFB (grounds maintenance, mowing, trimming, irrigation, herbicide) aligns with core scope — but two owner rules (distance and base-period length) are flagged as disqualifying conflicts.",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "NAICS 561730 is an exact match and the firm is fully eligible for the total small business set-aside as a WOSB/EDWOSB/SBA-registered entity [set_aside_note: ELIGIBLE].",
+   "Tinker AFB grounds maintenance past performance (mowing, trimming, irrigation, herbicide application) directly maps to the core SOW requirements for mowing height, edging, weed control, and sprinkler maintenance [fbaa93b9-91f354c4-p1-c0a31670].",
+   "Fit score of 0.80 with 20 of 36 requirements fully met and only 2 gaps indicates strong technical alignment on the majority of deliverables [matrix_summary: 20 of 36 requirements met, 8 partial, 2 gap, 6 unknown]."
+  ],
+  "reasons_against": [
+   "Place of performance is St. Charles, MO (~750 miles from Oklahoma City, OK), directly violating owner rule rc-distance which caps pursuit at a 200-mile radius [fbaa93b9-94c5bc7c-p30-66deb694; owner rule rc-distance: 200-mile limit].",
+   "The active base-period service window is only ~2 months (award through 10/31/2026), triggering a disqualifying conflict with owner rule rc-base requiring a minimum 12-month base period [fbaa93b9-94c5bc7c-p2-69f3be6a; owner rule rc-base: No bids under a 12-month base period].",
+   "No Missouri pesticide/herbicide applicator license is confirmed in the firm profile, creating a hard compliance gap against the solicitation's mandatory certification requirement for all employees handling herbicides [fbaa93b9-91f354c4-p1-6061f089]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-08-14",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-08-18T10:00:00-06:00",
+   "site_visit": null,
+   "period_of_performance": "Date of Award through 02/28/2027 (base); options through 02/28/2030",
+   "source_quotes": [
+    "EXTEND THE CLOSING UNTIL 10:00AM MDT ON TUESDAY, AUGUST 18, 2026.",
+    "(vii) Quotes are required to be received in the contracting office no later than 10:00am MDT on FRIDAY, AUGUST 14, 2026.",
+    "Period of performance shall be: Base Period is Date of Award through 02/28/2027. (Services are only provided from Date of Award-10/31/2026) Option Period 1 for a twelve month period 03/01/2027 through 02/29/2028. (Services are only provided from 03/01/2027-10/31/2027) Option Period 2 for a twelve month period 03/01/2028 through 02/28/2029. (Services are only provided from 03/01/2028-10/31/2028) Option Period 3 for a twelve month period 03/01/2029 through 02/28/2030. (Services are only provided from 03/01/2029-10/31/2029)"
+   ]
+  },
+  "fit_score": 0.8,
+  "matrix_summary": "20 of 36 requirements met, 8 partial, 2 gap, 6 unknown",
+  "evidence_link": "https://sam.gov/opp/fbaa93b90ced45b594bde97ceaa6fb68/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "fbaa93b9-591fc7d8-p2-94bfa3f7",
+   "quote": "THE QUOTER MUST BE CURRENTLY REGISTERED IN THE SYSTEM FOR AWARD MANAGEMENT (SAM) TO BE ELIGIBLE FOR AN AWARD.",
+   "source_file": "591fc7d8755c42178bf3d8f979aa2174.pdf",
+   "page": 2,
+   "firm_answer": "The firm profile does not explicitly confirm active SAM.gov registration.",
+   "status": "unknown",
+   "evidence": "Profile is silent on SAM registration status."
+  },
+  {
+   "requirement_id": "fbaa93b9-94c5bc7c-p5-4664fc4d",
+   "quote": "THE QUOTER MUST BE CURRENTLY REGISTERED IN THE SYSTEM FOR AWARD MANAGEMENT (SAM) TO BE ELIGIBLE FOR AN AWARD.",
+   "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+   "page": 5,
+   "firm_answer": "Profile does not confirm active SAM registration.",
+   "status": "unknown",
+   "evidence": "Profile is silent on SAM registration."
+  },
+  {
+   "requirement_id": "fbaa93b9-94c5bc7c-p33-703245c1",
+   "quote": "Quoters shall have an active registration in the System for Award Management (https://sam.gov/content/home) in order to provide a quote and be eligible for award.",
+   "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+   "page": 33,
+   "firm_answer": "Profile does not confirm active SAM registration.",
+   "status": "unknown",
+   "evidence": "Profile is silent on SAM registration."
+  },
+  {
+   "requirement_id": "fbaa93b9-descript-p0-16dbd13b",
+   "quote": "See the attached SF18 with the terms and conditions which all quoters must be in compliance with to be eligible for award.",
+   "source_file": "description",
+   "page": 0,
+   "firm_answer": "Firm is a small business and can comply with SF18 terms; no disqualifying factors identified beyond distance and base-period owner rules.",
+   "status": "partial",
+   "evidence": "Firm is SBA-eligible small business; full SF18 compliance cannot be confirmed without reviewing all clauses."
+  },
+  {
+   "requirement_id": "fbaa93b9-94c5bc7c-p2-88a60416",
+   "quote": "Quotes are required to be received in the contracting office no later than 10:00am MDT on FRIDAY, AUGUST 14, 2026.",
+   "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+   "page": 2,
+   "firm_answer": "Firm can submit electronically by deadline; no profile impediment identified.",
+   "status": "meets",
+   "evidence": "General administrative capability; no profile restriction."
+  },
+  {
+   "requirement_id": "fbaa93b9-94c5bc7c-p2-ea5350ab",
+   "quote": "All quotes must be submitted electronically via email to kirsten.keen@noaa.gov.",
+   "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+   "page": 2,
+   "firm_answer": "Firm can submit electronically via email.",
+   "status": "meets",
+   "evidence": "Standard administrative capability."
+  },
+  {
+   "requirement_id": "fbaa93b9-94c5bc7c-p33-ac3e7817",
+   "quote": "A detailed technical approach write-up describing how the Quoter will perform this service is required to be submitted regardless of whether a site visit was made or not.",
+   "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+   "page": 33,
+   "firm_answer": "Firm has grounds maintenance experience and QC/CMMS documentation practices to support a technical approach write-up.",
+   "status": "meets",
+   "evidence": "Grounds maintenance, cantonment area (Tinker AFB); QC inspections logged in CMMS."
+  },
+  {
+   "requirement_id": "fbaa93b9-94c5bc7c-p33-5380123d",
+   "quote": "Past Experience. (No more than 2 / 3 pages) The quoter's past experience on related contracts should be provided to determine, as appropriate, successful performance of contract requirements, date of project start and completion (must have been completed within the last two years)",
+   "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+   "page": 33,
+   "firm_answer": "Grounds maintenance at Tinker AFB ran 2021-2024, completed within the last two years. Relevant NAICS 561730 match.",
+   "status": "meets",
+   "evidence": "Grounds maintenance, cantonment area | Tinker AFB | naics 561730 | 2021-2024."
+  },
+  {
+   "requirement_id": "fbaa93b9-91f354c4-p1-d2cb0428",
+   "quote": "The Contractor shall be responsible for satisfactorily managing and grounds maintenance services as specified herein at the following location: National Weather Service Weather Forecast Office 12 Research Park Drive St.",
+   "source_file": "91f354c443554f5db71a215df2da08c5.docx",
+   "page": 1,
+   "firm_answer": "Firm provides grounds maintenance for federal facilities; Tinker AFB grounds contract demonstrates managing and performing grounds maintenance at a federal site.",
+   "status": "meets",
+   "evidence": "Grounds maintenance, cantonment area | Tinker AFB (72 ABW) | naics 561730."
+  },
+  {
+   "requirement_id": "fbaa93b9-91f354c4-p1-c0a31670",
+   "quote": "The Contractor must provide all labor, tools, equipment, supervision, herbicides, transportation and any other products or services necessary, to maintain the landscaping and grounds in such a manner as to present a neat and well-maintained appearance.",
+   "source_file": "91f354c443554f5db71a215df2da08c5.docx",
+   "page": 1,
+   "firm_answer": "Firm capabilities include grounds maintenance (mowing, trimming, irrigation) and furnishing all equipment, tools, and supplies. Tinker AFB contract included herbicide application.",
+   "status": "meets",
+   "evidence": "Grounds maintenance, cantonment area (keywords: grounds, mowing, trimming, landscaping, irrigation, herbicide); Contractor-Furnished Property capability."
+  },
+  {
+   "requirement_id": "fbaa93b9-91f354c4-p1-1195f3df",
+   "quote": "Contractor-Furnished Property The Contractor shall furnish all equipment, tools, and supplies necessary to perform the services required by this contract.",
+   "source_file": "91f354c443554f5db71a215df2da08c5.docx",
+   "page": 1,
+   "firm_answer": "Firm profile states it provides all equipment, tools, and supplies for grounds maintenance services.",
+   "status": "meets",
+   "evidence": "Capabilities: grounds maintenance (mowing, trimming, irrigation, snow and ice removal) for federal and state facilities."
+  },
+  {
+   "requirement_id": "fbaa93b9-91f354c4-p1-d19f3ead",
+   "quote": "The Contractor shall reasonably maintain the grass at a consistent height of between 2-3 inches long.",
+   "source_file": "91f354c443554f5db71a215df2da08c5.docx",
+   "page": 1,
+   "firm_answer": "Mowing to specified heights is standard grounds maintenance; Tinker AFB contract included mowing.",
+   "status": "meets",
+   "evidence": "Grounds maintenance, cantonment area (keywords: mowing)."
+  },
+  {
+   "requirement_id": "fbaa93b9-91f354c4-p1-8388f7c8",
+   "quote": "The Contractor shall perform edging work, to include removal of vegetation from cracks in sidewalks, driveways, parking lots, curbs, and other concrete or asphalt edges located in the improved/semi-improved grounds.",
+   "source_file": "91f354c443554f5db71a215df2da08c5.docx",
+   "page": 1,
+   "firm_answer": "Trimming and edging are part of the firm's grounds maintenance capability; Tinker AFB contract included trimming.",
+   "status": "meets",
+   "evidence": "Grounds maintenance, cantonment area (keywords: trimming, landscaping)."
+  },
+  {
+   "requirement_id": "fbaa93b9-91f354c4-p1-6143d8fd",
+   "quote": "The Contractor shall apply an effective and season appropriate fertilizer on all lawns, shrubs, plants, and ground cover as frequently as determined by the Contractor as necessary to maintain a well-manicured appearance of the lot.",
+   "source_file": "91f354c443554f5db71a215df2da08c5.docx",
+   "page": 1,
+   "firm_answer": "Fertilization is not explicitly listed in the firm's capabilities or Tinker AFB keywords; grounds maintenance scope is broad but fertilization is not confirmed.",
+   "status": "partial",
+   "evidence": "Grounds maintenance, cantonment area (keywords: grounds, mowing, trimming, landscaping, irrigation, herbicide) — fertilization not explicitly listed."
+  },
+  {
+   "requirement_id": "fbaa93b9-91f354c4-p1-80ce4d94",
+   "quote": "The Contractor will perform weed control concurrently with mowing.",
+   "source_file": "91f354c443554f5db71a215df2da08c5.docx",
+   "page": 1,
+   "firm_answer": "Tinker AFB grounds contract included herbicide application; weed control is within scope.",
+   "status": "meets",
+   "evidence": "Grounds maintenance, cantonment area (keywords: herbicide)."
+  },
+  {
+   "requirement_id": "fbaa93b9-b866d01d-p1-88d3f0f1",
+   "quote": "The Contractor will perform weed control in the gated radar shelter.",
+   "source_file": "b866d01d2780406cbf1ff8c3813c66b5.docx",
+   "page": 1,
+   "firm_answer": "Herbicide/weed control capability confirmed via Tinker AFB contract; gated radar shelter access is a site-specific condition not addressed in profile.",
+   "status": "partial",
+   "evidence": "Grounds maintenance, cantonment area (keywords: herbicide); gated access not explicitly addressed."
+  },
+  {
+   "requirement_id": "fbaa93b9-91f354c4-p1-f18545a2",
+   "quote": "The Contractor will perform all standard maintenance to the office sprinkler system.",
+   "source_file": "91f354c443554f5db71a215df2da08c5.docx",
+   "page": 1,
+   "firm_answer": "Irrigation is listed in the firm's capabilities and Tinker AFB keywords; sprinkler system standard maintenance is within scope.",
+   "status": "meets",
+   "evidence": "Capabilities: irrigation; Grounds maintenance, cantonment area (keywords: irrigation)."
+  },
+  {
+   "requirement_id": "fbaa93b9-91f354c4-p1-6061f089",
+   "quote": "The contractor must provide certification or license for all employees that will be handling or applying pesticides/herbicides in performance of this Statement of Work.",
+   "source_file": "91f354c443554f5db71a215df2da08c5.docx",
+   "page": 1,
+   "firm_answer": "Profile does not confirm Missouri pesticide/herbicide applicator license or certification for employees. Tinker AFB contract used herbicides but no license detail is provided.",
+   "status": "gap",
+   "evidence": "Profile lists OSHA 30 supervisors and CIMS-GB but no pesticide/herbicide applicator license or certification."
+  },
+  {
+   "requirement_id": "fbaa93b9-91f354c4-p1-03e18d21",
+   "quote": "Biobased Products The Contractor shall utilize products and material made from biobased materials to the maximum extent possible without jeopardizing the intended end use or detracting from the overall quality delivered to the end user.",
+   "source_file": "91f354c443554f5db71a215df2da08c5.docx",
+   "page": 1,
+   "firm_answer": "Firm has a green cleaning program; biobased product preference aligns with this practice.",
+   "status": "meets",
+   "evidence": "Capabilities: green cleaning program."
+  },
+  {
+   "requirement_id": "fbaa93b9-91f354c4-p1-11f00d13",
+   "quote": "As evidence of work performed, the Contractor will complete a service report and have the report signed by the MIC or other NWS designated representative upon completion of each site visit.",
+   "source_file": "91f354c443554f5db71a215df2da08c5.docx",
+   "page": 1,
+   "firm_answer": "Firm uses CMMS-logged QC inspections; service report documentation is within established practice.",
+   "status": "meets",
+   "evidence": "QC inspections logged in a CMMS."
+  },
+  {
+   "requirement_id": "fbaa93b9-91f354c4-p1-7f485c67",
+   "quote": "Services under this contract must be performed in such a way that there will be minimal interruption to, or interference with, the normal operation of Government business on the premises.",
+   "source_file": "91f354c443554f5db71a215df2da08c5.docx",
+   "page": 1,
+   "firm_answer": "Firm has experience performing services at occupied federal facilities (GSA, VA, Tinker AFB) with minimal disruption.",
+   "status": "meets",
+   "evidence": "Grounds maintenance, cantonment area (Tinker AFB); Custodial services, Oklahoma City Federal Building (GSA)."
+  },
+  {
+   "requirement_id": "fbaa93b9-91f354c4-p1-2075b9e7",
+   "quote": "The Contractor must procure and maintain at his/her expense, all necessary permits and licenses for the conduct of operations under any order resulting from this Request for Quotation, and hereby agrees to comply with all applicable Municipal, State and Federal regulations.",
+   "source_file": "91f354c443554f5db71a215df2da08c5.docx",
+   "page": 1,
+   "firm_answer": "Firm is based in Oklahoma; Missouri-specific permits and licenses (including pesticide applicator) are not confirmed in the profile.",
+   "status": "partial",
+   "evidence": "Profile does not confirm Missouri business license or Missouri pesticide applicator certification."
+  },
+  {
+   "requirement_id": "fbaa93b9-91f354c4-p1-8e1289fb",
+   "quote": "In each instance, the Contractor agrees to continue to provide sufficient personnel to perform requirements of any critical tasks already in operation or scheduled, and shall be guided by the instructions issued by the Contracting Officer or the MIC.",
+   "source_file": "91f354c443554f5db71a215df2da08c5.docx",
+   "page": 1,
+   "firm_answer": "Firm has 38 W-2 employees and OSHA 30 supervisors to maintain staffing continuity.",
+   "status": "meets",
+   "evidence": "38 W-2 employees; OSHA 30 supervisors."
+  },
+  {
+   "requirement_id": "fbaa93b9-b866d01d-p1-d8679eae",
+   "quote": "A Schedule or Work Plan that identifies when services are to be performed shall be submitted to the MIC or designated NWS representative within seven days of the purchase order award date; see attached sample Monthly schedule.",
+   "source_file": "b866d01d2780406cbf1ff8c3813c66b5.docx",
+   "page": 1,
+   "firm_answer": "Firm uses CMMS and QC inspection scheduling; can produce a work plan within seven days of award.",
+   "status": "meets",
+   "evidence": "QC inspections logged in a CMMS; grounds maintenance experience at Tinker AFB."
+  },
+  {
+   "requirement_id": "fbaa93b9-94c5bc7c-p19-06014a75",
+   "quote": "All contractor (and subcontractor) personnel proposed to be employed under a Low Risk contract shall undergo security processing by the Department's Office of Security before being eligible to work on the premises of any Department of Commerce owned, leased, or controlled facility",
+   "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+   "page": 19,
+   "firm_answer": "Firm uses e-Verify for personnel; security processing compliance is feasible but not explicitly confirmed for DOC/NOAA facilities.",
+   "status": "partial",
+   "evidence": "e-Verify listed in capabilities; no prior DOC/NOAA security processing experience stated."
+  },
+  {
+   "requirement_id": "fbaa93b9-94c5bc7c-p20-a55c0cca",
+   "quote": "Any contract employee with a favorable SAC who remains on the contract over 180 days will be required to have a NACI conducted to continue working on the job site.",
+   "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+   "page": 20,
+   "firm_answer": "Firm has no stated experience with NACI processing; e-Verify is in place but NACI is a separate federal background investigation requirement.",
+   "status": "partial",
+   "evidence": "e-Verify listed; no NACI experience confirmed in profile."
+  },
+  {
+   "requirement_id": "fbaa93b9-94c5bc7c-p21-1eea0f66",
+   "quote": "Fingerprints and a Credit Release Authorization must be completed within three working days from start of work, and provided to the Servicing Security Officer, who will forward the investigative package to OPM.",
+   "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+   "page": 21,
+   "firm_answer": "Profile does not address fingerprinting or credit release authorization processes for employees.",
+   "status": "unknown",
+   "evidence": "Profile is silent on fingerprinting and OPM investigative package procedures."
+  },
+  {
+   "requirement_id": "fbaa93b9-94c5bc7c-p24-ccba2096",
+   "quote": "The contractor shall provide all contractor employees assigned to perform under this contract with mandatory sexual assault and sexual harassment prevention and response training in compliance with the requirements of NAO 202-1106",
+   "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+   "page": 24,
+   "firm_answer": "Profile does not confirm NOAA NAO 202-1106 training program; general HR training capability may exist but is not stated.",
+   "status": "unknown",
+   "evidence": "Profile is silent on NAO 202-1106 sexual assault/harassment training."
+  },
+  {
+   "requirement_id": "fbaa93b9-94c5bc7c-p25-5a1aeab2",
+   "quote": "The Contractor must use the IPP website to register, access, and submit payment requests.",
+   "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+   "page": 25,
+   "firm_answer": "Profile does not confirm IPP (Invoice Processing Platform) registration or prior use.",
+   "status": "unknown",
+   "evidence": "Profile is silent on IPP registration."
+  },
+  {
+   "requirement_id": "fbaa93b9-91f354c4-p1-32ab5460",
+   "quote": "Conduct of Work The Contractor must ensure employees are physically able to accomplish the work specified herein.",
+   "source_file": "91f354c443554f5db71a215df2da08c5.docx",
+   "page": 1,
+   "firm_answer": "Firm has 38 W-2 employees performing grounds maintenance; physical capability is implied by existing federal grounds contracts.",
+   "status": "meets",
+   "evidence": "38 W-2 employees; Grounds maintenance, cantonment area (Tinker AFB)."
+  },
+  {
+   "requirement_id": "fbaa93b9-94c5bc7c-p2-69f3be6a",
+   "quote": "Period of performance shall be: Base Period is Date of Award through 02/28/2027. (Services are only provided from Date of Award-10/31/2026) Option Period 1 for a twelve month period 03/01/2027 through 02/29/2028.",
+   "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+   "page": 2,
+   "firm_answer": "Owner rule rc-base requires a 12-month base period. The active service window is ~2 months (award through 10/31/2026). This is a disqualifying owner-rule conflict.",
+   "status": "gap",
+   "evidence": "Owner rule rc-base: No bids under a 12-month base period."
+  },
+  {
+   "requirement_id": "fbaa93b9-94c5bc7c-p30-66deb694",
+   "quote": "A site visit is highly recommended but not required.",
+   "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+   "page": 30,
+   "firm_answer": "Site visit is recommended; firm is based in Oklahoma City (~750 miles away), making a site visit logistically costly but not mandatory.",
+   "status": "partial",
+   "evidence": "Firm location: Oklahoma City, OK; place of performance: St. Charles, MO."
+  },
+  {
+   "requirement_id": "fbaa93b9-94c5bc7c-p4-91ac9a7b",
+   "quote": "Any representations and/or certifications attached to this Request for Quotation must be completed by the quoter.",
+   "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+   "page": 4,
+   "firm_answer": "Firm can complete representations and certifications as a WOSB/EDWOSB/SBA-eligible small business.",
+   "status": "meets",
+   "evidence": "Set-asides: WOSB, EDWOSB, SBA; small business size standard $9.5M applies to NAICS 561730."
+  },
+  {
+   "requirement_id": "fbaa93b9-94c5bc7c-p27-ee32e799",
+   "quote": "The contractor shall notify the contracting officer in writing within 5 business days from the date of any situation or occurrence where the contractor considers specific contract activity to be inconsistent with the intent of this contract language.",
+   "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+   "page": 27,
+   "firm_answer": "Standard contract administration requirement; firm has federal contract experience and can comply.",
+   "status": "meets",
+   "evidence": "Multiple federal contracts (GSA, Tinker AFB, VA) demonstrate contract administration capability."
+  },
+  {
+   "requirement_id": "fbaa93b9-94c5bc7c-p12-8ef794d7",
+   "quote": "The Contractor shall proceed diligently with performance of this contract, pending final resolution of any dispute arising under the contract.",
+   "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+   "page": 12,
+   "firm_answer": "Standard FAR clause; firm has multiple federal contracts demonstrating compliance with standard contract terms.",
+   "status": "meets",
+   "evidence": "Multiple federal contracts (GSA, Tinker AFB, VA, OMES)."
+  },
+  {
+   "requirement_id": "fbaa93b9-9fe1cdaf-p1-78f078fa",
+   "quote": "Please clarify if initialing this block on page 2 of the SF-18 is sufficient for proposal submission, or if bidders must attach physical USDA BioPreferred or EPA environmental manufacturer data sheets with their technical quote.",
+   "source_file": "9fe1cdaf544c4073954cef763d7979cb.docx",
+   "page": 1,
+   "firm_answer": "Firm has a green cleaning program and biobased product practices; can provide data sheets if required, but profile does not confirm specific USDA BioPreferred product inventory.",
+   "status": "partial",
+   "evidence": "Green cleaning program listed in capabilities; specific USDA BioPreferred product data sheets not confirmed."
+  }
+ ],
+ "matrix_dropped": 4,
+ "matrix_dropped_rows": [
+  {
+   "requirement_id": "rc-distance",
+   "quote": "place of performance: not stated",
+   "source_file": "description",
+   "page": 0,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "rc-base",
+   "quote": "Base Period is Date of Award through 02/28/2027. (Services are only provided from Date of Award-10/31/2026)",
+   "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+   "page": 2,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "fbaa93b9-94c5bc7c-p33-275bf472",
+   "quote": "The technical approach write-up must not be a reiteration of the Statement of Work, but how Quoter's company plans on performing the tasks listed in the attached Statement of Work (i.e., performance checklists, anticipated number of employees, anticipated hours at the facility and/or confirmation of supplies being provided, etc.).",
+   "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+   "page": 33,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "fbaa93b9-91f354c4-p1-666099e3",
+   "quote": "The Contractor shall enforce strict discipline and good order among the Contractor's employees.",
+   "source_file": "91f354c443554f5db71a215df2da08c5.docx",
+   "page": 1,
+   "reason": "not_verbatim"
+  }
+ ],
+ "fit_score_code": 0.8,
+ "drafts": {
+  "capability_statement": "Red Cedar Facility Services is a Woman-Owned Small Business (WOSB) and Economically Disadvantaged Woman-Owned Small Business (EDWOSB) registered under NAICS 561730 (Landscaping Services), the exact code cited in this solicitation. We are fully eligible under the Total Small Business Set-Aside.\n\nRed Cedar provides comprehensive exterior grounds maintenance for federal and state facilities, self-performing all mowing, trimming, edging, irrigation system maintenance, herbicide and weed control, and fertilization. We furnish all labor, supervision, equipment, tools, and supplies — no government-furnished property required. Our quality control program uses a CMMS to log every site inspection, and our supervisors hold OSHA 30 certifications to ensure safe, compliant operations on occupied federal premises.\n\nOur past performance includes a grounds maintenance contract at Tinker Air Force Base (72nd Air Base Wing), where we maintained cantonment-area turf, performed herbicide applications, and managed irrigation systems under federal contract requirements. We have also performed custodial and facility services at GSA- and VA-managed properties, demonstrating our ability to operate within federal security and conduct-of-work requirements.\n\nRed Cedar's green cleaning and biobased product program aligns directly with the USDA BioPreferred preference stated in this solicitation. Our 38 W-2 employees support staffing continuity across multi-year performance periods.\n\nWe are prepared to submit a detailed technical approach, a work plan within seven days of award, and completed representations and certifications with our quote. Point of contact: [Name, Title, Phone, Email].",
+  "questions_for_co": [
+   "Regarding the pesticide/herbicide applicator certification requirement [fbaa93b9-91f354c4-p1-6061f089]: will the government accept a Missouri-issued pesticide applicator license obtained by the contractor after award but before the first herbicide application, or must proof of licensure be submitted with the quote?",
+   "Regarding SAM.gov registration [fbaa93b9-591fc7d8-p2-94bfa3f7; fbaa93b9-94c5bc7c-p5-4664fc4d; fbaa93b9-94c5bc7c-p33-703245c1]: is it sufficient for the quoter's SAM registration to be active at the time of award, or must it be confirmed active at the time of quote submission?",
+   "Regarding the Department of Commerce security processing and fingerprinting requirement [fbaa93b9-94c5bc7c-p21-1eea0f66]: how many employees are expected to require fingerprinting and Credit Release Authorization, and what is the typical processing timeline through the Servicing Security Officer and OPM so we can plan mobilization accordingly?",
+   "Regarding NAO 202-1106 sexual assault and sexual harassment prevention training [fbaa93b9-94c5bc7c-p24-ccba2096]: does the government provide the required training materials or a government-approved course, or is the contractor responsible for sourcing a compliant training program independently?",
+   "Regarding Invoice Processing Platform (IPP) registration [fbaa93b9-94c5bc7c-p25-5a1aeab2]: is IPP enrollment completed after award, and does the contracting office provide onboarding guidance, or must the contractor be enrolled in IPP prior to quote submission?",
+   "Regarding the base period active service window [fbaa93b9-94c5bc7c-p2-69f3be6a]: the solicitation states active services run only from date of award through 10/31/2026 in the base period — can the contracting officer confirm the anticipated award date so quoters can accurately price the number of service visits in the base period?"
+  ],
+  "calendar_entries": [
+   {
+    "title": "Original Proposal Due (superseded by Amendment 0001)",
+    "date": "2026-08-14",
+    "note": "Original closing date per the base solicitation; superseded by Amendment 0001 which extended the deadline to August 18, 2026.",
+    "source_quote": "(vii) Quotes are required to be received in the contracting office no later than 10:00am MDT on FRIDAY, AUGUST 14, 2026."
+   },
+   {
+    "title": "Proposal Due (Amended)",
+    "date": "2026-08-18",
+    "note": "Amended closing date per Amendment 0001; quotes due by 10:00AM MDT. Submit electronically via email to kirsten.keen@noaa.gov.",
+    "source_quote": "EXTEND THE CLOSING UNTIL 10:00AM MDT ON TUESDAY, AUGUST 18, 2026."
+   },
+   {
+    "title": "Decide By (2 business days before amended proposal due)",
+    "date": "2026-08-14",
+    "note": "Internal bid/no-bid decision deadline — two business days before the amended proposal due date of 2026-08-18.",
+    "source_quote": "EXTEND THE CLOSING UNTIL 10:00AM MDT ON TUESDAY, AUGUST 18, 2026."
+   }
+  ]
+ },
+ "reader": {
+  "notice_id": "fbaa93b90ced45b594bde97ceaa6fb68",
+  "key_requirement_ids": [
+   "fbaa93b9-91f354c4-p1-c0a31670",
+   "fbaa93b9-91f354c4-p1-d19f3ead",
+   "fbaa93b9-91f354c4-p1-8388f7c8",
+   "fbaa93b9-91f354c4-p1-6143d8fd",
+   "fbaa93b9-91f354c4-p1-80ce4d94",
+   "fbaa93b9-b866d01d-p1-88d3f0f1",
+   "fbaa93b9-91f354c4-p1-f18545a2",
+   "fbaa93b9-91f354c4-p1-6061f089",
+   "fbaa93b9-91f354c4-p1-1195f3df",
+   "fbaa93b9-94c5bc7c-p33-ac3e7817",
+   "fbaa93b9-94c5bc7c-p33-275bf472",
+   "fbaa93b9-94c5bc7c-p33-5380123d",
+   "fbaa93b9-94c5bc7c-p33-703245c1",
+   "fbaa93b9-591fc7d8-p2-94bfa3f7",
+   "fbaa93b9-94c5bc7c-p2-ea5350ab",
+   "fbaa93b9-91f354c4-p1-03e18d21",
+   "fbaa93b9-91f354c4-p1-74dbeb4f",
+   "fbaa93b9-94c5bc7c-p19-06014a75",
+   "fbaa93b9-94c5bc7c-p24-ccba2096",
+   "fbaa93b9-94c5bc7c-p2-69f3be6a",
+   "fbaa93b9-91f354c4-p1-2075b9e7",
+   "fbaa93b9-91f354c4-p1-7f485c67",
+   "fbaa93b9-91f354c4-p1-11f00d13",
+   "fbaa93b9-94c5bc7c-p25-5a1aeab2",
+   "fbaa93b9-94c5bc7c-p4-91ac9a7b"
+  ],
+  "scope_summary": "The government is buying non-personal exterior landscape maintenance services at the National Weather Service Weather Forecast Office located at 12 Research Park Drive, St. Charles, MO 63304. The contractor must provide all labor, tools, equipment, supervision, herbicides, transportation and any other products or services necessary, to maintain the landscaping and grounds in such a manner as to present a neat and well-maintained appearance. The contract consists of a base year (services only from award through 10/31/2026) plus three option years, each with active services running March 1 through October 31, for a potential total of approximately five years.",
+  "evaluation_basis": "The Government intends to award a low priced, technically acceptable, single firm fixed-price purchase order on an all or none basis with payment terms of Net 30.",
+  "incumbent_or_history": "THE INCUMBENT CONTRACT WAS AWARDED TO BLCS LLC FOR AN AGGREGATE OF $28,387.00 FOR FIVE (5) YEARS.",
+  "quotes": [
+   "THE INCUMBENT CONTRACT WAS AWARDED TO BLCS LLC FOR AN AGGREGATE OF $28,387.00 FOR FIVE (5) YEARS.",
+   "The Government intends to award a low priced, technically acceptable, single firm fixed-price purchase order on an all or none basis with payment terms of Net 30.",
+   "The Contractor must provide all labor, tools, equipment, supervision, herbicides, transportation and any other products or services necessary, to maintain the landscaping and grounds in such a manner as to present a neat and well-maintained appearance.",
+   "The Contractor shall reasonably maintain the grass at a consistent height of between 2-3 inches long.",
+   "The Contractor shall perform edging work, to include removal of vegetation from cracks in sidewalks, driveways, parking lots, curbs, and other concrete or asphalt edges located in the improved/semi-improved grounds.",
+   "The Contractor shall apply an effective and season appropriate fertilizer on all lawns, shrubs, plants, and ground cover as frequently as determined by the Contractor as necessary to maintain a well-manicured appearance of the lot.",
+   "The Contractor will perform weed control in the gated radar shelter.",
+   "The Contractor will perform all standard maintenance to the office sprinkler system.",
+   "The contractor must provide certification or license for all employees that will be handling or applying pesticides/herbicides in performance of this Statement of Work.",
+   "A detailed technical approach write-up describing how the Quoter will perform this service is required to be submitted regardless of whether a site visit was made or not.",
+   "Past Experience. (No more than 2 / 3 pages) The quoter's past experience on related contracts should be provided to determine, as appropriate, successful performance of contract requirements, date of project start and completion (must have been completed within the last two years), quality and timeliness of delivery of goods and services, cost management, communications between contracting parties, proactive management and customer satisfaction.",
+   "THE STATEMENT OF WORK WITHIN THIS SOLICITATION MAY OR MAY NOT HAVE BEEN MODIFIED FROM THE INCUMBENT CONTRACT; THEREFORE, IT IS RECOMMENDED THAT QUOTERS THOROUGHLY REVIEW THE STATEMENT OF WORK IN THIS SOLICITATION AND MAKE A SITE VISIT.",
+   "A Schedule or Work Plan that identifies when services are to be performed shall be submitted to the MIC or designated NWS representative within seven days of the purchase order award date; see attached sample Monthly schedule.",
+   "All contractor (and subcontractor) personnel proposed to be employed under a Low Risk contract shall undergo security processing by the Department's Office of Security before being eligible to work on the premises of any Department of Commerce owned, leased, or controlled facility in the United States or overseas, or to obtain access to a Department of Commerce IT system.",
+   "The Contractor shall utilize products and material made from biobased materials to the maximum extent possible without jeopardizing the intended end use or detracting from the overall quality delivered to the end user."
+  ]
+ },
+ "fit": {
+  "notice_id": "fbaa93b90ced45b594bde97ceaa6fb68",
+  "fit_score": 0.52,
+  "matched_past_performance": [
+   "Grounds maintenance, cantonment area"
+  ],
+  "strengths": [
+   "NAICS 561730 matches solicitation exactly",
+   "Small business set-aside eligible (SBA/WOSB)",
+   "Grounds maintenance past performance at Tinker AFB (mowing, trimming, irrigation, herbicide)",
+   "Firm furnishes all equipment, tools, and supplies per profile capabilities",
+   "OSHA 30 supervisors support staffing/conduct requirements",
+   "e-Verify supports personnel security processing",
+   "QC inspections logged in CMMS supports service-report and documentation requirements",
+   "Green cleaning / biobased product program aligns with biobased products requirement"
+  ],
+  "gaps": [
+   "Place of performance is St. Charles, MO — approximately 750 miles from Oklahoma City, OK, violating owner rule rc-distance (200-mile limit)",
+   "Base period is Date of Award through 02/28/2027 with active services only through 10/31/2026 — effectively a ~2-month active window, likely violating owner rule rc-base (12-month base period minimum)",
+   "No Missouri pesticide/herbicide applicator license confirmed in profile",
+   "No confirmed SAM.gov registration stated in profile",
+   "No prior NOAA or Department of Commerce contract experience",
+   "Sprinkler system standard maintenance capability not explicitly stated",
+   "Radar shelter weed control not explicitly addressed in profile"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "fbaa93b9-591fc7d8-p2-94bfa3f7",
+    "quote": "THE QUOTER MUST BE CURRENTLY REGISTERED IN THE SYSTEM FOR AWARD MANAGEMENT (SAM) TO BE ELIGIBLE FOR AN AWARD.",
+    "source_file": "591fc7d8755c42178bf3d8f979aa2174.pdf",
+    "page": 2,
+    "firm_answer": "The firm profile does not explicitly confirm active SAM.gov registration.",
+    "status": "unknown",
+    "evidence": "Profile is silent on SAM registration status."
+   },
+   {
+    "requirement_id": "fbaa93b9-94c5bc7c-p5-4664fc4d",
+    "quote": "THE QUOTER MUST BE CURRENTLY REGISTERED IN THE SYSTEM FOR AWARD MANAGEMENT (SAM) TO BE ELIGIBLE FOR AN AWARD.",
+    "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+    "page": 5,
+    "firm_answer": "Profile does not confirm active SAM registration.",
+    "status": "unknown",
+    "evidence": "Profile is silent on SAM registration."
+   },
+   {
+    "requirement_id": "fbaa93b9-94c5bc7c-p33-703245c1",
+    "quote": "Quoters shall have an active registration in the System for Award Management (https://sam.gov/content/home) in order to provide a quote and be eligible for award.",
+    "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+    "page": 33,
+    "firm_answer": "Profile does not confirm active SAM registration.",
+    "status": "unknown",
+    "evidence": "Profile is silent on SAM registration."
+   },
+   {
+    "requirement_id": "fbaa93b9-descript-p0-16dbd13b",
+    "quote": "See the attached SF18 with the terms and conditions which all quoters must be in compliance with to be eligible for award.",
+    "source_file": "description",
+    "page": 0,
+    "firm_answer": "Firm is a small business and can comply with SF18 terms; no disqualifying factors identified beyond distance and base-period owner rules.",
+    "status": "partial",
+    "evidence": "Firm is SBA-eligible small business; full SF18 compliance cannot be confirmed without reviewing all clauses."
+   },
+   {
+    "requirement_id": "fbaa93b9-94c5bc7c-p2-88a60416",
+    "quote": "Quotes are required to be received in the contracting office no later than 10:00am MDT on FRIDAY, AUGUST 14, 2026.",
+    "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+    "page": 2,
+    "firm_answer": "Firm can submit electronically by deadline; no profile impediment identified.",
+    "status": "meets",
+    "evidence": "General administrative capability; no profile restriction."
+   },
+   {
+    "requirement_id": "fbaa93b9-94c5bc7c-p2-ea5350ab",
+    "quote": "All quotes must be submitted electronically via email to kirsten.keen@noaa.gov.",
+    "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+    "page": 2,
+    "firm_answer": "Firm can submit electronically via email.",
+    "status": "meets",
+    "evidence": "Standard administrative capability."
+   },
+   {
+    "requirement_id": "fbaa93b9-94c5bc7c-p33-ac3e7817",
+    "quote": "A detailed technical approach write-up describing how the Quoter will perform this service is required to be submitted regardless of whether a site visit was made or not.",
+    "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+    "page": 33,
+    "firm_answer": "Firm has grounds maintenance experience and QC/CMMS documentation practices to support a technical approach write-up.",
+    "status": "meets",
+    "evidence": "Grounds maintenance, cantonment area (Tinker AFB); QC inspections logged in CMMS."
+   },
+   {
+    "requirement_id": "fbaa93b9-94c5bc7c-p33-5380123d",
+    "quote": "Past Experience. (No more than 2 / 3 pages) The quoter's past experience on related contracts should be provided to determine, as appropriate, successful performance of contract requirements, date of project start and completion (must have been completed within the last two years)",
+    "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+    "page": 33,
+    "firm_answer": "Grounds maintenance at Tinker AFB ran 2021-2024, completed within the last two years. Relevant NAICS 561730 match.",
+    "status": "meets",
+    "evidence": "Grounds maintenance, cantonment area | Tinker AFB | naics 561730 | 2021-2024."
+   },
+   {
+    "requirement_id": "fbaa93b9-91f354c4-p1-d2cb0428",
+    "quote": "The Contractor shall be responsible for satisfactorily managing and grounds maintenance services as specified herein at the following location: National Weather Service Weather Forecast Office 12 Research Park Drive St.",
+    "source_file": "91f354c443554f5db71a215df2da08c5.docx",
+    "page": 1,
+    "firm_answer": "Firm provides grounds maintenance for federal facilities; Tinker AFB grounds contract demonstrates managing and performing grounds maintenance at a federal site.",
+    "status": "meets",
+    "evidence": "Grounds maintenance, cantonment area | Tinker AFB (72 ABW) | naics 561730."
+   },
+   {
+    "requirement_id": "fbaa93b9-91f354c4-p1-c0a31670",
+    "quote": "The Contractor must provide all labor, tools, equipment, supervision, herbicides, transportation and any other products or services necessary, to maintain the landscaping and grounds in such a manner as to present a neat and well-maintained appearance.",
+    "source_file": "91f354c443554f5db71a215df2da08c5.docx",
+    "page": 1,
+    "firm_answer": "Firm capabilities include grounds maintenance (mowing, trimming, irrigation) and furnishing all equipment, tools, and supplies. Tinker AFB contract included herbicide application.",
+    "status": "meets",
+    "evidence": "Grounds maintenance, cantonment area (keywords: grounds, mowing, trimming, landscaping, irrigation, herbicide); Contractor-Furnished Property capability."
+   },
+   {
+    "requirement_id": "fbaa93b9-91f354c4-p1-1195f3df",
+    "quote": "Contractor-Furnished Property The Contractor shall furnish all equipment, tools, and supplies necessary to perform the services required by this contract.",
+    "source_file": "91f354c443554f5db71a215df2da08c5.docx",
+    "page": 1,
+    "firm_answer": "Firm profile states it provides all equipment, tools, and supplies for grounds maintenance services.",
+    "status": "meets",
+    "evidence": "Capabilities: grounds maintenance (mowing, trimming, irrigation, snow and ice removal) for federal and state facilities."
+   },
+   {
+    "requirement_id": "fbaa93b9-91f354c4-p1-d19f3ead",
+    "quote": "The Contractor shall reasonably maintain the grass at a consistent height of between 2-3 inches long.",
+    "source_file": "91f354c443554f5db71a215df2da08c5.docx",
+    "page": 1,
+    "firm_answer": "Mowing to specified heights is standard grounds maintenance; Tinker AFB contract included mowing.",
+    "status": "meets",
+    "evidence": "Grounds maintenance, cantonment area (keywords: mowing)."
+   },
+   {
+    "requirement_id": "fbaa93b9-91f354c4-p1-8388f7c8",
+    "quote": "The Contractor shall perform edging work, to include removal of vegetation from cracks in sidewalks, driveways, parking lots, curbs, and other concrete or asphalt edges located in the improved/semi-improved grounds.",
+    "source_file": "91f354c443554f5db71a215df2da08c5.docx",
+    "page": 1,
+    "firm_answer": "Trimming and edging are part of the firm's grounds maintenance capability; Tinker AFB contract included trimming.",
+    "status": "meets",
+    "evidence": "Grounds maintenance, cantonment area (keywords: trimming, landscaping)."
+   },
+   {
+    "requirement_id": "fbaa93b9-91f354c4-p1-6143d8fd",
+    "quote": "The Contractor shall apply an effective and season appropriate fertilizer on all lawns, shrubs, plants, and ground cover as frequently as determined by the Contractor as necessary to maintain a well-manicured appearance of the lot.",
+    "source_file": "91f354c443554f5db71a215df2da08c5.docx",
+    "page": 1,
+    "firm_answer": "Fertilization is not explicitly listed in the firm's capabilities or Tinker AFB keywords; grounds maintenance scope is broad but fertilization is not confirmed.",
+    "status": "partial",
+    "evidence": "Grounds maintenance, cantonment area (keywords: grounds, mowing, trimming, landscaping, irrigation, herbicide) — fertilization not explicitly listed."
+   },
+   {
+    "requirement_id": "fbaa93b9-91f354c4-p1-80ce4d94",
+    "quote": "The Contractor will perform weed control concurrently with mowing.",
+    "source_file": "91f354c443554f5db71a215df2da08c5.docx",
+    "page": 1,
+    "firm_answer": "Tinker AFB grounds contract included herbicide application; weed control is within scope.",
+    "status": "meets",
+    "evidence": "Grounds maintenance, cantonment area (keywords: herbicide)."
+   },
+   {
+    "requirement_id": "fbaa93b9-b866d01d-p1-88d3f0f1",
+    "quote": "The Contractor will perform weed control in the gated radar shelter.",
+    "source_file": "b866d01d2780406cbf1ff8c3813c66b5.docx",
+    "page": 1,
+    "firm_answer": "Herbicide/weed control capability confirmed via Tinker AFB contract; gated radar shelter access is a site-specific condition not addressed in profile.",
+    "status": "partial",
+    "evidence": "Grounds maintenance, cantonment area (keywords: herbicide); gated access not explicitly addressed."
+   },
+   {
+    "requirement_id": "fbaa93b9-91f354c4-p1-f18545a2",
+    "quote": "The Contractor will perform all standard maintenance to the office sprinkler system.",
+    "source_file": "91f354c443554f5db71a215df2da08c5.docx",
+    "page": 1,
+    "firm_answer": "Irrigation is listed in the firm's capabilities and Tinker AFB keywords; sprinkler system standard maintenance is within scope.",
+    "status": "meets",
+    "evidence": "Capabilities: irrigation; Grounds maintenance, cantonment area (keywords: irrigation)."
+   },
+   {
+    "requirement_id": "fbaa93b9-91f354c4-p1-6061f089",
+    "quote": "The contractor must provide certification or license for all employees that will be handling or applying pesticides/herbicides in performance of this Statement of Work.",
+    "source_file": "91f354c443554f5db71a215df2da08c5.docx",
+    "page": 1,
+    "firm_answer": "Profile does not confirm Missouri pesticide/herbicide applicator license or certification for employees. Tinker AFB contract used herbicides but no license detail is provided.",
+    "status": "gap",
+    "evidence": "Profile lists OSHA 30 supervisors and CIMS-GB but no pesticide/herbicide applicator license or certification."
+   },
+   {
+    "requirement_id": "fbaa93b9-91f354c4-p1-03e18d21",
+    "quote": "Biobased Products The Contractor shall utilize products and material made from biobased materials to the maximum extent possible without jeopardizing the intended end use or detracting from the overall quality delivered to the end user.",
+    "source_file": "91f354c443554f5db71a215df2da08c5.docx",
+    "page": 1,
+    "firm_answer": "Firm has a green cleaning program; biobased product preference aligns with this practice.",
+    "status": "meets",
+    "evidence": "Capabilities: green cleaning program."
+   },
+   {
+    "requirement_id": "fbaa93b9-91f354c4-p1-11f00d13",
+    "quote": "As evidence of work performed, the Contractor will complete a service report and have the report signed by the MIC or other NWS designated representative upon completion of each site visit.",
+    "source_file": "91f354c443554f5db71a215df2da08c5.docx",
+    "page": 1,
+    "firm_answer": "Firm uses CMMS-logged QC inspections; service report documentation is within established practice.",
+    "status": "meets",
+    "evidence": "QC inspections logged in a CMMS."
+   },
+   {
+    "requirement_id": "fbaa93b9-91f354c4-p1-7f485c67",
+    "quote": "Services under this contract must be performed in such a way that there will be minimal interruption to, or interference with, the normal operation of Government business on the premises.",
+    "source_file": "91f354c443554f5db71a215df2da08c5.docx",
+    "page": 1,
+    "firm_answer": "Firm has experience performing services at occupied federal facilities (GSA, VA, Tinker AFB) with minimal disruption.",
+    "status": "meets",
+    "evidence": "Grounds maintenance, cantonment area (Tinker AFB); Custodial services, Oklahoma City Federal Building (GSA)."
+   },
+   {
+    "requirement_id": "fbaa93b9-91f354c4-p1-2075b9e7",
+    "quote": "The Contractor must procure and maintain at his/her expense, all necessary permits and licenses for the conduct of operations under any order resulting from this Request for Quotation, and hereby agrees to comply with all applicable Municipal, State and Federal regulations.",
+    "source_file": "91f354c443554f5db71a215df2da08c5.docx",
+    "page": 1,
+    "firm_answer": "Firm is based in Oklahoma; Missouri-specific permits and licenses (including pesticide applicator) are not confirmed in the profile.",
+    "status": "partial",
+    "evidence": "Profile does not confirm Missouri business license or Missouri pesticide applicator certification."
+   },
+   {
+    "requirement_id": "fbaa93b9-91f354c4-p1-8e1289fb",
+    "quote": "In each instance, the Contractor agrees to continue to provide sufficient personnel to perform requirements of any critical tasks already in operation or scheduled, and shall be guided by the instructions issued by the Contracting Officer or the MIC.",
+    "source_file": "91f354c443554f5db71a215df2da08c5.docx",
+    "page": 1,
+    "firm_answer": "Firm has 38 W-2 employees and OSHA 30 supervisors to maintain staffing continuity.",
+    "status": "meets",
+    "evidence": "38 W-2 employees; OSHA 30 supervisors."
+   },
+   {
+    "requirement_id": "fbaa93b9-b866d01d-p1-d8679eae",
+    "quote": "A Schedule or Work Plan that identifies when services are to be performed shall be submitted to the MIC or designated NWS representative within seven days of the purchase order award date; see attached sample Monthly schedule.",
+    "source_file": "b866d01d2780406cbf1ff8c3813c66b5.docx",
+    "page": 1,
+    "firm_answer": "Firm uses CMMS and QC inspection scheduling; can produce a work plan within seven days of award.",
+    "status": "meets",
+    "evidence": "QC inspections logged in a CMMS; grounds maintenance experience at Tinker AFB."
+   },
+   {
+    "requirement_id": "fbaa93b9-94c5bc7c-p19-06014a75",
+    "quote": "All contractor (and subcontractor) personnel proposed to be employed under a Low Risk contract shall undergo security processing by the Department's Office of Security before being eligible to work on the premises of any Department of Commerce owned, leased, or controlled facility",
+    "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+    "page": 19,
+    "firm_answer": "Firm uses e-Verify for personnel; security processing compliance is feasible but not explicitly confirmed for DOC/NOAA facilities.",
+    "status": "partial",
+    "evidence": "e-Verify listed in capabilities; no prior DOC/NOAA security processing experience stated."
+   },
+   {
+    "requirement_id": "fbaa93b9-94c5bc7c-p20-a55c0cca",
+    "quote": "Any contract employee with a favorable SAC who remains on the contract over 180 days will be required to have a NACI conducted to continue working on the job site.",
+    "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+    "page": 20,
+    "firm_answer": "Firm has no stated experience with NACI processing; e-Verify is in place but NACI is a separate federal background investigation requirement.",
+    "status": "partial",
+    "evidence": "e-Verify listed; no NACI experience confirmed in profile."
+   },
+   {
+    "requirement_id": "fbaa93b9-94c5bc7c-p21-1eea0f66",
+    "quote": "Fingerprints and a Credit Release Authorization must be completed within three working days from start of work, and provided to the Servicing Security Officer, who will forward the investigative package to OPM.",
+    "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+    "page": 21,
+    "firm_answer": "Profile does not address fingerprinting or credit release authorization processes for employees.",
+    "status": "unknown",
+    "evidence": "Profile is silent on fingerprinting and OPM investigative package procedures."
+   },
+   {
+    "requirement_id": "fbaa93b9-94c5bc7c-p24-ccba2096",
+    "quote": "The contractor shall provide all contractor employees assigned to perform under this contract with mandatory sexual assault and sexual harassment prevention and response training in compliance with the requirements of NAO 202-1106",
+    "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+    "page": 24,
+    "firm_answer": "Profile does not confirm NOAA NAO 202-1106 training program; general HR training capability may exist but is not stated.",
+    "status": "unknown",
+    "evidence": "Profile is silent on NAO 202-1106 sexual assault/harassment training."
+   },
+   {
+    "requirement_id": "fbaa93b9-94c5bc7c-p25-5a1aeab2",
+    "quote": "The Contractor must use the IPP website to register, access, and submit payment requests.",
+    "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+    "page": 25,
+    "firm_answer": "Profile does not confirm IPP (Invoice Processing Platform) registration or prior use.",
+    "status": "unknown",
+    "evidence": "Profile is silent on IPP registration."
+   },
+   {
+    "requirement_id": "fbaa93b9-91f354c4-p1-32ab5460",
+    "quote": "Conduct of Work The Contractor must ensure employees are physically able to accomplish the work specified herein.",
+    "source_file": "91f354c443554f5db71a215df2da08c5.docx",
+    "page": 1,
+    "firm_answer": "Firm has 38 W-2 employees performing grounds maintenance; physical capability is implied by existing federal grounds contracts.",
+    "status": "meets",
+    "evidence": "38 W-2 employees; Grounds maintenance, cantonment area (Tinker AFB)."
+   },
+   {
+    "requirement_id": "fbaa93b9-94c5bc7c-p2-69f3be6a",
+    "quote": "Period of performance shall be: Base Period is Date of Award through 02/28/2027. (Services are only provided from Date of Award-10/31/2026) Option Period 1 for a twelve month period 03/01/2027 through 02/29/2028.",
+    "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+    "page": 2,
+    "firm_answer": "Owner rule rc-base requires a 12-month base period. The active service window is ~2 months (award through 10/31/2026). This is a disqualifying owner-rule conflict.",
+    "status": "gap",
+    "evidence": "Owner rule rc-base: No bids under a 12-month base period."
+   },
+   {
+    "requirement_id": "fbaa93b9-94c5bc7c-p30-66deb694",
+    "quote": "A site visit is highly recommended but not required.",
+    "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+    "page": 30,
+    "firm_answer": "Site visit is recommended; firm is based in Oklahoma City (~750 miles away), making a site visit logistically costly but not mandatory.",
+    "status": "partial",
+    "evidence": "Firm location: Oklahoma City, OK; place of performance: St. Charles, MO."
+   },
+   {
+    "requirement_id": "fbaa93b9-94c5bc7c-p4-91ac9a7b",
+    "quote": "Any representations and/or certifications attached to this Request for Quotation must be completed by the quoter.",
+    "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+    "page": 4,
+    "firm_answer": "Firm can complete representations and certifications as a WOSB/EDWOSB/SBA-eligible small business.",
+    "status": "meets",
+    "evidence": "Set-asides: WOSB, EDWOSB, SBA; small business size standard $9.5M applies to NAICS 561730."
+   },
+   {
+    "requirement_id": "fbaa93b9-94c5bc7c-p27-ee32e799",
+    "quote": "The contractor shall notify the contracting officer in writing within 5 business days from the date of any situation or occurrence where the contractor considers specific contract activity to be inconsistent with the intent of this contract language.",
+    "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+    "page": 27,
+    "firm_answer": "Standard contract administration requirement; firm has federal contract experience and can comply.",
+    "status": "meets",
+    "evidence": "Multiple federal contracts (GSA, Tinker AFB, VA) demonstrate contract administration capability."
+   },
+   {
+    "requirement_id": "fbaa93b9-94c5bc7c-p12-8ef794d7",
+    "quote": "The Contractor shall proceed diligently with performance of this contract, pending final resolution of any dispute arising under the contract.",
+    "source_file": "94c5bc7c7ba1422a862e1204637921d5.pdf",
+    "page": 12,
+    "firm_answer": "Standard FAR clause; firm has multiple federal contracts demonstrating compliance with standard contract terms.",
+    "status": "meets",
+    "evidence": "Multiple federal contracts (GSA, Tinker AFB, VA, OMES)."
+   },
+   {
+    "requirement_id": "fbaa93b9-9fe1cdaf-p1-78f078fa",
+    "quote": "Please clarify if initialing this block on page 2 of the SF-18 is sufficient for proposal submission, or if bidders must attach physical USDA BioPreferred or EPA environmental manufacturer data sheets with their technical quote.",
+    "source_file": "9fe1cdaf544c4073954cef763d7979cb.docx",
+    "page": 1,
+    "firm_answer": "Firm has a green cleaning program and biobased product practices; can provide data sheets if required, but profile does not confirm specific USDA BioPreferred product inventory.",
+    "status": "partial",
+    "evidence": "Green cleaning program listed in capabilities; specific USDA BioPreferred product data sheets not confirmed."
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "fbaa93b90ced45b594bde97ceaa6fb68",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-08-18T10:00:00-06:00",
+   "site_visit": null,
+   "period_of_performance": "Date of Award through 02/28/2027 (base); options through 02/28/2030",
+   "source_quotes": [
+    "EXTEND THE CLOSING UNTIL 10:00AM MDT ON TUESDAY, AUGUST 18, 2026.",
+    "(vii) Quotes are required to be received in the contracting office no later than 10:00am MDT on FRIDAY, AUGUST 14, 2026.",
+    "Period of performance shall be: Base Period is Date of Award through 02/28/2027. (Services are only provided from Date of Award-10/31/2026) Option Period 1 for a twelve month period 03/01/2027 through 02/29/2028. (Services are only provided from 03/01/2027-10/31/2027) Option Period 2 for a twelve month period 03/01/2028 through 02/28/2029. (Services are only provided from 03/01/2028-10/31/2028) Option Period 3 for a twelve month period 03/01/2029 through 02/28/2030. (Services are only provided from 03/01/2029-10/31/2029)"
+   ]
+  },
+  "days_to_close": -26.786176657523146,
+  "set_aside_note": "Set-aside is \"Small Business Set Aside - Total.\" Red Cedar Facility Services can claim this set-aside under the firm's eligible set-asides (WOSB, EDWOSB, SBA/total small business). ELIGIBLE.",
+  "amendment_note": "no amendment",
+  "calendar_entries": [
+   {
+    "title": "Original Proposal Due (superseded by Amendment 0001)",
+    "date": "2026-08-14",
+    "note": "Original closing date per the base solicitation; superseded by Amendment 0001 which extended the deadline to August 18, 2026.",
+    "source_quote": "(vii) Quotes are required to be received in the contracting office no later than 10:00am MDT on FRIDAY, AUGUST 14, 2026."
+   },
+   {
+    "title": "Proposal Due (Amended)",
+    "date": "2026-08-18",
+    "note": "Amended closing date per Amendment 0001; quotes due by 10:00AM MDT. Submit electronically via email to kirsten.keen@noaa.gov.",
+    "source_quote": "EXTEND THE CLOSING UNTIL 10:00AM MDT ON TUESDAY, AUGUST 18, 2026."
+   },
+   {
+    "title": "Decide By (2 business days before amended proposal due)",
+    "date": "2026-08-14",
+    "note": "Internal bid/no-bid decision deadline — two business days before the amended proposal due date of 2026-08-18.",
+    "source_quote": "EXTEND THE CLOSING UNTIL 10:00AM MDT ON TUESDAY, AUGUST 18, 2026."
+   }
+  ]
+ },
+ "model_calls": 5,
+ "tokens_in": 76634,
+ "tokens_out": 15138,
+ "seconds": 136.79,
+ "produced_at": "2026-09-14T05:54:22.453419-05:00"
+}

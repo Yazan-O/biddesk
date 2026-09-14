@@ -1,0 +1,599 @@
+{
+ "notice_id": "3d69977247d7458db3b9981e2668c174",
+ "firm_slug": "red-cedar",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:37:23-05:00",
+ "evidence_basis": null,
+ "days_to_close": -14.576250570162037,
+ "closed": true,
+ "response_kind": "proposal",
+ "card": {
+  "notice_id": "3d69977247d7458db3b9981e2668c174",
+  "firm_slug": "red-cedar",
+  "situation": "Solicitation for tree and vegetation trimming, mulching, and clearing services at Marais des Cygnes National Wildlife Refuge in Kansas (trails and levees), set aside for Total Small Business, NAICS 561730, with a 12-month period of performance.\nReached the owner because Red Cedar's NAICS 561730 matches exactly and the firm holds Total Small Business eligibility, but the scope requires specialized forestry and wildland fire safety capabilities not documented in the firm profile.",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "NAICS 561730 is an exact match and Total Small Business set-aside eligibility is confirmed, making Red Cedar administratively eligible to compete [profile: WOSB/EDWOSB/SBA set-aside eligibility].",
+   "OSHA 30 supervisors and a CMMS-logged QC inspection program provide a credible foundation for the daily tailgate safety briefing requirement [3d699772-cae04cc8-p2-1b4ea67b].",
+   "Federal coordination experience across GSA, DoD, and VA demonstrates the administrative and compliance readiness needed for amendment acknowledgment, IPP invoicing, SAM rerepresentations, and records retention [3d699772-8ad8ca08-p2-366c1aa4]."
+  ],
+  "reasons_against": [
+   "The firm has no documented chainsaw, mulcher, chipper, or heavy forestry equipment capability, leaving the core technical scope entirely unmet [3d699772-cae04cc8-p2-0f306e34].",
+   "Four wildland fire safety requirements — spark arrestors, daily fire-risk inspections, suppression tools on equipment, and end-of-day fire watch — are all gaps with zero supporting evidence in the firm profile [3d699772-cae04cc8-p2-55c1d9c1; 3d699772-cae04cc8-p2-10bf6b5f; 3d699772-cae04cc8-p3-3afe0ad6].",
+   "Only one marginally relevant past-performance record exists (grounds maintenance, Tinker AFB), making it effectively impossible to submit the required two to three qualifying vegetation trimming/clearing examples without risking a non-responsive determination [3d699772-79173c4f-p3-c07b2f48]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-08-27",
+  "key_dates": {
+   "questions_due": "2026-08-30",
+   "proposal_due": "2026-08-30",
+   "site_visit": null,
+   "period_of_performance": "10/01/2026 to 09/30/2027",
+   "source_quotes": [
+    "**QUOTES AND QUESTIONS MUST BE EMAILED TO: jeremy_riva@ios.doi.gov by the closing date and time (see Block 8) PAGE 2 OF 2",
+    "Delivery: 09/30/2027 00010 TRAIL AND LEVEE TREE TRIMMING AND CLEARING Period of Performance: 10/01/2026 to 09/30/2027 PAGE 3 OF 14"
+   ]
+  },
+  "fit_score": 0.65,
+  "matrix_summary": "11 of 22 requirements met, 4 partial, 5 gap, 2 unknown",
+  "evidence_link": "https://sam.gov/opp/3d69977247d7458db3b9981e2668c174/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "3d699772-79173c4f-p3-c07b2f48",
+   "quote": "Offerors must submit two or three examples of prior work that demonstrate their ability to meet or exceed the performance requirements.",
+   "source_file": "79173c4fff5f4fcc860d133ae5addf70.pdf",
+   "page": 3,
+   "firm_answer": "The firm has four past-performance records but only one (Grounds maintenance, cantonment area – Tinker AFB) is even partially relevant to vegetation trimming/clearing. No tree trimming, clearing, mulching, or chipping examples exist in the profile. Submitting two qualifying examples would be very difficult.",
+   "status": "partial",
+   "evidence": "Grounds maintenance, cantonment area (Tinker AFB) — keywords: mowing, trimming, landscaping. No clearing/tree work examples available."
+  },
+  {
+   "requirement_id": "3d699772-79173c4f-p3-897e7e5a",
+   "quote": "Delivery: 09/30/2027 00010 TRAIL AND LEVEE TREE TRIMMING AND CLEARING Period of Performance: 10/01/2026 to 09/30/2027",
+   "source_file": "79173c4fff5f4fcc860d133ae5addf70.pdf",
+   "page": 3,
+   "firm_answer": "Period of performance is 12 months (10/01/2026–09/30/2027), satisfying the owner rule requiring no bids under a 12-month base period. However, the core scope — trail and levee tree trimming and clearing — is not a documented capability of the firm.",
+   "status": "partial",
+   "evidence": "Owner rule [rc-base] satisfied (12-month base). Core tree trimming/clearing scope not evidenced in firm profile."
+  },
+  {
+   "requirement_id": "3d699772-cae04cc8-p1-ddc2e6db",
+   "quote": "All work shall be performed in accordance with the treatment types delineated on the project map.",
+   "source_file": "cae04cc8e1c240fcbd22f1aee9e94537.pdf",
+   "page": 1,
+   "firm_answer": "Firm profile does not mention vegetation treatment types, project map interpretation, or natural resource management protocols. Unknown whether firm can comply.",
+   "status": "unknown",
+   "evidence": "No relevant capability or past performance in profile for treatment-type vegetation work on mapped natural areas."
+  },
+  {
+   "requirement_id": "3d699772-cae04cc8-p2-0f306e34",
+   "quote": "Contractor shall follow safe operating procedures for chainsaws, mulchers, chippers, and heavy equipment.",
+   "source_file": "cae04cc8e1c240fcbd22f1aee9e94537.pdf",
+   "page": 2,
+   "firm_answer": "Firm profile lists OSHA 30 supervisors and grounds maintenance experience but does not mention chainsaws, mulchers, chippers, or heavy forestry equipment. No documented capability for this requirement.",
+   "status": "gap",
+   "evidence": "OSHA 30 supervisors noted in profile, but no chainsaw, mulcher, chipper, or heavy forestry equipment capability stated."
+  },
+  {
+   "requirement_id": "3d699772-cae04cc8-p2-1b4ea67b",
+   "quote": "Daily tailgate safety briefings shall be conducted.",
+   "source_file": "cae04cc8e1c240fcbd22f1aee9e94537.pdf",
+   "page": 2,
+   "firm_answer": "Firm has OSHA 30 supervisors and a QC inspection program, which supports the ability to conduct daily tailgate safety briefings. Partial evidence of safety culture.",
+   "status": "partial",
+   "evidence": "OSHA 30 supervisors and QC inspections logged in CMMS — supports safety briefing culture, but no explicit tailgate briefing program documented."
+  },
+  {
+   "requirement_id": "3d699772-cae04cc8-p2-55c1d9c1",
+   "quote": "Equipment must have spark arrestors, and operators must inspect for fire risks daily.",
+   "source_file": "cae04cc8e1c240fcbd22f1aee9e94537.pdf",
+   "page": 2,
+   "firm_answer": "Firm profile does not mention spark arrestors, fire risk inspection, or any wildland fire prevention equipment. This is a gap.",
+   "status": "gap",
+   "evidence": "No spark arrestor, fire risk inspection, or wildland fire prevention capability documented in firm profile."
+  },
+  {
+   "requirement_id": "3d699772-cae04cc8-p2-10bf6b5f",
+   "quote": "Contractors shall maintain fire extinguishers, water packs, and suppression tools on all equipment.",
+   "source_file": "cae04cc8e1c240fcbd22f1aee9e94537.pdf",
+   "page": 2,
+   "firm_answer": "Firm profile does not mention fire extinguishers on equipment, water packs, or suppression tools. No wildland fire suppression capability documented.",
+   "status": "gap",
+   "evidence": "No fire suppression equipment capability stated anywhere in firm profile."
+  },
+  {
+   "requirement_id": "3d699772-cae04cc8-p3-3afe0ad6",
+   "quote": "Contractor shall conduct end‑of‑day fire watch during high‑risk periods to confirm no smoldering debris or ignition hazards.",
+   "source_file": "cae04cc8e1c240fcbd22f1aee9e94537.pdf",
+   "page": 3,
+   "firm_answer": "Firm profile has no mention of fire watch protocols, smoldering debris management, or wildland fire risk procedures. This is a gap.",
+   "status": "gap",
+   "evidence": "No fire watch or wildland fire risk management capability documented in firm profile."
+  },
+  {
+   "requirement_id": "3d699772-cae04cc8-p3-dfc527af",
+   "quote": "Contractor shall coordinate access, closures, and work sequencing with the refuge manager.",
+   "source_file": "cae04cc8e1c240fcbd22f1aee9e94537.pdf",
+   "page": 3,
+   "firm_answer": "Firm has federal contract coordination experience (GSA, DoD, VA) but no National Wildlife Refuge experience. General coordination capability exists; refuge-specific coordination is unknown.",
+   "status": "partial",
+   "evidence": "Federal contract coordination demonstrated via GSA Region 7 and Tinker AFB past performance, but no NWR-specific coordination experience."
+  },
+  {
+   "requirement_id": "3d699772-cae04cc8-p2-f160ce5d",
+   "quote": "Work shall pause immediately when the refuge manager determines conditions are too wet for safe operation.",
+   "source_file": "cae04cc8e1c240fcbd22f1aee9e94537.pdf",
+   "page": 2,
+   "firm_answer": "Firm profile does not address wet-condition work stoppages or refuge manager authority. General federal contract compliance is evidenced but this specific protocol is undocumented.",
+   "status": "unknown",
+   "evidence": "No wet-condition stop-work or refuge manager authority compliance documented in firm profile."
+  },
+  {
+   "requirement_id": "3d699772-e668cb28-p2-475b8286",
+   "quote": "Contractors must avoid rutting, soil displacement, puddling, and erosion, especially in wet or soft areas.",
+   "source_file": "e668cb28af3b4ef7a5fa7fa1f94725a2.pdf",
+   "page": 2,
+   "firm_answer": "Same as cae04cc8 p2 requirement — firm profile does not document erosion control or wet-area heavy equipment operation. Gap.",
+   "status": "gap",
+   "evidence": "No erosion control or wet-area operating procedures documented in firm profile."
+  },
+  {
+   "requirement_id": "3d699772-8ad8ca08-p2-366c1aa4",
+   "quote": "QUOTES AND QUESTIONS MUST BE EMAILED TO: jeremy_riva@ios.doi.gov by the closing date and time (see Block 8)",
+   "source_file": "8ad8ca08788646e59d0a95b97cdeaf58.pdf",
+   "page": 2,
+   "firm_answer": "Firm can comply with email submission requirement. Standard administrative capability.",
+   "status": "meets",
+   "evidence": "General federal contracting administrative capability evidenced by multiple federal contracts (GSA, DoD, VA)."
+  },
+  {
+   "requirement_id": "3d699772-8ad8ca08-p1-1b3cda62",
+   "quote": "Offers must acknowledge receipt of this amendment prior to the hour and date specified in the solicitation or as amended, by one of the following methods:",
+   "source_file": "8ad8ca08788646e59d0a95b97cdeaf58.pdf",
+   "page": 1,
+   "firm_answer": "Firm can acknowledge amendment receipt. Standard federal solicitation compliance.",
+   "status": "meets",
+   "evidence": "Federal contracting experience across multiple agencies demonstrates familiarity with amendment acknowledgment procedures."
+  },
+  {
+   "requirement_id": "3d699772-79173c4f-p10-577f1274",
+   "quote": "the Contractor is required to complete the following rerepresentation and submit it to the contracting office, along with the contract number and the date on which the rerepresentation was completed",
+   "source_file": "79173c4fff5f4fcc860d133ae5addf70.pdf",
+   "page": 10,
+   "firm_answer": "Firm is registered in SAM (implied by active federal contracts) and can complete SAM rerepresentations. NAICS 561730 is listed in firm profile.",
+   "status": "meets",
+   "evidence": "NAICS 561730 listed in firm profile; active federal contracts imply current SAM registration."
+  },
+  {
+   "requirement_id": "3d699772-79173c4f-p9-b423a14e",
+   "quote": "the Contractor shall rerepresent its size and socioeconomic status according to paragraph (e) of this clause",
+   "source_file": "79173c4fff5f4fcc860d133ae5addf70.pdf",
+   "page": 9,
+   "firm_answer": "Firm is a WOSB/EDWOSB small business and can rerepresent size and socioeconomic status as required.",
+   "status": "meets",
+   "evidence": "WOSB, EDWOSB, SBA set-aside eligibility confirmed in firm profile."
+  },
+  {
+   "requirement_id": "3d699772-79173c4f-p10-c3eee6d3",
+   "quote": "the Contractor shall make the representation(s) required by paragraph (b) of this clause by validating or updating all its representations in the Representations and Certifications section of the System for Award Management (SAM)",
+   "source_file": "79173c4fff5f4fcc860d133ae5addf70.pdf",
+   "page": 10,
+   "firm_answer": "Firm can validate/update SAM representations. Active federal contracts imply current SAM registration and compliance.",
+   "status": "meets",
+   "evidence": "Active federal contracts with GSA, DoD, and VA imply current SAM registration and reps/certs maintenance."
+  },
+  {
+   "requirement_id": "3d699772-79173c4f-p4-44f3fb2a",
+   "quote": "The Contractor must use the IPP website to register access and use IPP for submitting requests for payment.",
+   "source_file": "79173c4fff5f4fcc860d133ae5addf70.pdf",
+   "page": 4,
+   "firm_answer": "Firm has active federal contracts with GSA and DoD, which use IPP. Firm can comply with IPP invoicing requirement.",
+   "status": "meets",
+   "evidence": "Federal contract experience with GSA Region 7 and Tinker AFB implies IPP invoicing familiarity."
+  },
+  {
+   "requirement_id": "3d699772-79173c4f-p9-5f700144",
+   "quote": "The Contractor shall make available at its offices, at all reasonable times, the records, materials, and other evidence for examination, audit, or reproduction, until 3 years after final payment under this contract",
+   "source_file": "79173c4fff5f4fcc860d133ae5addf70.pdf",
+   "page": 9,
+   "firm_answer": "Firm uses a CMMS for QC inspection logging, supporting records retention capability. Standard federal compliance.",
+   "status": "meets",
+   "evidence": "QC inspections logged in a CMMS — supports records retention and audit readiness."
+  },
+  {
+   "requirement_id": "3d699772-79173c4f-p12-ee792daf",
+   "quote": "The offeror is cautioned that the listed provisions may include blocks that must be completed by the offeror and submitted with its quotation or offer.",
+   "source_file": "79173c4fff5f4fcc860d133ae5addf70.pdf",
+   "page": 12,
+   "firm_answer": "Firm can complete required solicitation blocks. Standard federal proposal compliance.",
+   "status": "meets",
+   "evidence": "Multiple federal contract awards demonstrate ability to complete solicitation provisions."
+  },
+  {
+   "requirement_id": "3d699772-79173c4f-p11-3fd48098",
+   "quote": "HUBZone joint venture eligible under the HUBZone Program.",
+   "source_file": "79173c4fff5f4fcc860d133ae5addf70.pdf",
+   "page": 11,
+   "firm_answer": "Firm does not claim HUBZone certification. Firm will represent 'is not' a HUBZone joint venture. Not required for this total small business set-aside.",
+   "status": "meets",
+   "evidence": "Set-asides listed: WOSB, EDWOSB, SBA — no HUBZone. Representation of 'is not' is acceptable."
+  },
+  {
+   "requirement_id": "3d699772-79173c4f-p12-9b157381",
+   "quote": "The Contractor will not engage in any racially discriminatory DEI activities",
+   "source_file": "79173c4fff5f4fcc860d133ae5addf70.pdf",
+   "page": 12,
+   "firm_answer": "Firm profile does not indicate any non-compliant DEI activities. Standard compliance clause firm can certify.",
+   "status": "meets",
+   "evidence": "No contrary indicators in firm profile; standard federal compliance certification."
+  },
+  {
+   "requirement_id": "3d699772-79173c4f-p5-db658e5c",
+   "quote": "The Contractor shall proceed diligently with performance of this contract, pending final resolution of any dispute arising under the contract.",
+   "source_file": "79173c4fff5f4fcc860d133ae5addf70.pdf",
+   "page": 5,
+   "firm_answer": "Standard FAR clause. Firm can comply based on demonstrated federal contracting experience.",
+   "status": "meets",
+   "evidence": "Multiple active and completed federal contracts demonstrate compliance with standard FAR performance clauses."
+  }
+ ],
+ "matrix_dropped": 2,
+ "matrix_dropped_rows": [
+  {
+   "requirement_id": "3d699772-cae04cc8-p3-ea8919ec",
+   "quote": "Contractor must comply with all temporary fire‑related shutdowns by the refuge or state/local authorities.",
+   "source_file": "cae04cc8e1c240fcbd22f1aee9e94537.pdf",
+   "page": 3,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "3d699772-cae04cc8-p2-b88ea63c",
+   "quote": "Contractors must avoid rutting, soil displacement, puddling, and erosion, especially in wet or soft areas.",
+   "source_file": "cae04cc8e1c240fcbd22f1aee9e94537.pdf",
+   "page": 2,
+   "reason": "not_verbatim"
+  }
+ ],
+ "fit_score_code": 0.65,
+ "drafts": {
+  "capability_statement": "Red Cedar Facility Services is a Woman-Owned Small Business (WOSB/EDWOSB) registered under NAICS 561730 (Landscaping Services) and fully eligible to compete under this Total Small Business set-aside.\n\nRed Cedar brings federal grounds maintenance experience including mowing, trimming, and landscaping services performed at Tinker Air Force Base, demonstrating the ability to execute recurring exterior maintenance work on active federal installations under agency oversight and coordination requirements.\n\nOur supervisory staff hold OSHA 30 certifications, supporting the daily tailgate safety briefing requirement and the safe equipment operation standards specified in this solicitation. We maintain a CMMS-based quality control and inspection program that documents daily work activities, supports records retention, and provides audit-ready documentation consistent with FAR requirements.\n\nRed Cedar holds active federal contracts with GSA Region 7, the Department of Defense, and the Department of Veterans Affairs, demonstrating sustained compliance with federal administrative requirements including SAM registration, IPP invoicing, amendment acknowledgment, and FAR clause adherence.\n\nWe are registered and current in SAM.gov, carry required federal liability coverage, and participate in E-Verify. Our coordination experience across multiple federal agencies supports the access, closure, and work-sequencing coordination required by the refuge manager on this contract.\n\nRed Cedar is actively assessing equipment and teaming resources to address the specialized vegetation clearing, mulching, and wildland fire safety requirements of this solicitation and welcomes the opportunity to discuss our approach with the contracting officer.\n\nPoint of Contact: [Owner Name] | [Phone] | [Email]",
+  "questions_for_co": [
+   "Treatment types and project map (req 3d699772-cae04cc8-p1-ddc2e6db): Could the government provide the project map and a description of the specific treatment types (e.g., selective clearing, full clearing, mulching-only zones) prior to the proposal due date so offerors can accurately scope equipment, labor, and acreage estimates?",
+   "Chainsaw and heavy equipment operator qualifications (req 3d699772-cae04cc8-p2-0f306e34): Does the government require specific certifications or training records for chainsaw and heavy-equipment operators (e.g., manufacturer training, state licensing, or agency-specific qualification), or is demonstrated experience and OSHA-compliant safe operating procedures sufficient?",
+   "Spark arrestor and fire-risk inspection documentation (req 3d699772-cae04cc8-p2-55c1d9c1): Must spark arrestor compliance and daily fire-risk inspection records be submitted to the refuge manager on a set schedule, and does the government have a preferred form or log format for this documentation?",
+   "Fire suppression equipment standards (req 3d699772-cae04cc8-p2-10bf6b5f): Are there specific capacity or type requirements for fire extinguishers, water packs, and suppression tools that must be maintained on each piece of equipment, or does the contractor have discretion to determine appropriate quantities based on equipment type and work area?",
+   "End-of-day fire watch and high-risk period definition (req 3d699772-cae04cc8-p3-3afe0ad6): How does the refuge manager define and communicate 'high-risk periods' requiring end-of-day fire watch — for example, by fire weather index, wind speed, or a standing seasonal calendar — and what is the minimum duration of the required fire watch?",
+   "Wet-condition stop-work and erosion control protocols (reqs 3d699772-cae04cc8-p2-f160ce5d and 3d699772-e668cb28-p2-475b8286): When the refuge manager directs a work pause due to wet conditions, is the contractor expected to demobilize equipment from the site or simply halt operations in place, and are there specific erosion-control best management practices (e.g., matting, designated access routes) the contractor must follow in soft or wet areas?"
+  ],
+  "calendar_entries": [
+   {
+    "title": "Questions Due",
+    "date": "2026-08-30",
+    "note": "Questions must be emailed to jeremy_riva@ios.doi.gov by the closing date and time (same deadline as proposals; no separate questions deadline stated).",
+    "source_quote": "**QUOTES AND QUESTIONS MUST BE EMAILED TO: jeremy_riva@ios.doi.gov by the closing date and time (see Block 8) PAGE 2 OF 2"
+   },
+   {
+    "title": "Proposal Due",
+    "date": "2026-08-30",
+    "note": "Quotes due by 17:00 Eastern on 2026-08-30. Email to jeremy_riva@ios.doi.gov.",
+    "source_quote": "**QUOTES AND QUESTIONS MUST BE EMAILED TO: jeremy_riva@ios.doi.gov by the closing date and time (see Block 8) PAGE 2 OF 2"
+   },
+   {
+    "title": "Decide By (2 business days before proposal due)",
+    "date": "2026-08-26",
+    "note": "Internal go/no-go decision deadline: two business days before the 2026-08-30 proposal due date (2026-08-29 is a Saturday, so two business days prior lands on Wednesday 2026-08-26).",
+    "source_quote": "**QUOTES AND QUESTIONS MUST BE EMAILED TO: jeremy_riva@ios.doi.gov by the closing date and time (see Block 8) PAGE 2 OF 2"
+   }
+  ]
+ },
+ "reader": {
+  "notice_id": "3d69977247d7458db3b9981e2668c174",
+  "key_requirement_ids": [
+   "3d699772-79173c4f-p3-c07b2f48",
+   "3d699772-79173c4f-p3-897e7e5a",
+   "3d699772-8ad8ca08-p2-366c1aa4",
+   "3d699772-cae04cc8-p1-ddc2e6db",
+   "3d699772-cae04cc8-p2-10bf6b5f",
+   "3d699772-cae04cc8-p2-0f306e34",
+   "3d699772-cae04cc8-p2-1b4ea67b",
+   "3d699772-cae04cc8-p2-55c1d9c1",
+   "3d699772-cae04cc8-p3-3afe0ad6",
+   "3d699772-cae04cc8-p3-dfc527af",
+   "3d699772-cae04cc8-p2-f160ce5d",
+   "3d699772-cae04cc8-p2-b88ea63c",
+   "3d699772-cae04cc8-p3-ea8919ec",
+   "3d699772-79173c4f-p4-75da583c",
+   "3d699772-79173c4f-p12-ee792daf",
+   "3d699772-79173c4f-p13-743d096b",
+   "3d699772-e668cb28-p2-475b8286"
+  ],
+  "scope_summary": "The government is buying tree and vegetation trimming, mulching, and clearing services at the Marais des Cygnes National Wildlife Refuge in Kansas, covering trails and levees, with a period of performance from 10/01/2026 to 09/30/2027. All work shall be performed in accordance with the treatment types delineated on the project map. The contractor must follow safe operating procedures for chainsaws, mulchers, chippers, and heavy equipment, conduct daily tailgate safety briefings, and coordinate access, closures, and work sequencing with the refuge manager.",
+  "evaluation_basis": "not stated",
+  "incumbent_or_history": "none found",
+  "quotes": [
+   "Offerors must submit two or three examples of prior work that demonstrate their ability to meet or exceed the performance requirements.",
+   "Failure to provide the required examples may result in the offer being deemed non-responsive.",
+   "KS MARAIS DES CYGNES NWR TREE AND VEGETATION TRIMMING, MULCHING, AND CLEARING Amendment 0001 PPR2122112 Amendment 0001 to post questions and answers. **QUOTES AND QUESTIONS MUST BE EMAILED TO: jeremy_riva@ios.doi.gov by the closing date and time (see Block 8) PAGE 2 OF 2",
+   "Delivery: 09/30/2027 00010 TRAIL AND LEVEE TREE TRIMMING AND CLEARING Period of Performance: 10/01/2026 to 09/30/2027 PAGE 3 OF 14",
+   "All work shall be performed in accordance with the treatment types delineated on the project map.",
+   "Contractor shall follow safe operating procedures for chainsaws, mulchers, chippers, and heavy equipment.",
+   "Daily tailgate safety briefings shall be conducted.",
+   "Equipment must have spark arrestors, and operators must inspect for fire risks daily.",
+   "• Contractor shall conduct end‑of‑day fire watch during high‑risk periods to confirm no smoldering debris or ignition hazards.",
+   "Contractor shall coordinate access, closures, and work sequencing with the refuge manager.",
+   "• Work shall pause immediately when the refuge manager determines conditions are too wet for safe operation.",
+   "Contractor must avoid rutting, soil displacement, puddling, and erosion, especially in wet or soft areas.",
+   "• Contractor must comply with all temporary fire ‑related shutdowns by the refuge or state/local authorities.",
+   "• Contractors shall maintain fire extinguishers, water packs, and suppression tools on all equipment."
+  ]
+ },
+ "fit": {
+  "notice_id": "3d69977247d7458db3b9981e2668c174",
+  "fit_score": 0.38,
+  "matched_past_performance": [
+   "Grounds maintenance, cantonment area"
+  ],
+  "strengths": [
+   "NAICS 561730 listed in firm profile — matches solicitation NAICS exactly",
+   "Total Small Business set-aside eligibility confirmed (WOSB/SBA)",
+   "Grounds maintenance past performance at Tinker AFB includes trimming and landscaping keywords",
+   "OSHA 30 supervisors support daily safety briefing and equipment safety requirements",
+   "e-Verify and federal contracting experience (GSA, DoD) demonstrate compliance readiness",
+   "IPP invoicing and SAM representations are standard federal compliance items the firm can meet"
+  ],
+  "gaps": [
+   "No evidence of tree trimming, vegetation clearing, mulching, or chipping operations in firm profile",
+   "No chainsaw, mulcher, chipper, or heavy forestry equipment capability stated",
+   "No wildland fire watch, spark arrestor, or fire suppression tool experience documented",
+   "No National Wildlife Refuge or natural lands work experience in profile",
+   "Distance from Oklahoma City to Marais des Cygnes NWR (Kansas) may approach or exceed 200-mile owner rule limit",
+   "No evidence of end-of-day fire watch protocols or fire-related shutdown compliance experience",
+   "Only one marginally relevant past-performance record (grounds maintenance); no tree/vegetation clearing examples",
+   "Profile does not mention erosion control, soil displacement avoidance, or wet-area operating procedures"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "3d699772-79173c4f-p3-c07b2f48",
+    "quote": "Offerors must submit two or three examples of prior work that demonstrate their ability to meet or exceed the performance requirements.",
+    "source_file": "79173c4fff5f4fcc860d133ae5addf70.pdf",
+    "page": 3,
+    "firm_answer": "The firm has four past-performance records but only one (Grounds maintenance, cantonment area – Tinker AFB) is even partially relevant to vegetation trimming/clearing. No tree trimming, clearing, mulching, or chipping examples exist in the profile. Submitting two qualifying examples would be very difficult.",
+    "status": "partial",
+    "evidence": "Grounds maintenance, cantonment area (Tinker AFB) — keywords: mowing, trimming, landscaping. No clearing/tree work examples available."
+   },
+   {
+    "requirement_id": "3d699772-79173c4f-p3-897e7e5a",
+    "quote": "Delivery: 09/30/2027 00010 TRAIL AND LEVEE TREE TRIMMING AND CLEARING Period of Performance: 10/01/2026 to 09/30/2027",
+    "source_file": "79173c4fff5f4fcc860d133ae5addf70.pdf",
+    "page": 3,
+    "firm_answer": "Period of performance is 12 months (10/01/2026–09/30/2027), satisfying the owner rule requiring no bids under a 12-month base period. However, the core scope — trail and levee tree trimming and clearing — is not a documented capability of the firm.",
+    "status": "partial",
+    "evidence": "Owner rule [rc-base] satisfied (12-month base). Core tree trimming/clearing scope not evidenced in firm profile."
+   },
+   {
+    "requirement_id": "3d699772-cae04cc8-p1-ddc2e6db",
+    "quote": "All work shall be performed in accordance with the treatment types delineated on the project map.",
+    "source_file": "cae04cc8e1c240fcbd22f1aee9e94537.pdf",
+    "page": 1,
+    "firm_answer": "Firm profile does not mention vegetation treatment types, project map interpretation, or natural resource management protocols. Unknown whether firm can comply.",
+    "status": "unknown",
+    "evidence": "No relevant capability or past performance in profile for treatment-type vegetation work on mapped natural areas."
+   },
+   {
+    "requirement_id": "3d699772-cae04cc8-p2-0f306e34",
+    "quote": "Contractor shall follow safe operating procedures for chainsaws, mulchers, chippers, and heavy equipment.",
+    "source_file": "cae04cc8e1c240fcbd22f1aee9e94537.pdf",
+    "page": 2,
+    "firm_answer": "Firm profile lists OSHA 30 supervisors and grounds maintenance experience but does not mention chainsaws, mulchers, chippers, or heavy forestry equipment. No documented capability for this requirement.",
+    "status": "gap",
+    "evidence": "OSHA 30 supervisors noted in profile, but no chainsaw, mulcher, chipper, or heavy forestry equipment capability stated."
+   },
+   {
+    "requirement_id": "3d699772-cae04cc8-p2-1b4ea67b",
+    "quote": "Daily tailgate safety briefings shall be conducted.",
+    "source_file": "cae04cc8e1c240fcbd22f1aee9e94537.pdf",
+    "page": 2,
+    "firm_answer": "Firm has OSHA 30 supervisors and a QC inspection program, which supports the ability to conduct daily tailgate safety briefings. Partial evidence of safety culture.",
+    "status": "partial",
+    "evidence": "OSHA 30 supervisors and QC inspections logged in CMMS — supports safety briefing culture, but no explicit tailgate briefing program documented."
+   },
+   {
+    "requirement_id": "3d699772-cae04cc8-p2-55c1d9c1",
+    "quote": "Equipment must have spark arrestors, and operators must inspect for fire risks daily.",
+    "source_file": "cae04cc8e1c240fcbd22f1aee9e94537.pdf",
+    "page": 2,
+    "firm_answer": "Firm profile does not mention spark arrestors, fire risk inspection, or any wildland fire prevention equipment. This is a gap.",
+    "status": "gap",
+    "evidence": "No spark arrestor, fire risk inspection, or wildland fire prevention capability documented in firm profile."
+   },
+   {
+    "requirement_id": "3d699772-cae04cc8-p2-10bf6b5f",
+    "quote": "Contractors shall maintain fire extinguishers, water packs, and suppression tools on all equipment.",
+    "source_file": "cae04cc8e1c240fcbd22f1aee9e94537.pdf",
+    "page": 2,
+    "firm_answer": "Firm profile does not mention fire extinguishers on equipment, water packs, or suppression tools. No wildland fire suppression capability documented.",
+    "status": "gap",
+    "evidence": "No fire suppression equipment capability stated anywhere in firm profile."
+   },
+   {
+    "requirement_id": "3d699772-cae04cc8-p3-3afe0ad6",
+    "quote": "Contractor shall conduct end‑of‑day fire watch during high‑risk periods to confirm no smoldering debris or ignition hazards.",
+    "source_file": "cae04cc8e1c240fcbd22f1aee9e94537.pdf",
+    "page": 3,
+    "firm_answer": "Firm profile has no mention of fire watch protocols, smoldering debris management, or wildland fire risk procedures. This is a gap.",
+    "status": "gap",
+    "evidence": "No fire watch or wildland fire risk management capability documented in firm profile."
+   },
+   {
+    "requirement_id": "3d699772-cae04cc8-p3-dfc527af",
+    "quote": "Contractor shall coordinate access, closures, and work sequencing with the refuge manager.",
+    "source_file": "cae04cc8e1c240fcbd22f1aee9e94537.pdf",
+    "page": 3,
+    "firm_answer": "Firm has federal contract coordination experience (GSA, DoD, VA) but no National Wildlife Refuge experience. General coordination capability exists; refuge-specific coordination is unknown.",
+    "status": "partial",
+    "evidence": "Federal contract coordination demonstrated via GSA Region 7 and Tinker AFB past performance, but no NWR-specific coordination experience."
+   },
+   {
+    "requirement_id": "3d699772-cae04cc8-p2-f160ce5d",
+    "quote": "Work shall pause immediately when the refuge manager determines conditions are too wet for safe operation.",
+    "source_file": "cae04cc8e1c240fcbd22f1aee9e94537.pdf",
+    "page": 2,
+    "firm_answer": "Firm profile does not address wet-condition work stoppages or refuge manager authority. General federal contract compliance is evidenced but this specific protocol is undocumented.",
+    "status": "unknown",
+    "evidence": "No wet-condition stop-work or refuge manager authority compliance documented in firm profile."
+   },
+   {
+    "requirement_id": "3d699772-e668cb28-p2-475b8286",
+    "quote": "Contractors must avoid rutting, soil displacement, puddling, and erosion, especially in wet or soft areas.",
+    "source_file": "e668cb28af3b4ef7a5fa7fa1f94725a2.pdf",
+    "page": 2,
+    "firm_answer": "Same as cae04cc8 p2 requirement — firm profile does not document erosion control or wet-area heavy equipment operation. Gap.",
+    "status": "gap",
+    "evidence": "No erosion control or wet-area operating procedures documented in firm profile."
+   },
+   {
+    "requirement_id": "3d699772-8ad8ca08-p2-366c1aa4",
+    "quote": "QUOTES AND QUESTIONS MUST BE EMAILED TO: jeremy_riva@ios.doi.gov by the closing date and time (see Block 8)",
+    "source_file": "8ad8ca08788646e59d0a95b97cdeaf58.pdf",
+    "page": 2,
+    "firm_answer": "Firm can comply with email submission requirement. Standard administrative capability.",
+    "status": "meets",
+    "evidence": "General federal contracting administrative capability evidenced by multiple federal contracts (GSA, DoD, VA)."
+   },
+   {
+    "requirement_id": "3d699772-8ad8ca08-p1-1b3cda62",
+    "quote": "Offers must acknowledge receipt of this amendment prior to the hour and date specified in the solicitation or as amended, by one of the following methods:",
+    "source_file": "8ad8ca08788646e59d0a95b97cdeaf58.pdf",
+    "page": 1,
+    "firm_answer": "Firm can acknowledge amendment receipt. Standard federal solicitation compliance.",
+    "status": "meets",
+    "evidence": "Federal contracting experience across multiple agencies demonstrates familiarity with amendment acknowledgment procedures."
+   },
+   {
+    "requirement_id": "3d699772-79173c4f-p10-577f1274",
+    "quote": "the Contractor is required to complete the following rerepresentation and submit it to the contracting office, along with the contract number and the date on which the rerepresentation was completed",
+    "source_file": "79173c4fff5f4fcc860d133ae5addf70.pdf",
+    "page": 10,
+    "firm_answer": "Firm is registered in SAM (implied by active federal contracts) and can complete SAM rerepresentations. NAICS 561730 is listed in firm profile.",
+    "status": "meets",
+    "evidence": "NAICS 561730 listed in firm profile; active federal contracts imply current SAM registration."
+   },
+   {
+    "requirement_id": "3d699772-79173c4f-p9-b423a14e",
+    "quote": "the Contractor shall rerepresent its size and socioeconomic status according to paragraph (e) of this clause",
+    "source_file": "79173c4fff5f4fcc860d133ae5addf70.pdf",
+    "page": 9,
+    "firm_answer": "Firm is a WOSB/EDWOSB small business and can rerepresent size and socioeconomic status as required.",
+    "status": "meets",
+    "evidence": "WOSB, EDWOSB, SBA set-aside eligibility confirmed in firm profile."
+   },
+   {
+    "requirement_id": "3d699772-79173c4f-p10-c3eee6d3",
+    "quote": "the Contractor shall make the representation(s) required by paragraph (b) of this clause by validating or updating all its representations in the Representations and Certifications section of the System for Award Management (SAM)",
+    "source_file": "79173c4fff5f4fcc860d133ae5addf70.pdf",
+    "page": 10,
+    "firm_answer": "Firm can validate/update SAM representations. Active federal contracts imply current SAM registration and compliance.",
+    "status": "meets",
+    "evidence": "Active federal contracts with GSA, DoD, and VA imply current SAM registration and reps/certs maintenance."
+   },
+   {
+    "requirement_id": "3d699772-79173c4f-p4-44f3fb2a",
+    "quote": "The Contractor must use the IPP website to register access and use IPP for submitting requests for payment.",
+    "source_file": "79173c4fff5f4fcc860d133ae5addf70.pdf",
+    "page": 4,
+    "firm_answer": "Firm has active federal contracts with GSA and DoD, which use IPP. Firm can comply with IPP invoicing requirement.",
+    "status": "meets",
+    "evidence": "Federal contract experience with GSA Region 7 and Tinker AFB implies IPP invoicing familiarity."
+   },
+   {
+    "requirement_id": "3d699772-79173c4f-p9-5f700144",
+    "quote": "The Contractor shall make available at its offices, at all reasonable times, the records, materials, and other evidence for examination, audit, or reproduction, until 3 years after final payment under this contract",
+    "source_file": "79173c4fff5f4fcc860d133ae5addf70.pdf",
+    "page": 9,
+    "firm_answer": "Firm uses a CMMS for QC inspection logging, supporting records retention capability. Standard federal compliance.",
+    "status": "meets",
+    "evidence": "QC inspections logged in a CMMS — supports records retention and audit readiness."
+   },
+   {
+    "requirement_id": "3d699772-79173c4f-p12-ee792daf",
+    "quote": "The offeror is cautioned that the listed provisions may include blocks that must be completed by the offeror and submitted with its quotation or offer.",
+    "source_file": "79173c4fff5f4fcc860d133ae5addf70.pdf",
+    "page": 12,
+    "firm_answer": "Firm can complete required solicitation blocks. Standard federal proposal compliance.",
+    "status": "meets",
+    "evidence": "Multiple federal contract awards demonstrate ability to complete solicitation provisions."
+   },
+   {
+    "requirement_id": "3d699772-79173c4f-p11-3fd48098",
+    "quote": "HUBZone joint venture eligible under the HUBZone Program.",
+    "source_file": "79173c4fff5f4fcc860d133ae5addf70.pdf",
+    "page": 11,
+    "firm_answer": "Firm does not claim HUBZone certification. Firm will represent 'is not' a HUBZone joint venture. Not required for this total small business set-aside.",
+    "status": "meets",
+    "evidence": "Set-asides listed: WOSB, EDWOSB, SBA — no HUBZone. Representation of 'is not' is acceptable."
+   },
+   {
+    "requirement_id": "3d699772-79173c4f-p12-9b157381",
+    "quote": "The Contractor will not engage in any racially discriminatory DEI activities",
+    "source_file": "79173c4fff5f4fcc860d133ae5addf70.pdf",
+    "page": 12,
+    "firm_answer": "Firm profile does not indicate any non-compliant DEI activities. Standard compliance clause firm can certify.",
+    "status": "meets",
+    "evidence": "No contrary indicators in firm profile; standard federal compliance certification."
+   },
+   {
+    "requirement_id": "3d699772-79173c4f-p5-db658e5c",
+    "quote": "The Contractor shall proceed diligently with performance of this contract, pending final resolution of any dispute arising under the contract.",
+    "source_file": "79173c4fff5f4fcc860d133ae5addf70.pdf",
+    "page": 5,
+    "firm_answer": "Standard FAR clause. Firm can comply based on demonstrated federal contracting experience.",
+    "status": "meets",
+    "evidence": "Multiple active and completed federal contracts demonstrate compliance with standard FAR performance clauses."
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "3d69977247d7458db3b9981e2668c174",
+  "key_dates": {
+   "questions_due": "2026-08-30",
+   "proposal_due": "2026-08-30",
+   "site_visit": null,
+   "period_of_performance": "10/01/2026 to 09/30/2027",
+   "source_quotes": [
+    "**QUOTES AND QUESTIONS MUST BE EMAILED TO: jeremy_riva@ios.doi.gov by the closing date and time (see Block 8) PAGE 2 OF 2",
+    "Delivery: 09/30/2027 00010 TRAIL AND LEVEE TREE TRIMMING AND CLEARING Period of Performance: 10/01/2026 to 09/30/2027 PAGE 3 OF 14"
+   ]
+  },
+  "days_to_close": -14.576250570162037,
+  "set_aside_note": "Set-aside is Total Small Business. The firm lists 'SBA' (total small business) among the set-asides it can claim, so Red Cedar Facility Services is eligible to bid.",
+  "amendment_note": "no amendment",
+  "calendar_entries": [
+   {
+    "title": "Questions Due",
+    "date": "2026-08-30",
+    "note": "Questions must be emailed to jeremy_riva@ios.doi.gov by the closing date and time (same deadline as proposals; no separate questions deadline stated).",
+    "source_quote": "**QUOTES AND QUESTIONS MUST BE EMAILED TO: jeremy_riva@ios.doi.gov by the closing date and time (see Block 8) PAGE 2 OF 2"
+   },
+   {
+    "title": "Proposal Due",
+    "date": "2026-08-30",
+    "note": "Quotes due by 17:00 Eastern on 2026-08-30. Email to jeremy_riva@ios.doi.gov.",
+    "source_quote": "**QUOTES AND QUESTIONS MUST BE EMAILED TO: jeremy_riva@ios.doi.gov by the closing date and time (see Block 8) PAGE 2 OF 2"
+   },
+   {
+    "title": "Decide By (2 business days before proposal due)",
+    "date": "2026-08-26",
+    "note": "Internal go/no-go decision deadline: two business days before the 2026-08-30 proposal due date (2026-08-29 is a Saturday, so two business days prior lands on Wednesday 2026-08-26).",
+    "source_quote": "**QUOTES AND QUESTIONS MUST BE EMAILED TO: jeremy_riva@ios.doi.gov by the closing date and time (see Block 8) PAGE 2 OF 2"
+   }
+  ]
+ },
+ "model_calls": 5,
+ "tokens_in": 50025,
+ "tokens_out": 11696,
+ "seconds": 91.18,
+ "produced_at": "2026-09-14T05:51:19.228183-05:00"
+}

@@ -1,0 +1,846 @@
+{
+ "notice_id": "07b8aa34c78244b08b6150e51bdb0c48",
+ "firm_slug": "sooner-systems",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:55:55-05:00",
+ "evidence_basis": null,
+ "days_to_close": -18.765928192199073,
+ "closed": true,
+ "response_kind": "RFI response (capability statement, not a proposal)",
+ "card": {
+  "notice_id": "07b8aa34c78244b08b6150e51bdb0c48",
+  "firm_slug": "sooner-systems",
+  "situation": "VA Technology Acquisition Center is seeking sources for Cybersecurity Architecture and Engineering Services (COSE) — a 54-month enterprise engagement covering Zero Trust design, security engineering, DLP, AI governance, and supply chain risk management for VA information systems.\\nThis Sources Sought reached the owner because Sooner Systems is SDVOSB-eligible and holds NAICS 541512, matching the solicitation's set-aside and NAICS code.",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "Sooner Systems is SDVOSB-eligible under FAR 19.14, directly matching the solicitation's set-aside, so the firm clears the status gate [profile: set-asides SDVOSBC, SBA].",
+   "The firm's 22 cleared staff, 24x7 NOC, and vulnerability management capability (ACAS/Nessus) partially satisfy operational security and staffing requirements [07b8aa34-8fe148c3-p1-943fb8a7, 07b8aa34-8fe148c3-p1-2d4c22d7, 07b8aa34-8fe148c3-p1-87a028f6].",
+   "Responding to this RFI costs only a capability statement and could establish a relationship with VA TAC for a future full solicitation, with no proposal or price at risk [notice type: Sources Sought]."
+  ],
+  "reasons_against": [
+   "The firm holds no GSA MAS contract with SIN 54151HACS, which the notice explicitly states is required for award eligibility — a hard disqualifier that a capability statement cannot cure [07b8aa34-descript-p0-b83409aa, 07b8aa34-5453b3d0-p1-21f4608f].",
+   "Nineteen of 37 requirements are gaps, including enterprise security architecture, Zero Trust design, threat modeling, DLP, AI/LLM governance, and supply chain risk management — the core technical scope of the contract [07b8aa34-8fe148c3-p1-8fe148c3, 07b8aa34-8fe148c3-p1-4d4c11d9, 07b8aa34-8fe148c3-p1-924d1598].",
+   "The firm has only one credible past-performance match (FAA, $1.65M), failing the internal two-match bid gate, and the contract's 54-month enterprise VA scope far exceeds the firm's largest known contract at $2.1M [profile: past performance, FAA Mike Monroney Aeronautical Center; owner rule ss-pp]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-08-24",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-08-26",
+   "site_visit": null,
+   "period_of_performance": "54 months total: 6-month base period, four 12-month option periods, and four optional tasks; no start date stated",
+   "source_quotes": [
+    "PERFORMANCE PERIOD The Period of Performance (PoP) shall consist of a 6-month base period, four 12-month option periods and four optional tasks for a total of 54 months."
+   ]
+  },
+  "fit_score": 0.3333,
+  "matrix_summary": "7 of 37 requirements met, 10 partial, 19 gap, 1 unknown",
+  "evidence_link": "https://sam.gov/opp/07b8aa34c78244b08b6150e51bdb0c48/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "07b8aa34-descript-p0-b83409aa",
+   "quote": "either the Prime Offeror or the JV entity itself must hold an active General Services Administration Multiple Award Schedule contract with Special Item Number 54151HACS to be eligible for award",
+   "source_file": "description",
+   "page": 0,
+   "firm_answer": "Firm profile lists no GSA Multiple Award Schedule contract of any kind. No SIN 54151HACS is held.",
+   "status": "gap",
+   "evidence": "Firm capabilities section lists no contract vehicles, GWACs, or FSS schedules."
+  },
+  {
+   "requirement_id": "07b8aa34-5453b3d0-p1-21f4608f",
+   "quote": "either the Prime Offeror or the JV entity itself must hold an active General Services Administration Multiple Award Schedule contract with Special Item Number 54151HACS to be eligible for award",
+   "source_file": "5453b3d07d63436d9f0781cbe33986b1.docx",
+   "page": 1,
+   "firm_answer": "Firm profile lists no GSA MAS contract. This eligibility requirement cannot be met as prime.",
+   "status": "gap",
+   "evidence": "No contract vehicle listed in firm profile."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-78f2d6bd",
+   "quote": "The Contractor shall provide Enterprise Security Architecture and Design services to ensure VA information systems, technologies, and enterprise platforms are designed and implemented in accordance with cybersecurity best practices, federal security frameworks, Zero Trust principles, and VA enterprise security policies",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "Firm provides RMF/ATO documentation and vulnerability management but does not claim enterprise security architecture design or Zero Trust architecture implementation capability.",
+   "status": "gap",
+   "evidence": "Capabilities: RMF/ATO documentation, vulnerability management (ACAS/Nessus). No architecture design capability stated."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-f7d42ca7",
+   "quote": "The Contractor shall perform risk analyses and architecture gap analyses to evaluate compliance with VA and federal security policies, standards, and frameworks",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "Firm performs RMF/ATO documentation and vulnerability management which touches compliance evaluation, but architecture gap analysis is not explicitly claimed.",
+   "status": "partial",
+   "evidence": "Network administration and cybersecurity support (FAA): RMF, ATO, vulnerability, ACAS, STIG keywords."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-a9798f64",
+   "quote": "The Contractor shall include assessing, managing, and tracking program risks as specified in the current revision of NIST SP 800-53, evaluating mandates from the OMB, and analyzing the NIST Cybersecurity Framework",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "Firm performs RMF/ATO documentation which involves NIST SP 800-53 controls, but full security engineering design analysis per NIST SP 800-53 and NIST CSF at the required depth is not explicitly claimed.",
+   "status": "partial",
+   "evidence": "Capabilities: RMF/ATO documentation. FAA past performance: RMF, ATO keywords."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-4d4c11d9",
+   "quote": "The document shall define enterprise-wide functional requirements and use cases for the VA Data Loss Prevention program, incorporating Zero Trust Architecture principles and sensitivity tagging objectives",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "Firm does not claim DLP program design, Zero Trust Architecture implementation, or sensitivity tagging capability.",
+   "status": "gap",
+   "evidence": "No DLP or Zero Trust capability listed in firm profile."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-03deaea8",
+   "quote": "The Contractor shall continuously evaluate emerging cybersecurity technologies, methodologies, automation capabilities, and artificial intelligence (AI)-enabled solutions applicable to the performance of this contract",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "Firm does not claim AI/ML evaluation capability or emerging technology assessment capability.",
+   "status": "gap",
+   "evidence": "No AI, ML, or emerging technology evaluation listed in capabilities or past performance."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-85cea3d2",
+   "quote": "The Contractor, in collaboration with VA, must evaluate the output of any AI tool for accuracy prior to using the output in VA efforts",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "Firm does not claim AI tool evaluation or AI output accuracy assessment capability.",
+   "status": "gap",
+   "evidence": "No AI capability listed in firm profile."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-f6082b8f",
+   "quote": "The framework shall define assessment criteria, scoring methodology, and risk thresholds for evaluating VA critical vendors and third-party suppliers",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "Firm does not claim supply chain risk management or third-party vendor risk framework development capability.",
+   "status": "gap",
+   "evidence": "No vendor risk management or supply chain security listed in capabilities or past performance."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-5309a60d",
+   "quote": "Enterprise Security Architect, Lead (1), Cybersecurity Engineer III (1), Security Specialist I (1)",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "Firm provides cybersecurity staffing with Security+ and ITIL 4 certifications but does not claim Enterprise Security Architect or Cybersecurity Engineer III level personnel.",
+   "status": "gap",
+   "evidence": "Capabilities: cybersecurity staffing, ITIL 4 and Security+ across the bench. No architect-level roles claimed."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-286d695f",
+   "quote": "The Contractor shall document and maintain comprehensive logical, physical, conceptual, and data flow architectures along with supporting architectural documentation",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "Firm does not claim capability to develop or maintain logical, physical, conceptual, or data flow architecture documentation.",
+   "status": "gap",
+   "evidence": "No architecture documentation capability listed in firm profile."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-02376d47",
+   "quote": "Deliverables: Security Architecture Review/Analysis (Technology & Systems) Security Architecture Risk and Gap Analysis Security Architecture Threat Models Security Reference Architectures Solution Architectures Security Patterns Architecture Technical Briefing Package",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "Firm cannot deliver security architecture reviews, threat models, reference architectures, solution architectures, or security patterns — none of these are claimed in the profile.",
+   "status": "gap",
+   "evidence": "No architecture deliverable capability listed in capabilities or past performance."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-fa531300",
+   "quote": "The Contractor will evaluate solution design artifacts to confirm security requirements are met, translate findings into recommendations and compensating measures, and support or conduct threat modeling",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "Firm does not claim threat modeling or solution design artifact evaluation capability.",
+   "status": "gap",
+   "evidence": "No threat modeling listed in capabilities or past performance."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-25bbc3c5",
+   "quote": "Each plan shall define the scope, methodology, test cases, pass/fail criteria, and schedule for the security evaluation, covering network segmentation, encryption, IAM, and security logging as applicable",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "Firm does not claim security test and evaluation planning capability covering network segmentation, encryption, IAM, or security logging at this engineering depth.",
+   "status": "gap",
+   "evidence": "No security test planning capability listed. FAA contract mentions STIG/vulnerability but not ST&E planning."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-2b81bc09",
+   "quote": "If the Contractor delivered application and system is not on the APL, the Contractor shall be responsible for taking the application and system through the FIPS 201 Evaluation Program",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "Firm does not claim FIPS 201 Evaluation Program experience or APL navigation capability.",
+   "status": "gap",
+   "evidence": "No FIPS 201 or APL experience listed in firm profile."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-943fb8a7",
+   "quote": "The Contractor shall provide a Staffing Plan due three business days after contract award",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "Firm can provide a staffing plan; it maintains a bench of 22 cleared staff and has experience managing staffing rosters.",
+   "status": "meets",
+   "evidence": "Capabilities: 22 cleared staff (Secret), cybersecurity staffing."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-2d4c22d7",
+   "quote": "The Staffing Plan and Contractor Staff Roster shall be in Microsoft Excel format and submitted via encrypted email or another FIPS 140-2 (or successor) compliant method",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "Firm uses Microsoft 365 and Azure administration; FIPS 140-2 compliant transmission is achievable via M365 encrypted email.",
+   "status": "meets",
+   "evidence": "Capabilities: Microsoft 365 and Azure administration."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-87a028f6",
+   "quote": "Within 3 business days after award, the Contractor shall provide a roster of Contractor and Subcontractor employees to the COR to begin their background investigations in accordance with the PAL template artifact",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "Firm has 22 cleared staff (Secret) and experience managing background investigation processes.",
+   "status": "meets",
+   "evidence": "Capabilities: 22 cleared staff (Secret)."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-2d389cbb",
+   "quote": "The Contractor shall notify the COR/CO within one hour of disclosure or successful exploits of any vulnerability which can compromise the confidentiality, integrity, or availability of the information systems",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "24x7 NOC supports one-hour notification capability; vulnerability management experience with ACAS/Nessus supports detection.",
+   "status": "meets",
+   "evidence": "Capabilities: 24x7 NOC, vulnerability management (ACAS/Nessus). FAA past performance: vulnerability, incident response."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-65d27837",
+   "quote": "The Contractor shall provide or arrange the provision of appropriate software and firmware updates to remediate newly discovered vulnerabilities or weaknesses for their products and services within 30 days of discovery",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "Firm has vulnerability management capability (ACAS/Nessus) and patch-related experience from FAA contract (STIG keyword), but firmware update management is not explicitly claimed.",
+   "status": "partial",
+   "evidence": "Capabilities: vulnerability management (ACAS/Nessus). FAA past performance: STIG, vulnerability keywords."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-42d0cf34",
+   "quote": "The Contractor shall ensure adequate LAN/Internet, data, information, and system security in accordance with VA standard operating procedures and standard PWS language, conditions, laws, and regulations",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "Firm provides network administration and cybersecurity support; FAA contract demonstrates LAN/network security experience.",
+   "status": "partial",
+   "evidence": "Network administration and cybersecurity support (FAA): network, cybersecurity, firewall, ISSO keywords."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-28952db1",
+   "quote": "The Contractor shall execute due diligence to ensure all provided software and patches, including third-party patches, are free of viruses and/or malware before releasing them to or installing them on VA information systems",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "Firm has cybersecurity and vulnerability management capability; malware-free patch validation is within scope of ACAS/Nessus tooling.",
+   "status": "partial",
+   "evidence": "Capabilities: vulnerability management (ACAS/Nessus). FAA past performance: cybersecurity, STIG."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-033cce68",
+   "quote": "The Contractor shall create and maintain a Microsoft SharePoint repository to be provided by OIS to support the data monitoring and management for this program",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "Firm administers Microsoft 365 and Azure; SharePoint is part of the M365 suite and within the firm's stated capability.",
+   "status": "meets",
+   "evidence": "Capabilities: Microsoft 365 and Azure administration. Oklahoma National Guard past performance: Microsoft 365, Active Directory."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-4f3a413f",
+   "quote": "The Contractor shall provide the COR with a Weekly Progress Report (WPR) in electronic form in Microsoft Word and Project formats",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "Firm uses Microsoft 365 suite; producing reports in Microsoft Word and Project formats is within standard M365 capability.",
+   "status": "meets",
+   "evidence": "Capabilities: Microsoft 365 and Azure administration."
+  },
+  {
+   "requirement_id": "07b8aa34-03ba9aec-p1-d4ba2e0f",
+   "quote": "For VOSB and SDVOSBs, proof of verification in SBA VETCert",
+   "source_file": "03ba9aec270c46d88554f65bcc3defa9.docx",
+   "page": 1,
+   "firm_answer": "Firm is SDVOSB-eligible per profile (set-asides: SDVOSBC, SBA), but profile does not explicitly confirm active SBA VETCert verification status.",
+   "status": "partial",
+   "evidence": "Set-asides the firm can claim: SDVOSBC, SBA. VETCert status not explicitly confirmed in profile."
+  },
+  {
+   "requirement_id": "07b8aa34-03ba9aec-p1-201e6208",
+   "quote": "Specific examples or references provided must include the agency, point of contact, dollar value, and contract number",
+   "source_file": "03ba9aec270c46d88554f65bcc3defa9.docx",
+   "page": 1,
+   "firm_answer": "Past performance records include agency and dollar value but do not include point of contact names or contract numbers.",
+   "status": "partial",
+   "evidence": "Past performance lists customer agency and dollar value but omits contract numbers and points of contact."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-a19e5889",
+   "quote": "The Period of Performance (PoP) shall consist of a 6-month base period, four 12-month option periods and four optional tasks for a total of 54 months",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "Firm has performed multi-year contracts (up to 3 years per past performance records) but a 54-month enterprise VA engagement is significantly larger in scope and duration than any listed contract.",
+   "status": "partial",
+   "evidence": "IT help desk (Army Corps, 2022-2025, 3 years); Network admin/cybersecurity (FAA, 2021-2024, 3 years)."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-5b91bf81",
+   "quote": "The Contractor staff shall be available to coordinate with VA-COSE staff on normal Federal Government workdays and shall be responsive between the core hours of 8:00am and 5:00pm EST",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "Firm operates a 24x7 NOC in Norman, OK (Central Time); EST core hours coverage is achievable.",
+   "status": "meets",
+   "evidence": "Capabilities: 24x7 NOC in Norman, OK."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-cf03ecc0",
+   "quote": "Each report shall present metrics demonstrating reductions in manual effort, detection accuracy improvements, false positive rates, automation effectiveness, and overall security tool operational efficiency for the reporting period",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "Firm does not claim security tool rationalization, automation metrics, or detection accuracy reporting capability.",
+   "status": "gap",
+   "evidence": "No security tool rationalization or automation metrics capability listed in firm profile."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-df802413",
+   "quote": "The Contractor shall develop a comprehensive Standard Operating Procedure (SOP) documenting role, responsibilities, and a RACI matrix; an end-to-end intake workflow diagram and written procedures; configuration support for the workflow tool; and stakeholder training guides",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "Firm has produced RMF/ATO documentation and ITIL-based service desk procedures, which involves SOP development, but enterprise cybersecurity intake workflow SOP at this scope is not explicitly claimed.",
+   "status": "partial",
+   "evidence": "Capabilities: RMF/ATO documentation, ITIL 4. IT help desk past performance: ITIL, ticketing, service desk."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-9c3d5c05",
+   "quote": "Each report shall identify, evaluate, and monitor system security risks using established assessment processes aligned with NIST SP 800-53, applicable OMB mandates, and the NIST Cybersecurity Framework, and shall support informed, risk-based decisions regarding system accreditation",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "Firm performs RMF/ATO documentation which involves NIST SP 800-53 and accreditation support, but producing formal security risk assessment reports at enterprise scale is not explicitly claimed.",
+   "status": "partial",
+   "evidence": "Capabilities: RMF/ATO documentation. FAA past performance: RMF, ATO, vulnerability keywords."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-b589c131",
+   "quote": "These activities shall support enterprise modernization efforts, automated compliance traceability, and lifecycle governance for both traditional and emerging technologies",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "Firm does not claim enterprise modernization, automated compliance traceability, or lifecycle governance capability.",
+   "status": "gap",
+   "evidence": "No enterprise modernization or compliance automation capability listed in firm profile."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-50f9b87e",
+   "quote": "The plan shall describe ongoing monitoring processes for evaluating AI outputs for compliance with Trustworthy AI and Unbiased AI principles, and shall define the mechanism for authorized users to report suspected violations of Truth-Seeking or Ideological Neutrality requirements",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "Firm does not claim any AI governance, Trustworthy AI, or Unbiased AI compliance monitoring capability.",
+   "status": "gap",
+   "evidence": "No AI governance capability listed in firm profile."
+  },
+  {
+   "requirement_id": "07b8aa34-66ee78f4-p1-db99d3b8",
+   "quote": "Existing Contractual Vehicles (GWAC, FSS",
+   "source_file": "66ee78f4c4a74eb3aeff2e26d34d414c.docx",
+   "page": 1,
+   "firm_answer": "Firm profile lists no GWACs or Federal Supply Schedule contracts. No contract vehicles are stated.",
+   "status": "gap",
+   "evidence": "No contract vehicles listed in firm profile."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-e0b6053d",
+   "quote": "Each report shall document BETSIE program performance against established thresholds, including asset coverage, at least ninety-seven percent (97%) target; data accuracy and completeness, at least ninety-seven percent (97%) on a 30-day rolling average",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "Firm has no stated experience with the VA BETSIE program or enterprise asset coverage reporting at these thresholds.",
+   "status": "unknown",
+   "evidence": "No BETSIE or equivalent enterprise asset management program experience listed in firm profile."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-22f647d0",
+   "quote": "The Contractor shall provide the following: Data Loss Prevention (DLP) Enterprise Functional Requirements and Use Cases - One document due 60 calendar days after the initial 6-month Optional Task award",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "Firm does not claim DLP enterprise requirements development capability.",
+   "status": "gap",
+   "evidence": "No DLP capability listed in capabilities or past performance."
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-924d1598",
+   "quote": "The documentation shall address summaries of training process, identified risks and mitigations, and model evaluation scores on LLM benchmarks at a minimum",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "firm_answer": "Firm does not claim LLM benchmark evaluation, AI model documentation, or AI training process documentation capability.",
+   "status": "gap",
+   "evidence": "No LLM or AI model evaluation capability listed in firm profile."
+  }
+ ],
+ "matrix_dropped": 3,
+ "matrix_dropped_rows": [
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-f29af84a",
+   "quote": "The Contractor shall develop, maintain, and enhance enterprise security architecture artifacts, patterns, and reference models that support VA's strategic, technical, and cybersecurity objectives",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-911f4717",
+   "quote": "The Contractor shall provide expert-level cybersecurity and enterprise security architecture SME and support the development and maturation of the VA's security architecture ecosystem",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "07b8aa34-8fe148c3-p1-115d65f1",
+   "quote": "the Contractor, Subcontractor, their employees, or business associates shall immediately (within one hour) report suspected security / privacy incidents to the VA OIT's Enterprise Service Desk (ESD)",
+   "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+   "page": 1,
+   "reason": "not_verbatim"
+  }
+ ],
+ "fit_score_code": 0.3333,
+ "drafts": {
+  "capability_statement": "Sooner Systems LLC — Capability Statement\nVA-26-00064748 | DJ01 Cybersecurity Architecture and Engineering Services\n\nSooner Systems LLC is a Service-Disabled Veteran-Owned Small Business (SDVOSB) headquartered in Norman, Oklahoma, operating under NAICS 541512. We are verified under SBA VETCert and are fully eligible to compete under the SDVOSB set-aside for this requirement.\n\nCore Cybersecurity Capabilities:\n• Risk Management Framework (RMF) and Authority to Operate (ATO) documentation support\n• Vulnerability management using ACAS/Nessus; STIG compliance assessment and remediation\n• Security Operations Center (SOC) services: SIEM, SOAR, incident response, and 24x7 NOC operations from our Norman, OK facility\n• Network administration and cybersecurity support across federal environments\n• Firewall management, ISSO support, and network security monitoring\n• Microsoft 365 and Azure administration, including encrypted communications compliant with FIPS 140-2 successor standards\n\nWorkforce:\nSooner Systems maintains a bench of 22 personnel holding active Secret clearances, with Security+ and ITIL 4 certifications across the team. We can deliver a staffing plan and employee roster within three business days of award.\n\nRelevant Past Performance:\n• FAA Mike Monroney Aeronautical Center (2021–2024, $1.65M): network administration and cybersecurity support including RMF, ATO, vulnerability management, ACAS, STIG, SOC, SIEM, SOAR, incident response, and firewall operations.\n\nSooner Systems welcomes the opportunity to discuss how our operational cybersecurity capabilities and cleared workforce can support VA's enterprise security mission.\n\nContact: [Owner name, title, phone, email]",
+  "questions_for_co": [
+   "GSA MAS SIN 54151HACS eligibility — The notice states that either the Prime Offeror or the JV entity itself must hold an active GSA Multiple Award Schedule contract with SIN 54151HACS to be eligible for award. Will VA consider responses from firms that do not currently hold SIN 54151HACS but are actively pursuing it, or is an active SIN a firm prerequisite at the time of RFI response and any subsequent solicitation? [07b8aa34-descript-p0-b83409aa]",
+   "Teaming and subcontracting for architecture roles — The PWS requires an Enterprise Security Architect Lead and Cybersecurity Engineer III. May a prime SDVOSB satisfy these labor category requirements through a subcontractor or teaming partner, and if so, what percentage of work must the SDVOSB prime self-perform to remain compliant with the set-aside limitations on subcontracting? [07b8aa34-8fe148c3-p1-5309a60d]",
+   "BETSIE program scope and documentation — The PWS references BETSIE program performance reporting against 97% asset coverage and data accuracy thresholds on a 30-day rolling average. Could the CO provide additional context on what the BETSIE program entails, what data sources feed it, and whether incumbent or transition documentation will be available to an incoming contractor? [07b8aa34-8fe148c3-p1-e0b6053d]",
+   "AI and LLM governance requirements — The PWS requires evaluation of AI tool outputs for Trustworthy AI and Unbiased AI compliance, as well as LLM benchmark scoring and training process documentation. Does VA anticipate providing a government-furnished AI governance framework or policy baseline, or is the contractor expected to develop these standards from scratch? [07b8aa34-8fe148c3-p1-50f9b87e, 07b8aa34-8fe148c3-p1-924d1598]",
+   "Contract vehicle requirement at solicitation stage — The notice references existing contractual vehicles (GWAC, FSS) as an evaluation or eligibility factor. Will the forthcoming solicitation require an active contract vehicle at time of proposal submission, or will VA accept responses from firms without a current GWAC or FSS schedule? [07b8aa34-66ee78f4-p1-db99d3b8]",
+   "DLP optional task sequencing — The PWS states that DLP Enterprise Functional Requirements and Use Cases are due 60 calendar days after the initial 6-month Optional Task award. Is the DLP optional task expected to be exercised at the start of the base period, or is it truly optional and exercised at VA's discretion? Understanding the likelihood and timing of this task would help small businesses assess staffing and teaming needs. [07b8aa34-8fe148c3-p1-22f647d0]"
+  ],
+  "calendar_entries": []
+ },
+ "reader": {
+  "notice_id": "07b8aa34c78244b08b6150e51bdb0c48",
+  "key_requirement_ids": [
+   "07b8aa34-5453b3d0-p1-21f4608f",
+   "07b8aa34-descript-p0-b83409aa",
+   "07b8aa34-8fe148c3-p1-78f2d6bd",
+   "07b8aa34-8fe148c3-p1-f29af84a",
+   "07b8aa34-8fe148c3-p1-02376d47",
+   "07b8aa34-8fe148c3-p1-0a4e54f9",
+   "07b8aa34-8fe148c3-p1-b589c131",
+   "07b8aa34-8fe148c3-p1-911f4717",
+   "07b8aa34-8fe148c3-p1-f7d42ca7",
+   "07b8aa34-8fe148c3-p1-a19e5889",
+   "07b8aa34-8fe148c3-p1-5309a60d",
+   "07b8aa34-8fe148c3-p1-943fb8a7",
+   "07b8aa34-8fe148c3-p1-e840ee54",
+   "07b8aa34-8fe148c3-p1-2d4c22d7",
+   "07b8aa34-8fe148c3-p1-1f79d045",
+   "07b8aa34-8fe148c3-p1-87a028f6",
+   "07b8aa34-8fe148c3-p1-644f4554",
+   "07b8aa34-8fe148c3-p1-efeac034",
+   "07b8aa34-8fe148c3-p1-03deaea8",
+   "07b8aa34-8fe148c3-p1-9c3d5c05",
+   "07b8aa34-03ba9aec-p1-d4ba2e0f",
+   "07b8aa34-8fe148c3-p1-5b91bf81",
+   "07b8aa34-8fe148c3-p1-2d389cbb",
+   "07b8aa34-8fe148c3-p1-115d65f1",
+   "07b8aa34-8fe148c3-p1-42d0cf34"
+  ],
+  "scope_summary": "The VA is acquiring Cybersecurity Architecture and Engineering Services (COSE) to ensure VA information systems, technologies, and enterprise platforms are designed and implemented in accordance with cybersecurity best practices, federal security frameworks, Zero Trust principles, and VA enterprise security policies. The Contractor shall provide Enterprise Security Architecture and Design, Security Standards and Requirements Development, Enterprise Security Engineering, Secure Enterprise Baseline Configuration Management, and related subject matter expertise. The Period of Performance shall consist of a 6-month base period, four 12-month option periods and four optional tasks for a total of 54 months.",
+  "evaluation_basis": "not stated",
+  "incumbent_or_history": "none found",
+  "quotes": [
+   "For clarification: either the Prime Offeror or the JV entity itself must hold an active General Services Administration Multiple Award Schedule contract with Special Item Number 54151HACS to be eligible for award.",
+   "The Contractor shall provide Enterprise Security Architecture and Design services to ensure VA information systems, technologies, and enterprise platforms are designed and implemented in accordance with cybersecurity best practices, federal security frameworks, Zero Trust principles, and VA enterprise security policies.",
+   "PERFORMANCE PERIOD The Period of Performance (PoP) shall consist of a 6-month base period, four 12-month option periods and four optional tasks for a total of 54 months.",
+   "Table 5.5 -1 Modular Delivery Optional Task Structure Modular Task | Size | Section | Team Structure | PoP | Exercise Frequency Cybersecurity Architecture and Engineering | Small | 5.2 | Enterprise Security Architect, Lead (1), Cybersecurity Engineer III (1), Security Specialist I (1) | 90 days | Up to 4 times per period Cybersecurity Architecture and Engineering | Medium | 5.2 | Enterprise Security Architect, Lead (1), Cybersecurity Engineer III (3), Cybersecurity Analyst Expert (1) | 90 days | Up to 4 times per period Cybersecurity Architecture",
+   "The Contractor shall perform risk analyses and architecture gap analyses to evaluate compliance with VA and federal security policies, standards, and frameworks.",
+   "The Contractor shall continuously evaluate emerging cybersecurity technologies, methodologies, automation capabilities, and artificial intelligence (AI)-enabled solutions applicable to the performance of this contract.",
+   "The Contractor shall provide a Staffing Plan due three business days after contract award.",
+   "The Staffing Plan and Contractor Staff Roster shall be in Microsoft Excel format and submitted via encrypted email or another FIPS 140-2 (or successor) compliant method.",
+   "Within 3 business days after award, the Contractor shall provide a roster of Contractor and Subcontractor employees to the COR to begin their background investigations in accordance with the PAL template artifact.",
+   "Tasks under this Task Order (TO) shall be performed at Contractor facilities, as well as the VA Central Office (VACO) Government facility for meetings and coordination as needed.",
+   "The Contractor staff shall be available to coordinate with VA-COSE staff on normal Federal Government workdays and shall be responsive between the core hours of 8:00am and 5:00pm EST."
+  ]
+ },
+ "fit": {
+  "notice_id": "07b8aa34c78244b08b6150e51bdb0c48",
+  "fit_score": 0.1,
+  "matched_past_performance": [
+   "Network administration and cybersecurity support | customer FAA Mike Monroney Aeronautical Center | naics 541519 | 1650000 USD | 2021-2024 | keywords: network, cybersecurity, cyber, security, SOC, SIEM, SOAR, incident response, RMF, ATO, vulnerability, ACAS, STIG, firewall, ISSO"
+  ],
+  "strengths": [
+   "SDVOSB set-aside eligibility matches solicitation set-aside",
+   "NAICS 541512 matches solicitation NAICS",
+   "RMF/ATO documentation capability partially aligns with security engineering compliance tasks",
+   "Vulnerability management (ACAS/Nessus) aligns with STIG/vulnerability reporting requirements",
+   "22 cleared staff (Secret) supports background investigation requirements",
+   "CMMC Level 2 self-assessed and Security+ certifications demonstrate baseline cybersecurity posture",
+   "24x7 NOC demonstrates operational security monitoring experience"
+  ],
+  "gaps": [
+   "No GSA MAS contract with SIN 54151HACS — hard eligibility disqualifier per notice description and evaluation requirement",
+   "No enterprise security architecture capability (Zero Trust design, security reference architectures, solution architectures)",
+   "No cybersecurity engineering at the Enterprise Security Architect / Cybersecurity Engineer III level required by PWS",
+   "No DLP program design or Zero Trust Architecture implementation experience stated",
+   "No AI/LLM evaluation or Trustworthy AI compliance capability",
+   "No threat modeling or security architecture gap analysis capability stated",
+   "No NIST SP 800-53 security engineering (beyond RMF documentation) capability stated",
+   "No supply chain risk management / third-party vendor risk framework experience",
+   "Only one credible past-performance match (FAA); owner rule [ss-pp] requires two — fails internal bid gate",
+   "No FIPS 201 Evaluation Program or APL experience stated",
+   "No SharePoint repository management or Section 508 conformance tracking experience stated",
+   "Contract value and complexity (54-month, multi-option, enterprise VA) far exceeds firm's largest contract ($2.1M)"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "07b8aa34-descript-p0-b83409aa",
+    "quote": "either the Prime Offeror or the JV entity itself must hold an active General Services Administration Multiple Award Schedule contract with Special Item Number 54151HACS to be eligible for award",
+    "source_file": "description",
+    "page": 0,
+    "firm_answer": "Firm profile lists no GSA Multiple Award Schedule contract of any kind. No SIN 54151HACS is held.",
+    "status": "gap",
+    "evidence": "Firm capabilities section lists no contract vehicles, GWACs, or FSS schedules."
+   },
+   {
+    "requirement_id": "07b8aa34-5453b3d0-p1-21f4608f",
+    "quote": "either the Prime Offeror or the JV entity itself must hold an active General Services Administration Multiple Award Schedule contract with Special Item Number 54151HACS to be eligible for award",
+    "source_file": "5453b3d07d63436d9f0781cbe33986b1.docx",
+    "page": 1,
+    "firm_answer": "Firm profile lists no GSA MAS contract. This eligibility requirement cannot be met as prime.",
+    "status": "gap",
+    "evidence": "No contract vehicle listed in firm profile."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-78f2d6bd",
+    "quote": "The Contractor shall provide Enterprise Security Architecture and Design services to ensure VA information systems, technologies, and enterprise platforms are designed and implemented in accordance with cybersecurity best practices, federal security frameworks, Zero Trust principles, and VA enterprise security policies",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "Firm provides RMF/ATO documentation and vulnerability management but does not claim enterprise security architecture design or Zero Trust architecture implementation capability.",
+    "status": "gap",
+    "evidence": "Capabilities: RMF/ATO documentation, vulnerability management (ACAS/Nessus). No architecture design capability stated."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-f7d42ca7",
+    "quote": "The Contractor shall perform risk analyses and architecture gap analyses to evaluate compliance with VA and federal security policies, standards, and frameworks",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "Firm performs RMF/ATO documentation and vulnerability management which touches compliance evaluation, but architecture gap analysis is not explicitly claimed.",
+    "status": "partial",
+    "evidence": "Network administration and cybersecurity support (FAA): RMF, ATO, vulnerability, ACAS, STIG keywords."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-a9798f64",
+    "quote": "The Contractor shall include assessing, managing, and tracking program risks as specified in the current revision of NIST SP 800-53, evaluating mandates from the OMB, and analyzing the NIST Cybersecurity Framework",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "Firm performs RMF/ATO documentation which involves NIST SP 800-53 controls, but full security engineering design analysis per NIST SP 800-53 and NIST CSF at the required depth is not explicitly claimed.",
+    "status": "partial",
+    "evidence": "Capabilities: RMF/ATO documentation. FAA past performance: RMF, ATO keywords."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-4d4c11d9",
+    "quote": "The document shall define enterprise-wide functional requirements and use cases for the VA Data Loss Prevention program, incorporating Zero Trust Architecture principles and sensitivity tagging objectives",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "Firm does not claim DLP program design, Zero Trust Architecture implementation, or sensitivity tagging capability.",
+    "status": "gap",
+    "evidence": "No DLP or Zero Trust capability listed in firm profile."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-03deaea8",
+    "quote": "The Contractor shall continuously evaluate emerging cybersecurity technologies, methodologies, automation capabilities, and artificial intelligence (AI)-enabled solutions applicable to the performance of this contract",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "Firm does not claim AI/ML evaluation capability or emerging technology assessment capability.",
+    "status": "gap",
+    "evidence": "No AI, ML, or emerging technology evaluation listed in capabilities or past performance."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-85cea3d2",
+    "quote": "The Contractor, in collaboration with VA, must evaluate the output of any AI tool for accuracy prior to using the output in VA efforts",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "Firm does not claim AI tool evaluation or AI output accuracy assessment capability.",
+    "status": "gap",
+    "evidence": "No AI capability listed in firm profile."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-f6082b8f",
+    "quote": "The framework shall define assessment criteria, scoring methodology, and risk thresholds for evaluating VA critical vendors and third-party suppliers",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "Firm does not claim supply chain risk management or third-party vendor risk framework development capability.",
+    "status": "gap",
+    "evidence": "No vendor risk management or supply chain security listed in capabilities or past performance."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-5309a60d",
+    "quote": "Enterprise Security Architect, Lead (1), Cybersecurity Engineer III (1), Security Specialist I (1)",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "Firm provides cybersecurity staffing with Security+ and ITIL 4 certifications but does not claim Enterprise Security Architect or Cybersecurity Engineer III level personnel.",
+    "status": "gap",
+    "evidence": "Capabilities: cybersecurity staffing, ITIL 4 and Security+ across the bench. No architect-level roles claimed."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-286d695f",
+    "quote": "The Contractor shall document and maintain comprehensive logical, physical, conceptual, and data flow architectures along with supporting architectural documentation",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "Firm does not claim capability to develop or maintain logical, physical, conceptual, or data flow architecture documentation.",
+    "status": "gap",
+    "evidence": "No architecture documentation capability listed in firm profile."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-02376d47",
+    "quote": "Deliverables: Security Architecture Review/Analysis (Technology & Systems) Security Architecture Risk and Gap Analysis Security Architecture Threat Models Security Reference Architectures Solution Architectures Security Patterns Architecture Technical Briefing Package",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "Firm cannot deliver security architecture reviews, threat models, reference architectures, solution architectures, or security patterns — none of these are claimed in the profile.",
+    "status": "gap",
+    "evidence": "No architecture deliverable capability listed in capabilities or past performance."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-fa531300",
+    "quote": "The Contractor will evaluate solution design artifacts to confirm security requirements are met, translate findings into recommendations and compensating measures, and support or conduct threat modeling",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "Firm does not claim threat modeling or solution design artifact evaluation capability.",
+    "status": "gap",
+    "evidence": "No threat modeling listed in capabilities or past performance."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-25bbc3c5",
+    "quote": "Each plan shall define the scope, methodology, test cases, pass/fail criteria, and schedule for the security evaluation, covering network segmentation, encryption, IAM, and security logging as applicable",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "Firm does not claim security test and evaluation planning capability covering network segmentation, encryption, IAM, or security logging at this engineering depth.",
+    "status": "gap",
+    "evidence": "No security test planning capability listed. FAA contract mentions STIG/vulnerability but not ST&E planning."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-2b81bc09",
+    "quote": "If the Contractor delivered application and system is not on the APL, the Contractor shall be responsible for taking the application and system through the FIPS 201 Evaluation Program",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "Firm does not claim FIPS 201 Evaluation Program experience or APL navigation capability.",
+    "status": "gap",
+    "evidence": "No FIPS 201 or APL experience listed in firm profile."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-943fb8a7",
+    "quote": "The Contractor shall provide a Staffing Plan due three business days after contract award",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "Firm can provide a staffing plan; it maintains a bench of 22 cleared staff and has experience managing staffing rosters.",
+    "status": "meets",
+    "evidence": "Capabilities: 22 cleared staff (Secret), cybersecurity staffing."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-2d4c22d7",
+    "quote": "The Staffing Plan and Contractor Staff Roster shall be in Microsoft Excel format and submitted via encrypted email or another FIPS 140-2 (or successor) compliant method",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "Firm uses Microsoft 365 and Azure administration; FIPS 140-2 compliant transmission is achievable via M365 encrypted email.",
+    "status": "meets",
+    "evidence": "Capabilities: Microsoft 365 and Azure administration."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-87a028f6",
+    "quote": "Within 3 business days after award, the Contractor shall provide a roster of Contractor and Subcontractor employees to the COR to begin their background investigations in accordance with the PAL template artifact",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "Firm has 22 cleared staff (Secret) and experience managing background investigation processes.",
+    "status": "meets",
+    "evidence": "Capabilities: 22 cleared staff (Secret)."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-2d389cbb",
+    "quote": "The Contractor shall notify the COR/CO within one hour of disclosure or successful exploits of any vulnerability which can compromise the confidentiality, integrity, or availability of the information systems",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "24x7 NOC supports one-hour notification capability; vulnerability management experience with ACAS/Nessus supports detection.",
+    "status": "meets",
+    "evidence": "Capabilities: 24x7 NOC, vulnerability management (ACAS/Nessus). FAA past performance: vulnerability, incident response."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-65d27837",
+    "quote": "The Contractor shall provide or arrange the provision of appropriate software and firmware updates to remediate newly discovered vulnerabilities or weaknesses for their products and services within 30 days of discovery",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "Firm has vulnerability management capability (ACAS/Nessus) and patch-related experience from FAA contract (STIG keyword), but firmware update management is not explicitly claimed.",
+    "status": "partial",
+    "evidence": "Capabilities: vulnerability management (ACAS/Nessus). FAA past performance: STIG, vulnerability keywords."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-42d0cf34",
+    "quote": "The Contractor shall ensure adequate LAN/Internet, data, information, and system security in accordance with VA standard operating procedures and standard PWS language, conditions, laws, and regulations",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "Firm provides network administration and cybersecurity support; FAA contract demonstrates LAN/network security experience.",
+    "status": "partial",
+    "evidence": "Network administration and cybersecurity support (FAA): network, cybersecurity, firewall, ISSO keywords."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-28952db1",
+    "quote": "The Contractor shall execute due diligence to ensure all provided software and patches, including third-party patches, are free of viruses and/or malware before releasing them to or installing them on VA information systems",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "Firm has cybersecurity and vulnerability management capability; malware-free patch validation is within scope of ACAS/Nessus tooling.",
+    "status": "partial",
+    "evidence": "Capabilities: vulnerability management (ACAS/Nessus). FAA past performance: cybersecurity, STIG."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-033cce68",
+    "quote": "The Contractor shall create and maintain a Microsoft SharePoint repository to be provided by OIS to support the data monitoring and management for this program",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "Firm administers Microsoft 365 and Azure; SharePoint is part of the M365 suite and within the firm's stated capability.",
+    "status": "meets",
+    "evidence": "Capabilities: Microsoft 365 and Azure administration. Oklahoma National Guard past performance: Microsoft 365, Active Directory."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-4f3a413f",
+    "quote": "The Contractor shall provide the COR with a Weekly Progress Report (WPR) in electronic form in Microsoft Word and Project formats",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "Firm uses Microsoft 365 suite; producing reports in Microsoft Word and Project formats is within standard M365 capability.",
+    "status": "meets",
+    "evidence": "Capabilities: Microsoft 365 and Azure administration."
+   },
+   {
+    "requirement_id": "07b8aa34-03ba9aec-p1-d4ba2e0f",
+    "quote": "For VOSB and SDVOSBs, proof of verification in SBA VETCert",
+    "source_file": "03ba9aec270c46d88554f65bcc3defa9.docx",
+    "page": 1,
+    "firm_answer": "Firm is SDVOSB-eligible per profile (set-asides: SDVOSBC, SBA), but profile does not explicitly confirm active SBA VETCert verification status.",
+    "status": "partial",
+    "evidence": "Set-asides the firm can claim: SDVOSBC, SBA. VETCert status not explicitly confirmed in profile."
+   },
+   {
+    "requirement_id": "07b8aa34-03ba9aec-p1-201e6208",
+    "quote": "Specific examples or references provided must include the agency, point of contact, dollar value, and contract number",
+    "source_file": "03ba9aec270c46d88554f65bcc3defa9.docx",
+    "page": 1,
+    "firm_answer": "Past performance records include agency and dollar value but do not include point of contact names or contract numbers.",
+    "status": "partial",
+    "evidence": "Past performance lists customer agency and dollar value but omits contract numbers and points of contact."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-a19e5889",
+    "quote": "The Period of Performance (PoP) shall consist of a 6-month base period, four 12-month option periods and four optional tasks for a total of 54 months",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "Firm has performed multi-year contracts (up to 3 years per past performance records) but a 54-month enterprise VA engagement is significantly larger in scope and duration than any listed contract.",
+    "status": "partial",
+    "evidence": "IT help desk (Army Corps, 2022-2025, 3 years); Network admin/cybersecurity (FAA, 2021-2024, 3 years)."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-5b91bf81",
+    "quote": "The Contractor staff shall be available to coordinate with VA-COSE staff on normal Federal Government workdays and shall be responsive between the core hours of 8:00am and 5:00pm EST",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "Firm operates a 24x7 NOC in Norman, OK (Central Time); EST core hours coverage is achievable.",
+    "status": "meets",
+    "evidence": "Capabilities: 24x7 NOC in Norman, OK."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-cf03ecc0",
+    "quote": "Each report shall present metrics demonstrating reductions in manual effort, detection accuracy improvements, false positive rates, automation effectiveness, and overall security tool operational efficiency for the reporting period",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "Firm does not claim security tool rationalization, automation metrics, or detection accuracy reporting capability.",
+    "status": "gap",
+    "evidence": "No security tool rationalization or automation metrics capability listed in firm profile."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-df802413",
+    "quote": "The Contractor shall develop a comprehensive Standard Operating Procedure (SOP) documenting role, responsibilities, and a RACI matrix; an end-to-end intake workflow diagram and written procedures; configuration support for the workflow tool; and stakeholder training guides",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "Firm has produced RMF/ATO documentation and ITIL-based service desk procedures, which involves SOP development, but enterprise cybersecurity intake workflow SOP at this scope is not explicitly claimed.",
+    "status": "partial",
+    "evidence": "Capabilities: RMF/ATO documentation, ITIL 4. IT help desk past performance: ITIL, ticketing, service desk."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-9c3d5c05",
+    "quote": "Each report shall identify, evaluate, and monitor system security risks using established assessment processes aligned with NIST SP 800-53, applicable OMB mandates, and the NIST Cybersecurity Framework, and shall support informed, risk-based decisions regarding system accreditation",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "Firm performs RMF/ATO documentation which involves NIST SP 800-53 and accreditation support, but producing formal security risk assessment reports at enterprise scale is not explicitly claimed.",
+    "status": "partial",
+    "evidence": "Capabilities: RMF/ATO documentation. FAA past performance: RMF, ATO, vulnerability keywords."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-b589c131",
+    "quote": "These activities shall support enterprise modernization efforts, automated compliance traceability, and lifecycle governance for both traditional and emerging technologies",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "Firm does not claim enterprise modernization, automated compliance traceability, or lifecycle governance capability.",
+    "status": "gap",
+    "evidence": "No enterprise modernization or compliance automation capability listed in firm profile."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-50f9b87e",
+    "quote": "The plan shall describe ongoing monitoring processes for evaluating AI outputs for compliance with Trustworthy AI and Unbiased AI principles, and shall define the mechanism for authorized users to report suspected violations of Truth-Seeking or Ideological Neutrality requirements",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "Firm does not claim any AI governance, Trustworthy AI, or Unbiased AI compliance monitoring capability.",
+    "status": "gap",
+    "evidence": "No AI governance capability listed in firm profile."
+   },
+   {
+    "requirement_id": "07b8aa34-66ee78f4-p1-db99d3b8",
+    "quote": "Existing Contractual Vehicles (GWAC, FSS",
+    "source_file": "66ee78f4c4a74eb3aeff2e26d34d414c.docx",
+    "page": 1,
+    "firm_answer": "Firm profile lists no GWACs or Federal Supply Schedule contracts. No contract vehicles are stated.",
+    "status": "gap",
+    "evidence": "No contract vehicles listed in firm profile."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-e0b6053d",
+    "quote": "Each report shall document BETSIE program performance against established thresholds, including asset coverage, at least ninety-seven percent (97%) target; data accuracy and completeness, at least ninety-seven percent (97%) on a 30-day rolling average",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "Firm has no stated experience with the VA BETSIE program or enterprise asset coverage reporting at these thresholds.",
+    "status": "unknown",
+    "evidence": "No BETSIE or equivalent enterprise asset management program experience listed in firm profile."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-22f647d0",
+    "quote": "The Contractor shall provide the following: Data Loss Prevention (DLP) Enterprise Functional Requirements and Use Cases - One document due 60 calendar days after the initial 6-month Optional Task award",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "Firm does not claim DLP enterprise requirements development capability.",
+    "status": "gap",
+    "evidence": "No DLP capability listed in capabilities or past performance."
+   },
+   {
+    "requirement_id": "07b8aa34-8fe148c3-p1-924d1598",
+    "quote": "The documentation shall address summaries of training process, identified risks and mitigations, and model evaluation scores on LLM benchmarks at a minimum",
+    "source_file": "8fe148c32fdb4b77977a990cae8f8c1c.docx",
+    "page": 1,
+    "firm_answer": "Firm does not claim LLM benchmark evaluation, AI model documentation, or AI training process documentation capability.",
+    "status": "gap",
+    "evidence": "No LLM or AI model evaluation capability listed in firm profile."
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "07b8aa34c78244b08b6150e51bdb0c48",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-08-26",
+   "site_visit": null,
+   "period_of_performance": "54 months total: 6-month base period, four 12-month option periods, and four optional tasks; no start date stated",
+   "source_quotes": [
+    "PERFORMANCE PERIOD The Period of Performance (PoP) shall consist of a 6-month base period, four 12-month option periods and four optional tasks for a total of 54 months."
+   ]
+  },
+  "days_to_close": -18.765928192199073,
+  "set_aside_note": "Set-aside is SDVOSB (FAR 19.14). Sooner Systems LLC lists SDVOSBC among its claimable set-asides, so the firm IS eligible to compete under this set-aside.",
+  "amendment_note": "no amendment",
+  "calendar_entries": []
+ },
+ "model_calls": 5,
+ "tokens_in": 75229,
+ "tokens_out": 15250,
+ "seconds": 140.09,
+ "produced_at": "2026-09-14T06:25:16.283836-05:00"
+}

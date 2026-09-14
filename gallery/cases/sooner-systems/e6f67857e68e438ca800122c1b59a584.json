@@ -1,0 +1,889 @@
+{
+ "notice_id": "e6f67857e68e438ca800122c1b59a584",
+ "firm_slug": "sooner-systems",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:54:30-05:00",
+ "evidence_basis": null,
+ "days_to_close": 0.9243701303703704,
+ "closed": false,
+ "response_kind": "proposal",
+ "card": {
+  "notice_id": "e6f67857e68e438ca800122c1b59a584",
+  "firm_slug": "sooner-systems",
+  "situation": "191N6026Q0007 — U.S. Consulate General Chennai solicits quotes for American Center Chennai's Technology Infrastructure Modernization (NAICS 541519, place of performance Chennai, India); unrestricted, proposal due 15 Sep 2026.\nReached the owner because NAICS 541519 matches exactly, two qualifying past-performance records exist, and cybersecurity/RMF capabilities align with the solicitation's IT security accreditation and C-SCRM requirements.",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "NAICS 541519 matches the solicitation exactly and the firm holds two qualifying past-performance records above the owner's threshold, satisfying basic eligibility [e6f67857-descript-p0-c9d0a032].",
+   "Cybersecurity depth — RMF/ATO documentation, ACAS/Nessus vulnerability management, CMMC Level 2 self-assessment, and 24x7 NOC — directly supports the IT Security Plan, C-SCRM Questionnaire, and 12-hour notification requirements [e6f67857-fa0d9f7f-p1-7c772cb9].",
+   "The solicitation is unrestricted, so the firm's SDVOSB small-business status creates no eligibility barrier and all responsible sources may submit [e6f67857-descript-p0-c9d0a032]."
+  ],
+  "reasons_against": [
+   "Place of performance is Chennai, India and the mandatory site-visit registration deadline of 01 Sep 2026 has already passed, making a compliant offer practically impossible with 0.9 days to close [e6f67857-descript-p0-b0192a1d].",
+   "Three hard gaps exist — no SBOM generation capability, no VEX-format reporting, and no FedRAMP-certified 3PAO relationship — each an unmitigated compliance requirement with no profile evidence to close them [e6f67857-fa0d9f7f-p1-a7da3b66; e6f67857-fa0d9f7f-p1-d6787e75; e6f67857-53508423-p4-ba85ab91].",
+   "SAM registration and CAGE code are unconfirmed in the firm profile, and both are required at time of submission and award, creating a disqualifying administrative risk [e6f67857-fa0d9f7f-p1-f97fc856]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-09-11",
+  "key_dates": {
+   "questions_due": "2026-09-05",
+   "proposal_due": "2026-09-15",
+   "site_visit": "2026-09-03",
+   "period_of_performance": null,
+   "source_quotes": [
+    "Registration for site visit: Tuesday, September 01, 2026 by 3:00 p.m. (IST) to ChennaiProcurement@state.gov",
+    "Mandatory Site visit with vendors: Thursday, September 03, 2026 at 11:30 a.m. (IST) at the U.S. Consulate General Chennai located at 220, Anna Salai, Gemini circle, Chennai 600 006.",
+    "Deadline to submit technical queries: Saturday, September 05, 2026 by 02:00 p.m. (IST) to ChennaiProcurement@state.gov",
+    "Deadline for RFQ Submittal: Tuesday, September 15, 2026 at 03:00 p.m. (IST) to ChennaiProcurement@state.gov"
+   ]
+  },
+  "fit_score": 0.6452,
+  "matrix_summary": "12 of 34 requirements met, 16 partial, 3 gap, 3 unknown",
+  "evidence_link": "https://sam.gov/opp/e6f67857e68e438ca800122c1b59a584/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "e6f67857-descript-p0-c9d0a032",
+   "quote": "All responsible sources may submit a quotation, which shall be considered.",
+   "source_file": "description",
+   "page": 0,
+   "firm_answer": "Solicitation is unrestricted; Sooner Systems LLC is an eligible responsible source as a small business under NAICS 541519.",
+   "status": "meets",
+   "evidence": "Firm NAICS 541519 matches; set-aside listed as none; owner rule ss-setaside satisfied for unrestricted solicitations."
+  },
+  {
+   "requirement_id": "e6f67857-descript-p0-b0192a1d",
+   "quote": "Quotes submitted to any other email address and after the due date and time given, shall not be considered.",
+   "source_file": "description",
+   "page": 0,
+   "firm_answer": "Days to close is 0.9 — deadline is 15 Sep 2026 at 15:00 IST. Firm is in Norman, OK (UTC-5/6); turnaround is extremely tight. Site visit registration closed 01 Sep 2026.",
+   "status": "partial",
+   "evidence": "Deadline feasibility risk; mandatory site visit registration deadline already passed relative to notice posting."
+  },
+  {
+   "requirement_id": "e6f67857-fa0d9f7f-p1-f97fc856",
+   "quote": "The Offeror shall have an active Federal Government contracts registration in the System for Award Management (SAM) when submitting an offer or quotation in response to this solicitation and at the time of award.",
+   "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+   "page": 1,
+   "firm_answer": "Profile does not confirm active SAM registration or CAGE code. Cannot assert compliance.",
+   "status": "unknown",
+   "evidence": "SAM registration and CAGE code not mentioned anywhere in firm profile."
+  },
+  {
+   "requirement_id": "e6f67857-3c9da338-p1-716fe215",
+   "quote": "The Offeror shall provide its CAGE code with its offer with its name and location address or otherwise include it prominently in its offer.",
+   "source_file": "3c9da3389d534bd19d34e855a443c12f.docx",
+   "page": 1,
+   "firm_answer": "No CAGE code listed in firm profile.",
+   "status": "unknown",
+   "evidence": "CAGE code absent from firm profile."
+  },
+  {
+   "requirement_id": "e6f67857-2e0078a9-p1-1d9a56e3",
+   "quote": "The offeror shall include in its offer Attachment 191N6026Q0007- C-SCRM Questionnaire.",
+   "source_file": "2e0078a9eaba4a01bfdcab176a9b89ba.docx",
+   "page": 1,
+   "firm_answer": "Firm has cybersecurity supply chain awareness via CMMC Level 2 self-assessment and vulnerability management capability; can complete the C-SCRM Questionnaire.",
+   "status": "partial",
+   "evidence": "CMMC Level 2 self-assessed; vulnerability management (ACAS/Nessus); no prior C-SCRM questionnaire completion documented."
+  },
+  {
+   "requirement_id": "e6f67857-fa0d9f7f-p1-0cb57a0f",
+   "quote": "All offers/bids submitted in response to this solicitation must address the approach for completing the security plan and certification and accreditation requirements as required by the clause at 652.239–71, Security Requirements for Unclassified Information Technology Resources.",
+   "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+   "page": 1,
+   "firm_answer": "Firm has RMF/ATO documentation capability and CMMC Level 2 self-assessment; can describe an approach. No prior DOS 652.239-71 accreditation documented.",
+   "status": "partial",
+   "evidence": "RMF/ATO documentation capability; Network administration and cybersecurity support (FAA) past performance."
+  },
+  {
+   "requirement_id": "e6f67857-fa0d9f7f-p1-9f4cb00b",
+   "quote": "Within six (6) months after contract award, the Contractor shall submit written proof of IT security accreditation for acceptance by the Contracting Officer.",
+   "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+   "page": 1,
+   "firm_answer": "Firm has RMF/ATO documentation experience and CMMC Level 2 self-assessment but no documented DOS-specific IT security accreditation history.",
+   "status": "partial",
+   "evidence": "RMF/ATO documentation capability listed; Network administration and cybersecurity support (FAA) past performance."
+  },
+  {
+   "requirement_id": "e6f67857-fa0d9f7f-p1-7c772cb9",
+   "quote": "The Contractor shall develop, provide, implement, and maintain an IT Security Plan.",
+   "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+   "page": 1,
+   "firm_answer": "Firm has RMF/ATO documentation capability and CMMC Level 2 self-assessment supporting IT Security Plan development.",
+   "status": "partial",
+   "evidence": "RMF/ATO documentation capability; Network administration and cybersecurity support (FAA) past performance."
+  },
+  {
+   "requirement_id": "e6f67857-fa0d9f7f-p1-68710771",
+   "quote": "Within 30 days after contract award, the Contractor shall submit the IT Security Plan to the Contracting Officer and Contracting Officer's Representative (COR) for acceptance.",
+   "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+   "page": 1,
+   "firm_answer": "Firm can develop an IT Security Plan within 30 days given RMF/ATO documentation experience, but no prior DOS-specific plan documented.",
+   "status": "partial",
+   "evidence": "RMF/ATO documentation capability listed in firm profile."
+  },
+  {
+   "requirement_id": "e6f67857-fa0d9f7f-p1-96359fa0",
+   "quote": "This accreditation, when accepted by the Contracting Officer, shall be incorporated into the contract as a compliance document, and shall include a final security plan, a risk assessment, security test and evaluation, and disaster recovery/continuity of operations plan.",
+   "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+   "page": 1,
+   "firm_answer": "Firm has vulnerability management and RMF/ATO capability covering security plan and risk assessment components; no documented disaster recovery/COOP plan experience.",
+   "status": "partial",
+   "evidence": "RMF/ATO documentation; vulnerability management (ACAS/Nessus) listed in capabilities."
+  },
+  {
+   "requirement_id": "e6f67857-fa0d9f7f-p1-2a36bce9",
+   "quote": "When cybersecurity supply chain events occur, the Contractor must contact the Contracting Officer or his/her designee within 12 hours of the event.",
+   "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+   "page": 1,
+   "firm_answer": "Firm has 24x7 NOC and incident response capability supporting 12-hour notification requirement.",
+   "status": "meets",
+   "evidence": "24x7 NOC in Norman, OK; Network administration and cybersecurity support (FAA) past performance includes incident response."
+  },
+  {
+   "requirement_id": "e6f67857-fa0d9f7f-p1-56817759",
+   "quote": "The Contractor is required to notify the Department of any discovered software vulnerabilities within 12 hours.",
+   "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+   "page": 1,
+   "firm_answer": "Firm has vulnerability management (ACAS/Nessus) and 24x7 NOC supporting 12-hour vulnerability notification.",
+   "status": "meets",
+   "evidence": "Vulnerability management (ACAS/Nessus) capability; 24x7 NOC; Network administration and cybersecurity support (FAA) past performance."
+  },
+  {
+   "requirement_id": "e6f67857-fa0d9f7f-p1-a7da3b66",
+   "quote": "For software, within 10 business days of request by a Department of State representative, the Contractor shall submit a SBOM to a designated representative.",
+   "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+   "page": 1,
+   "firm_answer": "No SBOM generation capability or process documented in firm profile.",
+   "status": "gap",
+   "evidence": "SBOM not mentioned in capabilities or past performance."
+  },
+  {
+   "requirement_id": "e6f67857-53508423-p4-ba85ab91",
+   "quote": "A third-party assessment must be performed by a Third Party Assessor Organization (3PAO) that has either been FedRAMP certified or approved in writing by an appropriate agency official.",
+   "source_file": "535084238d064eb2b137b2c3fb3f5142.pdf",
+   "page": 4,
+   "firm_answer": "No FedRAMP-certified 3PAO relationship or FedRAMP authorization documented in firm profile.",
+   "status": "gap",
+   "evidence": "CMMC Level 2 is self-assessed, not third-party assessed; no FedRAMP 3PAO mentioned."
+  },
+  {
+   "requirement_id": "e6f67857-53508423-p4-85e2f37f",
+   "quote": "The form must be signed by the Chief Executive Officer (CEO) of the software producer or their designee, who must be an employee of the software producer and have the authority to bind the corporation.",
+   "source_file": "535084238d064eb2b137b2c3fb3f5142.pdf",
+   "page": 4,
+   "firm_answer": "Firm can designate a CEO or authorized signatory; procedural requirement. No barrier identified from profile.",
+   "status": "meets",
+   "evidence": "Standard corporate signature requirement; no profile conflict."
+  },
+  {
+   "requirement_id": "e6f67857-fa0d9f7f-p1-931a7fc4",
+   "quote": "The Contractor shall comply with the Department of State (DOS) Personal Identification Card Issuance Procedures for all employees performing under this contract who require frequent and continuing access to DOS facilities, or information systems.",
+   "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+   "page": 1,
+   "firm_answer": "No prior DOS facility access or DOS Personal Identification Card experience documented. Firm has 22 cleared staff (Secret) but no DOS-specific badging history.",
+   "status": "unknown",
+   "evidence": "22 cleared staff (Secret) listed; no DOS badging experience documented."
+  },
+  {
+   "requirement_id": "e6f67857-fa0d9f7f-p1-c323f9e8",
+   "quote": "Contractor personnel requiring privileged access or limited privileged access to systems operated by the Contractor for DOS or interconnected to a DOS network shall adhere to the specific contract security requirements contained within this contract and/or the Contract Security Classification Specification (DD Form 254).",
+   "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+   "page": 1,
+   "firm_answer": "Firm has 22 cleared staff (Secret) and CMMC Level 2 self-assessment; can adhere to security requirements. No prior DOS network access documented.",
+   "status": "partial",
+   "evidence": "22 cleared staff (Secret); CMMC Level 2 self-assessed; Network administration and cybersecurity support (FAA) past performance."
+  },
+  {
+   "requirement_id": "e6f67857-fa0d9f7f-p1-47fcf8ff",
+   "quote": "The Contractor shall ensure that its employees performing under this contract receive annual IT security training in accordance with OMB circular A–130, FISMA, and NIST requirements, as they may be amended from time to time during the term of this contract, with a specific emphasis on rules of behavior.",
+   "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+   "page": 1,
+   "firm_answer": "Firm has Security+ across the bench and ITIL 4 certifications; annual IT security training consistent with FISMA/NIST is plausible but not explicitly documented.",
+   "status": "partial",
+   "evidence": "Security+ across the bench listed in capabilities; CMMC Level 2 self-assessed implies NIST SP 800-171 training practices."
+  },
+  {
+   "requirement_id": "e6f67857-fa0d9f7f-p1-01d2c519",
+   "quote": "The Contractor shall take all prudent actions and comply with all Government direction (as identified in paragraph (c)) to regularly identify, assess, monitor, and mitigate cybersecurity supply chain risks when providing covered articles or services affecting covered articles to the Government.",
+   "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+   "page": 1,
+   "firm_answer": "Firm has vulnerability management (ACAS/Nessus) and CMMC Level 2 self-assessment supporting C-SCRM practices; no formal C-SCRM program documented.",
+   "status": "partial",
+   "evidence": "Vulnerability management (ACAS/Nessus); CMMC Level 2 self-assessed; Network administration and cybersecurity support (FAA) past performance."
+  },
+  {
+   "requirement_id": "e6f67857-fa0d9f7f-p1-29caebae",
+   "quote": "Access shall be provided to the extent required to carry out a program of IT inspection (to include vulnerability testing), investigation and audit to safeguard against threats and hazards to the integrity, availability and confidentiality of DOS data or to the function of information technology systems operated on behalf of DOS, and to preserve evidence of computer crime.",
+   "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+   "page": 1,
+   "firm_answer": "Firm has vulnerability management and cybersecurity capability; place of performance in Chennai, India creates a practical barrier to providing physical/logical access to DOS systems from Norman, OK.",
+   "status": "partial",
+   "evidence": "Vulnerability management (ACAS/Nessus); Network administration and cybersecurity support (FAA) past performance; geographic gap noted."
+  },
+  {
+   "requirement_id": "e6f67857-fa0d9f7f-p1-aeae18ef",
+   "quote": "The Contractor shall immediately notify the Contracting Officer when an employee either begins or terminates employment when that employee has access to DOS information systems or data.",
+   "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+   "page": 1,
+   "firm_answer": "Standard HR/security notification requirement; firm can comply procedurally. No profile barrier.",
+   "status": "meets",
+   "evidence": "Administrative compliance requirement; 22 cleared staff with established security practices."
+  },
+  {
+   "requirement_id": "e6f67857-fa0d9f7f-p1-b6dcaabd",
+   "quote": "When an incident occurs, the Contractor must contact the CO or their designee within 72 hours of the incident.",
+   "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+   "page": 1,
+   "firm_answer": "Firm has 24x7 NOC and incident response capability supporting 72-hour incident notification.",
+   "status": "meets",
+   "evidence": "24x7 NOC in Norman, OK; Network administration and cybersecurity support (FAA) past performance includes incident response."
+  },
+  {
+   "requirement_id": "e6f67857-fa0d9f7f-p1-4146aaff",
+   "quote": "No more than an estimated once per year, the Contractor must provide any requested information related to its supply chain within 10 business days except information that is protected by a non-disclosure agreement with its customers (e.g., another federal agency).",
+   "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+   "page": 1,
+   "firm_answer": "Firm can provide supply chain information within 10 business days; no documented supply chain management program but no profile barrier.",
+   "status": "partial",
+   "evidence": "CMMC Level 2 self-assessed implies supply chain risk awareness; no formal supply chain documentation program listed."
+  },
+  {
+   "requirement_id": "e6f67857-fa0d9f7f-p1-5f25ea10",
+   "quote": "The Contractor shall maintain artifacts that document its compliance with this paragraph and shall provide these artifacts to the Government within 48 hours of request.",
+   "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+   "page": 1,
+   "firm_answer": "Firm has CMMC Level 2 self-assessment implying artifact maintenance practices; 48-hour delivery feasible from Norman, OK NOC.",
+   "status": "partial",
+   "evidence": "CMMC Level 2 self-assessed; 24x7 NOC in Norman, OK."
+  },
+  {
+   "requirement_id": "e6f67857-3c9da338-p1-38c655f4",
+   "quote": "The Offeror shall represent its small business size status for each one of the NAICS codes assigned to this acquisition under which it is submitting an offer.",
+   "source_file": "3c9da3389d534bd19d34e855a443c12f.docx",
+   "page": 1,
+   "firm_answer": "Firm is a small business under NAICS 541512 and 541519; can represent small business size status for NAICS 541519.",
+   "status": "meets",
+   "evidence": "Firm NAICS 541512, 541519 listed; SDVOSB small business designation confirmed."
+  },
+  {
+   "requirement_id": "e6f67857-fa0d9f7f-p1-feb24000",
+   "quote": "The Offeror shall represent its small business size status for each one of the NAICS codes assigned to this acquisition under which it is submitting an offer.",
+   "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+   "page": 1,
+   "firm_answer": "Firm is a small business under NAICS 541519 matching solicitation NAICS; can represent size status.",
+   "status": "meets",
+   "evidence": "Firm NAICS 541519 matches solicitation; SDVOSB small business."
+  },
+  {
+   "requirement_id": "e6f67857-fa0d9f7f-p1-d3e29e7d",
+   "quote": "The contractor shall conduct a reasonable inquiry to determine if there are any prohibited products or services.",
+   "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+   "page": 1,
+   "firm_answer": "Firm can conduct FASCSA/SAM inquiry; procedural compliance requirement with no profile barrier.",
+   "status": "meets",
+   "evidence": "Standard compliance requirement; CMMC Level 2 self-assessed implies supply chain due diligence practices."
+  },
+  {
+   "requirement_id": "e6f67857-fa0d9f7f-p1-217851f4",
+   "quote": "During contract performance, the Contractor shall review SAM at least once every three months, or as advised by the Contracting Officer, to check for covered articles subject to FASCSA order(s), or for products or services produced by a source subject to FASCSA order(s) not currently identified under paragraph (e) of this clause.",
+   "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+   "page": 1,
+   "firm_answer": "Firm can perform quarterly SAM reviews; procedural compliance requirement with no profile barrier.",
+   "status": "meets",
+   "evidence": "Standard compliance requirement; no profile conflict."
+  },
+  {
+   "requirement_id": "e6f67857-fa0d9f7f-p1-b09de768",
+   "quote": "The Contractor shall search SAM for the FASC-maintained list of American Security Drone Act—covered foreign entities before proposing, or using in performance of the contract, any unmanned aircraft system.",
+   "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+   "page": 1,
+   "firm_answer": "Firm is an IT services provider; no unmanned aircraft systems in scope. Firm can perform SAM search as required.",
+   "status": "meets",
+   "evidence": "IT services firm; UAS not part of scope; standard compliance requirement."
+  },
+  {
+   "requirement_id": "e6f67857-fa0d9f7f-p1-52c4ba8f",
+   "quote": "The Contractor shall afford the Government access to the Contractor's and subcontractor's facilities, installations, operations, documentation, databases and personnel used in performance of the contract.",
+   "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+   "page": 1,
+   "firm_answer": "Firm can afford Government access to Norman, OK facilities; however, place of performance is Chennai, India, creating a geographic gap for on-site access.",
+   "status": "partial",
+   "evidence": "24x7 NOC in Norman, OK; no India-based facility or personnel documented."
+  },
+  {
+   "requirement_id": "e6f67857-fa0d9f7f-p1-cf8f27f2",
+   "quote": "On an annual basis, the Contractor shall submit verification to the Contracting Officer that the IT Security Plan remains valid.",
+   "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+   "page": 1,
+   "firm_answer": "Firm has RMF/ATO documentation capability supporting annual IT Security Plan verification; no prior DOS-specific annual verification documented.",
+   "status": "partial",
+   "evidence": "RMF/ATO documentation capability listed; Network administration and cybersecurity support (FAA) past performance."
+  },
+  {
+   "requirement_id": "e6f67857-fa0d9f7f-p1-d6787e75",
+   "quote": "Within three (3) days, they shall provide a report using a VEX format.",
+   "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+   "page": 1,
+   "firm_answer": "No VEX (Vulnerability Exploitability eXchange) format reporting capability documented in firm profile.",
+   "status": "gap",
+   "evidence": "VEX format reporting not mentioned in capabilities or past performance; vulnerability management listed but not VEX-specific."
+  },
+  {
+   "requirement_id": "e6f67857-fa0d9f7f-p1-807c2b5b",
+   "quote": "When required by the Contracting Officer, the Contractor shall obtain and submit fingerprints of all persons employed or to be employed on the project.",
+   "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+   "page": 1,
+   "firm_answer": "Firm has 22 cleared staff with established security vetting processes; fingerprinting feasible. However, staff are U.S.-based and project is in Chennai, India.",
+   "status": "partial",
+   "evidence": "22 cleared staff (Secret) listed; geographic gap for Chennai-based performance."
+  },
+  {
+   "requirement_id": "e6f67857-fa0d9f7f-p1-16d06700",
+   "quote": "All prescribed identification shall immediately be delivered to the Contracting Officer, for cancellation upon the release of any employee.",
+   "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+   "page": 1,
+   "firm_answer": "Standard personnel security requirement; firm can comply procedurally given cleared staff management experience.",
+   "status": "meets",
+   "evidence": "22 cleared staff (Secret); standard security compliance requirement."
+  }
+ ],
+ "matrix_dropped": 6,
+ "matrix_dropped_rows": [
+  {
+   "requirement_id": "e6f67857-descript-p0-79c0746f",
+   "quote": "Your quotation for the subject requirement must be submitted electronically by email with subject line \"191N6026Q0007- PR16205087 – American Center Chennai's Technology Infrastructure modernization\".",
+   "source_file": "description",
+   "page": 0,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "e6f67857-2e0078a9-p1-7cab67f0",
+   "quote": "If the offeror is providing any critical software, the offeror must complete 191N6026Q0007- State Department Secure Software Development Attestation Form (or another agency's equivalent form), and either include it in the offer or upload the form to a public website and provide a link to the form in the offer.",
+   "source_file": "2e0078a9eaba4a01bfdcab176a9b89ba.docx",
+   "page": 1,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "e6f67857-fa0d9f7f-p1-3c9da338-p1-bfe49ab6",
+   "quote": "The Contractor shall communicate any change to its UEI or CAGE code to the Contracting Officer within 30 days after the change, so a modification can be issued to update the UEI or CAGE code on this contract.",
+   "source_file": "3c9da3389d534bd19d34e855a443c12f.docx",
+   "page": 1,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "e6f67857-fa0d9f7f-p1-c4d3fc71",
+   "quote": "Except as authorized by the Office of Foreign Assets Control (OFAC) in the Department of the Treasury, the Contractor shall not acquire, for use in the performance of this contract, any supplies or services if any proclamation, Executive order, or statute administered by OFAC, or if OFAC's implementing regulations at 31 CFR chapter V, would prohibit such a transaction by a person subject to the jurisdiction of the United States.",
+   "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+   "page": 1,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "e6f67857-fa0d9f7f-p1-f546dbbb",
+   "quote": "The Contractor shall either (i) post the new attestation in a publicly available internet location within 15 days of the major version change and provide the COR, or Contracting Officer if a COR is not appointed, with the internet link or (ii) shall contact the COR, or Contracting Officer if a COR is not appointed, and request the agency's current software self-attestation form and submit it to the Government within 15 days of the major version change.",
+   "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+   "page": 1,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "e6f67857-fa0d9f7f-p1-21bb741b",
+   "quote": "The Offeror shall review the list of excluded parties in the System for Award Management (SAM) at https://www.sam.gov for entities excluded from receiving federal awards for \"covered telecommunications equipment or services.\"",
+   "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+   "page": 1,
+   "reason": "not_verbatim"
+  }
+ ],
+ "fit_score_code": 0.6452,
+ "drafts": {
+  "capability_statement": "Sooner Systems LLC is a Service-Disabled Veteran-Owned Small Business (SDVOSB) headquartered in Norman, Oklahoma, operating under NAICS 541519 — the exact code assigned to solicitation 191N6026Q0007. We offer the U.S. Consulate General Chennai a proven team of 22 personnel holding active Secret clearances, with Security+ certifications across the bench and ITIL 4 credentials supporting structured IT service delivery.\n\nOur cybersecurity practice is built on hands-on Risk Management Framework (RMF) and Authority to Operate (ATO) documentation, vulnerability management using ACAS/Nessus, STIG implementation, firewall administration, and Security Operations Center (SOC) operations including SIEM, SOAR, and incident response — all directly relevant to the IT Security Plan, C-SCRM Questionnaire, and 12-hour notification requirements in this solicitation. We maintain a 24x7 NOC in Norman, OK and have achieved CMMC Level 2 self-assessment against NIST SP 800-171, demonstrating mature cybersecurity supply chain risk management practices.\n\nOur technology infrastructure experience includes Microsoft 365 and Azure administration, network engineering, and end-user support, aligning with the American Center Chennai's modernization scope.\n\nPast performance includes a $1.65M network administration and cybersecurity support contract at the FAA Mike Monroney Aeronautical Center (2021–2024, NAICS 541519) and a $2.1M IT help desk and desktop support contract for the U.S. Army Corps of Engineers, Tulsa District (2022–2025). Both engagements demonstrate sustained delivery of secure, mission-critical IT services to federal civilian and defense customers.",
+  "questions_for_co": [
+   "SAM Registration and CAGE Code [e6f67857-fa0d9f7f-p1-f97fc856 / e6f67857-3c9da338-p1-716fe215]: Will the Government accept a SAM registration that is active at time of submission but whose expiration falls within the period of performance, provided the offeror commits in writing to maintain continuous active registration through award and contract completion?",
+   "SBOM Requirement Scope [e6f67857-fa0d9f7f-p1-a7da3b66]: Does the SBOM submission requirement apply to all software the Contractor installs or configures on DOS systems, or only to software the Contractor develops or substantially modifies? Will the Government accept an SBOM generated by a qualified subcontractor or tool-based process in lieu of an in-house SBOM practice?",
+   "3PAO / Third-Party Assessment [e6f67857-53508423-p4-ba85ab91]: Is the FedRAMP-certified 3PAO assessment required prior to contract award, or may the Contractor identify and engage an approved 3PAO within a specified number of days after award? Will the Government consider a C3PAO (CMMC Third-Party Assessment Organization) as an approved alternative to a FedRAMP-certified 3PAO for this requirement?",
+   "VEX Reporting Format [e6f67857-fa0d9f7f-p1-d6787e75]: Which VEX schema or tooling standard does the Department of State require for the three-day VEX report (e.g., CycloneDX VEX, CSAF VEX, or OpenVEX)? Is there a DOS-provided template or submission portal for VEX reports?",
+   "DOS Personal Identification Card Issuance Procedures [e6f67857-fa0d9f7f-p1-931a7fc4]: Can the Contracting Officer provide or reference the current DOS Personal Identification Card Issuance Procedures document so offerors can assess compliance requirements and associated lead times for staff requiring frequent access to DOS facilities in Chennai?",
+   "Place of Performance and Remote Delivery [e6f67857-fa0d9f7f-p1-52c4ba8f]: To what extent may infrastructure modernization tasks be performed remotely from CONUS, and what minimum on-site presence in Chennai does the Government require during the period of performance?"
+  ],
+  "calendar_entries": [
+   {
+    "title": "Site Visit Registration Deadline",
+    "date": "2026-09-01",
+    "note": "Register by 3:00 p.m. IST via email to ChennaiProcurement@state.gov to attend the mandatory site visit.",
+    "source_quote": "Registration for site visit: Tuesday, September 01, 2026 by 3:00 p.m. (IST) to ChennaiProcurement@state.gov"
+   },
+   {
+    "title": "Mandatory Site Visit",
+    "date": "2026-09-03",
+    "note": "Mandatory site visit with vendors at 11:30 a.m. IST at U.S. Consulate General Chennai, 220 Anna Salai, Gemini Circle, Chennai 600 006.",
+    "source_quote": "Mandatory Site visit with vendors: Thursday, September 03, 2026 at 11:30 a.m. (IST) at the U.S. Consulate General Chennai located at 220, Anna Salai, Gemini circle, Chennai 600 006."
+   },
+   {
+    "title": "Technical Queries Due",
+    "date": "2026-09-05",
+    "note": "Deadline to submit technical queries by 2:00 p.m. IST to ChennaiProcurement@state.gov.",
+    "source_quote": "Deadline to submit technical queries: Saturday, September 05, 2026 by 02:00 p.m. (IST) to ChennaiProcurement@state.gov"
+   },
+   {
+    "title": "Decide By (2 Business Days Before Proposal Due)",
+    "date": "2026-09-11",
+    "note": "Internal go/no-go decision deadline — two business days before the RFQ submittal deadline of September 15, 2026.",
+    "source_quote": "Deadline for RFQ Submittal: Tuesday, September 15, 2026 at 03:00 p.m. (IST) to ChennaiProcurement@state.gov"
+   },
+   {
+    "title": "Proposal / RFQ Due",
+    "date": "2026-09-15",
+    "note": "Quotes must be submitted electronically by email by 3:00 p.m. IST. Late or misdirected quotes will not be considered.",
+    "source_quote": "Deadline for RFQ Submittal: Tuesday, September 15, 2026 at 03:00 p.m. (IST) to ChennaiProcurement@state.gov"
+   }
+  ]
+ },
+ "reader": {
+  "notice_id": "e6f67857e68e438ca800122c1b59a584",
+  "key_requirement_ids": [
+   "e6f67857-2e0078a9-p1-1d9a56e3",
+   "e6f67857-fa0d9f7f-p1-f97fc856",
+   "e6f67857-fa0d9f7f-p1-0cb57a0f",
+   "e6f67857-fa0d9f7f-p1-7c772cb9",
+   "e6f67857-fa0d9f7f-p1-96359fa0",
+   "e6f67857-fa0d9f7f-p1-9f4cb00b",
+   "e6f67857-fa0d9f7f-p1-68710771",
+   "e6f67857-fa0d9f7f-p1-01d2c519",
+   "e6f67857-fa0d9f7f-p1-2a36bce9",
+   "e6f67857-fa0d9f7f-p1-56817759",
+   "e6f67857-fa0d9f7f-p1-a7da3b66",
+   "e6f67857-fa0d9f7f-p1-47fcf8ff",
+   "e6f67857-fa0d9f7f-p1-931a7fc4",
+   "e6f67857-fa0d9f7f-p1-c323f9e8",
+   "e6f67857-fa0d9f7f-p1-29caebae",
+   "e6f67857-53508423-p4-85e2f37f",
+   "e6f67857-53508423-p4-ba85ab91",
+   "e6f67857-fa0d9f7f-p1-aeae18ef",
+   "e6f67857-descript-p0-c9d0a032",
+   "e6f67857-descript-p0-79c0746f",
+   "e6f67857-descript-p0-b0192a1d",
+   "e6f67857-fa0d9f7f-p1-265aedc4",
+   "e6f67857-fa0d9f7f-p1-d3e29e7d",
+   "e6f67857-fa0d9f7f-p1-ca4d50bf",
+   "e6f67857-fa0d9f7f-p1-b6dcaabd"
+  ],
+  "scope_summary": "The U.S. Consulate General Chennai is soliciting quotes for \"American Center Chennai's Technology Infrastructure Modernization\" under NAICS 541519, with place of performance in Chennai, India. The vendor shall furnish all the information required to accomplish all the work as required in the solicitation document. The solicitation includes mandatory cybersecurity supply chain risk management (C-SCRM) requirements, IT security planning and accreditation obligations, and secure software development attestation requirements.",
+  "evaluation_basis": "not stated",
+  "incumbent_or_history": "none found",
+  "quotes": [
+   "The U.S. Consulate General Chennai invites you to participate in this solicitation for \"American Center Chennai's Technology infrastructure modernization\" as described in the attached solicitation documents.",
+   "All responsible sources may submit a quotation, which shall be considered.",
+   "Mandatory Site visit with vendors: Thursday, September 03, 2026 at 11:30 a.m. (IST) at the U.S. Consulate General Chennai located at 220, Anna Salai, Gemini circle, Chennai 600 006.",
+   "The offeror shall include in its offer Attachment 191N6026Q0007- C-SCRM Questionnaire.",
+   "The Offeror shall have an active Federal Government contracts registration in the System for Award Management (SAM) when submitting an offer or quotation in response to this solicitation and at the time of award.",
+   "All offers/bids submitted in response to this solicitation must address the approach for completing the security plan and certification and accreditation requirements as required by the clause at 652.239–71, Security Requirements for Unclassified Information Technology Resources.",
+   "The Contractor shall develop, provide, implement, and maintain an IT Security Plan.",
+   "Within 30 days after contract award, the Contractor shall submit the IT Security Plan to the Contracting Officer and Contracting Officer's Representative (COR) for acceptance.",
+   "Within six (6) months after contract award, the Contractor shall submit written proof of IT security accreditation for acceptance by the Contracting Officer.",
+   "This accreditation, when accepted by the Contracting Officer, shall be incorporated into the contract as a compliance document, and shall include a final security plan, a risk assessment, security test and evaluation, and disaster recovery/continuity of operations plan.",
+   "The Contractor shall take all prudent actions and comply with all Government direction (as identified in paragraph (c)) to regularly identify, assess, monitor, and mitigate cybersecurity supply chain risks when providing covered articles or services affecting covered articles to the Government.",
+   "When cybersecurity supply chain events occur, the Contractor must contact the Contracting Officer or his/her designee within 12 hours of the event.",
+   "The Contractor is required to notify the Department of any discovered software vulnerabilities within 12 hours.",
+   "For software, within 10 business days of request by a Department of State representative, the Contractor shall submit a SBOM to a designated representative.",
+   "The Contractor shall ensure that its employees performing under this contract receive annual IT security training in accordance with OMB circular A–130, FISMA, and NIST requirements, as they may be amended from time to time during the term of this contract, with a specific emphasis on rules of behavior.",
+   "Contractor personnel requiring privileged access or limited privileged access to systems operated by the Contractor for DOS or interconnected to a DOS network shall adhere to the specific contract security requirements contained within this contract and/or the Contract Security Classification Specification (DD Form 254).",
+   "The form must be signed by the Chief Executive Officer (CEO) of the software producer or their designee, who must be an employee of the software producer and have the authority to bind the corporation.",
+   "A third-party assessment must be performed by a Third Party Assessor Organization (3PAO) that has either been FedRAMP certified or approved in writing by an appropriate agency official.",
+   "Quotes submitted to any other email address and after the due date and time given, shall not be considered."
+  ]
+ },
+ "fit": {
+  "notice_id": "e6f67857e68e438ca800122c1b59a584",
+  "fit_score": 0.27,
+  "matched_past_performance": [
+   "Network administration and cybersecurity support | customer FAA Mike Monroney Aeronautical Center | naics 541519 | 1650000 USD | 2021-2024 | keywords: network, cybersecurity, cyber, security, SOC, SIEM, SOAR, incident response, RMF, ATO, vulnerability, ACAS, STIG, firewall, ISSO",
+   "IT help desk and desktop support | customer US Army Corps of Engineers, Tulsa District | naics 541512 | 2100000 USD | 2022-2025 | keywords: help desk, desktop, tier 1, tier 2, service desk, ITIL, ticketing, end user, information technology, IT services, IT support"
+  ],
+  "strengths": [
+   "NAICS 541519 matches solicitation NAICS exactly",
+   "Two past-performance records exist (meets owner rule ss-pp threshold)",
+   "Cybersecurity capability (RMF/ATO, vulnerability management, ACAS/Nessus) aligns with IT security plan and C-SCRM requirements",
+   "CMMC Level 2 self-assessed and Security+ bench support IT security accreditation narrative",
+   "Microsoft 365 and Azure administration relevant to technology infrastructure modernization scope",
+   "Unrestricted set-aside — all responsible sources may submit, firm is eligible"
+  ],
+  "gaps": [
+   "Place of performance is Chennai, India — firm is based in Norman, OK with no stated international presence or India-based staff",
+   "Mandatory site visit at U.S. Consulate General Chennai on 03 Sep 2026 — no indication firm can attend in person",
+   "No SAM registration status confirmed in profile (required active at time of submission)",
+   "No CAGE code listed in profile",
+   "No evidence of State Department-specific IT security accreditation (652.239-71) experience",
+   "No FedRAMP-certified or approved 3PAO relationship stated for third-party assessment requirement",
+   "No Software Bill of Materials (SBOM) capability or process documented in profile",
+   "No Secure Software Development Attestation capability documented",
+   "No evidence of DOS Personal Identification Card Issuance Procedures compliance experience",
+   "No subcontractor management or India-local teaming partner identified",
+   "Owner rule ss-setaside: solicitation is unrestricted (no set-aside) — firm is eligible, but no competitive set-aside advantage",
+   "Days to close is 0.9 — effectively no time remaining to register for site visit (deadline 01 Sep 2026) or prepare a compliant offer"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "e6f67857-descript-p0-c9d0a032",
+    "quote": "All responsible sources may submit a quotation, which shall be considered.",
+    "source_file": "description",
+    "page": 0,
+    "firm_answer": "Solicitation is unrestricted; Sooner Systems LLC is an eligible responsible source as a small business under NAICS 541519.",
+    "status": "meets",
+    "evidence": "Firm NAICS 541519 matches; set-aside listed as none; owner rule ss-setaside satisfied for unrestricted solicitations."
+   },
+   {
+    "requirement_id": "e6f67857-descript-p0-b0192a1d",
+    "quote": "Quotes submitted to any other email address and after the due date and time given, shall not be considered.",
+    "source_file": "description",
+    "page": 0,
+    "firm_answer": "Days to close is 0.9 — deadline is 15 Sep 2026 at 15:00 IST. Firm is in Norman, OK (UTC-5/6); turnaround is extremely tight. Site visit registration closed 01 Sep 2026.",
+    "status": "partial",
+    "evidence": "Deadline feasibility risk; mandatory site visit registration deadline already passed relative to notice posting."
+   },
+   {
+    "requirement_id": "e6f67857-fa0d9f7f-p1-f97fc856",
+    "quote": "The Offeror shall have an active Federal Government contracts registration in the System for Award Management (SAM) when submitting an offer or quotation in response to this solicitation and at the time of award.",
+    "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+    "page": 1,
+    "firm_answer": "Profile does not confirm active SAM registration or CAGE code. Cannot assert compliance.",
+    "status": "unknown",
+    "evidence": "SAM registration and CAGE code not mentioned anywhere in firm profile."
+   },
+   {
+    "requirement_id": "e6f67857-3c9da338-p1-716fe215",
+    "quote": "The Offeror shall provide its CAGE code with its offer with its name and location address or otherwise include it prominently in its offer.",
+    "source_file": "3c9da3389d534bd19d34e855a443c12f.docx",
+    "page": 1,
+    "firm_answer": "No CAGE code listed in firm profile.",
+    "status": "unknown",
+    "evidence": "CAGE code absent from firm profile."
+   },
+   {
+    "requirement_id": "e6f67857-2e0078a9-p1-1d9a56e3",
+    "quote": "The offeror shall include in its offer Attachment 191N6026Q0007- C-SCRM Questionnaire.",
+    "source_file": "2e0078a9eaba4a01bfdcab176a9b89ba.docx",
+    "page": 1,
+    "firm_answer": "Firm has cybersecurity supply chain awareness via CMMC Level 2 self-assessment and vulnerability management capability; can complete the C-SCRM Questionnaire.",
+    "status": "partial",
+    "evidence": "CMMC Level 2 self-assessed; vulnerability management (ACAS/Nessus); no prior C-SCRM questionnaire completion documented."
+   },
+   {
+    "requirement_id": "e6f67857-fa0d9f7f-p1-0cb57a0f",
+    "quote": "All offers/bids submitted in response to this solicitation must address the approach for completing the security plan and certification and accreditation requirements as required by the clause at 652.239–71, Security Requirements for Unclassified Information Technology Resources.",
+    "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+    "page": 1,
+    "firm_answer": "Firm has RMF/ATO documentation capability and CMMC Level 2 self-assessment; can describe an approach. No prior DOS 652.239-71 accreditation documented.",
+    "status": "partial",
+    "evidence": "RMF/ATO documentation capability; Network administration and cybersecurity support (FAA) past performance."
+   },
+   {
+    "requirement_id": "e6f67857-fa0d9f7f-p1-9f4cb00b",
+    "quote": "Within six (6) months after contract award, the Contractor shall submit written proof of IT security accreditation for acceptance by the Contracting Officer.",
+    "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+    "page": 1,
+    "firm_answer": "Firm has RMF/ATO documentation experience and CMMC Level 2 self-assessment but no documented DOS-specific IT security accreditation history.",
+    "status": "partial",
+    "evidence": "RMF/ATO documentation capability listed; Network administration and cybersecurity support (FAA) past performance."
+   },
+   {
+    "requirement_id": "e6f67857-fa0d9f7f-p1-7c772cb9",
+    "quote": "The Contractor shall develop, provide, implement, and maintain an IT Security Plan.",
+    "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+    "page": 1,
+    "firm_answer": "Firm has RMF/ATO documentation capability and CMMC Level 2 self-assessment supporting IT Security Plan development.",
+    "status": "partial",
+    "evidence": "RMF/ATO documentation capability; Network administration and cybersecurity support (FAA) past performance."
+   },
+   {
+    "requirement_id": "e6f67857-fa0d9f7f-p1-68710771",
+    "quote": "Within 30 days after contract award, the Contractor shall submit the IT Security Plan to the Contracting Officer and Contracting Officer's Representative (COR) for acceptance.",
+    "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+    "page": 1,
+    "firm_answer": "Firm can develop an IT Security Plan within 30 days given RMF/ATO documentation experience, but no prior DOS-specific plan documented.",
+    "status": "partial",
+    "evidence": "RMF/ATO documentation capability listed in firm profile."
+   },
+   {
+    "requirement_id": "e6f67857-fa0d9f7f-p1-96359fa0",
+    "quote": "This accreditation, when accepted by the Contracting Officer, shall be incorporated into the contract as a compliance document, and shall include a final security plan, a risk assessment, security test and evaluation, and disaster recovery/continuity of operations plan.",
+    "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+    "page": 1,
+    "firm_answer": "Firm has vulnerability management and RMF/ATO capability covering security plan and risk assessment components; no documented disaster recovery/COOP plan experience.",
+    "status": "partial",
+    "evidence": "RMF/ATO documentation; vulnerability management (ACAS/Nessus) listed in capabilities."
+   },
+   {
+    "requirement_id": "e6f67857-fa0d9f7f-p1-2a36bce9",
+    "quote": "When cybersecurity supply chain events occur, the Contractor must contact the Contracting Officer or his/her designee within 12 hours of the event.",
+    "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+    "page": 1,
+    "firm_answer": "Firm has 24x7 NOC and incident response capability supporting 12-hour notification requirement.",
+    "status": "meets",
+    "evidence": "24x7 NOC in Norman, OK; Network administration and cybersecurity support (FAA) past performance includes incident response."
+   },
+   {
+    "requirement_id": "e6f67857-fa0d9f7f-p1-56817759",
+    "quote": "The Contractor is required to notify the Department of any discovered software vulnerabilities within 12 hours.",
+    "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+    "page": 1,
+    "firm_answer": "Firm has vulnerability management (ACAS/Nessus) and 24x7 NOC supporting 12-hour vulnerability notification.",
+    "status": "meets",
+    "evidence": "Vulnerability management (ACAS/Nessus) capability; 24x7 NOC; Network administration and cybersecurity support (FAA) past performance."
+   },
+   {
+    "requirement_id": "e6f67857-fa0d9f7f-p1-a7da3b66",
+    "quote": "For software, within 10 business days of request by a Department of State representative, the Contractor shall submit a SBOM to a designated representative.",
+    "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+    "page": 1,
+    "firm_answer": "No SBOM generation capability or process documented in firm profile.",
+    "status": "gap",
+    "evidence": "SBOM not mentioned in capabilities or past performance."
+   },
+   {
+    "requirement_id": "e6f67857-53508423-p4-ba85ab91",
+    "quote": "A third-party assessment must be performed by a Third Party Assessor Organization (3PAO) that has either been FedRAMP certified or approved in writing by an appropriate agency official.",
+    "source_file": "535084238d064eb2b137b2c3fb3f5142.pdf",
+    "page": 4,
+    "firm_answer": "No FedRAMP-certified 3PAO relationship or FedRAMP authorization documented in firm profile.",
+    "status": "gap",
+    "evidence": "CMMC Level 2 is self-assessed, not third-party assessed; no FedRAMP 3PAO mentioned."
+   },
+   {
+    "requirement_id": "e6f67857-53508423-p4-85e2f37f",
+    "quote": "The form must be signed by the Chief Executive Officer (CEO) of the software producer or their designee, who must be an employee of the software producer and have the authority to bind the corporation.",
+    "source_file": "535084238d064eb2b137b2c3fb3f5142.pdf",
+    "page": 4,
+    "firm_answer": "Firm can designate a CEO or authorized signatory; procedural requirement. No barrier identified from profile.",
+    "status": "meets",
+    "evidence": "Standard corporate signature requirement; no profile conflict."
+   },
+   {
+    "requirement_id": "e6f67857-fa0d9f7f-p1-931a7fc4",
+    "quote": "The Contractor shall comply with the Department of State (DOS) Personal Identification Card Issuance Procedures for all employees performing under this contract who require frequent and continuing access to DOS facilities, or information systems.",
+    "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+    "page": 1,
+    "firm_answer": "No prior DOS facility access or DOS Personal Identification Card experience documented. Firm has 22 cleared staff (Secret) but no DOS-specific badging history.",
+    "status": "unknown",
+    "evidence": "22 cleared staff (Secret) listed; no DOS badging experience documented."
+   },
+   {
+    "requirement_id": "e6f67857-fa0d9f7f-p1-c323f9e8",
+    "quote": "Contractor personnel requiring privileged access or limited privileged access to systems operated by the Contractor for DOS or interconnected to a DOS network shall adhere to the specific contract security requirements contained within this contract and/or the Contract Security Classification Specification (DD Form 254).",
+    "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+    "page": 1,
+    "firm_answer": "Firm has 22 cleared staff (Secret) and CMMC Level 2 self-assessment; can adhere to security requirements. No prior DOS network access documented.",
+    "status": "partial",
+    "evidence": "22 cleared staff (Secret); CMMC Level 2 self-assessed; Network administration and cybersecurity support (FAA) past performance."
+   },
+   {
+    "requirement_id": "e6f67857-fa0d9f7f-p1-47fcf8ff",
+    "quote": "The Contractor shall ensure that its employees performing under this contract receive annual IT security training in accordance with OMB circular A–130, FISMA, and NIST requirements, as they may be amended from time to time during the term of this contract, with a specific emphasis on rules of behavior.",
+    "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+    "page": 1,
+    "firm_answer": "Firm has Security+ across the bench and ITIL 4 certifications; annual IT security training consistent with FISMA/NIST is plausible but not explicitly documented.",
+    "status": "partial",
+    "evidence": "Security+ across the bench listed in capabilities; CMMC Level 2 self-assessed implies NIST SP 800-171 training practices."
+   },
+   {
+    "requirement_id": "e6f67857-fa0d9f7f-p1-01d2c519",
+    "quote": "The Contractor shall take all prudent actions and comply with all Government direction (as identified in paragraph (c)) to regularly identify, assess, monitor, and mitigate cybersecurity supply chain risks when providing covered articles or services affecting covered articles to the Government.",
+    "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+    "page": 1,
+    "firm_answer": "Firm has vulnerability management (ACAS/Nessus) and CMMC Level 2 self-assessment supporting C-SCRM practices; no formal C-SCRM program documented.",
+    "status": "partial",
+    "evidence": "Vulnerability management (ACAS/Nessus); CMMC Level 2 self-assessed; Network administration and cybersecurity support (FAA) past performance."
+   },
+   {
+    "requirement_id": "e6f67857-fa0d9f7f-p1-29caebae",
+    "quote": "Access shall be provided to the extent required to carry out a program of IT inspection (to include vulnerability testing), investigation and audit to safeguard against threats and hazards to the integrity, availability and confidentiality of DOS data or to the function of information technology systems operated on behalf of DOS, and to preserve evidence of computer crime.",
+    "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+    "page": 1,
+    "firm_answer": "Firm has vulnerability management and cybersecurity capability; place of performance in Chennai, India creates a practical barrier to providing physical/logical access to DOS systems from Norman, OK.",
+    "status": "partial",
+    "evidence": "Vulnerability management (ACAS/Nessus); Network administration and cybersecurity support (FAA) past performance; geographic gap noted."
+   },
+   {
+    "requirement_id": "e6f67857-fa0d9f7f-p1-aeae18ef",
+    "quote": "The Contractor shall immediately notify the Contracting Officer when an employee either begins or terminates employment when that employee has access to DOS information systems or data.",
+    "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+    "page": 1,
+    "firm_answer": "Standard HR/security notification requirement; firm can comply procedurally. No profile barrier.",
+    "status": "meets",
+    "evidence": "Administrative compliance requirement; 22 cleared staff with established security practices."
+   },
+   {
+    "requirement_id": "e6f67857-fa0d9f7f-p1-b6dcaabd",
+    "quote": "When an incident occurs, the Contractor must contact the CO or their designee within 72 hours of the incident.",
+    "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+    "page": 1,
+    "firm_answer": "Firm has 24x7 NOC and incident response capability supporting 72-hour incident notification.",
+    "status": "meets",
+    "evidence": "24x7 NOC in Norman, OK; Network administration and cybersecurity support (FAA) past performance includes incident response."
+   },
+   {
+    "requirement_id": "e6f67857-fa0d9f7f-p1-4146aaff",
+    "quote": "No more than an estimated once per year, the Contractor must provide any requested information related to its supply chain within 10 business days except information that is protected by a non-disclosure agreement with its customers (e.g., another federal agency).",
+    "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+    "page": 1,
+    "firm_answer": "Firm can provide supply chain information within 10 business days; no documented supply chain management program but no profile barrier.",
+    "status": "partial",
+    "evidence": "CMMC Level 2 self-assessed implies supply chain risk awareness; no formal supply chain documentation program listed."
+   },
+   {
+    "requirement_id": "e6f67857-fa0d9f7f-p1-5f25ea10",
+    "quote": "The Contractor shall maintain artifacts that document its compliance with this paragraph and shall provide these artifacts to the Government within 48 hours of request.",
+    "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+    "page": 1,
+    "firm_answer": "Firm has CMMC Level 2 self-assessment implying artifact maintenance practices; 48-hour delivery feasible from Norman, OK NOC.",
+    "status": "partial",
+    "evidence": "CMMC Level 2 self-assessed; 24x7 NOC in Norman, OK."
+   },
+   {
+    "requirement_id": "e6f67857-3c9da338-p1-38c655f4",
+    "quote": "The Offeror shall represent its small business size status for each one of the NAICS codes assigned to this acquisition under which it is submitting an offer.",
+    "source_file": "3c9da3389d534bd19d34e855a443c12f.docx",
+    "page": 1,
+    "firm_answer": "Firm is a small business under NAICS 541512 and 541519; can represent small business size status for NAICS 541519.",
+    "status": "meets",
+    "evidence": "Firm NAICS 541512, 541519 listed; SDVOSB small business designation confirmed."
+   },
+   {
+    "requirement_id": "e6f67857-fa0d9f7f-p1-feb24000",
+    "quote": "The Offeror shall represent its small business size status for each one of the NAICS codes assigned to this acquisition under which it is submitting an offer.",
+    "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+    "page": 1,
+    "firm_answer": "Firm is a small business under NAICS 541519 matching solicitation NAICS; can represent size status.",
+    "status": "meets",
+    "evidence": "Firm NAICS 541519 matches solicitation; SDVOSB small business."
+   },
+   {
+    "requirement_id": "e6f67857-fa0d9f7f-p1-d3e29e7d",
+    "quote": "The contractor shall conduct a reasonable inquiry to determine if there are any prohibited products or services.",
+    "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+    "page": 1,
+    "firm_answer": "Firm can conduct FASCSA/SAM inquiry; procedural compliance requirement with no profile barrier.",
+    "status": "meets",
+    "evidence": "Standard compliance requirement; CMMC Level 2 self-assessed implies supply chain due diligence practices."
+   },
+   {
+    "requirement_id": "e6f67857-fa0d9f7f-p1-217851f4",
+    "quote": "During contract performance, the Contractor shall review SAM at least once every three months, or as advised by the Contracting Officer, to check for covered articles subject to FASCSA order(s), or for products or services produced by a source subject to FASCSA order(s) not currently identified under paragraph (e) of this clause.",
+    "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+    "page": 1,
+    "firm_answer": "Firm can perform quarterly SAM reviews; procedural compliance requirement with no profile barrier.",
+    "status": "meets",
+    "evidence": "Standard compliance requirement; no profile conflict."
+   },
+   {
+    "requirement_id": "e6f67857-fa0d9f7f-p1-b09de768",
+    "quote": "The Contractor shall search SAM for the FASC-maintained list of American Security Drone Act—covered foreign entities before proposing, or using in performance of the contract, any unmanned aircraft system.",
+    "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+    "page": 1,
+    "firm_answer": "Firm is an IT services provider; no unmanned aircraft systems in scope. Firm can perform SAM search as required.",
+    "status": "meets",
+    "evidence": "IT services firm; UAS not part of scope; standard compliance requirement."
+   },
+   {
+    "requirement_id": "e6f67857-fa0d9f7f-p1-52c4ba8f",
+    "quote": "The Contractor shall afford the Government access to the Contractor's and subcontractor's facilities, installations, operations, documentation, databases and personnel used in performance of the contract.",
+    "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+    "page": 1,
+    "firm_answer": "Firm can afford Government access to Norman, OK facilities; however, place of performance is Chennai, India, creating a geographic gap for on-site access.",
+    "status": "partial",
+    "evidence": "24x7 NOC in Norman, OK; no India-based facility or personnel documented."
+   },
+   {
+    "requirement_id": "e6f67857-fa0d9f7f-p1-cf8f27f2",
+    "quote": "On an annual basis, the Contractor shall submit verification to the Contracting Officer that the IT Security Plan remains valid.",
+    "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+    "page": 1,
+    "firm_answer": "Firm has RMF/ATO documentation capability supporting annual IT Security Plan verification; no prior DOS-specific annual verification documented.",
+    "status": "partial",
+    "evidence": "RMF/ATO documentation capability listed; Network administration and cybersecurity support (FAA) past performance."
+   },
+   {
+    "requirement_id": "e6f67857-fa0d9f7f-p1-d6787e75",
+    "quote": "Within three (3) days, they shall provide a report using a VEX format.",
+    "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+    "page": 1,
+    "firm_answer": "No VEX (Vulnerability Exploitability eXchange) format reporting capability documented in firm profile.",
+    "status": "gap",
+    "evidence": "VEX format reporting not mentioned in capabilities or past performance; vulnerability management listed but not VEX-specific."
+   },
+   {
+    "requirement_id": "e6f67857-fa0d9f7f-p1-807c2b5b",
+    "quote": "When required by the Contracting Officer, the Contractor shall obtain and submit fingerprints of all persons employed or to be employed on the project.",
+    "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+    "page": 1,
+    "firm_answer": "Firm has 22 cleared staff with established security vetting processes; fingerprinting feasible. However, staff are U.S.-based and project is in Chennai, India.",
+    "status": "partial",
+    "evidence": "22 cleared staff (Secret) listed; geographic gap for Chennai-based performance."
+   },
+   {
+    "requirement_id": "e6f67857-fa0d9f7f-p1-16d06700",
+    "quote": "All prescribed identification shall immediately be delivered to the Contracting Officer, for cancellation upon the release of any employee.",
+    "source_file": "fa0d9f7fc93644d0a8e6e9fc10f72f8a.docx",
+    "page": 1,
+    "firm_answer": "Standard personnel security requirement; firm can comply procedurally given cleared staff management experience.",
+    "status": "meets",
+    "evidence": "22 cleared staff (Secret); standard security compliance requirement."
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "e6f67857e68e438ca800122c1b59a584",
+  "key_dates": {
+   "questions_due": "2026-09-05",
+   "proposal_due": "2026-09-15",
+   "site_visit": "2026-09-03",
+   "period_of_performance": null,
+   "source_quotes": [
+    "Registration for site visit: Tuesday, September 01, 2026 by 3:00 p.m. (IST) to ChennaiProcurement@state.gov",
+    "Mandatory Site visit with vendors: Thursday, September 03, 2026 at 11:30 a.m. (IST) at the U.S. Consulate General Chennai located at 220, Anna Salai, Gemini circle, Chennai 600 006.",
+    "Deadline to submit technical queries: Saturday, September 05, 2026 by 02:00 p.m. (IST) to ChennaiProcurement@state.gov",
+    "Deadline for RFQ Submittal: Tuesday, September 15, 2026 at 03:00 p.m. (IST) to ChennaiProcurement@state.gov"
+   ]
+  },
+  "days_to_close": 0.9243701303703704,
+  "set_aside_note": "The notice has no set-aside (unrestricted). Sooner Systems LLC can claim SDVOSB and SBA set-asides, but since this is unrestricted, the firm is eligible to bid.",
+  "amendment_note": "no amendment",
+  "calendar_entries": [
+   {
+    "title": "Site Visit Registration Deadline",
+    "date": "2026-09-01",
+    "note": "Register by 3:00 p.m. IST via email to ChennaiProcurement@state.gov to attend the mandatory site visit.",
+    "source_quote": "Registration for site visit: Tuesday, September 01, 2026 by 3:00 p.m. (IST) to ChennaiProcurement@state.gov"
+   },
+   {
+    "title": "Mandatory Site Visit",
+    "date": "2026-09-03",
+    "note": "Mandatory site visit with vendors at 11:30 a.m. IST at U.S. Consulate General Chennai, 220 Anna Salai, Gemini Circle, Chennai 600 006.",
+    "source_quote": "Mandatory Site visit with vendors: Thursday, September 03, 2026 at 11:30 a.m. (IST) at the U.S. Consulate General Chennai located at 220, Anna Salai, Gemini circle, Chennai 600 006."
+   },
+   {
+    "title": "Technical Queries Due",
+    "date": "2026-09-05",
+    "note": "Deadline to submit technical queries by 2:00 p.m. IST to ChennaiProcurement@state.gov.",
+    "source_quote": "Deadline to submit technical queries: Saturday, September 05, 2026 by 02:00 p.m. (IST) to ChennaiProcurement@state.gov"
+   },
+   {
+    "title": "Decide By (2 Business Days Before Proposal Due)",
+    "date": "2026-09-11",
+    "note": "Internal go/no-go decision deadline — two business days before the RFQ submittal deadline of September 15, 2026.",
+    "source_quote": "Deadline for RFQ Submittal: Tuesday, September 15, 2026 at 03:00 p.m. (IST) to ChennaiProcurement@state.gov"
+   },
+   {
+    "title": "Proposal / RFQ Due",
+    "date": "2026-09-15",
+    "note": "Quotes must be submitted electronically by email by 3:00 p.m. IST. Late or misdirected quotes will not be considered.",
+    "source_quote": "Deadline for RFQ Submittal: Tuesday, September 15, 2026 at 03:00 p.m. (IST) to ChennaiProcurement@state.gov"
+   }
+  ]
+ },
+ "model_calls": 5,
+ "tokens_in": 81517,
+ "tokens_out": 16077,
+ "seconds": 139.45,
+ "produced_at": "2026-09-14T06:21:13.872971-05:00"
+}

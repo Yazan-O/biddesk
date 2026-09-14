@@ -1,0 +1,888 @@
+{
+ "notice_id": "83debc9c57c44dbfbb6d8e140677efdc",
+ "firm_slug": "red-cedar",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:29:18-05:00",
+ "evidence_basis": null,
+ "days_to_close": 1.4366742981481482,
+ "closed": false,
+ "response_kind": "proposal",
+ "card": {
+  "notice_id": "83debc9c57c44dbfbb6d8e140677efdc",
+  "firm_slug": "red-cedar",
+  "situation": "NPS NACE FY26 Hazardous Tree Cyclic Maintenance (RFQ 140P3026Q0042): full-spectrum arboricultural services — tree removal, pruning, chipping, meadow restoration, storm response — in the Washington DC area under NAICS 561730, Total Small Business Set-Aside.\\nFlagged for owner review because the firm is SB-eligible and holds federal grounds maintenance past performance, but the matrix returned a fit score of 0.3 with two disqualifying gaps: place of performance is 1,000+ miles from Oklahoma City (violates owner distance rule), and no ISA Certified Arborist is on staff despite being a mandatory on-site requirement.",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "Firm is eligible for the Total Small Business set-aside as a WOSB/EDWOSB/SBA small business, so no eligibility barrier exists [83debc9c-1900ffa2-p1-bea87149].",
+   "OSHA 30 supervisors, QC/CMMS program, and occupied-federal-facility experience satisfy general worksite safety and orderliness requirements [83debc9c-6d4d27fc-p6-088b3de4].",
+   "Federal grounds maintenance past performance at Tinker AFB demonstrates scheduling, advance-notice coordination, and federal invoicing familiarity [83debc9c-6d4d27fc-p2-aa340b0c]."
+  ],
+  "reasons_against": [
+   "Place of performance is National Capital Parks-East (Washington DC area), well over 200 miles from Oklahoma City, triggering the owner's hard distance rule [rc-distance].",
+   "No ISA Certified Arborist is listed anywhere in the firm profile, yet one must be on-site at all times and a certification ID provided before work begins — a disqualifying gap [83debc9c-6d4d27fc-p5-1d4fbf28].",
+   "No tree climbing crew, hazardous tree removal capability, 12-inch chipper, log-moving machine, or chip truck is listed in the profile, leaving the core equipment and labor scope entirely unmet [83debc9c-6d4d27fc-p2-ec258b3e]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-09-11",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-09-15T17:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": null,
+   "source_quotes": [
+    "3.7 Quotes must be received no later than: 5:00 PM EST Tuesday, September 15, 2026 4.OFFER FORMAT"
+   ]
+  },
+  "fit_score": 0.3,
+  "matrix_summary": "5 of 38 requirements met, 8 partial, 17 gap, 8 unknown",
+  "evidence_link": "https://sam.gov/opp/83debc9c57c44dbfbb6d8e140677efdc/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p5-1d4fbf28",
+   "quote": "A current ISA Certified Arborist shall always be on the job site and shall be the primary contact with the Government's technical representative responsible for controlling the quality of work and inspecting all completed work in order to verify requirements are met.",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 5,
+   "firm_answer": "The firm profile lists no ISA Certified Arborist. No arborist credential of any kind is mentioned.",
+   "status": "gap",
+   "evidence": "Profile lists CIMS-GB, OSHA 30, and e-Verify but no ISA certification."
+  },
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p2-01c70090",
+   "quote": "One of which shall speak English (responsible party on site must speak English) and one of which shall be an ISA certified arborist.",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 2,
+   "firm_answer": "No ISA certified arborist is listed in the firm profile. English-speaking supervisor is plausible but not confirmed for this context.",
+   "status": "gap",
+   "evidence": "Profile is silent on ISA certification entirely."
+  },
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p5-21efd13d",
+   "quote": "The contractor shall provide the arborist's certification ID for verification before work begins, and any time there is a change in the onsite arborist.",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 5,
+   "firm_answer": "No arborist certification ID can be provided; no ISA Certified Arborist is listed in the profile.",
+   "status": "gap",
+   "evidence": "Profile lists no arborist credentials."
+  },
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p2-5cfb9cbc",
+   "quote": "Contractor must provide a crew with a minimum of 5 members to include 2 climbers and 3 ground workers.",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 2,
+   "firm_answer": "The firm has 38 W-2 employees for janitorial and grounds work. No tree climbers are identified in the profile.",
+   "status": "gap",
+   "evidence": "Profile lists 38 W-2 employees but no tree climbing or arboricultural crew composition."
+  },
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p3-624f9e4e",
+   "quote": "Contractor shall provide all tools, fuel, equipment and all ANSI and OSHA standard industry related safety gear necessary to carry out an 8-hour day of brush chipping, tree climbing, vegetation and tree removal, tree felling and hazardous tree removal.",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 3,
+   "firm_answer": "The firm profile lists no chipping equipment, climbing gear, or tree felling/removal equipment. Grounds equipment is limited to mowing and trimming.",
+   "status": "gap",
+   "evidence": "Capabilities: mowing, trimming, irrigation, snow removal — no tree removal or climbing equipment listed."
+  },
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p2-ec258b3e",
+   "quote": "The crew shall have a machine capable of moving logs and debris from work areas without causing damage to the ground, a chipper capable of chipping wood materials up to 12 inches in diameter and a suitable truck to chip into.",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 2,
+   "firm_answer": "No chipper, log-moving machine, or chip truck is listed in the firm profile.",
+   "status": "gap",
+   "evidence": "Profile is entirely silent on arboricultural equipment."
+  },
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p2-163bc536",
+   "quote": "Mitigation shall include all aspects of tree care to include but not limited to, the creation of clear zones on trails, roads and parkways, tree removal, meadow restoration, vegetation removal, tree pruning, chipping, log removal, storm damage and vegetation management, as per the needs of The National Park Service NACE.",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 2,
+   "firm_answer": "The firm performs general grounds maintenance (mowing, trimming) but has no stated capability for tree removal, meadow restoration, chipping, log removal, or storm damage tree work.",
+   "status": "gap",
+   "evidence": "Grounds maintenance, cantonment area (Tinker AFB) covers mowing/trimming/herbicide — not hazardous tree mitigation."
+  },
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p2-800b5002",
+   "quote": "Contractor shall assist with creating clear zones, hazardous tree removal, meadow clearing, occasional storm damage, pruning and all-around proactive tree maintenance, in order to protect and preserve our urban forest and help to create a safe environment for visitors and staff.",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 2,
+   "firm_answer": "No hazardous tree removal, urban forestry, or arboricultural maintenance capability is stated in the firm profile.",
+   "status": "gap",
+   "evidence": "Profile capabilities do not include any tree care or urban forestry services."
+  },
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p3-ec680548",
+   "quote": "Contractor shall abide by all arboriculture standards conducted in accordance with the most recent version of the ANSI standards and industry bylaws.",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 3,
+   "firm_answer": "The firm has no stated arboriculture standards compliance. OSHA 30 supervisors are listed but no ANSI arboricultural standards training or certification.",
+   "status": "gap",
+   "evidence": "Profile lists OSHA 30 and CIMS-GB but no arboricultural ANSI standards compliance."
+  },
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p7-ddb16ca4",
+   "quote": "The contractor shall provide and ensure that all personnel at the work site use the proper Personal Protective Equipment (PPE) required by OSHA regulations and ANSI standards.",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 7,
+   "firm_answer": "The firm has OSHA 30 supervisors and a safety program, but no arboricultural PPE (chainsaw chaps, climbing harnesses, etc.) is mentioned.",
+   "status": "partial",
+   "evidence": "OSHA 30 supervisors on staff supports general safety compliance; arboricultural-specific PPE not evidenced."
+  },
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p7-7e5ce7ae",
+   "quote": "The contractor and each of their employees shall work in compliance with all applicable OSHA, Federal, state and local safety laws and regulations (e.g.",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 7,
+   "firm_answer": "The firm has OSHA 30 supervisors and e-Verify, indicating a compliance culture, but no arboricultural safety compliance is specifically evidenced.",
+   "status": "partial",
+   "evidence": "OSHA 30 supervisors listed in capabilities."
+  },
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p5-a46341c1",
+   "quote": "As a minimum, the contractor must provide one on-site supervisor to direct all contract personnel and maintenance operations.",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 5,
+   "firm_answer": "The firm has OSHA 30 supervisors and a QC program, indicating supervisory capacity, but no on-site arboricultural supervisor is identified.",
+   "status": "partial",
+   "evidence": "Capabilities: OSHA 30 supervisors, QC inspections logged in CMMS."
+  },
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p5-9a2954c9",
+   "quote": "The on-site supervisor shall be fluent in the English language in order to effectively communicate with the contractor's employees and/ or subcontractors as well as the COR and other Government personnel.",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 5,
+   "firm_answer": "The firm operates in Oklahoma and neighboring states; English-fluent supervisors are reasonably assumed but not explicitly stated.",
+   "status": "unknown",
+   "evidence": "Profile does not explicitly address supervisor language fluency."
+  },
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p8-f5ee1806",
+   "quote": "Upon completion, the contractor shall provide the government with a work/treatment log denoting the work performed by specimen and size (DBH).",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 8,
+   "firm_answer": "The firm uses a CMMS for QC inspection logging, but no capability for arboricultural work/treatment logs by specimen and DBH is stated.",
+   "status": "gap",
+   "evidence": "CMMS logging capability exists but is for janitorial/grounds QC, not arboricultural specimen records."
+  },
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p8-be8e1a74",
+   "quote": "The work log shall utilize standard industry terms and include any tree health or hazard concerns noted during work performance.",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 8,
+   "firm_answer": "No arboricultural industry terminology knowledge or tree health assessment capability is stated in the profile.",
+   "status": "gap",
+   "evidence": "Profile is silent on tree health assessment or arboricultural reporting."
+  },
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p4-989cfabd",
+   "quote": "B: For tree removals, all stumps outside of mowed areas shall be no taller than 2 inches above surrounding ground level.",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 4,
+   "firm_answer": "No stump grinding or stump treatment capability is listed in the firm profile.",
+   "status": "gap",
+   "evidence": "Profile capabilities do not include stump grinding or tree removal finishing work."
+  },
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p4-bc87ad42",
+   "quote": "Tree removals in mowed areas shall have the stumps ground to six inches below the surrounding ground level, and topped with topsoil to match surrounding grade.",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 4,
+   "firm_answer": "No stump grinding equipment or topsoil restoration capability is listed in the firm profile.",
+   "status": "gap",
+   "evidence": "Profile is silent on stump grinding and site restoration after tree removal."
+  },
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p3-34cd3fc3",
+   "quote": "The contractor shall supply and set up all advanced signage and traffic control for roadside operations and lane closures.",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 3,
+   "firm_answer": "No traffic control or lane closure capability is stated in the firm profile.",
+   "status": "gap",
+   "evidence": "Profile capabilities: janitorial, custodial, grounds maintenance — no traffic control mentioned."
+  },
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p3-5b25afad",
+   "quote": "All lane closures must be in accordance with MUTCD guidelines.",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 3,
+   "firm_answer": "No MUTCD compliance capability or traffic control experience is stated in the firm profile.",
+   "status": "gap",
+   "evidence": "Profile is entirely silent on MUTCD or traffic control."
+  },
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p1-2a77a61a",
+   "quote": "The contractor shall provide all management, supervision, labor, materials, supplies, tools, equipment, and all other items necessary to coordinate and ensure quality workmanship.",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 1,
+   "firm_answer": "The firm has management, supervision, and QC systems (CMMS) for janitorial and grounds work, but lacks the specialized arboricultural tools and equipment required for this scope.",
+   "status": "partial",
+   "evidence": "Capabilities: 38 W-2 employees, OSHA 30 supervisors, QC inspections logged in CMMS."
+  },
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p2-980c3605",
+   "quote": "Contractor shall show up at predetermined time at a predetermined area with tree crew and equipment necessary to work an 8-hour day on the mitigation of hazardous trees and vegetation.",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 2,
+   "firm_answer": "The firm has no tree crew or hazardous tree mitigation equipment listed in the profile.",
+   "status": "gap",
+   "evidence": "Profile capabilities do not include any tree crew or arboricultural equipment."
+  },
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p4-2ff902a6",
+   "quote": "The contractor shall, without additional expense to the Government, be responsible for obtaining and renewing all necessary licenses and permits.",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 4,
+   "firm_answer": "The firm holds licenses for janitorial and grounds work in Oklahoma. No arboricultural licenses or permits are mentioned.",
+   "status": "unknown",
+   "evidence": "Profile does not specify which licenses are held beyond CIMS-GB and OSHA 30."
+  },
+  {
+   "requirement_id": "83debc9c-1900ffa2-p9-a5227c6f",
+   "quote": "Offeror must have a current registration in the System for Award Management (SAM) at the time of quote submission to be considered an interested party.",
+   "source_file": "1900ffa2f59145d99af64f5346e9e537.pdf",
+   "page": 9,
+   "firm_answer": "SAM registration is not explicitly confirmed in the profile, but the firm has federal contracts (GSA, DoD, VA) which require active SAM registration.",
+   "status": "unknown",
+   "evidence": "Federal past performance with GSA Region 7, Tinker AFB, and VA Oklahoma City implies SAM registration, but profile does not explicitly confirm."
+  },
+  {
+   "requirement_id": "83debc9c-1900ffa2-p10-31645bd9",
+   "quote": "Evaluation Criteria and Quote Submittal Instructions The quote submission shall include three separate volumes: Volume I-Technical Capability Volume II – Past Performance Volume III-Price.",
+   "source_file": "1900ffa2f59145d99af64f5346e9e537.pdf",
+   "page": 10,
+   "firm_answer": "The firm can prepare a three-volume submission, but Volume I (Technical Capability) would be severely deficient in arboricultural content.",
+   "status": "partial",
+   "evidence": "General proposal preparation capability implied by federal contracting history."
+  },
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p6-088b3de4",
+   "quote": "The contractor shall maintain the work site in a safe, neat and orderly manner.",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 6,
+   "firm_answer": "The firm has QC inspection programs and OSHA 30 supervisors supporting worksite safety and orderliness.",
+   "status": "meets",
+   "evidence": "Capabilities: OSHA 30 supervisors, QC inspections logged in CMMS, green cleaning program."
+  },
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p4-481e09bf",
+   "quote": "The Contractor shall assume full liability and responsibility for any loss or damage to Government property caused by his operations and shall assume full responsibility for any and all damages or claims for damage for injury to persons, property or equipment which might result from any service performed under this contract.",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 4,
+   "firm_answer": "The firm has federal contracts with liability requirements (GSA, DoD, VA), implying adequate insurance, but no specific insurance levels are stated in the profile.",
+   "status": "unknown",
+   "evidence": "Federal past performance implies liability insurance, but profile does not specify coverage amounts."
+  },
+  {
+   "requirement_id": "83debc9c-1900ffa2-p13-7097cb53",
+   "quote": "The Contractor shall maintain an active Federal Government contracts registration in the System for Award Management (SAM) at https://www.sam.gov during contract performance and through final payment under this contract.",
+   "source_file": "1900ffa2f59145d99af64f5346e9e537.pdf",
+   "page": 13,
+   "firm_answer": "Active SAM registration is implied by existing federal contracts but not explicitly confirmed in the profile.",
+   "status": "unknown",
+   "evidence": "Federal contracts with GSA, Tinker AFB, and VA imply active SAM registration."
+  },
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p5-93d93966",
+   "quote": "If the on-site supervisor is not present or absent due to illness or other reasons, the contractor shall provide an alternate supervisor to manage and direct all contract personnel and operations.",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 5,
+   "firm_answer": "The firm has 38 W-2 employees and OSHA 30 supervisors, suggesting backup supervisory capacity, but no alternate ISA-certified arborist supervisor is identified.",
+   "status": "partial",
+   "evidence": "38 W-2 employees and OSHA 30 supervisors suggest supervisory depth, but arborist qualification for alternate is not evidenced."
+  },
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p3-abe9ef3b",
+   "quote": "The contractor shall remove all resulting debris from the site, except for chips.",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 3,
+   "firm_answer": "The firm performs debris removal as part of grounds maintenance (Tinker AFB), but no tree debris removal capability is specifically stated.",
+   "status": "partial",
+   "evidence": "Grounds maintenance, cantonment area — keywords include grounds, trimming, landscaping."
+  },
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p4-54b76066",
+   "quote": "Contractor will spread and mix a tall fescue 31 seed mix into the placed topsoil.",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 4,
+   "firm_answer": "No seeding or turf restoration capability is listed in the firm profile.",
+   "status": "gap",
+   "evidence": "Profile capabilities: mowing, trimming, irrigation — no seeding or turf restoration mentioned."
+  },
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p9-7a7fe164",
+   "quote": "5.2 Submittals Contractor shall submit the following documents on the outlined schedule.",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 9,
+   "firm_answer": "The firm has a CMMS and QC documentation system that supports submittal compliance, but specific arboricultural submittals (e.g., arborist certification ID, work/treatment logs) cannot be fulfilled.",
+   "status": "partial",
+   "evidence": "QC inspections logged in CMMS supports general documentation capability."
+  },
+  {
+   "requirement_id": "83debc9c-1900ffa2-p1-bea87149",
+   "quote": "Any representations and/or certifications attached to this Request for Quotation must be completed by the quoter.",
+   "source_file": "1900ffa2f59145d99af64f5346e9e537.pdf",
+   "page": 1,
+   "firm_answer": "The firm can complete standard representations and certifications as a WOSB/EDWOSB/SBA small business registered in SAM.",
+   "status": "meets",
+   "evidence": "Set-asides: WOSB, EDWOSB, SBA — eligible for Total Small Business set-aside."
+  },
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p7-97c1668e",
+   "quote": "Contractor personnel operating motor vehicles used in performance of this contract shall have a valid state operator's license and shall operate all motor vehicles in accordance with applicable laws.",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 7,
+   "firm_answer": "The firm operates vehicles for grounds maintenance at federal facilities; valid operator licenses are implied but not explicitly confirmed.",
+   "status": "unknown",
+   "evidence": "Grounds maintenance, cantonment area (Tinker AFB) implies vehicle operations but profile does not explicitly address driver licensing."
+  },
+  {
+   "requirement_id": "83debc9c-1900ffa2-p14-237b977c",
+   "quote": "The Contractor will not engage in any racially discriminatory DEI activities",
+   "source_file": "1900ffa2f59145d99af64f5346e9e537.pdf",
+   "page": 14,
+   "firm_answer": "No information in the profile contradicts this requirement; standard compliance clause.",
+   "status": "unknown",
+   "evidence": "Profile is silent on this clause; assumed standard compliance for any federal contractor."
+  },
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p2-aa340b0c",
+   "quote": "Contractor shall give at least two working days advance notice before any work is performed.",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 2,
+   "firm_answer": "The firm has scheduling and coordination experience from federal facility contracts; advance notice protocols are operationally feasible.",
+   "status": "meets",
+   "evidence": "Federal facility operations at GSA, Tinker AFB, and VA imply scheduling and advance coordination capability."
+  },
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p8-85d963eb",
+   "quote": "The Contractor shall submit all invoices through www.ipp.gov within 30 days of work performed or on a quarterly basis.",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 8,
+   "firm_answer": "The firm has federal contracts with GSA and DoD, implying familiarity with IPP invoicing, but IPP use is not explicitly confirmed in the profile.",
+   "status": "unknown",
+   "evidence": "Federal past performance with GSA Region 7 and Tinker AFB implies IPP invoicing experience."
+  },
+  {
+   "requirement_id": "83debc9c-6d4d27fc-p6-b5b10eae",
+   "quote": "It shall be the contractor's responsibility to take whatever measures are necessary to assure the protection of the Government assets and to perform the work to cause minimal disruption ongoing activities near occupied areas.",
+   "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+   "page": 6,
+   "firm_answer": "The firm has experience working in occupied federal facilities (GSA building, VA clinic) with minimal disruption protocols.",
+   "status": "meets",
+   "evidence": "Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic (VA) — both involve occupied facility operations."
+  },
+  {
+   "requirement_id": "83debc9c-1900ffa2-p3-72b330ad",
+   "quote": "Payment shall be on a quarterly basis as determined by the number of days worked in the designated months.",
+   "source_file": "1900ffa2f59145d99af64f5346e9e537.pdf",
+   "page": 3,
+   "firm_answer": "The firm has experience with federal invoicing cycles; quarterly payment terms are administratively manageable.",
+   "status": "meets",
+   "evidence": "Federal past performance with GSA, DoD, and VA implies familiarity with federal payment terms."
+  }
+ ],
+ "matrix_dropped": 3,
+ "matrix_dropped_rows": [
+  {
+   "requirement_id": "83debc9c-1900ffa2-p3-9a1af4d2",
+   "quote": "The contractor shall provide all labor, management, supervision, materials, tools, supplies, transportation, barricades, signs, traffic control measures/coordination and equipment incidental to and necessary to execute safe full spectrum pruning operations in accordance with ANSI Z-133 and ANSI A300 standards and ISA's best management practices (BMPs).",
+   "source_file": "1900ffa2f59145d99af64f5346e9e537.pdf",
+   "page": 3,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "83debc9c-1900ffa2-p11-60d53fbd",
+   "quote": "Evaluation Factor: Past Performance Using the provided Past Performance Questionnaire \"Attachment Two - B08 Past Performance Questionnaire\", offerors shall obtain and submit three (3) completed past performance questionnaires from three (3) separate references for recent work that is the same or similar in size and scope to the requirement.",
+   "source_file": "1900ffa2f59145d99af64f5346e9e537.pdf",
+   "page": 11,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "83debc9c-1900ffa2-p7-909baf64",
+   "quote": "1.2 The offeror's quote shall be clear, concise, and shall include sufficient detail for evaluation and substantiation of the validity of stated claims.",
+   "source_file": "1900ffa2f59145d99af64f5346e9e537.pdf",
+   "page": 7,
+   "reason": "not_verbatim"
+  }
+ ],
+ "fit_score_code": 0.3,
+ "drafts": {
+  "capability_statement": "Red Cedar Facility Services is a Woman-Owned Small Business (WOSB), Economically Disadvantaged Woman-Owned Small Business (EDWOSB), and SBA-certified small business operating under NAICS 561730, the exact code cited in RFQ 140P3026Q0042. We are fully eligible for this Total Small Business Set-Aside.\n\nRed Cedar brings federal grounds and vegetation management experience from occupied installations including a GSA-managed federal building in Oklahoma City, a VA outpatient clinic, and cantonment area grounds maintenance at Tinker AFB — all performed under firm-fixed-price contracts with federal quality and safety standards. Our workforce of 38 W-2 employees is supervised by OSHA 30-certified leads, and all work is tracked through a CMMS that logs QC inspections and supports federal submittal schedules.\n\nOur safety culture is built on OSHA compliance, PPE enforcement, and a documented green cleaning and grounds program. We hold CIMS-GB certification and maintain e-Verify enrollment. We have demonstrated the ability to work in occupied federal facilities with minimal disruption, coordinate advance scheduling with government technical representatives, and meet federal invoicing and payment requirements.\n\nWe understand the NPS NACE scope requires full-spectrum arboricultural services including hazardous tree removal, pruning, chipping, and meadow restoration in accordance with ANSI Z-133, ANSI A300, and ISA best management practices. We are prepared to address our technical approach, crew composition, equipment plan, and past performance in the three-volume format specified in the solicitation.",
+  "questions_for_co": [
+   "ISA Certified Arborist requirement [83debc9c-6d4d27fc-p5-1d4fbf28 / p2-01c70090 / p5-21efd13d]: The solicitation requires an ISA Certified Arborist on-site at all times. Will the Government accept a teaming arrangement or subcontract with a local ISA-certified arborist to satisfy this requirement, or must the arborist be a direct W-2 employee of the prime contractor?",
+   "Crew and equipment sourcing [83debc9c-6d4d27fc-p2-5cfb9cbc / p2-ec258b3e / p3-624f9e4e]: The solicitation requires a minimum five-person crew including two climbers, a 12-inch-capacity chipper, a log-moving machine, and a chip truck. May a prime contractor satisfy these requirements through a subcontractor or equipment rental arrangement, provided all personnel and equipment are on-site and available for each scheduled work day?",
+   "Arboricultural licenses and permits [83debc9c-6d4d27fc-p4-2ff902a6]: What specific arboricultural licenses or permits does the Government anticipate will be required for performance within NACE boundaries, and are any of those permits obtained by or through the National Park Service rather than the contractor?",
+   "Insurance and liability coverage levels [83debc9c-6d4d27fc-p4-481e09bf]: The solicitation references full contractor liability for loss or damage to Government property and third-party claims. What minimum general liability and workers' compensation insurance coverage amounts are required, and will those be specified in the final contract or an amendment?",
+   "Work/treatment log format and DBH reporting [83debc9c-6d4d27fc-p8-f5ee1806 / p8-be8e1a74]: Is there a Government-prescribed template or data format for the work/treatment log (specimen, DBH, standard industry terms, tree health/hazard notes), or may the contractor propose its own format for COR approval prior to the first work day?",
+   "Traffic control and MUTCD lane closure scope [83debc9c-6d4d27fc-p3-34cd3fc3 / p3-5b25afad]: How frequently are lane closures on parkways or roads anticipated during a typical cyclic maintenance cycle, and does the Government hold any blanket traffic control permits within NACE that the contractor may operate under, or must the contractor independently obtain all MUTCD-compliant traffic control plans and permits?"
+  ],
+  "calendar_entries": [
+   {
+    "title": "Proposal Due",
+    "date": "2026-09-15",
+    "note": "Quotes must be received no later than 5:00 PM EST (EDT per notice header: -04:00) on Tuesday, September 15, 2026. Submit digitally via email to richard_burns@ios.doi.gov.",
+    "source_quote": "3.7 Quotes must be received no later than: 5:00 PM EST Tuesday, September 15, 2026 4.OFFER FORMAT"
+   },
+   {
+    "title": "Decide By (2 business days before proposal due)",
+    "date": "2026-09-11",
+    "note": "Internal go/no-go decision deadline — two business days before the proposal due date of September 15, 2026.",
+    "source_quote": "3.7 Quotes must be received no later than: 5:00 PM EST Tuesday, September 15, 2026 4.OFFER FORMAT"
+   }
+  ]
+ },
+ "reader": {
+  "notice_id": "83debc9c57c44dbfbb6d8e140677efdc",
+  "key_requirement_ids": [
+   "83debc9c-6d4d27fc-p5-1d4fbf28",
+   "83debc9c-6d4d27fc-p2-01c70090",
+   "83debc9c-6d4d27fc-p2-5cfb9cbc",
+   "83debc9c-6d4d27fc-p2-163bc536",
+   "83debc9c-1900ffa2-p3-9a1af4d2",
+   "83debc9c-6d4d27fc-p3-624f9e4e",
+   "83debc9c-6d4d27fc-p2-ec258b3e",
+   "83debc9c-6d4d27fc-p2-980c3605",
+   "83debc9c-1900ffa2-p11-60d53fbd",
+   "83debc9c-1900ffa2-p10-31645bd9",
+   "83debc9c-1900ffa2-p9-a5227c6f",
+   "83debc9c-6d4d27fc-p5-a46341c1",
+   "83debc9c-6d4d27fc-p5-21efd13d",
+   "83debc9c-6d4d27fc-p7-ddb16ca4",
+   "83debc9c-6d4d27fc-p3-ec680548",
+   "83debc9c-6d4d27fc-p4-481e09bf",
+   "83debc9c-6d4d27fc-p8-f5ee1806",
+   "83debc9c-1900ffa2-p9-77115abc",
+   "83debc9c-1900ffa2-p9-2ec311a7",
+   "83debc9c-6d4d27fc-p2-aa340b0c",
+   "83debc9c-6d4d27fc-p4-989cfabd",
+   "83debc9c-6d4d27fc-p3-5b25afad",
+   "83debc9c-1900ffa2-p11-ac9d3788",
+   "83debc9c-6d4d27fc-p2-800b5002",
+   "83debc9c-6d4d27fc-p5-93d93966"
+  ],
+  "scope_summary": "The National Park Service (NACE) is procuring hazardous tree cyclic maintenance services requiring a contractor to provide all labor, management, supervision, materials, tools, supplies, transportation, and equipment to perform safe full-spectrum pruning operations in accordance with ANSI Z-133 and ANSI A300 standards and ISA best management practices. Mitigation work includes tree removal, meadow restoration, vegetation removal, tree pruning, chipping, log removal, storm damage response, and creation of clear zones on trails, roads, and parkways within the national park. The contract is a Firm Fixed Price vehicle solicited under RFQ 140P3026Q0042 as a Total Small Business Set-Aside under NAICS 561730.",
+  "evaluation_basis": "Quotes are evaluated on three volumes: Volume I – Technical Capability, Volume II – Past Performance (three completed questionnaires from references for recent work of same or similar size and scope), and Volume III – Price. The solicitation states \"Quotes shall address each evaluation criterion and sub-criterion with particular emphasis on areas of cited specialized work and knowledge,\" but no explicit weighting or best-value tradeoff methodology is stated beyond these three factors.",
+  "incumbent_or_history": "none found",
+  "quotes": [
+   "Mitigation shall include all aspects of tree care to include but not limited to, the creation of clear zones on trails, roads and parkways, tree removal, meadow restoration, vegetation removal, tree pruning, chipping, log removal, storm damage and vegetation management, as per the needs of The National Park Service NACE.",
+   "Contractor must provide a crew with a minimum of 5 members to include 2 climbers and 3 ground workers.",
+   "One of which shall speak English (responsible party on site must speak English) and one of which shall be an ISA certified arborist.",
+   "A current ISA Certified Arborist shall always be on the job site and shall be the primary contact with the Government's technical representative responsible for controlling the quality of work and inspecting all completed work in order to verify requirements are met.",
+   "The contractor shall provide the arborist's certification ID for verification before work begins, and any time there is a change in the onsite arborist.",
+   "Contractor shall provide all tools, fuel, equipment and all ANSI and OSHA standard industry related safety gear necessary to carry out an 8-hour day of brush chipping, tree climbing, vegetation and tree removal, tree felling and hazardous tree removal.",
+   "The crew shall have a machine capable of moving logs and debris from work areas without causing damage to the ground, a chipper capable of chipping wood materials up to 12 inches in diameter and a suitable truck to chip into.",
+   "Contractor shall show up at predetermined time at a predetermined area with tree crew and equipment necessary to work an 8-hour day on the mitigation of hazardous trees and vegetation.",
+   "The quote submission shall include three separate volumes: Volume I-Technical Capability Volume II – Past Performance Volume III-Price.",
+   "3.4 Offeror must have a current registration in the System for Award Management (SAM) at the time of quote submission to be considered an interested party.",
+   "Quotes must be received no later than: 5:00 PM EST Tuesday, September 15, 2026",
+   "Contractor shall abide by all arboriculture standards conducted in accordance with the most recent version of the ANSI standards and industry bylaws.",
+   "Upon completion, the contractor shall provide the government with a work/treatment log denoting the work performed by specimen and size (DBH)."
+  ]
+ },
+ "fit": {
+  "notice_id": "83debc9c57c44dbfbb6d8e140677efdc",
+  "fit_score": 0.07,
+  "matched_past_performance": [
+   "Grounds maintenance, cantonment area"
+  ],
+  "strengths": [
+   "NAICS 561730 matches solicitation NAICS",
+   "Eligible for Total Small Business set-aside",
+   "OSHA 30 supervisors on staff",
+   "Federal grounds maintenance past performance (Tinker AFB)",
+   "e-Verify and QC/CMMS program in place"
+  ],
+  "gaps": [
+   "DISQUALIFYING: Place of performance (NACE = National Capital Parks-East, Washington DC area) is well over 200 miles from Oklahoma City — violates owner rule [rc-distance]",
+   "No ISA Certified Arborist on staff or listed anywhere in profile — required on-site at all times",
+   "No hazardous tree removal, tree climbing, or tree felling capability stated in profile",
+   "No ANSI Z-133 or ANSI A300 compliance capability evidenced",
+   "No brush chipping equipment (12-inch chipper, log-moving machine, 10 cu yd truck) listed",
+   "No arboricultural past performance — grounds maintenance is mowing/trimming only",
+   "No traffic control / MUTCD lane closure experience stated",
+   "No stump grinding or meadow restoration capability stated",
+   "No work/treatment log by specimen and DBH capability evidenced",
+   "Base period duration not confirmed in profile against solicitation"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p5-1d4fbf28",
+    "quote": "A current ISA Certified Arborist shall always be on the job site and shall be the primary contact with the Government's technical representative responsible for controlling the quality of work and inspecting all completed work in order to verify requirements are met.",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 5,
+    "firm_answer": "The firm profile lists no ISA Certified Arborist. No arborist credential of any kind is mentioned.",
+    "status": "gap",
+    "evidence": "Profile lists CIMS-GB, OSHA 30, and e-Verify but no ISA certification."
+   },
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p2-01c70090",
+    "quote": "One of which shall speak English (responsible party on site must speak English) and one of which shall be an ISA certified arborist.",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 2,
+    "firm_answer": "No ISA certified arborist is listed in the firm profile. English-speaking supervisor is plausible but not confirmed for this context.",
+    "status": "gap",
+    "evidence": "Profile is silent on ISA certification entirely."
+   },
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p5-21efd13d",
+    "quote": "The contractor shall provide the arborist's certification ID for verification before work begins, and any time there is a change in the onsite arborist.",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 5,
+    "firm_answer": "No arborist certification ID can be provided; no ISA Certified Arborist is listed in the profile.",
+    "status": "gap",
+    "evidence": "Profile lists no arborist credentials."
+   },
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p2-5cfb9cbc",
+    "quote": "Contractor must provide a crew with a minimum of 5 members to include 2 climbers and 3 ground workers.",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 2,
+    "firm_answer": "The firm has 38 W-2 employees for janitorial and grounds work. No tree climbers are identified in the profile.",
+    "status": "gap",
+    "evidence": "Profile lists 38 W-2 employees but no tree climbing or arboricultural crew composition."
+   },
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p3-624f9e4e",
+    "quote": "Contractor shall provide all tools, fuel, equipment and all ANSI and OSHA standard industry related safety gear necessary to carry out an 8-hour day of brush chipping, tree climbing, vegetation and tree removal, tree felling and hazardous tree removal.",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 3,
+    "firm_answer": "The firm profile lists no chipping equipment, climbing gear, or tree felling/removal equipment. Grounds equipment is limited to mowing and trimming.",
+    "status": "gap",
+    "evidence": "Capabilities: mowing, trimming, irrigation, snow removal — no tree removal or climbing equipment listed."
+   },
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p2-ec258b3e",
+    "quote": "The crew shall have a machine capable of moving logs and debris from work areas without causing damage to the ground, a chipper capable of chipping wood materials up to 12 inches in diameter and a suitable truck to chip into.",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 2,
+    "firm_answer": "No chipper, log-moving machine, or chip truck is listed in the firm profile.",
+    "status": "gap",
+    "evidence": "Profile is entirely silent on arboricultural equipment."
+   },
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p2-163bc536",
+    "quote": "Mitigation shall include all aspects of tree care to include but not limited to, the creation of clear zones on trails, roads and parkways, tree removal, meadow restoration, vegetation removal, tree pruning, chipping, log removal, storm damage and vegetation management, as per the needs of The National Park Service NACE.",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 2,
+    "firm_answer": "The firm performs general grounds maintenance (mowing, trimming) but has no stated capability for tree removal, meadow restoration, chipping, log removal, or storm damage tree work.",
+    "status": "gap",
+    "evidence": "Grounds maintenance, cantonment area (Tinker AFB) covers mowing/trimming/herbicide — not hazardous tree mitigation."
+   },
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p2-800b5002",
+    "quote": "Contractor shall assist with creating clear zones, hazardous tree removal, meadow clearing, occasional storm damage, pruning and all-around proactive tree maintenance, in order to protect and preserve our urban forest and help to create a safe environment for visitors and staff.",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 2,
+    "firm_answer": "No hazardous tree removal, urban forestry, or arboricultural maintenance capability is stated in the firm profile.",
+    "status": "gap",
+    "evidence": "Profile capabilities do not include any tree care or urban forestry services."
+   },
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p3-ec680548",
+    "quote": "Contractor shall abide by all arboriculture standards conducted in accordance with the most recent version of the ANSI standards and industry bylaws.",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 3,
+    "firm_answer": "The firm has no stated arboriculture standards compliance. OSHA 30 supervisors are listed but no ANSI arboricultural standards training or certification.",
+    "status": "gap",
+    "evidence": "Profile lists OSHA 30 and CIMS-GB but no arboricultural ANSI standards compliance."
+   },
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p7-ddb16ca4",
+    "quote": "The contractor shall provide and ensure that all personnel at the work site use the proper Personal Protective Equipment (PPE) required by OSHA regulations and ANSI standards.",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 7,
+    "firm_answer": "The firm has OSHA 30 supervisors and a safety program, but no arboricultural PPE (chainsaw chaps, climbing harnesses, etc.) is mentioned.",
+    "status": "partial",
+    "evidence": "OSHA 30 supervisors on staff supports general safety compliance; arboricultural-specific PPE not evidenced."
+   },
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p7-7e5ce7ae",
+    "quote": "The contractor and each of their employees shall work in compliance with all applicable OSHA, Federal, state and local safety laws and regulations (e.g.",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 7,
+    "firm_answer": "The firm has OSHA 30 supervisors and e-Verify, indicating a compliance culture, but no arboricultural safety compliance is specifically evidenced.",
+    "status": "partial",
+    "evidence": "OSHA 30 supervisors listed in capabilities."
+   },
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p5-a46341c1",
+    "quote": "As a minimum, the contractor must provide one on-site supervisor to direct all contract personnel and maintenance operations.",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 5,
+    "firm_answer": "The firm has OSHA 30 supervisors and a QC program, indicating supervisory capacity, but no on-site arboricultural supervisor is identified.",
+    "status": "partial",
+    "evidence": "Capabilities: OSHA 30 supervisors, QC inspections logged in CMMS."
+   },
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p5-9a2954c9",
+    "quote": "The on-site supervisor shall be fluent in the English language in order to effectively communicate with the contractor's employees and/ or subcontractors as well as the COR and other Government personnel.",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 5,
+    "firm_answer": "The firm operates in Oklahoma and neighboring states; English-fluent supervisors are reasonably assumed but not explicitly stated.",
+    "status": "unknown",
+    "evidence": "Profile does not explicitly address supervisor language fluency."
+   },
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p8-f5ee1806",
+    "quote": "Upon completion, the contractor shall provide the government with a work/treatment log denoting the work performed by specimen and size (DBH).",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 8,
+    "firm_answer": "The firm uses a CMMS for QC inspection logging, but no capability for arboricultural work/treatment logs by specimen and DBH is stated.",
+    "status": "gap",
+    "evidence": "CMMS logging capability exists but is for janitorial/grounds QC, not arboricultural specimen records."
+   },
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p8-be8e1a74",
+    "quote": "The work log shall utilize standard industry terms and include any tree health or hazard concerns noted during work performance.",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 8,
+    "firm_answer": "No arboricultural industry terminology knowledge or tree health assessment capability is stated in the profile.",
+    "status": "gap",
+    "evidence": "Profile is silent on tree health assessment or arboricultural reporting."
+   },
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p4-989cfabd",
+    "quote": "B: For tree removals, all stumps outside of mowed areas shall be no taller than 2 inches above surrounding ground level.",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 4,
+    "firm_answer": "No stump grinding or stump treatment capability is listed in the firm profile.",
+    "status": "gap",
+    "evidence": "Profile capabilities do not include stump grinding or tree removal finishing work."
+   },
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p4-bc87ad42",
+    "quote": "Tree removals in mowed areas shall have the stumps ground to six inches below the surrounding ground level, and topped with topsoil to match surrounding grade.",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 4,
+    "firm_answer": "No stump grinding equipment or topsoil restoration capability is listed in the firm profile.",
+    "status": "gap",
+    "evidence": "Profile is silent on stump grinding and site restoration after tree removal."
+   },
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p3-34cd3fc3",
+    "quote": "The contractor shall supply and set up all advanced signage and traffic control for roadside operations and lane closures.",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 3,
+    "firm_answer": "No traffic control or lane closure capability is stated in the firm profile.",
+    "status": "gap",
+    "evidence": "Profile capabilities: janitorial, custodial, grounds maintenance — no traffic control mentioned."
+   },
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p3-5b25afad",
+    "quote": "All lane closures must be in accordance with MUTCD guidelines.",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 3,
+    "firm_answer": "No MUTCD compliance capability or traffic control experience is stated in the firm profile.",
+    "status": "gap",
+    "evidence": "Profile is entirely silent on MUTCD or traffic control."
+   },
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p1-2a77a61a",
+    "quote": "The contractor shall provide all management, supervision, labor, materials, supplies, tools, equipment, and all other items necessary to coordinate and ensure quality workmanship.",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 1,
+    "firm_answer": "The firm has management, supervision, and QC systems (CMMS) for janitorial and grounds work, but lacks the specialized arboricultural tools and equipment required for this scope.",
+    "status": "partial",
+    "evidence": "Capabilities: 38 W-2 employees, OSHA 30 supervisors, QC inspections logged in CMMS."
+   },
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p2-980c3605",
+    "quote": "Contractor shall show up at predetermined time at a predetermined area with tree crew and equipment necessary to work an 8-hour day on the mitigation of hazardous trees and vegetation.",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 2,
+    "firm_answer": "The firm has no tree crew or hazardous tree mitigation equipment listed in the profile.",
+    "status": "gap",
+    "evidence": "Profile capabilities do not include any tree crew or arboricultural equipment."
+   },
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p4-2ff902a6",
+    "quote": "The contractor shall, without additional expense to the Government, be responsible for obtaining and renewing all necessary licenses and permits.",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 4,
+    "firm_answer": "The firm holds licenses for janitorial and grounds work in Oklahoma. No arboricultural licenses or permits are mentioned.",
+    "status": "unknown",
+    "evidence": "Profile does not specify which licenses are held beyond CIMS-GB and OSHA 30."
+   },
+   {
+    "requirement_id": "83debc9c-1900ffa2-p9-a5227c6f",
+    "quote": "Offeror must have a current registration in the System for Award Management (SAM) at the time of quote submission to be considered an interested party.",
+    "source_file": "1900ffa2f59145d99af64f5346e9e537.pdf",
+    "page": 9,
+    "firm_answer": "SAM registration is not explicitly confirmed in the profile, but the firm has federal contracts (GSA, DoD, VA) which require active SAM registration.",
+    "status": "unknown",
+    "evidence": "Federal past performance with GSA Region 7, Tinker AFB, and VA Oklahoma City implies SAM registration, but profile does not explicitly confirm."
+   },
+   {
+    "requirement_id": "83debc9c-1900ffa2-p10-31645bd9",
+    "quote": "Evaluation Criteria and Quote Submittal Instructions The quote submission shall include three separate volumes: Volume I-Technical Capability Volume II – Past Performance Volume III-Price.",
+    "source_file": "1900ffa2f59145d99af64f5346e9e537.pdf",
+    "page": 10,
+    "firm_answer": "The firm can prepare a three-volume submission, but Volume I (Technical Capability) would be severely deficient in arboricultural content.",
+    "status": "partial",
+    "evidence": "General proposal preparation capability implied by federal contracting history."
+   },
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p6-088b3de4",
+    "quote": "The contractor shall maintain the work site in a safe, neat and orderly manner.",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 6,
+    "firm_answer": "The firm has QC inspection programs and OSHA 30 supervisors supporting worksite safety and orderliness.",
+    "status": "meets",
+    "evidence": "Capabilities: OSHA 30 supervisors, QC inspections logged in CMMS, green cleaning program."
+   },
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p4-481e09bf",
+    "quote": "The Contractor shall assume full liability and responsibility for any loss or damage to Government property caused by his operations and shall assume full responsibility for any and all damages or claims for damage for injury to persons, property or equipment which might result from any service performed under this contract.",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 4,
+    "firm_answer": "The firm has federal contracts with liability requirements (GSA, DoD, VA), implying adequate insurance, but no specific insurance levels are stated in the profile.",
+    "status": "unknown",
+    "evidence": "Federal past performance implies liability insurance, but profile does not specify coverage amounts."
+   },
+   {
+    "requirement_id": "83debc9c-1900ffa2-p13-7097cb53",
+    "quote": "The Contractor shall maintain an active Federal Government contracts registration in the System for Award Management (SAM) at https://www.sam.gov during contract performance and through final payment under this contract.",
+    "source_file": "1900ffa2f59145d99af64f5346e9e537.pdf",
+    "page": 13,
+    "firm_answer": "Active SAM registration is implied by existing federal contracts but not explicitly confirmed in the profile.",
+    "status": "unknown",
+    "evidence": "Federal contracts with GSA, Tinker AFB, and VA imply active SAM registration."
+   },
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p5-93d93966",
+    "quote": "If the on-site supervisor is not present or absent due to illness or other reasons, the contractor shall provide an alternate supervisor to manage and direct all contract personnel and operations.",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 5,
+    "firm_answer": "The firm has 38 W-2 employees and OSHA 30 supervisors, suggesting backup supervisory capacity, but no alternate ISA-certified arborist supervisor is identified.",
+    "status": "partial",
+    "evidence": "38 W-2 employees and OSHA 30 supervisors suggest supervisory depth, but arborist qualification for alternate is not evidenced."
+   },
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p3-abe9ef3b",
+    "quote": "The contractor shall remove all resulting debris from the site, except for chips.",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 3,
+    "firm_answer": "The firm performs debris removal as part of grounds maintenance (Tinker AFB), but no tree debris removal capability is specifically stated.",
+    "status": "partial",
+    "evidence": "Grounds maintenance, cantonment area — keywords include grounds, trimming, landscaping."
+   },
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p4-54b76066",
+    "quote": "Contractor will spread and mix a tall fescue 31 seed mix into the placed topsoil.",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 4,
+    "firm_answer": "No seeding or turf restoration capability is listed in the firm profile.",
+    "status": "gap",
+    "evidence": "Profile capabilities: mowing, trimming, irrigation — no seeding or turf restoration mentioned."
+   },
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p9-7a7fe164",
+    "quote": "5.2 Submittals Contractor shall submit the following documents on the outlined schedule.",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 9,
+    "firm_answer": "The firm has a CMMS and QC documentation system that supports submittal compliance, but specific arboricultural submittals (e.g., arborist certification ID, work/treatment logs) cannot be fulfilled.",
+    "status": "partial",
+    "evidence": "QC inspections logged in CMMS supports general documentation capability."
+   },
+   {
+    "requirement_id": "83debc9c-1900ffa2-p1-bea87149",
+    "quote": "Any representations and/or certifications attached to this Request for Quotation must be completed by the quoter.",
+    "source_file": "1900ffa2f59145d99af64f5346e9e537.pdf",
+    "page": 1,
+    "firm_answer": "The firm can complete standard representations and certifications as a WOSB/EDWOSB/SBA small business registered in SAM.",
+    "status": "meets",
+    "evidence": "Set-asides: WOSB, EDWOSB, SBA — eligible for Total Small Business set-aside."
+   },
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p7-97c1668e",
+    "quote": "Contractor personnel operating motor vehicles used in performance of this contract shall have a valid state operator's license and shall operate all motor vehicles in accordance with applicable laws.",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 7,
+    "firm_answer": "The firm operates vehicles for grounds maintenance at federal facilities; valid operator licenses are implied but not explicitly confirmed.",
+    "status": "unknown",
+    "evidence": "Grounds maintenance, cantonment area (Tinker AFB) implies vehicle operations but profile does not explicitly address driver licensing."
+   },
+   {
+    "requirement_id": "83debc9c-1900ffa2-p14-237b977c",
+    "quote": "The Contractor will not engage in any racially discriminatory DEI activities",
+    "source_file": "1900ffa2f59145d99af64f5346e9e537.pdf",
+    "page": 14,
+    "firm_answer": "No information in the profile contradicts this requirement; standard compliance clause.",
+    "status": "unknown",
+    "evidence": "Profile is silent on this clause; assumed standard compliance for any federal contractor."
+   },
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p2-aa340b0c",
+    "quote": "Contractor shall give at least two working days advance notice before any work is performed.",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 2,
+    "firm_answer": "The firm has scheduling and coordination experience from federal facility contracts; advance notice protocols are operationally feasible.",
+    "status": "meets",
+    "evidence": "Federal facility operations at GSA, Tinker AFB, and VA imply scheduling and advance coordination capability."
+   },
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p8-85d963eb",
+    "quote": "The Contractor shall submit all invoices through www.ipp.gov within 30 days of work performed or on a quarterly basis.",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 8,
+    "firm_answer": "The firm has federal contracts with GSA and DoD, implying familiarity with IPP invoicing, but IPP use is not explicitly confirmed in the profile.",
+    "status": "unknown",
+    "evidence": "Federal past performance with GSA Region 7 and Tinker AFB implies IPP invoicing experience."
+   },
+   {
+    "requirement_id": "83debc9c-6d4d27fc-p6-b5b10eae",
+    "quote": "It shall be the contractor's responsibility to take whatever measures are necessary to assure the protection of the Government assets and to perform the work to cause minimal disruption ongoing activities near occupied areas.",
+    "source_file": "6d4d27fcbc104d0888fc8c4fe4b1074b.pdf",
+    "page": 6,
+    "firm_answer": "The firm has experience working in occupied federal facilities (GSA building, VA clinic) with minimal disruption protocols.",
+    "status": "meets",
+    "evidence": "Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic (VA) — both involve occupied facility operations."
+   },
+   {
+    "requirement_id": "83debc9c-1900ffa2-p3-72b330ad",
+    "quote": "Payment shall be on a quarterly basis as determined by the number of days worked in the designated months.",
+    "source_file": "1900ffa2f59145d99af64f5346e9e537.pdf",
+    "page": 3,
+    "firm_answer": "The firm has experience with federal invoicing cycles; quarterly payment terms are administratively manageable.",
+    "status": "meets",
+    "evidence": "Federal past performance with GSA, DoD, and VA implies familiarity with federal payment terms."
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "83debc9c57c44dbfbb6d8e140677efdc",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-09-15T17:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": null,
+   "source_quotes": [
+    "3.7 Quotes must be received no later than: 5:00 PM EST Tuesday, September 15, 2026 4.OFFER FORMAT"
+   ]
+  },
+  "days_to_close": 1.4366742981481482,
+  "set_aside_note": "Set-aside is \"Small Business Set Aside - Total.\" The firm (Red Cedar Facility Services) can claim WOSB, EDWOSB, and SBA (total small business). Total Small Business set-asides are open to all small businesses, which the firm qualifies as under SBA. The firm IS eligible to bid.",
+  "amendment_note": "no amendment",
+  "calendar_entries": [
+   {
+    "title": "Proposal Due",
+    "date": "2026-09-15",
+    "note": "Quotes must be received no later than 5:00 PM EST (EDT per notice header: -04:00) on Tuesday, September 15, 2026. Submit digitally via email to richard_burns@ios.doi.gov.",
+    "source_quote": "3.7 Quotes must be received no later than: 5:00 PM EST Tuesday, September 15, 2026 4.OFFER FORMAT"
+   },
+   {
+    "title": "Decide By (2 business days before proposal due)",
+    "date": "2026-09-11",
+    "note": "Internal go/no-go decision deadline — two business days before the proposal due date of September 15, 2026.",
+    "source_quote": "3.7 Quotes must be received no later than: 5:00 PM EST Tuesday, September 15, 2026 4.OFFER FORMAT"
+   }
+  ]
+ },
+ "model_calls": 5,
+ "tokens_in": 70918,
+ "tokens_out": 14958,
+ "seconds": 139.86,
+ "produced_at": "2026-09-14T05:33:31.197897-05:00"
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Biddesk — the desk that reads SAM.gov for you</title>
+<meta name="description" content="Biddesk surfaces one bid/no-bid card per real SAM.gov candidate for a small contractor.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,800&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="#/">
+      <span class="brand-mark">BIDDESK</span>
+      <span class="brand-sub">the desk that reads SAM.gov overnight</span>
+    </a>
+    <nav class="top-nav">
+      <a href="#/">Firms</a>
+      <a href="#/bench">Bench</a>
+    </nav>
+  </div>
+</header>
+
+<div id="banner" class="banner" hidden></div>
+
+<main id="main" class="wrap" aria-live="polite">
+  <p class="loading">Loading the snapshot…</p>
+</main>
+
+<footer class="foot wrap">
+  <p class="fict">Fictional firms. Real SAM.gov notices.</p>
+  <p id="foot-meta" class="muted mono"></p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

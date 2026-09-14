@@ -1,0 +1,889 @@
+{
+ "notice_id": "4f8dba025a32440284ae227c983342de",
+ "firm_slug": "red-cedar",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:17:28-05:00",
+ "evidence_basis": null,
+ "days_to_close": 3.4891830408912035,
+ "closed": false,
+ "response_kind": "proposal",
+ "card": {
+  "notice_id": "4f8dba025a32440284ae227c983342de",
+  "firm_slug": "red-cedar",
+  "situation": "USDA Forest Service combined synopsis/solicitation for floor stripping and waxing (~8,500 sq ft) at the Center for Grain and Animal Health Research, Manhattan, KS — a one-time spot task under a Total Small Business Set-Aside.\nReached the owner because NAICS 561720 is an exact match, the firm qualifies under the set-aside, and floor care is a listed core capability with relevant federal past performance.",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "Firm holds an exact NAICS 561720 match, floor care is an explicit core capability, and CIMS-GB certification directly supports the slip-resistance and product-approval requirements [4f8dba02-4d2a51d2-p18-028fa240].",
+   "Strong federal facility past performance (GSA Region 7, VA, Tinker AFB) demonstrates compliance with security access, safety, and COR coordination requirements [4f8dba02-4d2a51d2-p19-3837298e].",
+   "Firm qualifies for the Total Small Business Set-Aside and is e-Verify enrolled, with a green cleaning program that aligns with the advance product-approval requirement [4f8dba02-4d2a51d2-p18-fe4a1d15]."
+  ],
+  "reasons_against": [
+   "Manhattan, KS is approximately 360 miles from Oklahoma City, which is a FATAL violation of owner rule [rc-distance] prohibiting bids over 200 miles from OKC [4f8dba02-4d2a51d2-p18-de19740b].",
+   "This is a one-time spot task with no 12-month base period, which is a FATAL violation of owner rule [rc-base] requiring a minimum base period [4f8dba02-4d2a51d2-p18-171ae314].",
+   "The ~360-mile round trip from OKC to Manhattan, KS adds significant travel cost that would make the firm's pricing uncompetitive against local Kansas contractors [4f8dba02-4d2a51d2-p18-dff16849]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-09-15",
+  "key_dates": {
+   "questions_due": "2026-09-14T17:00:00-05:00",
+   "proposal_due": "2026-09-17T17:00:00-05:00",
+   "site_visit": null,
+   "period_of_performance": null,
+   "source_quotes": [
+    "Questions Questions shall be submitted via email to john.camacho@usda.gov and are due no later than September 14, 2026, at 5:00 PM CDT.",
+    "Quotes are due on 9/17/2026 5PM CDT Send quotes to john.camacho@usda.gov"
+   ]
+  },
+  "fit_score": 0.76,
+  "matrix_summary": "15 of 36 requirements met, 8 partial, 2 gap, 11 unknown",
+  "evidence_link": "https://sam.gov/workspace/contract/opp/4f8dba025a32440284ae227c983342de/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "4f8dba02-4d2a51d2-p18-de19740b",
+   "quote": "Contractor will travel to Center for Grain and Animal Health Research located at 1515 College Ave, Manhattan, KS 66502.",
+   "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+   "page": 18,
+   "firm_answer": "Manhattan, KS is approximately 360 miles from Oklahoma City, OK. Owner rule [rc-distance] prohibits bids over 200 miles from Oklahoma City. This requirement is a fatal disqualifier under firm policy.",
+   "status": "gap",
+   "evidence": "Owner rule [rc-distance]: No bids over 200 miles from Oklahoma City."
+  },
+  {
+   "requirement_id": "4f8dba02-7f8b640f-p20-afb6ab9d",
+   "quote": "Contractor will travel to Center for Grain and Animal Health Research located at 1515 College Ave, Manhattan, KS 66502.",
+   "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+   "page": 20,
+   "firm_answer": "Same fatal distance issue as above. Manhattan, KS is ~360 miles from OKC, exceeding the 200-mile owner rule limit.",
+   "status": "gap",
+   "evidence": "Owner rule [rc-distance]: No bids over 200 miles from Oklahoma City."
+  },
+  {
+   "requirement_id": "4f8dba02-4d2a51d2-p18-171ae314",
+   "quote": "The contractor shall provide all labor, materials, equipment, and supervision needed to complete the following tasks of stripping and waxing approximately 8500 square feet of flooring.",
+   "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+   "page": 18,
+   "firm_answer": "Firm lists floor care as a core capability and holds past performance with floor care keywords on federal and state contracts. However, no 12-month base period exists (one-time task), triggering owner rule [rc-base] disqualifier.",
+   "status": "partial",
+   "evidence": "Capabilities: floor care; Past performance: Custodial services, Oklahoma City Federal Building (keywords: floor care); Owner rule [rc-base] violated — no 12-month base period."
+  },
+  {
+   "requirement_id": "4f8dba02-7f8b640f-p20-1ea3ddba",
+   "quote": "The contractor shall provide all labor, materials, equipment, and supervision needed to complete the following tasks of stripping and waxing approximately 8500 square feet of flooring.",
+   "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+   "page": 20,
+   "firm_answer": "Same as above — technical capability exists but owner rule [rc-base] (no 12-month base period) is a fatal disqualifier.",
+   "status": "partial",
+   "evidence": "Capabilities: floor care; Owner rule [rc-base] violated."
+  },
+  {
+   "requirement_id": "4f8dba02-4d2a51d2-p11-2b799b56",
+   "quote": "At least one (1) Primary and Alternate who will perform the services must be included in the quote.",
+   "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+   "page": 11,
+   "firm_answer": "The firm profile does not name any specific key personnel. The firm has 38 W-2 employees and could designate personnel, but no named individuals are documented in the profile.",
+   "status": "unknown",
+   "evidence": "Profile states 38 W-2 employees but names no specific Primary or Alternate personnel."
+  },
+  {
+   "requirement_id": "4f8dba02-7f8b640f-p13-7ea59b64",
+   "quote": "At least one (1) Primary and Alternate who will perform the services must be included in the quote.",
+   "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+   "page": 13,
+   "firm_answer": "Same as above — no named personnel in profile. Could be addressed at quote time but not evidenced now.",
+   "status": "unknown",
+   "evidence": "Profile states 38 W-2 employees but names no specific Primary or Alternate personnel."
+  },
+  {
+   "requirement_id": "4f8dba02-4d2a51d2-p11-2e57b9b6",
+   "quote": "Contractor must specify personnel who will perform the work, the equipment that will be used and if they plan to subcontract the work.",
+   "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+   "page": 11,
+   "firm_answer": "Firm has 38 W-2 employees and floor care equipment capability. No specific personnel or equipment inventory is listed in the profile. Subcontracting intent is not stated.",
+   "status": "unknown",
+   "evidence": "Capabilities: floor care; 38 W-2 employees; no equipment list or named personnel in profile."
+  },
+  {
+   "requirement_id": "4f8dba02-7f8b640f-p13-6703561f",
+   "quote": "Contractor must specify personnel who will perform the work, the equipment that will be used and if they plan to subcontract the work.",
+   "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+   "page": 13,
+   "firm_answer": "Same as above — profile is silent on specific equipment inventory and named personnel.",
+   "status": "unknown",
+   "evidence": "Capabilities: floor care; 38 W-2 employees; no equipment list in profile."
+  },
+  {
+   "requirement_id": "4f8dba02-4d2a51d2-p11-689190f9",
+   "quote": "All offerors must provide the following minimum information and documentation with their quotations to be considered responsive and have their offers evaluated:",
+   "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+   "page": 11,
+   "firm_answer": "Firm is capable of assembling a responsive quotation package (pricing, personnel, equipment). No structural barrier identified beyond the fatal distance and base-period owner rules.",
+   "status": "partial",
+   "evidence": "General administrative capability implied by federal contracting history; fatal owner rules preclude bidding."
+  },
+  {
+   "requirement_id": "4f8dba02-7f8b640f-p13-aaa66db7",
+   "quote": "All offerors must provide the following minimum information and documentation with their quotations to be considered responsive and have their offers evaluated:",
+   "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+   "page": 13,
+   "firm_answer": "Same as above.",
+   "status": "partial",
+   "evidence": "General administrative capability implied by federal contracting history; fatal owner rules preclude bidding."
+  },
+  {
+   "requirement_id": "4f8dba02-4d2a51d2-p11-e1308213",
+   "quote": "Price: The offeror shall provide pricing as requested in the Schedule of Items on Schedule of Items on Section 20 on the SF1449.",
+   "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+   "page": 11,
+   "firm_answer": "Firm can prepare SF1449 pricing. However, travel costs from OKC to Manhattan KS (~360 miles) would be significant and uncompetitive.",
+   "status": "partial",
+   "evidence": "Federal contracting experience (GSA Region 7, VA); distance inflates travel cost."
+  },
+  {
+   "requirement_id": "4f8dba02-7f8b640f-p13-9b3e119d",
+   "quote": "Price: The offeror shall provide pricing as requested in the Schedule of Items on Schedule of Items on Section 20 on the SF1449.",
+   "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+   "page": 13,
+   "firm_answer": "Same as above.",
+   "status": "partial",
+   "evidence": "Federal contracting experience; distance inflates travel cost."
+  },
+  {
+   "requirement_id": "4f8dba02-7f8b640f-p13-84584c3d",
+   "quote": "Therefore, to be considered responsive, contractors must submit pricing for all items.",
+   "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+   "page": 13,
+   "firm_answer": "Same as above.",
+   "status": "meets",
+   "evidence": "Federal contracting history demonstrates ability to price complete task orders."
+  },
+  {
+   "requirement_id": "4f8dba02-4d2a51d2-p18-dff16849",
+   "quote": "Travel costs must be included in the proposal.",
+   "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+   "page": 18,
+   "firm_answer": "Firm can include travel costs. However, ~360-mile round trip from OKC to Manhattan KS significantly inflates cost and reduces competitiveness.",
+   "status": "partial",
+   "evidence": "Owner rule [rc-distance] violated; travel cost burden is a competitive disadvantage."
+  },
+  {
+   "requirement_id": "4f8dba02-7f8b640f-p20-6da7ac92",
+   "quote": "Travel costs must be included in the proposal.",
+   "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+   "page": 20,
+   "firm_answer": "Same as above.",
+   "status": "partial",
+   "evidence": "Owner rule [rc-distance] violated; travel cost burden is a competitive disadvantage."
+  },
+  {
+   "requirement_id": "4f8dba02-4d2a51d2-p19-17dcb4b9",
+   "quote": "8.0 Security Requirements Contractor personnel shall comply with facility access procedures and any site safety policies while on Government property.",
+   "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+   "page": 19,
+   "firm_answer": "Firm has performed on federal facilities (GSA Region 7, VA, Tinker AFB) and is familiar with facility access and site safety compliance.",
+   "status": "meets",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic; Grounds maintenance, cantonment area (Tinker AFB)."
+  },
+  {
+   "requirement_id": "4f8dba02-7f8b640f-p21-fc7c215c",
+   "quote": "8.0 Security Requirements Contractor personnel shall comply with facility access procedures and any site safety policies while on Government property.",
+   "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+   "page": 21,
+   "firm_answer": "Same as above.",
+   "status": "meets",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic; Grounds maintenance, cantonment area (Tinker AFB)."
+  },
+  {
+   "requirement_id": "4f8dba02-4d2a51d2-p9-6b49f094",
+   "quote": "The contractor must comply with the personal identity verification (PIV) policies and procedures established by the United States Department of Agriculture (USDA) Directives 4620‑002 series, Homeland Security Presidential Directive 12, and any implementing guidance issued by the Contracting Officer.",
+   "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+   "page": 9,
+   "firm_answer": "Profile does not mention PIV or USDA LincPass compliance. Firm has e-Verify and has worked on federal facilities, but USDA-specific PIV compliance is not documented.",
+   "status": "unknown",
+   "evidence": "Capabilities: e-Verify enrolled; no mention of PIV/USDA LincPass in profile."
+  },
+  {
+   "requirement_id": "4f8dba02-7f8b640f-p11-b458b0d0",
+   "quote": "The contractor must comply with the personal identity verification (PIV) policies and procedures established by the United States Department of Agriculture (USDA) Directives 4620‑002 series, Homeland Security Presidential Directive 12, and any implementing guidance issued by the Contracting Officer.",
+   "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+   "page": 11,
+   "firm_answer": "Same as above — USDA PIV/LincPass compliance not documented in profile.",
+   "status": "unknown",
+   "evidence": "Capabilities: e-Verify enrolled; no mention of PIV/USDA LincPass in profile."
+  },
+  {
+   "requirement_id": "4f8dba02-4d2a51d2-p9-19e2f63f",
+   "quote": "The contractor must appoint a representative responsible for PIV compliance and must maintain a current list of employees eligible for a USDA LincPass or otherwise authorized to perform work under this contract.",
+   "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+   "page": 9,
+   "firm_answer": "Profile does not document a designated PIV compliance representative or USDA LincPass eligibility list.",
+   "status": "unknown",
+   "evidence": "No mention of PIV representative or USDA LincPass in firm profile."
+  },
+  {
+   "requirement_id": "4f8dba02-7f8b640f-p11-9f87d9be",
+   "quote": "The contractor must appoint a representative responsible for PIV compliance and must maintain a current list of employees eligible for a USDA LincPass or otherwise authorized to perform work under this contract.",
+   "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+   "page": 11,
+   "firm_answer": "Same as above.",
+   "status": "unknown",
+   "evidence": "No mention of PIV representative or USDA LincPass in firm profile."
+  },
+  {
+   "requirement_id": "4f8dba02-4d2a51d2-p18-ca777067",
+   "quote": " Work must comply with all applicable facility safety requirements.",
+   "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+   "page": 18,
+   "firm_answer": "Firm holds OSHA 30 supervisors and has performed on federal and healthcare facilities with safety compliance requirements.",
+   "status": "meets",
+   "evidence": "Capabilities: OSHA 30 supervisors; Past performance: Housekeeping support, outpatient clinic (infection control); Custodial services, Oklahoma City Federal Building."
+  },
+  {
+   "requirement_id": "4f8dba02-7f8b640f-p20-57281c37",
+   "quote": " Work must comply with all applicable facility safety requirements.",
+   "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+   "page": 20,
+   "firm_answer": "Same as above.",
+   "status": "meets",
+   "evidence": "Capabilities: OSHA 30 supervisors; Past performance: Housekeeping support, outpatient clinic."
+  },
+  {
+   "requirement_id": "4f8dba02-4d2a51d2-p18-028fa240",
+   "quote": " Contractor must ensure slip-resistant conditions during and after work.",
+   "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+   "page": 18,
+   "firm_answer": "Floor care and waxing are core capabilities of the firm; slip-resistance management is inherent to professional floor care services. CIMS-GB certification supports this.",
+   "status": "meets",
+   "evidence": "Capabilities: floor care, CIMS-GB certified."
+  },
+  {
+   "requirement_id": "4f8dba02-7f8b640f-p20-0a1386f5",
+   "quote": " Contractor must ensure slip-resistant conditions during and after work.",
+   "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+   "page": 20,
+   "firm_answer": "Same as above.",
+   "status": "meets",
+   "evidence": "Capabilities: floor care, CIMS-GB certified."
+  },
+  {
+   "requirement_id": "4f8dba02-4d2a51d2-p18-fe4a1d15",
+   "quote": " Products used must be approved by facility management in advance.",
+   "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+   "page": 18,
+   "firm_answer": "Firm operates a green cleaning program and has experience obtaining product approvals on federal and healthcare contracts.",
+   "status": "meets",
+   "evidence": "Capabilities: green cleaning program; Past performance: Janitorial, state office complex (green cleaning); Housekeeping support, outpatient clinic."
+  },
+  {
+   "requirement_id": "4f8dba02-7f8b640f-p20-30e22b57",
+   "quote": " Products used must be approved by facility management in advance.",
+   "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+   "page": 20,
+   "firm_answer": "Same as above.",
+   "status": "meets",
+   "evidence": "Capabilities: green cleaning program; Past performance: Janitorial, state office complex."
+  },
+  {
+   "requirement_id": "4f8dba02-4d2a51d2-p18-49de48d1",
+   "quote": " All work must be performed in a manner that minimizes disruption to staff and operations.",
+   "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+   "page": 18,
+   "firm_answer": "Firm has performed custodial and housekeeping services in occupied federal buildings and a VA clinic, demonstrating experience minimizing operational disruption.",
+   "status": "meets",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic."
+  },
+  {
+   "requirement_id": "4f8dba02-7f8b640f-p20-f56f15d1",
+   "quote": " All work must be performed in a manner that minimizes disruption to staff and operations.",
+   "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+   "page": 20,
+   "firm_answer": "Same as above.",
+   "status": "meets",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic."
+  },
+  {
+   "requirement_id": "4f8dba02-4d2a51d2-p19-3837298e",
+   "quote": "Contractor shall coordinate site access with the COR or location monitor",
+   "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+   "page": 19,
+   "firm_answer": "Firm has coordinated site access on multiple federal contracts (GSA, VA, Tinker AFB). Standard practice for the firm.",
+   "status": "meets",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Grounds maintenance, cantonment area (Tinker AFB); Housekeeping support, outpatient clinic."
+  },
+  {
+   "requirement_id": "4f8dba02-7f8b640f-p21-aacd0dc6",
+   "quote": "Contractor shall coordinate site access with the COR or location monitor",
+   "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+   "page": 21,
+   "firm_answer": "Same as above.",
+   "status": "meets",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Grounds maintenance, cantonment area (Tinker AFB)."
+  },
+  {
+   "requirement_id": "4f8dba02-4d2a51d2-p24-de0ddd41",
+   "quote": "If this contract is covered by the EO, the contractor must provide employees with 1 hour of paid sick leave for every 30 hours they work, up to 56 hours of paid sick leave each year.",
+   "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+   "page": 24,
+   "firm_answer": "Profile does not explicitly address EO 13706 paid sick leave policy, but firm employs 38 W-2 employees and has multiple federal contracts, implying compliance with federal labor requirements.",
+   "status": "unknown",
+   "evidence": "38 W-2 employees; federal contracting history implies labor law compliance; no explicit EO 13706 policy stated in profile."
+  },
+  {
+   "requirement_id": "4f8dba02-4d2a51d2-p24-672aa7b0",
+   "quote": "If a contract is subject to Executive Order 13658, the contractor must pay all covered workers at least $13.65 per hour (or the applicable wage rate listed on this wage determination, if it is higher) for all hours spent performing on the con",
+   "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+   "page": 24,
+   "firm_answer": "Profile does not state wage rates. Firm has multiple federal contracts and is expected to comply with applicable wage determinations, but no explicit confirmation in profile.",
+   "status": "unknown",
+   "evidence": "Federal contracting history implies SCA/EO wage compliance; no wage rate data in profile."
+  },
+  {
+   "requirement_id": "4f8dba02-4d2a51d2-p10-0dad97e6",
+   "quote": "The contractor must include this clause in all subcontracts requiring routine unaccompanied physical access to a Federally controlled facility and/or routine unaccompanied access to a Federally controlled information system.",
+   "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+   "page": 10,
+   "firm_answer": "Firm profile does not indicate subcontracting intent. If subcontracting, firm would need to flow down this clause. No subcontracting history noted in profile.",
+   "status": "unknown",
+   "evidence": "Profile does not mention subcontracting arrangements or flow-down clause compliance."
+  },
+  {
+   "requirement_id": "4f8dba02-4d2a51d2-p18-a8b6d59d",
+   "quote": " Areas must remain accessible per scheduling agreed upon with facility management.",
+   "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+   "page": 18,
+   "firm_answer": "Firm uses a CMMS for QC inspections and scheduling, supporting coordination with facility management for access scheduling.",
+   "status": "meets",
+   "evidence": "Capabilities: QC inspections logged in a CMMS; federal facility experience."
+  },
+  {
+   "requirement_id": "4f8dba02-7f8b640f-p20-06850f6d",
+   "quote": " Areas must remain accessible per scheduling agreed upon with facility management.",
+   "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+   "page": 20,
+   "firm_answer": "Same as above.",
+   "status": "meets",
+   "evidence": "Capabilities: QC inspections logged in a CMMS; federal facility experience."
+  }
+ ],
+ "matrix_dropped": 5,
+ "matrix_dropped_rows": [
+  {
+   "requirement_id": "4f8dba02-4d2a51d2-p11-4d2a51d2",
+   "quote": "Therefore, to be considered responsive, contractors must submit pricing for all items.",
+   "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+   "page": 11,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "4f8dba02-4d2a51d2-p19-ce0e5331",
+   "quote": "7.0 Contractor's Key Personnel Work must be performed by trained and qualified personnel.",
+   "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+   "page": 19,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "4f8dba02-7f8b640f-p21-0d5742cb",
+   "quote": "7.0 Contractor's Key Personnel Work must be performed by trained and qualified personnel.",
+   "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+   "page": 21,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "4f8dba02-4d2a51d2-p19-283ca88a",
+   "quote": "Personnel shall possess a valid driver's license or government-issued ID.",
+   "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+   "page": 19,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "4f8dba02-7f8b640f-p21-dcf48cef",
+   "quote": "Personnel shall possess a valid driver's license or government-issued ID.",
+   "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+   "page": 21,
+   "reason": "not_verbatim"
+  }
+ ],
+ "fit_score_code": 0.76,
+ "drafts": {
+  "capability_statement": "Red Cedar Facility Services is a woman-owned small business (NAICS 561720) with a dedicated floor care capability and a proven record of performance on federal facility contracts. Our team of 38 W-2 employees delivers professional janitorial and custodial services — including floor stripping, waxing, and slip-resistance management — using a documented green cleaning program with products submitted for facility management approval prior to use.\n\nWe hold CIMS-GB certification and operate a quality control program supported by a CMMS for scheduling and inspection logging, ensuring work is completed on time and with minimal disruption to building occupants. Our OSHA 30-certified supervisors oversee all field operations and enforce site safety compliance on every engagement.\n\nRed Cedar has performed custodial and housekeeping services in occupied federal buildings, including work for GSA Region 7 and the Department of Veterans Affairs, where we have coordinated site access with CORs, complied with facility security procedures, and maintained infection-control and safety standards throughout performance. We are enrolled in e-Verify and maintain full compliance with applicable federal labor requirements.\n\nFor this requirement at the Center for Grain and Animal Health Research, Red Cedar would provide all labor, materials, and equipment necessary to strip and wax approximately 8,500 square feet of flooring, with travel costs included in our proposal pricing. We are prepared to name qualified Primary and Alternate personnel and to document all equipment to be used at time of quote submission.\n\nRed Cedar is registered in SAM.gov and qualifies as a total small business under this set-aside.",
+  "questions_for_co": [
+   "Is the place of performance strictly limited to the facility at 1515 College Ave, Manhattan, KS 66502, or may the government consider offerors who will mobilize from outside the local area, provided travel costs are fully included in the proposal price? [4f8dba02-4d2a51d2-p18-de19740b]",
+   "May the Primary and Alternate personnel named in the quote be designated at time of submission rather than being employees currently assigned to a Kansas location, provided their qualifications and relevant experience are documented? [4f8dba02-4d2a51d2-p11-2b799b56]",
+   "Will the government provide a wage determination applicable to this contract, and can you confirm whether Executive Order 13658 (minimum wage) and Executive Order 13706 (paid sick leave) apply to this one-time task order? [4f8dba02-4d2a51d2-p24-672aa7b0]",
+   "Regarding USDA PIV/LincPass compliance (USDA Directive 4620-002 series): will the contractor's personnel be required to obtain a USDA LincPass prior to beginning work, or is escorted or supervised access to the facility sufficient for a short-duration, one-time floor care task? [4f8dba02-4d2a51d2-p9-6b49f094]",
+   "If the contractor does not intend to subcontract any portion of the work, is a statement to that effect in the quote sufficient to satisfy the subcontracting disclosure requirement, or must additional documentation be provided? [4f8dba02-4d2a51d2-p10-0dad97e6]",
+   "Can the government provide the applicable wage determination number and confirm the estimated number of labor hours or workdays anticipated for completion of the 8,500-square-foot stripping and waxing scope, to support accurate pricing? [4f8dba02-4d2a51d2-p24-672aa7b0]"
+  ],
+  "calendar_entries": [
+   {
+    "title": "Questions Due",
+    "date": "2026-09-14",
+    "note": "Submit questions via email to john.camacho@usda.gov by 5:00 PM CDT.",
+    "source_quote": "Questions Questions shall be submitted via email to john.camacho@usda.gov and are due no later than September 14, 2026, at 5:00 PM CDT."
+   },
+   {
+    "title": "Decide By (2 business days before proposal due)",
+    "date": "2026-09-15",
+    "note": "Internal go/no-go decision deadline — two business days before proposal due date of 2026-09-17.",
+    "source_quote": "Quotes are due on 9/17/2026 5PM CDT Send quotes to john.camacho@usda.gov"
+   },
+   {
+    "title": "Proposal Due",
+    "date": "2026-09-17",
+    "note": "Quotes due by 5:00 PM CDT. Send to john.camacho@usda.gov.",
+    "source_quote": "Quotes are due on 9/17/2026 5PM CDT Send quotes to john.camacho@usda.gov"
+   }
+  ]
+ },
+ "reader": {
+  "notice_id": "4f8dba025a32440284ae227c983342de",
+  "key_requirement_ids": [
+   "4f8dba02-4d2a51d2-p18-171ae314",
+   "4f8dba02-4d2a51d2-p18-de19740b",
+   "4f8dba02-4d2a51d2-p11-2b799b56",
+   "4f8dba02-4d2a51d2-p11-2e57b9b6",
+   "4f8dba02-4d2a51d2-p11-e1308213",
+   "4f8dba02-4d2a51d2-p11-689190f9",
+   "4f8dba02-4d2a51d2-p11-aae75003",
+   "4f8dba02-4d2a51d2-p19-ce0e5331",
+   "4f8dba02-4d2a51d2-p19-283ca88a",
+   "4f8dba02-4d2a51d2-p19-17dcb4b9",
+   "4f8dba02-4d2a51d2-p9-6b49f094",
+   "4f8dba02-4d2a51d2-p18-fe4a1d15",
+   "4f8dba02-4d2a51d2-p18-028fa240",
+   "4f8dba02-4d2a51d2-p18-49de48d1",
+   "4f8dba02-4d2a51d2-p18-a8b6d59d",
+   "4f8dba02-4d2a51d2-p18-ca777067",
+   "4f8dba02-4d2a51d2-p18-dff16849",
+   "4f8dba02-4d2a51d2-p12-b226ede2",
+   "4f8dba02-4d2a51d2-p24-de0ddd41",
+   "4f8dba02-4d2a51d2-p24-672aa7b0",
+   "4f8dba02-4d2a51d2-p9-19e2f63f",
+   "4f8dba02-4d2a51d2-p19-3837298e",
+   "4f8dba02-4d2a51d2-p11-1b0c80df",
+   "4f8dba02-4d2a51d2-p10-0dad97e6",
+   "4f8dba02-4d2a51d2-p26-ebee169d"
+  ],
+  "scope_summary": "The government is buying floor stripping and waxing services covering approximately 8,500 square feet of flooring at the Center for Grain and Animal Health Research located at 1515 College Ave, Manhattan, KS 66502. The contractor must provide all labor, materials, equipment, and supervision needed to complete the work, with travel costs included in the proposal. All work must be performed in a manner that minimizes disruption to staff and operations, with products approved by facility management in advance and slip-resistant conditions maintained during and after work.",
+  "evaluation_basis": "not stated",
+  "incumbent_or_history": "none found",
+  "quotes": [
+   "The contractor shall provide all labor, materials, equipment, and supervision needed to complete the following tasks of stripping and waxing approximately 8500 square feet of flooring.",
+   "Contractor will travel to Center for Grain and Animal Health Research located at 1515 College Ave, Manhattan, KS 66502.",
+   "Travel costs must be included in the proposal.",
+   "Therefore, to be considered responsive, contractors must submit pricing for all items.",
+   "All offerors must provide the following minimum information and documentation with their quotations to be considered responsive and have their offers evaluated:",
+   "Price: The offeror shall provide pricing as requested in the Schedule of Items on Schedule of Items on Section 20 on the SF1449.",
+   "At least one (1) Primary and Alternate who will perform the services must be included in the quote.",
+   "• Contractor must specify personnel who will perform the work, the equipment that will be used and if they plan to subcontract the work.",
+   "If subcontracting, those personnel, and their experience must be listed.",
+   "8.0 Security Requirements Contractor personnel shall comply with facility access procedures and any site safety policies while on Government property.",
+   "The contractor must comply with the personal identity verification (PIV) policies and procedures established by the United States Department of Agriculture (USDA) Directives 4620‑002 series, Homeland Security Presidential Directive 12, and any implementing guidance issued by the Contracting Officer.",
+   "The contractor must appoint a representative responsible for PIV compliance and must maintain a current list of employees eligible for a USDA LincPass or otherwise authorized to perform work under this contract.",
+   " Products used must be approved by facility management in advance.",
+   " Contractor must ensure slip-resistant conditions during and after work.",
+   " All work must be performed in a manner that minimizes disruption to staff and operations.",
+   " Areas must remain accessible per scheduling agreed upon with facility management.",
+   " Work must comply with all applicable facility safety requirements.",
+   "Questions Questions shall be submitted via email to john.camacho@usda.gov and are due no later than September 14, 2026, at 5:00 PM CDT.",
+   "If a contract is subject to Executive Order 13658, the contractor must pay all covered workers at least $13.65 per hour (or the applicable wage rate listed on this wage determination, if it is higher) for all hours spent performing on the conAdditional information on contractor requirements and worker protections under Executive Order 13658 is available at www.dol.gov/whd/govcontracts.",
+   "If this contract is covered by the EO, the contractor must provide employees with 1 hour of paid sick leave for every 30 hours they work, up to 56 hours of paid sick leave each year.",
+   "Contractor shall coordinate site access with the COR or location monitor"
+  ]
+ },
+ "fit": {
+  "notice_id": "4f8dba025a32440284ae227c983342de",
+  "fit_score": 0.18,
+  "matched_past_performance": [
+   "Custodial services, Oklahoma City Federal Building",
+   "Janitorial, state office complex",
+   "Housekeeping support, outpatient clinic"
+  ],
+  "strengths": [
+   "NAICS 561720 exact match",
+   "Woman-owned small business eligible for Total Small Business Set-Aside",
+   "Floor care capability explicitly listed in firm profile",
+   "Federal janitorial past performance (GSA Region 7, VA)",
+   "CIMS-GB certified with QC/CMMS program",
+   "e-Verify enrolled",
+   "OSHA 30 supervisors support safety compliance",
+   "Green cleaning program aligns with product-approval requirement"
+  ],
+  "gaps": [
+   "[rc-distance] FATAL: Manhattan KS (~360 miles from OKC) exceeds firm's 200-mile bid limit",
+   "[rc-base] FATAL: No 12-month base period — solicitation is a one-time spot task, violating firm's minimum base-period rule",
+   "No named key personnel (Primary/Alternate) currently on record for Kansas work",
+   "No demonstrated presence or mobilization capability in Kansas",
+   "PIV/USDA LincPass compliance process not documented in profile",
+   "Travel cost to Manhattan KS adds significant uncompetitive cost burden"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "4f8dba02-4d2a51d2-p18-de19740b",
+    "quote": "Contractor will travel to Center for Grain and Animal Health Research located at 1515 College Ave, Manhattan, KS 66502.",
+    "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+    "page": 18,
+    "firm_answer": "Manhattan, KS is approximately 360 miles from Oklahoma City, OK. Owner rule [rc-distance] prohibits bids over 200 miles from Oklahoma City. This requirement is a fatal disqualifier under firm policy.",
+    "status": "gap",
+    "evidence": "Owner rule [rc-distance]: No bids over 200 miles from Oklahoma City."
+   },
+   {
+    "requirement_id": "4f8dba02-7f8b640f-p20-afb6ab9d",
+    "quote": "Contractor will travel to Center for Grain and Animal Health Research located at 1515 College Ave, Manhattan, KS 66502.",
+    "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+    "page": 20,
+    "firm_answer": "Same fatal distance issue as above. Manhattan, KS is ~360 miles from OKC, exceeding the 200-mile owner rule limit.",
+    "status": "gap",
+    "evidence": "Owner rule [rc-distance]: No bids over 200 miles from Oklahoma City."
+   },
+   {
+    "requirement_id": "4f8dba02-4d2a51d2-p18-171ae314",
+    "quote": "The contractor shall provide all labor, materials, equipment, and supervision needed to complete the following tasks of stripping and waxing approximately 8500 square feet of flooring.",
+    "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+    "page": 18,
+    "firm_answer": "Firm lists floor care as a core capability and holds past performance with floor care keywords on federal and state contracts. However, no 12-month base period exists (one-time task), triggering owner rule [rc-base] disqualifier.",
+    "status": "partial",
+    "evidence": "Capabilities: floor care; Past performance: Custodial services, Oklahoma City Federal Building (keywords: floor care); Owner rule [rc-base] violated — no 12-month base period."
+   },
+   {
+    "requirement_id": "4f8dba02-7f8b640f-p20-1ea3ddba",
+    "quote": "The contractor shall provide all labor, materials, equipment, and supervision needed to complete the following tasks of stripping and waxing approximately 8500 square feet of flooring.",
+    "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+    "page": 20,
+    "firm_answer": "Same as above — technical capability exists but owner rule [rc-base] (no 12-month base period) is a fatal disqualifier.",
+    "status": "partial",
+    "evidence": "Capabilities: floor care; Owner rule [rc-base] violated."
+   },
+   {
+    "requirement_id": "4f8dba02-4d2a51d2-p11-2b799b56",
+    "quote": "At least one (1) Primary and Alternate who will perform the services must be included in the quote.",
+    "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+    "page": 11,
+    "firm_answer": "The firm profile does not name any specific key personnel. The firm has 38 W-2 employees and could designate personnel, but no named individuals are documented in the profile.",
+    "status": "unknown",
+    "evidence": "Profile states 38 W-2 employees but names no specific Primary or Alternate personnel."
+   },
+   {
+    "requirement_id": "4f8dba02-7f8b640f-p13-7ea59b64",
+    "quote": "At least one (1) Primary and Alternate who will perform the services must be included in the quote.",
+    "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+    "page": 13,
+    "firm_answer": "Same as above — no named personnel in profile. Could be addressed at quote time but not evidenced now.",
+    "status": "unknown",
+    "evidence": "Profile states 38 W-2 employees but names no specific Primary or Alternate personnel."
+   },
+   {
+    "requirement_id": "4f8dba02-4d2a51d2-p11-2e57b9b6",
+    "quote": "Contractor must specify personnel who will perform the work, the equipment that will be used and if they plan to subcontract the work.",
+    "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+    "page": 11,
+    "firm_answer": "Firm has 38 W-2 employees and floor care equipment capability. No specific personnel or equipment inventory is listed in the profile. Subcontracting intent is not stated.",
+    "status": "unknown",
+    "evidence": "Capabilities: floor care; 38 W-2 employees; no equipment list or named personnel in profile."
+   },
+   {
+    "requirement_id": "4f8dba02-7f8b640f-p13-6703561f",
+    "quote": "Contractor must specify personnel who will perform the work, the equipment that will be used and if they plan to subcontract the work.",
+    "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+    "page": 13,
+    "firm_answer": "Same as above — profile is silent on specific equipment inventory and named personnel.",
+    "status": "unknown",
+    "evidence": "Capabilities: floor care; 38 W-2 employees; no equipment list in profile."
+   },
+   {
+    "requirement_id": "4f8dba02-4d2a51d2-p11-689190f9",
+    "quote": "All offerors must provide the following minimum information and documentation with their quotations to be considered responsive and have their offers evaluated:",
+    "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+    "page": 11,
+    "firm_answer": "Firm is capable of assembling a responsive quotation package (pricing, personnel, equipment). No structural barrier identified beyond the fatal distance and base-period owner rules.",
+    "status": "partial",
+    "evidence": "General administrative capability implied by federal contracting history; fatal owner rules preclude bidding."
+   },
+   {
+    "requirement_id": "4f8dba02-7f8b640f-p13-aaa66db7",
+    "quote": "All offerors must provide the following minimum information and documentation with their quotations to be considered responsive and have their offers evaluated:",
+    "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+    "page": 13,
+    "firm_answer": "Same as above.",
+    "status": "partial",
+    "evidence": "General administrative capability implied by federal contracting history; fatal owner rules preclude bidding."
+   },
+   {
+    "requirement_id": "4f8dba02-4d2a51d2-p11-e1308213",
+    "quote": "Price: The offeror shall provide pricing as requested in the Schedule of Items on Schedule of Items on Section 20 on the SF1449.",
+    "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+    "page": 11,
+    "firm_answer": "Firm can prepare SF1449 pricing. However, travel costs from OKC to Manhattan KS (~360 miles) would be significant and uncompetitive.",
+    "status": "partial",
+    "evidence": "Federal contracting experience (GSA Region 7, VA); distance inflates travel cost."
+   },
+   {
+    "requirement_id": "4f8dba02-7f8b640f-p13-9b3e119d",
+    "quote": "Price: The offeror shall provide pricing as requested in the Schedule of Items on Schedule of Items on Section 20 on the SF1449.",
+    "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+    "page": 13,
+    "firm_answer": "Same as above.",
+    "status": "partial",
+    "evidence": "Federal contracting experience; distance inflates travel cost."
+   },
+   {
+    "requirement_id": "4f8dba02-7f8b640f-p13-84584c3d",
+    "quote": "Therefore, to be considered responsive, contractors must submit pricing for all items.",
+    "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+    "page": 13,
+    "firm_answer": "Same as above.",
+    "status": "meets",
+    "evidence": "Federal contracting history demonstrates ability to price complete task orders."
+   },
+   {
+    "requirement_id": "4f8dba02-4d2a51d2-p18-dff16849",
+    "quote": "Travel costs must be included in the proposal.",
+    "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+    "page": 18,
+    "firm_answer": "Firm can include travel costs. However, ~360-mile round trip from OKC to Manhattan KS significantly inflates cost and reduces competitiveness.",
+    "status": "partial",
+    "evidence": "Owner rule [rc-distance] violated; travel cost burden is a competitive disadvantage."
+   },
+   {
+    "requirement_id": "4f8dba02-7f8b640f-p20-6da7ac92",
+    "quote": "Travel costs must be included in the proposal.",
+    "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+    "page": 20,
+    "firm_answer": "Same as above.",
+    "status": "partial",
+    "evidence": "Owner rule [rc-distance] violated; travel cost burden is a competitive disadvantage."
+   },
+   {
+    "requirement_id": "4f8dba02-4d2a51d2-p19-17dcb4b9",
+    "quote": "8.0 Security Requirements Contractor personnel shall comply with facility access procedures and any site safety policies while on Government property.",
+    "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+    "page": 19,
+    "firm_answer": "Firm has performed on federal facilities (GSA Region 7, VA, Tinker AFB) and is familiar with facility access and site safety compliance.",
+    "status": "meets",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic; Grounds maintenance, cantonment area (Tinker AFB)."
+   },
+   {
+    "requirement_id": "4f8dba02-7f8b640f-p21-fc7c215c",
+    "quote": "8.0 Security Requirements Contractor personnel shall comply with facility access procedures and any site safety policies while on Government property.",
+    "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+    "page": 21,
+    "firm_answer": "Same as above.",
+    "status": "meets",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic; Grounds maintenance, cantonment area (Tinker AFB)."
+   },
+   {
+    "requirement_id": "4f8dba02-4d2a51d2-p9-6b49f094",
+    "quote": "The contractor must comply with the personal identity verification (PIV) policies and procedures established by the United States Department of Agriculture (USDA) Directives 4620‑002 series, Homeland Security Presidential Directive 12, and any implementing guidance issued by the Contracting Officer.",
+    "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+    "page": 9,
+    "firm_answer": "Profile does not mention PIV or USDA LincPass compliance. Firm has e-Verify and has worked on federal facilities, but USDA-specific PIV compliance is not documented.",
+    "status": "unknown",
+    "evidence": "Capabilities: e-Verify enrolled; no mention of PIV/USDA LincPass in profile."
+   },
+   {
+    "requirement_id": "4f8dba02-7f8b640f-p11-b458b0d0",
+    "quote": "The contractor must comply with the personal identity verification (PIV) policies and procedures established by the United States Department of Agriculture (USDA) Directives 4620‑002 series, Homeland Security Presidential Directive 12, and any implementing guidance issued by the Contracting Officer.",
+    "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+    "page": 11,
+    "firm_answer": "Same as above — USDA PIV/LincPass compliance not documented in profile.",
+    "status": "unknown",
+    "evidence": "Capabilities: e-Verify enrolled; no mention of PIV/USDA LincPass in profile."
+   },
+   {
+    "requirement_id": "4f8dba02-4d2a51d2-p9-19e2f63f",
+    "quote": "The contractor must appoint a representative responsible for PIV compliance and must maintain a current list of employees eligible for a USDA LincPass or otherwise authorized to perform work under this contract.",
+    "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+    "page": 9,
+    "firm_answer": "Profile does not document a designated PIV compliance representative or USDA LincPass eligibility list.",
+    "status": "unknown",
+    "evidence": "No mention of PIV representative or USDA LincPass in firm profile."
+   },
+   {
+    "requirement_id": "4f8dba02-7f8b640f-p11-9f87d9be",
+    "quote": "The contractor must appoint a representative responsible for PIV compliance and must maintain a current list of employees eligible for a USDA LincPass or otherwise authorized to perform work under this contract.",
+    "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+    "page": 11,
+    "firm_answer": "Same as above.",
+    "status": "unknown",
+    "evidence": "No mention of PIV representative or USDA LincPass in firm profile."
+   },
+   {
+    "requirement_id": "4f8dba02-4d2a51d2-p18-ca777067",
+    "quote": " Work must comply with all applicable facility safety requirements.",
+    "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+    "page": 18,
+    "firm_answer": "Firm holds OSHA 30 supervisors and has performed on federal and healthcare facilities with safety compliance requirements.",
+    "status": "meets",
+    "evidence": "Capabilities: OSHA 30 supervisors; Past performance: Housekeeping support, outpatient clinic (infection control); Custodial services, Oklahoma City Federal Building."
+   },
+   {
+    "requirement_id": "4f8dba02-7f8b640f-p20-57281c37",
+    "quote": " Work must comply with all applicable facility safety requirements.",
+    "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+    "page": 20,
+    "firm_answer": "Same as above.",
+    "status": "meets",
+    "evidence": "Capabilities: OSHA 30 supervisors; Past performance: Housekeeping support, outpatient clinic."
+   },
+   {
+    "requirement_id": "4f8dba02-4d2a51d2-p18-028fa240",
+    "quote": " Contractor must ensure slip-resistant conditions during and after work.",
+    "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+    "page": 18,
+    "firm_answer": "Floor care and waxing are core capabilities of the firm; slip-resistance management is inherent to professional floor care services. CIMS-GB certification supports this.",
+    "status": "meets",
+    "evidence": "Capabilities: floor care, CIMS-GB certified."
+   },
+   {
+    "requirement_id": "4f8dba02-7f8b640f-p20-0a1386f5",
+    "quote": " Contractor must ensure slip-resistant conditions during and after work.",
+    "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+    "page": 20,
+    "firm_answer": "Same as above.",
+    "status": "meets",
+    "evidence": "Capabilities: floor care, CIMS-GB certified."
+   },
+   {
+    "requirement_id": "4f8dba02-4d2a51d2-p18-fe4a1d15",
+    "quote": " Products used must be approved by facility management in advance.",
+    "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+    "page": 18,
+    "firm_answer": "Firm operates a green cleaning program and has experience obtaining product approvals on federal and healthcare contracts.",
+    "status": "meets",
+    "evidence": "Capabilities: green cleaning program; Past performance: Janitorial, state office complex (green cleaning); Housekeeping support, outpatient clinic."
+   },
+   {
+    "requirement_id": "4f8dba02-7f8b640f-p20-30e22b57",
+    "quote": " Products used must be approved by facility management in advance.",
+    "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+    "page": 20,
+    "firm_answer": "Same as above.",
+    "status": "meets",
+    "evidence": "Capabilities: green cleaning program; Past performance: Janitorial, state office complex."
+   },
+   {
+    "requirement_id": "4f8dba02-4d2a51d2-p18-49de48d1",
+    "quote": " All work must be performed in a manner that minimizes disruption to staff and operations.",
+    "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+    "page": 18,
+    "firm_answer": "Firm has performed custodial and housekeeping services in occupied federal buildings and a VA clinic, demonstrating experience minimizing operational disruption.",
+    "status": "meets",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic."
+   },
+   {
+    "requirement_id": "4f8dba02-7f8b640f-p20-f56f15d1",
+    "quote": " All work must be performed in a manner that minimizes disruption to staff and operations.",
+    "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+    "page": 20,
+    "firm_answer": "Same as above.",
+    "status": "meets",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic."
+   },
+   {
+    "requirement_id": "4f8dba02-4d2a51d2-p19-3837298e",
+    "quote": "Contractor shall coordinate site access with the COR or location monitor",
+    "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+    "page": 19,
+    "firm_answer": "Firm has coordinated site access on multiple federal contracts (GSA, VA, Tinker AFB). Standard practice for the firm.",
+    "status": "meets",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Grounds maintenance, cantonment area (Tinker AFB); Housekeeping support, outpatient clinic."
+   },
+   {
+    "requirement_id": "4f8dba02-7f8b640f-p21-aacd0dc6",
+    "quote": "Contractor shall coordinate site access with the COR or location monitor",
+    "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+    "page": 21,
+    "firm_answer": "Same as above.",
+    "status": "meets",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Grounds maintenance, cantonment area (Tinker AFB)."
+   },
+   {
+    "requirement_id": "4f8dba02-4d2a51d2-p24-de0ddd41",
+    "quote": "If this contract is covered by the EO, the contractor must provide employees with 1 hour of paid sick leave for every 30 hours they work, up to 56 hours of paid sick leave each year.",
+    "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+    "page": 24,
+    "firm_answer": "Profile does not explicitly address EO 13706 paid sick leave policy, but firm employs 38 W-2 employees and has multiple federal contracts, implying compliance with federal labor requirements.",
+    "status": "unknown",
+    "evidence": "38 W-2 employees; federal contracting history implies labor law compliance; no explicit EO 13706 policy stated in profile."
+   },
+   {
+    "requirement_id": "4f8dba02-4d2a51d2-p24-672aa7b0",
+    "quote": "If a contract is subject to Executive Order 13658, the contractor must pay all covered workers at least $13.65 per hour (or the applicable wage rate listed on this wage determination, if it is higher) for all hours spent performing on the con",
+    "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+    "page": 24,
+    "firm_answer": "Profile does not state wage rates. Firm has multiple federal contracts and is expected to comply with applicable wage determinations, but no explicit confirmation in profile.",
+    "status": "unknown",
+    "evidence": "Federal contracting history implies SCA/EO wage compliance; no wage rate data in profile."
+   },
+   {
+    "requirement_id": "4f8dba02-4d2a51d2-p10-0dad97e6",
+    "quote": "The contractor must include this clause in all subcontracts requiring routine unaccompanied physical access to a Federally controlled facility and/or routine unaccompanied access to a Federally controlled information system.",
+    "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+    "page": 10,
+    "firm_answer": "Firm profile does not indicate subcontracting intent. If subcontracting, firm would need to flow down this clause. No subcontracting history noted in profile.",
+    "status": "unknown",
+    "evidence": "Profile does not mention subcontracting arrangements or flow-down clause compliance."
+   },
+   {
+    "requirement_id": "4f8dba02-4d2a51d2-p18-a8b6d59d",
+    "quote": " Areas must remain accessible per scheduling agreed upon with facility management.",
+    "source_file": "4d2a51d2274e46aa9c1f68d3d880912f.pdf",
+    "page": 18,
+    "firm_answer": "Firm uses a CMMS for QC inspections and scheduling, supporting coordination with facility management for access scheduling.",
+    "status": "meets",
+    "evidence": "Capabilities: QC inspections logged in a CMMS; federal facility experience."
+   },
+   {
+    "requirement_id": "4f8dba02-7f8b640f-p20-06850f6d",
+    "quote": " Areas must remain accessible per scheduling agreed upon with facility management.",
+    "source_file": "7f8b640f399f449493d03ec8e8047955.pdf",
+    "page": 20,
+    "firm_answer": "Same as above.",
+    "status": "meets",
+    "evidence": "Capabilities: QC inspections logged in a CMMS; federal facility experience."
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "4f8dba025a32440284ae227c983342de",
+  "key_dates": {
+   "questions_due": "2026-09-14T17:00:00-05:00",
+   "proposal_due": "2026-09-17T17:00:00-05:00",
+   "site_visit": null,
+   "period_of_performance": null,
+   "source_quotes": [
+    "Questions Questions shall be submitted via email to john.camacho@usda.gov and are due no later than September 14, 2026, at 5:00 PM CDT.",
+    "Quotes are due on 9/17/2026 5PM CDT Send quotes to john.camacho@usda.gov"
+   ]
+  },
+  "days_to_close": 3.4891830408912035,
+  "set_aside_note": "Total Small Business Set-Aside — firm qualifies; SBA (total small business) is on the firm's eligible set-aside list.",
+  "amendment_note": "no amendment",
+  "calendar_entries": [
+   {
+    "title": "Questions Due",
+    "date": "2026-09-14",
+    "note": "Submit questions via email to john.camacho@usda.gov by 5:00 PM CDT.",
+    "source_quote": "Questions Questions shall be submitted via email to john.camacho@usda.gov and are due no later than September 14, 2026, at 5:00 PM CDT."
+   },
+   {
+    "title": "Decide By (2 business days before proposal due)",
+    "date": "2026-09-15",
+    "note": "Internal go/no-go decision deadline — two business days before proposal due date of 2026-09-17.",
+    "source_quote": "Quotes are due on 9/17/2026 5PM CDT Send quotes to john.camacho@usda.gov"
+   },
+   {
+    "title": "Proposal Due",
+    "date": "2026-09-17",
+    "note": "Quotes due by 5:00 PM CDT. Send to john.camacho@usda.gov.",
+    "source_quote": "Quotes are due on 9/17/2026 5PM CDT Send quotes to john.camacho@usda.gov"
+   }
+  ]
+ },
+ "model_calls": 5,
+ "tokens_in": 66371,
+ "tokens_out": 14478,
+ "seconds": 115.69,
+ "produced_at": "2026-09-14T05:17:30.276959-05:00"
+}

@@ -1,0 +1,724 @@
+{
+ "notice_id": "e1d2da67eb3844c3824442bf43e08a87",
+ "firm_slug": "red-cedar",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:22:03-05:00",
+ "evidence_basis": null,
+ "days_to_close": -2.7621560510648147,
+ "closed": true,
+ "response_kind": "proposal",
+ "card": {
+  "notice_id": "e1d2da67eb3844c3824442bf43e08a87",
+  "firm_slug": "red-cedar",
+  "situation": "Combined Synopsis/Solicitation from NPS/DOI for landscaping and vegetation maintenance services at Virgin Islands National Park (VIIS), including roadside clearing, debris removal, and drainage/waterway cleaning on a quarterly schedule.\nReached the owner because NAICS 561730 matches exactly and the firm is eligible under the Total Small Business set-aside, but the place of performance is ~2,400 miles from Oklahoma City — a fatal violation of the firm's 200-mile bid radius rule.",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "NAICS 561730 is an exact match and the firm is self-certified in SAM, satisfying the primary eligibility threshold [e1d2da67-e09c4859-p3-edcd24b8].",
+   "Grounds maintenance past performance (mowing, trimming, landscaping) at Tinker AFB provides a directly relevant technical foundation for the vegetation maintenance scope [e1d2da67-eeb2285d-p3-dfa81c6e].",
+   "The firm qualifies under the Total Small Business set-aside and has active federal references (GSA, DoD, VA) available to serve as client points of contact [e1d2da67-e09c4859-p4-c4db91ee]."
+  ],
+  "reasons_against": [
+   "FATAL: Virgin Islands National Park is ~2,400+ miles from Oklahoma City, far exceeding the firm's 200-mile bid radius owner rule, making performance operationally infeasible [e1d2da67-eeb2285d-p2-b0342ea7].",
+   "Pre-mobilization site verification and quarterly on-site mobilizations to the USVI are required by the SOW but the firm has no documented Virgin Islands presence, local workforce, or equipment transport capability [e1d2da67-eeb2285d-p2-264c3aad].",
+   "The base period duration is not confirmed; if under 12 months, the contract would violate the rc-base owner rule, and the firm has no tropical/island vegetation, drainage, or waterway clearing experience required by the core scope [e1d2da67-e09c4859-p10-56b28143]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-09-09",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-09-11T12:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": null,
+   "source_quotes": [
+    "the Government is extending the quote due date until: September 11, 2026, at 12:00 PM EST."
+   ]
+  },
+  "fit_score": 0.62,
+  "matrix_summary": "11 of 30 requirements met, 9 partial, 5 gap, 5 unknown",
+  "evidence_link": "https://sam.gov/workspace/contract/opp/e1d2da67eb3844c3824442bf43e08a87/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "e1d2da67-e09c4859-p3-edcd24b8",
+   "quote": "An offeror must ensure that they are self-certified under NAICS 561730 in the Representations and Certifications portion of www.sam.gov.",
+   "source_file": "e09c48594fff42a391e41f59ffafbb8d.pdf",
+   "page": 3,
+   "firm_answer": "Firm lists NAICS 561730 as one of its two NAICS codes. Self-certification in SAM is administratively achievable.",
+   "status": "meets",
+   "evidence": "Firm profile lists naics: 561720, 561730"
+  },
+  {
+   "requirement_id": "e1d2da67-eeb2285d-p2-b0342ea7",
+   "quote": "Scope The Contractor shall provide vegetation maintenance and roadside clearing services for Virgin Islands National Park (VIIS), including the removal of vegetation and debris, and the cleaning of gutters, drainage, and waterways to ensure safe access along park roads and grounds.",
+   "source_file": "eeb2285dc11246bfbcace3d6fba985e2.pdf",
+   "page": 2,
+   "firm_answer": "Firm has grounds maintenance experience (mowing, trimming, landscaping, irrigation) at Tinker AFB but no demonstrated experience in tropical vegetation management, roadside clearing, gutter/drainage/waterway cleaning, or island environments. Place of performance is Virgin Islands National Park — approximately 2,400+ miles from Oklahoma City, violating the rc-distance owner rule (200-mile limit). This is a fatal disqualifier.",
+   "status": "gap",
+   "evidence": "rc-distance owner rule; Grounds maintenance, cantonment area (keywords: grounds, mowing, trimming, landscaping) — partial technical match only, no island/tropical/drainage experience"
+  },
+  {
+   "requirement_id": "e1d2da67-eeb2285d-p2-a801e24f",
+   "quote": "All services shall conform to applicable codes, National Park Service (NPS) requirements, and accepted industry standards.",
+   "source_file": "eeb2285dc11246bfbcace3d6fba985e2.pdf",
+   "page": 2,
+   "firm_answer": "Firm has no documented NPS or DOI experience. Firm does follow federal standards (GSA, DoD, VA contracts) and holds CIMS-GB certification and OSHA 30 supervisors, but NPS-specific requirements are unknown.",
+   "status": "partial",
+   "evidence": "Capabilities: OSHA 30 supervisors, CIMS-GB certified, QC inspections logged in CMMS; no NPS past performance listed"
+  },
+  {
+   "requirement_id": "e1d2da67-e09c4859-p3-fe92da7b",
+   "quote": "Companies must have a valid Unique Entity ID (UEI) number and an active System for Award Management (www.sam.gov) registration.",
+   "source_file": "e09c48594fff42a391e41f59ffafbb8d.pdf",
+   "page": 3,
+   "firm_answer": "Profile does not explicitly confirm active SAM registration or UEI, but firm holds multiple active federal contracts (GSA, DoD, VA), which require active SAM registration. Reasonable inference of compliance, but not explicitly stated.",
+   "status": "unknown",
+   "evidence": "Custodial services, Oklahoma City Federal Building; Grounds maintenance, cantonment area; Housekeeping support, outpatient clinic — all require active SAM"
+  },
+  {
+   "requirement_id": "e1d2da67-eeb2285d-p2-264c3aad",
+   "quote": "Contractor shall verify all areas and measurements prior to submittal of quote.",
+   "source_file": "eeb2285dc11246bfbcace3d6fba985e2.pdf",
+   "page": 2,
+   "firm_answer": "Firm is based in Oklahoma City. Site verification at Virgin Islands National Park would require travel to the U.S. Virgin Islands (~2,400 miles). No local presence or mobilization capability stated in profile. Compliance is operationally infeasible given distance.",
+   "status": "gap",
+   "evidence": "rc-distance owner rule; firm profile lists Oklahoma and neighboring states as operational area"
+  },
+  {
+   "requirement_id": "e1d2da67-eeb2285d-p4-94ab0e05",
+   "quote": "Submittals and Deliverables Pre-Work Documentation Prior to the start of work, the following items shall be submitted to the COR for review and approval.",
+   "source_file": "eeb2285dc11246bfbcace3d6fba985e2.pdf",
+   "page": 4,
+   "firm_answer": "Firm has experience submitting pre-work documentation on federal contracts (GSA, DoD, VA). QC inspections logged in CMMS support documentation capability. Specific VIIS pre-work documentation requirements are unknown from profile.",
+   "status": "partial",
+   "evidence": "Capabilities: QC inspections logged in a CMMS; Grounds maintenance, cantonment area (federal DoD contract with documentation requirements)"
+  },
+  {
+   "requirement_id": "e1d2da67-eeb2285d-p4-c6169c22",
+   "quote": "Quarterly Report Documentation After the quarterly cuttings are done and prior to submitting an invoice, the contractor shall submit the follow items to the COR for review and approval.",
+   "source_file": "eeb2285dc11246bfbcace3d6fba985e2.pdf",
+   "page": 4,
+   "firm_answer": "Firm has reporting and documentation experience on federal contracts. CMMS-based QC logging supports quarterly reporting capability. No specific quarterly cutting report experience documented.",
+   "status": "partial",
+   "evidence": "Capabilities: QC inspections logged in a CMMS; Grounds maintenance, cantonment area"
+  },
+  {
+   "requirement_id": "e1d2da67-eeb2285d-p5-82a9a614",
+   "quote": "Before submittal into IPP, contractor shall submit an invoice to the COR for review and approval.",
+   "source_file": "eeb2285dc11246bfbcace3d6fba985e2.pdf",
+   "page": 5,
+   "firm_answer": "Firm has multiple active federal contracts requiring IPP invoicing (GSA, DoD, VA). COR invoice review process is standard federal practice the firm would be familiar with.",
+   "status": "meets",
+   "evidence": "Custodial services, Oklahoma City Federal Building (GSA Region 7); Grounds maintenance, cantonment area (Tinker AFB); Housekeeping support, outpatient clinic (VA)"
+  },
+  {
+   "requirement_id": "e1d2da67-eeb2285d-p5-aee1025c",
+   "quote": "Contractor shall submit quarterly reports listed under Section 6 with the invoice.",
+   "source_file": "eeb2285dc11246bfbcace3d6fba985e2.pdf",
+   "page": 5,
+   "firm_answer": "Firm has documentation and reporting experience on federal contracts. No specific quarterly report submission experience for landscaping/cutting services documented in profile.",
+   "status": "partial",
+   "evidence": "Capabilities: QC inspections logged in a CMMS"
+  },
+  {
+   "requirement_id": "e1d2da67-e09c4859-p1-1c92fe0b",
+   "quote": "Any representations and/or certifications attached to this Request for Quotation must be completed by the quoter.",
+   "source_file": "e09c48594fff42a391e41f59ffafbb8d.pdf",
+   "page": 1,
+   "firm_answer": "Firm holds WOSB, EDWOSB, SBA set-aside eligibility and has completed reps and certs on multiple federal solicitations. Administratively capable.",
+   "status": "meets",
+   "evidence": "Firm profile: set-asides the firm can claim: WOSB, EDWOSB, SBA"
+  },
+  {
+   "requirement_id": "e1d2da67-e09c4859-p1-839bd5d5",
+   "quote": "Quotes for this requirement must be submitted via email to yujeiry_eusebio@ios.doi.gov.",
+   "source_file": "e09c48594fff42a391e41f59ffafbb8d.pdf",
+   "page": 1,
+   "firm_answer": "Standard email submission. Firm is capable of email submission. No profile constraint prevents this.",
+   "status": "meets",
+   "evidence": "General administrative capability; no profile constraint"
+  },
+  {
+   "requirement_id": "e1d2da67-e09c4859-p4-c18779ec",
+   "quote": "Quotes shall be sent via email to Yujeiry_eusebio@ios.doi.gov with subject line: QUOTE – 140P5426Q0038.",
+   "source_file": "e09c48594fff42a391e41f59ffafbb8d.pdf",
+   "page": 4,
+   "firm_answer": "Standard email submission requirement. Firm is capable of compliance.",
+   "status": "meets",
+   "evidence": "General administrative capability"
+  },
+  {
+   "requirement_id": "e1d2da67-e09c4859-p4-ffec2b31",
+   "quote": "All quoters shall complete blocks 13, 14, 15, and 16 of the solicitation form (SF-18), the price schedule below, and acknowledge (sign) any amendments issued to this solicitation.",
+   "source_file": "e09c48594fff42a391e41f59ffafbb8d.pdf",
+   "page": 4,
+   "firm_answer": "Firm has experience completing federal solicitation forms across multiple contracts. SF-18 completion is standard administrative capability.",
+   "status": "meets",
+   "evidence": "Custodial services, Oklahoma City Federal Building; Grounds maintenance, cantonment area; Housekeeping support, outpatient clinic"
+  },
+  {
+   "requirement_id": "e1d2da67-e09c4859-p10-3a9e599b",
+   "quote": "Price- The offeror must complete the price schedule on pages 4-5 of this solicitation and must provide an additional price breakdown as part of their offer.",
+   "source_file": "e09c48594fff42a391e41f59ffafbb8d.pdf",
+   "page": 10,
+   "firm_answer": "Firm can complete a price schedule. However, accurate pricing for VIIS work requires knowledge of local labor markets, equipment mobilization to the Virgin Islands, and tropical vegetation conditions — none of which are evidenced in the profile. Pricing accuracy is at high risk.",
+   "status": "partial",
+   "evidence": "Grounds maintenance, cantonment area — provides some cost basis for grounds work, but no island mobilization cost experience"
+  },
+  {
+   "requirement_id": "e1d2da67-e09c4859-p9-a4dfc62b",
+   "quote": "Client points of contact shall be provided to serve as references.",
+   "source_file": "e09c48594fff42a391e41f59ffafbb8d.pdf",
+   "page": 9,
+   "firm_answer": "Firm has four past performance records with named federal customers (GSA Region 7, Tinker AFB 72 ABW, Oklahoma OMES, VA Oklahoma City Health Care System). References are available.",
+   "status": "meets",
+   "evidence": "Grounds maintenance, cantonment area (Tinker AFB 72 ABW); Custodial services, Oklahoma City Federal Building (GSA Region 7); Housekeeping support, outpatient clinic (VA Oklahoma City)"
+  },
+  {
+   "requirement_id": "e1d2da67-e09c4859-p11-773ea44d",
+   "quote": "The Contractor shall procure and maintain during the term of this contract and any extension thereof liability insurance in form satisfactory to the Contracting Officer by an insurance company which is acceptable to the Contracting Officer.",
+   "source_file": "e09c48594fff42a391e41f59ffafbb8d.pdf",
+   "page": 11,
+   "firm_answer": "Firm profile does not explicitly mention liability insurance. However, firm holds active federal contracts with DoD and VA which typically require liability insurance. Assumed capable but not confirmed in profile.",
+   "status": "unknown",
+   "evidence": "Profile is silent on insurance; inferred from active federal contract history"
+  },
+  {
+   "requirement_id": "e1d2da67-e09c4859-p11-88dda981",
+   "quote": "The amounts of the insurance shall be not less than as follows: $ 50,000 each person $ 100,000 each occurrence $ 100,000 property damage",
+   "source_file": "e09c48594fff42a391e41f59ffafbb8d.pdf",
+   "page": 11,
+   "firm_answer": "Specific insurance minimums ($50K per person, $100K per occurrence, $100K property damage) are not addressed in the firm profile. Cannot confirm compliance.",
+   "status": "unknown",
+   "evidence": "Profile is silent on insurance coverage amounts"
+  },
+  {
+   "requirement_id": "e1d2da67-e09c4859-p11-baea55d7",
+   "quote": "The contractor shall furnish the Contracting Officer with a copy of an acceptable insurance certificate prior to beginning the work.",
+   "source_file": "e09c48594fff42a391e41f59ffafbb8d.pdf",
+   "page": 11,
+   "firm_answer": "Profile does not mention insurance certificates. Standard federal contracting requirement; assumed achievable but not confirmed.",
+   "status": "unknown",
+   "evidence": "Profile is silent on insurance certificates"
+  },
+  {
+   "requirement_id": "e1d2da67-eeb2285d-p3-dfa81c6e",
+   "quote": "Landscaping shall include both sides of the road from the edge line to five feet out on both sides unless otherwise specified.",
+   "source_file": "eeb2285dc11246bfbcace3d6fba985e2.pdf",
+   "page": 3,
+   "firm_answer": "Firm has roadside mowing and trimming experience at Tinker AFB cantonment area. However, tropical roadside vegetation in the Virgin Islands differs significantly from Oklahoma conditions. No island-specific experience documented.",
+   "status": "partial",
+   "evidence": "Grounds maintenance, cantonment area (keywords: mowing, trimming, landscaping)"
+  },
+  {
+   "requirement_id": "e1d2da67-eeb2285d-p2-9f26c6af",
+   "quote": "The debris shall be placed downslope of the cut areas, evenly distributed—not mounded— and left in a neat, presentable condition.",
+   "source_file": "eeb2285dc11246bfbcace3d6fba985e2.pdf",
+   "page": 2,
+   "firm_answer": "Firm has grounds maintenance experience including debris management at Tinker AFB. Specific downslope debris placement in hilly/island terrain is not documented.",
+   "status": "partial",
+   "evidence": "Grounds maintenance, cantonment area (keywords: grounds, mowing, trimming, landscaping)"
+  },
+  {
+   "requirement_id": "e1d2da67-eeb2285d-p3-fdce749a",
+   "quote": "Measurements are approximations and shall be validated with the park prior to mobilization.",
+   "source_file": "eeb2285dc11246bfbcace3d6fba985e2.pdf",
+   "page": 3,
+   "firm_answer": "Pre-mobilization site validation requires travel to the Virgin Islands. Firm has no documented presence or mobilization capability in the USVI. This is operationally infeasible given the rc-distance constraint.",
+   "status": "gap",
+   "evidence": "rc-distance owner rule; firm operational area limited to Oklahoma and neighboring states"
+  },
+  {
+   "requirement_id": "e1d2da67-eeb2285d-p3-72d62a6d",
+   "quote": "Distances and square footage are approximations and the actual areas shall be validated with the park prior to mobilization.",
+   "source_file": "eeb2285dc11246bfbcace3d6fba985e2.pdf",
+   "page": 3,
+   "firm_answer": "Same as above — on-site validation in the Virgin Islands is required prior to mobilization. Firm has no USVI presence. Operationally infeasible under rc-distance rule.",
+   "status": "gap",
+   "evidence": "rc-distance owner rule; firm operational area limited to Oklahoma and neighboring states"
+  },
+  {
+   "requirement_id": "e1d2da67-eeb2285d-p5-fc56ef72",
+   "quote": "The quarterly cuttings dates shall be determined by the contractor and approved by the COR.",
+   "source_file": "eeb2285dc11246bfbcace3d6fba985e2.pdf",
+   "page": 5,
+   "firm_answer": "Firm has scheduling experience on federal grounds contracts. However, scheduling quarterly mobilizations to the Virgin Islands from Oklahoma City is operationally and logistically unsupported by the profile.",
+   "status": "gap",
+   "evidence": "rc-distance owner rule; Grounds maintenance, cantonment area — local scheduling experience only"
+  },
+  {
+   "requirement_id": "e1d2da67-eeb2285d-p5-4d63fd6f",
+   "quote": "Non-conforming work shall be corrected at no additional cost to the Government.",
+   "source_file": "eeb2285dc11246bfbcace3d6fba985e2.pdf",
+   "page": 5,
+   "firm_answer": "Standard federal contract quality requirement. Firm has QC program (CMMS-logged inspections) and CIMS-GB certification supporting quality management. However, correcting non-conforming work in the USVI from Oklahoma City would require costly re-mobilization.",
+   "status": "partial",
+   "evidence": "Capabilities: QC inspections logged in a CMMS, CIMS-GB certified"
+  },
+  {
+   "requirement_id": "e1d2da67-e09c4859-p12-53cebb83",
+   "quote": "Payment requests must be submitted electronically through the U.",
+   "source_file": "e09c48594fff42a391e41f59ffafbb8d.pdf",
+   "page": 12,
+   "firm_answer": "Firm has multiple active federal contracts requiring electronic payment submission through IPP (GSA, DoD, VA). Firm is experienced with federal electronic invoicing.",
+   "status": "meets",
+   "evidence": "Custodial services, Oklahoma City Federal Building (GSA Region 7); Grounds maintenance, cantonment area (Tinker AFB); Housekeeping support, outpatient clinic (VA)"
+  },
+  {
+   "requirement_id": "e1d2da67-e09c4859-p12-29c92022",
+   "quote": "The Contractor must use the IPP website to register access and use IPP for submitting requests for payment.",
+   "source_file": "e09c48594fff42a391e41f59ffafbb8d.pdf",
+   "page": 12,
+   "firm_answer": "Firm has active federal contracts with GSA, DoD, and VA — all of which use IPP. Firm is presumed to have an active IPP account.",
+   "status": "meets",
+   "evidence": "Custodial services, Oklahoma City Federal Building (GSA Region 7); Grounds maintenance, cantonment area (Tinker AFB)"
+  },
+  {
+   "requirement_id": "e1d2da67-e09c4859-p10-56b28143",
+   "quote": "The option provision may be exercised more than once, but the total extension of performance hereunder shall not exceed 6 months.",
+   "source_file": "e09c48594fff42a391e41f59ffafbb8d.pdf",
+   "page": 10,
+   "firm_answer": "The solicitation references a 6-month maximum extension option. The base period duration is not stated in the requirements provided. If the base period is less than 12 months, this would violate the rc-base owner rule. Base period length is unknown from available documents.",
+   "status": "unknown",
+   "evidence": "rc-base owner rule requires minimum 12-month base period; base period not confirmed in requirements text"
+  },
+  {
+   "requirement_id": "e1d2da67-6287c376-p1-17b35b59",
+   "quote": "Response: As indicated in the SOW 1 Scope, All services shall confirm to applicable codes, NPS requirements and accepted industry",
+   "source_file": "6287c3769fbe4afdb05a99cdd2bb34ca.pdf",
+   "page": 1,
+   "firm_answer": "Firm has no NPS or DOI past performance. Firm complies with federal standards generally (GSA, DoD, VA) but NPS-specific codes and requirements are not evidenced in the profile.",
+   "status": "partial",
+   "evidence": "Capabilities: OSHA 30 supervisors, CIMS-GB certified; no NPS-specific experience"
+  },
+  {
+   "requirement_id": "e1d2da67-6287c376-p2-cb3a0cfe",
+   "quote": "Response: As indicated in the SOW 4 General Performance Requirements - 5th awarded contractor known and a schedule is given for that area, the locked gate will be opened and must be locked at the completion of each day work.",
+   "source_file": "6287c3769fbe4afdb05a99cdd2bb34ca.pdf",
+   "page": 2,
+   "firm_answer": "Firm has experience with controlled-access federal sites (Tinker AFB). Gate/access security protocols are within firm's demonstrated experience.",
+   "status": "meets",
+   "evidence": "Grounds maintenance, cantonment area (Tinker AFB 72 ABW) — military installation with controlled access"
+  },
+  {
+   "requirement_id": "e1d2da67-e09c4859-p4-c4db91ee",
+   "quote": "All eligible responsible sources may submit a quote which shall be considered by the National Park Service however, late submissions will be treated in accordan ce with FAR 52.212-1(f) and not be considered.",
+   "source_file": "e09c48594fff42a391e41f59ffafbb8d.pdf",
+   "page": 4,
+   "firm_answer": "Set-aside is Total Small Business. Firm qualifies as a small business (SBA-eligible per profile). Firm is an eligible source under the set-aside. However, the rc-distance rule makes bidding inadvisable.",
+   "status": "meets",
+   "evidence": "Firm profile: set-asides the firm can claim: WOSB, EDWOSB, SBA"
+  }
+ ],
+ "matrix_dropped": 1,
+ "matrix_dropped_rows": [
+  {
+   "requirement_id": "e1d2da67-e09c4859-p11-1cfabd4d",
+   "quote": "The Contractor shall notify the Contracting Officer in writing, with as much detail as possible, when the COR has taken an action or has issued direction (written or oral) that the Contractor considers to exceed the COR's appointment, within 3 days of the occurrence.",
+   "source_file": "e09c48594fff42a391e41f59ffafbb8d.pdf",
+   "page": 11,
+   "reason": "not_verbatim"
+  }
+ ],
+ "fit_score_code": 0.62,
+ "drafts": {
+  "capability_statement": "Red Cedar Facility Services is a Woman-Owned Small Business (WOSB) and Economically Disadvantaged Woman-Owned Small Business (EDWOSB) headquartered in Oklahoma City, Oklahoma, certified under NAICS 561730 (Landscaping Services) and 561720. We are an eligible participant under Total Small Business set-aside solicitations and maintain an active federal contracting posture with GSA, the Department of Defense, and the Department of Veterans Affairs.\n\nOur grounds maintenance experience includes mowing, trimming, landscaping, and irrigation services performed at Tinker Air Force Base (72 ABW) — a controlled-access federal installation — where we managed cantonment area vegetation in compliance with DoD standards and base access protocols. We have also delivered custodial and housekeeping support services at the Oklahoma City Federal Building (GSA Region 7) and a VA outpatient clinic, demonstrating consistent performance across multiple federal agencies.\n\nOur quality assurance program includes OSHA 30-certified supervisors, CIMS-GB certification, and QC inspections logged in a Computerized Maintenance Management System (CMMS). We are enrolled in e-Verify and have completed representations and certifications — including NAICS 561730 self-certification — in SAM.gov. We have active federal references available from GSA Region 7, Tinker AFB 72 ABW, and the VA Oklahoma City Health Care System.\n\nRed Cedar Facility Services is committed to delivering compliant, well-documented grounds maintenance services in accordance with NPS requirements and accepted industry standards for solicitation 140P5426Q0038.",
+  "questions_for_co": [
+   "What is the base period of performance for this contract? The solicitation references a 6-month maximum extension option but does not state the base period length, which is needed to assess total contract duration [e1d2da67-e09c4859-p10-56b28143].",
+   "Will the Government provide a virtual or remote site survey option (e.g., maps, GIS data, photographs, or a video walkthrough) in lieu of in-person site verification, given that the SOW requires contractors to validate all areas and measurements prior to quote submittal and prior to mobilization [e1d2da67-eeb2285d-p2-264c3aad; e1d2da67-eeb2285d-p3-fdce749a; e1d2da67-eeb2285d-p3-72d62a6d]?",
+   "Can the Contracting Officer confirm the specific NPS or DOI codes and standards that govern performance under this contract, beyond the general reference to 'applicable codes, National Park Service (NPS) requirements, and accepted industry standards' [e1d2da67-eeb2285d-p2-b0342ea7]?",
+   "What are the approved insurance carriers or any specific carrier requirements for the liability insurance certificate, and must the certificate be submitted before contract award or only prior to beginning work [e1d2da67-e09c4859-p11-773ea44d; e1d2da67-e09c4859-p11-baea55d7]?",
+   "Do the insurance minimums stated in the solicitation ($50,000 per person, $100,000 per occurrence, $100,000 property damage) represent the complete insurance schedule, or are additional coverage types (e.g., workers' compensation, commercial general liability) also required [e1d2da67-e09c4859-p11-88dda981]?",
+   "What is the expected process and lead time for COR approval of the quarterly cutting schedule, and is there a minimum advance-notice requirement for the contractor to submit proposed cutting dates [e1d2da67-eeb2285d-p5-fc56ef72]?"
+  ],
+  "calendar_entries": [
+   {
+    "title": "Proposal/Quote Due",
+    "date": "2026-09-11",
+    "note": "Quote due date extended to September 11, 2026, at 12:00 PM EST per the amendment description.",
+    "source_quote": "the Government is extending the quote due date until: September 11, 2026, at 12:00 PM EST."
+   },
+   {
+    "title": "Decide By (2 business days before proposal due)",
+    "date": "2026-09-09",
+    "note": "Internal go/no-go decision deadline — two business days before the proposal due date of 2026-09-11.",
+    "source_quote": "the Government is extending the quote due date until: September 11, 2026, at 12:00 PM EST."
+   }
+  ]
+ },
+ "reader": {
+  "notice_id": "e1d2da67eb3844c3824442bf43e08a87",
+  "key_requirement_ids": [
+   "e1d2da67-eeb2285d-p2-b0342ea7",
+   "e1d2da67-eeb2285d-p2-a801e24f",
+   "e1d2da67-eeb2285d-p2-264c3aad",
+   "e1d2da67-e09c4859-p3-edcd24b8",
+   "e1d2da67-e09c4859-p3-fe92da7b",
+   "e1d2da67-e09c4859-p10-3a9e599b",
+   "e1d2da67-e09c4859-p9-1e0fa9c6",
+   "e1d2da67-e09c4859-p9-a4dfc62b",
+   "e1d2da67-e09c4859-p11-773ea44d",
+   "e1d2da67-e09c4859-p11-88dda981",
+   "e1d2da67-e09c4859-p4-c18779ec",
+   "e1d2da67-e09c4859-p4-ffec2b31",
+   "e1d2da67-eeb2285d-p4-94ab0e05",
+   "e1d2da67-eeb2285d-p4-c6169c22",
+   "e1d2da67-eeb2285d-p5-82a9a614",
+   "e1d2da67-eeb2285d-p3-dfa81c6e",
+   "e1d2da67-eeb2285d-p5-fc56ef72",
+   "e1d2da67-eeb2285d-p5-4d63fd6f",
+   "e1d2da67-e09c4859-p10-56b28143",
+   "e1d2da67-6287c376-p1-17b35b59"
+  ],
+  "scope_summary": "The government is buying vegetation maintenance and roadside clearing services for Virgin Islands National Park (VIIS), including removal of vegetation and debris and cleaning of gutters, drainage, and waterways to ensure safe access along park roads and grounds. Services are performed on a quarterly cutting schedule with dates determined by the contractor and approved by the COR, covering road shoulders, ruins, ranges, and other specified areas. All services must conform to applicable codes, National Park Service requirements, and accepted industry standards.",
+  "evaluation_basis": "The following factors shall be used to evaluate offers: [list not fully enumerated in the text beyond price]; Price- The offeror must complete the price schedule on pages 4-5 of this solicitation and must provide an additional price breakdown as part of their offer. Client points of contact shall be provided to serve as references.",
+  "incumbent_or_history": "Response: As indicated in the SOW 4 General Performance Requirements - 5th awarded contractor known and a schedule is given for that area, the locked gate will be opened and must be locked at the completion of each day work.",
+  "quotes": [
+   "The Contractor shall provide vegetation maintenance and roadside clearing services for Virgin Islands National Park (VIIS), including the removal of vegetation and debris, and the cleaning of gutters, drainage, and waterways to ensure safe access along park roads and grounds.",
+   "All services shall conform to applicable codes, National Park Service (NPS) requirements, and accepted industry standards.",
+   "The following factors shall be used to evaluate offers:",
+   "Price- The offeror must complete the price schedule on pages 4-5 of this solicitation and must provide an additional price breakdown as part of their offer.",
+   "Client points of contact shall be provided to serve as references.",
+   "An offeror must ensure that they are self-certified under NAICS 561730 in the Representations and Certifications portion of www.sam.gov.",
+   "Companies must have a valid Unique Entity ID (UEI) number and an active System for Award Management (www.sam.gov) registration.",
+   "Contractor shall verify all areas and measurements prior to submittal of quote.",
+   "Landscaping shall include both sides of the road from the edge line to five feet out on both sides unless otherwise specified.",
+   "The quarterly cuttings dates shall be determined by the contractor and approved by the COR.",
+   "Non-conforming work shall be corrected at no additional cost to the Government.",
+   "The amounts of the insurance shall be not less than as follows: $ 50,000 each person $ 100,000 each occurrence $ 100,000 property damage",
+   "The option provision may be exercised more than once, but the total extension of performance hereunder shall not exceed 6 months.",
+   "Quotes shall be sent via email to Yujeiry_eusebio@ios.doi.gov with subject line: QUOTE – 140P5426Q0038.",
+   "Response: As indicated in the SOW 4 General Performance Requirements - 5th awarded contractor known and a schedule is given for that area, the locked gate will be opened and must be locked at the completion of each day work."
+  ]
+ },
+ "fit": {
+  "notice_id": "e1d2da67eb3844c3824442bf43e08a87",
+  "fit_score": 0.07,
+  "matched_past_performance": [
+   "Grounds maintenance, cantonment area"
+  ],
+  "strengths": [
+   "NAICS 561730 matches solicitation NAICS exactly",
+   "Total small business set-aside eligibility confirmed (SBA)",
+   "Grounds maintenance past performance (mowing, trimming, landscaping, irrigation) directly relevant to vegetation maintenance scope",
+   "OSHA 30 supervisors and QC/CMMS program support compliance posture",
+   "e-Verify enrollment supports federal contracting requirements"
+  ],
+  "gaps": [
+   "FATAL – rc-distance rule: Virgin Islands National Park is ~2,400+ miles from Oklahoma City, far exceeding the firm's 200-mile bid radius",
+   "No demonstrated experience in tropical/Caribbean vegetation management or roadside clearing in island environments",
+   "No past performance at NPS or DOI Interior agency sites",
+   "No evidence of mobilization capability to remote island location (equipment transport, local workforce)",
+   "Base period duration unclear but 6-month extension option suggests potentially short base, risking rc-base rule violation",
+   "No evidence of debris/drainage/waterway clearing experience as required by SOW",
+   "No Virgin Islands or Caribbean operational presence noted in profile"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "e1d2da67-e09c4859-p3-edcd24b8",
+    "quote": "An offeror must ensure that they are self-certified under NAICS 561730 in the Representations and Certifications portion of www.sam.gov.",
+    "source_file": "e09c48594fff42a391e41f59ffafbb8d.pdf",
+    "page": 3,
+    "firm_answer": "Firm lists NAICS 561730 as one of its two NAICS codes. Self-certification in SAM is administratively achievable.",
+    "status": "meets",
+    "evidence": "Firm profile lists naics: 561720, 561730"
+   },
+   {
+    "requirement_id": "e1d2da67-eeb2285d-p2-b0342ea7",
+    "quote": "Scope The Contractor shall provide vegetation maintenance and roadside clearing services for Virgin Islands National Park (VIIS), including the removal of vegetation and debris, and the cleaning of gutters, drainage, and waterways to ensure safe access along park roads and grounds.",
+    "source_file": "eeb2285dc11246bfbcace3d6fba985e2.pdf",
+    "page": 2,
+    "firm_answer": "Firm has grounds maintenance experience (mowing, trimming, landscaping, irrigation) at Tinker AFB but no demonstrated experience in tropical vegetation management, roadside clearing, gutter/drainage/waterway cleaning, or island environments. Place of performance is Virgin Islands National Park — approximately 2,400+ miles from Oklahoma City, violating the rc-distance owner rule (200-mile limit). This is a fatal disqualifier.",
+    "status": "gap",
+    "evidence": "rc-distance owner rule; Grounds maintenance, cantonment area (keywords: grounds, mowing, trimming, landscaping) — partial technical match only, no island/tropical/drainage experience"
+   },
+   {
+    "requirement_id": "e1d2da67-eeb2285d-p2-a801e24f",
+    "quote": "All services shall conform to applicable codes, National Park Service (NPS) requirements, and accepted industry standards.",
+    "source_file": "eeb2285dc11246bfbcace3d6fba985e2.pdf",
+    "page": 2,
+    "firm_answer": "Firm has no documented NPS or DOI experience. Firm does follow federal standards (GSA, DoD, VA contracts) and holds CIMS-GB certification and OSHA 30 supervisors, but NPS-specific requirements are unknown.",
+    "status": "partial",
+    "evidence": "Capabilities: OSHA 30 supervisors, CIMS-GB certified, QC inspections logged in CMMS; no NPS past performance listed"
+   },
+   {
+    "requirement_id": "e1d2da67-e09c4859-p3-fe92da7b",
+    "quote": "Companies must have a valid Unique Entity ID (UEI) number and an active System for Award Management (www.sam.gov) registration.",
+    "source_file": "e09c48594fff42a391e41f59ffafbb8d.pdf",
+    "page": 3,
+    "firm_answer": "Profile does not explicitly confirm active SAM registration or UEI, but firm holds multiple active federal contracts (GSA, DoD, VA), which require active SAM registration. Reasonable inference of compliance, but not explicitly stated.",
+    "status": "unknown",
+    "evidence": "Custodial services, Oklahoma City Federal Building; Grounds maintenance, cantonment area; Housekeeping support, outpatient clinic — all require active SAM"
+   },
+   {
+    "requirement_id": "e1d2da67-eeb2285d-p2-264c3aad",
+    "quote": "Contractor shall verify all areas and measurements prior to submittal of quote.",
+    "source_file": "eeb2285dc11246bfbcace3d6fba985e2.pdf",
+    "page": 2,
+    "firm_answer": "Firm is based in Oklahoma City. Site verification at Virgin Islands National Park would require travel to the U.S. Virgin Islands (~2,400 miles). No local presence or mobilization capability stated in profile. Compliance is operationally infeasible given distance.",
+    "status": "gap",
+    "evidence": "rc-distance owner rule; firm profile lists Oklahoma and neighboring states as operational area"
+   },
+   {
+    "requirement_id": "e1d2da67-eeb2285d-p4-94ab0e05",
+    "quote": "Submittals and Deliverables Pre-Work Documentation Prior to the start of work, the following items shall be submitted to the COR for review and approval.",
+    "source_file": "eeb2285dc11246bfbcace3d6fba985e2.pdf",
+    "page": 4,
+    "firm_answer": "Firm has experience submitting pre-work documentation on federal contracts (GSA, DoD, VA). QC inspections logged in CMMS support documentation capability. Specific VIIS pre-work documentation requirements are unknown from profile.",
+    "status": "partial",
+    "evidence": "Capabilities: QC inspections logged in a CMMS; Grounds maintenance, cantonment area (federal DoD contract with documentation requirements)"
+   },
+   {
+    "requirement_id": "e1d2da67-eeb2285d-p4-c6169c22",
+    "quote": "Quarterly Report Documentation After the quarterly cuttings are done and prior to submitting an invoice, the contractor shall submit the follow items to the COR for review and approval.",
+    "source_file": "eeb2285dc11246bfbcace3d6fba985e2.pdf",
+    "page": 4,
+    "firm_answer": "Firm has reporting and documentation experience on federal contracts. CMMS-based QC logging supports quarterly reporting capability. No specific quarterly cutting report experience documented.",
+    "status": "partial",
+    "evidence": "Capabilities: QC inspections logged in a CMMS; Grounds maintenance, cantonment area"
+   },
+   {
+    "requirement_id": "e1d2da67-eeb2285d-p5-82a9a614",
+    "quote": "Before submittal into IPP, contractor shall submit an invoice to the COR for review and approval.",
+    "source_file": "eeb2285dc11246bfbcace3d6fba985e2.pdf",
+    "page": 5,
+    "firm_answer": "Firm has multiple active federal contracts requiring IPP invoicing (GSA, DoD, VA). COR invoice review process is standard federal practice the firm would be familiar with.",
+    "status": "meets",
+    "evidence": "Custodial services, Oklahoma City Federal Building (GSA Region 7); Grounds maintenance, cantonment area (Tinker AFB); Housekeeping support, outpatient clinic (VA)"
+   },
+   {
+    "requirement_id": "e1d2da67-eeb2285d-p5-aee1025c",
+    "quote": "Contractor shall submit quarterly reports listed under Section 6 with the invoice.",
+    "source_file": "eeb2285dc11246bfbcace3d6fba985e2.pdf",
+    "page": 5,
+    "firm_answer": "Firm has documentation and reporting experience on federal contracts. No specific quarterly report submission experience for landscaping/cutting services documented in profile.",
+    "status": "partial",
+    "evidence": "Capabilities: QC inspections logged in a CMMS"
+   },
+   {
+    "requirement_id": "e1d2da67-e09c4859-p1-1c92fe0b",
+    "quote": "Any representations and/or certifications attached to this Request for Quotation must be completed by the quoter.",
+    "source_file": "e09c48594fff42a391e41f59ffafbb8d.pdf",
+    "page": 1,
+    "firm_answer": "Firm holds WOSB, EDWOSB, SBA set-aside eligibility and has completed reps and certs on multiple federal solicitations. Administratively capable.",
+    "status": "meets",
+    "evidence": "Firm profile: set-asides the firm can claim: WOSB, EDWOSB, SBA"
+   },
+   {
+    "requirement_id": "e1d2da67-e09c4859-p1-839bd5d5",
+    "quote": "Quotes for this requirement must be submitted via email to yujeiry_eusebio@ios.doi.gov.",
+    "source_file": "e09c48594fff42a391e41f59ffafbb8d.pdf",
+    "page": 1,
+    "firm_answer": "Standard email submission. Firm is capable of email submission. No profile constraint prevents this.",
+    "status": "meets",
+    "evidence": "General administrative capability; no profile constraint"
+   },
+   {
+    "requirement_id": "e1d2da67-e09c4859-p4-c18779ec",
+    "quote": "Quotes shall be sent via email to Yujeiry_eusebio@ios.doi.gov with subject line: QUOTE – 140P5426Q0038.",
+    "source_file": "e09c48594fff42a391e41f59ffafbb8d.pdf",
+    "page": 4,
+    "firm_answer": "Standard email submission requirement. Firm is capable of compliance.",
+    "status": "meets",
+    "evidence": "General administrative capability"
+   },
+   {
+    "requirement_id": "e1d2da67-e09c4859-p4-ffec2b31",
+    "quote": "All quoters shall complete blocks 13, 14, 15, and 16 of the solicitation form (SF-18), the price schedule below, and acknowledge (sign) any amendments issued to this solicitation.",
+    "source_file": "e09c48594fff42a391e41f59ffafbb8d.pdf",
+    "page": 4,
+    "firm_answer": "Firm has experience completing federal solicitation forms across multiple contracts. SF-18 completion is standard administrative capability.",
+    "status": "meets",
+    "evidence": "Custodial services, Oklahoma City Federal Building; Grounds maintenance, cantonment area; Housekeeping support, outpatient clinic"
+   },
+   {
+    "requirement_id": "e1d2da67-e09c4859-p10-3a9e599b",
+    "quote": "Price- The offeror must complete the price schedule on pages 4-5 of this solicitation and must provide an additional price breakdown as part of their offer.",
+    "source_file": "e09c48594fff42a391e41f59ffafbb8d.pdf",
+    "page": 10,
+    "firm_answer": "Firm can complete a price schedule. However, accurate pricing for VIIS work requires knowledge of local labor markets, equipment mobilization to the Virgin Islands, and tropical vegetation conditions — none of which are evidenced in the profile. Pricing accuracy is at high risk.",
+    "status": "partial",
+    "evidence": "Grounds maintenance, cantonment area — provides some cost basis for grounds work, but no island mobilization cost experience"
+   },
+   {
+    "requirement_id": "e1d2da67-e09c4859-p9-a4dfc62b",
+    "quote": "Client points of contact shall be provided to serve as references.",
+    "source_file": "e09c48594fff42a391e41f59ffafbb8d.pdf",
+    "page": 9,
+    "firm_answer": "Firm has four past performance records with named federal customers (GSA Region 7, Tinker AFB 72 ABW, Oklahoma OMES, VA Oklahoma City Health Care System). References are available.",
+    "status": "meets",
+    "evidence": "Grounds maintenance, cantonment area (Tinker AFB 72 ABW); Custodial services, Oklahoma City Federal Building (GSA Region 7); Housekeeping support, outpatient clinic (VA Oklahoma City)"
+   },
+   {
+    "requirement_id": "e1d2da67-e09c4859-p11-773ea44d",
+    "quote": "The Contractor shall procure and maintain during the term of this contract and any extension thereof liability insurance in form satisfactory to the Contracting Officer by an insurance company which is acceptable to the Contracting Officer.",
+    "source_file": "e09c48594fff42a391e41f59ffafbb8d.pdf",
+    "page": 11,
+    "firm_answer": "Firm profile does not explicitly mention liability insurance. However, firm holds active federal contracts with DoD and VA which typically require liability insurance. Assumed capable but not confirmed in profile.",
+    "status": "unknown",
+    "evidence": "Profile is silent on insurance; inferred from active federal contract history"
+   },
+   {
+    "requirement_id": "e1d2da67-e09c4859-p11-88dda981",
+    "quote": "The amounts of the insurance shall be not less than as follows: $ 50,000 each person $ 100,000 each occurrence $ 100,000 property damage",
+    "source_file": "e09c48594fff42a391e41f59ffafbb8d.pdf",
+    "page": 11,
+    "firm_answer": "Specific insurance minimums ($50K per person, $100K per occurrence, $100K property damage) are not addressed in the firm profile. Cannot confirm compliance.",
+    "status": "unknown",
+    "evidence": "Profile is silent on insurance coverage amounts"
+   },
+   {
+    "requirement_id": "e1d2da67-e09c4859-p11-baea55d7",
+    "quote": "The contractor shall furnish the Contracting Officer with a copy of an acceptable insurance certificate prior to beginning the work.",
+    "source_file": "e09c48594fff42a391e41f59ffafbb8d.pdf",
+    "page": 11,
+    "firm_answer": "Profile does not mention insurance certificates. Standard federal contracting requirement; assumed achievable but not confirmed.",
+    "status": "unknown",
+    "evidence": "Profile is silent on insurance certificates"
+   },
+   {
+    "requirement_id": "e1d2da67-eeb2285d-p3-dfa81c6e",
+    "quote": "Landscaping shall include both sides of the road from the edge line to five feet out on both sides unless otherwise specified.",
+    "source_file": "eeb2285dc11246bfbcace3d6fba985e2.pdf",
+    "page": 3,
+    "firm_answer": "Firm has roadside mowing and trimming experience at Tinker AFB cantonment area. However, tropical roadside vegetation in the Virgin Islands differs significantly from Oklahoma conditions. No island-specific experience documented.",
+    "status": "partial",
+    "evidence": "Grounds maintenance, cantonment area (keywords: mowing, trimming, landscaping)"
+   },
+   {
+    "requirement_id": "e1d2da67-eeb2285d-p2-9f26c6af",
+    "quote": "The debris shall be placed downslope of the cut areas, evenly distributed—not mounded— and left in a neat, presentable condition.",
+    "source_file": "eeb2285dc11246bfbcace3d6fba985e2.pdf",
+    "page": 2,
+    "firm_answer": "Firm has grounds maintenance experience including debris management at Tinker AFB. Specific downslope debris placement in hilly/island terrain is not documented.",
+    "status": "partial",
+    "evidence": "Grounds maintenance, cantonment area (keywords: grounds, mowing, trimming, landscaping)"
+   },
+   {
+    "requirement_id": "e1d2da67-eeb2285d-p3-fdce749a",
+    "quote": "Measurements are approximations and shall be validated with the park prior to mobilization.",
+    "source_file": "eeb2285dc11246bfbcace3d6fba985e2.pdf",
+    "page": 3,
+    "firm_answer": "Pre-mobilization site validation requires travel to the Virgin Islands. Firm has no documented presence or mobilization capability in the USVI. This is operationally infeasible given the rc-distance constraint.",
+    "status": "gap",
+    "evidence": "rc-distance owner rule; firm operational area limited to Oklahoma and neighboring states"
+   },
+   {
+    "requirement_id": "e1d2da67-eeb2285d-p3-72d62a6d",
+    "quote": "Distances and square footage are approximations and the actual areas shall be validated with the park prior to mobilization.",
+    "source_file": "eeb2285dc11246bfbcace3d6fba985e2.pdf",
+    "page": 3,
+    "firm_answer": "Same as above — on-site validation in the Virgin Islands is required prior to mobilization. Firm has no USVI presence. Operationally infeasible under rc-distance rule.",
+    "status": "gap",
+    "evidence": "rc-distance owner rule; firm operational area limited to Oklahoma and neighboring states"
+   },
+   {
+    "requirement_id": "e1d2da67-eeb2285d-p5-fc56ef72",
+    "quote": "The quarterly cuttings dates shall be determined by the contractor and approved by the COR.",
+    "source_file": "eeb2285dc11246bfbcace3d6fba985e2.pdf",
+    "page": 5,
+    "firm_answer": "Firm has scheduling experience on federal grounds contracts. However, scheduling quarterly mobilizations to the Virgin Islands from Oklahoma City is operationally and logistically unsupported by the profile.",
+    "status": "gap",
+    "evidence": "rc-distance owner rule; Grounds maintenance, cantonment area — local scheduling experience only"
+   },
+   {
+    "requirement_id": "e1d2da67-eeb2285d-p5-4d63fd6f",
+    "quote": "Non-conforming work shall be corrected at no additional cost to the Government.",
+    "source_file": "eeb2285dc11246bfbcace3d6fba985e2.pdf",
+    "page": 5,
+    "firm_answer": "Standard federal contract quality requirement. Firm has QC program (CMMS-logged inspections) and CIMS-GB certification supporting quality management. However, correcting non-conforming work in the USVI from Oklahoma City would require costly re-mobilization.",
+    "status": "partial",
+    "evidence": "Capabilities: QC inspections logged in a CMMS, CIMS-GB certified"
+   },
+   {
+    "requirement_id": "e1d2da67-e09c4859-p12-53cebb83",
+    "quote": "Payment requests must be submitted electronically through the U.",
+    "source_file": "e09c48594fff42a391e41f59ffafbb8d.pdf",
+    "page": 12,
+    "firm_answer": "Firm has multiple active federal contracts requiring electronic payment submission through IPP (GSA, DoD, VA). Firm is experienced with federal electronic invoicing.",
+    "status": "meets",
+    "evidence": "Custodial services, Oklahoma City Federal Building (GSA Region 7); Grounds maintenance, cantonment area (Tinker AFB); Housekeeping support, outpatient clinic (VA)"
+   },
+   {
+    "requirement_id": "e1d2da67-e09c4859-p12-29c92022",
+    "quote": "The Contractor must use the IPP website to register access and use IPP for submitting requests for payment.",
+    "source_file": "e09c48594fff42a391e41f59ffafbb8d.pdf",
+    "page": 12,
+    "firm_answer": "Firm has active federal contracts with GSA, DoD, and VA — all of which use IPP. Firm is presumed to have an active IPP account.",
+    "status": "meets",
+    "evidence": "Custodial services, Oklahoma City Federal Building (GSA Region 7); Grounds maintenance, cantonment area (Tinker AFB)"
+   },
+   {
+    "requirement_id": "e1d2da67-e09c4859-p10-56b28143",
+    "quote": "The option provision may be exercised more than once, but the total extension of performance hereunder shall not exceed 6 months.",
+    "source_file": "e09c48594fff42a391e41f59ffafbb8d.pdf",
+    "page": 10,
+    "firm_answer": "The solicitation references a 6-month maximum extension option. The base period duration is not stated in the requirements provided. If the base period is less than 12 months, this would violate the rc-base owner rule. Base period length is unknown from available documents.",
+    "status": "unknown",
+    "evidence": "rc-base owner rule requires minimum 12-month base period; base period not confirmed in requirements text"
+   },
+   {
+    "requirement_id": "e1d2da67-6287c376-p1-17b35b59",
+    "quote": "Response: As indicated in the SOW 1 Scope, All services shall confirm to applicable codes, NPS requirements and accepted industry",
+    "source_file": "6287c3769fbe4afdb05a99cdd2bb34ca.pdf",
+    "page": 1,
+    "firm_answer": "Firm has no NPS or DOI past performance. Firm complies with federal standards generally (GSA, DoD, VA) but NPS-specific codes and requirements are not evidenced in the profile.",
+    "status": "partial",
+    "evidence": "Capabilities: OSHA 30 supervisors, CIMS-GB certified; no NPS-specific experience"
+   },
+   {
+    "requirement_id": "e1d2da67-6287c376-p2-cb3a0cfe",
+    "quote": "Response: As indicated in the SOW 4 General Performance Requirements - 5th awarded contractor known and a schedule is given for that area, the locked gate will be opened and must be locked at the completion of each day work.",
+    "source_file": "6287c3769fbe4afdb05a99cdd2bb34ca.pdf",
+    "page": 2,
+    "firm_answer": "Firm has experience with controlled-access federal sites (Tinker AFB). Gate/access security protocols are within firm's demonstrated experience.",
+    "status": "meets",
+    "evidence": "Grounds maintenance, cantonment area (Tinker AFB 72 ABW) — military installation with controlled access"
+   },
+   {
+    "requirement_id": "e1d2da67-e09c4859-p4-c4db91ee",
+    "quote": "All eligible responsible sources may submit a quote which shall be considered by the National Park Service however, late submissions will be treated in accordan ce with FAR 52.212-1(f) and not be considered.",
+    "source_file": "e09c48594fff42a391e41f59ffafbb8d.pdf",
+    "page": 4,
+    "firm_answer": "Set-aside is Total Small Business. Firm qualifies as a small business (SBA-eligible per profile). Firm is an eligible source under the set-aside. However, the rc-distance rule makes bidding inadvisable.",
+    "status": "meets",
+    "evidence": "Firm profile: set-asides the firm can claim: WOSB, EDWOSB, SBA"
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "e1d2da67eb3844c3824442bf43e08a87",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-09-11T12:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": null,
+   "source_quotes": [
+    "the Government is extending the quote due date until: September 11, 2026, at 12:00 PM EST."
+   ]
+  },
+  "days_to_close": -2.7621560510648147,
+  "set_aside_note": "Set-aside is \"Small Business Set Aside - Total.\" Red Cedar Facility Services can claim this set-aside because the firm qualifies as a small business (it is listed under SBA in the firm's eligible set-asides). The firm is eligible to bid.",
+  "amendment_note": "no amendment",
+  "calendar_entries": [
+   {
+    "title": "Proposal/Quote Due",
+    "date": "2026-09-11",
+    "note": "Quote due date extended to September 11, 2026, at 12:00 PM EST per the amendment description.",
+    "source_quote": "the Government is extending the quote due date until: September 11, 2026, at 12:00 PM EST."
+   },
+   {
+    "title": "Decide By (2 business days before proposal due)",
+    "date": "2026-09-09",
+    "note": "Internal go/no-go decision deadline — two business days before the proposal due date of 2026-09-11.",
+    "source_quote": "the Government is extending the quote due date until: September 11, 2026, at 12:00 PM EST."
+   }
+  ]
+ },
+ "model_calls": 5,
+ "tokens_in": 53546,
+ "tokens_out": 12036,
+ "seconds": 110.55,
+ "produced_at": "2026-09-14T05:19:20.830833-05:00"
+}

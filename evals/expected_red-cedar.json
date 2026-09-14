@@ -1,0 +1,1916 @@
+{
+ "firm": "red-cedar",
+ "as_of": "2026-09-13T21:54:20-05:00",
+ "built_at": "2026-09-14T07:17:17.970639-05:00",
+ "derived_from": {
+  "bench": "data/bench/tiering_red-cedar.json",
+  "gallery": "gallery/index.json"
+ },
+ "how_to_read": "filed_by_rule is the first owner rule that fires (tier 0 is first-kill-wins); should_surface is the set of notices that produced a gallery card. Tier 0 is re-run at as_of so the deadline rule decides the same way it did at bench time.",
+ "hand_checked": [
+  {
+   "notice_id": "0177c8f802b34de6ab1214d1d2a917e0",
+   "checked": "rc-distance: pop Wright Patterson AFB, OH 45433 is 794 mi from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "08127248281b4b07bf2230273356d5eb",
+   "checked": "rc-distance: pop Nebo, NC 28761 is 877 mi (limit 200)"
+  },
+  {
+   "notice_id": "08fe4436b5944df69bbaf71f606fcbcd",
+   "checked": "rc-distance: pop zip 98271 (Marysville WA) is 1531 mi (limit 200)"
+  },
+  {
+   "notice_id": "09dce64e3a694bb98742d58276b9296d",
+   "checked": "rc-distance: pop state NE only, 409 mi, past the 2x state-precision limit of 400"
+  },
+  {
+   "notice_id": "05810e4be28f45ba95869351cb655ce4",
+   "checked": "rc-setaside: typeOfSetAside 8A is not in WOSB/EDWOSB/SBA/unrestricted"
+  },
+  {
+   "notice_id": "11b69a0cde1f45fdadc2a429375bc69d",
+   "checked": "rc-setaside: typeOfSetAside SDVOSBC is not one this firm can claim"
+  },
+  {
+   "notice_id": "1f04e70b587949109cc887da01bc10a7",
+   "checked": "rc-setaside: typeOfSetAside SDVOSBC is not one this firm can claim"
+  },
+  {
+   "notice_id": "0fe1fe9b93af4ad89dbe5a84e6cb23ea",
+   "checked": "rc-types: type 'Special Notice' is not a real solicitation"
+  },
+  {
+   "notice_id": "12fb78f6f5664ea782df338c98409049",
+   "checked": "rc-types: type 'Justification' is not a real solicitation"
+  },
+  {
+   "notice_id": "15cd0127120b429aae5382fc4a4a81fb",
+   "checked": "rc-types: type 'Award Notice' is not a real solicitation"
+  }
+ ],
+ "filed_by_rule": [
+  {
+   "notice_id": "7d573ea3c995475bb3ee6fa49b8aa779",
+   "rule_id": "rc-distance",
+   "title": "Central Great Plains Research Services- Janitorial Services",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "CO, 80720",
+   "response_deadline": "2026-09-22T17:00:00-06:00",
+   "why": "CO is 450 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "eb7e4e6a736d479baff968ba9a145fda",
+   "rule_id": "rc-distance",
+   "title": "Janitorial Services, Wilmington DE",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Wilmington, DE, 19807",
+   "response_deadline": "2026-09-18T10:00:00-04:00",
+   "why": "Wilmington, DE is 1232 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "74550d40754b4cba9fa02b4255b020a7",
+   "rule_id": "rc-distance",
+   "title": "Grounds Maintenance Dale Bumpers National Rice Research Center Stuttgart, AR",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Stuttgart, AR, 72160",
+   "response_deadline": "2026-09-15T17:00:00-05:00",
+   "why": "Stuttgart, AR is 345 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "3f6bae3f8ce64b43a2317ce7d9b674f3",
+   "rule_id": "rc-distance",
+   "title": "Hazardous Tree Services and Boundary Maintenance",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "63957",
+   "response_deadline": "2026-09-22T10:00:00-05:00",
+   "why": "63957 is 397 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "fd390fa671004351a1d96f2b1594dc6e",
+   "rule_id": "rc-types",
+   "title": "Grounds Maintenance Services – Guayama Research Station",
+   "type": "Award Notice",
+   "set_aside_code": "SBA",
+   "pop": "Guayama, PR",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "fbacc954ed1041418b3e029882f9bf62",
+   "rule_id": "rc-distance",
+   "title": "Cutting of general vegetation and trees to create the required firebreaks",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Lahaina, HI, 96761",
+   "response_deadline": "2026-09-14T13:00:00-10:00",
+   "why": "Lahaina, HI is 3685 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "e519ee6f3e0148aa8c101a86320c163b",
+   "rule_id": "rc-distance",
+   "title": "Western Oregon Service Unit Grounds Maintenance",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "NONE",
+   "pop": "Salem, OR, 97305",
+   "response_deadline": "2026-09-14T12:00:00-07:00",
+   "why": "Salem, OR is 1484 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "e5081111d5e74d3ebae79926a2bc21be",
+   "rule_id": "rc-distance",
+   "title": "Natchez National Cemetery Tree Pruning Cascading Evaluation",
+   "type": "Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Natchez, MS, 39120",
+   "response_deadline": "2026-09-22T10:00:00-04:00",
+   "why": "Natchez, MS is 446 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "df614bc937e4475f8afc12f2670f93cd",
+   "rule_id": "rc-types",
+   "title": "Janitorial Services for Englebright Lake",
+   "type": "Award Notice",
+   "set_aside_code": "SBA",
+   "pop": "Penn Valley, CA, 95946",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "c765b0477ae842ffbcc8980dd0f8f6bd",
+   "rule_id": "rc-distance",
+   "title": "AMENDMENT 0003 - FY 26 Barnes Center Interior Cleaning Service",
+   "type": "Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Montgomery, AL, 36112",
+   "response_deadline": "2026-09-15T12:00:00-05:00",
+   "why": "Montgomery, AL is 674 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "acaccd4ddab1488fbc52b51511cc447f",
+   "rule_id": "rc-distance",
+   "title": "Janitorial Services at the FMH SSC in Falmouth, MA",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Falmouth, MA",
+   "response_deadline": "2026-10-20T15:00:00-04:00",
+   "why": "Falmouth, MA is 1507 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "9f8003ffc1274a67a5c9d3806570d577",
+   "rule_id": "rc-distance",
+   "title": "Hill AFB Snow Removal BPA",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": null,
+   "pop": "0, UT",
+   "response_deadline": "2026-10-05T14:00:00-06:00",
+   "why": "UT is 839 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "9e8262b7f8fa48a19cceffdb201c7f55",
+   "rule_id": "rc-distance",
+   "title": "Central Great Plains Research Services- Janitorial Services",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "CO, 80720",
+   "response_deadline": "2026-09-22T17:00:00-06:00",
+   "why": "CO is 450 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "9177063135dd4ddca2c3904cfad6c082",
+   "rule_id": "rc-distance",
+   "title": "Table Mountain Field Site Grounds Maintenance Services",
+   "type": "Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Longmont, CO, 80503",
+   "response_deadline": "2026-09-16T14:00:00-04:00",
+   "why": "Longmont, CO is 528 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "83fd45366ecd4260b3c4c420ba2fd270",
+   "rule_id": "rc-distance",
+   "title": "MDG Landscaping/ Grounds Maintenance",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Albuquerque, NM, 87108",
+   "response_deadline": "2026-09-21T14:00:00-06:00",
+   "why": "Albuquerque, NM is 512 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "784d242f4ad74cd5a46b9be1d3e7aa8e",
+   "rule_id": "rc-distance",
+   "title": "DLA Disposition Services Ft. Bragg Lawn Maintenance Services",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Fort Bragg, NC, 28310",
+   "response_deadline": "2026-09-16T17:00:00-04:00",
+   "why": "Fort Bragg, NC is 1055 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "75b72cd9a2d74d5bb9904daba641132f",
+   "rule_id": "rc-types",
+   "title": "Custodial and Janitorial Services for Defense Information Systems Agency Pacific (DISA PAC), Building 77 AMD 0001",
+   "type": "Award Notice",
+   "set_aside_code": "SBA",
+   "pop": "JBPHH, HI, 96860",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "712ef0414596414eb5785a662a01d52e",
+   "rule_id": "rc-setaside",
+   "title": "Ft Sam Houston Solid Waste Removal Base plus 4",
+   "type": "Solicitation",
+   "set_aside_code": "SDVOSBC",
+   "pop": "San Antonio, TX, 78209",
+   "response_deadline": "2026-10-02T10:00:00-04:00",
+   "why": "set-aside Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "6c9ad9dcb3f649509059b4402bc162b4",
+   "rule_id": "rc-setaside",
+   "title": "Janitorial, Grounds Maintenance and Pest Control Services - Del Rio Sector",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "8A",
+   "pop": "Del Rio, TX",
+   "response_deadline": "2026-09-15T17:00:00-04:00",
+   "why": "set-aside 8(a) Set-Aside (FAR 19.8) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "6c68ed1544224e8fba99f376554660cb",
+   "rule_id": "rc-types",
+   "title": "S201--Janitorial Services - Dayton VA Medical Center",
+   "type": "Special Notice",
+   "set_aside_code": "SDVOSBC",
+   "pop": "Dayton, OH",
+   "response_deadline": "2026-09-15T13:30:00-04:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "6ae61909e3d24a72806af27c50f1e881",
+   "rule_id": "rc-distance",
+   "title": "Grounds Maintenance Tree Service",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Montgomery, AL, 36112",
+   "response_deadline": "2026-09-21T12:00:00-05:00",
+   "why": "Montgomery, AL is 674 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "5329a4133e534d7ea41edeeba19e9575",
+   "rule_id": "rc-setaside",
+   "title": "S--LANDSCAPING FOR EASTER NEVADA AGENCY",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "IEE",
+   "pop": "",
+   "response_deadline": "2026-09-11T17:00:00-07:00",
+   "why": "set-aside Indian Economic Enterprise is one the firm cannot claim"
+  },
+  {
+   "notice_id": "2481aaf1194f4933a6b65e892999a5cb",
+   "rule_id": "rc-distance",
+   "title": "Custodial Services in Kingwood, WV (WV022)",
+   "type": "Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "26537",
+   "response_deadline": "2026-09-22T11:00:00-04:00",
+   "why": "26537 is 1013 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "22cb4ef7494d4c56948b907f9a67431c",
+   "rule_id": "rc-types",
+   "title": "Grounds Maintenance/Snow Removal Services,  BP Station, Swanton, VT",
+   "type": "Award Notice",
+   "set_aside_code": "SBA",
+   "pop": "Highgate Center, VT, 05459",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "15cd0127120b429aae5382fc4a4a81fb",
+   "rule_id": "rc-types",
+   "title": "Janitorial Services at Benbrook Lake, Fort Worth, Texas",
+   "type": "Award Notice",
+   "set_aside_code": "SDVOSBC",
+   "pop": "76132",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "c830a8047bbd41b68cbc1b4ee2a595b8",
+   "rule_id": "rc-distance",
+   "title": "IIS USFS Tanbark Hazard Tree Removal",
+   "type": "Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Riverside, CA, 92507",
+   "response_deadline": "2026-09-22T11:00:00-07:00",
+   "why": "Riverside, CA is 1129 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "9f167b7c98394e14b55deafc6e5e5f5c",
+   "rule_id": "rc-distance",
+   "title": "Custodial Service",
+   "type": "Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "CO, 80503",
+   "response_deadline": "2026-09-15T15:00:00-04:00",
+   "why": "CO is 528 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "7fb73cf25dd84c64a82438181dd2e739",
+   "rule_id": "rc-distance",
+   "title": "Janitorial Services at the MVY ATCT in Massachusetts",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "MA, 02575",
+   "response_deadline": "2026-10-22T15:00:00-04:00",
+   "why": "MA is 1504 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "7a176367f4944d2a91f948411bba07c1",
+   "rule_id": "rc-distance",
+   "title": "Housekeeping Services – Fermilab",
+   "type": "Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "IL, 60510",
+   "response_deadline": "2026-10-09T17:00:00-05:00",
+   "why": "IL is 663 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "791114bf25ad452cacf40f09e94ea4e3",
+   "rule_id": "rc-distance",
+   "title": "ATC Turf Field Maintenance",
+   "type": "Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Columbia, SC, 29207",
+   "response_deadline": "2026-09-14T12:00:00-04:00",
+   "why": "Columbia, SC is 945 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "77ed9059f3f54d98ab6010e288ca2288",
+   "rule_id": "rc-types",
+   "title": "S--WA-JULIA BUTLER HANSEN REFUGE JANITORIAL",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "6de7eac93ec04ceaa76555ed9bab55d7",
+   "rule_id": "rc-types",
+   "title": "Grounds Maintenance with 4 Option Years",
+   "type": "Award Notice",
+   "set_aside_code": "SBA",
+   "pop": "Kerrville, TX, 78028",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "5f47f2af4e2d42dd96dc9761261d08af",
+   "rule_id": "rc-distance",
+   "title": "Removal of Dead Ash Trees, Eau Galle Project",
+   "type": "Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "54767",
+   "response_deadline": "2026-09-28T07:00:00-05:00",
+   "why": "54767 is 703 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "5a0335526fd041ebb3791980523a0b23",
+   "rule_id": "rc-setaside",
+   "title": "Groundskeeping",
+   "type": "Presolicitation",
+   "set_aside_code": "SDVOSBC",
+   "pop": "Durham, NC, 27705",
+   "response_deadline": "2026-09-21T12:00:00-04:00",
+   "why": "set-aside Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "4c1172aff72444519b1fbb6449f28eba",
+   "rule_id": "rc-distance",
+   "title": "PKAB Tree Removal and Disposal Services at FE Warren AFB, WY",
+   "type": "Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "FE Warren AFB, WY, 82005",
+   "response_deadline": "2026-09-17T11:00:00-06:00",
+   "why": "FE Warren AFB, WY is 558 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "28e7dc54ed9444778ac2d805b007620e",
+   "rule_id": "rc-types",
+   "title": "Annual Janitorial Service Base +4 Option Years",
+   "type": "Award Notice",
+   "set_aside_code": "SBA",
+   "pop": "Prosser, WA, 99350",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "0177c8f802b34de6ab1214d1d2a917e0",
+   "rule_id": "rc-distance",
+   "title": "AFIT River Rock Border Solicitation",
+   "type": "Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Wright Patterson AFB, OH, 45433",
+   "response_deadline": "2026-09-16T12:00:00-04:00",
+   "why": "Wright Patterson AFB, OH is 794 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "e92ecf619ee7469e8222979f9dc59dbf",
+   "rule_id": "rc-types",
+   "title": "Grounds maintenance services for Riverside National Cemetery. -- S208",
+   "type": "Special Notice",
+   "set_aside_code": "SDVOSBC",
+   "pop": "Riverside, CA, 92518",
+   "response_deadline": "2026-09-21T17:00:00-07:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "de86b56c024442c082dea997f0bfe7b1",
+   "rule_id": "rc-distance",
+   "title": "REPAIR Planter Beds Various Locations - 126 ARW, Scott AFB, IL",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Scott Air Force Base, IL, 62225",
+   "response_deadline": "2026-09-18T13:00:00-05:00",
+   "why": "Scott Air Force Base, IL is 473 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "b2397e6f60cc49cda4f4bb07812b9d3c",
+   "rule_id": "rc-distance",
+   "title": "Embassy Libreville, Gabon - Landscaping Services",
+   "type": "Solicitation",
+   "set_aside_code": null,
+   "pop": "LIbreville, GA-1, 4000",
+   "response_deadline": "2026-09-25T10:00:00+01:00",
+   "why": "place of performance is outside the United States (LIbreville, GAB)"
+  },
+  {
+   "notice_id": "85b3938cd77a4203860be8cd8655e8eb",
+   "rule_id": "rc-setaside",
+   "title": "S208--Tree Removal Service - Dead and Damaged - Pineville, LA",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SDVOSBC",
+   "pop": "Pineville, LA",
+   "response_deadline": "2026-07-28T14:00:00-05:00",
+   "why": "set-aside Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "6b21b73e5bf84cef89fb2bd8f025c681",
+   "rule_id": "rc-distance",
+   "title": "Custodial Services for TSA Leased Space at Ted Stevens International Airport",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Anchorage, AK, 99502",
+   "response_deadline": "2026-09-10T18:00:00-08:00",
+   "why": "Anchorage, AK is 2875 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "4ac977cb4efa4f15a237d8a655334660",
+   "rule_id": "rc-setaside",
+   "title": "Custodial Services at TX190, Denton, TX",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "HZC",
+   "pop": "76207",
+   "response_deadline": "2026-09-30T10:00:00-05:00",
+   "why": "set-aside Historically Underutilized Business (HUBZone) Set-Aside (FAR 19.13) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "2f1668e3429440789fba3b9c586381d3",
+   "rule_id": "rc-setaside",
+   "title": "Z1DZ - Columbus VAACC Building Washing",
+   "type": "Presolicitation",
+   "set_aside_code": "SDVOSBC",
+   "pop": "Columbus, OH, 43219",
+   "response_deadline": "2026-09-16T13:30:00-04:00",
+   "why": "set-aside Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "2c7e8683a5054cbcb8dcc9d01e8a9960",
+   "rule_id": "rc-distance",
+   "title": "Custodial Services - Salem, VA (VA051)",
+   "type": "Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Salem, VA",
+   "response_deadline": "2026-09-14T11:00:00-04:00",
+   "why": "Salem, VA is 977 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "09dce64e3a694bb98742d58276b9296d",
+   "rule_id": "rc-distance",
+   "title": "Phragmite Removal Offutt AFB",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "NE, 68113",
+   "response_deadline": "2026-09-14T11:00:00-05:00",
+   "why": "NE is 409 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "fba080da5a9541e0a6cc01d8ad8f1a23",
+   "rule_id": "rc-types",
+   "title": "S208--Tree Removal Service - Dead and Damaged - Pineville, LA",
+   "type": "Award Notice",
+   "set_aside_code": "SDVOSBC",
+   "pop": "Pineville, LA",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "dd44d1d19b2f480c87f3f6caac938e57",
+   "rule_id": "rc-setaside",
+   "title": "Janitorial Services (El Paso, TX) *SECRET* Clearance Required",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "8A",
+   "pop": "Fort Bliss, TX, 79918",
+   "response_deadline": "2026-09-16T10:00:00-04:00",
+   "why": "set-aside 8(a) Set-Aside (FAR 19.8) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "b785b0cfe3a04ad8b1160eaada466268",
+   "rule_id": "rc-setaside",
+   "title": "Landscaping Services",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SDVOSBC",
+   "pop": "CA, 91406",
+   "response_deadline": "2026-09-11T10:00:00-07:00",
+   "why": "set-aside Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "93c3bfce9769475fbd9637af372b7375",
+   "rule_id": "rc-distance",
+   "title": "Janitorial Services",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Geneva, NY, 14456",
+   "response_deadline": "2026-09-10T09:00:00-07:00",
+   "why": "Geneva, NY is 1208 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "6e2ee84f493a4fd392019339ec0e8405",
+   "rule_id": "rc-setaside",
+   "title": "Yellowstone National Cemetery Total Cemetery Operations",
+   "type": "Solicitation",
+   "set_aside_code": "SDVOSBC",
+   "pop": "Laurel, MT, 59044",
+   "response_deadline": "2026-10-04T23:00:00-04:00",
+   "why": "set-aside Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "4637e94f5a694ee6b1abffea3ef80004",
+   "rule_id": "rc-distance",
+   "title": "70Z03026QCLEV0101 - GROUND MAINTENANCE AND SNOW REMOVAL FOR SECTOR NORTHERN GRREAT LAKES",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "NONE",
+   "pop": "0, MI, 49783",
+   "response_deadline": "2026-09-15T15:00:00-04:00",
+   "why": "MI is 1021 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "3c6c38a96e694f6dad3bac6e4e925a1e",
+   "rule_id": "rc-distance",
+   "title": "70Z03026QCLEV0100 - GROUND MAINTENANCE AND SNOW REMOVAL FOR USCG STATION ST. IGNACE",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "NONE",
+   "pop": "Saint Ignace, MI, 49781",
+   "response_deadline": "2026-09-15T15:00:00-04:00",
+   "why": "Saint Ignace, MI is 987 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "1f04e70b587949109cc887da01bc10a7",
+   "rule_id": "rc-setaside",
+   "title": "Landscaping and Groundskeeping Services, Maricopa, AZ",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SDVOSBC",
+   "pop": "Maricopa, AZ, 85138",
+   "response_deadline": "2026-09-22T09:00:00-05:00",
+   "why": "set-aside Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "d8b5ab62c3e44b7fba2fa35c7ce1085d",
+   "rule_id": "rc-distance",
+   "title": "RFQ: Green Areas Maintenance Services for Areas Surrounding Bldg. 2022 CSJTC-SALINAS",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Salinas, PR, 00751",
+   "response_deadline": "2026-09-17T14:00:00-04:00",
+   "why": "Salinas, PR is 2259 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "a52cf476c38b4eed8c7b60b99e1fc2e6",
+   "rule_id": "rc-distance",
+   "title": "Trabuco District Ranger Office Janitorial Services",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Corona, CA, 92879",
+   "response_deadline": "2026-09-15T17:00:00-07:00",
+   "why": "Corona, CA is 1141 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "8f34989e979b4eef9a5e7c24217ecae2",
+   "rule_id": "rc-types",
+   "title": "ANF Janitorial",
+   "type": "Award Notice",
+   "set_aside_code": "SBA",
+   "pop": "Arcadia, CA, 91006",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "8275c125a9ad48c3a8629a62141aa015",
+   "rule_id": "rc-distance",
+   "title": "NRS St Paul Janitorial",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Saint Paul, MN",
+   "response_deadline": "2026-09-23T12:00:00-05:00",
+   "why": "Saint Paul, MN is 695 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "63b9957f84c14001af88165b620c2975",
+   "rule_id": "rc-distance",
+   "title": "Interiorscaping",
+   "type": "Sources Sought",
+   "set_aside_code": null,
+   "pop": "Hampton, VA, 23667",
+   "response_deadline": "2026-09-10T10:00:00-04:00",
+   "why": "Hampton, VA is 1183 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "56c9f4d17115475e9504f7862ee9f066",
+   "rule_id": "rc-distance",
+   "title": "ARS - Wapato Janitorial Services",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Wapato, WA, 98951",
+   "response_deadline": "2026-09-15T11:00:00-06:00",
+   "why": "Wapato, WA is 1408 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "386c001be9344a88a6c14f57c56d9e7f",
+   "rule_id": "rc-distance",
+   "title": "Request for Proposal 381487-CJ - Data Centers Cleaning Services, Batavia, Illinois",
+   "type": "Solicitation",
+   "set_aside_code": null,
+   "pop": "Batavia, IL, 60510",
+   "response_deadline": "2026-09-09T12:00:00-05:00",
+   "why": "Batavia, IL is 663 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "db4bfc24fbc94b47a301c921734bf7c3",
+   "rule_id": "rc-types",
+   "title": "F--The Columbia River Gorge National Fish Hatchery Co",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "cefd20c0050248b08441737fb26956dc",
+   "rule_id": "rc-distance",
+   "title": "PSW Landscaping Hilo, Hawaii",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Hilo, HI, 96720",
+   "response_deadline": "2026-09-22T10:00:00-07:00",
+   "why": "Hilo, HI is 3638 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "ca1089a1ac004b548b30ae4f4e3b861f",
+   "rule_id": "rc-distance",
+   "title": "Outdoor Volleyball Court Sand and Liner Replacement B1657",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "JB Andrews, MD, 20762",
+   "response_deadline": "2026-09-08T12:00:00-04:00",
+   "why": "JB Andrews, MD is 1157 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "bef5c4b24a294859999d2a27508edcac",
+   "rule_id": "rc-types",
+   "title": "HAFB & FAM Camp Grounds & Snow Maintenance",
+   "type": "Award Notice",
+   "set_aside_code": "SBA",
+   "pop": "Hanscom AFB, MA",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "ba32f47a173f42be9f73fff33d0b31fc",
+   "rule_id": "rc-types",
+   "title": "Fremont River Ranger District , Teasdale Office Janitorial",
+   "type": "Award Notice",
+   "set_aside_code": "SBA",
+   "pop": "UT, 84773",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "ac6e9a20387942e5a5764f95efcc0de9",
+   "rule_id": "rc-types",
+   "title": "Three Rivers Hords Creek Park Cleaning and Water Testing Services",
+   "type": "Award Notice",
+   "set_aside_code": "SBA",
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "ab647880419849c9ab409fbf7bb33b1c",
+   "rule_id": "rc-distance",
+   "title": "Amendment 0002 - Removal of Invasive Species (Bush Honeysuckle)",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "KS, 66027",
+   "response_deadline": "2026-09-10T14:00:00-05:00",
+   "why": "KS is 303 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "a45166159a33461d86e62cd1808f4870",
+   "rule_id": "rc-types",
+   "title": "Grounds Maintenance with 4 Option Years",
+   "type": "Award Notice",
+   "set_aside_code": "SBA",
+   "pop": "Kerrville, TX, 78028",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "9988cde3ba674e5485faac3975279a52",
+   "rule_id": "rc-distance",
+   "title": "Janitorial Services - Kenton Service Center, Hardin County, OH",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Kenton, OH",
+   "response_deadline": "2026-09-16T14:30:00-04:00",
+   "why": "Kenton, OH is 835 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "8abb88034a4a4be7affc578c9591c6a0",
+   "rule_id": "rc-setaside",
+   "title": "WarU Campus Grounds Maintenance",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "HZC",
+   "pop": "",
+   "response_deadline": "2026-09-14T11:00:00-04:00",
+   "why": "set-aside Historically Underutilized Business (HUBZone) Set-Aside (FAR 19.13) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "8033e2e8d5c540dcabf6d199a7d26e87",
+   "rule_id": "rc-setaside",
+   "title": "JANITORIAL SERVICES FOR ARMED FORCES RECRUITING FACILITIES LOCATIONS IN PUERTO RICO",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SDVOSBC",
+   "pop": "00725",
+   "response_deadline": "2026-09-08T12:00:00-04:00",
+   "why": "set-aside Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "75dc0b2a9fa9476b9aa1f914f901e5c5",
+   "rule_id": "rc-distance",
+   "title": "IDIQ Mowing Contract Nimrod-Blue Mountain Lake Project",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "72857",
+   "response_deadline": "2026-09-18T11:00:00-05:00",
+   "why": "72857 is 240 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "67591bf7e7264a1688b051b848be3688",
+   "rule_id": "rc-distance",
+   "title": "F--Provide Tree Thinning Services - Hazardous Tree Pr",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Fredericksburg, VA, 22408",
+   "response_deadline": "2026-09-10T13:00:00-04:00",
+   "why": "Fredericksburg, VA is 1123 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "4a09eedeb57648cabad436b1d4f4a18e",
+   "rule_id": "rc-distance",
+   "title": "Sault Project Office (SPO) Janitorial Maintenance",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "49783",
+   "response_deadline": "2026-09-11T14:00:00-04:00",
+   "why": "49783 is 1021 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "1ad0971da9ac47a9903c1fcdbd1bf62a",
+   "rule_id": "rc-types",
+   "title": "Gardening Services for US Embassy Tunis",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "TN-11, 1053",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "0dcf92232922406a8b92b97bf45bb2a1",
+   "rule_id": "rc-distance",
+   "title": "Install Irrigation & Sod at the U.S. National Poultry Research Center Athens, GA",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "GA, 30605",
+   "response_deadline": "2026-09-22T12:00:00-04:00",
+   "why": "GA is 811 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "f5c3a542093c4703a466387471a09be2",
+   "rule_id": "rc-distance",
+   "title": "Kansas FY27 Mass Solicitation - Custodial Services",
+   "type": "Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Lawrence, KS, 66049",
+   "response_deadline": "2026-10-02T12:00:00-05:00",
+   "why": "Lawrence, KS is 272 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "e634c83ef9874c3a8702ee957562cd63",
+   "rule_id": "rc-distance",
+   "title": "W912P626QA029 Chicago Ship & Canal Tree Trimming",
+   "type": "Solicitation",
+   "set_aside_code": null,
+   "pop": "60441",
+   "response_deadline": "2026-09-10T14:00:00-05:00",
+   "why": "60441 is 663 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "cc2df5bce8ee4b14ac67814426a7e985",
+   "rule_id": "rc-types",
+   "title": "Awarded Janitorial, USACE Kansas City",
+   "type": "Award Notice",
+   "set_aside_code": "SBA",
+   "pop": "Hermitage, MO",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "b64af1a6b09f402bb9a16835f700cc8a",
+   "rule_id": "rc-distance",
+   "title": "Groundskeeping and pest control",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Davis, CA, 95618",
+   "response_deadline": "2026-09-11T17:00:00-04:00",
+   "why": "Davis, CA is 1349 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "b539410ab3194c88a65617b1db9bc609",
+   "rule_id": "rc-setaside",
+   "title": "S201 - Hines VA Hospital Janitorial Services",
+   "type": "Solicitation",
+   "set_aside_code": "SDVOSBC",
+   "pop": "Hines, IL, 60141",
+   "response_deadline": "2026-09-08T09:00:00-05:00",
+   "why": "set-aside Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "945e8a59f25a4299a5116c732d9bcb2a",
+   "rule_id": "rc-types",
+   "title": "S--Janitorial Services WFO Melbourne",
+   "type": "Award Notice",
+   "set_aside_code": "SBA",
+   "pop": "Melbourne, FL",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "886c4cf9bcd74943ac7c3316e56b62ec",
+   "rule_id": "rc-distance",
+   "title": "North Gate – Clear Brush and Tree Removal",
+   "type": "Solicitation",
+   "set_aside_code": null,
+   "pop": "Del Rio, TX, 78840",
+   "response_deadline": "2026-09-18T16:00:00-05:00",
+   "why": "Del Rio, TX is 462 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "79e675986cc04bc5b5e814e73161f196",
+   "rule_id": "rc-types",
+   "title": "International Institute of Tropical Forestry, Grounds Maintenance Services",
+   "type": "Award Notice",
+   "set_aside_code": "EDWOSB",
+   "pop": "San Juan, PR, 00926",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "71595279e7e740bd97883867a39a97ce",
+   "rule_id": "rc-types",
+   "title": "S--Umatilla Field Office (UFO) Janitorial Services",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "6c04a066a4c44b058c45c2dc9d33adb0",
+   "rule_id": "rc-types",
+   "title": "S--Hazardous Tree Removal",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "4385c2f10f3d41aeba586b8c2d3cd21f",
+   "rule_id": "rc-distance",
+   "title": "Weed Spraying for Hensley Lake",
+   "type": "Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Raymond, CA, 93653",
+   "response_deadline": "2026-09-08T10:00:00-07:00",
+   "why": "Raymond, CA is 1247 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "229406fa2dc9433f947367192feb9796",
+   "rule_id": "rc-distance",
+   "title": "Herbicide Application",
+   "type": "Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "17764",
+   "response_deadline": "2026-09-17T14:00:00-04:00",
+   "why": "17764 is 1142 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "0a77e573598d459198d9af4e1c576532",
+   "rule_id": "rc-distance",
+   "title": "Winter Snow Removal Hill, AFB (309th SWEG)",
+   "type": "Sources Sought",
+   "set_aside_code": null,
+   "pop": "Hill Air Force Base, UT, 84056",
+   "response_deadline": "2026-09-14T10:00:00-06:00",
+   "why": "Hill Air Force Base, UT is 875 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "f5a25c2234544b26b5ce1aef4f13e0d3",
+   "rule_id": "rc-setaside",
+   "title": "UPDATE 01 SEPTEMBER 2026: Grounds Maintenance Services - USCG SECTOR SAN DIEGO - UPDATED PWS, AERIAL IMAGES, SUBJECT TO AVAILABILITY OF FUNDS",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "HZC",
+   "pop": "San Diego, CA, 92101",
+   "response_deadline": "2026-09-06T11:59:00-04:00",
+   "why": "set-aside Historically Underutilized Business (HUBZone) Set-Aside (FAR 19.13) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "dd9a539179f44759aeb723864bd7e829",
+   "rule_id": "rc-distance",
+   "title": "UNITED STATES ARMY CORPS OF ENGINEERS (USACE) NORFOLK DISTRICT - GROUNDS MAINTENANCE SERVICES",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "23510",
+   "response_deadline": "2026-09-11T14:00:00-04:00",
+   "why": "23510 is 1186 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "b878faa7fc7a496c9fef1ac3f0798de6",
+   "rule_id": "rc-distance",
+   "title": "Janitorial Services, Ozark Powerhouse Russellville Site Office",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Ozark, AR, 72949",
+   "response_deadline": "2026-09-11T10:00:00-05:00",
+   "why": "Ozark, AR is 207 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "9de7c36ba02d43b4b4a65599f980b661",
+   "rule_id": "rc-distance",
+   "title": "USAGM Landscaping Service, Kuwait Transmitting Station",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-09-09T08:00:00-04:00",
+   "why": "place of performance is outside the United States (KWT)"
+  },
+  {
+   "notice_id": "8f87b7736d51400f9936c9e85b3f46fc",
+   "rule_id": "rc-setaside",
+   "title": "Custodial Services at all U.S. NBG, AAFB, MCBCB Activities, U.S. Naval Hospital Facilities in Guam, tenant commands, other U.S. Military Activities or DoD agencies throughout Guam, the Marianas Islands, CNMI, FSM & Palau",
+   "type": "Solicitation",
+   "set_aside_code": "HZC",
+   "pop": "Santa Rita, GU, 96915",
+   "response_deadline": "2026-09-18T12:00:00+10:00",
+   "why": "set-aside Historically Underutilized Business (HUBZone) Set-Aside (FAR 19.13) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "8945bb6e957e415fb1c0f2d014f05310",
+   "rule_id": "rc-types",
+   "title": "S--Janitorial Services Weather Forecast Office (WFO)",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "eef3fcd476824337aebe1e639a94ca29",
+   "rule_id": "rc-distance",
+   "title": "Fort Sam Houston National Cemetery Tree Pruning Cascading Evaluation",
+   "type": "Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "San Antonio, TX, 78209",
+   "response_deadline": "2026-09-13T17:00:00-04:00",
+   "why": "San Antonio, TX is 417 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "db237d2d89e747548814d1083558802a",
+   "rule_id": "rc-types",
+   "title": "Janitorial Services, Hop Brook Lake and Naugatuck River Basin, Middlebury, CT",
+   "type": "Award Notice",
+   "set_aside_code": "SBA",
+   "pop": "Middlebury, CT",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "b78aa093a2474b3e83d5a0bd6c95c484",
+   "rule_id": "rc-distance",
+   "title": "Weed Control and Vegetation Management Services",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Holloman Air Force Base, NM, 88330",
+   "response_deadline": "2026-09-01T16:00:00-05:00",
+   "why": "Holloman Air Force Base, NM is 522 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "b44b63a740134d28b88da31dbe5b9feb",
+   "rule_id": "rc-distance",
+   "title": "Gathright Dam Herbicide Service Contract",
+   "type": "Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "24426",
+   "response_deadline": "2026-09-30T14:00:00-04:00",
+   "why": "24426 is 984 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "b26474f94d144b0cb8faa982a623b717",
+   "rule_id": "rc-setaside",
+   "title": "Naval Station Norfolk Custodial Services",
+   "type": "Solicitation",
+   "set_aside_code": "8A",
+   "pop": "23511",
+   "response_deadline": "2026-09-09T14:00:00-04:00",
+   "why": "set-aside 8(a) Set-Aside (FAR 19.8) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "82ad46e4ce1d4712ae3b8ea012ccf05c",
+   "rule_id": "rc-distance",
+   "title": "Janitorial Services for the Fountain City Service Base",
+   "type": "Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "54629",
+   "response_deadline": "2026-09-17T15:00:00-05:00",
+   "why": "54629 is 674 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "77ebea371f524e7f848f1caafcf102bc",
+   "rule_id": "rc-distance",
+   "title": "Grounds Maintenance at the Northern California TRACON and Oakland ARTCC",
+   "type": "Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Mather, CA",
+   "response_deadline": "2026-08-31T17:00:00-04:00",
+   "why": "Mather, CA is 1325 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "58e75116c79a48c4b664419325ebe3db",
+   "rule_id": "rc-types",
+   "title": "S--SERVICE - JANITORIAL SERVICES AT FWS RHODE ISLAND NWR.",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "55dcae1285da4b97bdf7f0e293442dcd",
+   "rule_id": "rc-types",
+   "title": "LCAC Corrosion Control Cleaning",
+   "type": "Award Notice",
+   "set_aside_code": "SBA",
+   "pop": "Camp Pendleton, CA, 92055",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "30ede59e81cd46b8bfd28cdf3abcea02",
+   "rule_id": "rc-distance",
+   "title": "Offutt AFB Field House Interior Cleaning",
+   "type": "Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "NE, 68113",
+   "response_deadline": "2026-09-15T11:00:00-05:00",
+   "why": "NE is 409 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "2909d724981f4bb5ba3e2deec556606b",
+   "rule_id": "rc-distance",
+   "title": "MMD Invasive Species Control and Mitigation",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Enumclaw, WA",
+   "response_deadline": "2026-09-08T11:00:00-07:00",
+   "why": "Enumclaw, WA is 1500 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "99e5cfe4fc53424a8202163e6de2c830",
+   "rule_id": "rc-types",
+   "title": "S--George Washington Birthplace National Monument - M",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "Colonial Beach, VA, 22443",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "f9ed185736094d568cf7b2f168836f05",
+   "rule_id": "rc-types",
+   "title": "Plumas Janitorial Services",
+   "type": "Award Notice",
+   "set_aside_code": "SBA",
+   "pop": "Quincy, CA, 95971",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "e266d4e11c554910a19829d13221edf6",
+   "rule_id": "rc-distance",
+   "title": "Shawnee NF Dam Repairs",
+   "type": "Solicitation",
+   "set_aside_code": null,
+   "pop": "Harrisburg, IL, 62946",
+   "response_deadline": "2026-09-04T16:00:00-05:00",
+   "why": "Harrisburg, IL is 521 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "d8d7547d5b4b484ab89d6025be9c0651",
+   "rule_id": "rc-distance",
+   "title": "**Revised**S208--Routine Ground Maintenance and Emergency Landscaping  Services at St. Louis VA Medical Center Jefferson Barracks",
+   "type": "Sources Sought",
+   "set_aside_code": null,
+   "pop": "St Louis, 63125",
+   "response_deadline": "2026-09-08T08:00:00-05:00",
+   "why": "St Louis is 450 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "cf3cc98fb1f74f36882f6c9f9428b8c8",
+   "rule_id": "rc-setaside",
+   "title": "Minot Air Traffic Control Tower (ATCT) and System Support Unit (SSU) Janitorial Services, ND",
+   "type": "Solicitation",
+   "set_aside_code": "SDVOSBC",
+   "pop": "Minot, ND, 58701",
+   "response_deadline": "2026-09-01T17:00:00-05:00",
+   "why": "set-aside Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "9b54a1de0d714758a626167fd9231069",
+   "rule_id": "rc-distance",
+   "title": "USCG Base STL IPD Janitorial",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "MO, 63104",
+   "response_deadline": "2026-09-02T16:00:00-05:00",
+   "why": "MO is 457 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "909163b3e3ff45c99fa6dc52676bc3f6",
+   "rule_id": "rc-setaside",
+   "title": "S208--Tree Removal and Trimming Services",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SDVOSBC",
+   "pop": "Sheridan, WY, 82801",
+   "response_deadline": "2026-09-04T10:00:00-06:00",
+   "why": "set-aside Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "f8b37a1b87f64345970c0e5904d3026b",
+   "rule_id": "rc-setaside",
+   "title": "Warehouse cleaning services  in the Southeast region (Bragg, Eglin, Lejeune, and Warner Robins)",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SDVOSBC",
+   "pop": "",
+   "response_deadline": "2026-09-07T15:00:00-04:00",
+   "why": "set-aside Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "da75c3b8706f4348aaf884fc4ba31210",
+   "rule_id": "rc-types",
+   "title": "Grounds Maintenance Services - MO041 - St. Charles, MO",
+   "type": "Award Notice",
+   "set_aside_code": "SDVOSBS",
+   "pop": "63304",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "a7f9efd6082c4626b63c0112abf9a852",
+   "rule_id": "rc-distance",
+   "title": "USDA-Forest Service - Alexandria Forestry Center (AFC) Grounds Maintenance on the Kisatchie National Forest",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Pineville, LA, 71360",
+   "response_deadline": "2026-08-31T12:00:00-04:00",
+   "why": "Pineville, LA is 419 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "68d6116c968e4ebe89472dd9754867bf",
+   "rule_id": "rc-distance",
+   "title": "FY26 Finger Lakes National Forest Pasture Mowing",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Hector, NY, 14841",
+   "response_deadline": "2026-09-09T23:59:00-04:00",
+   "why": "Hector, NY is 1206 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "53cdbd67ab3241f6936b7f888ed2a19a",
+   "rule_id": "rc-distance",
+   "title": "Cabin Cleaning, Olympic National Forest",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Quilcene, WA, 98376",
+   "response_deadline": "2026-10-08T12:00:00-07:00",
+   "why": "Quilcene, WA is 1551 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "18accdf310804c068b5ac30151877de1",
+   "rule_id": "rc-distance",
+   "title": "South Park Ranger District Janitorial Services",
+   "type": "Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Fairplay, CO, 80440",
+   "response_deadline": "2026-09-02T17:00:00-05:00",
+   "why": "Fairplay, CO is 533 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "f56783e7eaa749a681875e8cdd3cfd43",
+   "rule_id": "rc-distance",
+   "title": "Cassville Janitorial Services",
+   "type": "Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Cassville, MO, 65625",
+   "response_deadline": "2026-09-01T17:00:00-04:00",
+   "why": "Cassville, MO is 221 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "f130c8789e794a029a343ed4e649ebb9",
+   "rule_id": "rc-distance",
+   "title": "FY26 Grand Haven Landscaping",
+   "type": "Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "49417",
+   "response_deadline": "2026-09-08T14:00:00-04:00",
+   "why": "49417 is 799 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "c34a2d66797a4d80a9b7bc2deddf2fe2",
+   "rule_id": "rc-setaside",
+   "title": "Fort Hood Installation Custodial Services",
+   "type": "Solicitation",
+   "set_aside_code": "HZC",
+   "pop": "Fort Hood, TX, 76544",
+   "response_deadline": "2026-09-24T09:00:00-05:00",
+   "why": "set-aside Historically Underutilized Business (HUBZone) Set-Aside (FAR 19.13) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "bfe3823efc2447f5af53fac1cbfad7ba",
+   "rule_id": "rc-distance",
+   "title": "Grounds Maintenance Services – Guayama Research Station",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Guayama, PR",
+   "response_deadline": "2026-09-01T17:00:00-04:00",
+   "why": "Guayama, PR is 2268 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "b97de345960d414fadd2a4d80b2382b1",
+   "rule_id": "rc-distance",
+   "title": "Z--Janitorial Services for the Ketchikan Office",
+   "type": "Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Ketchikan, AK, 99901",
+   "response_deadline": "2026-08-31T14:00:00-04:00",
+   "why": "Ketchikan, AK is 2117 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "a884f9c0c2e74b67a28aa90fdbb9a7a8",
+   "rule_id": "rc-distance",
+   "title": "Brushing and Mowing of EZ roads",
+   "type": "Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Grand Marais, MN, 55604",
+   "response_deadline": "2026-09-06T23:00:00-04:00",
+   "why": "Grand Marais, MN is 927 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "64b775a4c3b648499d7822b124f5e930",
+   "rule_id": "rc-types",
+   "title": "Custodial Services - Fort Devens, MA",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "MA, 01434",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "4f4337cc8bcb4bd6856808a7eb0f99d5",
+   "rule_id": "rc-setaside",
+   "title": "Grounds Maintenance Services - Western Pennsylvania",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SDVOSBC",
+   "pop": "",
+   "response_deadline": "2026-08-31T10:00:00-04:00",
+   "why": "set-aside Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "3796c32f2e374a42a7678b90683737ae",
+   "rule_id": "rc-distance",
+   "title": "Weed Control Services for Arizona, Oklahoma, Texas, and New Mexico",
+   "type": "Sources Sought",
+   "set_aside_code": null,
+   "pop": "Albuquerque, NM, 87101",
+   "response_deadline": "2026-09-11T12:00:00-05:00",
+   "why": "Albuquerque, NM is 515 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "350c3a2400e14bff88816205fa63f9fc",
+   "rule_id": "rc-distance",
+   "title": "ODF-S Area One Custodian",
+   "type": "Presolicitation",
+   "set_aside_code": "SBA",
+   "pop": "Stockton, MO, 65785",
+   "response_deadline": null,
+   "why": "Stockton, MO is 259 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "1c3bab82a14f4a06b5f82a10671f144f",
+   "rule_id": "rc-distance",
+   "title": "Snow and Ice Removal",
+   "type": "Sources Sought",
+   "set_aside_code": null,
+   "pop": "Washington, DC, 20228",
+   "response_deadline": "2026-09-09T17:00:00-04:00",
+   "why": "Washington, DC is 1149 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "12fb78f6f5664ea782df338c98409049",
+   "rule_id": "rc-types",
+   "title": "Notice of Justification and Approval for 2nd Bridge Sole Source Award to N4008020D0303 8(a) Grounds",
+   "type": "Justification",
+   "set_aside_code": null,
+   "pop": "Washington, DC",
+   "response_deadline": null,
+   "why": "Justification is not a solicitation"
+  },
+  {
+   "notice_id": "08127248281b4b07bf2230273356d5eb",
+   "rule_id": "rc-distance",
+   "title": "Grandfather Ranger District - West - Janitorial Services for Recreation Facilities at Pisgah National Forest, North Carolina",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Nebo, NC, 28761",
+   "response_deadline": "2026-09-14T17:00:00-04:00",
+   "why": "Nebo, NC is 877 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "e61619e0f5cc4e558d6764e7b62fbdb4",
+   "rule_id": "rc-distance",
+   "title": "Landscaping Services - Embassy Libreville, Gabon",
+   "type": "Presolicitation",
+   "set_aside_code": null,
+   "pop": "Libreville, GA-1, 4000",
+   "response_deadline": "2026-09-08T10:00:00+01:00",
+   "why": "place of performance is outside the United States (Libreville, GAB)"
+  },
+  {
+   "notice_id": "669de6a2674441e88e407bad3eab09b6",
+   "rule_id": "rc-distance",
+   "title": "European Healthcare Environmental Cleaning (HEC) Services",
+   "type": "Solicitation",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-10-15T17:00:00+02:00",
+   "why": "place of performance is outside the United States (DEU)"
+  },
+  {
+   "notice_id": "1bef0cab6a144d279a36c46e50cacb54",
+   "rule_id": "rc-distance",
+   "title": "ODF-H Hunter Cove Custodian",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Republican City, NE, 68971",
+   "response_deadline": "2026-09-08T12:00:00-05:00",
+   "why": "Republican City, NE is 334 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "f927a60c48d84246a72ae1b4697aff17",
+   "rule_id": "rc-setaside",
+   "title": "Landscaping and Snow Removal Services",
+   "type": "Solicitation",
+   "set_aside_code": "VSA",
+   "pop": "North Providence, RI, 02908",
+   "response_deadline": "2026-08-28T15:00:00-04:00",
+   "why": "set-aside VSA is one the firm cannot claim"
+  },
+  {
+   "notice_id": "d91444b6b1a446ce8d4e673a15c3eef3",
+   "rule_id": "rc-types",
+   "title": "Custodial Services, Seymour Johnson Air Force Base",
+   "type": "Award Notice",
+   "set_aside_code": "8A",
+   "pop": "27531",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "c2bc2f1e4f8e470ba3048fad6beef2f6",
+   "rule_id": "rc-distance",
+   "title": "Tonopah RD Janitorial",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "NV, 89049",
+   "response_deadline": "2026-09-03T15:00:00-06:00",
+   "why": "NV is 1104 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "baa16fc52ff045938e7095ac09f36b58",
+   "rule_id": "rc-distance",
+   "title": "Total Ground Maintenance at DMC, Italy",
+   "type": "Solicitation",
+   "set_aside_code": null,
+   "pop": "TIRRENIA, IT-PI, 56018",
+   "response_deadline": "2026-08-31T15:00:00+02:00",
+   "why": "place of performance is outside the United States (TIRRENIA, ITA)"
+  },
+  {
+   "notice_id": "b531fc3e35844786b95550da2559eaca",
+   "rule_id": "rc-setaside",
+   "title": "Grounds Maintenance Services, Ft Sill National Cemetery",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SDVOSBC",
+   "pop": "Elgin, OK, 73538",
+   "response_deadline": "2026-09-25T15:00:00-04:00",
+   "why": "set-aside Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "6c4e4594420641d29946872dcbd2d3df",
+   "rule_id": "rc-setaside",
+   "title": "S201 - Hines VA Hospital Janitorial Services",
+   "type": "Presolicitation",
+   "set_aside_code": "SDVOSBC",
+   "pop": "Hines, IL, 60141",
+   "response_deadline": "2026-09-08T09:00:00-05:00",
+   "why": "set-aside Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "08fe4436b5944df69bbaf71f606fcbcd",
+   "rule_id": "rc-distance",
+   "title": "W911SA26QA238",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "98271",
+   "response_deadline": "2026-10-05T10:00:00-04:00",
+   "why": "98271 is 1531 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "499691ed2c1c4e9095e6b6732c2b77c9",
+   "rule_id": "rc-distance",
+   "title": "Swimming Pool Preventive Maintenance Services for DCMR",
+   "type": "Solicitation",
+   "set_aside_code": null,
+   "pop": "DJIBOUTI, DJ-DJ, 185",
+   "response_deadline": "2026-09-20T16:30:00+03:00",
+   "why": "place of performance is outside the United States (DJIBOUTI, DJI)"
+  },
+  {
+   "notice_id": "b7b9b4072de64d2cb0fa9c9529539934",
+   "rule_id": "rc-setaside",
+   "title": "WI Rock Landscape Rehab",
+   "type": "Solicitation",
+   "set_aside_code": "SDVOSBC",
+   "pop": "",
+   "response_deadline": "2026-09-08T17:00:00-04:00",
+   "why": "set-aside Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "a6a8adbaeb424291b072e4e9865353df",
+   "rule_id": "rc-setaside",
+   "title": "S--JANITORIAL FOR GJAC FACILITY",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SDVOSBC",
+   "pop": "",
+   "response_deadline": "2026-09-01T17:00:00-06:00",
+   "why": "set-aside Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "a2de15fe724646db9dc6ed5ec3f4e243",
+   "rule_id": "rc-setaside",
+   "title": "Grounds maintenance services for Riverside National Cemetery. -- S208",
+   "type": "Solicitation",
+   "set_aside_code": "SDVOSBC",
+   "pop": "Riverside, CA, 92518",
+   "response_deadline": "2026-09-15T17:00:00-07:00",
+   "why": "set-aside Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "88edc99f317a44f7825516021d0ba9a5",
+   "rule_id": "rc-distance",
+   "title": "Landscaping and Grounds Maintenance - Iraq",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-08-30T15:00:00+02:00",
+   "why": "place of performance is outside the United States (IRQ)"
+  },
+  {
+   "notice_id": "822348d714244d8ba6845686b18ce57b",
+   "rule_id": "rc-setaside",
+   "title": "On-Call Lawn Services",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "ISBEE",
+   "pop": "Rapid City, SD, 57701",
+   "response_deadline": "2026-09-04T15:00:00-05:00",
+   "why": "set-aside Indian Small Business Economic Enterprise is one the firm cannot claim"
+  },
+  {
+   "notice_id": "2dcca3115e8c4ef9a8c1da35906f88a1",
+   "rule_id": "rc-setaside",
+   "title": "LANDSCAPE AND GROUNDS MAINTENANCE",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SDVOSBS",
+   "pop": "Fresno, CA, 93703",
+   "response_deadline": "2026-08-24T08:00:00-04:00",
+   "why": "set-aside SDVOSBS is one the firm cannot claim"
+  },
+  {
+   "notice_id": "9d5c6a1f50b84404843faae1bdd91762",
+   "rule_id": "rc-distance",
+   "title": "Janitorial Services, Arkansas Post Field Office",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Tichnor, AR, 72166",
+   "response_deadline": "2026-08-31T13:00:00-05:00",
+   "why": "Tichnor, AR is 368 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "8d4269399c1141d2a3d4acaf9f642cae",
+   "rule_id": "rc-distance",
+   "title": "USCG Janitorial Service North Bend/Newport, OR",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "North Bend, OR, 97459",
+   "response_deadline": "2026-08-31T08:00:00-07:00",
+   "why": "North Bend, OR is 1519 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "454220e4eddc4816ba7cfd2a9cf81016",
+   "rule_id": "rc-distance",
+   "title": "Mystic Ranger District/Great Plains Dispatch Center-Janitorial Services",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Rapid City, SD, 57703",
+   "response_deadline": "2026-09-10T17:00:00-06:00",
+   "why": "Rapid City, SD is 664 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "11b69a0cde1f45fdadc2a429375bc69d",
+   "rule_id": "rc-setaside",
+   "title": "Combined Synopsis Jefferson Barracks Sod Installation",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SDVOSBC",
+   "pop": "Saint Louis, MO, 63125",
+   "response_deadline": "2026-09-28T16:00:00-04:00",
+   "why": "set-aside Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "be72b9792f734f65a0724da9a38bf42b",
+   "rule_id": "rc-distance",
+   "title": "Valley Resident Office – Groundskeeping, West Sacramento, CA.",
+   "type": "Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "West Sacramento, CA",
+   "response_deadline": "2026-09-01T11:00:00-07:00",
+   "why": "West Sacramento, CA is 1338 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "b5f6de1b32504834afbfa3674af175ee",
+   "rule_id": "rc-distance",
+   "title": "ANF Janitorial",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Arcadia, CA, 91006",
+   "response_deadline": "2026-08-21T17:00:00-07:00",
+   "why": "Arcadia, CA is 1165 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "9d89b7a21a7043d2ac954877006a6382",
+   "rule_id": "rc-distance",
+   "title": "IIS USFS Tanbark Hazard Tree Removal",
+   "type": "Presolicitation",
+   "set_aside_code": "SBA",
+   "pop": "Riverside, CA, 92507",
+   "response_deadline": "2026-09-22T11:00:00-07:00",
+   "why": "Riverside, CA is 1129 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "78415b18c176453ebe0fcb544d7cefa1",
+   "rule_id": "rc-setaside",
+   "title": "Grounds Maintenance Services - Multi WV Locations",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SDVOSBC",
+   "pop": "Cross Lanes, WV",
+   "response_deadline": "2026-09-08T11:00:00-04:00",
+   "why": "set-aside Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "2e33cdf00ac0483b86ef64bcdbe77aa8",
+   "rule_id": "rc-types",
+   "title": "Boundary Line Maintenance Services, Greers Ferry Project Office",
+   "type": "Award Notice",
+   "set_aside_code": "SBA",
+   "pop": "Heber Springs, AR, 72543",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "fa30670147104db7a5d32c8ea9ae769c",
+   "rule_id": "rc-types",
+   "title": "Ely Ranger District Office Janitorial",
+   "type": "Award Notice",
+   "set_aside_code": "SBA",
+   "pop": "Ely, NV, 89301",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "cc617102aa604d3c8864cd7d5a4d2602",
+   "rule_id": "rc-types",
+   "title": "Grounds Maintenance Services in Bristol, PA",
+   "type": "Award Notice",
+   "set_aside_code": "SBA",
+   "pop": "19007",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "6b3d6312b8f04a88baf56be6477389ef",
+   "rule_id": "rc-types",
+   "title": "S201--HAMPTON VA EVS CLEANING CONTRACT Base Plus 4 | 1 Sept 26 -  31 Aug 31",
+   "type": "Award Notice",
+   "set_aside_code": "SDVOSBC",
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "5e904c7edf1845d6a443cb2eb2eb4afe",
+   "rule_id": "rc-types",
+   "title": "S201--HAMPTON VA EVS CLEANING CONTRACT Base Plus 4 | 1 Sept 26 -  31 Aug 31",
+   "type": "Award Notice",
+   "set_aside_code": "SDVOSBC",
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "59cdf20d24bc486d878bc3fecb2f9fa3",
+   "rule_id": "rc-setaside",
+   "title": "Janitorial Services at Benbrook Lake, Fort Worth, Texas",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SDVOSBC",
+   "pop": "76132",
+   "response_deadline": "2026-08-31T10:00:00-05:00",
+   "why": "set-aside Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "50d54f09e61d4c2e805e67459e01d279",
+   "rule_id": "rc-types",
+   "title": "S201--HAMPTON VA EVS CLEANING CONTRACT Base Plus 4 | 1 Sept 26 -  31 Aug 31",
+   "type": "Award Notice",
+   "set_aside_code": "SDVOSBC",
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "3c58a16b4368476ca5b528dc9a90c808",
+   "rule_id": "rc-setaside",
+   "title": "Janitorial services Salt Lake City, UT (multiple locations)",
+   "type": "Solicitation",
+   "set_aside_code": "8A",
+   "pop": "Salt Lake City, UT, 84116",
+   "response_deadline": "2026-09-17T13:30:00-06:00",
+   "why": "set-aside 8(a) Set-Aside (FAR 19.8) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "177d4e9f991a407482ca1dcd6347ea2c",
+   "rule_id": "rc-types",
+   "title": "S--JANITORIAL SERVICES AT SIOUX CITY FIELD OFFICE 202",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "0fe1fe9b93af4ad89dbe5a84e6cb23ea",
+   "rule_id": "rc-types",
+   "title": "S--NEWELL BLDG JANITORIAL SERVICES",
+   "type": "Special Notice",
+   "set_aside_code": "WOSB",
+   "pop": "",
+   "response_deadline": "2026-08-31T17:00:00-06:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "819704cd1534468bba09f60edfc1eb0c",
+   "rule_id": "rc-distance",
+   "title": "Snow Removal Services at Coast Guard Academy",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "New London, CT",
+   "response_deadline": "2026-08-18T12:00:00-04:00",
+   "why": "New London, CT is 1429 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "7eda92a985a2474dbffb483bb8964956",
+   "rule_id": "rc-types",
+   "title": "S201--Window Washing Services in support of the Sioux Falls  VAHCS",
+   "type": "Award Notice",
+   "set_aside_code": "SDVOSBC",
+   "pop": "",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "2d641ffcfbdb4aa49e439190c5f23211",
+   "rule_id": "rc-setaside",
+   "title": "S208--Tree Removal and Trimming Services",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SDVOSBC",
+   "pop": "Sheridan, WY, 82801",
+   "response_deadline": "2026-08-31T10:00:00-06:00",
+   "why": "set-aside Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "d3763be8bdf04ef9a5c1fb7e44ee5d37",
+   "rule_id": "rc-setaside",
+   "title": "Amended Tree pruning, tree removal and stump grinding for Togus National Cemetery",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SDVOSBC",
+   "pop": "ME, 04330",
+   "response_deadline": "2026-08-21T16:00:00-04:00",
+   "why": "set-aside Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "f3379c62fac943be83af80e1c039f219",
+   "rule_id": "rc-distance",
+   "title": "Park Cleaning Services - Hords Creek Lake, TX",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "TX, 76834",
+   "response_deadline": "2026-08-21T10:00:00-05:00",
+   "why": "TX is 274 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "e8b2ac84ccad4a6abe0a7d254fd36813",
+   "rule_id": "rc-distance",
+   "title": "Grounds Maintenance Services - Bellefonte, PA (PA163)",
+   "type": "Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Bellefonte, PA, 16823",
+   "response_deadline": "2026-08-31T11:00:00-04:00",
+   "why": "Bellefonte, PA is 1133 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "771f50a94b2a4520bddcfb92444dc1ee",
+   "rule_id": "rc-types",
+   "title": "Grounds maintenance services for Riverside National Cemetery. -- S208",
+   "type": "Special Notice",
+   "set_aside_code": "SDVOSBC",
+   "pop": "Riverside, CA, 92518",
+   "response_deadline": "2026-09-15T17:00:00-07:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "6e0d62d2f8a040f5bc6e131ff817904d",
+   "rule_id": "rc-distance",
+   "title": "Grounds Maintenance Services Supporting 3 U.S. Army Reserve Centers in Gaithersburg, MD (MD013)/ Riverdale, MD (MD020)/ Rockville, MD (MD021)",
+   "type": "Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "20879",
+   "response_deadline": "2026-08-25T16:00:00-04:00",
+   "why": "20879 is 1143 miles from Oklahoma City (limit 200)"
+  },
+  {
+   "notice_id": "235340f1baef48bf91f5d9870f795e8c",
+   "rule_id": "rc-distance",
+   "title": "U.S. Consulate General Hong Kong - Gardening Services for Consulate Building and 3 Barker Road Compound in Hong Kong",
+   "type": "Solicitation",
+   "set_aside_code": null,
+   "pop": "26 Garden Road and 3 Barker Road, N/A",
+   "response_deadline": "2026-09-22T00:00:00-04:00",
+   "why": "place of performance is outside the United States (26 Garden Road and 3 Barker Road, HKG)"
+  },
+  {
+   "notice_id": "05810e4be28f45ba95869351cb655ce4",
+   "rule_id": "rc-setaside",
+   "title": "Fort Bliss Custodial Service Contract",
+   "type": "Solicitation",
+   "set_aside_code": "8A",
+   "pop": "Fort Bliss, TX, 79916",
+   "response_deadline": "2025-07-01T10:00:00-06:00",
+   "why": "set-aside 8(a) Set-Aside (FAR 19.8) is one the firm cannot claim"
+  }
+ ],
+ "should_surface": [
+  {
+   "notice_id": "23123dbc9dc04bae9701caddb03b3f0a",
+   "title": "R4-PR-Cabo Rojo NWR-126204A4CI0 Janitorial Service"
+  },
+  {
+   "notice_id": "3d69977247d7458db3b9981e2668c174",
+   "title": "F--KS MARAIS DES CYGNES NWR VEGETATION TRIMMING AND C"
+  },
+  {
+   "notice_id": "4585b18bf9e745259b0be3e0289555c1",
+   "title": "Midwest Janitorial MATOC"
+  },
+  {
+   "notice_id": "4f8dba025a32440284ae227c983342de",
+   "title": "Floor Stripping and Waxing at the Center for Grain and Animal Health Research"
+  },
+  {
+   "notice_id": "605b807449df46beac3adb1e03ed4bd3",
+   "title": "PR-CULEBRA NWR-JANITORIAL SERVICES"
+  },
+  {
+   "notice_id": "6d5f0cc80a1e4e4c9dfcd435deefd9c6",
+   "title": "S--CHRI CUSTODIAL SERVICES (FY27)"
+  },
+  {
+   "notice_id": "6df14e5530d54ea493197948b2a5db49",
+   "title": "R--REMOVE HAZARDOUS TREES FROM CONVOY POINT"
+  },
+  {
+   "notice_id": "808e070c0ec749f2bdd8929b448edc78",
+   "title": "HASSEL ISLAND LANDSCAPING SERVICE"
+  },
+  {
+   "notice_id": "819357517c044e6489e51644fc101775",
+   "title": "S--LANDSCAPE SERVICES AT NWS WFO IN DODGE CITY, KS"
+  },
+  {
+   "notice_id": "83debc9c57c44dbfbb6d8e140677efdc",
+   "title": "NACE FY26 HAZARDOUS TREE CYCLIC MAINTENANCE"
+  },
+  {
+   "notice_id": "8918bdf80a344fb98b1a64d71bcc30d9",
+   "title": "S--NEWELL BLDG JANITORIAL SERVICES"
+  },
+  {
+   "notice_id": "954c262f233a4f9395857c3532e599bf",
+   "title": "NEW JANITORIAL CONTRACT FOR HBBS"
+  },
+  {
+   "notice_id": "a06d61e190ec4307a994a1ef824f0c23",
+   "title": "PMIS 340733A REMOVE OR PRUNE HAZARD TREE"
+  },
+  {
+   "notice_id": "be4f7e411fa24607bd8ace51d180b335",
+   "title": "F--NE RAINWATER BASIN WMD Mechanical Tree Cutting"
+  },
+  {
+   "notice_id": "bfe399280c8344a0923840dfb6989c90",
+   "title": "S--JANITORIAL SERVICES PER THE STATEMENT OF WORK"
+  },
+  {
+   "notice_id": "ccf5e9659c194671a36bfc391bb023e0",
+   "title": "S208--Janitorial OKC VAMC Base w/4OY  09-01-2026 to 08-31-2027"
+  },
+  {
+   "notice_id": "d698e02961294fffa1536d1a0c07fc5e",
+   "title": "DCMR Gardening service CONTRACTOR"
+  },
+  {
+   "notice_id": "d8c230fbdc71404794eb216e72c7852a",
+   "title": "Robert S. Kerr Janitorial Services (Base and 4 Option Years)"
+  },
+  {
+   "notice_id": "e1d2da67eb3844c3824442bf43e08a87",
+   "title": "S--Service, Landscaping Services within Virgin Island"
+  },
+  {
+   "notice_id": "fbaa93b90ced45b594bde97ceaa6fb68",
+   "title": "S--LANDSCAPE SERVICES AT NWS WFO IN ST. CHARLES MO"
+  }
+ ]
+}

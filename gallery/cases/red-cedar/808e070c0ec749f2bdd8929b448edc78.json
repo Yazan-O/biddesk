@@ -1,0 +1,687 @@
+{
+ "notice_id": "808e070c0ec749f2bdd8929b448edc78",
+ "firm_slug": "red-cedar",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:27:47-05:00",
+ "evidence_basis": null,
+ "days_to_close": 2.2710810234375,
+ "closed": false,
+ "response_kind": "proposal",
+ "card": {
+  "notice_id": "808e070c0ec749f2bdd8929b448edc78",
+  "firm_slug": "red-cedar",
+  "situation": "NPS solicitation for landscaping services at Hassel Island, Virgin Islands National Park — clearing vegetation, removing dead trees, and disposing of debris around historic ruins, with a 150-day performance period.\nReached the owner because NAICS 561730 matches and the small-business set-aside is eligible, but two owner-rule fatals and deep capability gaps were flagged.",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "NAICS 561730 is self-certified and matches the solicitation exactly, satisfying the primary eligibility screen [808e070c-83acd03b-p2-9bd93187].",
+   "Small Business Set Aside - Total is eligible and the firm qualifies as an SBA small business, removing a common disqualifier [profile: set-asides the firm can claim: WOSB, EDWOSB, SBA].",
+   "OSHA 30 supervisors, PPE program, CMMS-logged QC inspections, and grounds maintenance past performance at Tinker AFB demonstrate baseline operational capability [808e070c-02b94ab8-p2-ee1dedb5]."
+  ],
+  "reasons_against": [
+   "FATAL — place of performance is Virgin Islands National Park, St. John, USVI, over 1,500 miles from Oklahoma City, directly violating owner rule [rc-distance] prohibiting bids over 200 miles [808e070c-02b94ab8-p2-db5ddf6c].",
+   "FATAL — the 150-day base period (~5 months), even with up to 6 months of options, does not constitute a 12-month base period, violating owner rule [rc-base] prohibiting bids under a 12-month base period [808e070c-02b94ab8-p6-34e244f7].",
+   "Firm has no NPS experience, no historic-site or cultural-resource vegetation-clearing capability, and no documented presence or mobilization plan in the USVI, leaving multiple scope-critical requirements as gaps [808e070c-02b94ab8-p4-440035ba]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-09-14",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-09-16T13:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": "150 days from date of award",
+   "source_quotes": [
+    "Quotes shall be sent via email to william _vazquez@ios.doi.gov with subject line: QUOTE – 140P5426Q0044.",
+    "1.6 PERFORMANCE PERIOD The contract performance period shall be 150 days from the date of award."
+   ]
+  },
+  "fit_score": 0.4762,
+  "matrix_summary": "8 of 27 requirements met, 4 partial, 9 gap, 6 unknown",
+  "evidence_link": "https://sam.gov/opp/808e070c0ec749f2bdd8929b448edc78/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "808e070c-02b94ab8-p6-34e244f7",
+   "quote": "The contract performance period shall be 150 days from the date of award.",
+   "source_file": "02b94ab89d5345bbb79941b50c3f0b46.pdf",
+   "page": 6,
+   "firm_answer": "Owner rule [rc-base] prohibits bids under a 12-month base period. 150 days (~5 months) does not meet the minimum. This is a disqualifying condition.",
+   "status": "gap",
+   "evidence": "Owner rule [rc-base]: No bids under a 12-month base period."
+  },
+  {
+   "requirement_id": "808e070c-02b94ab8-p2-db5ddf6c",
+   "quote": "The contractor shall also dispose of all generated debris and vegetation 1.2: LOCATION Virgin Islands National Park 1300 Cruz Bay Creek St.",
+   "source_file": "02b94ab89d5345bbb79941b50c3f0b46.pdf",
+   "page": 2,
+   "firm_answer": "Place of performance is Virgin Islands National Park, St. John, USVI — over 1,500 miles from Oklahoma City, OK. Owner rule [rc-distance] prohibits bids over 200 miles from Oklahoma City. This is a disqualifying condition.",
+   "status": "gap",
+   "evidence": "Owner rule [rc-distance]: No bids over 200 miles from Oklahoma City."
+  },
+  {
+   "requirement_id": "808e070c-83acd03b-p2-9bd93187",
+   "quote": "An offeror must ensure that they are self-certified under NAICS 561730 in the Representations and Certifications portion of www.sam.gov.",
+   "source_file": "83acd03bc28d49eea3e33d79d5b304ab.pdf",
+   "page": 2,
+   "firm_answer": "Red Cedar Facility Services lists NAICS 561730 in its profile and can self-certify accordingly.",
+   "status": "meets",
+   "evidence": "Firm profile NAICS: 561720, 561730."
+  },
+  {
+   "requirement_id": "808e070c-83acd03b-p2-4ab554fa",
+   "quote": "Companies must have a valid Unique Entity ID (UEI) number and an active System for Award Management (www.sam.gov) registration.",
+   "source_file": "83acd03bc28d49eea3e33d79d5b304ab.pdf",
+   "page": 2,
+   "firm_answer": "Profile does not explicitly state a UEI or active SAM registration. Cannot confirm.",
+   "status": "unknown",
+   "evidence": "No UEI or SAM registration mentioned in firm profile."
+  },
+  {
+   "requirement_id": "808e070c-02b94ab8-p2-ee1dedb5",
+   "quote": "The contractor shall provide all labor, tools, equipment, and personal protective equipment (PPE) to safely perform the required tasks.",
+   "source_file": "02b94ab89d5345bbb79941b50c3f0b46.pdf",
+   "page": 2,
+   "firm_answer": "Firm profile states OSHA 30 supervisors and references PPE use; grounds maintenance past performance at Tinker AFB supports equipment provision. However, no island-specific or tropical equipment is mentioned.",
+   "status": "partial",
+   "evidence": "Capabilities: OSHA 30 supervisors; Grounds maintenance, cantonment area (Tinker AFB)."
+  },
+  {
+   "requirement_id": "808e070c-02b94ab8-p4-0e90fd49",
+   "quote": "never remove vines or plants by pulling on them, as this can result in a collapse and will assuredly result in damage to the building.",
+   "source_file": "02b94ab89d5345bbb79941b50c3f0b46.pdf",
+   "page": 4,
+   "firm_answer": "Firm has general grounds maintenance experience but no documented experience with historic-ruin vegetation clearing protocols required at NPS sites.",
+   "status": "gap",
+   "evidence": "No historic-site or NPS cultural-resource clearing experience in firm profile."
+  },
+  {
+   "requirement_id": "808e070c-02b94ab8-p4-440035ba",
+   "quote": "Clearing Vegetation Around Historic Sites- In clearing around historic sites, we must keep in mind that there may still be remnants of historic gardens and crops present",
+   "source_file": "02b94ab89d5345bbb79941b50c3f0b46.pdf",
+   "page": 4,
+   "firm_answer": "No past performance or capability related to historic-site vegetation clearing or NPS cultural-resource protocols is listed in the firm profile.",
+   "status": "gap",
+   "evidence": "No NPS or historic-site experience in firm profile."
+  },
+  {
+   "requirement_id": "808e070c-02b94ab8-p6-cc378d5c",
+   "quote": "Work shall be conducted Monday through Friday, during regular business hours.",
+   "source_file": "02b94ab89d5345bbb79941b50c3f0b46.pdf",
+   "page": 6,
+   "firm_answer": "Standard scheduling requirement; firm has no stated conflict, but mobilization to USVI for Mon–Fri work is not feasible given distance constraint.",
+   "status": "partial",
+   "evidence": "General operational capability; distance gap makes compliance impractical."
+  },
+  {
+   "requirement_id": "808e070c-02b94ab8-p6-1f70ce3f",
+   "quote": "Contractor shall verify all areas and measurements prior to submitting of bids.",
+   "source_file": "02b94ab89d5345bbb79941b50c3f0b46.pdf",
+   "page": 6,
+   "firm_answer": "Firm is based in Oklahoma City; site visit to Hassel Island, USVI would be required. No local presence or mobilization plan stated.",
+   "status": "gap",
+   "evidence": "No USVI presence or site-visit capability in firm profile."
+  },
+  {
+   "requirement_id": "808e070c-02b94ab8-p6-859c180f",
+   "quote": "Contractor shall remove dead trees in a manner not to damage person and property.",
+   "source_file": "02b94ab89d5345bbb79941b50c3f0b46.pdf",
+   "page": 6,
+   "firm_answer": "Firm has general grounds/landscaping experience including trimming at Tinker AFB, but no documented tree removal or arborist capability.",
+   "status": "partial",
+   "evidence": "Grounds maintenance, cantonment area: mowing, trimming, landscaping."
+  },
+  {
+   "requirement_id": "808e070c-02b94ab8-p6-8d12eabb",
+   "quote": "Contractor shall remove all debris from site",
+   "source_file": "02b94ab89d5345bbb79941b50c3f0b46.pdf",
+   "page": 6,
+   "firm_answer": "Debris disposal is referenced in the SOW location clause; firm has no documented debris-disposal or haul-off capability in USVI.",
+   "status": "gap",
+   "evidence": "No USVI debris disposal capability in firm profile."
+  },
+  {
+   "requirement_id": "808e070c-02b94ab8-p2-0bb27af4",
+   "quote": "the Contractor shall perform the work of this statement of work (SOW)) for the National Park Service (NPS) as described below.",
+   "source_file": "02b94ab89d5345bbb79941b50c3f0b46.pdf",
+   "page": 2,
+   "firm_answer": "Firm has no prior NPS contract experience listed in its profile.",
+   "status": "gap",
+   "evidence": "No NPS past performance in firm profile."
+  },
+  {
+   "requirement_id": "808e070c-02b94ab8-p2-17603055",
+   "quote": "All services performed under this SOW shall be performed in accordance with applicable codes, and accepted industry standards.",
+   "source_file": "02b94ab89d5345bbb79941b50c3f0b46.pdf",
+   "page": 2,
+   "firm_answer": "Firm is CIMS-GB certified and references OSHA 30 compliance; general industry-standard adherence is supported.",
+   "status": "meets",
+   "evidence": "Capabilities: CIMS-GB certified, OSHA 30 supervisors."
+  },
+  {
+   "requirement_id": "808e070c-02b94ab8-p2-c8adff58",
+   "quote": "Care shall be given to visitors, vessels, artifacts, and any other feature that can be damaged because of work being performed.",
+   "source_file": "02b94ab89d5345bbb79941b50c3f0b46.pdf",
+   "page": 2,
+   "firm_answer": "Firm has QC inspections logged in CMMS and OSHA 30 supervisors, but no documented experience protecting NPS artifacts, vessels, or historic features.",
+   "status": "partial",
+   "evidence": "Capabilities: QC inspections logged in CMMS, OSHA 30 supervisors."
+  },
+  {
+   "requirement_id": "808e070c-83acd03b-p6-6a525592",
+   "quote": "The Contractor shall procure and maintain during the term of this contract and any extension thereof liability insurance in form satisfactory to the Contracting Officer",
+   "source_file": "83acd03bc28d49eea3e33d79d5b304ab.pdf",
+   "page": 6,
+   "firm_answer": "Firm profile does not mention liability insurance coverage or carriers. Cannot confirm compliance.",
+   "status": "unknown",
+   "evidence": "No insurance information in firm profile."
+  },
+  {
+   "requirement_id": "808e070c-83acd03b-p6-39f8f61a",
+   "quote": "The amounts of the insurance shall be not less than as follows: $ 50,000 each person $ 100,000 each occurrence $ 100,000 property damage",
+   "source_file": "83acd03bc28d49eea3e33d79d5b304ab.pdf",
+   "page": 6,
+   "firm_answer": "Firm profile does not state insurance coverage amounts. Cannot confirm minimum thresholds are met.",
+   "status": "unknown",
+   "evidence": "No insurance amounts stated in firm profile."
+  },
+  {
+   "requirement_id": "808e070c-83acd03b-p3-c7ce6b60",
+   "quote": "Quotes shall be sent via email to william _vazquez@ios.doi.gov with subject line: QUOTE – 140P5426Q0044.",
+   "source_file": "83acd03bc28d49eea3e33d79d5b304ab.pdf",
+   "page": 3,
+   "firm_answer": "Administrative submission requirement; firm is capable of email submission. No barrier identified beyond the disqualifying distance and base-period issues.",
+   "status": "meets",
+   "evidence": "General administrative capability."
+  },
+  {
+   "requirement_id": "808e070c-83acd03b-p3-ed3b2410",
+   "quote": "All quoters shall complete blocks 13,14,15 through 16c of the solicitation form (SF18), the price schedule below, and acknowledge (sign) any amendments issued to this solicitation.",
+   "source_file": "83acd03bc28d49eea3e33d79d5b304ab.pdf",
+   "page": 3,
+   "firm_answer": "Standard administrative requirement; firm can complete SF18 form. No barrier identified.",
+   "status": "meets",
+   "evidence": "General administrative capability."
+  },
+  {
+   "requirement_id": "808e070c-83acd03b-p7-575bdd9f",
+   "quote": "Payment requests must be submitted electronically through the U.",
+   "source_file": "83acd03bc28d49eea3e33d79d5b304ab.pdf",
+   "page": 7,
+   "firm_answer": "Firm profile does not mention IPP registration, but this is a standard federal requirement. Cannot confirm active IPP enrollment.",
+   "status": "unknown",
+   "evidence": "No IPP registration mentioned in firm profile."
+  },
+  {
+   "requirement_id": "808e070c-83acd03b-p5-11fedd95",
+   "quote": "The option provision may be exercised more than once, but the total extension of performance hereunder shall not exceed 6 months.",
+   "source_file": "83acd03bc28d49eea3e33d79d5b304ab.pdf",
+   "page": 5,
+   "firm_answer": "Base period of 150 days plus up to 6 months of options still does not constitute a 12-month base period. Owner rule [rc-base] is not satisfied.",
+   "status": "gap",
+   "evidence": "Owner rule [rc-base]: No bids under a 12-month base period."
+  },
+  {
+   "requirement_id": "808e070c-1957202f-p6-366bbfb7",
+   "quote": "The contractor or subcontractor is required to furnish all employees with an adequate number of uniforms without cost or to reimburse employees for the actual cost of the uniforms.",
+   "source_file": "1957202fad304d88976624f1fe851304.pdf",
+   "page": 6,
+   "firm_answer": "Firm profile does not address uniform provision or reimbursement policy.",
+   "status": "unknown",
+   "evidence": "No uniform policy stated in firm profile."
+  },
+  {
+   "requirement_id": "808e070c-02b94ab8-p6-067914ed",
+   "quote": "Contractor shall provide a schedule for each location prior to beginning work.",
+   "source_file": "02b94ab89d5345bbb79941b50c3f0b46.pdf",
+   "page": 6,
+   "firm_answer": "Firm uses CMMS for QC inspections and scheduling; can provide work schedules. Standard capability.",
+   "status": "meets",
+   "evidence": "Capabilities: QC inspections logged in a CMMS."
+  },
+  {
+   "requirement_id": "808e070c-83acd03b-p6-685192ab",
+   "quote": "The contractor shall furnish the Contracting Officer with a copy of an acceptable insurance certificate prior to beginning the work.",
+   "source_file": "83acd03bc28d49eea3e33d79d5b304ab.pdf",
+   "page": 6,
+   "firm_answer": "Firm profile does not mention insurance certificates. Cannot confirm.",
+   "status": "unknown",
+   "evidence": "No insurance certificate information in firm profile."
+  },
+  {
+   "requirement_id": "808e070c-83acd03b-p6-308b4799",
+   "quote": "The Contractor shall notify the Contracting Officer in writing, with as much detail as possible, when the COR has taken an action or has issued direction (written or oral) that the Contractor considers to exceed the COR's appointment, within 3 days of the occurrence.",
+   "source_file": "83acd03bc28d49eea3e33d79d5b304ab.pdf",
+   "page": 6,
+   "firm_answer": "Standard contract administration requirement; no barrier identified from firm profile.",
+   "status": "meets",
+   "evidence": "General contract administration capability implied by federal contracting history."
+  },
+  {
+   "requirement_id": "808e070c-83acd03b-p5-842338d1",
+   "quote": "The offeror is cautioned that the listed provisions may include blocks that must be completed by the offeror and submitted with its quotation or offer.",
+   "source_file": "83acd03bc28d49eea3e33d79d5b304ab.pdf",
+   "page": 5,
+   "firm_answer": "Standard submission requirement; firm can complete required blocks.",
+   "status": "meets",
+   "evidence": "General administrative capability; prior federal contracting experience."
+  },
+  {
+   "requirement_id": "808e070c-83acd03b-p1-6939adfb",
+   "quote": "Any representations and/or certifications attached to this Request for Quotation must be completed by the quoter.",
+   "source_file": "83acd03bc28d49eea3e33d79d5b304ab.pdf",
+   "page": 1,
+   "firm_answer": "Firm can complete reps and certs; WOSB, EDWOSB, SBA set-aside eligibility confirmed in profile.",
+   "status": "meets",
+   "evidence": "Set-asides the firm can claim: WOSB, EDWOSB, SBA."
+  },
+  {
+   "requirement_id": "808e070c-02b94ab8-p4-b89bdd8f",
+   "quote": "Clearing the road edge at these locations must be done by hand as described below in Clearing vegetation around historic sites.",
+   "source_file": "02b94ab89d5345bbb79941b50c3f0b46.pdf",
+   "page": 4,
+   "firm_answer": "Firm has trimming experience but no documented hand-clearing protocols around historic ruins or NPS cultural-resource requirements.",
+   "status": "gap",
+   "evidence": "No NPS historic-site hand-clearing experience in firm profile."
+  }
+ ],
+ "matrix_dropped": 3,
+ "matrix_dropped_rows": [
+  {
+   "requirement_id": "808e070c-02b94ab8-p4-70921721",
+   "quote": "The possibility of injury due to a collapse is there and all precautions must be adhered to ensure everyone's safety.",
+   "source_file": "02b94ab89d5345bbb79941b50c3f0b46.pdf",
+   "page": 4,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "808e070c-02b94ab8-p4-e250116c",
+   "quote": "Clearing Vegetation Along the Edge of Roads- In clearing the Park's road edges by mechanical means, we must be mindful to not use this equipment where historic ruins are present.",
+   "source_file": "02b94ab89d5345bbb79941b50c3f0b46.pdf",
+   "page": 4,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "808e070c-02b94ab8-p6-b9c78a29",
+   "quote": "Contractor shall use all safety equipment and procedures; necessary PPE's and tools to perform work in a safe manner.",
+   "source_file": "02b94ab89d5345bbb79941b50c3f0b46.pdf",
+   "page": 6,
+   "reason": "not_verbatim"
+  }
+ ],
+ "fit_score_code": 0.4762,
+ "drafts": {
+  "capability_statement": "Red Cedar Facility Services — Capability Statement\nSubmitted in response to: HASSEL ISLAND LANDSCAPING SERVICE | Notice ID: 808e070c0ec749f2bdd8929b448edc78\n\nRed Cedar Facility Services is a Woman-Owned Small Business (WOSB) and Economically Disadvantaged Woman-Owned Small Business (EDWOSB) certified under NAICS 561730 (Landscaping Services), fully registered in SAM.gov and eligible for this Small Business Set-Aside.\n\nCore Capabilities:\nRed Cedar provides grounds maintenance and landscaping services including mowing, trimming, vegetation clearing, and site cleanup. Our supervisory staff hold OSHA 30 certifications, and our workforce operates under a documented PPE and safety program. Quality control inspections are logged in a Computerized Maintenance Management System (CMMS), providing verifiable performance records. We are CIMS-GB certified and maintain e-Verify enrollment in compliance with federal contracting requirements.\n\nRelevant Past Performance:\nRed Cedar holds past performance in grounds maintenance at Tinker AFB, Oklahoma, encompassing mowing, trimming, and landscaping of cantonment areas — demonstrating our ability to deliver scheduled, compliant grounds services on an active federal installation.\n\nAdministrative Readiness:\nWe are capable of completing SF18, all representations and certifications, and email-based quote submission per solicitation instructions. We acknowledge the 150-day performance period and the scheduling requirement of Monday through Friday during regular business hours.\n\nPoint of Contact:\n[Owner Name] | Red Cedar Facility Services | [Phone] | [Email]\n\nNote to Contracting Officer: Red Cedar respectfully requests clarification on several scope and administrative items via the questions submitted alongside this statement.",
+  "questions_for_co": [
+   "Regarding [808e070c-02b94ab8-p6-1f70ce3f] and [808e070c-02b94ab8-p2-db5ddf6c]: The SOW requires the contractor to verify all areas and measurements prior to submitting a bid, and the place of performance is Hassel Island, USVI — is a formal site visit available, and if so, what are the logistics and scheduling details for offerors traveling from the continental United States?",
+   "Regarding [808e070c-02b94ab8-p4-440035ba] and [808e070c-02b94ab8-p4-0e90fd49]: The SOW references NPS cultural-resource protocols for clearing vegetation around historic ruins, including restrictions on pulling vines — will the NPS provide a written site-specific cultural-resource protection plan or on-site NPS guidance to the contractor prior to or during performance?",
+   "Regarding [808e070c-83acd03b-p6-6a525592], [808e070c-83acd03b-p6-39f8f61a], and [808e070c-83acd03b-p6-685192ab]: The solicitation states liability insurance must be in a form satisfactory to the Contracting Officer with minimums of $50,000 per person, $100,000 per occurrence, and $100,000 property damage — is there a specific insurance form, carrier requirement, or certificate template the Government requires, and must the certificate be submitted with the quote or only prior to award?",
+   "Regarding [808e070c-02b94ab8-p6-8d12eabb] and [808e070c-02b94ab8-p2-db5ddf6c]: The SOW requires removal and disposal of all debris and vegetation from the site — are there designated NPS-approved disposal sites on St. John or St. Thomas, or is the contractor responsible for identifying and securing compliant disposal facilities independently?",
+   "Regarding [808e070c-83acd03b-p7-575bdd9f]: The solicitation references electronic payment submission — can the Contracting Officer confirm which electronic invoicing system (e.g., IPP) is required, and whether new vendors must enroll prior to award or prior to first invoice submission?",
+   "Regarding [808e070c-1957202f-p6-366bbfb7]: The solicitation references a uniform furnishing or reimbursement requirement — does this apply to all labor categories under this contract, and is there a specific uniform specification (color, logo, or NPS-branded requirement) the contractor must meet?"
+  ],
+  "calendar_entries": [
+   {
+    "title": "Proposal Due",
+    "date": "2026-09-16",
+    "note": "Response deadline per SAM.gov notice: 2026-09-16 at 1:00 PM EDT. Quotes must be emailed to william_vazquez@ios.doi.gov with subject line: QUOTE – 140P5426Q0044.",
+    "source_quote": "Quotes shall be sent via email to william _vazquez@ios.doi.gov with subject line: QUOTE – 140P5426Q0044."
+   },
+   {
+    "title": "Decide By (2 business days before proposal due)",
+    "date": "2026-09-14",
+    "note": "Internal go/no-go decision deadline — two business days before the proposal due date of 2026-09-16.",
+    "source_quote": "Quotes shall be sent via email to william _vazquez@ios.doi.gov with subject line: QUOTE – 140P5426Q0044."
+   }
+  ]
+ },
+ "reader": {
+  "notice_id": "808e070c0ec749f2bdd8929b448edc78",
+  "key_requirement_ids": [
+   "808e070c-02b94ab8-p6-34e244f7",
+   "808e070c-02b94ab8-p2-db5ddf6c",
+   "808e070c-02b94ab8-p2-ee1dedb5",
+   "808e070c-02b94ab8-p4-0e90fd49",
+   "808e070c-02b94ab8-p4-70921721",
+   "808e070c-02b94ab8-p4-e250116c",
+   "808e070c-02b94ab8-p4-440035ba",
+   "808e070c-02b94ab8-p6-859c180f",
+   "808e070c-02b94ab8-p6-8d12eabb",
+   "808e070c-02b94ab8-p6-cc378d5c",
+   "808e070c-83acd03b-p2-9bd93187",
+   "808e070c-83acd03b-p2-4ab554fa",
+   "808e070c-83acd03b-p3-c7ce6b60",
+   "808e070c-83acd03b-p5-3589ab61",
+   "808e070c-83acd03b-p6-6a525592",
+   "808e070c-83acd03b-p6-39f8f61a",
+   "808e070c-83acd03b-p5-11fedd95",
+   "808e070c-02b94ab8-p6-1f70ce3f",
+   "808e070c-83acd03b-p3-ed3b2410",
+   "808e070c-83acd03b-p7-575bdd9f"
+  ],
+  "scope_summary": "The National Park Service requires a contractor to perform landscaping services at Hassel Island, located within Virgin Islands National Park, 1300 Cruz Bay Creek St. The contractor shall provide all labor, tools, equipment, and personal protective equipment (PPE) to safely perform required tasks including clearing vegetation along road edges and around historic sites, and removing dead trees and debris. The contractor shall also dispose of all generated debris and vegetation, with special care taken to protect historic ruins, artifacts, and visitors throughout the work.",
+  "evaluation_basis": "not stated",
+  "incumbent_or_history": "none found",
+  "quotes": [
+   "The contractor shall provide all labor, tools, equipment, and personal protective equipment (PPE) to safely perform the required tasks.",
+   "The contractor shall also dispose of all generated debris and vegetation 1.2: LOCATION Virgin Islands National Park 1300 Cruz Bay Creek St.",
+   "1.6 PERFORMANCE PERIOD The contract performance period shall be 150 days from the date of award.",
+   "The option provision may be exercised more than once, but the total extension of performance hereunder shall not exceed 6 months.",
+   "Work shall be conducted Monday through Friday, during regular business hours.",
+   "• Clearing Vegetation Around Historic Sites- In clearing around historic sites, we must keep in mind that there may still be remnants of historic gardens and crops present that can add so much to our knowledge and understanding of these historic sites and the landscape that surround them.",
+   "Before clearing a structure be sure to evaluate the risks and dangerous areas that must be avoided and never remove vines or plants by pulling on them, as this can result in a collapse and will assuredly result in damage to the building.",
+   "Contractor shall remove dead trees in a manner not to damage person and property.",
+   "Contractor shall remove all debris from site",
+   "Contractor shall verify all areas and measurements prior to submitting of bids.",
+   "An offeror must ensure that they are self-certified under NAICS 561730 in the Representations and Certifications portion of www.sam.gov.",
+   "Companies must have a valid Unique Entity ID (UEI) number and an active System for Award Management (www.sam.gov) registration.",
+   "Quotes shall be sent via email to william _vazquez@ios.doi.gov with subject line: QUOTE – 140P5426Q0044.",
+   "The following factors shall be used to evaluate offers:",
+   "The amounts of the insurance shall be not less than as follows: $ 50,000 each person $ 100,000 each occurrence $ 100,000 property damage",
+   "Care shall be given to visitors, vessels, artifacts, and any other feature that can be damaged because of work being performed."
+  ]
+ },
+ "fit": {
+  "notice_id": "808e070c0ec749f2bdd8929b448edc78",
+  "fit_score": 0.18,
+  "matched_past_performance": [
+   "Grounds maintenance, cantonment area"
+  ],
+  "strengths": [
+   "NAICS 561730 self-certified, matching solicitation NAICS",
+   "Small business set-aside eligible (WOSB/SBA)",
+   "Grounds maintenance past performance (Tinker AFB)",
+   "OSHA 30 supervisors and PPE/safety program in place",
+   "e-Verify enrolled",
+   "QC inspections logged in CMMS"
+  ],
+  "gaps": [
+   "FATAL – owner rule [rc-distance]: place of performance is Virgin Islands National Park (St. John, USVI), well over 200 miles from Oklahoma City, OK — bid is prohibited",
+   "FATAL – owner rule [rc-base]: performance period is 150 days (~5 months), not a 12-month base period — bid is prohibited",
+   "No experience with historic-site vegetation clearing or NPS cultural-resource protocols",
+   "No demonstrated tropical/island landscaping or debris-disposal capability",
+   "No presence or mobilization capability in the U.S. Virgin Islands",
+   "No evidence of liability insurance at required minimums on file"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "808e070c-02b94ab8-p6-34e244f7",
+    "quote": "The contract performance period shall be 150 days from the date of award.",
+    "source_file": "02b94ab89d5345bbb79941b50c3f0b46.pdf",
+    "page": 6,
+    "firm_answer": "Owner rule [rc-base] prohibits bids under a 12-month base period. 150 days (~5 months) does not meet the minimum. This is a disqualifying condition.",
+    "status": "gap",
+    "evidence": "Owner rule [rc-base]: No bids under a 12-month base period."
+   },
+   {
+    "requirement_id": "808e070c-02b94ab8-p2-db5ddf6c",
+    "quote": "The contractor shall also dispose of all generated debris and vegetation 1.2: LOCATION Virgin Islands National Park 1300 Cruz Bay Creek St.",
+    "source_file": "02b94ab89d5345bbb79941b50c3f0b46.pdf",
+    "page": 2,
+    "firm_answer": "Place of performance is Virgin Islands National Park, St. John, USVI — over 1,500 miles from Oklahoma City, OK. Owner rule [rc-distance] prohibits bids over 200 miles from Oklahoma City. This is a disqualifying condition.",
+    "status": "gap",
+    "evidence": "Owner rule [rc-distance]: No bids over 200 miles from Oklahoma City."
+   },
+   {
+    "requirement_id": "808e070c-83acd03b-p2-9bd93187",
+    "quote": "An offeror must ensure that they are self-certified under NAICS 561730 in the Representations and Certifications portion of www.sam.gov.",
+    "source_file": "83acd03bc28d49eea3e33d79d5b304ab.pdf",
+    "page": 2,
+    "firm_answer": "Red Cedar Facility Services lists NAICS 561730 in its profile and can self-certify accordingly.",
+    "status": "meets",
+    "evidence": "Firm profile NAICS: 561720, 561730."
+   },
+   {
+    "requirement_id": "808e070c-83acd03b-p2-4ab554fa",
+    "quote": "Companies must have a valid Unique Entity ID (UEI) number and an active System for Award Management (www.sam.gov) registration.",
+    "source_file": "83acd03bc28d49eea3e33d79d5b304ab.pdf",
+    "page": 2,
+    "firm_answer": "Profile does not explicitly state a UEI or active SAM registration. Cannot confirm.",
+    "status": "unknown",
+    "evidence": "No UEI or SAM registration mentioned in firm profile."
+   },
+   {
+    "requirement_id": "808e070c-02b94ab8-p2-ee1dedb5",
+    "quote": "The contractor shall provide all labor, tools, equipment, and personal protective equipment (PPE) to safely perform the required tasks.",
+    "source_file": "02b94ab89d5345bbb79941b50c3f0b46.pdf",
+    "page": 2,
+    "firm_answer": "Firm profile states OSHA 30 supervisors and references PPE use; grounds maintenance past performance at Tinker AFB supports equipment provision. However, no island-specific or tropical equipment is mentioned.",
+    "status": "partial",
+    "evidence": "Capabilities: OSHA 30 supervisors; Grounds maintenance, cantonment area (Tinker AFB)."
+   },
+   {
+    "requirement_id": "808e070c-02b94ab8-p4-0e90fd49",
+    "quote": "never remove vines or plants by pulling on them, as this can result in a collapse and will assuredly result in damage to the building.",
+    "source_file": "02b94ab89d5345bbb79941b50c3f0b46.pdf",
+    "page": 4,
+    "firm_answer": "Firm has general grounds maintenance experience but no documented experience with historic-ruin vegetation clearing protocols required at NPS sites.",
+    "status": "gap",
+    "evidence": "No historic-site or NPS cultural-resource clearing experience in firm profile."
+   },
+   {
+    "requirement_id": "808e070c-02b94ab8-p4-440035ba",
+    "quote": "Clearing Vegetation Around Historic Sites- In clearing around historic sites, we must keep in mind that there may still be remnants of historic gardens and crops present",
+    "source_file": "02b94ab89d5345bbb79941b50c3f0b46.pdf",
+    "page": 4,
+    "firm_answer": "No past performance or capability related to historic-site vegetation clearing or NPS cultural-resource protocols is listed in the firm profile.",
+    "status": "gap",
+    "evidence": "No NPS or historic-site experience in firm profile."
+   },
+   {
+    "requirement_id": "808e070c-02b94ab8-p6-cc378d5c",
+    "quote": "Work shall be conducted Monday through Friday, during regular business hours.",
+    "source_file": "02b94ab89d5345bbb79941b50c3f0b46.pdf",
+    "page": 6,
+    "firm_answer": "Standard scheduling requirement; firm has no stated conflict, but mobilization to USVI for Mon–Fri work is not feasible given distance constraint.",
+    "status": "partial",
+    "evidence": "General operational capability; distance gap makes compliance impractical."
+   },
+   {
+    "requirement_id": "808e070c-02b94ab8-p6-1f70ce3f",
+    "quote": "Contractor shall verify all areas and measurements prior to submitting of bids.",
+    "source_file": "02b94ab89d5345bbb79941b50c3f0b46.pdf",
+    "page": 6,
+    "firm_answer": "Firm is based in Oklahoma City; site visit to Hassel Island, USVI would be required. No local presence or mobilization plan stated.",
+    "status": "gap",
+    "evidence": "No USVI presence or site-visit capability in firm profile."
+   },
+   {
+    "requirement_id": "808e070c-02b94ab8-p6-859c180f",
+    "quote": "Contractor shall remove dead trees in a manner not to damage person and property.",
+    "source_file": "02b94ab89d5345bbb79941b50c3f0b46.pdf",
+    "page": 6,
+    "firm_answer": "Firm has general grounds/landscaping experience including trimming at Tinker AFB, but no documented tree removal or arborist capability.",
+    "status": "partial",
+    "evidence": "Grounds maintenance, cantonment area: mowing, trimming, landscaping."
+   },
+   {
+    "requirement_id": "808e070c-02b94ab8-p6-8d12eabb",
+    "quote": "Contractor shall remove all debris from site",
+    "source_file": "02b94ab89d5345bbb79941b50c3f0b46.pdf",
+    "page": 6,
+    "firm_answer": "Debris disposal is referenced in the SOW location clause; firm has no documented debris-disposal or haul-off capability in USVI.",
+    "status": "gap",
+    "evidence": "No USVI debris disposal capability in firm profile."
+   },
+   {
+    "requirement_id": "808e070c-02b94ab8-p2-0bb27af4",
+    "quote": "the Contractor shall perform the work of this statement of work (SOW)) for the National Park Service (NPS) as described below.",
+    "source_file": "02b94ab89d5345bbb79941b50c3f0b46.pdf",
+    "page": 2,
+    "firm_answer": "Firm has no prior NPS contract experience listed in its profile.",
+    "status": "gap",
+    "evidence": "No NPS past performance in firm profile."
+   },
+   {
+    "requirement_id": "808e070c-02b94ab8-p2-17603055",
+    "quote": "All services performed under this SOW shall be performed in accordance with applicable codes, and accepted industry standards.",
+    "source_file": "02b94ab89d5345bbb79941b50c3f0b46.pdf",
+    "page": 2,
+    "firm_answer": "Firm is CIMS-GB certified and references OSHA 30 compliance; general industry-standard adherence is supported.",
+    "status": "meets",
+    "evidence": "Capabilities: CIMS-GB certified, OSHA 30 supervisors."
+   },
+   {
+    "requirement_id": "808e070c-02b94ab8-p2-c8adff58",
+    "quote": "Care shall be given to visitors, vessels, artifacts, and any other feature that can be damaged because of work being performed.",
+    "source_file": "02b94ab89d5345bbb79941b50c3f0b46.pdf",
+    "page": 2,
+    "firm_answer": "Firm has QC inspections logged in CMMS and OSHA 30 supervisors, but no documented experience protecting NPS artifacts, vessels, or historic features.",
+    "status": "partial",
+    "evidence": "Capabilities: QC inspections logged in CMMS, OSHA 30 supervisors."
+   },
+   {
+    "requirement_id": "808e070c-83acd03b-p6-6a525592",
+    "quote": "The Contractor shall procure and maintain during the term of this contract and any extension thereof liability insurance in form satisfactory to the Contracting Officer",
+    "source_file": "83acd03bc28d49eea3e33d79d5b304ab.pdf",
+    "page": 6,
+    "firm_answer": "Firm profile does not mention liability insurance coverage or carriers. Cannot confirm compliance.",
+    "status": "unknown",
+    "evidence": "No insurance information in firm profile."
+   },
+   {
+    "requirement_id": "808e070c-83acd03b-p6-39f8f61a",
+    "quote": "The amounts of the insurance shall be not less than as follows: $ 50,000 each person $ 100,000 each occurrence $ 100,000 property damage",
+    "source_file": "83acd03bc28d49eea3e33d79d5b304ab.pdf",
+    "page": 6,
+    "firm_answer": "Firm profile does not state insurance coverage amounts. Cannot confirm minimum thresholds are met.",
+    "status": "unknown",
+    "evidence": "No insurance amounts stated in firm profile."
+   },
+   {
+    "requirement_id": "808e070c-83acd03b-p3-c7ce6b60",
+    "quote": "Quotes shall be sent via email to william _vazquez@ios.doi.gov with subject line: QUOTE – 140P5426Q0044.",
+    "source_file": "83acd03bc28d49eea3e33d79d5b304ab.pdf",
+    "page": 3,
+    "firm_answer": "Administrative submission requirement; firm is capable of email submission. No barrier identified beyond the disqualifying distance and base-period issues.",
+    "status": "meets",
+    "evidence": "General administrative capability."
+   },
+   {
+    "requirement_id": "808e070c-83acd03b-p3-ed3b2410",
+    "quote": "All quoters shall complete blocks 13,14,15 through 16c of the solicitation form (SF18), the price schedule below, and acknowledge (sign) any amendments issued to this solicitation.",
+    "source_file": "83acd03bc28d49eea3e33d79d5b304ab.pdf",
+    "page": 3,
+    "firm_answer": "Standard administrative requirement; firm can complete SF18 form. No barrier identified.",
+    "status": "meets",
+    "evidence": "General administrative capability."
+   },
+   {
+    "requirement_id": "808e070c-83acd03b-p7-575bdd9f",
+    "quote": "Payment requests must be submitted electronically through the U.",
+    "source_file": "83acd03bc28d49eea3e33d79d5b304ab.pdf",
+    "page": 7,
+    "firm_answer": "Firm profile does not mention IPP registration, but this is a standard federal requirement. Cannot confirm active IPP enrollment.",
+    "status": "unknown",
+    "evidence": "No IPP registration mentioned in firm profile."
+   },
+   {
+    "requirement_id": "808e070c-83acd03b-p5-11fedd95",
+    "quote": "The option provision may be exercised more than once, but the total extension of performance hereunder shall not exceed 6 months.",
+    "source_file": "83acd03bc28d49eea3e33d79d5b304ab.pdf",
+    "page": 5,
+    "firm_answer": "Base period of 150 days plus up to 6 months of options still does not constitute a 12-month base period. Owner rule [rc-base] is not satisfied.",
+    "status": "gap",
+    "evidence": "Owner rule [rc-base]: No bids under a 12-month base period."
+   },
+   {
+    "requirement_id": "808e070c-1957202f-p6-366bbfb7",
+    "quote": "The contractor or subcontractor is required to furnish all employees with an adequate number of uniforms without cost or to reimburse employees for the actual cost of the uniforms.",
+    "source_file": "1957202fad304d88976624f1fe851304.pdf",
+    "page": 6,
+    "firm_answer": "Firm profile does not address uniform provision or reimbursement policy.",
+    "status": "unknown",
+    "evidence": "No uniform policy stated in firm profile."
+   },
+   {
+    "requirement_id": "808e070c-02b94ab8-p6-067914ed",
+    "quote": "Contractor shall provide a schedule for each location prior to beginning work.",
+    "source_file": "02b94ab89d5345bbb79941b50c3f0b46.pdf",
+    "page": 6,
+    "firm_answer": "Firm uses CMMS for QC inspections and scheduling; can provide work schedules. Standard capability.",
+    "status": "meets",
+    "evidence": "Capabilities: QC inspections logged in a CMMS."
+   },
+   {
+    "requirement_id": "808e070c-83acd03b-p6-685192ab",
+    "quote": "The contractor shall furnish the Contracting Officer with a copy of an acceptable insurance certificate prior to beginning the work.",
+    "source_file": "83acd03bc28d49eea3e33d79d5b304ab.pdf",
+    "page": 6,
+    "firm_answer": "Firm profile does not mention insurance certificates. Cannot confirm.",
+    "status": "unknown",
+    "evidence": "No insurance certificate information in firm profile."
+   },
+   {
+    "requirement_id": "808e070c-83acd03b-p6-308b4799",
+    "quote": "The Contractor shall notify the Contracting Officer in writing, with as much detail as possible, when the COR has taken an action or has issued direction (written or oral) that the Contractor considers to exceed the COR's appointment, within 3 days of the occurrence.",
+    "source_file": "83acd03bc28d49eea3e33d79d5b304ab.pdf",
+    "page": 6,
+    "firm_answer": "Standard contract administration requirement; no barrier identified from firm profile.",
+    "status": "meets",
+    "evidence": "General contract administration capability implied by federal contracting history."
+   },
+   {
+    "requirement_id": "808e070c-83acd03b-p5-842338d1",
+    "quote": "The offeror is cautioned that the listed provisions may include blocks that must be completed by the offeror and submitted with its quotation or offer.",
+    "source_file": "83acd03bc28d49eea3e33d79d5b304ab.pdf",
+    "page": 5,
+    "firm_answer": "Standard submission requirement; firm can complete required blocks.",
+    "status": "meets",
+    "evidence": "General administrative capability; prior federal contracting experience."
+   },
+   {
+    "requirement_id": "808e070c-83acd03b-p1-6939adfb",
+    "quote": "Any representations and/or certifications attached to this Request for Quotation must be completed by the quoter.",
+    "source_file": "83acd03bc28d49eea3e33d79d5b304ab.pdf",
+    "page": 1,
+    "firm_answer": "Firm can complete reps and certs; WOSB, EDWOSB, SBA set-aside eligibility confirmed in profile.",
+    "status": "meets",
+    "evidence": "Set-asides the firm can claim: WOSB, EDWOSB, SBA."
+   },
+   {
+    "requirement_id": "808e070c-02b94ab8-p4-b89bdd8f",
+    "quote": "Clearing the road edge at these locations must be done by hand as described below in Clearing vegetation around historic sites.",
+    "source_file": "02b94ab89d5345bbb79941b50c3f0b46.pdf",
+    "page": 4,
+    "firm_answer": "Firm has trimming experience but no documented hand-clearing protocols around historic ruins or NPS cultural-resource requirements.",
+    "status": "gap",
+    "evidence": "No NPS historic-site hand-clearing experience in firm profile."
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "808e070c0ec749f2bdd8929b448edc78",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-09-16T13:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": "150 days from date of award",
+   "source_quotes": [
+    "Quotes shall be sent via email to william _vazquez@ios.doi.gov with subject line: QUOTE – 140P5426Q0044.",
+    "1.6 PERFORMANCE PERIOD The contract performance period shall be 150 days from the date of award."
+   ]
+  },
+  "days_to_close": 2.2710810234375,
+  "set_aside_note": "SET-ASIDE IS ELIGIBLE. The notice is set aside as \"Small Business Set Aside - Total,\" and Red Cedar Facility Services qualifies as a small business (SBA) — which is listed among the set-asides the firm can claim.",
+  "amendment_note": "no amendment",
+  "calendar_entries": [
+   {
+    "title": "Proposal Due",
+    "date": "2026-09-16",
+    "note": "Response deadline per SAM.gov notice: 2026-09-16 at 1:00 PM EDT. Quotes must be emailed to william_vazquez@ios.doi.gov with subject line: QUOTE – 140P5426Q0044.",
+    "source_quote": "Quotes shall be sent via email to william _vazquez@ios.doi.gov with subject line: QUOTE – 140P5426Q0044."
+   },
+   {
+    "title": "Decide By (2 business days before proposal due)",
+    "date": "2026-09-14",
+    "note": "Internal go/no-go decision deadline — two business days before the proposal due date of 2026-09-16.",
+    "source_quote": "Quotes shall be sent via email to william _vazquez@ios.doi.gov with subject line: QUOTE – 140P5426Q0044."
+   }
+  ]
+ },
+ "model_calls": 5,
+ "tokens_in": 48584,
+ "tokens_out": 11163,
+ "seconds": 92.72,
+ "produced_at": "2026-09-14T05:31:11.320435-05:00"
+}

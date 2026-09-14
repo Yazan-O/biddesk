@@ -1,0 +1,867 @@
+{
+ "notice_id": "bfe399280c8344a0923840dfb6989c90",
+ "firm_slug": "red-cedar",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:29:57-05:00",
+ "evidence_basis": null,
+ "days_to_close": -5.77479975255787,
+ "closed": true,
+ "response_kind": "proposal",
+ "card": {
+  "notice_id": "bfe399280c8344a0923840dfb6989c90",
+  "firm_slug": "red-cedar",
+  "situation": "Combined Synopsis/Solicitation for janitorial services at Virgin Islands National Park (Visitor Center, Facility Maintenance Building, and Resource Management & Science Building), St. John, USVI — NPS/Interior, small business total set-aside, NAICS 561720.\nReached the owner because NAICS 561720 matches exactly and Red Cedar qualifies under the small business set-aside, but the place of performance is ~2,100 miles from Oklahoma City, triggering the rc-distance 200-mile rule.",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "NAICS 561720 matches the solicitation exactly and Red Cedar is SBA-eligible, satisfying the Total Small Business set-aside with no teaming required [bfe39928-ec6a6e0c-p3-a98b36f5].",
+   "Firm's federal janitorial past performance (GSA Region 7 federal building, VA outpatient clinic) directly maps to the restroom, floor care, and custodial scope required across all five NPS locations [bfe39928-1256d376-p1-35356a2b].",
+   "QC program with CMMS-logged inspections and OSHA 30 supervisors satisfies the quality control and on-site supervisor designation requirements [bfe39928-948a5034-p2-dedea27e]."
+  ],
+  "reasons_against": [
+   "Place of performance is St. John, USVI (~2,100 miles from Oklahoma City), violating the rc-distance 200-mile rule — no USVI workforce, logistics, or inter-site transportation capability is documented in the profile [bfe39928-948a5034-p2-8c89e570].",
+   "On-site supervisor presence during every service period (8:00 AM–11:00 AM local, including weekends) cannot be met from Oklahoma City with no USVI-based staff, creating a fatal operational gap [bfe39928-1256d376-p6-350af9c5].",
+   "Accurate proposal pricing requires contractor verification of cleanable areas on-site in USVI, which is not feasible under the distance constraint, making a compliant price schedule submission unreliable [bfe39928-ec6a6e0c-p10-2edd7bd8]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-09-04",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-09-08T12:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": null,
+   "source_quotes": [
+    "The Government is also extending the quotation due date to September 8, 2026, at 12:00 PM EST to allow offerors sufficient time to review the updated information and prepare their proposals accordingly."
+   ]
+  },
+  "fit_score": 0.5185,
+  "matrix_summary": "11 of 36 requirements met, 6 partial, 10 gap, 9 unknown",
+  "evidence_link": "https://sam.gov/opp/bfe399280c8344a0923840dfb6989c90/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "bfe39928-1256d376-p1-35356a2b",
+   "quote": "The Contractor shall perform janitorial duties in the Virgin Islands National Park Visitor Center (VC), Visitor Center Public Restrooms, Facility Maintenance Building, Resource Management & Science (RMS) Building, and Resource Management & Science Public Restrooms.",
+   "source_file": "1256d3765a674f26b41acce2ce6c47d2.pdf",
+   "page": 1,
+   "firm_answer": "Firm provides janitorial and custodial services for federal buildings and has relevant past performance (GSA federal building, VA clinic). However, no USVI presence or NPS visitor center experience is documented.",
+   "status": "partial",
+   "evidence": "Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic"
+  },
+  {
+   "requirement_id": "bfe39928-948a5034-p1-1c2ff9d5",
+   "quote": "The contractor shall provide access and the means for transportation between the three distinct sites under this contract.",
+   "source_file": "948a5034f3094494a854d87fa0a82c5b.pdf",
+   "page": 1,
+   "firm_answer": "Profile does not mention any transportation capability in USVI or between island sites. Firm operates in Oklahoma and neighboring states only.",
+   "status": "gap",
+   "evidence": "No profile capability addresses inter-site transportation in USVI."
+  },
+  {
+   "requirement_id": "bfe39928-ec6a6e0c-p3-a98b36f5",
+   "quote": "An offeror must ensure that they are self-certified under NAICS 561720 in the Representations and Certifications portion of www.sam.gov.",
+   "source_file": "ec6a6e0cda95406bae267f31a5e2008c.pdf",
+   "page": 3,
+   "firm_answer": "Firm's primary NAICS is 561720 (Janitorial Services). Profile states NAICS 561720 and 561730. SAM self-certification under 561720 is consistent with profile but not explicitly confirmed as active in SAM.",
+   "status": "meets",
+   "evidence": "Firm NAICS listed as 561720; solicitation NAICS is 561720."
+  },
+  {
+   "requirement_id": "bfe39928-ec6a6e0c-p3-4abbd243",
+   "quote": "Companies must have a valid Unique Entity ID (UEI) number and an active System for Award Management (www.sam.gov) registration.",
+   "source_file": "ec6a6e0cda95406bae267f31a5e2008c.pdf",
+   "page": 3,
+   "firm_answer": "Profile does not explicitly confirm active SAM registration or UEI. Profile states SBA set-aside eligibility which implies SAM registration, but it is not confirmed verbatim.",
+   "status": "unknown",
+   "evidence": "Profile lists set-asides (WOSB, EDWOSB, SBA) implying SAM presence, but no explicit UEI or active SAM registration stated."
+  },
+  {
+   "requirement_id": "bfe39928-1256d376-p1-0bd175b0",
+   "quote": "For the performance of this contract, the Contractor shall provide all transportation, labor, equipment, supervision, materials, and supplies, except those listed in the Government Furnished Supplies section of this SOW.",
+   "source_file": "1256d3765a674f26b41acce2ce6c47d2.pdf",
+   "page": 1,
+   "firm_answer": "Firm profile states it provides all labor, equipment, and supplies for janitorial services. However, no capability to mobilize these resources to USVI is documented.",
+   "status": "partial",
+   "evidence": "Capabilities: janitorial, custodial, floor care, window cleaning for federal and state facilities."
+  },
+  {
+   "requirement_id": "bfe39928-1256d376-p5-306aad88",
+   "quote": "The Contractor shall designate an on-site supervisor who shall be responsible for the conduct and competent performance of work.",
+   "source_file": "1256d3765a674f26b41acce2ce6c47d2.pdf",
+   "page": 5,
+   "firm_answer": "Firm has OSHA 30 supervisors and a QC program. Designating an on-site supervisor is consistent with firm capabilities, but no USVI-based supervisory staff is mentioned.",
+   "status": "partial",
+   "evidence": "Capabilities: OSHA 30 supervisors, QC inspections logged in a CMMS."
+  },
+  {
+   "requirement_id": "bfe39928-e1294258-p3-d7bc3a41",
+   "quote": "Must supervisor be present during every service period? Response: Yes.",
+   "source_file": "e1294258f90d49c1abae242a783201d1.pdf",
+   "page": 3,
+   "firm_answer": "Firm has OSHA 30 supervisors but no USVI-based workforce is documented. Deploying a supervisor to USVI for every service period from Oklahoma City is not addressed in the profile.",
+   "status": "gap",
+   "evidence": "No USVI workforce or supervisory presence documented in profile."
+  },
+  {
+   "requirement_id": "bfe39928-1256d376-p5-a4393622",
+   "quote": "The supervisor and alternate shall be designated as key personnel and be able to read, write, speak, and understand English, and have full authority to act for the Contractor.",
+   "source_file": "1256d3765a674f26b41acce2ce6c47d2.pdf",
+   "page": 5,
+   "firm_answer": "Profile does not identify specific key personnel or alternates. English language requirement is not explicitly addressed but is reasonably assumed for an Oklahoma-based firm.",
+   "status": "unknown",
+   "evidence": "Profile mentions OSHA 30 supervisors but does not name key personnel or alternates."
+  },
+  {
+   "requirement_id": "bfe39928-1256d376-p5-1b69ec6d",
+   "quote": "An equally qualified alternate supervisor shall be provided to act on behalf of the supervisor during his/her absence.",
+   "source_file": "1256d3765a674f26b41acce2ce6c47d2.pdf",
+   "page": 5,
+   "firm_answer": "Profile does not mention an alternate supervisor designation. Firm has 38 W-2 employees which could support this, but no explicit alternate supervisor role is documented.",
+   "status": "unknown",
+   "evidence": "38 W-2 employees noted in profile; no alternate supervisor role explicitly stated."
+  },
+  {
+   "requirement_id": "bfe39928-ec6a6e0c-p11-9cb4da05",
+   "quote": "The Contractor shall procure and maintain during the term of this contract and any extension thereof liability insurance in form satisfactory to the Contracting Officer by an insurance company which is acceptable to the Contracting Officer.",
+   "source_file": "ec6a6e0cda95406bae267f31a5e2008c.pdf",
+   "page": 11,
+   "firm_answer": "Profile does not mention liability insurance coverage. Cannot confirm compliance.",
+   "status": "unknown",
+   "evidence": "No insurance information stated in firm profile."
+  },
+  {
+   "requirement_id": "bfe39928-ec6a6e0c-p11-7ed5f2fa",
+   "quote": "The amounts of the insurance shall be not less than as follows: $ 50,000 each person $ 100,000 each occurrence $ 100,000 property damage",
+   "source_file": "ec6a6e0cda95406bae267f31a5e2008c.pdf",
+   "page": 11,
+   "firm_answer": "Profile does not state insurance coverage amounts. Cannot confirm minimum thresholds are met.",
+   "status": "unknown",
+   "evidence": "No insurance details in firm profile."
+  },
+  {
+   "requirement_id": "bfe39928-948a5034-p2-dedea27e",
+   "quote": "Quality Control/Quality Assurance Contractor shall perform regular inspections of their work.",
+   "source_file": "948a5034f3094494a854d87fa0a82c5b.pdf",
+   "page": 2,
+   "firm_answer": "Firm has a documented QC program with inspections logged in a CMMS, directly meeting this requirement.",
+   "status": "meets",
+   "evidence": "Capabilities: QC inspections logged in a CMMS."
+  },
+  {
+   "requirement_id": "bfe39928-1256d376-p2-275859a4",
+   "quote": "The Contractor shall correct any performance deficiency within one day of notification by the COR.",
+   "source_file": "1256d3765a674f26b41acce2ce6c47d2.pdf",
+   "page": 2,
+   "firm_answer": "Profile does not address response time to COR notifications. Given the firm is based in Oklahoma with no USVI presence, same-day correction in USVI is operationally infeasible.",
+   "status": "gap",
+   "evidence": "No USVI operational presence; rc-distance rule violated."
+  },
+  {
+   "requirement_id": "bfe39928-1256d376-p1-310db591",
+   "quote": "Restrooms shall be cleaned daily with a disinfectant cleaner.",
+   "source_file": "1256d3765a674f26b41acce2ce6c47d2.pdf",
+   "page": 1,
+   "firm_answer": "Firm provides daily restroom cleaning with disinfectant as part of its standard janitorial scope, evidenced by federal building and clinic past performance.",
+   "status": "meets",
+   "evidence": "Custodial services, Oklahoma City Federal Building (restrooms); Housekeeping support, outpatient clinic (infection control, terminal cleaning)."
+  },
+  {
+   "requirement_id": "bfe39928-1256d376-p1-2747c024",
+   "quote": "Fixtures, metal chrome surfaces, washbasins, shower stalls, mirrors, counter tops, and dispensers shall maintain a high level of luster, if applicable, and be free of dust, mold, mildew, streaks, rust, and encrustation.",
+   "source_file": "1256d3765a674f26b41acce2ce6c47d2.pdf",
+   "page": 1,
+   "firm_answer": "Standard janitorial fixture cleaning is within firm's documented capabilities for federal and clinic facilities.",
+   "status": "meets",
+   "evidence": "Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic."
+  },
+  {
+   "requirement_id": "bfe39928-1256d376-p1-60a51466",
+   "quote": "Urinals and toilet bowls shall be cleaned as far into the trap as possible and under the inside rim with disinfectant cleaners.",
+   "source_file": "1256d3765a674f26b41acce2ce6c47d2.pdf",
+   "page": 1,
+   "firm_answer": "Toilet and urinal cleaning is part of firm's standard restroom custodial scope documented in past performance.",
+   "status": "meets",
+   "evidence": "Custodial services, Oklahoma City Federal Building (restrooms, trash); Housekeeping support, outpatient clinic (infection control)."
+  },
+  {
+   "requirement_id": "bfe39928-948a5034-p1-faa301f2",
+   "quote": "Time Work for all locations shall be done between the hours of 8:00AM to 11:00AM, local time unless prior approval of the COR.",
+   "source_file": "948a5034f3094494a854d87fa0a82c5b.pdf",
+   "page": 1,
+   "firm_answer": "Profile does not address scheduling constraints. Firm operates in Oklahoma; USVI local time (AST) is 1 hour ahead of EST. No USVI workforce to deploy during these hours.",
+   "status": "gap",
+   "evidence": "No USVI operational presence documented in profile."
+  },
+  {
+   "requirement_id": "bfe39928-e1294258-p2-e7fedfb4",
+   "quote": "Response: The Visitor Center Public Restrooms shall be cleaned on the weekends.",
+   "source_file": "e1294258f90d49c1abae242a783201d1.pdf",
+   "page": 2,
+   "firm_answer": "Weekend cleaning is operationally feasible for a local contractor; firm has no documented USVI presence to fulfill weekend service.",
+   "status": "gap",
+   "evidence": "No USVI workforce documented in profile."
+  },
+  {
+   "requirement_id": "bfe39928-948a5034-p2-8c89e570",
+   "quote": "RMS Facility 18° 20.02932' N, 64° 47.45979' W ~4,600 See record drawing Contractor shall verify quantities and sizes before submittal of proposal.",
+   "source_file": "948a5034f3094494a854d87fa0a82c5b.pdf",
+   "page": 2,
+   "firm_answer": "Coordinates confirm location is St. John, USVI (~2,100 miles from Oklahoma City). Firm cannot perform a site visit to verify quantities without significant mobilization cost. No USVI presence documented.",
+   "status": "gap",
+   "evidence": "rc-distance rule violated; no USVI presence in profile."
+  },
+  {
+   "requirement_id": "bfe39928-e1294258-p2-bac1fc6b",
+   "quote": "Contractor shall verify cleanable areas prior to submittal of price schedule.",
+   "source_file": "e1294258f90d49c1abae242a783201d1.pdf",
+   "page": 2,
+   "firm_answer": "Site verification in USVI requires travel from Oklahoma City (~2,100 miles). No USVI presence documented; site visit is not feasible under rc-distance constraint.",
+   "status": "gap",
+   "evidence": "rc-distance rule violated; no USVI presence in profile."
+  },
+  {
+   "requirement_id": "bfe39928-ec6a6e0c-p10-52a6f87d",
+   "quote": "Client points of contact shall be provided to serve as references.",
+   "source_file": "ec6a6e0cda95406bae267f31a5e2008c.pdf",
+   "page": 10,
+   "firm_answer": "Firm has documented past performance with GSA Region 7, Tinker AFB, Oklahoma OMES, and VA Oklahoma City — all can serve as references.",
+   "status": "meets",
+   "evidence": "Custodial services, Oklahoma City Federal Building (GSA Region 7); Housekeeping support, outpatient clinic (VA Oklahoma City); Janitorial, state office complex (Oklahoma OMES)."
+  },
+  {
+   "requirement_id": "bfe39928-ec6a6e0c-p10-2edd7bd8",
+   "quote": "Price- The offeror must complete the price schedule on pages 4-5 of this solicitation and must provide an additional price breakdown as part of their offer.",
+   "source_file": "ec6a6e0cda95406bae267f31a5e2008c.pdf",
+   "page": 10,
+   "firm_answer": "Firm can complete a price schedule, but accurate pricing requires a site visit to USVI (per SOW requirement to verify cleanable areas), which is not feasible given the distance constraint.",
+   "status": "gap",
+   "evidence": "rc-distance rule violated; site verification in USVI not feasible."
+  },
+  {
+   "requirement_id": "bfe39928-ec6a6e0c-p1-b1aa727b",
+   "quote": "Quotes for this requirement must be submitted via email to yujeiry_eusebio@ios.doi.gov.",
+   "source_file": "ec6a6e0cda95406bae267f31a5e2008c.pdf",
+   "page": 1,
+   "firm_answer": "Email submission is administratively feasible for the firm regardless of location.",
+   "status": "meets",
+   "evidence": "Administrative capability; no geographic constraint on email submission."
+  },
+  {
+   "requirement_id": "bfe39928-ec6a6e0c-p4-56fd0438",
+   "quote": "All quoters shall complete blocks 13, 14, 15, and 16 of the solicitation form (SF-18), the price schedule below, and acknowledge (sign) any amendments issued to this solicitation.",
+   "source_file": "ec6a6e0cda95406bae267f31a5e2008c.pdf",
+   "page": 4,
+   "firm_answer": "Firm can complete SF-18 and acknowledge amendments administratively.",
+   "status": "meets",
+   "evidence": "Standard administrative submission requirement; no geographic barrier."
+  },
+  {
+   "requirement_id": "bfe39928-ec6a6e0c-p1-3e02b160",
+   "quote": "Prospective contractors must provide the company name and complete address, including street, city, state, zip code, phone number, email address, SAM UEI number, and the Continued... 1 13",
+   "source_file": "ec6a6e0cda95406bae267f31a5e2008c.pdf",
+   "page": 1,
+   "firm_answer": "Firm has a complete address (Oklahoma City, OK) and can provide all required contact information. SAM UEI not explicitly confirmed in profile.",
+   "status": "partial",
+   "evidence": "Profile states: Red Cedar Facility Services (Oklahoma City, OK); SAM UEI not explicitly listed."
+  },
+  {
+   "requirement_id": "bfe39928-1256d376-p6-7ab9ee95",
+   "quote": "Key Control The Contractor shall maintain a key control log documenting all issued keys, their assigned personnel, and the dates of issuance and return.",
+   "source_file": "1256d3765a674f26b41acce2ce6c47d2.pdf",
+   "page": 6,
+   "firm_answer": "Profile does not explicitly mention a key control log. CMMS-based QC logging could support this, but key control is not specifically addressed.",
+   "status": "unknown",
+   "evidence": "QC inspections logged in a CMMS noted in profile; key control log not explicitly mentioned."
+  },
+  {
+   "requirement_id": "bfe39928-ec6a6e0c-p12-92710170",
+   "quote": "Payment requests must be submitted electronically through the U.",
+   "source_file": "ec6a6e0cda95406bae267f31a5e2008c.pdf",
+   "page": 12,
+   "firm_answer": "Profile does not mention IPP (Invoice Processing Platform) enrollment. Standard federal requirement; not confirmed in profile.",
+   "status": "unknown",
+   "evidence": "No IPP enrollment or electronic invoicing capability stated in firm profile."
+  },
+  {
+   "requirement_id": "bfe39928-1256d376-p4-8cbfebe7",
+   "quote": "Government will furnish supplies The Government shall provide:",
+   "source_file": "1256d3765a674f26b41acce2ce6c47d2.pdf",
+   "page": 4,
+   "firm_answer": "Firm profile notes awareness of government-furnished supplies and states it will notify COR if supplies are ineffective. Consistent with SOW approach.",
+   "status": "meets",
+   "evidence": "Capabilities: janitorial, custodial services; profile references government-furnished supplies awareness per SOW context."
+  },
+  {
+   "requirement_id": "bfe39928-e1294258-p4-0f9c8519",
+   "quote": "Must contractors transport supplies daily if storage limited? Response: If Government provided storage is not enough, then yes contractor shall transport its own supplies and equipment.",
+   "source_file": "e1294258f90d49c1abae242a783201d1.pdf",
+   "page": 4,
+   "firm_answer": "Firm has no documented logistics or supply transport capability in USVI. Daily transport of supplies between sites in USVI is not addressed in the profile.",
+   "status": "gap",
+   "evidence": "No USVI logistics or supply transport capability documented in profile."
+  },
+  {
+   "requirement_id": "bfe39928-948a5034-p1-d8a42d46",
+   "quote": "Other Cleaning Actions Along with the factors specified in the SOW, cleaning shall also include scrubbing of toilet bowls, windowsills (indoor), emptying of interior trash cans and sanitary napkin receptacles to centralized trash locations.",
+   "source_file": "948a5034f3094494a854d87fa0a82c5b.pdf",
+   "page": 1,
+   "firm_answer": "These tasks are within the firm's standard janitorial scope as evidenced by federal building and clinic past performance.",
+   "status": "meets",
+   "evidence": "Custodial services, Oklahoma City Federal Building (restrooms, trash, recycling); Housekeeping support, outpatient clinic."
+  },
+  {
+   "requirement_id": "bfe39928-1256d376-p6-350af9c5",
+   "quote": "Performance Standard: The supervisor or alternate shall be on-site and accessible during the working hours.",
+   "source_file": "1256d3765a674f26b41acce2ce6c47d2.pdf",
+   "page": 6,
+   "firm_answer": "Firm has OSHA 30 supervisors but no USVI-based supervisory staff. On-site presence in USVI during working hours cannot be met from Oklahoma City.",
+   "status": "gap",
+   "evidence": "No USVI workforce or supervisory presence documented in profile; rc-distance rule violated."
+  },
+  {
+   "requirement_id": "bfe39928-ec6a6e0c-p9-2a1545c5",
+   "quote": "The following factors shall be used to evaluate offers:",
+   "source_file": "ec6a6e0cda95406bae267f31a5e2008c.pdf",
+   "page": 9,
+   "firm_answer": "Evaluation factors include price and past performance. Firm has relevant past performance (federal janitorial, NAICS 561720) but all past performance is in Oklahoma, not USVI or NPS environments.",
+   "status": "partial",
+   "evidence": "Custodial services, Oklahoma City Federal Building; Janitorial, state office complex; Housekeeping support, outpatient clinic."
+  },
+  {
+   "requirement_id": "bfe39928-ec6a6e0c-p11-ca5b87f5",
+   "quote": "The contractor shall furnish the Contracting Officer with a copy of an acceptable insurance certificate prior to beginning the work.",
+   "source_file": "ec6a6e0cda95406bae267f31a5e2008c.pdf",
+   "page": 11,
+   "firm_answer": "Profile does not mention insurance certificates. Cannot confirm this requirement can be met.",
+   "status": "unknown",
+   "evidence": "No insurance certificate or coverage details in firm profile."
+  },
+  {
+   "requirement_id": "bfe39928-1256d376-p2-6ddb54f4",
+   "quote": "All picnic tables within the Pavilion and Playground must be wiped off at least three (3) times per week using disinfectant wipes.",
+   "source_file": "1256d3765a674f26b41acce2ce6c47d2.pdf",
+   "page": 2,
+   "firm_answer": "Outdoor/exterior cleaning tasks are within the firm's general janitorial scope, but no specific pavilion or playground cleaning experience is documented.",
+   "status": "partial",
+   "evidence": "Custodial services, Oklahoma City Federal Building (general custodial scope)."
+  },
+  {
+   "requirement_id": "bfe39928-e1294258-p1-d322a418",
+   "quote": "Should pricing include service on Federal holidays? Response: Prices shall not include Federal Holidays.",
+   "source_file": "e1294258f90d49c1abae242a783201d1.pdf",
+   "page": 1,
+   "firm_answer": "Firm can structure pricing to exclude Federal holidays. Standard pricing practice for federal janitorial contracts.",
+   "status": "meets",
+   "evidence": "Custodial services, Oklahoma City Federal Building (federal contract pricing experience)."
+  },
+  {
+   "requirement_id": "bfe39928-ec6a6e0c-p10-b548ee7b",
+   "quote": "The option provision may be exercised more than once, but the total extension of performance hereunder shall not exceed 6 months.",
+   "source_file": "ec6a6e0cda95406bae267f31a5e2008c.pdf",
+   "page": 10,
+   "firm_answer": "Profile does not specify contract base period length. Owner rule [rc-base] requires no bids under a 12-month base period. The solicitation base period must be verified; option extensions of up to 6 months are noted but base period is not confirmed as 12+ months from available documents.",
+   "status": "unknown",
+   "evidence": "Owner rule [rc-base] requires 12-month base period minimum; base period length not confirmed in provided requirements text."
+  }
+ ],
+ "matrix_dropped": 4,
+ "matrix_dropped_rows": [
+  {
+   "requirement_id": "rc-distance",
+   "quote": "No bids over 200 miles from Oklahoma City.",
+   "source_file": "owner rules",
+   "page": 0,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "bfe39928-e1294258-p2-2db40796",
+   "quote": "Response: Janitorial services shall be provided between 8AM – 11AM for the 'five days a week' locations.",
+   "source_file": "e1294258f90d49c1abae242a783201d1.pdf",
+   "page": 2,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "bfe39928-1256d376-p1-71b968ad",
+   "quote": "Uniforms must be worn by Contractor personnel clearly indicating Contractor's name.",
+   "source_file": "1256d3765a674f26b41acce2ce6c47d2.pdf",
+   "page": 1,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "bfe39928-ec6a6e0c-p9-4420e58c",
+   "quote": "(1) The Offeror shall search for the phrase \"FASCSA order\" in the System for Award Management (SAM)(https://www.sam.gov) for any covered article, or any products or services produced or provided by a source, if there is an applicable FASCSA order described in paragraph (b)(1) of FAR 52.204-30, Federal Acquisition Supply Chain Security Act Orders—Prohibition.",
+   "source_file": "ec6a6e0cda95406bae267f31a5e2008c.pdf",
+   "page": 9,
+   "reason": "not_verbatim"
+  }
+ ],
+ "fit_score_code": 0.5185,
+ "drafts": {
+  "capability_statement": "Red Cedar Facility Services\nOklahoma City, OK | NAICS 561720 – Janitorial Services | Small Business | WOSB / EDWOSB\n\nRed Cedar Facility Services is a Woman-Owned Small Business specializing in commercial and federal janitorial and custodial services under NAICS 561720. We are submitting this capability statement in response to Solicitation 140P5426Q0033 for Janitorial Services at Virgin Islands National Park.\n\nCore Capabilities\nRed Cedar delivers daily restroom sanitation, disinfectant cleaning, floor care, trash removal, and exterior surface wiping for federal and state facilities. Our standard scope covers all tasks identified in the SOW: toilet and urinal scrubbing, fixture polishing, mirror and countertop cleaning, windowsill wiping, sanitary receptacle servicing, and centralized trash consolidation.\n\nQuality & Compliance\nOur quality control program features scheduled inspections logged in a Computerized Maintenance Management System (CMMS), enabling documented, auditable performance records. On-site supervisors hold OSHA 30 certification and carry full authority to act for the firm. We maintain an alternate supervisor designation to ensure uninterrupted coverage. All staff are enrolled in E-Verify. We operate a green cleaning program with CIMS-GB certification.\n\nRelevant Past Performance\n- Custodial Services, Oklahoma City Federal Building (GSA Region 7)\n- Janitorial Services, State Office Complex (Oklahoma OMES)\n- Housekeeping Support, Outpatient Clinic (VA Oklahoma City)\n\nAll references are available upon request with current points of contact.\n\nWe welcome the opportunity to discuss our qualifications with the Contracting Officer.\n\nContact: Red Cedar Facility Services | Oklahoma City, OK",
+  "questions_for_co": [
+   "Transportation between sites (gap bfe39928-948a5034-p1-1c2ff9d5 / bfe39928-e1294258-p4-0f9c8519): The SOW requires the contractor to provide transportation between the three distinct sites and, if Government-provided storage is insufficient, to transport supplies and equipment daily. Can the Contracting Officer confirm whether a Government-furnished staging area or storage facility is available at each site, and whether there are any restrictions on the type of vehicle or vessel required for inter-site movement?",
+   "Site verification and price schedule (gap bfe39928-e1294258-p2-bac1fc6b / bfe39928-948a5034-p2-8c89e570): The SOW requires offerors to verify cleanable square footage and quantities before submitting the price schedule. Will the Government arrange or facilitate a site visit for prospective offerors, and if so, what is the scheduled date and point of contact for coordination?",
+   "Supervisor on-site presence and key personnel (gap bfe39928-e1294258-p3-d7bc3a41 / unknown bfe39928-1256d376-p5-a4393622 / unknown bfe39928-1256d376-p5-1b69ec6d): The solicitation confirms the supervisor or alternate must be physically on-site during every service period, including weekends. Must the designated supervisor and alternate both be residents of or permanently stationed in the USVI, or may they be mobilized from the continental United States provided they are present for each service window?",
+   "Liability insurance (unknown bfe39928-ec6a6e0c-p11-9cb4da05 / bfe39928-ec6a6e0c-p11-7ed5f2fa / bfe39928-ec6a6e0c-p11-ca5b87f5): The solicitation requires liability insurance of at least $50,000 per person, $100,000 per occurrence, and $100,000 property damage, with a certificate furnished to the Contracting Officer before work begins. Must the insuring company be licensed to do business in the U.S. Virgin Islands specifically, or is a policy issued by a nationally recognized carrier acceptable?",
+   "Contract base period length (unknown bfe39928-ec6a6e0c-p10-b548ee7b): The solicitation references an option provision that may be exercised for up to a total of 6 months of extensions, but the base period length is not stated in the documents provided. Can the Contracting Officer confirm the base period of performance (start date and duration)?",
+   "Electronic invoicing platform (unknown bfe39928-ec6a6e0c-p12-92710170): The solicitation states that payment requests must be submitted electronically. Can the Contracting Officer confirm which platform is required (e.g., IPP – Invoice Processing Platform) and whether new vendors must complete enrollment before contract award or before the first invoice submission?"
+  ],
+  "calendar_entries": [
+   {
+    "title": "Proposal Due",
+    "date": "2026-09-08",
+    "note": "Quotes due by 12:00 PM EST (noon Eastern). Submit via email to yujeiry_eusebio@ios.doi.gov with subject line: QUOTE – 140P5426Q0033.",
+    "source_quote": "The Government is also extending the quotation due date to September 8, 2026, at 12:00 PM EST to allow offerors sufficient time to review the updated information and prepare their proposals accordingly."
+   },
+   {
+    "title": "Decide By (2 business days before proposal due)",
+    "date": "2026-09-04",
+    "note": "Internal go/no-go decision deadline — two business days before the September 8 proposal due date (September 5–6 is a weekend; September 4 is the last business day before the deadline week).",
+    "source_quote": "The Government is also extending the quotation due date to September 8, 2026, at 12:00 PM EST to allow offerors sufficient time to review the updated information and prepare their proposals accordingly."
+   }
+  ]
+ },
+ "reader": {
+  "notice_id": "bfe399280c8344a0923840dfb6989c90",
+  "key_requirement_ids": [
+   "bfe39928-948a5034-p1-1c2ff9d5",
+   "bfe39928-948a5034-p1-8fbad0bf",
+   "bfe39928-e1294258-p4-5ae94fb1",
+   "bfe39928-1256d376-p1-35356a2b",
+   "bfe39928-1256d376-p1-0bd175b0",
+   "bfe39928-ec6a6e0c-p9-2a1545c5",
+   "bfe39928-ec6a6e0c-p10-2edd7bd8",
+   "bfe39928-ec6a6e0c-p10-52a6f87d",
+   "bfe39928-ec6a6e0c-p3-4abbd243",
+   "bfe39928-ec6a6e0c-p3-a98b36f5",
+   "bfe39928-ec6a6e0c-p4-ea01ff75",
+   "bfe39928-ec6a6e0c-p4-56fd0438",
+   "bfe39928-948a5034-p1-faa301f2",
+   "bfe39928-e1294258-p2-2db40796",
+   "bfe39928-e1294258-p3-d7bc3a41",
+   "bfe39928-1256d376-p5-306aad88",
+   "bfe39928-1256d376-p5-a4393622",
+   "bfe39928-ec6a6e0c-p11-9cb4da05",
+   "bfe39928-ec6a6e0c-p11-7ed5f2fa",
+   "bfe39928-ec6a6e0c-p11-ca5b87f5",
+   "bfe39928-948a5034-p2-8c89e570",
+   "bfe39928-e1294258-p2-bac1fc6b",
+   "bfe39928-1256d376-p2-275859a4",
+   "bfe39928-e1294258-p1-85d34d30",
+   "bfe39928-ec6a6e0c-p10-b548ee7b"
+  ],
+  "scope_summary": "The government is buying janitorial services at Virgin Islands National Park, covering the Visitor Center, Visitor Center Public Restrooms, Facility Maintenance Building, Resource Management & Science Building, and Resource Management & Science Public Restrooms. The contractor must supply all transportation, labor, equipment, supervision, materials, and supplies (except Government-furnished items), and must provide its own transportation between the three distinct sites. Services are performed primarily between 8:00 AM and 11:00 AM local time, with invoices reflecting actual service days rather than equal monthly installments.",
+  "evaluation_basis": "The following factors shall be used to evaluate offers: price (offeror must complete the price schedule on pages 4-5 and provide an additional price breakdown) and past performance (client points of contact shall be provided to serve as references); the specific weighting or ranking of factors beyond these is not stated.",
+  "incumbent_or_history": "none found",
+  "quotes": [
+   "The Contractor shall perform janitorial duties in the Virgin Islands National Park Visitor Center (VC), Visitor Center Public Restrooms, Facility Maintenance Building, Resource Management & Science (RMS) Building, and Resource Management & Science Public Restrooms.",
+   "For the performance of this contract, the Contractor shall provide all transportation, labor, equipment, supervision, materials, and supplies, except those listed in the Government Furnished Supplies section of this SOW.",
+   "The contractor shall provide access and the means for transportation between the three distinct sites under this contract.",
+   "The Government shall not provide transportation between the sites.",
+   "Time Work for all locations shall be done between the hours of 8:00AM to 11:00AM, local time unless prior approval of the COR.",
+   "Invoices shall reflect actual service days.",
+   "The following factors shall be used to evaluate offers:",
+   "Price- The offeror must complete the price schedule on pages 4-5 of this solicitation and must provide an additional price breakdown as part of their offer.",
+   "Client points of contact shall be provided to serve as references.",
+   "The supervisor and alternate shall be designated as key personnel and be able to read, write, speak, and understand English, and have full authority to act for the Contractor.",
+   "Must supervisor be present during every service period? Response: Yes.",
+   "An offeror must ensure that they are self-certified under NAICS 561720 in the Representations and Certifications portion of www.sam.gov.",
+   "Companies must have a valid Unique Entity ID (UEI) number and an active System for Award Management (www.sam.gov) registration.",
+   "Quotes shall be sent via email to Yujeiry_eusebio@ios.doi.gov with subject line: QUOTE – 140P5426Q0033.",
+   "The option provision may be exercised more than once, but the total extension of performance hereunder shall not exceed 6 months.",
+   "Contractor shall verify cleanable areas prior to submittal of price schedule.",
+   "RMS Facility 18° 20.02932' N, 64° 47.45979' W ~4,600 See record drawing Contractor shall verify quantities and sizes before submittal of proposal.",
+   "The Contractor shall correct any performance deficiency within one day of notification by the COR.",
+   "(a) The Contractor shall procure and maintain during the term of this contract and any extension thereof liability insurance in form satisfactory to the Contracting Officer by an insurance company which is acceptable to the Contracting Officer.",
+   "The amounts of the insurance shall be not less than as follows: $ 50,000 each person $ 100,000 each occurrence $ 100,000 property damage"
+  ]
+ },
+ "fit": {
+  "notice_id": "bfe399280c8344a0923840dfb6989c90",
+  "fit_score": 0.1,
+  "matched_past_performance": [
+   "Custodial services, Oklahoma City Federal Building",
+   "Janitorial, state office complex",
+   "Housekeeping support, outpatient clinic"
+  ],
+  "strengths": [
+   "NAICS 561720 matches solicitation NAICS exactly",
+   "WOSB/small business set-aside eligibility confirmed",
+   "Demonstrated federal janitorial past performance (GSA Region 7, VA)",
+   "CIMS-GB certification and green cleaning program",
+   "QC inspections logged in CMMS supports quality control requirement",
+   "OSHA 30 supervisors support on-site supervisor requirement",
+   "e-Verify enrollment supports staffing compliance",
+   "Restroom, floor care, and custodial scope directly matches SOW tasks"
+  ],
+  "gaps": [
+   "FATAL: Place of performance (Virgin Islands National Park, St. John, USVI) is ~2,100 miles from Oklahoma City — violates rc-distance 200-mile rule",
+   "No presence, workforce, or logistics capability in USVI stated in profile",
+   "No experience performing janitorial services in island/remote/tropical environments",
+   "No mention of inter-island or maritime transportation capability required between three distinct sites",
+   "No past performance in National Park Service or NPS-type visitor center environments",
+   "No evidence of liability insurance certificate on file at required minimums ($50K/$100K/$100K)"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "bfe39928-1256d376-p1-35356a2b",
+    "quote": "The Contractor shall perform janitorial duties in the Virgin Islands National Park Visitor Center (VC), Visitor Center Public Restrooms, Facility Maintenance Building, Resource Management & Science (RMS) Building, and Resource Management & Science Public Restrooms.",
+    "source_file": "1256d3765a674f26b41acce2ce6c47d2.pdf",
+    "page": 1,
+    "firm_answer": "Firm provides janitorial and custodial services for federal buildings and has relevant past performance (GSA federal building, VA clinic). However, no USVI presence or NPS visitor center experience is documented.",
+    "status": "partial",
+    "evidence": "Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic"
+   },
+   {
+    "requirement_id": "bfe39928-948a5034-p1-1c2ff9d5",
+    "quote": "The contractor shall provide access and the means for transportation between the three distinct sites under this contract.",
+    "source_file": "948a5034f3094494a854d87fa0a82c5b.pdf",
+    "page": 1,
+    "firm_answer": "Profile does not mention any transportation capability in USVI or between island sites. Firm operates in Oklahoma and neighboring states only.",
+    "status": "gap",
+    "evidence": "No profile capability addresses inter-site transportation in USVI."
+   },
+   {
+    "requirement_id": "bfe39928-ec6a6e0c-p3-a98b36f5",
+    "quote": "An offeror must ensure that they are self-certified under NAICS 561720 in the Representations and Certifications portion of www.sam.gov.",
+    "source_file": "ec6a6e0cda95406bae267f31a5e2008c.pdf",
+    "page": 3,
+    "firm_answer": "Firm's primary NAICS is 561720 (Janitorial Services). Profile states NAICS 561720 and 561730. SAM self-certification under 561720 is consistent with profile but not explicitly confirmed as active in SAM.",
+    "status": "meets",
+    "evidence": "Firm NAICS listed as 561720; solicitation NAICS is 561720."
+   },
+   {
+    "requirement_id": "bfe39928-ec6a6e0c-p3-4abbd243",
+    "quote": "Companies must have a valid Unique Entity ID (UEI) number and an active System for Award Management (www.sam.gov) registration.",
+    "source_file": "ec6a6e0cda95406bae267f31a5e2008c.pdf",
+    "page": 3,
+    "firm_answer": "Profile does not explicitly confirm active SAM registration or UEI. Profile states SBA set-aside eligibility which implies SAM registration, but it is not confirmed verbatim.",
+    "status": "unknown",
+    "evidence": "Profile lists set-asides (WOSB, EDWOSB, SBA) implying SAM presence, but no explicit UEI or active SAM registration stated."
+   },
+   {
+    "requirement_id": "bfe39928-1256d376-p1-0bd175b0",
+    "quote": "For the performance of this contract, the Contractor shall provide all transportation, labor, equipment, supervision, materials, and supplies, except those listed in the Government Furnished Supplies section of this SOW.",
+    "source_file": "1256d3765a674f26b41acce2ce6c47d2.pdf",
+    "page": 1,
+    "firm_answer": "Firm profile states it provides all labor, equipment, and supplies for janitorial services. However, no capability to mobilize these resources to USVI is documented.",
+    "status": "partial",
+    "evidence": "Capabilities: janitorial, custodial, floor care, window cleaning for federal and state facilities."
+   },
+   {
+    "requirement_id": "bfe39928-1256d376-p5-306aad88",
+    "quote": "The Contractor shall designate an on-site supervisor who shall be responsible for the conduct and competent performance of work.",
+    "source_file": "1256d3765a674f26b41acce2ce6c47d2.pdf",
+    "page": 5,
+    "firm_answer": "Firm has OSHA 30 supervisors and a QC program. Designating an on-site supervisor is consistent with firm capabilities, but no USVI-based supervisory staff is mentioned.",
+    "status": "partial",
+    "evidence": "Capabilities: OSHA 30 supervisors, QC inspections logged in a CMMS."
+   },
+   {
+    "requirement_id": "bfe39928-e1294258-p3-d7bc3a41",
+    "quote": "Must supervisor be present during every service period? Response: Yes.",
+    "source_file": "e1294258f90d49c1abae242a783201d1.pdf",
+    "page": 3,
+    "firm_answer": "Firm has OSHA 30 supervisors but no USVI-based workforce is documented. Deploying a supervisor to USVI for every service period from Oklahoma City is not addressed in the profile.",
+    "status": "gap",
+    "evidence": "No USVI workforce or supervisory presence documented in profile."
+   },
+   {
+    "requirement_id": "bfe39928-1256d376-p5-a4393622",
+    "quote": "The supervisor and alternate shall be designated as key personnel and be able to read, write, speak, and understand English, and have full authority to act for the Contractor.",
+    "source_file": "1256d3765a674f26b41acce2ce6c47d2.pdf",
+    "page": 5,
+    "firm_answer": "Profile does not identify specific key personnel or alternates. English language requirement is not explicitly addressed but is reasonably assumed for an Oklahoma-based firm.",
+    "status": "unknown",
+    "evidence": "Profile mentions OSHA 30 supervisors but does not name key personnel or alternates."
+   },
+   {
+    "requirement_id": "bfe39928-1256d376-p5-1b69ec6d",
+    "quote": "An equally qualified alternate supervisor shall be provided to act on behalf of the supervisor during his/her absence.",
+    "source_file": "1256d3765a674f26b41acce2ce6c47d2.pdf",
+    "page": 5,
+    "firm_answer": "Profile does not mention an alternate supervisor designation. Firm has 38 W-2 employees which could support this, but no explicit alternate supervisor role is documented.",
+    "status": "unknown",
+    "evidence": "38 W-2 employees noted in profile; no alternate supervisor role explicitly stated."
+   },
+   {
+    "requirement_id": "bfe39928-ec6a6e0c-p11-9cb4da05",
+    "quote": "The Contractor shall procure and maintain during the term of this contract and any extension thereof liability insurance in form satisfactory to the Contracting Officer by an insurance company which is acceptable to the Contracting Officer.",
+    "source_file": "ec6a6e0cda95406bae267f31a5e2008c.pdf",
+    "page": 11,
+    "firm_answer": "Profile does not mention liability insurance coverage. Cannot confirm compliance.",
+    "status": "unknown",
+    "evidence": "No insurance information stated in firm profile."
+   },
+   {
+    "requirement_id": "bfe39928-ec6a6e0c-p11-7ed5f2fa",
+    "quote": "The amounts of the insurance shall be not less than as follows: $ 50,000 each person $ 100,000 each occurrence $ 100,000 property damage",
+    "source_file": "ec6a6e0cda95406bae267f31a5e2008c.pdf",
+    "page": 11,
+    "firm_answer": "Profile does not state insurance coverage amounts. Cannot confirm minimum thresholds are met.",
+    "status": "unknown",
+    "evidence": "No insurance details in firm profile."
+   },
+   {
+    "requirement_id": "bfe39928-948a5034-p2-dedea27e",
+    "quote": "Quality Control/Quality Assurance Contractor shall perform regular inspections of their work.",
+    "source_file": "948a5034f3094494a854d87fa0a82c5b.pdf",
+    "page": 2,
+    "firm_answer": "Firm has a documented QC program with inspections logged in a CMMS, directly meeting this requirement.",
+    "status": "meets",
+    "evidence": "Capabilities: QC inspections logged in a CMMS."
+   },
+   {
+    "requirement_id": "bfe39928-1256d376-p2-275859a4",
+    "quote": "The Contractor shall correct any performance deficiency within one day of notification by the COR.",
+    "source_file": "1256d3765a674f26b41acce2ce6c47d2.pdf",
+    "page": 2,
+    "firm_answer": "Profile does not address response time to COR notifications. Given the firm is based in Oklahoma with no USVI presence, same-day correction in USVI is operationally infeasible.",
+    "status": "gap",
+    "evidence": "No USVI operational presence; rc-distance rule violated."
+   },
+   {
+    "requirement_id": "bfe39928-1256d376-p1-310db591",
+    "quote": "Restrooms shall be cleaned daily with a disinfectant cleaner.",
+    "source_file": "1256d3765a674f26b41acce2ce6c47d2.pdf",
+    "page": 1,
+    "firm_answer": "Firm provides daily restroom cleaning with disinfectant as part of its standard janitorial scope, evidenced by federal building and clinic past performance.",
+    "status": "meets",
+    "evidence": "Custodial services, Oklahoma City Federal Building (restrooms); Housekeeping support, outpatient clinic (infection control, terminal cleaning)."
+   },
+   {
+    "requirement_id": "bfe39928-1256d376-p1-2747c024",
+    "quote": "Fixtures, metal chrome surfaces, washbasins, shower stalls, mirrors, counter tops, and dispensers shall maintain a high level of luster, if applicable, and be free of dust, mold, mildew, streaks, rust, and encrustation.",
+    "source_file": "1256d3765a674f26b41acce2ce6c47d2.pdf",
+    "page": 1,
+    "firm_answer": "Standard janitorial fixture cleaning is within firm's documented capabilities for federal and clinic facilities.",
+    "status": "meets",
+    "evidence": "Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic."
+   },
+   {
+    "requirement_id": "bfe39928-1256d376-p1-60a51466",
+    "quote": "Urinals and toilet bowls shall be cleaned as far into the trap as possible and under the inside rim with disinfectant cleaners.",
+    "source_file": "1256d3765a674f26b41acce2ce6c47d2.pdf",
+    "page": 1,
+    "firm_answer": "Toilet and urinal cleaning is part of firm's standard restroom custodial scope documented in past performance.",
+    "status": "meets",
+    "evidence": "Custodial services, Oklahoma City Federal Building (restrooms, trash); Housekeeping support, outpatient clinic (infection control)."
+   },
+   {
+    "requirement_id": "bfe39928-948a5034-p1-faa301f2",
+    "quote": "Time Work for all locations shall be done between the hours of 8:00AM to 11:00AM, local time unless prior approval of the COR.",
+    "source_file": "948a5034f3094494a854d87fa0a82c5b.pdf",
+    "page": 1,
+    "firm_answer": "Profile does not address scheduling constraints. Firm operates in Oklahoma; USVI local time (AST) is 1 hour ahead of EST. No USVI workforce to deploy during these hours.",
+    "status": "gap",
+    "evidence": "No USVI operational presence documented in profile."
+   },
+   {
+    "requirement_id": "bfe39928-e1294258-p2-e7fedfb4",
+    "quote": "Response: The Visitor Center Public Restrooms shall be cleaned on the weekends.",
+    "source_file": "e1294258f90d49c1abae242a783201d1.pdf",
+    "page": 2,
+    "firm_answer": "Weekend cleaning is operationally feasible for a local contractor; firm has no documented USVI presence to fulfill weekend service.",
+    "status": "gap",
+    "evidence": "No USVI workforce documented in profile."
+   },
+   {
+    "requirement_id": "bfe39928-948a5034-p2-8c89e570",
+    "quote": "RMS Facility 18° 20.02932' N, 64° 47.45979' W ~4,600 See record drawing Contractor shall verify quantities and sizes before submittal of proposal.",
+    "source_file": "948a5034f3094494a854d87fa0a82c5b.pdf",
+    "page": 2,
+    "firm_answer": "Coordinates confirm location is St. John, USVI (~2,100 miles from Oklahoma City). Firm cannot perform a site visit to verify quantities without significant mobilization cost. No USVI presence documented.",
+    "status": "gap",
+    "evidence": "rc-distance rule violated; no USVI presence in profile."
+   },
+   {
+    "requirement_id": "bfe39928-e1294258-p2-bac1fc6b",
+    "quote": "Contractor shall verify cleanable areas prior to submittal of price schedule.",
+    "source_file": "e1294258f90d49c1abae242a783201d1.pdf",
+    "page": 2,
+    "firm_answer": "Site verification in USVI requires travel from Oklahoma City (~2,100 miles). No USVI presence documented; site visit is not feasible under rc-distance constraint.",
+    "status": "gap",
+    "evidence": "rc-distance rule violated; no USVI presence in profile."
+   },
+   {
+    "requirement_id": "bfe39928-ec6a6e0c-p10-52a6f87d",
+    "quote": "Client points of contact shall be provided to serve as references.",
+    "source_file": "ec6a6e0cda95406bae267f31a5e2008c.pdf",
+    "page": 10,
+    "firm_answer": "Firm has documented past performance with GSA Region 7, Tinker AFB, Oklahoma OMES, and VA Oklahoma City — all can serve as references.",
+    "status": "meets",
+    "evidence": "Custodial services, Oklahoma City Federal Building (GSA Region 7); Housekeeping support, outpatient clinic (VA Oklahoma City); Janitorial, state office complex (Oklahoma OMES)."
+   },
+   {
+    "requirement_id": "bfe39928-ec6a6e0c-p10-2edd7bd8",
+    "quote": "Price- The offeror must complete the price schedule on pages 4-5 of this solicitation and must provide an additional price breakdown as part of their offer.",
+    "source_file": "ec6a6e0cda95406bae267f31a5e2008c.pdf",
+    "page": 10,
+    "firm_answer": "Firm can complete a price schedule, but accurate pricing requires a site visit to USVI (per SOW requirement to verify cleanable areas), which is not feasible given the distance constraint.",
+    "status": "gap",
+    "evidence": "rc-distance rule violated; site verification in USVI not feasible."
+   },
+   {
+    "requirement_id": "bfe39928-ec6a6e0c-p1-b1aa727b",
+    "quote": "Quotes for this requirement must be submitted via email to yujeiry_eusebio@ios.doi.gov.",
+    "source_file": "ec6a6e0cda95406bae267f31a5e2008c.pdf",
+    "page": 1,
+    "firm_answer": "Email submission is administratively feasible for the firm regardless of location.",
+    "status": "meets",
+    "evidence": "Administrative capability; no geographic constraint on email submission."
+   },
+   {
+    "requirement_id": "bfe39928-ec6a6e0c-p4-56fd0438",
+    "quote": "All quoters shall complete blocks 13, 14, 15, and 16 of the solicitation form (SF-18), the price schedule below, and acknowledge (sign) any amendments issued to this solicitation.",
+    "source_file": "ec6a6e0cda95406bae267f31a5e2008c.pdf",
+    "page": 4,
+    "firm_answer": "Firm can complete SF-18 and acknowledge amendments administratively.",
+    "status": "meets",
+    "evidence": "Standard administrative submission requirement; no geographic barrier."
+   },
+   {
+    "requirement_id": "bfe39928-ec6a6e0c-p1-3e02b160",
+    "quote": "Prospective contractors must provide the company name and complete address, including street, city, state, zip code, phone number, email address, SAM UEI number, and the Continued... 1 13",
+    "source_file": "ec6a6e0cda95406bae267f31a5e2008c.pdf",
+    "page": 1,
+    "firm_answer": "Firm has a complete address (Oklahoma City, OK) and can provide all required contact information. SAM UEI not explicitly confirmed in profile.",
+    "status": "partial",
+    "evidence": "Profile states: Red Cedar Facility Services (Oklahoma City, OK); SAM UEI not explicitly listed."
+   },
+   {
+    "requirement_id": "bfe39928-1256d376-p6-7ab9ee95",
+    "quote": "Key Control The Contractor shall maintain a key control log documenting all issued keys, their assigned personnel, and the dates of issuance and return.",
+    "source_file": "1256d3765a674f26b41acce2ce6c47d2.pdf",
+    "page": 6,
+    "firm_answer": "Profile does not explicitly mention a key control log. CMMS-based QC logging could support this, but key control is not specifically addressed.",
+    "status": "unknown",
+    "evidence": "QC inspections logged in a CMMS noted in profile; key control log not explicitly mentioned."
+   },
+   {
+    "requirement_id": "bfe39928-ec6a6e0c-p12-92710170",
+    "quote": "Payment requests must be submitted electronically through the U.",
+    "source_file": "ec6a6e0cda95406bae267f31a5e2008c.pdf",
+    "page": 12,
+    "firm_answer": "Profile does not mention IPP (Invoice Processing Platform) enrollment. Standard federal requirement; not confirmed in profile.",
+    "status": "unknown",
+    "evidence": "No IPP enrollment or electronic invoicing capability stated in firm profile."
+   },
+   {
+    "requirement_id": "bfe39928-1256d376-p4-8cbfebe7",
+    "quote": "Government will furnish supplies The Government shall provide:",
+    "source_file": "1256d3765a674f26b41acce2ce6c47d2.pdf",
+    "page": 4,
+    "firm_answer": "Firm profile notes awareness of government-furnished supplies and states it will notify COR if supplies are ineffective. Consistent with SOW approach.",
+    "status": "meets",
+    "evidence": "Capabilities: janitorial, custodial services; profile references government-furnished supplies awareness per SOW context."
+   },
+   {
+    "requirement_id": "bfe39928-e1294258-p4-0f9c8519",
+    "quote": "Must contractors transport supplies daily if storage limited? Response: If Government provided storage is not enough, then yes contractor shall transport its own supplies and equipment.",
+    "source_file": "e1294258f90d49c1abae242a783201d1.pdf",
+    "page": 4,
+    "firm_answer": "Firm has no documented logistics or supply transport capability in USVI. Daily transport of supplies between sites in USVI is not addressed in the profile.",
+    "status": "gap",
+    "evidence": "No USVI logistics or supply transport capability documented in profile."
+   },
+   {
+    "requirement_id": "bfe39928-948a5034-p1-d8a42d46",
+    "quote": "Other Cleaning Actions Along with the factors specified in the SOW, cleaning shall also include scrubbing of toilet bowls, windowsills (indoor), emptying of interior trash cans and sanitary napkin receptacles to centralized trash locations.",
+    "source_file": "948a5034f3094494a854d87fa0a82c5b.pdf",
+    "page": 1,
+    "firm_answer": "These tasks are within the firm's standard janitorial scope as evidenced by federal building and clinic past performance.",
+    "status": "meets",
+    "evidence": "Custodial services, Oklahoma City Federal Building (restrooms, trash, recycling); Housekeeping support, outpatient clinic."
+   },
+   {
+    "requirement_id": "bfe39928-1256d376-p6-350af9c5",
+    "quote": "Performance Standard: The supervisor or alternate shall be on-site and accessible during the working hours.",
+    "source_file": "1256d3765a674f26b41acce2ce6c47d2.pdf",
+    "page": 6,
+    "firm_answer": "Firm has OSHA 30 supervisors but no USVI-based supervisory staff. On-site presence in USVI during working hours cannot be met from Oklahoma City.",
+    "status": "gap",
+    "evidence": "No USVI workforce or supervisory presence documented in profile; rc-distance rule violated."
+   },
+   {
+    "requirement_id": "bfe39928-ec6a6e0c-p9-2a1545c5",
+    "quote": "The following factors shall be used to evaluate offers:",
+    "source_file": "ec6a6e0cda95406bae267f31a5e2008c.pdf",
+    "page": 9,
+    "firm_answer": "Evaluation factors include price and past performance. Firm has relevant past performance (federal janitorial, NAICS 561720) but all past performance is in Oklahoma, not USVI or NPS environments.",
+    "status": "partial",
+    "evidence": "Custodial services, Oklahoma City Federal Building; Janitorial, state office complex; Housekeeping support, outpatient clinic."
+   },
+   {
+    "requirement_id": "bfe39928-ec6a6e0c-p11-ca5b87f5",
+    "quote": "The contractor shall furnish the Contracting Officer with a copy of an acceptable insurance certificate prior to beginning the work.",
+    "source_file": "ec6a6e0cda95406bae267f31a5e2008c.pdf",
+    "page": 11,
+    "firm_answer": "Profile does not mention insurance certificates. Cannot confirm this requirement can be met.",
+    "status": "unknown",
+    "evidence": "No insurance certificate or coverage details in firm profile."
+   },
+   {
+    "requirement_id": "bfe39928-1256d376-p2-6ddb54f4",
+    "quote": "All picnic tables within the Pavilion and Playground must be wiped off at least three (3) times per week using disinfectant wipes.",
+    "source_file": "1256d3765a674f26b41acce2ce6c47d2.pdf",
+    "page": 2,
+    "firm_answer": "Outdoor/exterior cleaning tasks are within the firm's general janitorial scope, but no specific pavilion or playground cleaning experience is documented.",
+    "status": "partial",
+    "evidence": "Custodial services, Oklahoma City Federal Building (general custodial scope)."
+   },
+   {
+    "requirement_id": "bfe39928-e1294258-p1-d322a418",
+    "quote": "Should pricing include service on Federal holidays? Response: Prices shall not include Federal Holidays.",
+    "source_file": "e1294258f90d49c1abae242a783201d1.pdf",
+    "page": 1,
+    "firm_answer": "Firm can structure pricing to exclude Federal holidays. Standard pricing practice for federal janitorial contracts.",
+    "status": "meets",
+    "evidence": "Custodial services, Oklahoma City Federal Building (federal contract pricing experience)."
+   },
+   {
+    "requirement_id": "bfe39928-ec6a6e0c-p10-b548ee7b",
+    "quote": "The option provision may be exercised more than once, but the total extension of performance hereunder shall not exceed 6 months.",
+    "source_file": "ec6a6e0cda95406bae267f31a5e2008c.pdf",
+    "page": 10,
+    "firm_answer": "Profile does not specify contract base period length. Owner rule [rc-base] requires no bids under a 12-month base period. The solicitation base period must be verified; option extensions of up to 6 months are noted but base period is not confirmed as 12+ months from available documents.",
+    "status": "unknown",
+    "evidence": "Owner rule [rc-base] requires 12-month base period minimum; base period length not confirmed in provided requirements text."
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "bfe399280c8344a0923840dfb6989c90",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-09-08T12:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": null,
+   "source_quotes": [
+    "The Government is also extending the quotation due date to September 8, 2026, at 12:00 PM EST to allow offerors sufficient time to review the updated information and prepare their proposals accordingly."
+   ]
+  },
+  "days_to_close": -5.77479975255787,
+  "set_aside_note": "Set-aside is \"Small Business Set Aside - Total.\" Red Cedar Facility Services can claim this — the firm is an SBA-eligible small business (SBA is listed among the firm's claimable set-asides), and Total Small Business set-asides are open to all small businesses.",
+  "amendment_note": "no amendment",
+  "calendar_entries": [
+   {
+    "title": "Proposal Due",
+    "date": "2026-09-08",
+    "note": "Quotes due by 12:00 PM EST (noon Eastern). Submit via email to yujeiry_eusebio@ios.doi.gov with subject line: QUOTE – 140P5426Q0033.",
+    "source_quote": "The Government is also extending the quotation due date to September 8, 2026, at 12:00 PM EST to allow offerors sufficient time to review the updated information and prepare their proposals accordingly."
+   },
+   {
+    "title": "Decide By (2 business days before proposal due)",
+    "date": "2026-09-04",
+    "note": "Internal go/no-go decision deadline — two business days before the September 8 proposal due date (September 5–6 is a weekend; September 4 is the last business day before the deadline week).",
+    "source_quote": "The Government is also extending the quotation due date to September 8, 2026, at 12:00 PM EST to allow offerors sufficient time to review the updated information and prepare their proposals accordingly."
+   }
+  ]
+ },
+ "model_calls": 5,
+ "tokens_in": 66560,
+ "tokens_out": 14734,
+ "seconds": 135.19,
+ "produced_at": "2026-09-14T05:37:57.888304-05:00"
+}

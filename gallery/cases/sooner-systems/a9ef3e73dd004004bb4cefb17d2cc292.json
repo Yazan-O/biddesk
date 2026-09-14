@@ -1,0 +1,745 @@
+{
+ "notice_id": "a9ef3e73dd004004bb4cefb17d2cc292",
+ "firm_slug": "sooner-systems",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:53:34-05:00",
+ "evidence_basis": null,
+ "days_to_close": -9.716634353275463,
+ "closed": true,
+ "response_kind": "proposal",
+ "card": {
+  "notice_id": "a9ef3e73dd004004bb4cefb17d2cc292",
+  "firm_slug": "sooner-systems",
+  "situation": "SWRMC requires two onsite ServiceNow Developer FTEs at Naval Base San Diego, CA, plus offsite advisory support, to migrate legacy systems and expand ServiceNow capabilities within the Cloud CITI environment — personnel must hold active CSA/CAD certifications, Top Secret/T5 eligibility, IAT-II, and DCWF 632 compliance on Day 1.\nThis notice reached the owner because Sooner Systems is SBA-eligible under the Total Small Business set-aside and NAICS 541512 matches exactly, but the solicitation deadline of 04 September 2026 has already passed (−9.7 days to close).",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "Firm is eligible for the Total Small Business set-aside and NAICS 541512 matches the solicitation exactly, clearing the threshold eligibility hurdle [profile: SBA-registered small business, NAICS 541512].",
+   "Security+ is held across the bench, satisfying the IAT-II baseline certification requirement on Day 1 without additional investment [req a9ef3e73-d2316e45-p4-0522c2b5].",
+   "Government confirmed that OEM/platform qualifications may be satisfied through a qualified ServiceNow subcontractor, leaving a teaming path open in principle [req a9ef3e73-45895b4c-p1-1e108f90]."
+  ],
+  "reasons_against": [
+   "The solicitation closed on 04 September 2026 and the computed days-to-close is −9.7, meaning any quote submitted now will not be considered for award [req a9ef3e73-descript-p0-b85c5d69].",
+   "No ServiceNow CSA or CAD certifications exist anywhere in the firm profile, and personnel must possess both active and non-expired on Day 1 of performance — a disqualifying gap that cannot be cured before the deadline [req a9ef3e73-d2316e45-p5-a29e304e].",
+   "All 22 cleared staff hold only Secret clearances; the solicitation requires an interim Top Secret based on a favorably adjudicated T5 investigation at the start of performance, and no T5-eligible personnel are documented [req a9ef3e73-45895b4c-p1-54c38c7f]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-09-02",
+  "key_dates": {
+   "questions_due": "2026-08-31T11:00:00-07:00",
+   "proposal_due": "2026-09-04T11:00:00-07:00",
+   "site_visit": null,
+   "period_of_performance": null,
+   "source_quotes": [
+    "All questions must be received no later than 31 August 2026, 11:00 AM (Pacific) to allow adequate time to prepare and issue responses to all offerors prior to the date and time set for receipt of quotes.",
+    "QUOTES must be received by the destination inbox no later than *04 September 2026, 11:00 AM (Pacific)* or they will not be considered for award.",
+    "AMEND 0001 - The due date for this Solicitation has been extended to Friday 09/04/2026 11:00 AM PST.",
+    "DESCRIPTION: Southwest Regional Maintenance Center (SWRMC) requires procurement of professional technical services in support of SWRMC at Naval Base San Diego as follows: Quote shall provide the Period of Performance."
+   ]
+  },
+  "fit_score": 0.1607,
+  "matrix_summary": "2 of 30 requirements met, 5 partial, 21 gap, 2 unknown",
+  "evidence_link": "https://sam.gov/opp/a9ef3e73dd004004bb4cefb17d2cc292/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "a9ef3e73-45895b4c-p1-11ca47a9",
+   "quote": "résumés must clearly articulate the candidate's minimum five (5) years of relevant IT experience, list all required active certifications (e.g., ServiceNow CSA and CAD), and state their active Top Secret clearance or eligibility (Tier 5 (T5) investigation)",
+   "source_file": "45895b4c438c4dad990d286a1ae489cc.xlsx",
+   "page": 1,
+   "firm_answer": "Profile lists no ServiceNow CSA or CAD certifications for any staff. Clearances on hand are Secret only; no T5/Top Secret eligibility is documented.",
+   "status": "gap",
+   "evidence": "Firm profile states '22 cleared staff (Secret)' and lists Security+ but no ServiceNow certifications."
+  },
+  {
+   "requirement_id": "a9ef3e73-45895b4c-p1-54c38c7f",
+   "quote": "At the start of performance, personnel must possess, at a minimum, an interim Top Secret clearance based on a favorably adjudicated T5 investigation.",
+   "source_file": "45895b4c438c4dad990d286a1ae489cc.xlsx",
+   "page": 1,
+   "firm_answer": "Firm holds only Secret-level clearances. No T5 investigation or Top Secret eligibility is mentioned in the profile.",
+   "status": "gap",
+   "evidence": "Firm profile: '22 cleared staff (Secret)' — no Top Secret or T5 mentioned."
+  },
+  {
+   "requirement_id": "a9ef3e73-45895b4c-p1-84dc6965",
+   "quote": "The contractor must possess a Tier 5 (T5) investigation (Top Secret eligibility).",
+   "source_file": "45895b4c438c4dad990d286a1ae489cc.xlsx",
+   "page": 1,
+   "firm_answer": "No T5 investigation or Top Secret eligibility documented in the firm profile.",
+   "status": "gap",
+   "evidence": "Firm profile: '22 cleared staff (Secret)' only."
+  },
+  {
+   "requirement_id": "a9ef3e73-45895b4c-p1-b34b0575",
+   "quote": "The contractor must possess a Tier 5 (T5) investigation (Top Secret eligibility).",
+   "source_file": "45895b4c438c4dad990d286a1ae489cc.xlsx",
+   "page": 1,
+   "firm_answer": "Profile is silent on T5 or Top Secret eligibility; only Secret clearances are listed.",
+   "status": "gap",
+   "evidence": "Firm profile: '22 cleared staff (Secret)' — no T5 mentioned."
+  },
+  {
+   "requirement_id": "a9ef3e73-d2316e45-p5-a29e304e",
+   "quote": "The Contractor must guarantee that all deployed personnel possess active, non-expired certifications (CSA and CAD) on Day 1 of performance.",
+   "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+   "page": 5,
+   "firm_answer": "No ServiceNow CSA (Certified System Administrator) or CAD (Certified Application Developer) certifications are listed anywhere in the firm profile.",
+   "status": "gap",
+   "evidence": "Profile lists ITIL 4 and Security+ but no ServiceNow platform certifications."
+  },
+  {
+   "requirement_id": "a9ef3e73-d2316e45-p4-0522c2b5",
+   "quote": "Both engineers must possess a valid, active Information Assurance Technical Level II (IAT-II) baseline certification (e.g., CompTIA Security+ CE, GSEC, SSCP, or CCNA Security) at the start of performance.",
+   "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+   "page": 4,
+   "firm_answer": "Firm profile states Security+ is held 'across the bench,' which satisfies the IAT-II baseline certification requirement.",
+   "status": "meets",
+   "evidence": "Firm profile: 'ITIL 4 and Security+ across the bench' — Security+ CE is an explicitly listed IAT-II example."
+  },
+  {
+   "requirement_id": "a9ef3e73-d2316e45-p4-e32edba1",
+   "quote": "Both engineers must hold valid, platform-specific Operating System/Computing Environment (OS/CE) certifications.",
+   "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+   "page": 4,
+   "firm_answer": "No platform-specific OS/CE certifications are listed in the firm profile.",
+   "status": "gap",
+   "evidence": "Profile lists Security+ and ITIL 4 only; no OS/CE certifications documented."
+  },
+  {
+   "requirement_id": "a9ef3e73-45895b4c-p1-96e875e3",
+   "quote": "Offerors must meet the SECNAV M-5239.2 requirements for the Department of Defense Cyber Workforce Framework (DCWF) role of System Developer (632), proficiency level Intermediate.",
+   "source_file": "45895b4c438c4dad990d286a1ae489cc.xlsx",
+   "page": 1,
+   "firm_answer": "Profile does not document DCWF role 632 (System Developer) compliance or any mapping of staff to this work role.",
+   "status": "gap",
+   "evidence": "Profile mentions RMF/ATO and Security+ but no DCWF role 632 mapping."
+  },
+  {
+   "requirement_id": "a9ef3e73-d2316e45-p4-516f61d4",
+   "quote": "Both engineering resources must fully comply with SECNAV M-5239.2 (Cybersecurity Workforce Program), DoD 8570.01-M, and DoDI 8140.01 guidelines at the time of onboarding and maintain active compliance throughout the contract.",
+   "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+   "page": 4,
+   "firm_answer": "Firm has Security+ (IAT-II) and RMF/ATO experience, which partially supports DoD 8570/8140 compliance, but no DCWF 632 System Developer role qualification or CE certification is documented.",
+   "status": "partial",
+   "evidence": "Firm profile: 'Security+ across the bench' and 'RMF/ATO documentation' — partial alignment only."
+  },
+  {
+   "requirement_id": "a9ef3e73-d2316e45-p5-8b8ef44d",
+   "quote": "The Contractor must maintain an active, established support channel with the Platform OEM (ServiceNow) to facilitate rapid tier-3 troubleshooting, licensing verification, and technical escalation support throughout implementation.",
+   "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+   "page": 5,
+   "firm_answer": "No ServiceNow OEM partnership or support channel is mentioned anywhere in the firm profile.",
+   "status": "gap",
+   "evidence": "Profile is entirely silent on ServiceNow OEM relationship."
+  },
+  {
+   "requirement_id": "a9ef3e73-45895b4c-p1-6c2a41b1",
+   "quote": "Please confirm whether, to satisfy this requirement, the prime Contractor is required to be an active ServiceNow Consulting and Implementation Partner at the time of quotation and throughout contract performance.",
+   "source_file": "45895b4c438c4dad990d286a1ae489cc.xlsx",
+   "page": 1,
+   "firm_answer": "Firm profile does not list ServiceNow partner status of any kind.",
+   "status": "gap",
+   "evidence": "Profile is silent on ServiceNow partnership."
+  },
+  {
+   "requirement_id": "a9ef3e73-d2316e45-p1-2f4b3fa7",
+   "quote": "The Contractor shall provide two (2) onsite Full-Time Equivalent (FTE) engineering resources, stationed physically on-base at Naval Base San Diego, CA.",
+   "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+   "page": 1,
+   "firm_answer": "Firm is headquartered in Norman, OK with a 24x7 NOC there. No San Diego presence or ability to staff onsite at Naval Base San Diego is documented.",
+   "status": "gap",
+   "evidence": "Firm profile: 'Sooner Systems LLC (Norman, OK)' — no San Diego office or onsite staffing capability listed."
+  },
+  {
+   "requirement_id": "a9ef3e73-45895b4c-p1-88ceff08",
+   "quote": "The two (2) ServiceNow Developer Full-Time Equivalent (FTE) positions are required to perform work exclusively onsite.",
+   "source_file": "45895b4c438c4dad990d286a1ae489cc.xlsx",
+   "page": 1,
+   "firm_answer": "No onsite San Diego staffing capability is documented in the profile.",
+   "status": "gap",
+   "evidence": "Firm profile lists Norman, OK headquarters and NOC only."
+  },
+  {
+   "requirement_id": "a9ef3e73-d2316e45-p5-54fc43e2",
+   "quote": "The Contractor must demonstrate successful past performance in deploying, configuring, and maintaining enterprise application frameworks within a U.S.",
+   "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+   "page": 5,
+   "firm_answer": "Past performance covers help desk, desktop support, network administration, and M365 migration — no ServiceNow or enterprise application framework deployment is documented.",
+   "status": "gap",
+   "evidence": "Past performance titles: 'IT help desk and desktop support,' 'Network administration and cybersecurity support,' 'Systems administration and Microsoft 365 migration' — none involve ServiceNow."
+  },
+  {
+   "requirement_id": "a9ef3e73-d2316e45-p5-b944370b",
+   "quote": "The Contractor must demonstrate corporate experience utilizing formal Plan of Action and Milestones (POAM) scheduling and tracking methodologies on previous federal defense contracts.",
+   "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+   "page": 5,
+   "firm_answer": "Profile mentions RMF/ATO documentation (which typically involves POAMs) and federal defense contracts, but no explicit POAM scheduling/tracking methodology is documented.",
+   "status": "partial",
+   "evidence": "Network administration and cybersecurity support (FAA) includes RMF/ATO keywords; Army Corps of Engineers contract is federal. POAM methodology not explicitly stated."
+  },
+  {
+   "requirement_id": "a9ef3e73-d2316e45-p2-b1a055ff",
+   "quote": "Identity & Access Management (IAM): Integration with Navy / Cloud City onboarding requirements, including Common Access Card (CAC) and Multi-Factor Authentication (MFA).",
+   "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+   "page": 2,
+   "firm_answer": "Profile mentions CAC as a physical access credential context but does not document CAC/MFA integration development capability within ServiceNow or Cloud CITI.",
+   "status": "gap",
+   "evidence": "Profile is silent on CAC/MFA integration development; CAC mentioned only as base access credential."
+  },
+  {
+   "requirement_id": "a9ef3e73-d2316e45-p1-6952fed7",
+   "quote": "All onsite personnel must maintain or be eligible to obtain appropriate security clearances, submit and obtain approved System Authorization Access Requests (SAAR-N / DD Form 2875), and maintain valid physical base access credentials (such as DBIDS and CAC) for the entirety of the contract performance period.",
+   "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+   "page": 1,
+   "firm_answer": "Firm has 22 Secret-cleared staff familiar with SAAR-N/DD 2875 processes via RMF/ATO work, but Top Secret/T5 eligibility required for this contract is not documented.",
+   "status": "partial",
+   "evidence": "Firm profile: '22 cleared staff (Secret)' and 'RMF/ATO documentation' — clearance level is insufficient for TS requirement."
+  },
+  {
+   "requirement_id": "a9ef3e73-d2316e45-p4-e86a76a6",
+   "quote": "Deployed personnel must complete annual cybersecurity awareness training, submit approved System Authorization Access Requests (SAAR-N / DD Form 2875), and execute a formal DON Privileged Access Agreement (PAA) prior to receiving administrative or development access to government instances or networks.",
+   "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+   "page": 4,
+   "firm_answer": "Firm has experience with RMF/ATO and cleared staff processes, suggesting familiarity with SAAR-N procedures, but no explicit DON PAA experience is documented.",
+   "status": "partial",
+   "evidence": "Network administration and cybersecurity support (FAA) includes RMF/ATO; firm has cleared staff processes."
+  },
+  {
+   "requirement_id": "a9ef3e73-d2316e45-p5-eaa5634a",
+   "quote": "any personnel vacancy must be filled with a certified, physical clearance-eligible (active or eligible for immediate clearance processing), and DBIDS/CAC/SAAR-N approved replacement capable of reporting onsite to Naval Base San Diego within ten (10) business days.",
+   "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+   "page": 5,
+   "firm_answer": "Firm has a bench of 22 cleared staff but none documented as ServiceNow-certified or Top Secret eligible; 10-business-day onsite replacement at Naval Base San Diego from Norman, OK is not demonstrated.",
+   "status": "gap",
+   "evidence": "Firm profile: '22 cleared staff (Secret)' — no ServiceNow certifications or TS eligibility on bench."
+  },
+  {
+   "requirement_id": "a9ef3e73-45895b4c-p1-e0a19e51",
+   "quote": "Yes, offerors are required to submit résumés for the two proposed ServiceNow Developers as part of the quotation.",
+   "source_file": "45895b4c438c4dad990d286a1ae489cc.xlsx",
+   "page": 1,
+   "firm_answer": "Firm would need to identify two ServiceNow Developers with CSA, CAD, IAT-II, OS/CE certs, and T5 eligibility. Profile does not document any such personnel.",
+   "status": "gap",
+   "evidence": "No ServiceNow-certified personnel documented in firm profile."
+  },
+  {
+   "requirement_id": "a9ef3e73-45895b4c-p1-ba72887f",
+   "quote": "These résumés, along with a personnel qualifications matrix, must clearly demonstrate compliance with the experience, certification, and security clearance requirements outlined in the solicitation.",
+   "source_file": "45895b4c438c4dad990d286a1ae489cc.xlsx",
+   "page": 1,
+   "firm_answer": "Firm cannot demonstrate compliance with ServiceNow certifications (CSA/CAD), T5/TS clearance, or DCWF 632 requirements based on the profile provided.",
+   "status": "gap",
+   "evidence": "Profile lists Security+ and ITIL 4 only; no ServiceNow certs or TS clearances documented."
+  },
+  {
+   "requirement_id": "a9ef3e73-45895b4c-p1-ebdf6562",
+   "quote": "No, the offeror is not required to possess an active Facility Clearance (FCL) as a condition of award or contract performance for this requirement.",
+   "source_file": "45895b4c438c4dad990d286a1ae489cc.xlsx",
+   "page": 1,
+   "firm_answer": "No FCL required per government clarification. Firm's lack of a documented FCL is not a disqualifier.",
+   "status": "meets",
+   "evidence": "Government confirmed FCL not required; firm profile need not address this."
+  },
+  {
+   "requirement_id": "a9ef3e73-45895b4c-p1-1e108f90",
+   "quote": "May the required ServiceNow OEM support-channel and platform-experience qualifications be satisfied collectively by the prime contractor and a qualified ServiceNow subcontractor, or must the prime independently satisfy these requirements? | Yes.",
+   "source_file": "45895b4c438c4dad990d286a1ae489cc.xlsx",
+   "page": 1,
+   "firm_answer": "Government confirmed subcontractor teaming is allowed for OEM/platform qualifications. Firm could theoretically team, but no ServiceNow subcontractor relationship is documented in the profile.",
+   "status": "partial",
+   "evidence": "Government allows teaming; firm profile does not document any ServiceNow subcontractor or teaming arrangement."
+  },
+  {
+   "requirement_id": "a9ef3e73-d2316e45-p1-30ffbbcb",
+   "quote": "the Contractor shall provide high-caliber, onsite staff augmentation engineering resources at Naval Base San Diego to migrate legacy systems, expand ServiceNow Service Management capabilities, design custom workflows, and deliver a structured training and knowledge transfer program.",
+   "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+   "page": 1,
+   "firm_answer": "Firm provides IT staffing and has M365 migration experience, but no ServiceNow Service Management, custom workflow design, or legacy system migration to ServiceNow is documented.",
+   "status": "gap",
+   "evidence": "Systems administration and Microsoft 365 migration (Oklahoma National Guard) — migration experience exists but not ServiceNow-specific."
+  },
+  {
+   "requirement_id": "a9ef3e73-45895b4c-p1-72aedd7f",
+   "quote": "The Contractor will perform all development and configuration activities within this Cloud CITI environment.",
+   "source_file": "45895b4c438c4dad990d286a1ae489cc.xlsx",
+   "page": 1,
+   "firm_answer": "No Cloud CITI or NIWC Atlantic-hosted environment experience is documented in the firm profile.",
+   "status": "gap",
+   "evidence": "Profile is silent on Cloud CITI or Navy cloud environments."
+  },
+  {
+   "requirement_id": "a9ef3e73-d2316e45-p2-ced601b4",
+   "quote": "Field-Level Security: Implementation of strict form-level and field-level access control to protect Personally Identifiable Information (PII) and sensitive personnel data.",
+   "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+   "page": 2,
+   "firm_answer": "No ServiceNow field-level security or PII access control implementation experience is documented in the profile.",
+   "status": "gap",
+   "evidence": "Profile is silent on ServiceNow development capabilities."
+  },
+  {
+   "requirement_id": "a9ef3e73-d2316e45-p5-bfec624e",
+   "quote": "The Contractor must deliver a comprehensive System Handover Plan and training logs to SWRMC government leads at least thirty (30) days prior to contract expiration to prevent any post-transition operational deficit.",
+   "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+   "page": 5,
+   "firm_answer": "Profile does not document experience delivering system handover plans or training logs for ServiceNow or similar platform transitions.",
+   "status": "unknown",
+   "evidence": "Profile is silent on formal handover plan deliverables."
+  },
+  {
+   "requirement_id": "a9ef3e73-descript-p0-b85c5d69",
+   "quote": "QUOTES must be received by the destination inbox no later than *04 September 2026, 11:00 AM (Pacific)* or they will not be considered for award.",
+   "source_file": "description",
+   "page": 0,
+   "firm_answer": "Submission deadline is 04 September 2026, 11:00 AM Pacific. The notice shows -9.7 days to close, meaning the deadline has already passed.",
+   "status": "gap",
+   "evidence": "Notice computed days_to_close: -9.7 — solicitation is closed."
+  },
+  {
+   "requirement_id": "a9ef3e73-d2316e45-p4-b2c9d854",
+   "quote": "4.1 Qualifications & Experience The Contractor must satisfy the following objective qualifications to be considered for award:",
+   "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+   "page": 4,
+   "firm_answer": "Firm cannot satisfy the objective qualifications (ServiceNow CSA/CAD, T5/TS clearance, DCWF 632, OS/CE certs, OEM channel) based on the documented profile.",
+   "status": "gap",
+   "evidence": "Multiple qualification gaps identified across staffing and platform requirements."
+  },
+  {
+   "requirement_id": "a9ef3e73-descript-p0-d6dc09fd",
+   "quote": "The following factors shall be used to evaluate offers:",
+   "source_file": "description",
+   "page": 0,
+   "firm_answer": "Evaluation factors not fully enumerated in the provided description excerpt; firm's technical and past performance gaps would score poorly under any technical evaluation.",
+   "status": "unknown",
+   "evidence": "Description truncated; evaluation factors not fully visible."
+  }
+ ],
+ "matrix_dropped": 0,
+ "matrix_dropped_rows": [],
+ "fit_score_code": 0.1607,
+ "drafts": {
+  "capability_statement": "Sooner Systems LLC (Norman, OK) is a SBA-certified small business fully eligible under this Total Small Business set-aside. Our NAICS 541512 primary code aligns exactly with this solicitation.\n\nWe provide professional IT services to federal defense and civilian agency customers. Our current portfolio includes IT help desk and desktop support for the U.S. Army Corps of Engineers, Tulsa District (2022–2025, $2.1M), and network administration and cybersecurity support for the FAA Mike Monroney Aeronautical Center (2021–2024, $1.65M). Both contracts were performed under NAICS 541512/541519 and demonstrate sustained delivery of IT staff augmentation services in regulated federal environments.\n\nOur 22-person cleared workforce (Secret) holds CompTIA Security+ CE across the bench, satisfying the IAT-II baseline certification requirement stated in Section 4.1. Our team carries hands-on experience with RMF/ATO documentation, STIG compliance, vulnerability management (ACAS), and SAAR-N/DD Form 2875 processes — directly relevant to the DON cybersecurity compliance posture required at Naval Base San Diego.\n\nWe understand SWRMC requires two onsite ServiceNow Developer FTEs within the Cloud CITI environment. We are actively assessing teaming arrangements with qualified ServiceNow partners to address platform certification (CSA/CAD), DCWF 632 compliance, and OEM support-channel requirements, consistent with the government's confirmation that subcontractor teaming is permitted for these qualifications.\n\nSooner Systems is committed to delivering reliable, compliant IT staff augmentation to DoD customers and welcomes the opportunity to support SWRMC's ServiceNow modernization mission.",
+  "questions_for_co": [
+   "Clearance level — Section 4.1 states personnel must possess an interim Top Secret based on a favorably adjudicated T5 investigation at the start of performance: will the government accept personnel who are currently Secret-cleared and have been submitted for a T5 investigation but have not yet received an interim TS determination, and if so, what is the maximum allowable gap between contract start and receipt of the interim TS? [req a9ef3e73-45895b4c-p1-54c38c7f]",
+   "OS/CE certification specificity — the solicitation requires valid, platform-specific Operating System/Computing Environment (OS/CE) certifications for both engineers: please identify the exact OS/CE certification titles or catalog numbers that are acceptable for the ServiceNow Cloud CITI environment so offerors can confirm or obtain the correct credentials before Day 1 [req a9ef3e73-d2316e45-p4-e32edba1]",
+   "Evaluation factors — the solicitation states 'The following factors shall be used to evaluate offers' but the full factor list, relative weights, and trade-off methodology are not reproduced in the available solicitation text: please confirm the complete list of evaluation factors, their order of importance, and whether price is evaluated on a lowest-price-technically-acceptable or best-value basis [req a9ef3e73-descript-p0-d6dc09fd]",
+   "System Handover Plan format — the solicitation requires delivery of a comprehensive System Handover Plan and training logs to SWRMC government leads at least 30 days prior to contract expiration: is there a government-furnished template or data item description (DID) that defines the required content, format, and page limitations for this deliverable? [req a9ef3e73-d2316e45-p5-bfec624e]",
+   "Teaming and OEM channel verification — the government confirmed that OEM/platform qualifications may be satisfied by a qualified ServiceNow subcontractor: what documentation must the prime submit at time of quotation to demonstrate the subcontractor's active OEM support channel (e.g., a letter of commitment, current partner portal screenshot, or subcontract agreement), and must the subcontractor be identified by legal name in the quote? [req a9ef3e73-45895b4c-p1-1e108f90, req a9ef3e73-d2316e45-p5-8b8ef44d]",
+   "Ten-business-day replacement clock — the solicitation requires that any personnel vacancy be filled with a certified, TS-eligible, DBIDS/CAC/SAAR-N-approved replacement reporting onsite to Naval Base San Diego within ten business days: does this clock begin on the date the contractor notifies the COR of a vacancy, the date the government accepts the replacement résumé, or another trigger event? [req a9ef3e73-d2316e45-p5-eaa5634a]"
+  ],
+  "calendar_entries": [
+   {
+    "title": "Questions Due",
+    "date": "2026-08-31",
+    "note": "All questions must be received no later than 31 August 2026, 11:00 AM (Pacific).",
+    "source_quote": "All questions must be received no later than 31 August 2026, 11:00 AM (Pacific) to allow adequate time to prepare and issue responses to all offerors prior to the date and time set for receipt of quotes."
+   },
+   {
+    "title": "Decide By (2 business days before proposal due)",
+    "date": "2026-09-02",
+    "note": "Internal bid/no-bid decision deadline — two business days before proposal due date of 04 September 2026.",
+    "source_quote": "QUOTES must be received by the destination inbox no later than *04 September 2026, 11:00 AM (Pacific)* or they will not be considered for award."
+   },
+   {
+    "title": "Proposal Due",
+    "date": "2026-09-04",
+    "note": "Quotes must be received no later than 04 September 2026, 11:00 AM (Pacific). Extended by AMEND 0001.",
+    "source_quote": "QUOTES must be received by the destination inbox no later than *04 September 2026, 11:00 AM (Pacific)* or they will not be considered for award."
+   }
+  ]
+ },
+ "reader": {
+  "notice_id": "a9ef3e73dd004004bb4cefb17d2cc292",
+  "key_requirement_ids": [
+   "a9ef3e73-d2316e45-p1-2f4b3fa7",
+   "a9ef3e73-45895b4c-p1-88ceff08",
+   "a9ef3e73-45895b4c-p1-54c38c7f",
+   "a9ef3e73-45895b4c-p1-11ca47a9",
+   "a9ef3e73-d2316e45-p5-a29e304e",
+   "a9ef3e73-d2316e45-p4-516f61d4",
+   "a9ef3e73-d2316e45-p4-0522c2b5",
+   "a9ef3e73-d2316e45-p4-e32edba1",
+   "a9ef3e73-45895b4c-p1-96e875e3",
+   "a9ef3e73-d2316e45-p5-8b8ef44d",
+   "a9ef3e73-45895b4c-p1-e0a19e51",
+   "a9ef3e73-45895b4c-p1-ba72887f",
+   "a9ef3e73-d2316e45-p4-b2c9d854",
+   "a9ef3e73-d2316e45-p5-54fc43e2",
+   "a9ef3e73-d2316e45-p1-30ffbbcb",
+   "a9ef3e73-45895b4c-p1-afeae203",
+   "a9ef3e73-d2316e45-p2-b1a055ff",
+   "a9ef3e73-d2316e45-p5-bfec624e",
+   "a9ef3e73-45895b4c-p1-5ce15900",
+   "a9ef3e73-descript-p0-b85c5d69",
+   "a9ef3e73-d2316e45-p5-eaa5634a",
+   "a9ef3e73-45895b4c-p1-b34b0575",
+   "a9ef3e73-descript-p0-d6dc09fd",
+   "a9ef3e73-45895b4c-p1-1e108f90",
+   "a9ef3e73-d2316e45-p2-9e985cf7"
+  ],
+  "scope_summary": "Southwest Regional Maintenance Center (SWRMC) requires two onsite Full-Time Equivalent ServiceNow Developer engineering resources stationed physically at Naval Base San Diego, CA to migrate legacy systems, expand ServiceNow Service Management capabilities, design custom workflows, and deliver a structured training and knowledge transfer program. All development and configuration activities must be performed within the Cloud CITI environment hosted by NIWC Atlantic, with no required external system integrations at this time. The contractor must also provide a senior offsite advisory consulting and project management governance layer to support the onsite FTEs throughout the period of performance.",
+  "evaluation_basis": "\"The following factors shall be used to evaluate offers:\" — the full factor list is not reproduced in the provided text beyond this header; \"4.1 Qualifications & Experience The Contractor must satisfy the following objective qualifications to be considered for award:\" — personnel qualifications (minimum five years IT experience, active ServiceNow CSA and CAD certifications, Top Secret eligibility via T5 investigation, IAT-II baseline certification, and DCWF role 632 compliance) and past performance in Navy/federal defense enterprise environments are stated as award conditions; price is implied by the RFQ structure but no explicit weighting or trade-off methodology is stated in the provided text.",
+  "incumbent_or_history": "none found",
+  "quotes": [
+   "2.0 Scope of Work The Contractor shall provide two (2) onsite Full-Time Equivalent (FTE) engineering resources, stationed physically on-base at Naval Base San Diego, CA.",
+   "The two (2) ServiceNow Developer Full-Time Equivalent (FTE) positions are required to perform work exclusively onsite.",
+   "The Contractor will perform all development and configuration activities within this Cloud CITI environment.",
+   "At the start of performance, personnel must possess, at a minimum, an interim Top Secret clearance based on a favorably adjudicated T5 investigation.",
+   "résumés must clearly articulate the candidate's minimum five (5) years of relevant IT experience, list all required active certifications (e.g., ServiceNow CSA and CAD), and state their active Top Secret clearance or eligibility (Tier 5 (T5) investigation).",
+   "Sustained Platform Certifications: The Contractor must guarantee that all deployed personnel possess active, non-expired certifications (CSA and CAD) on Day 1 of performance.",
+   "Baseline Security Certification: Both engineers must possess a valid, active Information Assurance Technical Level II (IAT-II) baseline certification (e.g., CompTIA Security+ CE, GSEC, SSCP, or CCNA Security) at the start of performance.",
+   "Department of the Navy (DON) Cyber IT / Cybersecurity Workforce (CSWF) Requirements: Direct Compliance: Both engineering resources must fully comply with SECNAV M-5239.2 (Cybersecurity Workforce Program), DoD 8570.01-M, and DoDI 8140.01 guidelines at the time of onboarding and maintain active compliance throughout the contract.",
+   "Offerors must meet the SECNAV M-5239.2 requirements for the Department of Defense Cyber Workforce Framework (DCWF) role of System Developer (632), proficiency level Intermediate.",
+   "OEM Coordination Channel: The Contractor must maintain an active, established support channel with the Platform OEM (ServiceNow) to facilitate rapid tier-3 troubleshooting, licensing verification, and technical escalation support throughout implementation.",
+   "Navy Enterprise Experience: The Contractor must demonstrate successful past performance in deploying, configuring, and maintaining enterprise application frameworks within a U.S.",
+   "4.2 Risk Mitigation & Operational Continuity Onboarding Speed: Due to the critical nature of the portal applications being migrated, any personnel vacancy must be filled with a certified, physical clearance-eligible (active or eligible for immediate clearance processing), and DBIDS/CAC/SAAR-N approved replacement capable of reporting onsite to Naval Base San Diego within ten (10) business days.",
+   "Transition and Knowledge Handover: The Contractor must deliver a comprehensive System Handover Plan and training logs to SWRMC government leads at least thirty (30) days prior to contract expiration to prevent any post-transition operational deficit.",
+   "QUOTES must be received by the destination inbox no later than *04 September 2026, 11:00 AM (Pacific)* or they will not be considered for award.",
+   "Yes, offerors are required to submit résumés for the two proposed ServiceNow Developers as part of the quotation.",
+   "The contractor must possess a Tier 5 (T5) investigation (Top Secret eligibility)."
+  ]
+ },
+ "fit": {
+  "notice_id": "a9ef3e73dd004004bb4cefb17d2cc292",
+  "fit_score": 0.22,
+  "matched_past_performance": [
+   "IT help desk and desktop support | customer US Army Corps of Engineers, Tulsa District | naics 541512 | 2100000 USD | 2022-2025 | keywords: help desk, desktop, tier 1, tier 2, service desk, ITIL, ticketing, end user, information technology, IT services, IT support",
+   "Network administration and cybersecurity support | customer FAA Mike Monroney Aeronautical Center | naics 541519 | 1650000 USD | 2021-2024 | keywords: network, cybersecurity, cyber, security, SOC, SIEM, SOAR, incident response, RMF, ATO, vulnerability, ACAS, STIG, firewall, ISSO"
+  ],
+  "strengths": [
+   "Eligible for total small business set-aside (SBA-registered small business)",
+   "NAICS 541512 matches solicitation NAICS exactly",
+   "22 cleared staff at Secret level provides a staffing pool baseline",
+   "Security+ (IAT-II) held across the bench — meets baseline security certification requirement",
+   "CMMC Level 2 self-assessed and RMF/ATO experience relevant to DON compliance posture",
+   "Two past-performance records exist (meets owner rule ss-pp threshold)"
+  ],
+  "gaps": [
+   "No ServiceNow platform experience, certifications (CSA/CAD), or past performance anywhere in profile",
+   "No Top Secret / Tier 5 (T5) investigation-eligible staff — firm holds only Secret clearances",
+   "No Facility Clearance (FCL) at Top Secret level mentioned in profile",
+   "No ServiceNow OEM partnership or active OEM support channel documented",
+   "No Navy / DoD enterprise application framework past performance (Navy Enterprise Experience requirement)",
+   "No POAM scheduling/tracking methodology evidence on federal defense contracts in profile",
+   "No onsite San Diego presence or ability to staff Naval Base San Diego onsite FTEs documented",
+   "No Computing Environment (CE) / OS certifications for ServiceNow platform listed",
+   "No DCWF role 632 (System Developer) compliance evidence in profile",
+   "No evidence of ServiceNow Consulting and Implementation Partner status"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "a9ef3e73-45895b4c-p1-11ca47a9",
+    "quote": "résumés must clearly articulate the candidate's minimum five (5) years of relevant IT experience, list all required active certifications (e.g., ServiceNow CSA and CAD), and state their active Top Secret clearance or eligibility (Tier 5 (T5) investigation)",
+    "source_file": "45895b4c438c4dad990d286a1ae489cc.xlsx",
+    "page": 1,
+    "firm_answer": "Profile lists no ServiceNow CSA or CAD certifications for any staff. Clearances on hand are Secret only; no T5/Top Secret eligibility is documented.",
+    "status": "gap",
+    "evidence": "Firm profile states '22 cleared staff (Secret)' and lists Security+ but no ServiceNow certifications."
+   },
+   {
+    "requirement_id": "a9ef3e73-45895b4c-p1-54c38c7f",
+    "quote": "At the start of performance, personnel must possess, at a minimum, an interim Top Secret clearance based on a favorably adjudicated T5 investigation.",
+    "source_file": "45895b4c438c4dad990d286a1ae489cc.xlsx",
+    "page": 1,
+    "firm_answer": "Firm holds only Secret-level clearances. No T5 investigation or Top Secret eligibility is mentioned in the profile.",
+    "status": "gap",
+    "evidence": "Firm profile: '22 cleared staff (Secret)' — no Top Secret or T5 mentioned."
+   },
+   {
+    "requirement_id": "a9ef3e73-45895b4c-p1-84dc6965",
+    "quote": "The contractor must possess a Tier 5 (T5) investigation (Top Secret eligibility).",
+    "source_file": "45895b4c438c4dad990d286a1ae489cc.xlsx",
+    "page": 1,
+    "firm_answer": "No T5 investigation or Top Secret eligibility documented in the firm profile.",
+    "status": "gap",
+    "evidence": "Firm profile: '22 cleared staff (Secret)' only."
+   },
+   {
+    "requirement_id": "a9ef3e73-45895b4c-p1-b34b0575",
+    "quote": "The contractor must possess a Tier 5 (T5) investigation (Top Secret eligibility).",
+    "source_file": "45895b4c438c4dad990d286a1ae489cc.xlsx",
+    "page": 1,
+    "firm_answer": "Profile is silent on T5 or Top Secret eligibility; only Secret clearances are listed.",
+    "status": "gap",
+    "evidence": "Firm profile: '22 cleared staff (Secret)' — no T5 mentioned."
+   },
+   {
+    "requirement_id": "a9ef3e73-d2316e45-p5-a29e304e",
+    "quote": "The Contractor must guarantee that all deployed personnel possess active, non-expired certifications (CSA and CAD) on Day 1 of performance.",
+    "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+    "page": 5,
+    "firm_answer": "No ServiceNow CSA (Certified System Administrator) or CAD (Certified Application Developer) certifications are listed anywhere in the firm profile.",
+    "status": "gap",
+    "evidence": "Profile lists ITIL 4 and Security+ but no ServiceNow platform certifications."
+   },
+   {
+    "requirement_id": "a9ef3e73-d2316e45-p4-0522c2b5",
+    "quote": "Both engineers must possess a valid, active Information Assurance Technical Level II (IAT-II) baseline certification (e.g., CompTIA Security+ CE, GSEC, SSCP, or CCNA Security) at the start of performance.",
+    "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+    "page": 4,
+    "firm_answer": "Firm profile states Security+ is held 'across the bench,' which satisfies the IAT-II baseline certification requirement.",
+    "status": "meets",
+    "evidence": "Firm profile: 'ITIL 4 and Security+ across the bench' — Security+ CE is an explicitly listed IAT-II example."
+   },
+   {
+    "requirement_id": "a9ef3e73-d2316e45-p4-e32edba1",
+    "quote": "Both engineers must hold valid, platform-specific Operating System/Computing Environment (OS/CE) certifications.",
+    "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+    "page": 4,
+    "firm_answer": "No platform-specific OS/CE certifications are listed in the firm profile.",
+    "status": "gap",
+    "evidence": "Profile lists Security+ and ITIL 4 only; no OS/CE certifications documented."
+   },
+   {
+    "requirement_id": "a9ef3e73-45895b4c-p1-96e875e3",
+    "quote": "Offerors must meet the SECNAV M-5239.2 requirements for the Department of Defense Cyber Workforce Framework (DCWF) role of System Developer (632), proficiency level Intermediate.",
+    "source_file": "45895b4c438c4dad990d286a1ae489cc.xlsx",
+    "page": 1,
+    "firm_answer": "Profile does not document DCWF role 632 (System Developer) compliance or any mapping of staff to this work role.",
+    "status": "gap",
+    "evidence": "Profile mentions RMF/ATO and Security+ but no DCWF role 632 mapping."
+   },
+   {
+    "requirement_id": "a9ef3e73-d2316e45-p4-516f61d4",
+    "quote": "Both engineering resources must fully comply with SECNAV M-5239.2 (Cybersecurity Workforce Program), DoD 8570.01-M, and DoDI 8140.01 guidelines at the time of onboarding and maintain active compliance throughout the contract.",
+    "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+    "page": 4,
+    "firm_answer": "Firm has Security+ (IAT-II) and RMF/ATO experience, which partially supports DoD 8570/8140 compliance, but no DCWF 632 System Developer role qualification or CE certification is documented.",
+    "status": "partial",
+    "evidence": "Firm profile: 'Security+ across the bench' and 'RMF/ATO documentation' — partial alignment only."
+   },
+   {
+    "requirement_id": "a9ef3e73-d2316e45-p5-8b8ef44d",
+    "quote": "The Contractor must maintain an active, established support channel with the Platform OEM (ServiceNow) to facilitate rapid tier-3 troubleshooting, licensing verification, and technical escalation support throughout implementation.",
+    "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+    "page": 5,
+    "firm_answer": "No ServiceNow OEM partnership or support channel is mentioned anywhere in the firm profile.",
+    "status": "gap",
+    "evidence": "Profile is entirely silent on ServiceNow OEM relationship."
+   },
+   {
+    "requirement_id": "a9ef3e73-45895b4c-p1-6c2a41b1",
+    "quote": "Please confirm whether, to satisfy this requirement, the prime Contractor is required to be an active ServiceNow Consulting and Implementation Partner at the time of quotation and throughout contract performance.",
+    "source_file": "45895b4c438c4dad990d286a1ae489cc.xlsx",
+    "page": 1,
+    "firm_answer": "Firm profile does not list ServiceNow partner status of any kind.",
+    "status": "gap",
+    "evidence": "Profile is silent on ServiceNow partnership."
+   },
+   {
+    "requirement_id": "a9ef3e73-d2316e45-p1-2f4b3fa7",
+    "quote": "The Contractor shall provide two (2) onsite Full-Time Equivalent (FTE) engineering resources, stationed physically on-base at Naval Base San Diego, CA.",
+    "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+    "page": 1,
+    "firm_answer": "Firm is headquartered in Norman, OK with a 24x7 NOC there. No San Diego presence or ability to staff onsite at Naval Base San Diego is documented.",
+    "status": "gap",
+    "evidence": "Firm profile: 'Sooner Systems LLC (Norman, OK)' — no San Diego office or onsite staffing capability listed."
+   },
+   {
+    "requirement_id": "a9ef3e73-45895b4c-p1-88ceff08",
+    "quote": "The two (2) ServiceNow Developer Full-Time Equivalent (FTE) positions are required to perform work exclusively onsite.",
+    "source_file": "45895b4c438c4dad990d286a1ae489cc.xlsx",
+    "page": 1,
+    "firm_answer": "No onsite San Diego staffing capability is documented in the profile.",
+    "status": "gap",
+    "evidence": "Firm profile lists Norman, OK headquarters and NOC only."
+   },
+   {
+    "requirement_id": "a9ef3e73-d2316e45-p5-54fc43e2",
+    "quote": "The Contractor must demonstrate successful past performance in deploying, configuring, and maintaining enterprise application frameworks within a U.S.",
+    "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+    "page": 5,
+    "firm_answer": "Past performance covers help desk, desktop support, network administration, and M365 migration — no ServiceNow or enterprise application framework deployment is documented.",
+    "status": "gap",
+    "evidence": "Past performance titles: 'IT help desk and desktop support,' 'Network administration and cybersecurity support,' 'Systems administration and Microsoft 365 migration' — none involve ServiceNow."
+   },
+   {
+    "requirement_id": "a9ef3e73-d2316e45-p5-b944370b",
+    "quote": "The Contractor must demonstrate corporate experience utilizing formal Plan of Action and Milestones (POAM) scheduling and tracking methodologies on previous federal defense contracts.",
+    "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+    "page": 5,
+    "firm_answer": "Profile mentions RMF/ATO documentation (which typically involves POAMs) and federal defense contracts, but no explicit POAM scheduling/tracking methodology is documented.",
+    "status": "partial",
+    "evidence": "Network administration and cybersecurity support (FAA) includes RMF/ATO keywords; Army Corps of Engineers contract is federal. POAM methodology not explicitly stated."
+   },
+   {
+    "requirement_id": "a9ef3e73-d2316e45-p2-b1a055ff",
+    "quote": "Identity & Access Management (IAM): Integration with Navy / Cloud City onboarding requirements, including Common Access Card (CAC) and Multi-Factor Authentication (MFA).",
+    "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+    "page": 2,
+    "firm_answer": "Profile mentions CAC as a physical access credential context but does not document CAC/MFA integration development capability within ServiceNow or Cloud CITI.",
+    "status": "gap",
+    "evidence": "Profile is silent on CAC/MFA integration development; CAC mentioned only as base access credential."
+   },
+   {
+    "requirement_id": "a9ef3e73-d2316e45-p1-6952fed7",
+    "quote": "All onsite personnel must maintain or be eligible to obtain appropriate security clearances, submit and obtain approved System Authorization Access Requests (SAAR-N / DD Form 2875), and maintain valid physical base access credentials (such as DBIDS and CAC) for the entirety of the contract performance period.",
+    "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+    "page": 1,
+    "firm_answer": "Firm has 22 Secret-cleared staff familiar with SAAR-N/DD 2875 processes via RMF/ATO work, but Top Secret/T5 eligibility required for this contract is not documented.",
+    "status": "partial",
+    "evidence": "Firm profile: '22 cleared staff (Secret)' and 'RMF/ATO documentation' — clearance level is insufficient for TS requirement."
+   },
+   {
+    "requirement_id": "a9ef3e73-d2316e45-p4-e86a76a6",
+    "quote": "Deployed personnel must complete annual cybersecurity awareness training, submit approved System Authorization Access Requests (SAAR-N / DD Form 2875), and execute a formal DON Privileged Access Agreement (PAA) prior to receiving administrative or development access to government instances or networks.",
+    "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+    "page": 4,
+    "firm_answer": "Firm has experience with RMF/ATO and cleared staff processes, suggesting familiarity with SAAR-N procedures, but no explicit DON PAA experience is documented.",
+    "status": "partial",
+    "evidence": "Network administration and cybersecurity support (FAA) includes RMF/ATO; firm has cleared staff processes."
+   },
+   {
+    "requirement_id": "a9ef3e73-d2316e45-p5-eaa5634a",
+    "quote": "any personnel vacancy must be filled with a certified, physical clearance-eligible (active or eligible for immediate clearance processing), and DBIDS/CAC/SAAR-N approved replacement capable of reporting onsite to Naval Base San Diego within ten (10) business days.",
+    "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+    "page": 5,
+    "firm_answer": "Firm has a bench of 22 cleared staff but none documented as ServiceNow-certified or Top Secret eligible; 10-business-day onsite replacement at Naval Base San Diego from Norman, OK is not demonstrated.",
+    "status": "gap",
+    "evidence": "Firm profile: '22 cleared staff (Secret)' — no ServiceNow certifications or TS eligibility on bench."
+   },
+   {
+    "requirement_id": "a9ef3e73-45895b4c-p1-e0a19e51",
+    "quote": "Yes, offerors are required to submit résumés for the two proposed ServiceNow Developers as part of the quotation.",
+    "source_file": "45895b4c438c4dad990d286a1ae489cc.xlsx",
+    "page": 1,
+    "firm_answer": "Firm would need to identify two ServiceNow Developers with CSA, CAD, IAT-II, OS/CE certs, and T5 eligibility. Profile does not document any such personnel.",
+    "status": "gap",
+    "evidence": "No ServiceNow-certified personnel documented in firm profile."
+   },
+   {
+    "requirement_id": "a9ef3e73-45895b4c-p1-ba72887f",
+    "quote": "These résumés, along with a personnel qualifications matrix, must clearly demonstrate compliance with the experience, certification, and security clearance requirements outlined in the solicitation.",
+    "source_file": "45895b4c438c4dad990d286a1ae489cc.xlsx",
+    "page": 1,
+    "firm_answer": "Firm cannot demonstrate compliance with ServiceNow certifications (CSA/CAD), T5/TS clearance, or DCWF 632 requirements based on the profile provided.",
+    "status": "gap",
+    "evidence": "Profile lists Security+ and ITIL 4 only; no ServiceNow certs or TS clearances documented."
+   },
+   {
+    "requirement_id": "a9ef3e73-45895b4c-p1-ebdf6562",
+    "quote": "No, the offeror is not required to possess an active Facility Clearance (FCL) as a condition of award or contract performance for this requirement.",
+    "source_file": "45895b4c438c4dad990d286a1ae489cc.xlsx",
+    "page": 1,
+    "firm_answer": "No FCL required per government clarification. Firm's lack of a documented FCL is not a disqualifier.",
+    "status": "meets",
+    "evidence": "Government confirmed FCL not required; firm profile need not address this."
+   },
+   {
+    "requirement_id": "a9ef3e73-45895b4c-p1-1e108f90",
+    "quote": "May the required ServiceNow OEM support-channel and platform-experience qualifications be satisfied collectively by the prime contractor and a qualified ServiceNow subcontractor, or must the prime independently satisfy these requirements? | Yes.",
+    "source_file": "45895b4c438c4dad990d286a1ae489cc.xlsx",
+    "page": 1,
+    "firm_answer": "Government confirmed subcontractor teaming is allowed for OEM/platform qualifications. Firm could theoretically team, but no ServiceNow subcontractor relationship is documented in the profile.",
+    "status": "partial",
+    "evidence": "Government allows teaming; firm profile does not document any ServiceNow subcontractor or teaming arrangement."
+   },
+   {
+    "requirement_id": "a9ef3e73-d2316e45-p1-30ffbbcb",
+    "quote": "the Contractor shall provide high-caliber, onsite staff augmentation engineering resources at Naval Base San Diego to migrate legacy systems, expand ServiceNow Service Management capabilities, design custom workflows, and deliver a structured training and knowledge transfer program.",
+    "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+    "page": 1,
+    "firm_answer": "Firm provides IT staffing and has M365 migration experience, but no ServiceNow Service Management, custom workflow design, or legacy system migration to ServiceNow is documented.",
+    "status": "gap",
+    "evidence": "Systems administration and Microsoft 365 migration (Oklahoma National Guard) — migration experience exists but not ServiceNow-specific."
+   },
+   {
+    "requirement_id": "a9ef3e73-45895b4c-p1-72aedd7f",
+    "quote": "The Contractor will perform all development and configuration activities within this Cloud CITI environment.",
+    "source_file": "45895b4c438c4dad990d286a1ae489cc.xlsx",
+    "page": 1,
+    "firm_answer": "No Cloud CITI or NIWC Atlantic-hosted environment experience is documented in the firm profile.",
+    "status": "gap",
+    "evidence": "Profile is silent on Cloud CITI or Navy cloud environments."
+   },
+   {
+    "requirement_id": "a9ef3e73-d2316e45-p2-ced601b4",
+    "quote": "Field-Level Security: Implementation of strict form-level and field-level access control to protect Personally Identifiable Information (PII) and sensitive personnel data.",
+    "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+    "page": 2,
+    "firm_answer": "No ServiceNow field-level security or PII access control implementation experience is documented in the profile.",
+    "status": "gap",
+    "evidence": "Profile is silent on ServiceNow development capabilities."
+   },
+   {
+    "requirement_id": "a9ef3e73-d2316e45-p5-bfec624e",
+    "quote": "The Contractor must deliver a comprehensive System Handover Plan and training logs to SWRMC government leads at least thirty (30) days prior to contract expiration to prevent any post-transition operational deficit.",
+    "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+    "page": 5,
+    "firm_answer": "Profile does not document experience delivering system handover plans or training logs for ServiceNow or similar platform transitions.",
+    "status": "unknown",
+    "evidence": "Profile is silent on formal handover plan deliverables."
+   },
+   {
+    "requirement_id": "a9ef3e73-descript-p0-b85c5d69",
+    "quote": "QUOTES must be received by the destination inbox no later than *04 September 2026, 11:00 AM (Pacific)* or they will not be considered for award.",
+    "source_file": "description",
+    "page": 0,
+    "firm_answer": "Submission deadline is 04 September 2026, 11:00 AM Pacific. The notice shows -9.7 days to close, meaning the deadline has already passed.",
+    "status": "gap",
+    "evidence": "Notice computed days_to_close: -9.7 — solicitation is closed."
+   },
+   {
+    "requirement_id": "a9ef3e73-d2316e45-p4-b2c9d854",
+    "quote": "4.1 Qualifications & Experience The Contractor must satisfy the following objective qualifications to be considered for award:",
+    "source_file": "d2316e459eba49a186627abc93a1a652.pdf",
+    "page": 4,
+    "firm_answer": "Firm cannot satisfy the objective qualifications (ServiceNow CSA/CAD, T5/TS clearance, DCWF 632, OS/CE certs, OEM channel) based on the documented profile.",
+    "status": "gap",
+    "evidence": "Multiple qualification gaps identified across staffing and platform requirements."
+   },
+   {
+    "requirement_id": "a9ef3e73-descript-p0-d6dc09fd",
+    "quote": "The following factors shall be used to evaluate offers:",
+    "source_file": "description",
+    "page": 0,
+    "firm_answer": "Evaluation factors not fully enumerated in the provided description excerpt; firm's technical and past performance gaps would score poorly under any technical evaluation.",
+    "status": "unknown",
+    "evidence": "Description truncated; evaluation factors not fully visible."
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "a9ef3e73dd004004bb4cefb17d2cc292",
+  "key_dates": {
+   "questions_due": "2026-08-31T11:00:00-07:00",
+   "proposal_due": "2026-09-04T11:00:00-07:00",
+   "site_visit": null,
+   "period_of_performance": null,
+   "source_quotes": [
+    "All questions must be received no later than 31 August 2026, 11:00 AM (Pacific) to allow adequate time to prepare and issue responses to all offerors prior to the date and time set for receipt of quotes.",
+    "QUOTES must be received by the destination inbox no later than *04 September 2026, 11:00 AM (Pacific)* or they will not be considered for award.",
+    "AMEND 0001 - The due date for this Solicitation has been extended to Friday 09/04/2026 11:00 AM PST.",
+    "DESCRIPTION: Southwest Regional Maintenance Center (SWRMC) requires procurement of professional technical services in support of SWRMC at Naval Base San Diego as follows: Quote shall provide the Period of Performance."
+   ]
+  },
+  "days_to_close": -9.716634353275463,
+  "set_aside_note": "The notice is set aside as Small Business Set Aside - Total. Sooner Systems LLC can claim this set-aside under the firm's eligible category 'SBA' (total small business). The firm is eligible to bid.",
+  "amendment_note": "this notice is Combined Synopsis/Solicitation on a base notice of type Combined Synopsis/Solicitation; previous version opportunityId 268f9d2c2552454b947b11925ceb2499; latest description text begins: AMEND 0001 - The due date for this Solicitation has been extended to Friday 09/04/2026 11:00 AM PST. - See Attachment 26Q0114 RFC QA Rev1 for responses to the Requests for Clarification from industry. _______________________________________________________ This is a Combined Synopsis/Solicitation for commercial services prepared in accordance with the format in RFO FAR 12.201-1, additional informa ...",
+  "calendar_entries": [
+   {
+    "title": "Questions Due",
+    "date": "2026-08-31",
+    "note": "All questions must be received no later than 31 August 2026, 11:00 AM (Pacific).",
+    "source_quote": "All questions must be received no later than 31 August 2026, 11:00 AM (Pacific) to allow adequate time to prepare and issue responses to all offerors prior to the date and time set for receipt of quotes."
+   },
+   {
+    "title": "Decide By (2 business days before proposal due)",
+    "date": "2026-09-02",
+    "note": "Internal bid/no-bid decision deadline — two business days before proposal due date of 04 September 2026.",
+    "source_quote": "QUOTES must be received by the destination inbox no later than *04 September 2026, 11:00 AM (Pacific)* or they will not be considered for award."
+   },
+   {
+    "title": "Proposal Due",
+    "date": "2026-09-04",
+    "note": "Quotes must be received no later than 04 September 2026, 11:00 AM (Pacific). Extended by AMEND 0001.",
+    "source_quote": "QUOTES must be received by the destination inbox no later than *04 September 2026, 11:00 AM (Pacific)* or they will not be considered for award."
+   }
+  ]
+ },
+ "model_calls": 5,
+ "tokens_in": 61764,
+ "tokens_out": 14181,
+ "seconds": 110.8,
+ "produced_at": "2026-09-14T06:13:48.009739-05:00"
+}

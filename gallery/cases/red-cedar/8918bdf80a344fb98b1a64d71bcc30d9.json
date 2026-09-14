@@ -1,0 +1,755 @@
+{
+ "notice_id": "8918bdf80a344fb98b1a64d71bcc30d9",
+ "firm_slug": "red-cedar",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:26:50-05:00",
+ "evidence_basis": null,
+ "days_to_close": -4.496802543784723,
+ "closed": true,
+ "response_kind": "proposal",
+ "card": {
+  "notice_id": "8918bdf80a344fb98b1a64d71bcc30d9",
+  "firm_slug": "red-cedar",
+  "situation": "Solicitation for janitorial services at the Newell Building (SRAO), Boise, ID — NAICS 561720, set aside exclusively for SBA Certified WOSBs, evaluated on technical ability, past performance, and price.\nReached the owner because Red Cedar is WOSB-eligible and NAICS-matched, but the site is ~1,400 miles from the firm's Oklahoma City base, triggering the owner's 200-mile distance rule.",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "Red Cedar is WOSB-certified and NAICS 561720-matched, satisfying the set-aside eligibility gate that disqualifies most competitors [set_aside_note: 'Firm (Red Cedar Facility Services) lists WOSB among the set-asides it can claim — ELIGIBLE'].",
+   "Core technical capabilities — QCP/CMMS inspections, CIMS-GB certification, green cleaning program, OSHA 30 supervisors, window and floor care — directly address the solicitation's highest-weighted evaluation factors [8918bdf8-18a41736-p13-e3cbea93; 8918bdf8-18a41736-p7-34bdfe2f; 8918bdf8-18a41736-p13-10a353ae].",
+   "Relevant federal past performance (GSA Region 7 Oklahoma City Federal Building, state office complex, outpatient clinic) provides credible references for the past-performance evaluation factor [8918bdf8-18a41736-p51-04106e59]."
+  ],
+  "reasons_against": [
+   "Boise, ID is approximately 1,400 miles from Oklahoma City, hard-triggering the owner's 200-mile no-bid rule with no workforce, equipment, or mobilization capability stated for the Pacific Northwest [profile gap: rc-distance].",
+   "No bamboo or cork flooring specialized cleaning experience is documented, leaving two scored requirements unknown/partial against a solicitation that mandates specific seasonal bamboo schedules and manufacturer-compliant cork care [8918bdf8-18a41736-p9-4220d302; 8918bdf8-18a41736-p8-0d390f14].",
+   "Critical administrative readiness gaps — SAM/UEI confirmation, IPP electronic invoicing registration, and e-QIP/SF-85 background investigation processing — are unconfirmed in the firm profile, creating proposal-submission and award risk [8918bdf8-18a41736-p45-834264de; 8918bdf8-18a41736-p29-f8913642; 8918bdf8-18a41736-p6-df6f21d2]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-09-07",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-09-09T16:30:00-06:00",
+   "site_visit": null,
+   "period_of_performance": null,
+   "source_quotes": []
+  },
+  "fit_score": 0.8,
+  "matrix_summary": "12 of 31 requirements met, 8 partial, 0 gap, 11 unknown",
+  "evidence_link": "https://sam.gov/opp/8918bdf80a344fb98b1a64d71bcc30d9/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "8918bdf8-18a41736-p5-448747fb",
+   "quote": "The contractor shall provide all management, supervision, staff, equipment, and supplies not provided by the Government, to ensure completion of the tasks outlined in the PWS in accordance with the standards listed below for janitorial services at the SRAO in Boise, ID.",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 5,
+   "firm_answer": "Firm provides janitorial management, supervision, staff, equipment, and supplies for federal buildings. However, no workforce or presence in Boise, ID is stated.",
+   "status": "partial",
+   "evidence": "Capability: 'providing janitorial, custodial, floor care, window cleaning'; past performance: Custodial services, Oklahoma City Federal Building."
+  },
+  {
+   "requirement_id": "8918bdf8-18a41736-p5-aa8a862d",
+   "quote": "Janitorial services shall be performed between the hours of 4:30 p.m. and 11:30 p.m., Monday thru Friday, federal holidays excluded.",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 5,
+   "firm_answer": "Firm provides janitorial services and can schedule work during specified hours. No specific statement about after-hours scheduling in Boise, but general capability exists.",
+   "status": "partial",
+   "evidence": "Capability: 'janitorial, custodial' services for federal facilities; no Boise-area workforce confirmed."
+  },
+  {
+   "requirement_id": "8918bdf8-18a41736-p13-e3cbea93",
+   "quote": "The contractor shall establish and maintain a QCP to ensure all requirements of the PO are met.",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 13,
+   "firm_answer": "Firm maintains a formal QC program with inspections logged in a CMMS and is CIMS-GB certified, directly supporting QCP establishment and maintenance.",
+   "status": "meets",
+   "evidence": "Capability: 'QC inspections logged in a CMMS'; 'CIMS-GB certified'."
+  },
+  {
+   "requirement_id": "8918bdf8-18a41736-p13-883cab29",
+   "quote": "The inspection system must specify how the contractor will inspect the task activities on a scheduled or unscheduled basis, how frequently the contractor will accomplish the inspections, and the title(s) of the individual(s) who will perform the inspections.",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 13,
+   "firm_answer": "Firm uses CMMS-logged QC inspections and CIMS-GB certification framework, which supports structured inspection scheduling and documentation. Specific titles of inspectors not stated in profile.",
+   "status": "partial",
+   "evidence": "Capability: 'QC inspections logged in a CMMS'; 'CIMS-GB certified'."
+  },
+  {
+   "requirement_id": "8918bdf8-18a41736-p7-3cf5f69a",
+   "quote": "All necessary cleaning equipment including power driven floor scrubbing machines, waxing, and polishing machines, industrial type vacuum cleaners, and all necessary motor trucks, needed for the performance of the work of this PO shall be furnished by the contractor.",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 7,
+   "firm_answer": "Firm furnishes all cleaning equipment for federal building janitorial contracts. No equipment inventory in Boise stated; mobilization from Oklahoma would be required.",
+   "status": "partial",
+   "evidence": "Capability: 'janitorial, custodial, floor care'; past performance: Custodial services, Oklahoma City Federal Building."
+  },
+  {
+   "requirement_id": "8918bdf8-18a41736-p7-34bdfe2f",
+   "quote": "The contractor shall use energy-efficient products, such as those designated by ENERGY STAR® or FEMP, during the performance of this contract.",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 7,
+   "firm_answer": "Firm operates a green cleaning program, which aligns with energy-efficient and environmentally preferable product requirements.",
+   "status": "meets",
+   "evidence": "Capability: 'green cleaning program'."
+  },
+  {
+   "requirement_id": "8918bdf8-18a41736-p10-fb0ff732",
+   "quote": "All front-facing (south) windows shall be cleaned.",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 10,
+   "firm_answer": "Firm lists window cleaning as a core capability.",
+   "status": "meets",
+   "evidence": "Capability: 'window cleaning'."
+  },
+  {
+   "requirement_id": "8918bdf8-18a41736-p10-532c258e",
+   "quote": "The contractor shall ensure the conditions of the exterior and interior windows meet or exceed the above standards and characteristics of a successful, quality result for cleanliness and appearance AQL: The glass area shall be free of smudges, tape, oily film, cobwebs, dust, and all other types of soil, streaks, water marks and hard water stains.",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 10,
+   "firm_answer": "Firm provides window cleaning services. Past performance at state office complex includes window cleaning.",
+   "status": "meets",
+   "evidence": "Capability: 'window cleaning'; past performance: Janitorial, state office complex (keywords: windows)."
+  },
+  {
+   "requirement_id": "8918bdf8-18a41736-p10-490fc6cc",
+   "quote": "All carpet shall be cleaned.",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 10,
+   "firm_answer": "Firm has carpet cleaning experience documented in past performance.",
+   "status": "meets",
+   "evidence": "Past performance: Janitorial, state office complex (keywords: carpet)."
+  },
+  {
+   "requirement_id": "8918bdf8-18a41736-p9-4220d302",
+   "quote": "The bamboo flooring shall be cleaned daily from December 1st through April 30th and three days per week May 1st through November 30th.",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 9,
+   "firm_answer": "Firm has general floor care capability but no specific bamboo flooring experience is stated in the profile.",
+   "status": "unknown",
+   "evidence": "Capability: 'floor care'; no bamboo flooring specialization mentioned."
+  },
+  {
+   "requirement_id": "8918bdf8-18a41736-p8-0d390f14",
+   "quote": "Cork flooring tiles shall be cleaned in accordance manufactures instructions and provided Bureau guidelines using a slightly damp microfiber mop and a pH-neutral or eco-friendly cleaner.",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 8,
+   "firm_answer": "Firm has a green cleaning program and general floor care capability. pH-neutral/eco-friendly cleaners align with green cleaning program. No specific cork flooring experience stated.",
+   "status": "partial",
+   "evidence": "Capability: 'floor care'; 'green cleaning program'."
+  },
+  {
+   "requirement_id": "8918bdf8-18a41736-p13-10a353ae",
+   "quote": "To safeguard both life and property, all work under this PO shall be performed in a safe and hazard free manner in conformance with \"Reclamation's Safety and Health Standards\" and in conjunction with all other applicable local, state, and federal safety law.",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 13,
+   "firm_answer": "Firm employs OSHA 30-certified supervisors, demonstrating commitment to safety standards compliance.",
+   "status": "meets",
+   "evidence": "Capability: 'OSHA 30 supervisors'."
+  },
+  {
+   "requirement_id": "8918bdf8-18a41736-p31-4fb36916",
+   "quote": "If required in the SOW or PWS, the Contractor shall submit a written proposed safety program as prescribed in the RSHS and the written specifications.",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 31,
+   "firm_answer": "Firm has OSHA 30 supervisors and safety awareness. Ability to produce a written safety program is implied but not explicitly stated.",
+   "status": "partial",
+   "evidence": "Capability: 'OSHA 30 supervisors'."
+  },
+  {
+   "requirement_id": "8918bdf8-18a41736-p6-df6f21d2",
+   "quote": "The contractor will receive an email from Reclamation Human Resource staff directing the contractor to log onto the e-QIP website to complete the SF-85 Questionnaire.",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 6,
+   "firm_answer": "Firm uses e-Verify for employment eligibility. SF-85/e-QIP background investigation processing is a separate federal requirement not mentioned in the profile.",
+   "status": "unknown",
+   "evidence": "Capability: 'e-Verify'; no e-QIP or SF-85 processing experience stated."
+  },
+  {
+   "requirement_id": "8918bdf8-18a41736-p32-8af6e1f6",
+   "quote": "Cards that have been lost, damaged, or stolen must be reported to the COR and DOI Access Sponsor immediately, but not later than within 24 hours.",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 32,
+   "firm_answer": "Standard federal contract compliance requirement. Firm has federal contract experience and can comply, but no specific DOI badge/access card procedures are mentioned.",
+   "status": "unknown",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building (federal building experience)."
+  },
+  {
+   "requirement_id": "8918bdf8-18a41736-p32-106768a4",
+   "quote": "The Contractor shall return all identification cards and card keys and any other Government property and information upon completion of performance or when personnel depart permanently or for a period of 7 days or more.",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 32,
+   "firm_answer": "Standard federal contract compliance. Firm has federal building experience and can comply, but not explicitly stated.",
+   "status": "unknown",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building."
+  },
+  {
+   "requirement_id": "8918bdf8-18a41736-p40-46a1acd7",
+   "quote": "If this contract is covered by the EO, the contractor must provide employees with 1 hour of paid sick leave for every 30 hours they work, up to 56 hours of paid sick leave each year.",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 40,
+   "firm_answer": "Firm employs 38 W-2 employees, indicating a formal employment structure. Compliance with EO paid sick leave is expected but not explicitly confirmed.",
+   "status": "unknown",
+   "evidence": "Capability: '38 W-2 employees'."
+  },
+  {
+   "requirement_id": "8918bdf8-18a41736-p40-d433b1fc",
+   "quote": "If a contract is subject to Executive Order 13658, the contractor must pay all covered workers at least $13.65 per hour (or the applicable wage rate listed on this wage determination, if it is higher) for all hours spent performing on the con",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 40,
+   "firm_answer": "Firm has W-2 employees and federal contract experience, implying familiarity with Service Contract Act and EO wage requirements. Not explicitly confirmed for Idaho wage rates.",
+   "status": "unknown",
+   "evidence": "Capability: '38 W-2 employees'; past performance: Custodial services, Oklahoma City Federal Building."
+  },
+  {
+   "requirement_id": "8918bdf8-18a41736-p29-941627de",
+   "quote": "Payment requests must be submitted electronically through the U.",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 29,
+   "firm_answer": "IPP electronic invoicing registration and use is required. Firm profile does not mention IPP registration or prior use.",
+   "status": "unknown",
+   "evidence": "No IPP registration or electronic invoicing system mentioned in firm profile."
+  },
+  {
+   "requirement_id": "8918bdf8-18a41736-p29-f8913642",
+   "quote": "The Contractor must use the IPP website to register access and use IPP for submitting requests for payment.",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 29,
+   "firm_answer": "IPP registration not mentioned in firm profile. Firm would need to register if awarded.",
+   "status": "unknown",
+   "evidence": "No IPP registration stated in firm profile."
+  },
+  {
+   "requirement_id": "8918bdf8-18a41736-p45-834264de",
+   "quote": "The Offeror shall enter, in the block with its name and address on the cover page of its offer, the annotation \"Unique Entity Identifier\" followed by the unique entity identifier that identifies the Offeror's name and address.",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 45,
+   "firm_answer": "SAM registration and UEI are not explicitly mentioned in the firm profile. Cannot confirm.",
+   "status": "unknown",
+   "evidence": "No SAM registration or UEI stated in firm profile."
+  },
+  {
+   "requirement_id": "8918bdf8-18a41736-p51-04106e59",
+   "quote": "The following factors shall be used to evaluate offers: Technical ability, past performance, and Price",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 51,
+   "firm_answer": "Firm has relevant past performance (federal building custodial, state office janitorial) and technical capability in janitorial services. Price competitiveness unknown. Geographic distance weakens technical ability for this location.",
+   "status": "partial",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Janitorial, state office complex; Housekeeping support, outpatient clinic."
+  },
+  {
+   "requirement_id": "8918bdf8-18a41736-p14-1e327ecb",
+   "quote": "The Contractor shall not bring onto the premises or utilize on the premises any cleaning or other product that has not been approved by the COR.",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 14,
+   "firm_answer": "Standard compliance requirement. Firm's green cleaning program and CIMS-GB certification suggest familiarity with product approval processes.",
+   "status": "meets",
+   "evidence": "Capability: 'green cleaning program'; 'CIMS-GB certified'."
+  },
+  {
+   "requirement_id": "8918bdf8-18a41736-p17-e3941ca0",
+   "quote": "The Contractor shall comply with all applicable Federal, State and local laws, executive orders, rules and regulations applicable to its performance under this contract.",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 17,
+   "firm_answer": "Firm has multiple federal contracts and demonstrates compliance posture (e-Verify, OSHA 30, CIMS-GB). Idaho-specific state/local law familiarity not stated.",
+   "status": "partial",
+   "evidence": "Capability: 'e-Verify, OSHA 30 supervisors'; past performance: Custodial services, Oklahoma City Federal Building."
+  },
+  {
+   "requirement_id": "8918bdf8-18a41736-p5-325df3d8",
+   "quote": "The contractor will not be required to provide service on recognized Federal holidays established by Federal law (5 U.S.C. 6103).",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 5,
+   "firm_answer": "Standard federal holiday exclusion. Firm has federal contract experience and is familiar with this requirement.",
+   "status": "meets",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building (federal building, GSA Region 7)."
+  },
+  {
+   "requirement_id": "8918bdf8-18a41736-p5-67dcf1b7",
+   "quote": "The contractor shall be prepared to submit a work schedule for the services showing the days and times when tasks will be accomplished.",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 5,
+   "firm_answer": "Firm can develop and submit a work schedule. CMMS-based QC and scheduling capability supports this.",
+   "status": "meets",
+   "evidence": "Capability: 'QC inspections logged in a CMMS'; janitorial scheduling experience from federal and state contracts."
+  },
+  {
+   "requirement_id": "8918bdf8-18a41736-p11-6cf49724",
+   "quote": "The contractor shall ensure waste receptacles are emptied daily and the surrounding areas are free of debris and meet or exceed the above standards and characteristics of a successful, quality result for cleanliness and appearance.",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 11,
+   "firm_answer": "Firm has direct experience with daily trash and recycling services in federal buildings.",
+   "status": "meets",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building (keywords: trash, recycling)."
+  },
+  {
+   "requirement_id": "8918bdf8-18a41736-p12-965230e9",
+   "quote": "Restrooms/ Showers The condition of the restrooms and showers shall meet or exceed established standards and characteristics of a successful, quality result for cleanliness and appearance.",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 12,
+   "firm_answer": "Firm has restroom cleaning experience in federal buildings and healthcare settings.",
+   "status": "meets",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building (keywords: restrooms); Housekeeping support, outpatient clinic (keywords: infection control, terminal cleaning)."
+  },
+  {
+   "requirement_id": "8918bdf8-18a41736-p26-f7d79210",
+   "quote": "Unless the Government has issued an applicable waiver, contractors shall not provide or use as part of the performance of the contract any covered article, or any products or services produced or provided by a source, if the covered article or the source is prohibited by an applicable FASCSA order",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 26,
+   "firm_answer": "FASCSA compliance is a standard federal requirement. Firm has federal contract experience but no explicit FASCSA compliance statement in profile.",
+   "status": "unknown",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building (federal contract compliance implied)."
+  },
+  {
+   "requirement_id": "8918bdf8-18a41736-p42-8bc9c643",
+   "quote": "In addition, where uniform cleaning and maintenance is made the responsibility of the employee, all contractors and subcontractors subject to this wage determination shall (in the absence of a bona fide collective bargaining agreement providing for a different amount, or the furnishing of contrary affirmative proof as to the actual cost), reimburse all employees for such cleaning and maintenance at a rate of $3.35 per week (or $.67 cents per day).",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 42,
+   "firm_answer": "Firm employs 38 W-2 employees and has federal SCA-covered contracts. Compliance with wage determination uniform reimbursement is expected but not explicitly confirmed.",
+   "status": "unknown",
+   "evidence": "Capability: '38 W-2 employees'; past performance: Custodial services, Oklahoma City Federal Building."
+  },
+  {
+   "requirement_id": "8918bdf8-595465b5-p1-b10bae39",
+   "quote": "Offers must acknowledge receipt of this amendment prior to the hour and date specified in the solicitation or as amended, by one of the following methods:",
+   "source_file": "595465b5e08a49c1bb5def5e6e2f4226.pdf",
+   "page": 1,
+   "firm_answer": "No amendment is noted in the solicitation header ('amendment: no amendment'). This requirement is moot for the current solicitation state.",
+   "status": "meets",
+   "evidence": "Notice header: 'amendment: no amendment'."
+  }
+ ],
+ "matrix_dropped": 6,
+ "matrix_dropped_rows": [
+  {
+   "requirement_id": "rc-distance",
+   "quote": "No bids over 200 miles from Oklahoma City.",
+   "source_file": "owner_rules",
+   "page": 0,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "rc-setaside",
+   "quote": "Only bid where we are eligible: WOSB, EDWOSB, total small business, or unrestricted.",
+   "source_file": "owner_rules",
+   "page": 0,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "rc-types",
+   "quote": "Only real solicitations: no award notices, no justifications, no special notices.",
+   "source_file": "owner_rules",
+   "page": 0,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "rc-base",
+   "quote": "No bids under a 12-month base period.",
+   "source_file": "owner_rules",
+   "page": 0,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "8918bdf8-18a41736-p13-8a4f9444",
+   "quote": "The contractor shall furnish one copy of the contractor's QCP to the COR within 10 days after the post award conference.",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 13,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "8918bdf8-18a41736-p18-submission",
+   "quote": "Your email must include the following information:",
+   "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+   "page": 4,
+   "reason": "unknown_requirement"
+  }
+ ],
+ "fit_score_code": 0.8,
+ "drafts": {
+  "capability_statement": "Red Cedar Facility Services is an SBA-certified Women-Owned Small Business (WOSB) providing janitorial, custodial, floor care, and window cleaning services to federal and state facilities under NAICS 561720.\n\nOur core capabilities align directly with the Newell Building PWS. We provide all management, supervision, W-2 staff (38 employees), equipment, and supplies — including power-driven floor scrubbers, waxing and polishing machines, and industrial vacuum cleaners — at no cost to the Government. Our green cleaning program uses ENERGY STAR® and FEMP-designated products, satisfying the solicitation's energy-efficient and COR-approved product requirements.\n\nQuality is managed through a formal Quality Control Program supported by CIMS-GB certification and CMMS-logged scheduled and unscheduled inspections, with documented inspector titles and frequencies. Our OSHA 30-certified supervisors lead safety compliance in conformance with applicable federal, state, and local standards.\n\nRelevant past performance includes custodial services at the Oklahoma City Federal Building (GSA Region 7), janitorial services at a state office complex (including window and carpet cleaning), and housekeeping support at an outpatient clinic (infection control and terminal cleaning). These contracts demonstrate our ability to meet federal performance standards, work-schedule submission requirements, and daily waste and recycling protocols consistent with this solicitation.\n\nRed Cedar is prepared to establish and maintain a site-specific QCP, submit a work schedule prior to performance, and comply with all applicable federal labor and safety requirements.\n\nPoint of Contact: [Name, Title, Phone, Email]",
+  "questions_for_co": [
+   "Bamboo flooring (req 8918bdf8-18a41736-p9-4220d302): Will the Government provide the manufacturer's care specifications for the bamboo flooring, or is the contractor expected to source and apply those independently prior to performance?",
+   "Background investigations (req 8918bdf8-18a41736-p6-df6f21d2): How many contractor personnel are anticipated to require SF-85/e-QIP processing, and what is the typical government processing timeline so offerors can plan for any gap between award and full staffing authorization?",
+   "DOI facility access cards (reqs 8918bdf8-18a41736-p32-8af6e1f6 and 8918bdf8-18a41736-p32-106768a4): What is the process and lead time for issuing DOI facility access cards to contractor employees, and is there a per-card fee charged to the contractor?",
+   "IPP registration (reqs 8918bdf8-18a41736-p29-941627de and 8918bdf8-18a41736-p29-f8913642): Is IPP registration required to be completed before proposal submission, or is it sufficient to complete registration within a specified number of days after award?",
+   "Wage determination and uniform reimbursement (reqs 8918bdf8-18a41736-p40-d433b1fc and 8918bdf8-18a41736-p42-8bc9c643): Which WD number and revision applies to this contract for Boise, ID, and does the Government require uniforms to be furnished at no cost to employees or will a reimbursement allowance be included in the wage determination?",
+   "FASCSA compliance (req 8918bdf8-18a41736-p26-f7d79210): Are there any specific covered articles or prohibited sources identified in an applicable FASCSA order that offerors should account for when selecting cleaning equipment or supplies for this contract?"
+  ],
+  "calendar_entries": []
+ },
+ "reader": {
+  "notice_id": "8918bdf80a344fb98b1a64d71bcc30d9",
+  "key_requirement_ids": [
+   "8918bdf8-18a41736-p5-448747fb",
+   "8918bdf8-18a41736-p5-aa8a862d",
+   "8918bdf8-18a41736-p51-04106e59",
+   "8918bdf8-18a41736-p13-e3cbea93",
+   "8918bdf8-18a41736-p13-883cab29",
+   "8918bdf8-18a41736-p13-8a4f9444",
+   "8918bdf8-18a41736-p7-3cf5f69a",
+   "8918bdf8-18a41736-p7-34bdfe2f",
+   "8918bdf8-18a41736-p14-1e327ecb",
+   "8918bdf8-18a41736-p9-4220d302",
+   "8918bdf8-18a41736-p5-325df3d8",
+   "8918bdf8-18a41736-p18a41736-p4-4bd8802a",
+   "8918bdf8-18a41736-p51-fa19e2a5",
+   "8918bdf8-18a41736-p29-941627de",
+   "8918bdf8-18a41736-p29-f8913642",
+   "8918bdf8-18a41736-p13-10a353ae",
+   "8918bdf8-18a41736-p10-fb0ff732",
+   "8918bdf8-18a41736-p11-6cf49724",
+   "8918bdf8-18a41736-p8-9565ea24",
+   "8918bdf8-18a41736-p13-b02a53b4"
+  ],
+  "scope_summary": "The government is buying janitorial services for the Newell Building (SRAO) in Boise, ID, under NAICS 561720, set aside exclusively for SBA Certified Women-Owned Small Businesses. The contractor must provide all management, supervision, staff, equipment, and supplies to perform cleaning of restrooms, showers, break rooms, offices, windows, exterior surfaces, and common areas. Services are to be performed between 4:30 p.m. and 11:30 p.m., Monday through Friday, excluding federal holidays, with specialized floor-care schedules for bamboo, cork, vinyl, and carpet surfaces.",
+  "evaluation_basis": "The following factors shall be used to evaluate offers: Technical ability, past performance, and Price",
+  "incumbent_or_history": "none found",
+  "quotes": [
+   "The contractor shall provide all management, supervision, staff, equipment, and supplies not provided by the Government, to ensure completion of the tasks outlined in the PWS in accordance with the standards listed below for janitorial services at the SRAO in Boise, ID.",
+   "Janitorial services shall be performed between the hours of 4:30 p.m. and 11:30 p.m., Monday thru Friday, federal holidays excluded.",
+   "The contractor will not be required to provide service on recognized Federal holidays established by Federal law (5 U.S.C. 6103).",
+   "The bamboo flooring shall be cleaned daily from December 1st through April 30th and three days per week May 1st through November 30th.",
+   "All necessary cleaning equipment including power driven floor scrubbing machines, waxing, and polishing machines, industrial type vacuum cleaners, and all necessary motor trucks, needed for the performance of the work of this PO shall be furnished by the contractor.",
+   "The contractor shall use energy-efficient products, such as those designated by ENERGY STAR® or FEMP, during the performance of this contract.",
+   "The Contractor shall not bring onto the premises or utilize on the premises any cleaning or other product that has not been approved by the COR.",
+   "The contractor shall establish and maintain a QCP to ensure all requirements of the PO are met.",
+   "The QCP shall be a specific plan for the services required under the PO.",
+   "The inspection system must specify how the contractor will inspect the task activities on a scheduled or unscheduled basis, how frequently the contractor will accomplish the inspections, and the title(s) of the individual(s) who will perform the inspections.",
+   "The following factors shall be used to evaluate offers: Technical ability, past performance, and Price",
+   "Evaluation of options shall not obligate the Government to exercise the option(s).",
+   "To safeguard both life and property, all work under this PO shall be performed in a safe and hazard free manner in conformance with \"Reclamation's Safety and Health Standards\" and in conjunction with all other applicable local, state, and federal safety law.",
+   "Payment requests must be submitted electronically through the U.",
+   "The Contractor must use the IPP website to register access and use IPP for submitting requests for payment."
+  ]
+ },
+ "fit": {
+  "notice_id": "8918bdf80a344fb98b1a64d71bcc30d9",
+  "fit_score": 0.18,
+  "matched_past_performance": [
+   "Custodial services, Oklahoma City Federal Building",
+   "Janitorial, state office complex",
+   "Housekeeping support, outpatient clinic"
+  ],
+  "strengths": [
+   "WOSB set-aside eligibility matches solicitation requirement",
+   "NAICS 561720 is an exact match",
+   "Demonstrated federal building janitorial past performance (GSA Region 7)",
+   "Green cleaning program aligns with energy-efficient/eco-friendly product requirements",
+   "CIMS-GB certification supports QCP and inspection system requirements",
+   "e-Verify enrollment satisfies personnel compliance requirements",
+   "OSHA 30 supervisors support safety program requirement",
+   "CMMS-logged QC inspections directly support QCP and inspection system requirements",
+   "Window cleaning capability matches solicitation window cleaning scope",
+   "Floor care (scrubbing, waxing, polishing) matches detailed flooring requirements"
+  ],
+  "gaps": [
+   "[rc-distance] HARD NO-BID: Boise, ID is approximately 1,400 miles from Oklahoma City, far exceeding the 200-mile owner rule limit",
+   "No presence, workforce, or mobilization capability stated for Boise, ID or the Pacific Northwest",
+   "No evidence of bamboo or cork flooring specialized cleaning experience",
+   "No stated experience with DOI/Bureau of Reclamation or Interior Department contracts",
+   "Base period length not confirmed in shown requirements — unknown if 12-month minimum is met per [rc-base]",
+   "No IPP (Invoice Processing Platform) registration mentioned in profile",
+   "No SAM registration or UEI explicitly confirmed in profile",
+   "No e-QIP / SF-85 background investigation processing experience stated"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "8918bdf8-18a41736-p5-448747fb",
+    "quote": "The contractor shall provide all management, supervision, staff, equipment, and supplies not provided by the Government, to ensure completion of the tasks outlined in the PWS in accordance with the standards listed below for janitorial services at the SRAO in Boise, ID.",
+    "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+    "page": 5,
+    "firm_answer": "Firm provides janitorial management, supervision, staff, equipment, and supplies for federal buildings. However, no workforce or presence in Boise, ID is stated.",
+    "status": "partial",
+    "evidence": "Capability: 'providing janitorial, custodial, floor care, window cleaning'; past performance: Custodial services, Oklahoma City Federal Building."
+   },
+   {
+    "requirement_id": "8918bdf8-18a41736-p5-aa8a862d",
+    "quote": "Janitorial services shall be performed between the hours of 4:30 p.m. and 11:30 p.m., Monday thru Friday, federal holidays excluded.",
+    "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+    "page": 5,
+    "firm_answer": "Firm provides janitorial services and can schedule work during specified hours. No specific statement about after-hours scheduling in Boise, but general capability exists.",
+    "status": "partial",
+    "evidence": "Capability: 'janitorial, custodial' services for federal facilities; no Boise-area workforce confirmed."
+   },
+   {
+    "requirement_id": "8918bdf8-18a41736-p13-e3cbea93",
+    "quote": "The contractor shall establish and maintain a QCP to ensure all requirements of the PO are met.",
+    "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+    "page": 13,
+    "firm_answer": "Firm maintains a formal QC program with inspections logged in a CMMS and is CIMS-GB certified, directly supporting QCP establishment and maintenance.",
+    "status": "meets",
+    "evidence": "Capability: 'QC inspections logged in a CMMS'; 'CIMS-GB certified'."
+   },
+   {
+    "requirement_id": "8918bdf8-18a41736-p13-883cab29",
+    "quote": "The inspection system must specify how the contractor will inspect the task activities on a scheduled or unscheduled basis, how frequently the contractor will accomplish the inspections, and the title(s) of the individual(s) who will perform the inspections.",
+    "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+    "page": 13,
+    "firm_answer": "Firm uses CMMS-logged QC inspections and CIMS-GB certification framework, which supports structured inspection scheduling and documentation. Specific titles of inspectors not stated in profile.",
+    "status": "partial",
+    "evidence": "Capability: 'QC inspections logged in a CMMS'; 'CIMS-GB certified'."
+   },
+   {
+    "requirement_id": "8918bdf8-18a41736-p7-3cf5f69a",
+    "quote": "All necessary cleaning equipment including power driven floor scrubbing machines, waxing, and polishing machines, industrial type vacuum cleaners, and all necessary motor trucks, needed for the performance of the work of this PO shall be furnished by the contractor.",
+    "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+    "page": 7,
+    "firm_answer": "Firm furnishes all cleaning equipment for federal building janitorial contracts. No equipment inventory in Boise stated; mobilization from Oklahoma would be required.",
+    "status": "partial",
+    "evidence": "Capability: 'janitorial, custodial, floor care'; past performance: Custodial services, Oklahoma City Federal Building."
+   },
+   {
+    "requirement_id": "8918bdf8-18a41736-p7-34bdfe2f",
+    "quote": "The contractor shall use energy-efficient products, such as those designated by ENERGY STAR® or FEMP, during the performance of this contract.",
+    "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+    "page": 7,
+    "firm_answer": "Firm operates a green cleaning program, which aligns with energy-efficient and environmentally preferable product requirements.",
+    "status": "meets",
+    "evidence": "Capability: 'green cleaning program'."
+   },
+   {
+    "requirement_id": "8918bdf8-18a41736-p10-fb0ff732",
+    "quote": "All front-facing (south) windows shall be cleaned.",
+    "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+    "page": 10,
+    "firm_answer": "Firm lists window cleaning as a core capability.",
+    "status": "meets",
+    "evidence": "Capability: 'window cleaning'."
+   },
+   {
+    "requirement_id": "8918bdf8-18a41736-p10-532c258e",
+    "quote": "The contractor shall ensure the conditions of the exterior and interior windows meet or exceed the above standards and characteristics of a successful, quality result for cleanliness and appearance AQL: The glass area shall be free of smudges, tape, oily film, cobwebs, dust, and all other types of soil, streaks, water marks and hard water stains.",
+    "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+    "page": 10,
+    "firm_answer": "Firm provides window cleaning services. Past performance at state office complex includes window cleaning.",
+    "status": "meets",
+    "evidence": "Capability: 'window cleaning'; past performance: Janitorial, state office complex (keywords: windows)."
+   },
+   {
+    "requirement_id": "8918bdf8-18a41736-p10-490fc6cc",
+    "quote": "All carpet shall be cleaned.",
+    "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+    "page": 10,
+    "firm_answer": "Firm has carpet cleaning experience documented in past performance.",
+    "status": "meets",
+    "evidence": "Past performance: Janitorial, state office complex (keywords: carpet)."
+   },
+   {
+    "requirement_id": "8918bdf8-18a41736-p9-4220d302",
+    "quote": "The bamboo flooring shall be cleaned daily from December 1st through April 30th and three days per week May 1st through November 30th.",
+    "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+    "page": 9,
+    "firm_answer": "Firm has general floor care capability but no specific bamboo flooring experience is stated in the profile.",
+    "status": "unknown",
+    "evidence": "Capability: 'floor care'; no bamboo flooring specialization mentioned."
+   },
+   {
+    "requirement_id": "8918bdf8-18a41736-p8-0d390f14",
+    "quote": "Cork flooring tiles shall be cleaned in accordance manufactures instructions and provided Bureau guidelines using a slightly damp microfiber mop and a pH-neutral or eco-friendly cleaner.",
+    "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+    "page": 8,
+    "firm_answer": "Firm has a green cleaning program and general floor care capability. pH-neutral/eco-friendly cleaners align with green cleaning program. No specific cork flooring experience stated.",
+    "status": "partial",
+    "evidence": "Capability: 'floor care'; 'green cleaning program'."
+   },
+   {
+    "requirement_id": "8918bdf8-18a41736-p13-10a353ae",
+    "quote": "To safeguard both life and property, all work under this PO shall be performed in a safe and hazard free manner in conformance with \"Reclamation's Safety and Health Standards\" and in conjunction with all other applicable local, state, and federal safety law.",
+    "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+    "page": 13,
+    "firm_answer": "Firm employs OSHA 30-certified supervisors, demonstrating commitment to safety standards compliance.",
+    "status": "meets",
+    "evidence": "Capability: 'OSHA 30 supervisors'."
+   },
+   {
+    "requirement_id": "8918bdf8-18a41736-p31-4fb36916",
+    "quote": "If required in the SOW or PWS, the Contractor shall submit a written proposed safety program as prescribed in the RSHS and the written specifications.",
+    "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+    "page": 31,
+    "firm_answer": "Firm has OSHA 30 supervisors and safety awareness. Ability to produce a written safety program is implied but not explicitly stated.",
+    "status": "partial",
+    "evidence": "Capability: 'OSHA 30 supervisors'."
+   },
+   {
+    "requirement_id": "8918bdf8-18a41736-p6-df6f21d2",
+    "quote": "The contractor will receive an email from Reclamation Human Resource staff directing the contractor to log onto the e-QIP website to complete the SF-85 Questionnaire.",
+    "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+    "page": 6,
+    "firm_answer": "Firm uses e-Verify for employment eligibility. SF-85/e-QIP background investigation processing is a separate federal requirement not mentioned in the profile.",
+    "status": "unknown",
+    "evidence": "Capability: 'e-Verify'; no e-QIP or SF-85 processing experience stated."
+   },
+   {
+    "requirement_id": "8918bdf8-18a41736-p32-8af6e1f6",
+    "quote": "Cards that have been lost, damaged, or stolen must be reported to the COR and DOI Access Sponsor immediately, but not later than within 24 hours.",
+    "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+    "page": 32,
+    "firm_answer": "Standard federal contract compliance requirement. Firm has federal contract experience and can comply, but no specific DOI badge/access card procedures are mentioned.",
+    "status": "unknown",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building (federal building experience)."
+   },
+   {
+    "requirement_id": "8918bdf8-18a41736-p32-106768a4",
+    "quote": "The Contractor shall return all identification cards and card keys and any other Government property and information upon completion of performance or when personnel depart permanently or for a period of 7 days or more.",
+    "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+    "page": 32,
+    "firm_answer": "Standard federal contract compliance. Firm has federal building experience and can comply, but not explicitly stated.",
+    "status": "unknown",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building."
+   },
+   {
+    "requirement_id": "8918bdf8-18a41736-p40-46a1acd7",
+    "quote": "If this contract is covered by the EO, the contractor must provide employees with 1 hour of paid sick leave for every 30 hours they work, up to 56 hours of paid sick leave each year.",
+    "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+    "page": 40,
+    "firm_answer": "Firm employs 38 W-2 employees, indicating a formal employment structure. Compliance with EO paid sick leave is expected but not explicitly confirmed.",
+    "status": "unknown",
+    "evidence": "Capability: '38 W-2 employees'."
+   },
+   {
+    "requirement_id": "8918bdf8-18a41736-p40-d433b1fc",
+    "quote": "If a contract is subject to Executive Order 13658, the contractor must pay all covered workers at least $13.65 per hour (or the applicable wage rate listed on this wage determination, if it is higher) for all hours spent performing on the con",
+    "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+    "page": 40,
+    "firm_answer": "Firm has W-2 employees and federal contract experience, implying familiarity with Service Contract Act and EO wage requirements. Not explicitly confirmed for Idaho wage rates.",
+    "status": "unknown",
+    "evidence": "Capability: '38 W-2 employees'; past performance: Custodial services, Oklahoma City Federal Building."
+   },
+   {
+    "requirement_id": "8918bdf8-18a41736-p29-941627de",
+    "quote": "Payment requests must be submitted electronically through the U.",
+    "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+    "page": 29,
+    "firm_answer": "IPP electronic invoicing registration and use is required. Firm profile does not mention IPP registration or prior use.",
+    "status": "unknown",
+    "evidence": "No IPP registration or electronic invoicing system mentioned in firm profile."
+   },
+   {
+    "requirement_id": "8918bdf8-18a41736-p29-f8913642",
+    "quote": "The Contractor must use the IPP website to register access and use IPP for submitting requests for payment.",
+    "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+    "page": 29,
+    "firm_answer": "IPP registration not mentioned in firm profile. Firm would need to register if awarded.",
+    "status": "unknown",
+    "evidence": "No IPP registration stated in firm profile."
+   },
+   {
+    "requirement_id": "8918bdf8-18a41736-p45-834264de",
+    "quote": "The Offeror shall enter, in the block with its name and address on the cover page of its offer, the annotation \"Unique Entity Identifier\" followed by the unique entity identifier that identifies the Offeror's name and address.",
+    "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+    "page": 45,
+    "firm_answer": "SAM registration and UEI are not explicitly mentioned in the firm profile. Cannot confirm.",
+    "status": "unknown",
+    "evidence": "No SAM registration or UEI stated in firm profile."
+   },
+   {
+    "requirement_id": "8918bdf8-18a41736-p51-04106e59",
+    "quote": "The following factors shall be used to evaluate offers: Technical ability, past performance, and Price",
+    "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+    "page": 51,
+    "firm_answer": "Firm has relevant past performance (federal building custodial, state office janitorial) and technical capability in janitorial services. Price competitiveness unknown. Geographic distance weakens technical ability for this location.",
+    "status": "partial",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Janitorial, state office complex; Housekeeping support, outpatient clinic."
+   },
+   {
+    "requirement_id": "8918bdf8-18a41736-p14-1e327ecb",
+    "quote": "The Contractor shall not bring onto the premises or utilize on the premises any cleaning or other product that has not been approved by the COR.",
+    "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+    "page": 14,
+    "firm_answer": "Standard compliance requirement. Firm's green cleaning program and CIMS-GB certification suggest familiarity with product approval processes.",
+    "status": "meets",
+    "evidence": "Capability: 'green cleaning program'; 'CIMS-GB certified'."
+   },
+   {
+    "requirement_id": "8918bdf8-18a41736-p17-e3941ca0",
+    "quote": "The Contractor shall comply with all applicable Federal, State and local laws, executive orders, rules and regulations applicable to its performance under this contract.",
+    "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+    "page": 17,
+    "firm_answer": "Firm has multiple federal contracts and demonstrates compliance posture (e-Verify, OSHA 30, CIMS-GB). Idaho-specific state/local law familiarity not stated.",
+    "status": "partial",
+    "evidence": "Capability: 'e-Verify, OSHA 30 supervisors'; past performance: Custodial services, Oklahoma City Federal Building."
+   },
+   {
+    "requirement_id": "8918bdf8-18a41736-p5-325df3d8",
+    "quote": "The contractor will not be required to provide service on recognized Federal holidays established by Federal law (5 U.S.C. 6103).",
+    "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+    "page": 5,
+    "firm_answer": "Standard federal holiday exclusion. Firm has federal contract experience and is familiar with this requirement.",
+    "status": "meets",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building (federal building, GSA Region 7)."
+   },
+   {
+    "requirement_id": "8918bdf8-18a41736-p5-67dcf1b7",
+    "quote": "The contractor shall be prepared to submit a work schedule for the services showing the days and times when tasks will be accomplished.",
+    "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+    "page": 5,
+    "firm_answer": "Firm can develop and submit a work schedule. CMMS-based QC and scheduling capability supports this.",
+    "status": "meets",
+    "evidence": "Capability: 'QC inspections logged in a CMMS'; janitorial scheduling experience from federal and state contracts."
+   },
+   {
+    "requirement_id": "8918bdf8-18a41736-p11-6cf49724",
+    "quote": "The contractor shall ensure waste receptacles are emptied daily and the surrounding areas are free of debris and meet or exceed the above standards and characteristics of a successful, quality result for cleanliness and appearance.",
+    "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+    "page": 11,
+    "firm_answer": "Firm has direct experience with daily trash and recycling services in federal buildings.",
+    "status": "meets",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building (keywords: trash, recycling)."
+   },
+   {
+    "requirement_id": "8918bdf8-18a41736-p12-965230e9",
+    "quote": "Restrooms/ Showers The condition of the restrooms and showers shall meet or exceed established standards and characteristics of a successful, quality result for cleanliness and appearance.",
+    "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+    "page": 12,
+    "firm_answer": "Firm has restroom cleaning experience in federal buildings and healthcare settings.",
+    "status": "meets",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building (keywords: restrooms); Housekeeping support, outpatient clinic (keywords: infection control, terminal cleaning)."
+   },
+   {
+    "requirement_id": "8918bdf8-18a41736-p26-f7d79210",
+    "quote": "Unless the Government has issued an applicable waiver, contractors shall not provide or use as part of the performance of the contract any covered article, or any products or services produced or provided by a source, if the covered article or the source is prohibited by an applicable FASCSA order",
+    "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+    "page": 26,
+    "firm_answer": "FASCSA compliance is a standard federal requirement. Firm has federal contract experience but no explicit FASCSA compliance statement in profile.",
+    "status": "unknown",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building (federal contract compliance implied)."
+   },
+   {
+    "requirement_id": "8918bdf8-18a41736-p42-8bc9c643",
+    "quote": "In addition, where uniform cleaning and maintenance is made the responsibility of the employee, all contractors and subcontractors subject to this wage determination shall (in the absence of a bona fide collective bargaining agreement providing for a different amount, or the furnishing of contrary affirmative proof as to the actual cost), reimburse all employees for such cleaning and maintenance at a rate of $3.35 per week (or $.67 cents per day).",
+    "source_file": "18a41736065943948446c9ca5e751b57.pdf",
+    "page": 42,
+    "firm_answer": "Firm employs 38 W-2 employees and has federal SCA-covered contracts. Compliance with wage determination uniform reimbursement is expected but not explicitly confirmed.",
+    "status": "unknown",
+    "evidence": "Capability: '38 W-2 employees'; past performance: Custodial services, Oklahoma City Federal Building."
+   },
+   {
+    "requirement_id": "8918bdf8-595465b5-p1-b10bae39",
+    "quote": "Offers must acknowledge receipt of this amendment prior to the hour and date specified in the solicitation or as amended, by one of the following methods:",
+    "source_file": "595465b5e08a49c1bb5def5e6e2f4226.pdf",
+    "page": 1,
+    "firm_answer": "No amendment is noted in the solicitation header ('amendment: no amendment'). This requirement is moot for the current solicitation state.",
+    "status": "meets",
+    "evidence": "Notice header: 'amendment: no amendment'."
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "8918bdf80a344fb98b1a64d71bcc30d9",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-09-09T16:30:00-06:00",
+   "site_visit": null,
+   "period_of_performance": null,
+   "source_quotes": []
+  },
+  "days_to_close": -4.496802543784723,
+  "set_aside_note": "Set-aside is SBA Certified Women-Owned Small Business (WOSB) Program Set-Aside (FAR 19.15). Firm (Red Cedar Facility Services) lists WOSB among the set-asides it can claim — ELIGIBLE.",
+  "amendment_note": "no amendment",
+  "calendar_entries": []
+ },
+ "model_calls": 5,
+ "tokens_in": 67580,
+ "tokens_out": 12645,
+ "seconds": 124.45,
+ "produced_at": "2026-09-14T05:27:28.190931-05:00"
+}

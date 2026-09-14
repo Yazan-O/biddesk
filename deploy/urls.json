@@ -1,0 +1,15 @@
+{
+ "site_url": "https://dpnzgd4gtjs45.cloudfront.net/web/",
+ "function_url": "https://5mzjweelnir5lszqlfosvoyt4m0rzdbr.lambda-url.us-east-1.on.aws/",
+ "runtime_arn": "arn:aws:bedrock-agentcore:us-east-1:<account-id>:runtime/biddesk_runtime-sBS5N4G0Fo",
+ "runtime_id": "biddesk_runtime-sBS5N4G0Fo",
+ "gallery_url": "https://dpnzgd4gtjs45.cloudfront.net/gallery/index.json",
+ "distribution_id": "EJS7ZC1JONY7Z",
+ "function_name": "biddesk-proxy",
+ "code_bucket": "biddesk-agentcore-code-<account-id>",
+ "site_bucket": "biddesk-site-<account-id>",
+ "execution_role": "biddesk-agentcore-runtime",
+ "lambda_role": "biddesk-lambda-proxy",
+ "region": "us-east-1",
+ "note": "account id redacted on purpose; the scripts resolve real ARNs by name"
+}

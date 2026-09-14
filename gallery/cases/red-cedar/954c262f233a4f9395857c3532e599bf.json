@@ -1,0 +1,797 @@
+{
+ "notice_id": "954c262f233a4f9395857c3532e599bf",
+ "firm_slug": "red-cedar",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:35:52-05:00",
+ "evidence_basis": null,
+ "days_to_close": -6.699493125914352,
+ "closed": true,
+ "response_kind": "proposal",
+ "card": {
+  "notice_id": "954c262f233a4f9395857c3532e599bf",
+  "firm_slug": "red-cedar",
+  "situation": "USGS solicitation for janitorial services at Hammond Bay Biological Station (HBBS), Millersburg, MI — three buildings totaling ~4,958 sq. ft., small business set-aside, evaluated on price and technical/past-performance factors.\\nReached the owner because Red Cedar is NAICS 561720 exact-match, SBA-eligible, and holds relevant federal janitorial past performance — but the site is ~1,100 miles from Oklahoma City, triggering the owner's 200-mile distance rule.",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "Red Cedar is NAICS 561720 exact-match and SBA-eligible for this total small business set-aside, clearing the threshold eligibility bar with no waivers needed [set_aside_note: 'ELIGIBLE — The notice is set aside as Small Business Set Aside - Total, and Red Cedar qualifies as a small business'].",
+   "Technical capability is strong across all core scope tasks — office/restroom/floor/glass/carpet cleaning, after-hours scheduling, QCP via CMMS, and CIMS-GB certification — with 19 of 31 requirements fully met [matrix_summary: '19 of 31 requirements met, 7 partial, 3 gap, 2 unknown'].",
+   "Three qualifying past-performance references (Oklahoma City Federal Building, state office complex, VA outpatient clinic) are within the five-year window and similar in scope, satisfying the evaluation factor directly [954c262f-e8e3d739-p45-76d7df30]."
+  ],
+  "reasons_against": [
+   "Hammond Bay Biological Station is ~1,100 miles from Oklahoma City, hard-exceeding the owner's 200-mile operational limit, and the firm has no Michigan workforce or regional presence, making reliable performance mobilization undemonstrated [profile: rc-distance owner rule disqualifier].",
+   "Travel and mobilization costs from Oklahoma to Michigan would load the firm's price far above local Michigan competitors, creating a fatal disadvantage under the best-value price-and-technical evaluation [954c262f-e8e3d739-p46-c8615f6a].",
+   "The proposal deadline of 2026-09-07T12:00:00-06:00 has already passed (days to close = -6.7), so no conforming offer can be submitted in time [954c262f-e8e3d739-p47-ea6c6aa6]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-09-03",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-09-07T12:00:00-06:00",
+   "site_visit": null,
+   "period_of_performance": null,
+   "source_quotes": [
+    "Quotes must be received in the contracting office no later than 12:00 P.M."
+   ]
+  },
+  "fit_score": 0.7759,
+  "matrix_summary": "19 of 31 requirements met, 7 partial, 3 gap, 2 unknown",
+  "evidence_link": "https://sam.gov/opp/954c262f233a4f9395857c3532e599bf/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "954c262f-e8e3d739-p4-94f5af6c",
+   "quote": "The Contractor shall provide all labor, travel, administration, supervision, supplies, and equipment (except those items specifically provided by the Government as referenced in this document) to perform janitorial services at the HBBS.",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 4,
+   "firm_answer": "Firm provides janitorial services including labor, supervision, and supplies for federal buildings. However, the firm has no demonstrated presence or workforce in Michigan, making mobilization to HBBS highly uncertain.",
+   "status": "partial",
+   "evidence": "Capabilities: 'janitorial, custodial, floor care, window cleaning'; Past performance: Custodial services, Oklahoma City Federal Building"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p4-6c080c38",
+   "quote": "This work shall include the cleaning of three buildings.",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 4,
+   "firm_answer": "Firm has cleaned multi-building federal complexes (Oklahoma City Federal Building, state office complex). Capability to clean three buildings is consistent with past performance.",
+   "status": "meets",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Janitorial, state office complex"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p4-3d4c9646",
+   "quote": "janitorial services shall be provided 3 days each week, Monday, Wednesday, and Friday, during the months of April, May, June, July, August, and September, and twice a week on Wednesday and Friday during the months of January, February, March, October, November, December",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 4,
+   "firm_answer": "Firm provides scheduled janitorial services on recurring weekly frequencies. Profile does not specifically address variable seasonal scheduling, but recurring scheduled service is within core capability.",
+   "status": "meets",
+   "evidence": "Capabilities: 'janitorial, custodial'; Past performance: Custodial services, Oklahoma City Federal Building (keywords: janitorial, federal building)"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p6-a1bd714a",
+   "quote": "The Contractor shall establish a quality control program to assure the requirements of the contract are provided as specified.",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 6,
+   "firm_answer": "Firm has a documented QC program: 'QC inspections logged in a CMMS' and is CIMS-GB certified, which requires a quality management framework.",
+   "status": "meets",
+   "evidence": "Capabilities: 'QC inspections logged in a CMMS'; 'CIMS-GB certified'"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p17-e325bd8d",
+   "quote": "This QCP shall be submitted at the time of proposal submission and updated as required.",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 17,
+   "firm_answer": "Firm has an existing QC program (CMMS-logged inspections, CIMS-GB). A written QCP document can be prepared for submission. Profile does not explicitly confirm a pre-written QCP document exists.",
+   "status": "partial",
+   "evidence": "Capabilities: 'QC inspections logged in a CMMS'; 'CIMS-GB certified'"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p6-baabdcc6",
+   "quote": "It must specify the areas to be inspected on a scheduled or unscheduled basis and the title of the individuals who shall perform the inspections.",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 6,
+   "firm_answer": "Firm uses CMMS for QC inspections and has OSHA 30 supervisors who could be designated inspection personnel. Profile does not explicitly describe a formal inspection plan document with area-by-area breakdown.",
+   "status": "partial",
+   "evidence": "Capabilities: 'QC inspections logged in a CMMS'; 'OSHA 30 supervisors'"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p14-0b512201",
+   "quote": "Upon commencement of work under this contract, the Contractor shall implement and maintain a safety program for employees performing work under this contract.",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 14,
+   "firm_answer": "Firm has OSHA 30-certified supervisors, which supports a formal safety program. Profile does not explicitly name a written safety program document.",
+   "status": "meets",
+   "evidence": "Capabilities: 'OSHA 30 supervisors'"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p10-101b92cc",
+   "quote": "Task 1: The Contractor shall clean general, office, stairways, and lobby spaces.",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 10,
+   "firm_answer": "Firm performs custodial and janitorial services for federal office buildings including office, lobby, and common area cleaning.",
+   "status": "meets",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building (keywords: custodial, janitorial, federal building); Janitorial, state office complex (keywords: janitorial, office)"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p11-50314382",
+   "quote": "Task 2: The Contractor shall clean restrooms.",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 11,
+   "firm_answer": "Firm has restroom cleaning in past performance at federal building and healthcare facility, including disinfectant cleaning and infection control.",
+   "status": "meets",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building (keywords: restrooms); Housekeeping support, outpatient clinic (keywords: infection control, terminal cleaning)"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p11-15e654b3",
+   "quote": "Standard: Restrooms shall be cleaned with a disinfectant cleaner.",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 11,
+   "firm_answer": "Firm's healthcare past performance explicitly includes infection control and terminal cleaning, demonstrating disinfectant cleaning competency.",
+   "status": "meets",
+   "evidence": "Past performance: Housekeeping support, outpatient clinic (keywords: infection control, terminal cleaning, medical)"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p12-f66fbc4a",
+   "quote": "Task 3: The Contractor shall clean all common areas to include drinking fountains, kitchen, and entrances.",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 12,
+   "firm_answer": "Common area cleaning is within the firm's standard janitorial scope as evidenced by federal building and office complex past performance.",
+   "status": "meets",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Janitorial, state office complex"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p13-4c72634d",
+   "quote": "Task 4: The Contractor shall maintain floors by sweeping, mopping and buffing.",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 13,
+   "firm_answer": "Floor care is explicitly listed as a firm capability and appears in past performance keywords.",
+   "status": "meets",
+   "evidence": "Capabilities: 'floor care'; Past performance: Custodial services, Oklahoma City Federal Building (keywords: floor care)"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p13-c7aa1a34",
+   "quote": "Task 5: The contractor shall clean glass surfaces.",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 13,
+   "firm_answer": "Window cleaning is explicitly listed as a firm capability.",
+   "status": "meets",
+   "evidence": "Capabilities: 'window cleaning'; Past performance: Janitorial, state office complex (keywords: windows)"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p13-101f6276",
+   "quote": "Task 6: The contractor shall clean carpets and upholstered chairs.",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 13,
+   "firm_answer": "Carpet cleaning appears in past performance keywords for the state office complex contract.",
+   "status": "meets",
+   "evidence": "Past performance: Janitorial, state office complex (keywords: carpet)"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p7-eff61afb",
+   "quote": "No chemical or cleaning compounds or combination of chemicals or compounds shall be used that will damage, weaken, or discolor floors, floor coverings, woodwork, or furniture.",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 7,
+   "firm_answer": "Firm operates a green cleaning program, indicating awareness of safe chemical selection. CIMS-GB certification also covers chemical management standards.",
+   "status": "meets",
+   "evidence": "Capabilities: 'green cleaning program'; 'CIMS-GB certified'"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p6-d597994a",
+   "quote": "The Contractor shall establish and maintain an Operation Management Plan for each building and updated with each option.",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 6,
+   "firm_answer": "Firm uses CMMS for operations tracking. Profile does not explicitly reference building-specific Operation Management Plans, but CMMS capability supports this.",
+   "status": "partial",
+   "evidence": "Capabilities: 'QC inspections logged in a CMMS'"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p45-76d7df30",
+   "quote": "The offeror must submit past project information similar in scope over the past five (5) years, no more than three (3) past project references, including both prime and subcontractor.",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 45,
+   "firm_answer": "Firm has three NAICS 561720 past performance references within the past five years: Oklahoma City Federal Building (2022–2025), state office complex (2020–2023), and VA outpatient clinic (2023–2025). All are within the 5-year window.",
+   "status": "meets",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Janitorial, state office complex; Housekeeping support, outpatient clinic"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p46-b3810faa",
+   "quote": "Contractor shall submit pricing as follows:",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 46,
+   "firm_answer": "Firm can prepare a price submission. However, accurate pricing for a Michigan location from an Oklahoma-based firm would require significant travel/mobilization cost loading, making the firm uncompetitive.",
+   "status": "partial",
+   "evidence": "Owner rule [rc-distance] disqualifier; firm profile does not indicate Michigan pricing capability"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p35-c0841ff4",
+   "quote": "Payment requests must be submitted electronically through the U.",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 35,
+   "firm_answer": "Profile does not explicitly mention IPP (Invoice Processing Platform) enrollment, but this is a standard federal invoicing requirement. Unknown whether firm is currently registered.",
+   "status": "unknown",
+   "evidence": "No mention of IPP in firm profile"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p37-de39ef0b",
+   "quote": "This requirement must be incorporated into any subcontracts that require subcontractor personnel to have routine unsupervised access to a federally-controlled facility for more than 180 calendar days or any unsupervised access to a federally-controlled Level 3 or 4 information system.",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 37,
+   "firm_answer": "Profile does not address HSPD-12 / PIV badging or facility access card requirements. Unknown whether firm has experience with federal access card programs beyond standard key control.",
+   "status": "unknown",
+   "evidence": "No mention of HSPD-12, PIV, or federal access card program in firm profile"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p9-01a49fc7",
+   "quote": "The Contractor shall perform this contract in a safe manner, observing any necessary safety precautions.",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 9,
+   "firm_answer": "Firm has OSHA 30-certified supervisors, demonstrating a commitment to workplace safety.",
+   "status": "meets",
+   "evidence": "Capabilities: 'OSHA 30 supervisors'"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p10-37fb0d60",
+   "quote": "The Contractor shall maintain an accurate record of all accidents and shall report to the CO or COR all accidents resulting in death, trauma, or occupational disease.",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 10,
+   "firm_answer": "Firm has OSHA 30 supervisors and a CMMS system that supports recordkeeping. Accident recordkeeping is consistent with OSHA 30 training requirements.",
+   "status": "meets",
+   "evidence": "Capabilities: 'OSHA 30 supervisors'; 'QC inspections logged in a CMMS'"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p7-9414d51a",
+   "quote": "Key Control Program - the Contractor shall establish and maintain effective control of keys",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 7,
+   "firm_answer": "Firm has held federal building access contracts (GSA Region 7, VA) which require key control. Profile does not explicitly describe a formal written Key Control Program document.",
+   "status": "partial",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building (federal building access); Housekeeping support, outpatient clinic"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p14-e30c95bb",
+   "quote": "Under this contract all cleaning shall be done after working hours (8:30 am to 4:30 pm), Monday through Friday (except Federal holidays), unless agreed otherwise, and in accordance with the attached work schedule.",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 14,
+   "firm_answer": "Firm's past performance at the Oklahoma City Federal Building includes after-hours cleaning (keywords: day porter, janitorial, federal building). After-hours scheduling is within firm's demonstrated capability.",
+   "status": "meets",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building (keywords: custodial, janitorial, federal building)"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p33-ffb532fd",
+   "quote": "Upon contract award, the contractor shall furnish to the contracting officer the name of the person he has designated and assigned exclusively to this contract as his agent or representative.",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 33,
+   "firm_answer": "Firm has supervisory staff (OSHA 30 supervisors, 38 W-2 employees) from which a dedicated contract representative could be designated. However, assigning staff exclusively to a Michigan contract from an Oklahoma base is operationally problematic.",
+   "status": "gap",
+   "evidence": "Owner rule [rc-distance] disqualifier; no Michigan workforce in profile"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p5-b99849a5",
+   "quote": "In the office building (Attachment B is 1,851 sq. ft. and Attachment B-1 is 788 sq. ft.) janitorial services shall be provided once a week, on Wednesday, during all months of the year",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 5,
+   "firm_answer": "Firm provides weekly scheduled janitorial services for office buildings. Scope size (1,851 + 788 sq. ft.) is well within the firm's demonstrated capacity.",
+   "status": "meets",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Janitorial, state office complex"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p1-76a80b9b",
+   "quote": "Any representations and/or certifications attached to this Request for Quotation must be completed by the quoter.",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 1,
+   "firm_answer": "Firm can complete standard FAR representations and certifications. WOSB, EDWOSB, and SBA set-aside certifications are available. e-Verify enrollment supports employment eligibility certifications.",
+   "status": "meets",
+   "evidence": "Firm profile: 'set-asides the firm can claim: WOSB, EDWOSB, SBA'; 'e-Verify'"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p46-c8615f6a",
+   "quote": "The award shall be made to the vendor whose offer, conforming to this RFQ, is determined to be the most advantageous to the government, based on price and the other non-price factors listed above.",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 46,
+   "firm_answer": "Firm has strong technical capability and relevant past performance for non-price factors. However, travel and mobilization costs from Oklahoma to Michigan would make the firm's price uncompetitive against local Michigan vendors.",
+   "status": "gap",
+   "evidence": "Owner rule [rc-distance] disqualifier; no Michigan presence in firm profile"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p14-56c1dc7a",
+   "quote": "The Government shall furnish the necessary equipment and supplies, including but not limited to the following: vacuum cleaner(s) and attachments; floor buffer(s); wax stripper(s); floor wax, toilet bowl cleaners; disinfectant; window and glass cleaner; cleaning brushes, mops; cleaning pads; other cleansers as required; toilet paper; paper towels; hand and liquid soap; napkins; toilet cakes; and trash can liners.",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 14,
+   "firm_answer": "Government furnishes major supplies and equipment. This reduces the firm's supply chain burden significantly. Firm's profile notes supply management capability (CMMS, supply reorder process), which aligns with managing GFE/GFS.",
+   "status": "meets",
+   "evidence": "Capabilities: 'QC inspections logged in a CMMS'; requirement p10-d925f676 (written supply reorder requests to COR)"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p40-84abb576",
+   "quote": "The following factors shall be used to evaluate offers:",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 40,
+   "firm_answer": "Evaluation factors include technical capability, past performance, and price. Firm has strong technical and past performance credentials for janitorial services, but geographic distance creates a fatal pricing disadvantage.",
+   "status": "partial",
+   "evidence": "Owner rule [rc-distance] disqualifier; strong technical/PP credentials offset by distance-driven cost uncompetitiveness"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p47-ea6c6aa6",
+   "quote": "Quotes must be received in the contracting office no later than 12:00 P.M.",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 47,
+   "firm_answer": "Firm can submit a quote by the deadline. However, the notice shows days_to_close as -6.7, meaning the deadline has already passed.",
+   "status": "gap",
+   "evidence": "Notice metadata: days to close = -6.7 (deadline passed)"
+  }
+ ],
+ "matrix_dropped": 8,
+ "matrix_dropped_rows": [
+  {
+   "requirement_id": "rc-distance",
+   "quote": "No bids over 200 miles from Oklahoma City.",
+   "source_file": "owner rules (verbatim)",
+   "page": 0,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "rc-setaside",
+   "quote": "This solicitation is a SMALL BUSINSESS SET ASIDE.",
+   "source_file": "description p0",
+   "page": 0,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p5-4b153338",
+   "quote": "The Contractor shall designate in writing the Contractor's Representative, (foreman, superintendent, or manager) as the on-call point of contact who must establish and maintain a notification or communication system so that information can be conveyed to the Contractor from the Government on a 24-hour basis, seven (7) days a week.",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 5,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p5-08dd910f",
+   "quote": "Prior to beginning work, the Contractor's Representative shall designate, in writing to the CO and to the COR, a representative who shall be in charge of the work and be available on-site at all times when work is being performed.",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 5,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p45-40b1ed87",
+   "quote": "The offeror must submit a narrative not to exceed a total of Three (3) pages describing their capabilities and how it will meet the Government's requirement.",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 45,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p27-9367840e",
+   "quote": "The Contractor shall search for the phrase \"FASCSA order\" in the System for Award Management (SAM) at https://www.sam.gov to locate applicable FASCSA orders.",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 27,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "rc-base",
+   "quote": "No bids under a 12-month base period.",
+   "source_file": "owner rules (verbatim)",
+   "page": 0,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "954c262f-e8e3d739-p42-c9c01194",
+   "quote": "The Offeror shall review the list of excluded parties in the System for Award Management (SAM) at https://www.sam.gov for entities excluded from receiving federal awards for \"covered telecommunications equipment or services.\"",
+   "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+   "page": 42,
+   "reason": "not_verbatim"
+  }
+ ],
+ "fit_score_code": 0.7759,
+ "drafts": {
+  "capability_statement": "Red Cedar Facility Services — Capability Statement\nNAICS 561720 | Small Business | WOSB | EDWOSB\n\nRed Cedar Facility Services is a Woman-Owned Small Business providing commercial and federal janitorial and custodial services under NAICS 561720. We are SBA-certified and fully eligible for this total small business set-aside.\n\nOur core capabilities align directly with the HBBS scope:\n• Office, lobby, stairway, and common-area cleaning\n• Restroom sanitation using disinfectant cleaners, with infection-control protocols drawn from healthcare housekeeping experience\n• Floor care: sweeping, mopping, buffing, and carpet cleaning\n• Glass and window cleaning\n• After-hours scheduled service on recurring weekly and multi-day frequencies\n\nQuality & Compliance:\nRed Cedar holds CIMS-GB certification, operates a documented Quality Control Program with inspections logged in a CMMS, and employs OSHA 30-certified supervisors. We maintain a Key Control Program and a green cleaning program using chemicals that will not damage floors, coverings, woodwork, or furniture. All employees are enrolled in e-Verify. We can submit a written Quality Control Plan at the time of proposal submission.\n\nPast Performance (NAICS 561720, within five years):\n• Custodial services, Oklahoma City Federal Building (GSA Region 7)\n• Janitorial services, state office complex\n• Housekeeping support, VA outpatient clinic\n\nWe carry general liability and workers' compensation insurance and can provide three past-performance references with points of contact upon request.\n\nContracting Officer: Yvette Sornberger | Notice: 954c262f233a4f9395857c3532e599bf",
+  "questions_for_co": [
+   "[req 954c262f-e8e3d739-p35-c0841ff4] Electronic invoicing: The solicitation references electronic submission of payment requests. Please confirm which platform is required (e.g., IPP — Invoice Processing Platform) and whether new vendor enrollment must be completed prior to contract award or may be completed after award.",
+   "[req 954c262f-e8e3d739-p37-de39ef0b] HSPD-12 / facility access cards: The solicitation references subcontractor personnel with routine unsupervised access to a federally-controlled facility. Will contractor or subcontractor employees performing janitorial services at HBBS be required to obtain PIV credentials or federal facility access cards, and if so, what is the lead time and sponsoring agency process?",
+   "[req 954c262f-e8e3d739-p33-ffb532fd] Dedicated on-site representative: The contract requires the contractor to designate a person assigned exclusively to this contract as agent or representative. Does 'exclusively' preclude that individual from simultaneously serving as a working crew member, or does it mean the designated representative must be reachable and accountable solely for this contract?",
+   "[req 954c262f-e8e3d739-p46-c8615f6a] Price evaluation — travel and mobilization: Given that HBBS is a remote biological station, will the government evaluate travel and mobilization costs as part of the total evaluated price, or are offerors expected to embed those costs in their unit labor rates? Is there a government cost estimate or independent government estimate range that can be disclosed?",
+   "[req 954c262f-e8e3d739-p47-ea6c6aa6] Deadline confirmation and submission method: The solicitation states quotes are due no later than 12:00 P.M. Please confirm the time zone (Mountain Time, UTC-6 is assumed based on the Denver office location) and the sole authorized submission method — is email to Yvette_Sornberger@ios.doi.gov the only accepted channel, or is SAM.gov or a secure portal also accepted?"
+  ],
+  "calendar_entries": [
+   {
+    "title": "Proposal Due",
+    "date": "2026-09-07",
+    "note": "Quotes due no later than 12:00 P.M. (Mountain Time, UTC-6). Email to Yvette_Sornberger@ios.doi.gov.",
+    "source_quote": "Quotes must be received in the contracting office no later than 12:00 P.M."
+   },
+   {
+    "title": "Decide By (2 business days before proposal due)",
+    "date": "2026-09-03",
+    "note": "Internal go/no-go decision deadline — two business days before the 2026-09-07 proposal due date.",
+    "source_quote": "Quotes must be received in the contracting office no later than 12:00 P.M."
+   }
+  ]
+ },
+ "reader": {
+  "notice_id": "954c262f233a4f9395857c3532e599bf",
+  "key_requirement_ids": [
+   "954c262f-e8e3d739-p4-94f5af6c",
+   "954c262f-e8e3d739-p4-6c080c38",
+   "954c262f-e8e3d739-p4-3d4c9646",
+   "954c262f-e8e3d739-p5-b99849a5",
+   "954c262f-e8e3d739-p5-1f5ee4e0",
+   "954c262f-e8e3d739-p46-c8615f6a",
+   "954c262f-e8e3d739-p40-84abb576",
+   "954c262f-e8e3d739-p45-40b1ed87",
+   "954c262f-e8e3d739-p45-76d7df30",
+   "954c262f-e8e3d739-p46-b3810faa",
+   "954c262f-e8e3d739-p17-e325bd8d",
+   "954c262f-e8e3d739-p6-a1bd714a",
+   "954c262f-e8e3d739-p14-56c1dc7a",
+   "954c262f-e8e3d739-p5-4b153338",
+   "954c262f-e8e3d739-p47-ea6c6aa6",
+   "954c262f-e8e3d739-p47-21519536",
+   "954c262f-e8e3d739-p14-e30c95bb",
+   "954c262f-e8e3d739-p10-101b92cc",
+   "954c262f-e8e3d739-p11-50314382",
+   "954c262f-e8e3d739-p12-f66fbc4a",
+   "954c262f-e8e3d739-p13-4c72634d",
+   "954c262f-e8e3d739-p13-c7aa1a34",
+   "954c262f-e8e3d739-p13-101f6276",
+   "954c262f-e8e3d739-p44-79eeffe0",
+   "954c262f-descript-p0-25b2920f"
+  ],
+  "scope_summary": "The government is buying janitorial services at the USGS Hammond Bay Biological Station (HBBS), covering three buildings: a wet lab (1,551 sq. ft.), an office building (1,851 sq. ft. plus 788 sq. ft. annex), and a sterilization building (768 sq. ft.), each with distinct service frequencies varying by season. The contractor must provide all labor, travel, administration, supervision, supplies, and equipment (except those items specifically provided by the Government) to perform janitorial services including cleaning of offices, restrooms, common areas, floors, glass surfaces, and carpets. Work is performed after normal business hours and the contractor must maintain a quality control program, a key control program, and an on-call representative available 24/7.",
+  "evaluation_basis": "Award shall be made to the vendor whose offer, conforming to this RFQ, is determined to be the most advantageous to the government, based on price and the other non-price factors listed above; non-price factors include Technical Capability (3-page narrative) and Past Performance (up to three references, similar scope, past five years).",
+  "incumbent_or_history": "none found",
+  "quotes": [
+   "The Contractor shall provide all labor, travel, administration, supervision, supplies, and equipment (except those items specifically provided by the Government as referenced in this document) to perform janitorial services at the HBBS.",
+   "This work shall include the cleaning of three buildings.",
+   "In the wet lab building (Attachment A is 1,551 sq. ft.) janitorial services shall be provided 3 days each week, Monday, Wednesday, and Friday, during the months of April, May, June, July, August, and September, and twice a week on Wednesday and Friday during the months of January, February, March, October, November, December, (except Federal holidays and emergencies), after normal business hours (8:00 am and 4:30 pm), unless",
+   "In the office building (Attachment B is 1,851 sq. ft. and Attachment B-1 is 788 sq. ft.) janitorial services shall be provided once a week, on Wednesday, during all months of the year (except Federal holidays and emergencies), after normal business hours (8:00 am and 4:30 pm), unless otherwise agreed by the CO or the COR.",
+   "In the sterilization building (Attachment C is 768 sq. ft.) janitorial services shall be provide once a week, on Wednesday, during the months of April, May, June, July, August, and September, and no days January, February, March, October, November, and December (except Federal holidays and emergencies), after normal business hours (8:00 am and 4:30 pm), unless otherwise agreed by the CO or the COR.",
+   "The award shall be made to the vendor whose offer, conforming to this RFQ, is determined to be the most advantageous to the government, based on price and the other non-price factors listed above.",
+   "The following factors shall be used to evaluate offers:",
+   "Your quote package shall address each of these factors, as they are the standards against which your quote will be evaluated.",
+   "(ii) Past Performance – The offeror must submit past project information similar in scope over the past five (5) years, no more than three (3) past project references, including both prime and subcontractor.",
+   "This QCP shall be submitted at the time of proposal submission and updated as required.",
+   "The Government shall furnish the necessary equipment and supplies, including but not limited to the following: vacuum cleaner(s) and attachments; floor buffer(s); wax stripper(s); floor wax, toilet bowl cleaners; disinfectant; window and glass cleaner; cleaning brushes, mops; cleaning pads; other cleansers as required; toilet paper; paper towels; hand and liquid soap; napkins; toilet cakes; and trash can liners.",
+   "Award shall be made to the vendor whose quote, conforming to this RFQ is determined to be the most advantages to the government.",
+   "The award for this requirement shall be made using the policies in the Federal Acquisition Regulations (FAR) Part 12, Acquisition of Commercial Items, and in conjunction with the policies and procedures for solicitation, evaluation, and award prescribed in FAR 13.5 Simplified Procedures for Certain Commercial Items, as appropriate for this acquisition."
+  ]
+ },
+ "fit": {
+  "notice_id": "954c262f233a4f9395857c3532e599bf",
+  "fit_score": 0.12,
+  "matched_past_performance": [
+   "Custodial services, Oklahoma City Federal Building",
+   "Janitorial, state office complex",
+   "Housekeeping support, outpatient clinic"
+  ],
+  "strengths": [
+   "NAICS 561720 exact match",
+   "Total small business set-aside eligibility (SBA)",
+   "Federal janitorial past performance (GSA Region 7, VA)",
+   "CIMS-GB certification and green cleaning program",
+   "QC inspections logged in CMMS supports QCP/QAP requirement",
+   "OSHA 30 supervisors support safety program requirement",
+   "e-Verify enrollment",
+   "Floor care, restroom, window cleaning capabilities directly match scope tasks 1–5",
+   "Healthcare/infection-control experience relevant to disinfectant-cleaning standards"
+  ],
+  "gaps": [
+   "HARD DISQUALIFIER — rc-distance: Hammond Bay Biological Station (Millersburg, MI) is ~1,100 miles from Oklahoma City, far exceeding the 200-mile owner rule limit",
+   "No Michigan or Great Lakes region operational presence or workforce",
+   "No evidence of mobilization capability outside Oklahoma and neighboring states",
+   "Base period length not confirmed in shown requirements — rc-base compliance unknown",
+   "No prior USGS or DOI contract listed in past performance"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "954c262f-e8e3d739-p4-94f5af6c",
+    "quote": "The Contractor shall provide all labor, travel, administration, supervision, supplies, and equipment (except those items specifically provided by the Government as referenced in this document) to perform janitorial services at the HBBS.",
+    "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+    "page": 4,
+    "firm_answer": "Firm provides janitorial services including labor, supervision, and supplies for federal buildings. However, the firm has no demonstrated presence or workforce in Michigan, making mobilization to HBBS highly uncertain.",
+    "status": "partial",
+    "evidence": "Capabilities: 'janitorial, custodial, floor care, window cleaning'; Past performance: Custodial services, Oklahoma City Federal Building"
+   },
+   {
+    "requirement_id": "954c262f-e8e3d739-p4-6c080c38",
+    "quote": "This work shall include the cleaning of three buildings.",
+    "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+    "page": 4,
+    "firm_answer": "Firm has cleaned multi-building federal complexes (Oklahoma City Federal Building, state office complex). Capability to clean three buildings is consistent with past performance.",
+    "status": "meets",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Janitorial, state office complex"
+   },
+   {
+    "requirement_id": "954c262f-e8e3d739-p4-3d4c9646",
+    "quote": "janitorial services shall be provided 3 days each week, Monday, Wednesday, and Friday, during the months of April, May, June, July, August, and September, and twice a week on Wednesday and Friday during the months of January, February, March, October, November, December",
+    "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+    "page": 4,
+    "firm_answer": "Firm provides scheduled janitorial services on recurring weekly frequencies. Profile does not specifically address variable seasonal scheduling, but recurring scheduled service is within core capability.",
+    "status": "meets",
+    "evidence": "Capabilities: 'janitorial, custodial'; Past performance: Custodial services, Oklahoma City Federal Building (keywords: janitorial, federal building)"
+   },
+   {
+    "requirement_id": "954c262f-e8e3d739-p6-a1bd714a",
+    "quote": "The Contractor shall establish a quality control program to assure the requirements of the contract are provided as specified.",
+    "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+    "page": 6,
+    "firm_answer": "Firm has a documented QC program: 'QC inspections logged in a CMMS' and is CIMS-GB certified, which requires a quality management framework.",
+    "status": "meets",
+    "evidence": "Capabilities: 'QC inspections logged in a CMMS'; 'CIMS-GB certified'"
+   },
+   {
+    "requirement_id": "954c262f-e8e3d739-p17-e325bd8d",
+    "quote": "This QCP shall be submitted at the time of proposal submission and updated as required.",
+    "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+    "page": 17,
+    "firm_answer": "Firm has an existing QC program (CMMS-logged inspections, CIMS-GB). A written QCP document can be prepared for submission. Profile does not explicitly confirm a pre-written QCP document exists.",
+    "status": "partial",
+    "evidence": "Capabilities: 'QC inspections logged in a CMMS'; 'CIMS-GB certified'"
+   },
+   {
+    "requirement_id": "954c262f-e8e3d739-p6-baabdcc6",
+    "quote": "It must specify the areas to be inspected on a scheduled or unscheduled basis and the title of the individuals who shall perform the inspections.",
+    "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+    "page": 6,
+    "firm_answer": "Firm uses CMMS for QC inspections and has OSHA 30 supervisors who could be designated inspection personnel. Profile does not explicitly describe a formal inspection plan document with area-by-area breakdown.",
+    "status": "partial",
+    "evidence": "Capabilities: 'QC inspections logged in a CMMS'; 'OSHA 30 supervisors'"
+   },
+   {
+    "requirement_id": "954c262f-e8e3d739-p14-0b512201",
+    "quote": "Upon commencement of work under this contract, the Contractor shall implement and maintain a safety program for employees performing work under this contract.",
+    "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+    "page": 14,
+    "firm_answer": "Firm has OSHA 30-certified supervisors, which supports a formal safety program. Profile does not explicitly name a written safety program document.",
+    "status": "meets",
+    "evidence": "Capabilities: 'OSHA 30 supervisors'"
+   },
+   {
+    "requirement_id": "954c262f-e8e3d739-p10-101b92cc",
+    "quote": "Task 1: The Contractor shall clean general, office, stairways, and lobby spaces.",
+    "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+    "page": 10,
+    "firm_answer": "Firm performs custodial and janitorial services for federal office buildings including office, lobby, and common area cleaning.",
+    "status": "meets",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building (keywords: custodial, janitorial, federal building); Janitorial, state office complex (keywords: janitorial, office)"
+   },
+   {
+    "requirement_id": "954c262f-e8e3d739-p11-50314382",
+    "quote": "Task 2: The Contractor shall clean restrooms.",
+    "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+    "page": 11,
+    "firm_answer": "Firm has restroom cleaning in past performance at federal building and healthcare facility, including disinfectant cleaning and infection control.",
+    "status": "meets",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building (keywords: restrooms); Housekeeping support, outpatient clinic (keywords: infection control, terminal cleaning)"
+   },
+   {
+    "requirement_id": "954c262f-e8e3d739-p11-15e654b3",
+    "quote": "Standard: Restrooms shall be cleaned with a disinfectant cleaner.",
+    "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+    "page": 11,
+    "firm_answer": "Firm's healthcare past performance explicitly includes infection control and terminal cleaning, demonstrating disinfectant cleaning competency.",
+    "status": "meets",
+    "evidence": "Past performance: Housekeeping support, outpatient clinic (keywords: infection control, terminal cleaning, medical)"
+   },
+   {
+    "requirement_id": "954c262f-e8e3d739-p12-f66fbc4a",
+    "quote": "Task 3: The Contractor shall clean all common areas to include drinking fountains, kitchen, and entrances.",
+    "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+    "page": 12,
+    "firm_answer": "Common area cleaning is within the firm's standard janitorial scope as evidenced by federal building and office complex past performance.",
+    "status": "meets",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Janitorial, state office complex"
+   },
+   {
+    "requirement_id": "954c262f-e8e3d739-p13-4c72634d",
+    "quote": "Task 4: The Contractor shall maintain floors by sweeping, mopping and buffing.",
+    "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+    "page": 13,
+    "firm_answer": "Floor care is explicitly listed as a firm capability and appears in past performance keywords.",
+    "status": "meets",
+    "evidence": "Capabilities: 'floor care'; Past performance: Custodial services, Oklahoma City Federal Building (keywords: floor care)"
+   },
+   {
+    "requirement_id": "954c262f-e8e3d739-p13-c7aa1a34",
+    "quote": "Task 5: The contractor shall clean glass surfaces.",
+    "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+    "page": 13,
+    "firm_answer": "Window cleaning is explicitly listed as a firm capability.",
+    "status": "meets",
+    "evidence": "Capabilities: 'window cleaning'; Past performance: Janitorial, state office complex (keywords: windows)"
+   },
+   {
+    "requirement_id": "954c262f-e8e3d739-p13-101f6276",
+    "quote": "Task 6: The contractor shall clean carpets and upholstered chairs.",
+    "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+    "page": 13,
+    "firm_answer": "Carpet cleaning appears in past performance keywords for the state office complex contract.",
+    "status": "meets",
+    "evidence": "Past performance: Janitorial, state office complex (keywords: carpet)"
+   },
+   {
+    "requirement_id": "954c262f-e8e3d739-p7-eff61afb",
+    "quote": "No chemical or cleaning compounds or combination of chemicals or compounds shall be used that will damage, weaken, or discolor floors, floor coverings, woodwork, or furniture.",
+    "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+    "page": 7,
+    "firm_answer": "Firm operates a green cleaning program, indicating awareness of safe chemical selection. CIMS-GB certification also covers chemical management standards.",
+    "status": "meets",
+    "evidence": "Capabilities: 'green cleaning program'; 'CIMS-GB certified'"
+   },
+   {
+    "requirement_id": "954c262f-e8e3d739-p6-d597994a",
+    "quote": "The Contractor shall establish and maintain an Operation Management Plan for each building and updated with each option.",
+    "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+    "page": 6,
+    "firm_answer": "Firm uses CMMS for operations tracking. Profile does not explicitly reference building-specific Operation Management Plans, but CMMS capability supports this.",
+    "status": "partial",
+    "evidence": "Capabilities: 'QC inspections logged in a CMMS'"
+   },
+   {
+    "requirement_id": "954c262f-e8e3d739-p45-76d7df30",
+    "quote": "The offeror must submit past project information similar in scope over the past five (5) years, no more than three (3) past project references, including both prime and subcontractor.",
+    "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+    "page": 45,
+    "firm_answer": "Firm has three NAICS 561720 past performance references within the past five years: Oklahoma City Federal Building (2022–2025), state office complex (2020–2023), and VA outpatient clinic (2023–2025). All are within the 5-year window.",
+    "status": "meets",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Janitorial, state office complex; Housekeeping support, outpatient clinic"
+   },
+   {
+    "requirement_id": "954c262f-e8e3d739-p46-b3810faa",
+    "quote": "Contractor shall submit pricing as follows:",
+    "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+    "page": 46,
+    "firm_answer": "Firm can prepare a price submission. However, accurate pricing for a Michigan location from an Oklahoma-based firm would require significant travel/mobilization cost loading, making the firm uncompetitive.",
+    "status": "partial",
+    "evidence": "Owner rule [rc-distance] disqualifier; firm profile does not indicate Michigan pricing capability"
+   },
+   {
+    "requirement_id": "954c262f-e8e3d739-p35-c0841ff4",
+    "quote": "Payment requests must be submitted electronically through the U.",
+    "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+    "page": 35,
+    "firm_answer": "Profile does not explicitly mention IPP (Invoice Processing Platform) enrollment, but this is a standard federal invoicing requirement. Unknown whether firm is currently registered.",
+    "status": "unknown",
+    "evidence": "No mention of IPP in firm profile"
+   },
+   {
+    "requirement_id": "954c262f-e8e3d739-p37-de39ef0b",
+    "quote": "This requirement must be incorporated into any subcontracts that require subcontractor personnel to have routine unsupervised access to a federally-controlled facility for more than 180 calendar days or any unsupervised access to a federally-controlled Level 3 or 4 information system.",
+    "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+    "page": 37,
+    "firm_answer": "Profile does not address HSPD-12 / PIV badging or facility access card requirements. Unknown whether firm has experience with federal access card programs beyond standard key control.",
+    "status": "unknown",
+    "evidence": "No mention of HSPD-12, PIV, or federal access card program in firm profile"
+   },
+   {
+    "requirement_id": "954c262f-e8e3d739-p9-01a49fc7",
+    "quote": "The Contractor shall perform this contract in a safe manner, observing any necessary safety precautions.",
+    "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+    "page": 9,
+    "firm_answer": "Firm has OSHA 30-certified supervisors, demonstrating a commitment to workplace safety.",
+    "status": "meets",
+    "evidence": "Capabilities: 'OSHA 30 supervisors'"
+   },
+   {
+    "requirement_id": "954c262f-e8e3d739-p10-37fb0d60",
+    "quote": "The Contractor shall maintain an accurate record of all accidents and shall report to the CO or COR all accidents resulting in death, trauma, or occupational disease.",
+    "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+    "page": 10,
+    "firm_answer": "Firm has OSHA 30 supervisors and a CMMS system that supports recordkeeping. Accident recordkeeping is consistent with OSHA 30 training requirements.",
+    "status": "meets",
+    "evidence": "Capabilities: 'OSHA 30 supervisors'; 'QC inspections logged in a CMMS'"
+   },
+   {
+    "requirement_id": "954c262f-e8e3d739-p7-9414d51a",
+    "quote": "Key Control Program - the Contractor shall establish and maintain effective control of keys",
+    "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+    "page": 7,
+    "firm_answer": "Firm has held federal building access contracts (GSA Region 7, VA) which require key control. Profile does not explicitly describe a formal written Key Control Program document.",
+    "status": "partial",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building (federal building access); Housekeeping support, outpatient clinic"
+   },
+   {
+    "requirement_id": "954c262f-e8e3d739-p14-e30c95bb",
+    "quote": "Under this contract all cleaning shall be done after working hours (8:30 am to 4:30 pm), Monday through Friday (except Federal holidays), unless agreed otherwise, and in accordance with the attached work schedule.",
+    "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+    "page": 14,
+    "firm_answer": "Firm's past performance at the Oklahoma City Federal Building includes after-hours cleaning (keywords: day porter, janitorial, federal building). After-hours scheduling is within firm's demonstrated capability.",
+    "status": "meets",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building (keywords: custodial, janitorial, federal building)"
+   },
+   {
+    "requirement_id": "954c262f-e8e3d739-p33-ffb532fd",
+    "quote": "Upon contract award, the contractor shall furnish to the contracting officer the name of the person he has designated and assigned exclusively to this contract as his agent or representative.",
+    "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+    "page": 33,
+    "firm_answer": "Firm has supervisory staff (OSHA 30 supervisors, 38 W-2 employees) from which a dedicated contract representative could be designated. However, assigning staff exclusively to a Michigan contract from an Oklahoma base is operationally problematic.",
+    "status": "gap",
+    "evidence": "Owner rule [rc-distance] disqualifier; no Michigan workforce in profile"
+   },
+   {
+    "requirement_id": "954c262f-e8e3d739-p5-b99849a5",
+    "quote": "In the office building (Attachment B is 1,851 sq. ft. and Attachment B-1 is 788 sq. ft.) janitorial services shall be provided once a week, on Wednesday, during all months of the year",
+    "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+    "page": 5,
+    "firm_answer": "Firm provides weekly scheduled janitorial services for office buildings. Scope size (1,851 + 788 sq. ft.) is well within the firm's demonstrated capacity.",
+    "status": "meets",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Janitorial, state office complex"
+   },
+   {
+    "requirement_id": "954c262f-e8e3d739-p1-76a80b9b",
+    "quote": "Any representations and/or certifications attached to this Request for Quotation must be completed by the quoter.",
+    "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+    "page": 1,
+    "firm_answer": "Firm can complete standard FAR representations and certifications. WOSB, EDWOSB, and SBA set-aside certifications are available. e-Verify enrollment supports employment eligibility certifications.",
+    "status": "meets",
+    "evidence": "Firm profile: 'set-asides the firm can claim: WOSB, EDWOSB, SBA'; 'e-Verify'"
+   },
+   {
+    "requirement_id": "954c262f-e8e3d739-p46-c8615f6a",
+    "quote": "The award shall be made to the vendor whose offer, conforming to this RFQ, is determined to be the most advantageous to the government, based on price and the other non-price factors listed above.",
+    "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+    "page": 46,
+    "firm_answer": "Firm has strong technical capability and relevant past performance for non-price factors. However, travel and mobilization costs from Oklahoma to Michigan would make the firm's price uncompetitive against local Michigan vendors.",
+    "status": "gap",
+    "evidence": "Owner rule [rc-distance] disqualifier; no Michigan presence in firm profile"
+   },
+   {
+    "requirement_id": "954c262f-e8e3d739-p14-56c1dc7a",
+    "quote": "The Government shall furnish the necessary equipment and supplies, including but not limited to the following: vacuum cleaner(s) and attachments; floor buffer(s); wax stripper(s); floor wax, toilet bowl cleaners; disinfectant; window and glass cleaner; cleaning brushes, mops; cleaning pads; other cleansers as required; toilet paper; paper towels; hand and liquid soap; napkins; toilet cakes; and trash can liners.",
+    "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+    "page": 14,
+    "firm_answer": "Government furnishes major supplies and equipment. This reduces the firm's supply chain burden significantly. Firm's profile notes supply management capability (CMMS, supply reorder process), which aligns with managing GFE/GFS.",
+    "status": "meets",
+    "evidence": "Capabilities: 'QC inspections logged in a CMMS'; requirement p10-d925f676 (written supply reorder requests to COR)"
+   },
+   {
+    "requirement_id": "954c262f-e8e3d739-p40-84abb576",
+    "quote": "The following factors shall be used to evaluate offers:",
+    "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+    "page": 40,
+    "firm_answer": "Evaluation factors include technical capability, past performance, and price. Firm has strong technical and past performance credentials for janitorial services, but geographic distance creates a fatal pricing disadvantage.",
+    "status": "partial",
+    "evidence": "Owner rule [rc-distance] disqualifier; strong technical/PP credentials offset by distance-driven cost uncompetitiveness"
+   },
+   {
+    "requirement_id": "954c262f-e8e3d739-p47-ea6c6aa6",
+    "quote": "Quotes must be received in the contracting office no later than 12:00 P.M.",
+    "source_file": "e8e3d73950854b8ba093c6a276facf84.pdf",
+    "page": 47,
+    "firm_answer": "Firm can submit a quote by the deadline. However, the notice shows days_to_close as -6.7, meaning the deadline has already passed.",
+    "status": "gap",
+    "evidence": "Notice metadata: days to close = -6.7 (deadline passed)"
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "954c262f233a4f9395857c3532e599bf",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-09-07T12:00:00-06:00",
+   "site_visit": null,
+   "period_of_performance": null,
+   "source_quotes": [
+    "Quotes must be received in the contracting office no later than 12:00 P.M."
+   ]
+  },
+  "days_to_close": -6.699493125914352,
+  "set_aside_note": "ELIGIBLE — The notice is set aside as \"Small Business Set Aside - Total,\" and Red Cedar Facility Services qualifies as a small business (SBA is listed among the firm's claimable set-asides).",
+  "amendment_note": "no amendment",
+  "calendar_entries": [
+   {
+    "title": "Proposal Due",
+    "date": "2026-09-07",
+    "note": "Quotes due no later than 12:00 P.M. (Mountain Time, UTC-6). Email to Yvette_Sornberger@ios.doi.gov.",
+    "source_quote": "Quotes must be received in the contracting office no later than 12:00 P.M."
+   },
+   {
+    "title": "Decide By (2 business days before proposal due)",
+    "date": "2026-09-03",
+    "note": "Internal go/no-go decision deadline — two business days before the 2026-09-07 proposal due date.",
+    "source_quote": "Quotes must be received in the contracting office no later than 12:00 P.M."
+   }
+  ]
+ },
+ "model_calls": 5,
+ "tokens_in": 66215,
+ "tokens_out": 14460,
+ "seconds": 151.84,
+ "produced_at": "2026-09-14T05:49:48.044066-05:00"
+}

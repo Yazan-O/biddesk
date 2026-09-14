@@ -1,0 +1,733 @@
+{
+ "notice_id": "54a51abcd35345f581456df8a193e0ac",
+ "firm_slug": "sooner-systems",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:52:37-05:00",
+ "evidence_basis": null,
+ "days_to_close": -58.66871360061343,
+ "closed": true,
+ "response_kind": "RFI response (capability statement, not a proposal)",
+ "card": {
+  "notice_id": "54a51abcd35345f581456df8a193e0ac",
+  "firm_slug": "sooner-systems",
+  "situation": "VA Technology Acquisition Center is seeking sources for DASL Bridge Support Services — enterprise data management, business architecture, data engineering, and Palantir/Foundry-compatible governance support for the NCA EISS modernization effort (R499--VA-26-00068264).\nThis Sources Sought reached the owner because Sooner Systems LLC holds NAICS 541512 and SDVOSB status; a response here means submitting a capability statement (RFI response), not a proposal.",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "Firm holds SDVOSB status and NAICS 541512, making it formally eligible to respond to this unrestricted Sources Sought notice [profile: SDVOSB eligibility, NAICS 541512 match].",
+   "22 cleared staff at Secret level satisfies the background investigation roster requirement and demonstrates a security-ready workforce [54a51abc-f36796d8-p1-bae7510d].",
+   "24x7 NOC in Norman, OK fulfills the contractor-facility performance requirement and supports the one-hour vulnerability notification obligation [54a51abc-f36796d8-p1-33ee0486]."
+  ],
+  "reasons_against": [
+   "VA has stated intent to solicit this requirement as a sole source, meaning no competitive opportunity exists regardless of the firm's qualifications [\"The purpose of this Amendment is to advise all prospective vendors that VA intends to solict this requirement as a sole source.\"].",
+   "The firm has zero capability in the core technical areas — enterprise data management, business architecture, data engineering, Palantir/Foundry, data reconciliation, or EISS modernization — leaving 16 of 29 requirements as outright gaps [54a51abc-f36796d8-p1-30e64ff8].",
+   "No past performance record matches data engineering, business architecture, Palantir/Foundry, or NCA/EISS modernization, violating owner rule ss-pp and leaving the capability statement without credible evidence of relevant experience [profile: matched past performance — none]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-07-15",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-07-17T15:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": "Six (6) months from date of award",
+   "source_quotes": [
+    "PERFORMANCE DETAILS PERFORMANCE PERIOD The PoP shall be six (6) months from date of award."
+   ]
+  },
+  "fit_score": 0.2292,
+  "matrix_summary": "3 of 29 requirements met, 5 partial, 16 gap, 5 unknown",
+  "evidence_link": "https://sam.gov/workspace/contract/opp/54a51abcd35345f581456df8a193e0ac/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-30e64ff8",
+   "quote": "The contract shall provide enterprise data management, business architecture, data engineering, and governance support services for the NCA EISS modernization effort.",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "firm_answer": "Firm profile lists IT support, help desk, and cybersecurity staffing. No enterprise data management, business architecture, data engineering, or governance capability is described anywhere in the profile.",
+   "status": "gap",
+   "evidence": "Firm capabilities: Tier 1-3 help desk, desktop and network administration, Microsoft 365 and Azure administration, RMF/ATO documentation, vulnerability management, cybersecurity staffing. No data management or architecture capability listed."
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-5606138d",
+   "quote": "Services shall include data reconciliation, source system assessment, business process analysis, data model development, Enterprise Information Model alignment, dashboard and reporting requirements, configuration support, and coordination with DoW stakeholders for cemetery operations, burial eligibility, interment scheduling, and person-level record reconciliation.",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "firm_answer": "None of these service areas — data reconciliation, data model development, Enterprise Information Model alignment, cemetery operations, burial eligibility, interment scheduling — appear anywhere in the firm profile or past performance.",
+   "status": "gap",
+   "evidence": "No matching capability or past performance in firm profile."
+  },
+  {
+   "requirement_id": "54a51abc-a50d6cef-p1-fe39f381",
+   "quote": "All deliverables shall be compatible and interoperable with VA's existing Palantir Foundry environment, supporting data reconciliation, cross-system interoperability, and enterprise governance across NCA, OIT, and DoW stakeholders.",
+   "source_file": "a50d6cef7d7445e39dfcb902669378b9.docx",
+   "page": 1,
+   "firm_answer": "Firm profile contains no mention of Palantir Foundry, data reconciliation platforms, or enterprise governance tooling. This is a core deliverable requirement the firm cannot meet.",
+   "status": "gap",
+   "evidence": "No Palantir/Foundry capability or experience in firm profile."
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-364a9a70",
+   "quote": "This effort shall coordinate with existing DGA enterprise data support activities, including data engineering, authoritative data source alignment, enterprise data standards, business architecture artifacts, Enterprise Information Model artifacts, Common Operating Platform capabilities, Palantir/Foundry data object development, and VA Data Governance Council-aligned governance processes.",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "firm_answer": "Firm profile does not reference DGA, Enterprise Information Model, Common Operating Platform, Palantir/Foundry data object development, or VA Data Governance Council. No relevant capability exists.",
+   "status": "gap",
+   "evidence": "No matching capability in firm profile."
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-82a7b99c",
+   "quote": "BUSINESS ARCHITECTURE AND SYSTEMS INTEGRATION SUPPORT (Estimated LOE: 2 FTE) The Contractor shall provide business architecture and systems integration support to align NCA operational requirements, business capabilities, and enterprise data needs with EISS implementation activities.",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "firm_answer": "Firm profile does not include business architecture or systems integration support capabilities. The firm's stated work is IT help desk, desktop/network administration, M365/Azure, and cybersecurity staffing.",
+   "status": "gap",
+   "evidence": "No business architecture or systems integration capability in firm profile."
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-dfc36882",
+   "quote": "Support shall include analysis of business functions, identification of integration points, and development of business and technical architecture artifacts to support interoperability across intake, case management, burial eligibility, and cemetery operations workflows",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "firm_answer": "Firm has no capability in business function analysis, architecture artifact development, or cemetery/burial eligibility domain workflows. No past performance in any related area.",
+   "status": "gap",
+   "evidence": "No matching capability or past performance in firm profile."
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-a6844210",
+   "quote": "The Contractor shall evaluate EISS out-of-box data validation, deduplication, and curation automation capabilities against NCA requirements and shall produce an overall assessment of NCA's data readiness for migration to EISS, including a pre-migration data remediation roadmap with prioritized remediation actions and estimated effort.",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "firm_answer": "Firm has no EISS knowledge, no data validation/deduplication/curation capability, and no data migration assessment experience. This requirement is entirely outside the firm's scope.",
+   "status": "gap",
+   "evidence": "No data migration, EISS, or data readiness assessment capability in firm profile."
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-f11d4c31",
+   "quote": "The Contractor shall assess whether existing DGA Person, Veteran, Employee, and related business data objects, authoritative data standards, data quality rules, and data reconciliation patterns can be reused or extended to support NCA EISS person-level reconciliation, burial eligibility, pre-need records, service history, Next of Kin, Interment, Eligibility Status, Headstone/Marker, Reservation, and cemetery operations data entities.",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "firm_answer": "Firm has no experience with DGA data objects, VA data standards, or NCA-specific data entities (burial eligibility, interment, headstone/marker, etc.). Entirely outside firm scope.",
+   "status": "gap",
+   "evidence": "No DGA, VA data standards, or NCA domain capability in firm profile."
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-d678711a",
+   "quote": "PROGRAM IMPLEMENTATION AND SUPPORT (Estimated Level of effort (LOE): 1 Full time employee (FTE)) The Contractor shall provide project management support for EISS implementation and related modernization activities, including project planning, schedule management, stakeholder coordination, risk management, status reporting, and program oversight activities.",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "firm_answer": "Firm profile does not list program management, EISS implementation support, or modernization program oversight as a capability. ITIL 4 certification suggests process discipline but does not constitute EISS program management experience.",
+   "status": "gap",
+   "evidence": "No EISS program management capability in firm profile; ITIL 4 noted but insufficient."
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-5634081a",
+   "quote": "If Artificial Intelligence (AI) is part of the Contractor system/solution, the Contractor shall be in compliance with E.O. 13960 and 14319, OMB Memorandums M-25-21, M-25-22, and M-26-04, and VA Directive and Handbook 6500",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "firm_answer": "Firm profile makes no mention of AI systems, LLM development, or compliance with AI executive orders or OMB memoranda. If AI is used in performance, this requirement cannot be confirmed met.",
+   "status": "unknown",
+   "evidence": "No AI capability or compliance posture stated in firm profile."
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-43d3d494",
+   "quote": "The Contractor shall ensure that all AI Systems, including Large Language Models (LLM), whether standalone LLMs or integrated into broader software platforms, procured under this effort and/or used in performance of this contract complies with the Unbiased AI Principles as defined in Executive Order 14319 and OMB Memorandum M-26-04",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "firm_answer": "No AI/LLM capability, governance framework, or compliance posture described in firm profile. Cannot confirm compliance.",
+   "status": "unknown",
+   "evidence": "No AI/LLM capability in firm profile."
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-908c1cf0",
+   "quote": "The Contractor shall ensure all Contractor delivered applications and systems provide user authentication services compliant with the National Institute of Standards and Technology (NIST) Special Publication (SP) 800-63-4, VA Handbook 6500, and VA IAM enterprise requirements",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "firm_answer": "Firm has RMF/ATO documentation and cybersecurity capability (ACAS/Nessus, CMMC Level 2, Security+), which touches NIST frameworks, but no stated experience delivering applications with PIV/CAC authentication or VA IAM compliance.",
+   "status": "partial",
+   "evidence": "Capability: RMF/ATO documentation, vulnerability management (ACAS/Nessus), CMMC Level 2 self-assessed. Partial NIST alignment only."
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-911d3e62",
+   "quote": "The Contractor shall ensure all Contractor delivered applications and systems conform to the specific Identity and Access Management PIV requirements set forth in the Office of Management and Budget (OMB) Memoranda M-05-24, M-19-17, M-22-09, and NIST Federal Information Processing Standard (FIPS) 201-3.",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "firm_answer": "Firm profile does not mention PIV card compliance, FIPS 201-3, or IAM application delivery. Firm is a staffing and support services provider, not an application developer.",
+   "status": "gap",
+   "evidence": "No PIV/FIPS 201 application delivery capability in firm profile."
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-be8518a5",
+   "quote": "Contractor delivered applications and systems shall be on the FIPS 201 Approved Product List (APL).",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "firm_answer": "Firm does not deliver applications or systems; it provides IT support staffing and services. No APL-listed products are referenced in the firm profile.",
+   "status": "gap",
+   "evidence": "Firm is a services/staffing provider; no application products listed in profile."
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-e38ee72c",
+   "quote": "INTERNET PROTOCOL VERSION 6 (IPv6) The Contractor solution shall support IPv6-Only based upon the memo issued by the Office of Management and Budget (OMB) on November 19, 2020",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "firm_answer": "Firm profile does not mention IPv6 solution delivery. Network administration capability is listed but IPv6-only solution compliance is not addressed.",
+   "status": "unknown",
+   "evidence": "Network administration capability listed; IPv6-only compliance not stated."
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-6445d0d3",
+   "quote": "STANDARD COMPUTER CONFIGURATION The Contractor IT end user solution that is developed for use on standard VA computers shall be compatible with and be supported on the standard VA operating system, Windows 11, Edge (Chromium based), and 365 Apps for enterprise.",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "firm_answer": "Firm has Microsoft 365 and Azure administration capability and desktop support experience, which is consistent with Windows 11/M365 environments. However, firm does not develop IT end-user solutions for VA deployment.",
+   "status": "partial",
+   "evidence": "Capability: Microsoft 365 and Azure administration; Past performance: Systems administration and Microsoft 365 migration (Oklahoma National Guard)."
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-60e0b443",
+   "quote": "The Contractor shall comply with the VA OIT Technical Reference Model (VA TRM).",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "firm_answer": "Firm profile does not reference VA TRM compliance. No VA OIT delivery experience is documented in the firm's past performance.",
+   "status": "unknown",
+   "evidence": "No VA TRM compliance experience stated in firm profile."
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-f7e75a1b",
+   "quote": "VETERAN FOCUSED INTEGRATION PROCESS (VIP) AND PRODUCT LINE MANAGEMENT (PLM) The Contractor shall support VA efforts IAW the Veteran-Focused Integration Process (VIP) Guide and Product Line Management (PLM) Playbook.",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "firm_answer": "Firm profile does not mention VA VIP or PLM processes. No VA OIT delivery history is present in the firm's past performance records.",
+   "status": "gap",
+   "evidence": "No VIP/PLM experience in firm profile or past performance."
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-15bb2338",
+   "quote": "PROCESS ASSET LIBRARY (PAL) The Contractor shall perform their duties consistent with the processes defined in the OIT Process Asset Library (PAL).",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "firm_answer": "Firm profile does not reference VA OIT PAL. No prior VA OIT contract performance is listed in the firm's past performance.",
+   "status": "gap",
+   "evidence": "No VA OIT PAL experience in firm profile."
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-7719c4b3",
+   "quote": "Within 3 business days after award, the Contractor shall provide a roster of Contractor and Subcontractor employees to the COR to begin their background investigations in accordance with the PAL template artifact.",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "firm_answer": "Firm has 22 cleared staff (Secret) and experience managing background investigation processes. Can likely meet the roster submission timeline, though PAL template familiarity is unconfirmed.",
+   "status": "partial",
+   "evidence": "Capability: 22 cleared staff (Secret); background investigation process experience implied by cleared workforce."
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-bae7510d",
+   "quote": "The submitted Contractor Staff Roster must indicate the required Background Investigation Level for each Contractor individual based upon the tasks the Contractor individual will be working, in accordance with their submitted proposal.",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "firm_answer": "Firm maintains 22 cleared staff at Secret level and can document background investigation levels. Administrative compliance with this submission requirement is feasible.",
+   "status": "meets",
+   "evidence": "Capability: 22 cleared staff (Secret); cleared workforce management experience."
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-16f91940",
+   "quote": "The Contractor shall notify the COR/CO within one hour of disclosure or successful exploits of any vulnerability which can compromise the confidentiality, integrity, or availability of the information systems.",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "firm_answer": "Firm's 24x7 NOC and vulnerability management capability (ACAS/Nessus) support rapid vulnerability notification. One-hour notification is operationally feasible given 24x7 NOC.",
+   "status": "meets",
+   "evidence": "Capability: vulnerability management (ACAS/Nessus), 24x7 NOC; Past performance: Network administration and cybersecurity support (FAA) — keywords: vulnerability, incident response."
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-72ae1e40",
+   "quote": "VIRUSES, FIRMWARE, AND MALWARE The Contractor shall execute due diligence to ensure all provided software and patches, including third-party patches, are free of viruses and/or malware before releasing them to or installing them on VA information systems.",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "firm_answer": "Firm has cybersecurity and vulnerability management capability (ACAS/Nessus, CMMC Level 2) consistent with malware/virus due diligence requirements. However, firm does not deliver software products to VA.",
+   "status": "partial",
+   "evidence": "Capability: vulnerability management (ACAS/Nessus), CMMC Level 2 self-assessed; Past performance: Network administration and cybersecurity support (FAA) — keywords: STIG, vulnerability."
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-6a4375a3",
+   "quote": "The Contractor shall comply with the Source Code Harmonization and Reuse in Information Technology (SHARE IT) Act, P.L. 118-187, when developing and delivering custom code first produced for the VA in the performance of this Contract/Order.",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "firm_answer": "Firm profile does not mention custom code development or SHARE IT Act compliance. Firm is a services and staffing provider, not a software development firm.",
+   "status": "unknown",
+   "evidence": "No software development or SHARE IT Act compliance capability stated in firm profile."
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-33ee0486",
+   "quote": "Tasks under this PWS shall be performed at Contractor facilities.",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "firm_answer": "Firm has facilities in Norman, OK including a 24x7 NOC. Contractor-facility performance is feasible from an infrastructure standpoint.",
+   "status": "meets",
+   "evidence": "Capability: 24x7 NOC in Norman, OK — contractor facility available."
+  },
+  {
+   "requirement_id": "54a51abc-a50d6cef-p1-d5e2a1c1",
+   "quote": "Specific examples or references provided must include the agency, point of contact, dollar value, and contract number.",
+   "source_file": "a50d6cef7d7445e39dfcb902669378b9.docx",
+   "page": 1,
+   "firm_answer": "Firm past performance records include agency names and dollar values but do not list contract numbers or points of contact in the provided profile. Partial compliance with this submission requirement.",
+   "status": "partial",
+   "evidence": "Past performance lists agency and dollar value but no contract numbers or POC details in firm profile."
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-49c5381d",
+   "quote": "The Contractor shall facilitate governance planning, stakeholder coordination, meeting management, and development of governance documentation to support effective program oversight and decision-making.",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "firm_answer": "Firm profile does not include governance planning, stakeholder coordination for enterprise programs, or governance documentation development. These are outside the firm's stated service lines.",
+   "status": "gap",
+   "evidence": "No governance planning or enterprise program coordination capability in firm profile."
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-cbdfee28",
+   "quote": "Support shall include configuration planning, data mapping, data model alignment, and stakeholder coordination to ensure MVP functionality aligns with prioritized business capabilities and operational objectives.",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "firm_answer": "Firm has no data mapping, data model alignment, or MVP configuration planning capability. These are core deliverable requirements entirely outside the firm's documented service offerings.",
+   "status": "gap",
+   "evidence": "No data mapping, data modeling, or MVP configuration capability in firm profile."
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-695ee83e",
+   "quote": "Process maps, system/data flow diagrams, and gap analysis findings shall identify data flows, system interactions, and process outputs that must be compatible with VA's Palantir/Foundry environment for enterprise integration, reuse, analytics, dashboarding, reporting, or operational workflow support.",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "firm_answer": "Firm has no process mapping, data flow diagramming, or Palantir/Foundry compatibility assessment capability. This deliverable requirement is entirely outside the firm's scope.",
+   "status": "gap",
+   "evidence": "No process mapping, data flow, or Palantir/Foundry capability in firm profile."
+  }
+ ],
+ "matrix_dropped": 8,
+ "matrix_dropped_rows": [
+  {
+   "requirement_id": "ss-types",
+   "quote": "VA intends to solict this requirement as a sole source",
+   "source_file": "notice description",
+   "page": 1,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "ss-pp",
+   "quote": "The contract shall provide enterprise data management, business architecture, data engineering, and governance support services for the NCA EISS modernization effort.",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-5890e493",
+   "quote": "The contractor shall leverage existing VA Office of Data Governance and Analytics DGA enterprise data management tools, standards, and governance processes, with all deliverables designed for compatibility with VA's Palantir Foundry environment.",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-8233b02c",
+   "quote": "The Contractor shall support the Government in documenting, analyzing, and validating current-state (\"as-is\") business processes, workflows, data flows, and operational dependencies associated with NCA operations and EISS activities",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-cddee9d4",
+   "quote": "SECURITY INCIDENT INVESTIGATION The Contractor, Subcontractor, their employees, or business associates shall immediately (within one hour) report suspected security / privacy incidents to the VA OIT's Enterprise Service Desk (ESD) by calling (855) 673-4357 (TTY: 711).",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-f398ab8e",
+   "quote": "The Contractor shall comply with the department's Authoritative Data Source (ADS) requirement that VA systems, services, and processes throughout the enterprise shall access VA data solely through official VA ADSs where applicable",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-80e09583",
+   "quote": "The Contractor shall ensure that all delivered applications and system solutions support: Interfacing with VA's Master Person Index (MPI) (formerly the Master Veteran Index (MVI)) to provision identity attributes, if the solution relies on VA user identities.",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "54a51abc-f36796d8-p1-d1-d6c11ec8",
+   "quote": "PERFORMANCE DETAILS PERFORMANCE PERIOD The PoP shall be six (6) months from date of award.",
+   "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+   "page": 1,
+   "reason": "unknown_requirement"
+  }
+ ],
+ "fit_score_code": 0.2292,
+ "drafts": {
+  "capability_statement": "Sooner Systems LLC — Capability Statement\nR499--VA-26-00068264 | DASL Bridge Support Services | NAICS 541512\n\nSooner Systems LLC is a Service-Disabled Veteran-Owned Small Business (SDVOSB) headquartered in Norman, Oklahoma, providing IT support, cybersecurity, and infrastructure services to federal agencies under NAICS 541512.\n\nOur relevant capabilities include:\n\n• Cybersecurity & Compliance: RMF/ATO documentation, vulnerability management (ACAS/Nessus), CMMC Level 2 self-assessment, ITIL 4 and Security+ certified staff, and NIST SP 800-series framework alignment.\n• Infrastructure & Systems Administration: Microsoft 365 and Azure administration, desktop and network administration, and Windows 11/M365 environment support consistent with VA standard computer configuration requirements.\n• Cleared Workforce: 22 staff holding active Secret clearances, with established background investigation management processes. We can deliver a compliant contractor staff roster within 3 business days of award.\n• Incident Response: 24x7 NOC operations in Norman, OK, supporting one-hour vulnerability notification and continuous monitoring obligations.\n• Contractor Facility: All work can be performed from our Norman, OK facility, satisfying the contractor-facility performance requirement.\n\nSooner Systems LLC acknowledges that the core data engineering, Palantir/Foundry, business architecture, and NCA EISS modernization requirements of this effort represent capability areas outside our current service lines. We respectfully submit this statement to inform the VA's market research and welcome any follow-on dialogue regarding scope or teaming opportunities.\n\nPoint of Contact: [Owner name, title, phone, email]",
+  "questions_for_co": [
+   "The amendment states VA intends to solicit this requirement as a sole source — can the Contracting Officer confirm whether this Sources Sought is being used solely to satisfy the J&A market research requirement, or whether a competitive solicitation remains possible if sufficient capable sources respond? [54a51abc-f36796d8-p1-30e64ff8]",
+   "All deliverables must be compatible and interoperable with VA's existing Palantir Foundry environment — will the government provide access to Palantir Foundry documentation, existing data object schemas, or a sandbox environment to prospective contractors during performance, or is prior Foundry experience a prerequisite for award? [54a51abc-a50d6cef-p1-fe39f381]",
+   "The PWS references compliance with the VA OIT Technical Reference Model (VA TRM) and the OIT Process Asset Library (PAL) — will the government provide current versions of these documents to the awardee at kickoff, or are offerors expected to demonstrate prior familiarity with both as a qualification threshold? [54a51abc-f36796d8-p1-60e0b443, 54a51abc-f36796d8-p1-15bb2338]",
+   "The AI compliance clauses (E.O. 13960, 14319, OMB M-25-21, M-25-22, M-26-04) apply 'if AI is part of the Contractor system/solution' — does the government anticipate or require the use of AI or LLM tools in performance of this PWS, or is AI use entirely at contractor discretion? [54a51abc-f36796d8-p1-5634081a, 54a51abc-f36796d8-p1-43d3d494]",
+   "The IPv6-only requirement references the OMB memo of November 19, 2020 — does this apply to contractor-operated internal tooling and collaboration platforms used during performance, or only to deliverables and systems deployed into the VA network environment? [54a51abc-f36796d8-p1-e38ee72c]",
+   "The SHARE IT Act compliance clause applies to 'custom code first produced for the VA' — does the government anticipate any custom software development under this PWS, or is the scope limited to data engineering, architecture artifacts, and configuration support with no net-new code deliverables? [54a51abc-f36796d8-p1-6a4375a3]"
+  ],
+  "calendar_entries": []
+ },
+ "reader": {
+  "notice_id": "54a51abcd35345f581456df8a193e0ac",
+  "key_requirement_ids": [
+   "54a51abc-f36796d8-p1-30e64ff8",
+   "54a51abc-f36796d8-p1-5606138d",
+   "54a51abc-f36796d8-p1-d6c11ec8",
+   "54a51abc-f36796d8-p1-5890e493",
+   "54a51abc-f36796d8-p1-364a9a70",
+   "54a51abc-f36796d8-p1-ea08a817",
+   "54a51abc-f36796d8-p1-82a7b99c",
+   "54a51abc-f36796d8-p1-d678711a",
+   "54a51abc-a50d6cef-p1-fe39f381",
+   "54a51abc-f36796d8-p1-92ea4f14",
+   "54a51abc-f36796d8-p1-f11d4c31",
+   "54a51abc-f36796d8-p1-cbdfee28",
+   "54a51abc-f36796d8-p1-49c5381d",
+   "54a51abc-f36796d8-p1-b8ce2e8b",
+   "54a51abc-f36796d8-p1-7719c4b3",
+   "54a51abc-f36796d8-p1-bae7510d",
+   "54a51abc-f36796d8-p1-60e0b443",
+   "54a51abc-f36796d8-p1-908c1cf0",
+   "54a51abc-f36796d8-p1-f398ab8e",
+   "54a51abc-f36796d8-p1-5634081a",
+   "54a51abc-f36796d8-p1-6b20613a",
+   "54a51abc-f36796d8-p1-46d49481",
+   "54a51abc-f36796d8-p1-dfc36882",
+   "54a51abc-f36796d8-p1-03f05942",
+   "54a51abc-f36796d8-p1-6907f30d"
+  ],
+  "scope_summary": "The government is buying enterprise data management, business architecture, data engineering, and governance support services for the NCA EISS modernization effort, covering data reconciliation, source system assessment, business process analysis, data model development, and coordination with DoW stakeholders for cemetery operations and burial eligibility. All deliverables must be compatible and interoperable with VA's existing Palantir Foundry environment, supporting data reconciliation, cross-system interoperability, and enterprise governance across NCA, OIT, and DoW stakeholders. The period of performance is six months from date of award, with work performed at contractor facilities.",
+  "evaluation_basis": "not stated",
+  "incumbent_or_history": "none found",
+  "quotes": [
+   "The purpose of this Amendment is to advise all prospective vendors that VA intends to solict this requirement as a sole source.",
+   "The contract shall provide enterprise data management, business architecture, data engineering, and governance support services for the NCA EISS modernization effort.",
+   "Services shall include data reconciliation, source system assessment, business process analysis, data model development, Enterprise Information Model alignment, dashboard and reporting requirements, configuration support, and coordination with DoW stakeholders for cemetery operations, burial eligibility, interment scheduling, and person-level record reconciliation.",
+   "The PoP shall be six (6) months from date of award.",
+   "All deliverables shall be compatible and interoperable with VA's existing Palantir Foundry environment, supporting data reconciliation, cross-system interoperability, and enterprise governance across NCA, OIT, and DoW stakeholders.",
+   "Tasks under this PWS shall be performed at Contractor facilities.",
+   "The estimated levels of effort provided in Section 5.0 are for planning purposes; the Contractor shall propose a staffing approach, schedule, and work plan that addresses the requirements within the required period of performance.",
+   "The Contractor shall provide business architecture and systems integration support to align NCA operational requirements, business capabilities, and enterprise data needs with EISS implementation activities.",
+   "The Contractor shall assess whether existing DGA Person, Veteran, Employee, and related business data objects, authoritative data standards, data quality rules, and data reconciliation patterns can be reused or extended to support NCA EISS person-level reconciliation, burial eligibility, pre-need records, service history, Next of Kin, Interment, Eligibility Status, Headstone/Marker, Reservation, and cemetery operations data entities."
+  ]
+ },
+ "fit": {
+  "notice_id": "54a51abcd35345f581456df8a193e0ac",
+  "fit_score": 0.03,
+  "matched_past_performance": [],
+  "strengths": [
+   "SDVOSB set-aside eligibility in principle",
+   "NAICS 541512 code match on paper",
+   "22 cleared staff (Secret) available for background investigation requirements",
+   "ITIL 4 and Security+ certifications demonstrate IT discipline"
+  ],
+  "gaps": [
+   "Owner rule [ss-types] violated: notice is a sole-source, not a competitive solicitation — firm policy prohibits pursuit",
+   "Owner rule [ss-pp] violated: zero past-performance records match data engineering, business architecture, Palantir/Foundry, or EISS modernization",
+   "No Palantir/Foundry experience or capability anywhere in firm profile",
+   "No enterprise data management, data governance, or data architecture capability",
+   "No business architecture or systems integration capability",
+   "No NCA/cemetery operations domain knowledge",
+   "No EISS (Enterprise Information Support System) experience",
+   "No data reconciliation, data migration, or data model development capability",
+   "No VA DGA, Enterprise Information Model, or VA TRM compliance experience",
+   "No AI/LLM development, documentation, or compliance capability",
+   "No VIP/PLM or VA OIT Process Asset Library (PAL) experience",
+   "No IPv6 solution delivery experience stated in profile",
+   "No FIPS 201 / PIV / APL application delivery experience",
+   "No VA Master Person Index (MPI) integration experience",
+   "Sole-source procurement means no competitive opportunity regardless of qualifications"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "54a51abc-f36796d8-p1-30e64ff8",
+    "quote": "The contract shall provide enterprise data management, business architecture, data engineering, and governance support services for the NCA EISS modernization effort.",
+    "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+    "page": 1,
+    "firm_answer": "Firm profile lists IT support, help desk, and cybersecurity staffing. No enterprise data management, business architecture, data engineering, or governance capability is described anywhere in the profile.",
+    "status": "gap",
+    "evidence": "Firm capabilities: Tier 1-3 help desk, desktop and network administration, Microsoft 365 and Azure administration, RMF/ATO documentation, vulnerability management, cybersecurity staffing. No data management or architecture capability listed."
+   },
+   {
+    "requirement_id": "54a51abc-f36796d8-p1-5606138d",
+    "quote": "Services shall include data reconciliation, source system assessment, business process analysis, data model development, Enterprise Information Model alignment, dashboard and reporting requirements, configuration support, and coordination with DoW stakeholders for cemetery operations, burial eligibility, interment scheduling, and person-level record reconciliation.",
+    "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+    "page": 1,
+    "firm_answer": "None of these service areas — data reconciliation, data model development, Enterprise Information Model alignment, cemetery operations, burial eligibility, interment scheduling — appear anywhere in the firm profile or past performance.",
+    "status": "gap",
+    "evidence": "No matching capability or past performance in firm profile."
+   },
+   {
+    "requirement_id": "54a51abc-a50d6cef-p1-fe39f381",
+    "quote": "All deliverables shall be compatible and interoperable with VA's existing Palantir Foundry environment, supporting data reconciliation, cross-system interoperability, and enterprise governance across NCA, OIT, and DoW stakeholders.",
+    "source_file": "a50d6cef7d7445e39dfcb902669378b9.docx",
+    "page": 1,
+    "firm_answer": "Firm profile contains no mention of Palantir Foundry, data reconciliation platforms, or enterprise governance tooling. This is a core deliverable requirement the firm cannot meet.",
+    "status": "gap",
+    "evidence": "No Palantir/Foundry capability or experience in firm profile."
+   },
+   {
+    "requirement_id": "54a51abc-f36796d8-p1-364a9a70",
+    "quote": "This effort shall coordinate with existing DGA enterprise data support activities, including data engineering, authoritative data source alignment, enterprise data standards, business architecture artifacts, Enterprise Information Model artifacts, Common Operating Platform capabilities, Palantir/Foundry data object development, and VA Data Governance Council-aligned governance processes.",
+    "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+    "page": 1,
+    "firm_answer": "Firm profile does not reference DGA, Enterprise Information Model, Common Operating Platform, Palantir/Foundry data object development, or VA Data Governance Council. No relevant capability exists.",
+    "status": "gap",
+    "evidence": "No matching capability in firm profile."
+   },
+   {
+    "requirement_id": "54a51abc-f36796d8-p1-82a7b99c",
+    "quote": "BUSINESS ARCHITECTURE AND SYSTEMS INTEGRATION SUPPORT (Estimated LOE: 2 FTE) The Contractor shall provide business architecture and systems integration support to align NCA operational requirements, business capabilities, and enterprise data needs with EISS implementation activities.",
+    "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+    "page": 1,
+    "firm_answer": "Firm profile does not include business architecture or systems integration support capabilities. The firm's stated work is IT help desk, desktop/network administration, M365/Azure, and cybersecurity staffing.",
+    "status": "gap",
+    "evidence": "No business architecture or systems integration capability in firm profile."
+   },
+   {
+    "requirement_id": "54a51abc-f36796d8-p1-dfc36882",
+    "quote": "Support shall include analysis of business functions, identification of integration points, and development of business and technical architecture artifacts to support interoperability across intake, case management, burial eligibility, and cemetery operations workflows",
+    "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+    "page": 1,
+    "firm_answer": "Firm has no capability in business function analysis, architecture artifact development, or cemetery/burial eligibility domain workflows. No past performance in any related area.",
+    "status": "gap",
+    "evidence": "No matching capability or past performance in firm profile."
+   },
+   {
+    "requirement_id": "54a51abc-f36796d8-p1-a6844210",
+    "quote": "The Contractor shall evaluate EISS out-of-box data validation, deduplication, and curation automation capabilities against NCA requirements and shall produce an overall assessment of NCA's data readiness for migration to EISS, including a pre-migration data remediation roadmap with prioritized remediation actions and estimated effort.",
+    "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+    "page": 1,
+    "firm_answer": "Firm has no EISS knowledge, no data validation/deduplication/curation capability, and no data migration assessment experience. This requirement is entirely outside the firm's scope.",
+    "status": "gap",
+    "evidence": "No data migration, EISS, or data readiness assessment capability in firm profile."
+   },
+   {
+    "requirement_id": "54a51abc-f36796d8-p1-f11d4c31",
+    "quote": "The Contractor shall assess whether existing DGA Person, Veteran, Employee, and related business data objects, authoritative data standards, data quality rules, and data reconciliation patterns can be reused or extended to support NCA EISS person-level reconciliation, burial eligibility, pre-need records, service history, Next of Kin, Interment, Eligibility Status, Headstone/Marker, Reservation, and cemetery operations data entities.",
+    "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+    "page": 1,
+    "firm_answer": "Firm has no experience with DGA data objects, VA data standards, or NCA-specific data entities (burial eligibility, interment, headstone/marker, etc.). Entirely outside firm scope.",
+    "status": "gap",
+    "evidence": "No DGA, VA data standards, or NCA domain capability in firm profile."
+   },
+   {
+    "requirement_id": "54a51abc-f36796d8-p1-d678711a",
+    "quote": "PROGRAM IMPLEMENTATION AND SUPPORT (Estimated Level of effort (LOE): 1 Full time employee (FTE)) The Contractor shall provide project management support for EISS implementation and related modernization activities, including project planning, schedule management, stakeholder coordination, risk management, status reporting, and program oversight activities.",
+    "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+    "page": 1,
+    "firm_answer": "Firm profile does not list program management, EISS implementation support, or modernization program oversight as a capability. ITIL 4 certification suggests process discipline but does not constitute EISS program management experience.",
+    "status": "gap",
+    "evidence": "No EISS program management capability in firm profile; ITIL 4 noted but insufficient."
+   },
+   {
+    "requirement_id": "54a51abc-f36796d8-p1-5634081a",
+    "quote": "If Artificial Intelligence (AI) is part of the Contractor system/solution, the Contractor shall be in compliance with E.O. 13960 and 14319, OMB Memorandums M-25-21, M-25-22, and M-26-04, and VA Directive and Handbook 6500",
+    "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+    "page": 1,
+    "firm_answer": "Firm profile makes no mention of AI systems, LLM development, or compliance with AI executive orders or OMB memoranda. If AI is used in performance, this requirement cannot be confirmed met.",
+    "status": "unknown",
+    "evidence": "No AI capability or compliance posture stated in firm profile."
+   },
+   {
+    "requirement_id": "54a51abc-f36796d8-p1-43d3d494",
+    "quote": "The Contractor shall ensure that all AI Systems, including Large Language Models (LLM), whether standalone LLMs or integrated into broader software platforms, procured under this effort and/or used in performance of this contract complies with the Unbiased AI Principles as defined in Executive Order 14319 and OMB Memorandum M-26-04",
+    "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+    "page": 1,
+    "firm_answer": "No AI/LLM capability, governance framework, or compliance posture described in firm profile. Cannot confirm compliance.",
+    "status": "unknown",
+    "evidence": "No AI/LLM capability in firm profile."
+   },
+   {
+    "requirement_id": "54a51abc-f36796d8-p1-908c1cf0",
+    "quote": "The Contractor shall ensure all Contractor delivered applications and systems provide user authentication services compliant with the National Institute of Standards and Technology (NIST) Special Publication (SP) 800-63-4, VA Handbook 6500, and VA IAM enterprise requirements",
+    "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+    "page": 1,
+    "firm_answer": "Firm has RMF/ATO documentation and cybersecurity capability (ACAS/Nessus, CMMC Level 2, Security+), which touches NIST frameworks, but no stated experience delivering applications with PIV/CAC authentication or VA IAM compliance.",
+    "status": "partial",
+    "evidence": "Capability: RMF/ATO documentation, vulnerability management (ACAS/Nessus), CMMC Level 2 self-assessed. Partial NIST alignment only."
+   },
+   {
+    "requirement_id": "54a51abc-f36796d8-p1-911d3e62",
+    "quote": "The Contractor shall ensure all Contractor delivered applications and systems conform to the specific Identity and Access Management PIV requirements set forth in the Office of Management and Budget (OMB) Memoranda M-05-24, M-19-17, M-22-09, and NIST Federal Information Processing Standard (FIPS) 201-3.",
+    "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+    "page": 1,
+    "firm_answer": "Firm profile does not mention PIV card compliance, FIPS 201-3, or IAM application delivery. Firm is a staffing and support services provider, not an application developer.",
+    "status": "gap",
+    "evidence": "No PIV/FIPS 201 application delivery capability in firm profile."
+   },
+   {
+    "requirement_id": "54a51abc-f36796d8-p1-be8518a5",
+    "quote": "Contractor delivered applications and systems shall be on the FIPS 201 Approved Product List (APL).",
+    "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+    "page": 1,
+    "firm_answer": "Firm does not deliver applications or systems; it provides IT support staffing and services. No APL-listed products are referenced in the firm profile.",
+    "status": "gap",
+    "evidence": "Firm is a services/staffing provider; no application products listed in profile."
+   },
+   {
+    "requirement_id": "54a51abc-f36796d8-p1-e38ee72c",
+    "quote": "INTERNET PROTOCOL VERSION 6 (IPv6) The Contractor solution shall support IPv6-Only based upon the memo issued by the Office of Management and Budget (OMB) on November 19, 2020",
+    "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+    "page": 1,
+    "firm_answer": "Firm profile does not mention IPv6 solution delivery. Network administration capability is listed but IPv6-only solution compliance is not addressed.",
+    "status": "unknown",
+    "evidence": "Network administration capability listed; IPv6-only compliance not stated."
+   },
+   {
+    "requirement_id": "54a51abc-f36796d8-p1-6445d0d3",
+    "quote": "STANDARD COMPUTER CONFIGURATION The Contractor IT end user solution that is developed for use on standard VA computers shall be compatible with and be supported on the standard VA operating system, Windows 11, Edge (Chromium based), and 365 Apps for enterprise.",
+    "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+    "page": 1,
+    "firm_answer": "Firm has Microsoft 365 and Azure administration capability and desktop support experience, which is consistent with Windows 11/M365 environments. However, firm does not develop IT end-user solutions for VA deployment.",
+    "status": "partial",
+    "evidence": "Capability: Microsoft 365 and Azure administration; Past performance: Systems administration and Microsoft 365 migration (Oklahoma National Guard)."
+   },
+   {
+    "requirement_id": "54a51abc-f36796d8-p1-60e0b443",
+    "quote": "The Contractor shall comply with the VA OIT Technical Reference Model (VA TRM).",
+    "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+    "page": 1,
+    "firm_answer": "Firm profile does not reference VA TRM compliance. No VA OIT delivery experience is documented in the firm's past performance.",
+    "status": "unknown",
+    "evidence": "No VA TRM compliance experience stated in firm profile."
+   },
+   {
+    "requirement_id": "54a51abc-f36796d8-p1-f7e75a1b",
+    "quote": "VETERAN FOCUSED INTEGRATION PROCESS (VIP) AND PRODUCT LINE MANAGEMENT (PLM) The Contractor shall support VA efforts IAW the Veteran-Focused Integration Process (VIP) Guide and Product Line Management (PLM) Playbook.",
+    "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+    "page": 1,
+    "firm_answer": "Firm profile does not mention VA VIP or PLM processes. No VA OIT delivery history is present in the firm's past performance records.",
+    "status": "gap",
+    "evidence": "No VIP/PLM experience in firm profile or past performance."
+   },
+   {
+    "requirement_id": "54a51abc-f36796d8-p1-15bb2338",
+    "quote": "PROCESS ASSET LIBRARY (PAL) The Contractor shall perform their duties consistent with the processes defined in the OIT Process Asset Library (PAL).",
+    "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+    "page": 1,
+    "firm_answer": "Firm profile does not reference VA OIT PAL. No prior VA OIT contract performance is listed in the firm's past performance.",
+    "status": "gap",
+    "evidence": "No VA OIT PAL experience in firm profile."
+   },
+   {
+    "requirement_id": "54a51abc-f36796d8-p1-7719c4b3",
+    "quote": "Within 3 business days after award, the Contractor shall provide a roster of Contractor and Subcontractor employees to the COR to begin their background investigations in accordance with the PAL template artifact.",
+    "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+    "page": 1,
+    "firm_answer": "Firm has 22 cleared staff (Secret) and experience managing background investigation processes. Can likely meet the roster submission timeline, though PAL template familiarity is unconfirmed.",
+    "status": "partial",
+    "evidence": "Capability: 22 cleared staff (Secret); background investigation process experience implied by cleared workforce."
+   },
+   {
+    "requirement_id": "54a51abc-f36796d8-p1-bae7510d",
+    "quote": "The submitted Contractor Staff Roster must indicate the required Background Investigation Level for each Contractor individual based upon the tasks the Contractor individual will be working, in accordance with their submitted proposal.",
+    "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+    "page": 1,
+    "firm_answer": "Firm maintains 22 cleared staff at Secret level and can document background investigation levels. Administrative compliance with this submission requirement is feasible.",
+    "status": "meets",
+    "evidence": "Capability: 22 cleared staff (Secret); cleared workforce management experience."
+   },
+   {
+    "requirement_id": "54a51abc-f36796d8-p1-16f91940",
+    "quote": "The Contractor shall notify the COR/CO within one hour of disclosure or successful exploits of any vulnerability which can compromise the confidentiality, integrity, or availability of the information systems.",
+    "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+    "page": 1,
+    "firm_answer": "Firm's 24x7 NOC and vulnerability management capability (ACAS/Nessus) support rapid vulnerability notification. One-hour notification is operationally feasible given 24x7 NOC.",
+    "status": "meets",
+    "evidence": "Capability: vulnerability management (ACAS/Nessus), 24x7 NOC; Past performance: Network administration and cybersecurity support (FAA) — keywords: vulnerability, incident response."
+   },
+   {
+    "requirement_id": "54a51abc-f36796d8-p1-72ae1e40",
+    "quote": "VIRUSES, FIRMWARE, AND MALWARE The Contractor shall execute due diligence to ensure all provided software and patches, including third-party patches, are free of viruses and/or malware before releasing them to or installing them on VA information systems.",
+    "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+    "page": 1,
+    "firm_answer": "Firm has cybersecurity and vulnerability management capability (ACAS/Nessus, CMMC Level 2) consistent with malware/virus due diligence requirements. However, firm does not deliver software products to VA.",
+    "status": "partial",
+    "evidence": "Capability: vulnerability management (ACAS/Nessus), CMMC Level 2 self-assessed; Past performance: Network administration and cybersecurity support (FAA) — keywords: STIG, vulnerability."
+   },
+   {
+    "requirement_id": "54a51abc-f36796d8-p1-6a4375a3",
+    "quote": "The Contractor shall comply with the Source Code Harmonization and Reuse in Information Technology (SHARE IT) Act, P.L. 118-187, when developing and delivering custom code first produced for the VA in the performance of this Contract/Order.",
+    "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+    "page": 1,
+    "firm_answer": "Firm profile does not mention custom code development or SHARE IT Act compliance. Firm is a services and staffing provider, not a software development firm.",
+    "status": "unknown",
+    "evidence": "No software development or SHARE IT Act compliance capability stated in firm profile."
+   },
+   {
+    "requirement_id": "54a51abc-f36796d8-p1-33ee0486",
+    "quote": "Tasks under this PWS shall be performed at Contractor facilities.",
+    "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+    "page": 1,
+    "firm_answer": "Firm has facilities in Norman, OK including a 24x7 NOC. Contractor-facility performance is feasible from an infrastructure standpoint.",
+    "status": "meets",
+    "evidence": "Capability: 24x7 NOC in Norman, OK — contractor facility available."
+   },
+   {
+    "requirement_id": "54a51abc-a50d6cef-p1-d5e2a1c1",
+    "quote": "Specific examples or references provided must include the agency, point of contact, dollar value, and contract number.",
+    "source_file": "a50d6cef7d7445e39dfcb902669378b9.docx",
+    "page": 1,
+    "firm_answer": "Firm past performance records include agency names and dollar values but do not list contract numbers or points of contact in the provided profile. Partial compliance with this submission requirement.",
+    "status": "partial",
+    "evidence": "Past performance lists agency and dollar value but no contract numbers or POC details in firm profile."
+   },
+   {
+    "requirement_id": "54a51abc-f36796d8-p1-49c5381d",
+    "quote": "The Contractor shall facilitate governance planning, stakeholder coordination, meeting management, and development of governance documentation to support effective program oversight and decision-making.",
+    "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+    "page": 1,
+    "firm_answer": "Firm profile does not include governance planning, stakeholder coordination for enterprise programs, or governance documentation development. These are outside the firm's stated service lines.",
+    "status": "gap",
+    "evidence": "No governance planning or enterprise program coordination capability in firm profile."
+   },
+   {
+    "requirement_id": "54a51abc-f36796d8-p1-cbdfee28",
+    "quote": "Support shall include configuration planning, data mapping, data model alignment, and stakeholder coordination to ensure MVP functionality aligns with prioritized business capabilities and operational objectives.",
+    "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+    "page": 1,
+    "firm_answer": "Firm has no data mapping, data model alignment, or MVP configuration planning capability. These are core deliverable requirements entirely outside the firm's documented service offerings.",
+    "status": "gap",
+    "evidence": "No data mapping, data modeling, or MVP configuration capability in firm profile."
+   },
+   {
+    "requirement_id": "54a51abc-f36796d8-p1-695ee83e",
+    "quote": "Process maps, system/data flow diagrams, and gap analysis findings shall identify data flows, system interactions, and process outputs that must be compatible with VA's Palantir/Foundry environment for enterprise integration, reuse, analytics, dashboarding, reporting, or operational workflow support.",
+    "source_file": "f36796d85664452e8ba260f47d40bb89.docx",
+    "page": 1,
+    "firm_answer": "Firm has no process mapping, data flow diagramming, or Palantir/Foundry compatibility assessment capability. This deliverable requirement is entirely outside the firm's scope.",
+    "status": "gap",
+    "evidence": "No process mapping, data flow, or Palantir/Foundry capability in firm profile."
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "54a51abcd35345f581456df8a193e0ac",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-07-17T15:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": "Six (6) months from date of award",
+   "source_quotes": [
+    "PERFORMANCE DETAILS PERFORMANCE PERIOD The PoP shall be six (6) months from date of award."
+   ]
+  },
+  "days_to_close": -58.66871360061343,
+  "set_aside_note": "The notice has no set-aside (set-aside: none). Sooner Systems LLC can claim SDVOSB and SBA set-asides, but this opportunity is unrestricted/none — the firm is eligible to respond to unrestricted notices, so the set-aside does not exclude them. However, the description states VA intends to solicit this as a sole source, which effectively limits competition regardless of set-aside status.",
+  "amendment_note": "no amendment",
+  "calendar_entries": []
+ },
+ "model_calls": 5,
+ "tokens_in": 73322,
+ "tokens_out": 13319,
+ "seconds": 138.55,
+ "produced_at": "2026-09-14T06:05:15.407236-05:00"
+}

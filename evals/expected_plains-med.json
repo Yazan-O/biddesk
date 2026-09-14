@@ -1,0 +1,155 @@
+{
+ "firm": "plains-med",
+ "as_of": "2026-09-13T20:14:45-05:00",
+ "built_at": "2026-09-14T07:17:17.994640-05:00",
+ "derived_from": {
+  "bench": "data/bench/tiering_plains-med.json",
+  "gallery": "gallery/index.json"
+ },
+ "how_to_read": "filed_by_rule is the first owner rule that fires (tier 0 is first-kill-wins); should_surface is the set of notices that produced a gallery card. Tier 0 is re-run at as_of so the deadline rule decides the same way it did at bench time.",
+ "hand_checked": [
+  {
+   "notice_id": "1308054b2df24235825b1e782266e190",
+   "checked": "pm-types: type 'Award Notice' is not a real solicitation"
+  },
+  {
+   "notice_id": "ad81a8e6c7f7400aa2c814566c9f9b9b",
+   "checked": "pm-types: type 'Special Notice' is not a real solicitation"
+  },
+  {
+   "notice_id": "d9cebba572094ed3b1e41704bfe4ed72",
+   "checked": "pm-types: type 'Award Notice' is not a real solicitation"
+  },
+  {
+   "notice_id": "4652e0faca744e0fad3bc54d2f2843b3",
+   "checked": "pm-setaside: typeOfSetAside SDVOSBC is not in 8A/SBA/unrestricted"
+  },
+  {
+   "notice_id": "8a487ff97a4442d0baea5e4f582d358d",
+   "checked": "pm-setaside: typeOfSetAside EDWOSB is not one this firm can claim"
+  },
+  {
+   "notice_id": "ad33f0ddf9224ab19362ed6b53d269a9",
+   "checked": "pm-setaside: typeOfSetAside SDVOSBC is not one this firm can claim"
+  },
+  {
+   "notice_id": "dcf0d1493b244d18b45472118702ca29",
+   "checked": "pm-setaside: typeOfSetAside ISBEE is not one this firm can claim"
+  },
+  {
+   "notice_id": "8b795e67025d4f03927b1c8d1a582294",
+   "checked": "pm-days: deadline 2026-09-14T10:00-05:00 is 0.6 days after the bench as_of (minimum 10)"
+  },
+  {
+   "notice_id": "9c85e8fa008b4f7181dcdde07adf91a1",
+   "checked": "pm-days: deadline 2026-09-10T08:00-04:00 had already passed at the bench as_of"
+  },
+  {
+   "notice_id": "ec37c594bb6d42e3a28ef7df17dc8942",
+   "checked": "pm-days: deadline 2026-09-18T14:00-07:00 is 4.8 days after the bench as_of (minimum 10)"
+  }
+ ],
+ "filed_by_rule": [
+  {
+   "notice_id": "ec37c594bb6d42e3a28ef7df17dc8942",
+   "rule_id": "pm-days",
+   "title": "142WG OHWS Services",
+   "type": "Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "97218",
+   "response_deadline": "2026-09-18T14:00:00-07:00",
+   "why": "only 4.8 days to close (owner minimum 10)"
+  },
+  {
+   "notice_id": "ad81a8e6c7f7400aa2c814566c9f9b9b",
+   "rule_id": "pm-types",
+   "title": "NCSU Locum Physician Services Sole Source Notice",
+   "type": "Special Notice",
+   "set_aside_code": "SDVOSBC",
+   "pop": "Lame Deer, MT",
+   "response_deadline": "2026-09-15T14:00:00-06:00",
+   "why": "Special Notice is not a solicitation"
+  },
+  {
+   "notice_id": "dcf0d1493b244d18b45472118702ca29",
+   "rule_id": "pm-setaside",
+   "title": "Nurse Practitioner - Ute Mountain Ute Health Center - Towaoc, CO",
+   "type": "Sources Sought",
+   "set_aside_code": "ISBEE",
+   "pop": "Towaoc, CO, 81334",
+   "response_deadline": "2026-09-17T17:30:00-06:00",
+   "why": "set-aside Indian Small Business Economic Enterprise is one the firm cannot claim"
+  },
+  {
+   "notice_id": "d9cebba572094ed3b1e41704bfe4ed72",
+   "rule_id": "pm-types",
+   "title": "Roleplayer Services",
+   "type": "Award Notice",
+   "set_aside_code": "SBA",
+   "pop": "Brunswick, GA, 31524",
+   "response_deadline": null,
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "ad33f0ddf9224ab19362ed6b53d269a9",
+   "rule_id": "pm-setaside",
+   "title": "Neuromonitoring Services - SLC VAMC",
+   "type": "Solicitation",
+   "set_aside_code": "SDVOSBC",
+   "pop": "Salt Lake City, UT, 84148",
+   "response_deadline": "2026-09-18T16:00:00-06:00",
+   "why": "set-aside Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14) is one the firm cannot claim"
+  },
+  {
+   "notice_id": "8b795e67025d4f03927b1c8d1a582294",
+   "rule_id": "pm-days",
+   "title": "Therapeutic Diabetic Shoe Program",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SBA",
+   "pop": "Lawton, OK, 73507",
+   "response_deadline": "2026-09-14T10:00:00-05:00",
+   "why": "only 0.6 days to close (owner minimum 10)"
+  },
+  {
+   "notice_id": "8a487ff97a4442d0baea5e4f582d358d",
+   "rule_id": "pm-setaside",
+   "title": "IDARNG Dental /Medical Services Amendment",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "EDWOSB",
+   "pop": "Boise, ID, 83705",
+   "response_deadline": "2026-09-15T16:00:00-06:00",
+   "why": "set-aside Economically Disadvantaged Women-Owned Small Business is one the firm cannot claim"
+  },
+  {
+   "notice_id": "1308054b2df24235825b1e782266e190",
+   "rule_id": "pm-types",
+   "title": "Multiple Award Schedule",
+   "type": "Award Notice",
+   "set_aside_code": null,
+   "pop": "",
+   "response_deadline": "2026-09-09T11:12:13-05:00",
+   "why": "Award Notice is not a solicitation"
+  },
+  {
+   "notice_id": "9c85e8fa008b4f7181dcdde07adf91a1",
+   "rule_id": "pm-days",
+   "title": "Maryland Army National Guard (MDARNG) Licensed Medical Provider Services",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "8A",
+   "pop": "Reisterstown, MD, 21136",
+   "response_deadline": "2026-09-10T08:00:00-04:00",
+   "why": "closed on 2026-09-10"
+  },
+  {
+   "notice_id": "4652e0faca744e0fad3bc54d2f2843b3",
+   "rule_id": "pm-setaside",
+   "title": "VISN 7 Virtual Pharmacy Services",
+   "type": "Combined Synopsis/Solicitation",
+   "set_aside_code": "SDVOSBC",
+   "pop": "Tuscaloosa, AL, 35404",
+   "response_deadline": "2026-09-21T11:00:00-04:00",
+   "why": "set-aside Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14) is one the firm cannot claim"
+  }
+ ],
+ "should_surface": []
+}

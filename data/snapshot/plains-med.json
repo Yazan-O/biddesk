@@ -1,0 +1,406 @@
+{
+ "meta": {
+  "firm": "plains-med",
+  "naics": [
+   "561320",
+   "621399"
+  ],
+  "windows": [
+   {
+    "naics": "561320",
+    "postedFrom": "09/06/2026",
+    "postedTo": "09/13/2026",
+    "totalRecords": 3,
+    "fetched_at": "2026-09-13T19:50:49-05:00"
+   },
+   {
+    "naics": "621399",
+    "postedFrom": "09/06/2026",
+    "postedTo": "09/13/2026",
+    "totalRecords": 7,
+    "fetched_at": "2026-09-13T19:51:52-05:00"
+   }
+  ],
+  "count": 10,
+  "descriptions_fetched": 9,
+  "descriptions_failed": 0,
+  "written_at": "2026-09-13T20:14:45-05:00",
+  "source": "https://api.sam.gov/opportunities/v2/search"
+ },
+ "notices": [
+  {
+   "notice_id": "ec37c594bb6d42e3a28ef7df17dc8942",
+   "title": "142WG OHWS Services",
+   "solicitation_number": "W50S8Y26QA016",
+   "type": "Solicitation",
+   "base_type": "Solicitation",
+   "naics": "621399",
+   "naics_all": [
+    "621399"
+   ],
+   "set_aside_code": "SBA",
+   "set_aside_desc": "Small Business Set Aside - Total",
+   "posted": "2026-09-11",
+   "response_deadline": "2026-09-18T14:00:00-07:00",
+   "archive_date": "2027-09-11",
+   "agency_path": "DEPT OF DEFENSE.DEPT OF THE ARMY.NATIONAL GUARD BUREAU.JFHQ USPFO OR.USPFO OR PROCUREMENT.W7NW USPFO ACTIVITY ORANG 142",
+   "office_city": "PORTLAND",
+   "office_state": "OR",
+   "pop_city": null,
+   "pop_state": null,
+   "pop_zip": "97218",
+   "pop_country": null,
+   "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ec37c594bb6d42e3a28ef7df17dc8942",
+   "resource_links": [],
+   "ui_link": "https://sam.gov/workspace/contract/opp/ec37c594bb6d42e3a28ef7df17dc8942/view",
+   "active": true,
+   "award": null,
+   "description_text": "Solicitation Amendment: 142WG Optimizing Human Weapon System (OHWS) services. The contractor shall provide all services, personnel, equipment, tools, materials, supervision, and quality control necessary to perform injury prevention and mitigation, rehabilitation exercise services, and human performanceoptimization services to rated personnel assigned to the 142d Wing (142 WG), Portland, OR, USA, as part of the Optimizing the Human Weapons System (OHWS) initiative. The Contractor shall furnish consultation and reports, similar to the range of services found in a commercial facility, aswell as services specialized to meet the specific spinal health needs of fighter aircrew. Contractors shall adhere to professional standards of the Accreditation Association for Ambulatory Health Care (AAAHC), and as defined in the attached Performance Work Statement.",
+   "fetched_at": "2026-09-13T19:51:52-05:00"
+  },
+  {
+   "notice_id": "ad81a8e6c7f7400aa2c814566c9f9b9b",
+   "title": "NCSU Locum Physician Services Sole Source Notice",
+   "solicitation_number": "IHS1530123",
+   "type": "Special Notice",
+   "base_type": "Special Notice",
+   "naics": "561320",
+   "naics_all": [
+    "561320"
+   ],
+   "set_aside_code": "SDVOSBC",
+   "set_aside_desc": "Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)",
+   "posted": "2026-09-11",
+   "response_deadline": "2026-09-15T14:00:00-06:00",
+   "archive_date": "2026-09-30",
+   "agency_path": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.INDIAN HEALTH SERVICE.BILLINGS AREA INDIAN HEALTH SVC",
+   "office_city": "BILLINGS",
+   "office_state": "MT",
+   "pop_city": "Lame Deer",
+   "pop_state": "MT",
+   "pop_zip": null,
+   "pop_country": "USA",
+   "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ad81a8e6c7f7400aa2c814566c9f9b9b",
+   "resource_links": [
+    "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/e7d1180733514bd9b9e2750d0ccfe791/download"
+   ],
+   "ui_link": "https://sam.gov/workspace/contract/opp/ad81a8e6c7f7400aa2c814566c9f9b9b/view",
+   "active": true,
+   "award": null,
+   "description_text": "NOTICE OF INTENT TO AWARD A SOLE-SOURCE ACQUISITION\n\nDescription:\n\nThis is a notice of intent to award a sole-source contract and is not a request for competitive quotes.\n\nThe Billings Area Indian Health Service intends to award a sole-source purchase order to Watanabe Enterprises for Locum Physician Services for the period of performance December 1, 2026 through January 30, 2027. The Government intends to use the procedures at 12.102(b), 12.201-1, and 6.103-1, subject to the approved acquisition strategy and determination that only one source is reasonably available. The sole-source action is necessary to ensure continuity of critical medical provider services at the Northern Cheyenne Service Unit while the Government completes the competitive acquisition and award of the follow-on requirement. Watanabe Enterprises currently has qualified and credentialed medical providers available to continue providing the required services during this limited interim period, thereby preventing a lapse in essential patient-care services. See attached Performance Work Statement for details.\n\nThis notice of intent is not a request for competitive proposals or quotations. Any party who believes it can perform this requirement should submit a capability statement for consideration by the Government. A determination by the Government not to compete this proposed contract based on responses to this notice is solely within the discretion of the Government.\n\nThe Government will not be responsible for any costs incurred by responding to this notice. Interested parties may identify their interest and submit a capability statement no later than September 15th, 2026 at 2pm Mountain Standard Time. Responses, including questions about this notice, shall be sent via email to Contract Specialist Johnna Spotted at Johnna.Spotted@ihs.gov.",
+   "fetched_at": "2026-09-13T19:50:49-05:00"
+  },
+  {
+   "notice_id": "dcf0d1493b244d18b45472118702ca29",
+   "title": "Nurse Practitioner - Ute Mountain Ute Health Center - Towaoc, CO",
+   "solicitation_number": "75H70726Q00107-SS",
+   "type": "Sources Sought",
+   "base_type": "Sources Sought",
+   "naics": "621399",
+   "naics_all": [
+    "621399"
+   ],
+   "set_aside_code": "ISBEE",
+   "set_aside_desc": "Indian Small Business Economic Enterprise",
+   "posted": "2026-09-10",
+   "response_deadline": "2026-09-17T17:30:00-06:00",
+   "archive_date": "2026-10-02",
+   "agency_path": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.INDIAN HEALTH SERVICE.ALBUQUERQUE AREA INDIAN HEALTH SVC",
+   "office_city": "ALBUQUERQUE",
+   "office_state": "NM",
+   "pop_city": "Towaoc",
+   "pop_state": "CO",
+   "pop_zip": "81334",
+   "pop_country": "USA",
+   "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=dcf0d1493b244d18b45472118702ca29",
+   "resource_links": [
+    "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2990e9d3d244432ab18c18d70ba915bc/download"
+   ],
+   "ui_link": "https://sam.gov/workspace/contract/opp/dcf0d1493b244d18b45472118702ca29/view",
+   "active": true,
+   "award": null,
+   "description_text": "SOURCES SOUGHT NOTICE\n\nThis Sources Sought Notice is being posted for market research and acquisition planning purposes only. The purpose of this notice is to identify qualified businesses capable of satisfying the requirement described below and to assist the Government in determining whether the requirement can be fulfilled through a Buy Indian Act set-aside for Indian Small Business Economic Enterprises (ISBEEs) or Indian Economic Enterprises (IEEs), or, if a Buy Indian Act set-aside is not practicable, through a Total Small Business Set-Aside.\n\nThis notice is not a solicitation, Request for Quotation (RFQ), or Request for Proposal (RFP), and responses to this notice are not offers. The Government will not reimburse respondents for any costs associated with preparing or submitting information in response to this notice.\n\nPursuant to 48 CFR Part 326, Subpart 326.603-3 and IHM 5-5.6, the Indian Health Service must use the negotiation authority of the Buy Indian Act, 25 U.S.C. 47, to give preference to Indian Economic Enterprises (IEEs) when authorized and practicable.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nThe Albuquerque Area Indian Health Service is conducting market research pursuant to FAR 10.001 to identify businesses capable of providing the services described below.\n\n1. NAICS Code: 621399 &ndash; Offices of All Other Miscellaneous Health Practitioners\n\na. If a different NAICS code is suggested, please provide the proposed NAICS code and rationale.\n\n2. Description of Requirement:\n\nThe Indian Health Service (IHS), Albuquerque Area Office, Ute Mountain Ute Service Unit (UMUSU), is conducting market research to identify qualified vendors capable of providing one (1) full-time Nurse Practitioner to provide non-personal healthcare services at the Ute Mountain Ute Service Unit located in Towaoc, Colorado.\n\nServices will include comprehensive outpatient primary care for pediatric, adult, and geriatric patients, including assessment, evaluation, diagnosis, treatment, medication management, preventive care, referrals, and coordination of care. The Nurse Practitioner will support scheduled clinics, same-day appointments, and walk-in patient care.\n\nThe Nurse Practitioner will be required to possess the applicable professional licensure, certification, clinical experience, and credentials necessary to independently provide the required services.\n\nServices are anticipated at up to 2,000 hours per year, generally Monday through Friday during regular clinic hours. The anticipated period of performance is one base year with four one-year option periods.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nResponses to this notice should include the following:\n\n1.) Company Information and SAM Registration\n\nCompany name and Unique Entity Identifier (UEI). Respondents should have an active registration in the System for Award Management (SAM) at https://www.sam.gov. The Government will use the UEI provided to verify the respondent's SAM registration status. If the respondent's SAM registration is not currently active, the response should identify the status of its registration.\n\n2.) Business Size and Socioeconomic Status\n\nIdentify the company's business size and applicable socioeconomic status under NAICS Code 621399, including, as applicable:\n\n Indian Small Business Economic Enterprise (ISBEE);\n\n Indian Economic Enterprise (IEE);\n\n Small Business;\n\n HUBZone Small Business;\n\n Service-Disabled Veteran-Owned Small Business (SDVOSB);\n\n Small Disadvantaged Business (SDB); and/or\n\n Women-Owned Small Business (WOSB).\n\n3.) IHS IEE Representation Form\n\nComplete the attached form titled \"IHS IEE Representation Form\" and indicate whether the company \"does\" or \"does not\" meet the definition of an Indian Economic Enterprise (IEE). This information will be used for market research purposes.\n\n4.) Capability Information\n\nProvide a capability statement and any relevant past performance information demonstrating the company's capability to provide the required Nurse Practitioner services. The response should contain sufficient information for the Government to determine the company's capability to perform the requirement described in this notice.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nSUBMISSION INSTRUCTIONS\n\nPlease submit all requested information to Shandiin DeWolfe via email at Shandiin.DeWolfe@ihs.gov no later than Thursday, September 17, 2026, at 5:30 p.m. MDT.\n\nAutomated responses and responses that do not provide sufficient information to address the requirements of this Sources Sought Notice may not be considered for purposes of this market research.",
+   "fetched_at": "2026-09-13T19:51:52-05:00"
+  },
+  {
+   "notice_id": "d9cebba572094ed3b1e41704bfe4ed72",
+   "title": "Roleplayer Services",
+   "solicitation_number": "70LGLY26CGLB00006",
+   "type": "Award Notice",
+   "base_type": "Solicitation",
+   "naics": "561320",
+   "naics_all": [
+    "561320"
+   ],
+   "set_aside_code": "SBA",
+   "set_aside_desc": "Small Business Set Aside - Total",
+   "posted": "2026-09-10",
+   "response_deadline": null,
+   "archive_date": "2026-09-25",
+   "agency_path": "HOMELAND SECURITY, DEPARTMENT OF.FEDERAL LAW ENFORCEMENT TRAINING CENTER.FLETC GLYNCO OPERATIONS",
+   "office_city": "Brunswick",
+   "office_state": "GA",
+   "pop_city": "Brunswick",
+   "pop_state": "GA",
+   "pop_zip": "31524",
+   "pop_country": "USA",
+   "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d9cebba572094ed3b1e41704bfe4ed72",
+   "resource_links": [],
+   "ui_link": "https://sam.gov/workspace/contract/opp/d9cebba572094ed3b1e41704bfe4ed72/view",
+   "active": true,
+   "award": {
+    "date": "2026-09-10",
+    "number": "70LGLY26CGLB00006",
+    "amount": "48397349.77",
+    "awardee": {
+     "name": "OPS TECH ALLIANCE, LLC",
+     "location": {
+      "city": {
+       "name": "Clearwater"
+      },
+      "state": {
+       "code": "FL",
+       "name": "Florida"
+      },
+      "zip": "33755",
+      "country": {
+       "code": "USA",
+       "name": "UNITED STATES"
+      }
+     }
+    }
+   },
+   "description_text": "Posting Award Notification of Solication 70LGLY25RGLB00001",
+   "fetched_at": "2026-09-13T19:50:49-05:00"
+  },
+  {
+   "notice_id": "ad33f0ddf9224ab19362ed6b53d269a9",
+   "title": "Neuromonitoring Services - SLC VAMC",
+   "solicitation_number": "36C25926Q0822",
+   "type": "Solicitation",
+   "base_type": "Solicitation",
+   "naics": "621399",
+   "naics_all": [
+    "621399"
+   ],
+   "set_aside_code": "SDVOSBC",
+   "set_aside_desc": "Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)",
+   "posted": "2026-09-10",
+   "response_deadline": "2026-09-18T16:00:00-06:00",
+   "archive_date": "2026-10-03",
+   "agency_path": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.NETWORK CONTRACT OFFICE 19 (36C259)",
+   "office_city": "Greenwood Village",
+   "office_state": "CO",
+   "pop_city": "Salt Lake City",
+   "pop_state": "UT",
+   "pop_zip": "84148",
+   "pop_country": "USA",
+   "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ad33f0ddf9224ab19362ed6b53d269a9",
+   "resource_links": [
+    "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2286eb4c17854f7f9939e17c476da424/download",
+    "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/955de7ee8d3d420da9a3dbc10ca7ae95/download",
+    "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/98736eec75eb4a48b2fa8271d43bd464/download",
+    "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b01a938e27da44a3bb198f3360ec055f/download",
+    "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b986bf2f1311473385645067fe54e422/download"
+   ],
+   "ui_link": "https://sam.gov/workspace/contract/opp/ad33f0ddf9224ab19362ed6b53d269a9/view",
+   "active": true,
+   "award": null,
+   "description_text": "Contractor shall provide both normal business hours and after-hours coverage of intraoperative neurophysiologic monitoring (IONM) services including providing certified technicians, equipment, instrumentation and disposable accessories that are required for the accurate neurophysiologic monitoring of the beneficiaries of the Salt Lake City Veterans Affairs Medical Center (SLCVAMC). \n\nSee attached documents for further insructions.",
+   "fetched_at": "2026-09-13T19:51:52-05:00"
+  },
+  {
+   "notice_id": "8b795e67025d4f03927b1c8d1a582294",
+   "title": "Therapeutic Diabetic Shoe Program",
+   "solicitation_number": "246-26-Q0039",
+   "type": "Combined Synopsis/Solicitation",
+   "base_type": "Combined Synopsis/Solicitation",
+   "naics": "621399",
+   "naics_all": [
+    "621399"
+   ],
+   "set_aside_code": "SBA",
+   "set_aside_desc": "Small Business Set Aside - Total",
+   "posted": "2026-09-10",
+   "response_deadline": "2026-09-14T10:00:00-05:00",
+   "archive_date": "2026-09-29",
+   "agency_path": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.INDIAN HEALTH SERVICE.INDIAN HEALTH SERVICE",
+   "office_city": "OKLAHOMA CITY",
+   "office_state": "OK",
+   "pop_city": "Lawton",
+   "pop_state": "OK",
+   "pop_zip": "73507",
+   "pop_country": "USA",
+   "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=8b795e67025d4f03927b1c8d1a582294",
+   "resource_links": [
+    "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a14dafc5854c401ea8a53fa6f509da0c/download",
+    "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/e68023c7649e4da98688aa33d0d73b57/download"
+   ],
+   "ui_link": "https://sam.gov/workspace/contract/opp/8b795e67025d4f03927b1c8d1a582294/view",
+   "active": true,
+   "award": null,
+   "description_text": "The purpose of this contract is to provide a comprehensive Therapeutic Shoe Program for eligible American Indian and Alaska Native patients receiving healthcare services through the Indian Health Service (IHS), Lawton Service Unit (LSU).",
+   "fetched_at": "2026-09-13T19:51:52-05:00"
+  },
+  {
+   "notice_id": "8a487ff97a4442d0baea5e4f582d358d",
+   "title": "IDARNG Dental /Medical Services Amendment",
+   "solicitation_number": "W912J726RA0010002",
+   "type": "Combined Synopsis/Solicitation",
+   "base_type": "Special Notice",
+   "naics": "621399",
+   "naics_all": [
+    "621399"
+   ],
+   "set_aside_code": "EDWOSB",
+   "set_aside_desc": "Economically Disadvantaged Women-Owned Small Business",
+   "posted": "2026-09-09",
+   "response_deadline": "2026-09-15T16:00:00-06:00",
+   "archive_date": "2026-09-15",
+   "agency_path": "DEPT OF DEFENSE.DEPT OF THE ARMY.NATIONAL GUARD BUREAU.JFHQ USPFO ID.USPFO ID PROCUREMENT.W7M5 USPFO ACTIVITY ID ARNG",
+   "office_city": "BOISE",
+   "office_state": "ID",
+   "pop_city": "Boise",
+   "pop_state": "ID",
+   "pop_zip": "83705",
+   "pop_country": "USA",
+   "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=8a487ff97a4442d0baea5e4f582d358d",
+   "resource_links": [
+    "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/29f7cef839be4acfb585123b5894acca/download",
+    "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b6627f756cd3447da2ba15861aad0e2d/download",
+    "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/e299b6532b90403982c6ae94c12be316/download"
+   ],
+   "ui_link": "https://sam.gov/workspace/contract/opp/8a487ff97a4442d0baea5e4f582d358d/view",
+   "active": true,
+   "award": null,
+   "description_text": "The purpose of this amendment to Solicitation W912J726RA001 is to extend the period for receipt of proposals to date: 09/15/2026 and remove follow on care for CLINs 0002 and 1002. Offerors please do not submit proposals with pricing for Follow-on Care in CLINs 0002 and 1002 these have been removed. RFI Response has been updated and is attached to also reflect changes. There are no other changes to terms, conditions or attachments, unless otherwise specified explicitly in this amendment and reflected in the changes summary. All other terms and conditions not addressed in this amendment remain unchanged and in full effect. The period for receipt of proposals/quotations has been extend to the date of 09/15/2026.",
+   "fetched_at": "2026-09-13T19:51:52-05:00"
+  },
+  {
+   "notice_id": "1308054b2df24235825b1e782266e190",
+   "title": "Multiple Award Schedule",
+   "solicitation_number": "47QSMD20R0001",
+   "type": "Award Notice",
+   "base_type": "Combined Synopsis/Solicitation",
+   "naics": "561320",
+   "naics_all": [
+    "561320"
+   ],
+   "set_aside_code": null,
+   "set_aside_desc": null,
+   "posted": "2026-09-09",
+   "response_deadline": "2026-09-09T11:12:13-05:00",
+   "archive_date": "2031-09-08",
+   "agency_path": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.GSA/FAS FURNITURE SYSTEMS MGT DIV",
+   "office_city": "PHILADELPHIA",
+   "office_state": "PA",
+   "pop_city": null,
+   "pop_state": null,
+   "pop_zip": null,
+   "pop_country": null,
+   "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=1308054b2df24235825b1e782266e190",
+   "resource_links": [],
+   "ui_link": "https://sam.gov/workspace/contract/opp/1308054b2df24235825b1e782266e190/view",
+   "active": true,
+   "award": {
+    "date": "2026-09-09",
+    "number": "47QRAA26D009X",
+    "amount": "1000000",
+    "awardee": {
+     "name": "TIFFANY JORGE, INC.",
+     "location": {
+      "city": {
+       "name": "SACRAMENTO"
+      },
+      "state": {
+       "name": "CA"
+      },
+      "zip": "95815",
+      "country": {
+       "code": "USA",
+       "name": "UNITED STATES"
+      }
+     }
+    }
+   },
+   "description_text": "",
+   "fetched_at": "2026-09-13T19:50:49-05:00"
+  },
+  {
+   "notice_id": "9c85e8fa008b4f7181dcdde07adf91a1",
+   "title": "Maryland Army National Guard (MDARNG) Licensed Medical Provider Services",
+   "solicitation_number": "W912K6-26-Q-1CEI ",
+   "type": "Combined Synopsis/Solicitation",
+   "base_type": "Combined Synopsis/Solicitation",
+   "naics": "621399",
+   "naics_all": [
+    "621399"
+   ],
+   "set_aside_code": "8A",
+   "set_aside_desc": "8(a) Set-Aside (FAR 19.8)",
+   "posted": "2026-09-08",
+   "response_deadline": "2026-09-10T08:00:00-04:00",
+   "archive_date": "2026-09-20",
+   "agency_path": "DEPT OF DEFENSE.DEPT OF THE ARMY.NATIONAL GUARD BUREAU.JFHQ USPFO MD.USPFO MD PROCUREMENT.W7ND USPFO ACTIVITY MD ARNG",
+   "office_city": "HAVRE DE GRACE",
+   "office_state": "MD",
+   "pop_city": "Reisterstown",
+   "pop_state": "MD",
+   "pop_zip": "21136",
+   "pop_country": "USA",
+   "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=9c85e8fa008b4f7181dcdde07adf91a1",
+   "resource_links": [
+    "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/092b8224d16245749169ed827f344750/download",
+    "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/0feebabd702645048f639b99d5e7b60f/download",
+    "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/4060b31f8245440e997016159886caf2/download",
+    "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/68ab8abd939e444a959f004cbcbf5f99/download",
+    "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ae2b65f4719047e586dc39bbcaced740/download",
+    "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b7ac2c603c884448966da958ad9b23fb/download"
+   ],
+   "ui_link": "https://sam.gov/workspace/contract/opp/9c85e8fa008b4f7181dcdde07adf91a1/view",
+   "active": true,
+   "award": null,
+   "description_text": "This is a combined synopsis/solicitation for commercial products or commercial services prepared in accordance with Revolutionary FAR Overhaul (RFO) part 12. This announcement constitutes the only solicitation; Offers are being requested and a separate written solicitation will not be issued.\n\nRFQ Solicitation Number W912K6-26-Q-1CEI and incorporated provisions and clauses are those in effect through Federal Acquisition Circular (FAC) 2026-01, dated 13 March 2026.\n\nService Description: The Maryland Army National Guard (MDARNG) Surgeon's Office requires contract medical provider services to perform medical readiness examinations, including Periodic Health Assessments (PHA), Post-Deployment Health Assessments (PDHA), and Post-Deployment Health Re-Assessments (PDHRA), to maintain and improve the Individual Medical Readiness (IMR) goals of the Maryland Army National Guard.\n\nThe Period of Performance shall be for one (1) full year from the date of award.\n\nAnticipated PoP: 30 September 2026 to 29 September 2027\n\nThe contractor shall provide a licensed medical provider between the hours of 0800&ndash;1630 on Tuesday, Wednesday, and Friday, except on recognized US Federal holidays, during administrative closings, or when the Government facility is closed due to local/national emergencies.\n\nLunch Break: A 30-minute unpaid lunch is scheduled for each duty day.\n\nHoliday Blackout Period: No services shall be performed from 24 December 2026 through 04 January 2027.\n\nWork Locations: Performance shall be divided across two military installations in Maryland. Typically, the schedule will consist of two (2) days at CFMR and one (1) day at Edgewood per week:\n\n \n\n Camp Fretterd Military Reservation (CFMR)\n\n 5555 Rue Saint Lo Drive, BLDG 205\n\n Reisterstown, MD 21136\n\n The Flight Surgeon's Clinic\n\n 2624 Fairview Point Road, Building E-6814\n\n Edgewood, MD 21040\n\nINSTRUCTIONS TO ALL OFFERORS \n\na. Review the combined Synopsis solicitation PDF attachment for more details.\n\nb. Contractor shall review the Performance Work Statement (PWS) to understand the nature of this requirement and to meet government criteria for award.\n\nc. Questions and Answers deadline will be 02 September 2026 at 08AM EST.\n\nProposal Submission Instructions &ndash; CLIN Structure\n\nOfferors shall submit their price proposal using the following Contract Line Item Number (CLIN) structure. Complete every field. Unit prices must be fully burdened (inclusive of all direct costs, indirect costs, overhead, G&A, profit/fee, and any other applicable charges). No additional line items or alternate formats will be accepted.\n\nCLIN Service QTY Unit of issue Price \n\n0001 Credential Coordinator 12 Months $",
+   "fetched_at": "2026-09-13T19:51:52-05:00"
+  },
+  {
+   "notice_id": "4652e0faca744e0fad3bc54d2f2843b3",
+   "title": "VISN 7 Virtual Pharmacy Services",
+   "solicitation_number": "36C24726Q0605",
+   "type": "Combined Synopsis/Solicitation",
+   "base_type": "Combined Synopsis/Solicitation",
+   "naics": "621399",
+   "naics_all": [
+    "621399"
+   ],
+   "set_aside_code": "SDVOSBC",
+   "set_aside_desc": "Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)",
+   "posted": "2026-09-07",
+   "response_deadline": "2026-09-21T11:00:00-04:00",
+   "archive_date": "2026-10-06",
+   "agency_path": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.247-NETWORK CONTRACT OFFICE 7 (36C247)",
+   "office_city": "AUGUSTA",
+   "office_state": "GA",
+   "pop_city": "Tuscaloosa",
+   "pop_state": "AL",
+   "pop_zip": "35404",
+   "pop_country": "USA",
+   "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4652e0faca744e0fad3bc54d2f2843b3",
+   "resource_links": [
+    "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/0fb50cf3bd6d45688c3eaae9af08d2df/download",
+    "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3d6b269afc744066b3691f075472eb23/download",
+    "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/645f03ee84c748fdaa1271516055f571/download",
+    "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/73cce856359e46dbb8f90731dac914c5/download",
+    "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/807e31ac48e2439384c2b2f2a8e5337d/download",
+    "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c0c155c85bc446a78ecde26681a3970e/download",
+    "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d74a2ef8a07a4e0bb89c88a65099250d/download",
+    "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/fa487fd2821a41caadcca6512683488c/download"
+   ],
+   "ui_link": "https://sam.gov/workspace/contract/opp/4652e0faca744e0fad3bc54d2f2843b3/view",
+   "active": true,
+   "award": null,
+   "description_text": "This is a combined synopsis/solicitation for commercial products or commercial services prepared in accordance with Part 12. This announcement constitutes the only solicitation. Offers are being requested, and a separate written solicitation will not be issued.\n\nSolicitation number 36C24726Q0605 is issued as an RFQ for VISN 7 Virtual Pharmacy Services.\n\nThis acquisition is a set-aside for Service-Disabled Veteran-Owned Small Business concerns. This solicitation incorporates provisions and clauses by reference. The full text of provisions and clauses may be accessed electronically at www.acquisition.gov.\n\n-See Amendment 36C24726Q0605 0001: Revised Statement of Work, Provision 52.212-1 Addendum, and VAAR 852.204-72. Also Publish Q&A and Include Verbiage is Price Schedule. \n\n-See Amendment 36C24726Q0605 0002: Revised the Statement of Work, Clause 52.216-19, Q&A, and Attachment 4-QASP.\n\n-See Amendment 36C24726Q0605 0003: Revised the Statement of Work (Section 2.6.2 and Numbering Sequence)",
+   "fetched_at": "2026-09-13T19:51:52-05:00"
+  }
+ ]
+}

@@ -1,0 +1,912 @@
+{
+ "notice_id": "819357517c044e6489e51644fc101775",
+ "firm_slug": "red-cedar",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:38:22-05:00",
+ "evidence_basis": null,
+ "days_to_close": -26.787759958587962,
+ "closed": true,
+ "response_kind": "proposal",
+ "card": {
+  "notice_id": "819357517c044e6489e51644fc101775",
+  "firm_slug": "red-cedar",
+  "situation": "Combined Synopsis/Solicitation for non-personal landscape services (lawn care and grounds keeping) at the NWS Weather Forecast Office, 104 Airport Road, Dodge City, KS 67801 — firm-fixed-price purchase order, base year plus four option years, small business set-aside, NAICS 561730.\nReached the owner because Red Cedar matches NAICS 561730 exactly, holds Total Small Business set-aside eligibility, and has directly relevant federal grounds maintenance past performance (Tinker AFB).",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "Red Cedar's grounds maintenance capability (mowing, trimming, irrigation) and Tinker AFB cantonment grounds contract directly match the SOW scope and NAICS 561730 requirement [profile: past performance, Tinker AFB grounds maintenance].",
+   "The acquisition is a Total Small Business set-aside and Red Cedar is confirmed eligible, removing any large-business competition barrier [set_aside_note: SBA listed among firm's eligible set-asides].",
+   "Incumbent pricing of $21,475 aggregate over five years signals a very small, low-complexity contract well within Red Cedar's operational capacity as a 38-employee firm [81935751-01c68c24-p18-dddd10e4]."
+  ],
+  "reasons_against": [
+   "Dodge City, KS is approximately 370 miles from Oklahoma City, directly violating owner rule [rc-distance] which prohibits bids more than 200 miles from Oklahoma City [81935751-266263a0-p1-1e6fd84f].",
+   "Active services in the base period run only through 10/31/2026 (2–5 months depending on award date), triggering owner rule [rc-base] which prohibits bids where the base period active service window is under 12 months [81935751-01c68c24-p2-c1388fa4].",
+   "SAM registration, FedConnect registration, and IPP electronic invoicing capability are all unconfirmed in the firm profile, creating three eligibility-for-award unknowns that cannot be resolved without additional verification [81935751-01c68c24-p34-f535489a, 81935751-01c68c24-p12-a0dcf44c, 81935751-01c68c24-p26-8253f71d]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-08-14",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-08-18T10:00:00-06:00",
+   "site_visit": null,
+   "period_of_performance": "Date of Award through 03/31/2027 (base); options through 03/31/2031",
+   "source_quotes": [
+    "THE CLOSING DATE HAS BEEN EXTENDED UNTIL TUESDAY, AUGUST 18, 2026 AT 10:00AM MDT END OF AMENDMENT 0001",
+    "(vii) Quotes are required to be received in the contracting office no later than 10:00am MDT on FRIDAY, AUGUST 14, 2026.",
+    "Period of performance shall be: Base Period is Date of Award through 03/31/2027. (Services are only provided from Date of Award-10/31/2026) Option Period 1 for a twelve month period 04/01/2027 through 03/31/2028. (Services are only provided from 04/01/2027-10/31/2027) Option Period 2 for a twelve month period 04/01/2028 through 03/31/2029. (Services are only provided from 04/01/2028-10/31/2028) Option Period 3 for a twelve month period 04/01/2029 through 03/31/2030. (Services are only provided from 04/01/2029-10/31/2029) Option Period 4 for a twelve month period 04/01/2030 through 03/31/2031.",
+    "A site visit is highly recommended but not required."
+   ]
+  },
+  "fit_score": 0.7667,
+  "matrix_summary": "19 of 39 requirements met, 8 partial, 3 gap, 9 unknown",
+  "evidence_link": "https://sam.gov/opp/819357517c044e6489e51644fc101775/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "81935751-01c68c24-p2-c1388fa4",
+   "quote": "Base Period is Date of Award through 03/31/2027. (Services are only provided from Date of Award-10/31/2026)",
+   "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+   "page": 2,
+   "firm_answer": "Owner rule [rc-base] prohibits bids under a 12-month base period. The base period contract term runs to 03/31/2027 (~12 months), but actual services are only performed through 10/31/2026 (~2–5 months depending on award date). This is a disqualifying condition under the firm's own bid rules.",
+   "status": "gap",
+   "evidence": "Owner rule [rc-base]: No bids under a 12-month base period. Active service window is less than 12 months."
+  },
+  {
+   "requirement_id": "81935751-descript-p0-0da066f4",
+   "quote": "Period of performance shall be: Base Period is Date of Award through 03/31/2027. (Services are only provided from Date of Award-10/31/2026)",
+   "source_file": "description",
+   "page": 0,
+   "firm_answer": "Same as above — the active performance window is under 12 months, triggering the [rc-base] owner rule disqualification.",
+   "status": "gap",
+   "evidence": "Owner rule [rc-base]: No bids under a 12-month base period."
+  },
+  {
+   "requirement_id": "81935751-266263a0-p1-1e6fd84f",
+   "quote": "Location: NWS Forecast Office 104 Airport Road Dodge City, KS 67801",
+   "source_file": "266263a075204d3f97ded50d9ce9a90e.docx",
+   "page": 1,
+   "firm_answer": "Dodge City, KS is approximately 370 miles from Oklahoma City, OK. Owner rule [rc-distance] prohibits bids over 200 miles from Oklahoma City. This is a disqualifying condition.",
+   "status": "gap",
+   "evidence": "Owner rule [rc-distance]: No bids over 200 miles from Oklahoma City. Dodge City, KS exceeds this limit."
+  },
+  {
+   "requirement_id": "81935751-266263a0-p1-1e6fd84f",
+   "quote": "The contractor shall provide all tools, equipment, materials and supervision for the duties required to care for all of the grounds within the boundaries of the Weather Forecast Office",
+   "source_file": "266263a075204d3f97ded50d9ce9a90e.docx",
+   "page": 1,
+   "firm_answer": "Red Cedar's capabilities include grounds maintenance (mowing, trimming, irrigation) and the firm provides all supervision, labor, tools, materials, and equipment per its service model. Tinker AFB grounds contract confirms this.",
+   "status": "meets",
+   "evidence": "Capability: grounds maintenance (mowing, trimming, irrigation); Past performance: Grounds maintenance, cantonment area (Tinker AFB)"
+  },
+  {
+   "requirement_id": "81935751-01c68c24-p5-cd8d75a7",
+   "quote": "THE QUOTER MUST BE CURRENTLY REGISTERED IN THE SYSTEM FOR AWARD MANAGEMENT (SAM) TO BE ELIGIBLE FOR AN AWARD.",
+   "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+   "page": 5,
+   "firm_answer": "The firm profile does not confirm active SAM registration. Cannot assert compliance.",
+   "status": "unknown",
+   "evidence": "SAM registration not mentioned in firm profile."
+  },
+  {
+   "requirement_id": "81935751-f05a7260-p2-0aabdf83",
+   "quote": "THE QUOTER MUST BE CURRENTLY REGISTERED IN THE SYSTEM FOR AWARD MANAGEMENT (SAM) TO BE ELIGIBLE FOR AN AWARD.",
+   "source_file": "f05a7260555f493085b12bf40a1123f1.pdf",
+   "page": 2,
+   "firm_answer": "SAM registration not confirmed in firm profile.",
+   "status": "unknown",
+   "evidence": "SAM registration not mentioned in firm profile."
+  },
+  {
+   "requirement_id": "81935751-01c68c24-p34-f535489a",
+   "quote": "Quoters shall have an active registration in the System for Award Management (https://sam.gov/content/home) in order to provide a quote and be eligible for award.",
+   "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+   "page": 34,
+   "firm_answer": "SAM registration not confirmed in firm profile.",
+   "status": "unknown",
+   "evidence": "SAM registration not mentioned in firm profile."
+  },
+  {
+   "requirement_id": "81935751-01c68c24-p12-a0dcf44c",
+   "quote": "The contractor must be registered in FedConnect® and have access to the FedConnect® website located at https://www.fedconnect.net/Fedconnect/.",
+   "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+   "page": 12,
+   "firm_answer": "FedConnect registration is not mentioned in the firm profile. Cannot confirm compliance.",
+   "status": "unknown",
+   "evidence": "FedConnect registration not mentioned in firm profile."
+  },
+  {
+   "requirement_id": "81935751-01c68c24-p34-27a261c3",
+   "quote": "A detailed technical approach write-up describing how the Quoter will perform this service is required to be submitted regardless of whether a site visit was made or not.",
+   "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+   "page": 34,
+   "firm_answer": "Red Cedar has grounds maintenance capability and QC inspections logged in a CMMS, which could support a technical approach write-up. However, no Kansas-specific or NWS-specific approach is documented in the profile.",
+   "status": "partial",
+   "evidence": "Capability: grounds maintenance, QC inspections logged in CMMS; Past performance: Grounds maintenance, cantonment area (Tinker AFB)"
+  },
+  {
+   "requirement_id": "81935751-01c68c24-p34-96d87cca",
+   "quote": "The quoter's past experience on related contracts should be provided to determine, as appropriate, successful performance of contract requirements, date of project start and completion (must have been completed within the last two years)",
+   "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+   "page": 34,
+   "firm_answer": "Grounds maintenance, cantonment area (Tinker AFB, 2021–2024, NAICS 561730) is directly relevant and was active within the last two years. This is the strongest past performance reference.",
+   "status": "meets",
+   "evidence": "Past performance: Grounds maintenance, cantonment area | Tinker AFB | NAICS 561730 | 2021–2024"
+  },
+  {
+   "requirement_id": "81935751-01c68c24-p2-13c2cab1",
+   "quote": "See the attached SF18 with the terms and conditions which all quoters must be in compliance with to be eligible for award.",
+   "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+   "page": 2,
+   "firm_answer": "Firm can comply with standard SF18 terms and conditions as a small business federal contractor. No specific disqualifying terms identified beyond distance and base-period owner rules.",
+   "status": "partial",
+   "evidence": "Capability: federal and state facility contractor with compliance infrastructure (e-Verify, OSHA 30, CIMS-GB)"
+  },
+  {
+   "requirement_id": "81935751-01c68c24-p2-9a6a37d9",
+   "quote": "Quotes are required to be received in the contracting office no later than 10:00am MDT on FRIDAY, AUGUST 14, 2026.",
+   "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+   "page": 2,
+   "firm_answer": "Deadline compliance is an administrative action the firm can perform. Note: the amendment extended the deadline to August 18, 2026.",
+   "status": "meets",
+   "evidence": "Administrative capability; amendment extended deadline to August 18, 2026."
+  },
+  {
+   "requirement_id": "81935751-01c68c24-p2-2e658d5b",
+   "quote": "All quotes must be submitted electronically via email to kirsten.keen@noaa.gov.",
+   "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+   "page": 2,
+   "firm_answer": "Electronic email submission is a standard administrative capability the firm can perform.",
+   "status": "meets",
+   "evidence": "Standard administrative capability."
+  },
+  {
+   "requirement_id": "81935751-01c68c24-p4-18ca58ec",
+   "quote": "Any representations and/or certifications attached to this Request for Quotation must be completed by the quoter.",
+   "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+   "page": 4,
+   "firm_answer": "Firm can complete standard reps and certs. WOSB, EDWOSB, and SBA set-aside eligibility are confirmed in the profile.",
+   "status": "meets",
+   "evidence": "Set-asides: WOSB, EDWOSB, SBA; compliance infrastructure confirmed."
+  },
+  {
+   "requirement_id": "81935751-01c68c24-p20-0dae37c2",
+   "quote": "All contractor (and subcontractor) personnel proposed to be employed under a Low Risk contract shall undergo security processing by the Department's Office of Security before being eligible to work on the premises of any Department of Commerce owned, leased, or controlled facility",
+   "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+   "page": 20,
+   "firm_answer": "The firm uses e-Verify for employment eligibility. However, no prior Department of Commerce security processing experience is mentioned in the profile. Firm can likely comply but has no documented experience with this specific process.",
+   "status": "partial",
+   "evidence": "Capability: e-Verify enrollment; no prior DOC/NOAA security processing documented."
+  },
+  {
+   "requirement_id": "81935751-01c68c24-p21-c82aa775",
+   "quote": "Any contract employee with a favorable SAC who remains on the contract over 180 days will be required to have a NACI conducted to continue working on the job site.",
+   "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+   "page": 21,
+   "firm_answer": "No prior NACI or SAC processing experience is documented in the firm profile. Firm can likely comply administratively but has no confirmed track record.",
+   "status": "unknown",
+   "evidence": "NACI/SAC processing not mentioned in firm profile."
+  },
+  {
+   "requirement_id": "81935751-01c68c24-p22-d6ca8e8f",
+   "quote": "Fingerprints and a Credit Release Authorization must be completed within three working days from start of work, and provided to the Servicing Security Officer",
+   "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+   "page": 22,
+   "firm_answer": "No documented experience with DOC fingerprinting or Credit Release Authorization processes in the firm profile.",
+   "status": "unknown",
+   "evidence": "DOC security processing requirements not addressed in firm profile."
+  },
+  {
+   "requirement_id": "81935751-01c68c24-p25-7eb96a18",
+   "quote": "The contractor shall provide all contractor employees assigned to perform under this contract with mandatory sexual assault and sexual harassment prevention and response training in compliance with the requirements of NAO 202-1106",
+   "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+   "page": 25,
+   "firm_answer": "The firm profile does not mention NAO 202-1106 training or equivalent NOAA-specific training programs. General compliance capability is implied but not confirmed.",
+   "status": "unknown",
+   "evidence": "NAO 202-1106 training not mentioned in firm profile."
+  },
+  {
+   "requirement_id": "81935751-01c68c24-p25-6a0b493b",
+   "quote": "Evidence of initial training by name and date completed for each contractor employee, shall be submitted to the COR or contracting officer (if no COR assigned) within 10 business days of completion.",
+   "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+   "page": 25,
+   "firm_answer": "Firm uses CMMS for QC inspection logging, which could support training record tracking. However, no specific training documentation system for federal compliance is mentioned.",
+   "status": "partial",
+   "evidence": "Capability: QC inspections logged in CMMS; training record management not explicitly confirmed."
+  },
+  {
+   "requirement_id": "81935751-01c68c24-p26-8253f71d",
+   "quote": "The Contractor must submit payment requests electronically through the U.S.",
+   "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+   "page": 26,
+   "firm_answer": "IPP electronic invoicing capability is not confirmed in the firm profile.",
+   "status": "unknown",
+   "evidence": "IPP electronic invoicing not mentioned in firm profile."
+  },
+  {
+   "requirement_id": "81935751-01c68c24-p26-570e6c68",
+   "quote": "The Contractor must use the IPP website to register, access, and submit payment requests.",
+   "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+   "page": 26,
+   "firm_answer": "IPP registration and use not confirmed in firm profile.",
+   "status": "unknown",
+   "evidence": "IPP not mentioned in firm profile."
+  },
+  {
+   "requirement_id": "81935751-266263a0-p1-9afb43c6",
+   "quote": "The Contractor shall ensure that all debris is cleaned up before he leaves.",
+   "source_file": "266263a075204d3f97ded50d9ce9a90e.docx",
+   "page": 1,
+   "firm_answer": "Standard grounds maintenance practice consistent with the firm's grounds maintenance capability and Tinker AFB past performance.",
+   "status": "meets",
+   "evidence": "Capability: grounds maintenance (mowing, trimming); Past performance: Grounds maintenance, cantonment area (Tinker AFB)"
+  },
+  {
+   "requirement_id": "81935751-266263a0-p1-863fa754",
+   "quote": "Upon arrival the Contractor and/or employee shall sign in on the security log sheet when entering the property.",
+   "source_file": "266263a075204d3f97ded50d9ce9a90e.docx",
+   "page": 1,
+   "firm_answer": "Standard federal facility access procedure consistent with the firm's experience at Tinker AFB and Oklahoma City Federal Building.",
+   "status": "meets",
+   "evidence": "Past performance: Grounds maintenance, cantonment area (Tinker AFB); Custodial services, Oklahoma City Federal Building"
+  },
+  {
+   "requirement_id": "81935751-266263a0-p1-67a745d1",
+   "quote": "Cutting equipment blades shall be sharp to ensure a high-quality cut and minimize disease.",
+   "source_file": "266263a075204d3f97ded50d9ce9a90e.docx",
+   "page": 1,
+   "firm_answer": "Standard grounds maintenance equipment maintenance practice consistent with the firm's grounds maintenance capability.",
+   "status": "meets",
+   "evidence": "Capability: grounds maintenance (mowing, trimming); Past performance: Grounds maintenance, cantonment area (Tinker AFB)"
+  },
+  {
+   "requirement_id": "81935751-266263a0-p1-1812515f",
+   "quote": "Description of Work The Contractor shall:",
+   "source_file": "266263a075204d3f97ded50d9ce9a90e.docx",
+   "page": 1,
+   "firm_answer": "Full SOW details are in the attachment. Firm's grounds maintenance capability (mowing, trimming, irrigation) aligns with typical NWS WFO lawn service scope.",
+   "status": "partial",
+   "evidence": "Capability: grounds maintenance (mowing, trimming, irrigation); full SOW not reproduced in requirements provided."
+  },
+  {
+   "requirement_id": "81935751-266263a0-p1-b3e18388",
+   "quote": "The Contractor will bill on a monthly basis in arrears for the service provided.",
+   "source_file": "266263a075204d3f97ded50d9ce9a90e.docx",
+   "page": 1,
+   "firm_answer": "Monthly billing in arrears is a standard invoicing practice. Firm profile does not contradict this requirement.",
+   "status": "meets",
+   "evidence": "Standard commercial invoicing practice; no conflicting information in firm profile."
+  },
+  {
+   "requirement_id": "81935751-01c68c24-p13-722ab76e",
+   "quote": "The Contractor shall submit invoices to the address designated in the contract to receive invoices.",
+   "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+   "page": 13,
+   "firm_answer": "Standard invoicing requirement the firm can comply with.",
+   "status": "meets",
+   "evidence": "Standard administrative capability."
+  },
+  {
+   "requirement_id": "81935751-01c68c24-p28-0a5d1bc3",
+   "quote": "The contractor shall notify the contracting officer in writing within 5 business days from the date of any situation or occurrence where the contractor considers specific contract activity to be inconsistent with the intent of this contract language.",
+   "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+   "page": 28,
+   "firm_answer": "Standard contract administration requirement. Firm's federal contracting experience supports compliance.",
+   "status": "meets",
+   "evidence": "Federal contracting experience: Tinker AFB, GSA Region 7, VA Oklahoma City."
+  },
+  {
+   "requirement_id": "81935751-01c68c24-p29-aead0a93",
+   "quote": "unless a NOAA facility is closed and the contractor is denied access to the facility, the contractor shall continue performance in accordance with the contract.",
+   "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+   "page": 29,
+   "firm_answer": "Standard performance continuity requirement. Firm's federal facility experience supports compliance.",
+   "status": "meets",
+   "evidence": "Federal facility experience: Tinker AFB grounds maintenance, GSA Federal Building custodial."
+  },
+  {
+   "requirement_id": "81935751-01c68c24-p17-335d7125",
+   "quote": "The Contractor shall make available at its offices, at all reasonable times, the records, materials, and other evidence for examination, audit, or reproduction, until 3 years after final payment under this contract",
+   "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+   "page": 17,
+   "firm_answer": "Standard federal records retention requirement. Firm's CMMS and compliance infrastructure support this.",
+   "status": "meets",
+   "evidence": "Capability: QC inspections logged in CMMS; federal contracting experience."
+  },
+  {
+   "requirement_id": "81935751-01c68c24-p32-3c3fb143",
+   "quote": "QUOTERS MUST SUBMIT ALL QUESTIONS CONCERNING THIS SOLICITATION IN WRITING VIA EMAIL TO KIRSTEN.KEEN@NOAA.GOV.",
+   "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+   "page": 32,
+   "firm_answer": "Standard administrative requirement the firm can comply with.",
+   "status": "meets",
+   "evidence": "Standard administrative capability."
+  },
+  {
+   "requirement_id": "81935751-01c68c24-p34-58f7b266",
+   "quote": "NOTICE TO QUOTERS: Instructions for submitting quotations under this request for quote must be followed.",
+   "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+   "page": 34,
+   "firm_answer": "Firm can follow submission instructions as an experienced federal contractor.",
+   "status": "meets",
+   "evidence": "Federal contracting experience: Tinker AFB, GSA Region 7, VA Oklahoma City, OMES."
+  },
+  {
+   "requirement_id": "81935751-01c68c24-p19-811530fe",
+   "quote": "The Contractor will not engage in any racially discriminatory DEI activities;",
+   "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+   "page": 19,
+   "firm_answer": "Standard compliance clause. No information in the firm profile contradicts compliance.",
+   "status": "meets",
+   "evidence": "Standard compliance; no contradicting information in firm profile."
+  },
+  {
+   "requirement_id": "81935751-01c68c24-p30-04d902d1",
+   "quote": "contractors requiring access to NOAA facilities outside normal business hours or outside the normal workweek shall submit a written request in writing through the COR to the contracting officer.",
+   "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+   "page": 30,
+   "firm_answer": "Standard NOAA facility access protocol. Firm's federal facility experience supports compliance.",
+   "status": "meets",
+   "evidence": "Federal facility experience: Tinker AFB, GSA Federal Building."
+  },
+  {
+   "requirement_id": "81935751-01c68c24-p3-5b36c7e6",
+   "quote": "In no event shall failure to inspect the site constitute grounds for a claim after contract award.",
+   "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+   "page": 3,
+   "firm_answer": "Firm acknowledges site visit is recommended. Distance (~370 miles) makes a site visit logistically difficult and costly, which is consistent with the distance disqualification concern.",
+   "status": "partial",
+   "evidence": "Owner rule [rc-distance] concern: 370-mile distance makes site visit costly; firm has no local Kansas presence documented."
+  },
+  {
+   "requirement_id": "81935751-01c68c24-p13-adf3583d",
+   "quote": "The Contractor shall be liable for default unless nonperformance is caused by an occurrence beyond the reasonable control of the Contractor and without its fault or negligence.",
+   "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+   "page": 13,
+   "firm_answer": "Standard FAR default clause. Firm's federal contracting experience supports compliance.",
+   "status": "meets",
+   "evidence": "Federal contracting experience across multiple agencies."
+  },
+  {
+   "requirement_id": "81935751-01c68c24-p21-c103ebcc",
+   "quote": "In addition to the investigations noted above, non-U.S. citizens must have a background check that includes an Immigration and Customs Enforcement agency check.",
+   "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+   "page": 21,
+   "firm_answer": "Firm uses e-Verify, which supports employment eligibility verification. ICE agency check compliance for non-U.S. citizen employees is not specifically documented.",
+   "status": "partial",
+   "evidence": "Capability: e-Verify enrollment; ICE agency check process not explicitly confirmed."
+  },
+  {
+   "requirement_id": "81935751-01c68c24-p25-bb532491",
+   "quote": "Evidence of annual training by name and date completed for each contractor employee shall be submitted to the COR or contracting officer (if no COR assigned) no later than March 1st of each calendar year of contract performance.",
+   "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+   "page": 25,
+   "firm_answer": "Firm's CMMS-based QC logging could support training record tracking, but annual NOAA-specific training documentation is not confirmed in the profile.",
+   "status": "partial",
+   "evidence": "Capability: QC inspections logged in CMMS; NOAA-specific annual training records not confirmed."
+  },
+  {
+   "requirement_id": "81935751-01c68c24-p18-dddd10e4",
+   "quote": "The total duration of this contract, including the exercise of any options under this clause, shall not exceed 5 years.",
+   "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+   "page": 18,
+   "firm_answer": "Five-year total contract duration (base + 4 options) is consistent with the firm's capacity as a 38-employee operation with prior multi-year federal contracts.",
+   "status": "meets",
+   "evidence": "Past performance: Grounds maintenance, cantonment area (Tinker AFB, 3-year contract); Custodial services, Oklahoma City Federal Building (3-year contract)."
+  }
+ ],
+ "matrix_dropped": 1,
+ "matrix_dropped_rows": [
+  {
+   "requirement_id": "81935751-01c68c24-p34-6cfb12b1",
+   "quote": "The technical approach write-up must not be a reiteration of the Statement of Work, but how Quoter's company plans on performing the tasks listed in the attached Statement of Work (i.e., performance checklists, anticipated number of employees, anticipated hours at the facility and/or confirmation of supplies being provided, etc.).",
+   "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+   "page": 34,
+   "reason": "not_verbatim"
+  }
+ ],
+ "fit_score_code": 0.7667,
+ "drafts": {
+  "capability_statement": "Red Cedar Facility Services is a small business concern eligible for Total Small Business set-aside acquisitions under NAICS 561730 (Landscaping Services). We provide non-personal grounds maintenance services — including mowing, trimming, edging, and irrigation management — to federal facilities, supplying all labor, supervision, tools, equipment, and materials required under firm-fixed-price contracts.\n\nOur directly relevant past performance includes a multi-year grounds maintenance contract covering the cantonment area at Tinker Air Force Base, Oklahoma (NAICS 561730, 2021–2024), where we maintained large turf areas to federal standards, managed debris removal, and operated under federal facility access and security sign-in protocols consistent with those required at NWS WFO Dodge City.\n\nRed Cedar employs OSHA 30-certified supervisors and operates a quality control inspection program with findings logged in a computerized maintenance management system (CMMS), supporting the detailed technical approach and documentation requirements of this solicitation. Our workforce is enrolled in e-Verify, supporting the personnel security processing requirements applicable to Department of Commerce facilities.\n\nWe are a Women-Owned Small Business (WOSB) and Economically Disadvantaged Women-Owned Small Business (EDWOSB), and we hold the compliance infrastructure — reps and certs, e-Verify, and QC documentation — required for federal purchase order performance.\n\nWe respectfully submit this statement of qualifications in response to Solicitation No. 819357517c044e6489e51644fc101775 and welcome the opportunity to discuss our approach with the contracting officer.\n\nPoint of Contact: Red Cedar Facility Services | red-cedar | kirsten.keen@noaa.gov",
+  "questions_for_co": [
+   "Base period active service window [81935751-01c68c24-p2-c1388fa4, 81935751-descript-p0-0da066f4]: The solicitation states the base period contract term runs through 03/31/2027 but that services are only performed through 10/31/2026. Can the contracting officer confirm the total number of billable service months in the base period, and whether the contract term (through 03/31/2027) or the active service window (through 10/31/2026) governs for purposes of evaluating contract duration?",
+   "Mobilization distance and local presence [81935751-266263a0-p1-1e6fd84f]: The work site is located at 104 Airport Road, Dodge City, KS 67801. Does the government have any requirement or preference for a contractor with a local or in-state presence, or is a contractor mobilizing from outside Kansas fully eligible for award provided all performance requirements are met?",
+   "FedConnect registration requirement [81935751-01c68c24-p12-a0dcf44c]: The solicitation requires the contractor to be registered in FedConnect®. Will FedConnect be used for contract administration, document exchange, or both under this purchase order, and is registration required prior to quote submission or only prior to award?",
+   "Personnel security processing timeline [81935751-01c68c24-p21-c82aa775, 81935751-01c68c24-p22-d6ca8e8f]: The solicitation requires fingerprints and a Credit Release Authorization within three working days of start of work, and a NACI for employees remaining on contract over 180 days. Given that the base period active service window begins at date of award, what is the government's expected processing timeline for SAC and NACI adjudications, and will employees be permitted to work under escort or supervision pending favorable adjudication?",
+   "IPP electronic invoicing [81935751-01c68c24-p26-8253f71d, 81935751-01c68c24-p26-570e6c68]: The solicitation requires payment requests to be submitted through the Invoice Processing Platform (IPP). Can the contracting officer confirm whether IPP registration must be completed prior to award or prior to first invoice submission, and whether the government provides onboarding assistance for first-time IPP users?",
+   "NAO 202-1106 training documentation [81935751-01c68c24-p25-7eb96a18]: The solicitation requires mandatory sexual assault and sexual harassment prevention and response training in compliance with NAO 202-1106. Can the contracting officer provide or direct the quoter to the approved training curriculum or government-furnished materials for NAO 202-1106, or is the contractor expected to source and deliver a compliant training program independently?"
+  ],
+  "calendar_entries": [
+   {
+    "title": "Original Proposal Due (superseded by Amendment 0001)",
+    "date": "2026-08-14",
+    "note": "Original closing date per solicitation body — superseded by Amendment 0001, which extended the deadline to 2026-08-18.",
+    "source_quote": "(vii) Quotes are required to be received in the contracting office no later than 10:00am MDT on FRIDAY, AUGUST 14, 2026."
+   },
+   {
+    "title": "Decide By (2 business days before amended proposal due)",
+    "date": "2026-08-14",
+    "note": "Internal bid/no-bid decision deadline — two business days before the amended proposal due date of 2026-08-18 (Tuesday). Two business days prior lands on Friday, 2026-08-14.",
+    "source_quote": "THE CLOSING DATE HAS BEEN EXTENDED UNTIL TUESDAY, AUGUST 18, 2026 AT 10:00AM MDT END OF AMENDMENT 0001"
+   },
+   {
+    "title": "Proposal Due (Amended)",
+    "date": "2026-08-18",
+    "note": "Amended closing date per Amendment 0001. Quotes must be submitted electronically via email to kirsten.keen@noaa.gov.",
+    "source_quote": "THE CLOSING DATE HAS BEEN EXTENDED UNTIL TUESDAY, AUGUST 18, 2026 AT 10:00AM MDT END OF AMENDMENT 0001"
+   }
+  ]
+ },
+ "reader": {
+  "notice_id": "819357517c044e6489e51644fc101775",
+  "key_requirement_ids": [
+   "81935751-266263a0-p1-1e6fd84f",
+   "81935751-01c68c24-p2-c1388fa4",
+   "81935751-01c68c24-p34-27a261c3",
+   "81935751-01c68c24-p34-6cfb12b1",
+   "81935751-01c68c24-p34-96d87cca",
+   "81935751-01c68c24-p5-cd8d75a7",
+   "81935751-01c68c24-p34-f535489a",
+   "81935751-01c68c24-p2-9a6a37d9",
+   "81935751-01c68c24-p2-2e658d5b",
+   "81935751-01c68c24-p4-18ca58ec",
+   "81935751-01c68c24-p12-a0dcf44c",
+   "81935751-01c68c24-p20-0dae37c2",
+   "81935751-01c68c24-p21-c82aa775",
+   "81935751-01c68c24-p22-d6ca8e8f",
+   "81935751-01c68c24-p25-7eb96a18",
+   "81935751-01c68c24-p25-6a0b493b",
+   "81935751-266263a0-p1-863fa754",
+   "81935751-266263a0-p1-9afb43c6",
+   "81935751-266263a0-p1-67a745d1",
+   "81935751-01c68c24-p32-3c3fb143",
+   "81935751-01c68c24-p34-58f7b266",
+   "81935751-descript-p0-16dbd13b",
+   "81935751-f05a7260-p1-eb5cb96c",
+   "81935751-01c68c24-p28-0a5d1bc3",
+   "81935751-01c68c24-p31-681e1472"
+  ],
+  "scope_summary": "The government is buying non-personal landscape services (lawn care and other grounds keeping) for the National Weather Service Weather Forecast Office located at 104 Airport Road, Dodge City, KS 67801, with the contractor providing all tools, equipment, materials, and supervision. The contract is structured as a firm-fixed-price purchase order with a base year (services provided through 10/31/2026) and four option years, each with services provided April through October, for a total potential duration of five years. The acquisition is set aside for small business concerns under NAICS 561730 with a $9.5M size standard.",
+  "evaluation_basis": "The Government intends to award a low priced, technically acceptable, single firm fixed-price purchase order on an all or none basis with payment terms of Net 30.",
+  "incumbent_or_history": "THE INCUMBENT CONTRACT WAS AWARDED TO CMS LAWNCARE LLC FOR AN AGGREGATE OF $21,475.00 FOR FIVE (5) YEARS.",
+  "quotes": [
+   "THE INCUMBENT CONTRACT WAS AWARDED TO CMS LAWNCARE LLC FOR AN AGGREGATE OF $21,475.00 FOR FIVE (5) YEARS.",
+   "THE STATEMENT OF WORK WITHIN THIS SOLICITATION MAY OR MAY NOT HAVE BEEN MODIFIED FROM THE INCUMBENT CONTRACT; THEREFORE, IT IS RECOMMENDED THAT QUOTERS THOROUGHLY REVIEW THE STATEMENT OF WORK IN THIS SOLICITATION AND MAKE A SITE VISIT.",
+   "The Government intends to award a low priced, technically acceptable, single firm fixed-price purchase order on an all or none basis with payment terms of Net 30.",
+   "The contractor shall provide all tools, equipment, materials and supervision for the duties required to care for all of the grounds within the boundaries of the Weather Forecast Office as described in this Statement of Work.",
+   "A detailed technical approach write-up describing how the Quoter will perform this service is required to be submitted regardless of whether a site visit was made or not.",
+   "The quoter's past experience on related contracts should be provided to determine, as appropriate, successful performance of contract requirements, date of project start and completion (must have been completed within the last two years), quality and timeliness of delivery of goods and services, cost management, communications between contracting parties, proactive management and customer satisfaction.",
+   "THE QUOTER MUST BE CURRENTLY REGISTERED IN THE SYSTEM FOR AWARD MANAGEMENT (SAM) TO BE ELIGIBLE FOR AN AWARD.",
+   "All quotes must be submitted electronically via email to kirsten.keen@noaa.gov.",
+   "Quotes are required to be received in the contracting office no later than 10:00am MDT on FRIDAY, AUGUST 14, 2026.",
+   "All contractor (and subcontractor) personnel proposed to be employed under a Low Risk contract shall undergo security processing by the Department's Office of Security before being eligible to work on the premises of any Department of Commerce owned, leased, or controlled facility in the United States or overseas, or to obtain access to a Department of Commerce IT system.",
+   "Any contract employee with a favorable SAC who remains on the contract over 180 days will be required to have a NACI conducted to continue working on the job site.",
+   "Fingerprints and a Credit Release Authorization must be completed within three working days from start of work, and provided to the Servicing Security Officer, who will forward the investigative package to OPM.",
+   "The contractor shall provide all contractor employees assigned to perform under this contract with mandatory sexual assault and sexual harassment prevention and response training in compliance with the requirements of NAO 202-1106, Section 5, Prevention Training and Awareness, as part of their initial in-processing and on an annual basis thereafter.",
+   "The contractor must be registered in FedConnect® and have access to the FedConnect® website located at https://www.fedconnect.net/Fedconnect/.",
+   "Upon arrival the Contractor and/or employee shall sign in on the security log sheet when entering the property.",
+   "Cutting equipment blades shall be sharp to ensure a high-quality cut and minimize disease.",
+   "In no event shall failure to inspect the site constitute grounds for a claim after contract award."
+  ]
+ },
+ "fit": {
+  "notice_id": "819357517c044e6489e51644fc101775",
+  "fit_score": 0.27,
+  "matched_past_performance": [
+   "Grounds maintenance, cantonment area"
+  ],
+  "strengths": [
+   "NAICS 561730 exact match",
+   "Total small business set-aside eligibility (SBA)",
+   "Grounds maintenance capability: mowing, trimming, irrigation",
+   "Federal facility past performance (Tinker AFB grounds)",
+   "OSHA 30 supervisors and QC inspection program",
+   "e-Verify enrollment supports personnel security processing"
+  ],
+  "gaps": [
+   "Distance rule violation: Dodge City, KS is ~370 miles from Oklahoma City, exceeding the 200-mile owner rule [rc-distance]",
+   "Base period rule: actual services only run through 10/31/2026 (less than 12 months), potentially violating [rc-base] no-bids-under-12-month-base rule",
+   "SAM registration not confirmed in firm profile",
+   "FedConnect registration not confirmed in firm profile",
+   "No Kansas-specific licensure or local presence mentioned",
+   "IPP electronic invoicing capability not confirmed",
+   "No mention of Department of Commerce / NOAA security processing experience (NACI, SAC, fingerprinting)"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "81935751-01c68c24-p2-c1388fa4",
+    "quote": "Base Period is Date of Award through 03/31/2027. (Services are only provided from Date of Award-10/31/2026)",
+    "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+    "page": 2,
+    "firm_answer": "Owner rule [rc-base] prohibits bids under a 12-month base period. The base period contract term runs to 03/31/2027 (~12 months), but actual services are only performed through 10/31/2026 (~2–5 months depending on award date). This is a disqualifying condition under the firm's own bid rules.",
+    "status": "gap",
+    "evidence": "Owner rule [rc-base]: No bids under a 12-month base period. Active service window is less than 12 months."
+   },
+   {
+    "requirement_id": "81935751-descript-p0-0da066f4",
+    "quote": "Period of performance shall be: Base Period is Date of Award through 03/31/2027. (Services are only provided from Date of Award-10/31/2026)",
+    "source_file": "description",
+    "page": 0,
+    "firm_answer": "Same as above — the active performance window is under 12 months, triggering the [rc-base] owner rule disqualification.",
+    "status": "gap",
+    "evidence": "Owner rule [rc-base]: No bids under a 12-month base period."
+   },
+   {
+    "requirement_id": "81935751-266263a0-p1-1e6fd84f",
+    "quote": "Location: NWS Forecast Office 104 Airport Road Dodge City, KS 67801",
+    "source_file": "266263a075204d3f97ded50d9ce9a90e.docx",
+    "page": 1,
+    "firm_answer": "Dodge City, KS is approximately 370 miles from Oklahoma City, OK. Owner rule [rc-distance] prohibits bids over 200 miles from Oklahoma City. This is a disqualifying condition.",
+    "status": "gap",
+    "evidence": "Owner rule [rc-distance]: No bids over 200 miles from Oklahoma City. Dodge City, KS exceeds this limit."
+   },
+   {
+    "requirement_id": "81935751-266263a0-p1-1e6fd84f",
+    "quote": "The contractor shall provide all tools, equipment, materials and supervision for the duties required to care for all of the grounds within the boundaries of the Weather Forecast Office",
+    "source_file": "266263a075204d3f97ded50d9ce9a90e.docx",
+    "page": 1,
+    "firm_answer": "Red Cedar's capabilities include grounds maintenance (mowing, trimming, irrigation) and the firm provides all supervision, labor, tools, materials, and equipment per its service model. Tinker AFB grounds contract confirms this.",
+    "status": "meets",
+    "evidence": "Capability: grounds maintenance (mowing, trimming, irrigation); Past performance: Grounds maintenance, cantonment area (Tinker AFB)"
+   },
+   {
+    "requirement_id": "81935751-01c68c24-p5-cd8d75a7",
+    "quote": "THE QUOTER MUST BE CURRENTLY REGISTERED IN THE SYSTEM FOR AWARD MANAGEMENT (SAM) TO BE ELIGIBLE FOR AN AWARD.",
+    "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+    "page": 5,
+    "firm_answer": "The firm profile does not confirm active SAM registration. Cannot assert compliance.",
+    "status": "unknown",
+    "evidence": "SAM registration not mentioned in firm profile."
+   },
+   {
+    "requirement_id": "81935751-f05a7260-p2-0aabdf83",
+    "quote": "THE QUOTER MUST BE CURRENTLY REGISTERED IN THE SYSTEM FOR AWARD MANAGEMENT (SAM) TO BE ELIGIBLE FOR AN AWARD.",
+    "source_file": "f05a7260555f493085b12bf40a1123f1.pdf",
+    "page": 2,
+    "firm_answer": "SAM registration not confirmed in firm profile.",
+    "status": "unknown",
+    "evidence": "SAM registration not mentioned in firm profile."
+   },
+   {
+    "requirement_id": "81935751-01c68c24-p34-f535489a",
+    "quote": "Quoters shall have an active registration in the System for Award Management (https://sam.gov/content/home) in order to provide a quote and be eligible for award.",
+    "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+    "page": 34,
+    "firm_answer": "SAM registration not confirmed in firm profile.",
+    "status": "unknown",
+    "evidence": "SAM registration not mentioned in firm profile."
+   },
+   {
+    "requirement_id": "81935751-01c68c24-p12-a0dcf44c",
+    "quote": "The contractor must be registered in FedConnect® and have access to the FedConnect® website located at https://www.fedconnect.net/Fedconnect/.",
+    "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+    "page": 12,
+    "firm_answer": "FedConnect registration is not mentioned in the firm profile. Cannot confirm compliance.",
+    "status": "unknown",
+    "evidence": "FedConnect registration not mentioned in firm profile."
+   },
+   {
+    "requirement_id": "81935751-01c68c24-p34-27a261c3",
+    "quote": "A detailed technical approach write-up describing how the Quoter will perform this service is required to be submitted regardless of whether a site visit was made or not.",
+    "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+    "page": 34,
+    "firm_answer": "Red Cedar has grounds maintenance capability and QC inspections logged in a CMMS, which could support a technical approach write-up. However, no Kansas-specific or NWS-specific approach is documented in the profile.",
+    "status": "partial",
+    "evidence": "Capability: grounds maintenance, QC inspections logged in CMMS; Past performance: Grounds maintenance, cantonment area (Tinker AFB)"
+   },
+   {
+    "requirement_id": "81935751-01c68c24-p34-96d87cca",
+    "quote": "The quoter's past experience on related contracts should be provided to determine, as appropriate, successful performance of contract requirements, date of project start and completion (must have been completed within the last two years)",
+    "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+    "page": 34,
+    "firm_answer": "Grounds maintenance, cantonment area (Tinker AFB, 2021–2024, NAICS 561730) is directly relevant and was active within the last two years. This is the strongest past performance reference.",
+    "status": "meets",
+    "evidence": "Past performance: Grounds maintenance, cantonment area | Tinker AFB | NAICS 561730 | 2021–2024"
+   },
+   {
+    "requirement_id": "81935751-01c68c24-p2-13c2cab1",
+    "quote": "See the attached SF18 with the terms and conditions which all quoters must be in compliance with to be eligible for award.",
+    "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+    "page": 2,
+    "firm_answer": "Firm can comply with standard SF18 terms and conditions as a small business federal contractor. No specific disqualifying terms identified beyond distance and base-period owner rules.",
+    "status": "partial",
+    "evidence": "Capability: federal and state facility contractor with compliance infrastructure (e-Verify, OSHA 30, CIMS-GB)"
+   },
+   {
+    "requirement_id": "81935751-01c68c24-p2-9a6a37d9",
+    "quote": "Quotes are required to be received in the contracting office no later than 10:00am MDT on FRIDAY, AUGUST 14, 2026.",
+    "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+    "page": 2,
+    "firm_answer": "Deadline compliance is an administrative action the firm can perform. Note: the amendment extended the deadline to August 18, 2026.",
+    "status": "meets",
+    "evidence": "Administrative capability; amendment extended deadline to August 18, 2026."
+   },
+   {
+    "requirement_id": "81935751-01c68c24-p2-2e658d5b",
+    "quote": "All quotes must be submitted electronically via email to kirsten.keen@noaa.gov.",
+    "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+    "page": 2,
+    "firm_answer": "Electronic email submission is a standard administrative capability the firm can perform.",
+    "status": "meets",
+    "evidence": "Standard administrative capability."
+   },
+   {
+    "requirement_id": "81935751-01c68c24-p4-18ca58ec",
+    "quote": "Any representations and/or certifications attached to this Request for Quotation must be completed by the quoter.",
+    "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+    "page": 4,
+    "firm_answer": "Firm can complete standard reps and certs. WOSB, EDWOSB, and SBA set-aside eligibility are confirmed in the profile.",
+    "status": "meets",
+    "evidence": "Set-asides: WOSB, EDWOSB, SBA; compliance infrastructure confirmed."
+   },
+   {
+    "requirement_id": "81935751-01c68c24-p20-0dae37c2",
+    "quote": "All contractor (and subcontractor) personnel proposed to be employed under a Low Risk contract shall undergo security processing by the Department's Office of Security before being eligible to work on the premises of any Department of Commerce owned, leased, or controlled facility",
+    "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+    "page": 20,
+    "firm_answer": "The firm uses e-Verify for employment eligibility. However, no prior Department of Commerce security processing experience is mentioned in the profile. Firm can likely comply but has no documented experience with this specific process.",
+    "status": "partial",
+    "evidence": "Capability: e-Verify enrollment; no prior DOC/NOAA security processing documented."
+   },
+   {
+    "requirement_id": "81935751-01c68c24-p21-c82aa775",
+    "quote": "Any contract employee with a favorable SAC who remains on the contract over 180 days will be required to have a NACI conducted to continue working on the job site.",
+    "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+    "page": 21,
+    "firm_answer": "No prior NACI or SAC processing experience is documented in the firm profile. Firm can likely comply administratively but has no confirmed track record.",
+    "status": "unknown",
+    "evidence": "NACI/SAC processing not mentioned in firm profile."
+   },
+   {
+    "requirement_id": "81935751-01c68c24-p22-d6ca8e8f",
+    "quote": "Fingerprints and a Credit Release Authorization must be completed within three working days from start of work, and provided to the Servicing Security Officer",
+    "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+    "page": 22,
+    "firm_answer": "No documented experience with DOC fingerprinting or Credit Release Authorization processes in the firm profile.",
+    "status": "unknown",
+    "evidence": "DOC security processing requirements not addressed in firm profile."
+   },
+   {
+    "requirement_id": "81935751-01c68c24-p25-7eb96a18",
+    "quote": "The contractor shall provide all contractor employees assigned to perform under this contract with mandatory sexual assault and sexual harassment prevention and response training in compliance with the requirements of NAO 202-1106",
+    "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+    "page": 25,
+    "firm_answer": "The firm profile does not mention NAO 202-1106 training or equivalent NOAA-specific training programs. General compliance capability is implied but not confirmed.",
+    "status": "unknown",
+    "evidence": "NAO 202-1106 training not mentioned in firm profile."
+   },
+   {
+    "requirement_id": "81935751-01c68c24-p25-6a0b493b",
+    "quote": "Evidence of initial training by name and date completed for each contractor employee, shall be submitted to the COR or contracting officer (if no COR assigned) within 10 business days of completion.",
+    "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+    "page": 25,
+    "firm_answer": "Firm uses CMMS for QC inspection logging, which could support training record tracking. However, no specific training documentation system for federal compliance is mentioned.",
+    "status": "partial",
+    "evidence": "Capability: QC inspections logged in CMMS; training record management not explicitly confirmed."
+   },
+   {
+    "requirement_id": "81935751-01c68c24-p26-8253f71d",
+    "quote": "The Contractor must submit payment requests electronically through the U.S.",
+    "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+    "page": 26,
+    "firm_answer": "IPP electronic invoicing capability is not confirmed in the firm profile.",
+    "status": "unknown",
+    "evidence": "IPP electronic invoicing not mentioned in firm profile."
+   },
+   {
+    "requirement_id": "81935751-01c68c24-p26-570e6c68",
+    "quote": "The Contractor must use the IPP website to register, access, and submit payment requests.",
+    "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+    "page": 26,
+    "firm_answer": "IPP registration and use not confirmed in firm profile.",
+    "status": "unknown",
+    "evidence": "IPP not mentioned in firm profile."
+   },
+   {
+    "requirement_id": "81935751-266263a0-p1-9afb43c6",
+    "quote": "The Contractor shall ensure that all debris is cleaned up before he leaves.",
+    "source_file": "266263a075204d3f97ded50d9ce9a90e.docx",
+    "page": 1,
+    "firm_answer": "Standard grounds maintenance practice consistent with the firm's grounds maintenance capability and Tinker AFB past performance.",
+    "status": "meets",
+    "evidence": "Capability: grounds maintenance (mowing, trimming); Past performance: Grounds maintenance, cantonment area (Tinker AFB)"
+   },
+   {
+    "requirement_id": "81935751-266263a0-p1-863fa754",
+    "quote": "Upon arrival the Contractor and/or employee shall sign in on the security log sheet when entering the property.",
+    "source_file": "266263a075204d3f97ded50d9ce9a90e.docx",
+    "page": 1,
+    "firm_answer": "Standard federal facility access procedure consistent with the firm's experience at Tinker AFB and Oklahoma City Federal Building.",
+    "status": "meets",
+    "evidence": "Past performance: Grounds maintenance, cantonment area (Tinker AFB); Custodial services, Oklahoma City Federal Building"
+   },
+   {
+    "requirement_id": "81935751-266263a0-p1-67a745d1",
+    "quote": "Cutting equipment blades shall be sharp to ensure a high-quality cut and minimize disease.",
+    "source_file": "266263a075204d3f97ded50d9ce9a90e.docx",
+    "page": 1,
+    "firm_answer": "Standard grounds maintenance equipment maintenance practice consistent with the firm's grounds maintenance capability.",
+    "status": "meets",
+    "evidence": "Capability: grounds maintenance (mowing, trimming); Past performance: Grounds maintenance, cantonment area (Tinker AFB)"
+   },
+   {
+    "requirement_id": "81935751-266263a0-p1-1812515f",
+    "quote": "Description of Work The Contractor shall:",
+    "source_file": "266263a075204d3f97ded50d9ce9a90e.docx",
+    "page": 1,
+    "firm_answer": "Full SOW details are in the attachment. Firm's grounds maintenance capability (mowing, trimming, irrigation) aligns with typical NWS WFO lawn service scope.",
+    "status": "partial",
+    "evidence": "Capability: grounds maintenance (mowing, trimming, irrigation); full SOW not reproduced in requirements provided."
+   },
+   {
+    "requirement_id": "81935751-266263a0-p1-b3e18388",
+    "quote": "The Contractor will bill on a monthly basis in arrears for the service provided.",
+    "source_file": "266263a075204d3f97ded50d9ce9a90e.docx",
+    "page": 1,
+    "firm_answer": "Monthly billing in arrears is a standard invoicing practice. Firm profile does not contradict this requirement.",
+    "status": "meets",
+    "evidence": "Standard commercial invoicing practice; no conflicting information in firm profile."
+   },
+   {
+    "requirement_id": "81935751-01c68c24-p13-722ab76e",
+    "quote": "The Contractor shall submit invoices to the address designated in the contract to receive invoices.",
+    "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+    "page": 13,
+    "firm_answer": "Standard invoicing requirement the firm can comply with.",
+    "status": "meets",
+    "evidence": "Standard administrative capability."
+   },
+   {
+    "requirement_id": "81935751-01c68c24-p28-0a5d1bc3",
+    "quote": "The contractor shall notify the contracting officer in writing within 5 business days from the date of any situation or occurrence where the contractor considers specific contract activity to be inconsistent with the intent of this contract language.",
+    "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+    "page": 28,
+    "firm_answer": "Standard contract administration requirement. Firm's federal contracting experience supports compliance.",
+    "status": "meets",
+    "evidence": "Federal contracting experience: Tinker AFB, GSA Region 7, VA Oklahoma City."
+   },
+   {
+    "requirement_id": "81935751-01c68c24-p29-aead0a93",
+    "quote": "unless a NOAA facility is closed and the contractor is denied access to the facility, the contractor shall continue performance in accordance with the contract.",
+    "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+    "page": 29,
+    "firm_answer": "Standard performance continuity requirement. Firm's federal facility experience supports compliance.",
+    "status": "meets",
+    "evidence": "Federal facility experience: Tinker AFB grounds maintenance, GSA Federal Building custodial."
+   },
+   {
+    "requirement_id": "81935751-01c68c24-p17-335d7125",
+    "quote": "The Contractor shall make available at its offices, at all reasonable times, the records, materials, and other evidence for examination, audit, or reproduction, until 3 years after final payment under this contract",
+    "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+    "page": 17,
+    "firm_answer": "Standard federal records retention requirement. Firm's CMMS and compliance infrastructure support this.",
+    "status": "meets",
+    "evidence": "Capability: QC inspections logged in CMMS; federal contracting experience."
+   },
+   {
+    "requirement_id": "81935751-01c68c24-p32-3c3fb143",
+    "quote": "QUOTERS MUST SUBMIT ALL QUESTIONS CONCERNING THIS SOLICITATION IN WRITING VIA EMAIL TO KIRSTEN.KEEN@NOAA.GOV.",
+    "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+    "page": 32,
+    "firm_answer": "Standard administrative requirement the firm can comply with.",
+    "status": "meets",
+    "evidence": "Standard administrative capability."
+   },
+   {
+    "requirement_id": "81935751-01c68c24-p34-58f7b266",
+    "quote": "NOTICE TO QUOTERS: Instructions for submitting quotations under this request for quote must be followed.",
+    "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+    "page": 34,
+    "firm_answer": "Firm can follow submission instructions as an experienced federal contractor.",
+    "status": "meets",
+    "evidence": "Federal contracting experience: Tinker AFB, GSA Region 7, VA Oklahoma City, OMES."
+   },
+   {
+    "requirement_id": "81935751-01c68c24-p19-811530fe",
+    "quote": "The Contractor will not engage in any racially discriminatory DEI activities;",
+    "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+    "page": 19,
+    "firm_answer": "Standard compliance clause. No information in the firm profile contradicts compliance.",
+    "status": "meets",
+    "evidence": "Standard compliance; no contradicting information in firm profile."
+   },
+   {
+    "requirement_id": "81935751-01c68c24-p30-04d902d1",
+    "quote": "contractors requiring access to NOAA facilities outside normal business hours or outside the normal workweek shall submit a written request in writing through the COR to the contracting officer.",
+    "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+    "page": 30,
+    "firm_answer": "Standard NOAA facility access protocol. Firm's federal facility experience supports compliance.",
+    "status": "meets",
+    "evidence": "Federal facility experience: Tinker AFB, GSA Federal Building."
+   },
+   {
+    "requirement_id": "81935751-01c68c24-p3-5b36c7e6",
+    "quote": "In no event shall failure to inspect the site constitute grounds for a claim after contract award.",
+    "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+    "page": 3,
+    "firm_answer": "Firm acknowledges site visit is recommended. Distance (~370 miles) makes a site visit logistically difficult and costly, which is consistent with the distance disqualification concern.",
+    "status": "partial",
+    "evidence": "Owner rule [rc-distance] concern: 370-mile distance makes site visit costly; firm has no local Kansas presence documented."
+   },
+   {
+    "requirement_id": "81935751-01c68c24-p13-adf3583d",
+    "quote": "The Contractor shall be liable for default unless nonperformance is caused by an occurrence beyond the reasonable control of the Contractor and without its fault or negligence.",
+    "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+    "page": 13,
+    "firm_answer": "Standard FAR default clause. Firm's federal contracting experience supports compliance.",
+    "status": "meets",
+    "evidence": "Federal contracting experience across multiple agencies."
+   },
+   {
+    "requirement_id": "81935751-01c68c24-p21-c103ebcc",
+    "quote": "In addition to the investigations noted above, non-U.S. citizens must have a background check that includes an Immigration and Customs Enforcement agency check.",
+    "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+    "page": 21,
+    "firm_answer": "Firm uses e-Verify, which supports employment eligibility verification. ICE agency check compliance for non-U.S. citizen employees is not specifically documented.",
+    "status": "partial",
+    "evidence": "Capability: e-Verify enrollment; ICE agency check process not explicitly confirmed."
+   },
+   {
+    "requirement_id": "81935751-01c68c24-p25-bb532491",
+    "quote": "Evidence of annual training by name and date completed for each contractor employee shall be submitted to the COR or contracting officer (if no COR assigned) no later than March 1st of each calendar year of contract performance.",
+    "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+    "page": 25,
+    "firm_answer": "Firm's CMMS-based QC logging could support training record tracking, but annual NOAA-specific training documentation is not confirmed in the profile.",
+    "status": "partial",
+    "evidence": "Capability: QC inspections logged in CMMS; NOAA-specific annual training records not confirmed."
+   },
+   {
+    "requirement_id": "81935751-01c68c24-p18-dddd10e4",
+    "quote": "The total duration of this contract, including the exercise of any options under this clause, shall not exceed 5 years.",
+    "source_file": "01c68c24e67d41048b51aea756cc964e.pdf",
+    "page": 18,
+    "firm_answer": "Five-year total contract duration (base + 4 options) is consistent with the firm's capacity as a 38-employee operation with prior multi-year federal contracts.",
+    "status": "meets",
+    "evidence": "Past performance: Grounds maintenance, cantonment area (Tinker AFB, 3-year contract); Custodial services, Oklahoma City Federal Building (3-year contract)."
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "819357517c044e6489e51644fc101775",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-08-18T10:00:00-06:00",
+   "site_visit": null,
+   "period_of_performance": "Date of Award through 03/31/2027 (base); options through 03/31/2031",
+   "source_quotes": [
+    "THE CLOSING DATE HAS BEEN EXTENDED UNTIL TUESDAY, AUGUST 18, 2026 AT 10:00AM MDT END OF AMENDMENT 0001",
+    "(vii) Quotes are required to be received in the contracting office no later than 10:00am MDT on FRIDAY, AUGUST 14, 2026.",
+    "Period of performance shall be: Base Period is Date of Award through 03/31/2027. (Services are only provided from Date of Award-10/31/2026) Option Period 1 for a twelve month period 04/01/2027 through 03/31/2028. (Services are only provided from 04/01/2027-10/31/2027) Option Period 2 for a twelve month period 04/01/2028 through 03/31/2029. (Services are only provided from 04/01/2028-10/31/2028) Option Period 3 for a twelve month period 04/01/2029 through 03/31/2030. (Services are only provided from 04/01/2029-10/31/2029) Option Period 4 for a twelve month period 04/01/2030 through 03/31/2031.",
+    "A site visit is highly recommended but not required."
+   ]
+  },
+  "days_to_close": -26.787759958587962,
+  "set_aside_note": "Set-aside is Total Small Business. The firm (Red Cedar Facility Services) can claim this — SBA is listed among the firm's eligible set-asides.",
+  "amendment_note": "no amendment",
+  "calendar_entries": [
+   {
+    "title": "Original Proposal Due (superseded by Amendment 0001)",
+    "date": "2026-08-14",
+    "note": "Original closing date per solicitation body — superseded by Amendment 0001, which extended the deadline to 2026-08-18.",
+    "source_quote": "(vii) Quotes are required to be received in the contracting office no later than 10:00am MDT on FRIDAY, AUGUST 14, 2026."
+   },
+   {
+    "title": "Decide By (2 business days before amended proposal due)",
+    "date": "2026-08-14",
+    "note": "Internal bid/no-bid decision deadline — two business days before the amended proposal due date of 2026-08-18 (Tuesday). Two business days prior lands on Friday, 2026-08-14.",
+    "source_quote": "THE CLOSING DATE HAS BEEN EXTENDED UNTIL TUESDAY, AUGUST 18, 2026 AT 10:00AM MDT END OF AMENDMENT 0001"
+   },
+   {
+    "title": "Proposal Due (Amended)",
+    "date": "2026-08-18",
+    "note": "Amended closing date per Amendment 0001. Quotes must be submitted electronically via email to kirsten.keen@noaa.gov.",
+    "source_quote": "THE CLOSING DATE HAS BEEN EXTENDED UNTIL TUESDAY, AUGUST 18, 2026 AT 10:00AM MDT END OF AMENDMENT 0001"
+   }
+  ]
+ },
+ "model_calls": 5,
+ "tokens_in": 75115,
+ "tokens_out": 14960,
+ "seconds": 130.52,
+ "produced_at": "2026-09-14T05:56:32.985416-05:00"
+}

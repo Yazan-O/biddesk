@@ -1,0 +1,674 @@
+{
+ "notice_id": "48a0b93b561a44369a6ee01f3e47e2f9",
+ "firm_slug": "sooner-systems",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:52:48-05:00",
+ "evidence_basis": null,
+ "days_to_close": 21.453185018576388,
+ "closed": false,
+ "response_kind": "RFI response (capability statement, not a proposal)",
+ "card": {
+  "notice_id": "48a0b93b561a44369a6ee01f3e47e2f9",
+  "firm_slug": "sooner-systems",
+  "situation": "NASA JSC ORBIT Sources Sought: multi-award IDIQ for flight operations support across four functional areas (Mission/Systems Engineering, Technical Evaluation, Specialized IT/Operations, Advanced R&D) as a follow-on to the expiring MESC-IDIQ vehicles.\\nReached the owner because NAICS 541512 matches exactly, the notice is a Total Small Business set-aside for which Sooner Systems qualifies, and Functional Area 3 (Specialized IT and Operations) directly maps to the firm's help desk and cybersecurity core services.",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "Functional Area 3 help desk and end-user support capability directly maps to the solicitation's mission support services requirement, with two qualifying past-performance records confirming Tier 1–3 service desk delivery [48a0b93b-696cd945-p7-df9f3994].",
+   "RMF/ATO documentation, ACAS/Nessus vulnerability management, CMMC Level 2 self-assessed, and 22 Secret-cleared staff provide a strong cybersecurity posture that substantially addresses the NPD 2810.1 IT security compliance requirement [48a0b93b-696cd945-p4-e2f0806d].",
+   "The notice is a Sources Sought RFI requiring only a capability statement — no proposal or price — and Sooner Systems can meet the submission deadline with 21.5 days remaining and all required company information on hand [48a0b93b-descript-p0-25e06605]."
+  ],
+  "reasons_against": [
+   "Sooner Systems has zero spaceflight, ISS, Artemis, or mission operations experience, leaving the core contract scope — enabling flight operations organizations to plan, train, and execute NASA space missions — entirely uncovered [48a0b93b-696cd945-p2-3b37fcad].",
+   "14 of 23 requirements are gaps, including all of FA1 (systems/mission engineering), FA2 (technical evaluation), and FA4 (advanced R&D and prototype software), yielding a fit score of only 0.33 and making a competitive IDIQ award highly unlikely [matrix_summary: 6 of 23 requirements met, 3 partial, 14 gap].",
+   "Contract value history ($2.1M, $1.65M, $740K) is far below the anticipated IDIQ scale, the firm has no Houston TX presence, and no experience with NASA-specific standards (JSC 63756, FOD SMP, CA-WI-54) required across all functional areas [48a0b93b-696cd945-p5-46e5352e]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-10-01",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-10-05T17:00:00-05:00",
+   "site_visit": null,
+   "period_of_performance": null,
+   "source_quotes": [
+    "All responses must be submitted electronically via email to the Contracting Officer at jsc-orbit-procurement@mail.nasa.gov no later than 5:00 PM CENTRAL DAYLIGHT TIME on October 05, 2026."
+   ]
+  },
+  "fit_score": 0.3261,
+  "matrix_summary": "6 of 23 requirements met, 3 partial, 14 gap, 0 unknown",
+  "evidence_link": "https://sam.gov/opp/48a0b93b561a44369a6ee01f3e47e2f9/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "48a0b93b-696cd945-p2-3b37fcad",
+   "quote": "The Contractor shall provide specialized support services that enable flight operations organizations and their affiliates to plan, train, and execute NASA space missions, including missions aboard the International Space Station (ISS), Artemis, and future NASA space endeavors.",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 2,
+   "firm_answer": "Sooner Systems has no spaceflight, ISS, Artemis, or mission operations experience. The firm provides IT help desk, cybersecurity staffing, and network administration for non-space federal customers.",
+   "status": "gap",
+   "evidence": "No relevant capability or past performance in the firm profile covers flight operations or space mission support."
+  },
+  {
+   "requirement_id": "48a0b93b-696cd945-p5-288e4774",
+   "quote": "The Contractor shall provide end-to-end engineering support across the mission life cycle, including mission concept development, formulation, and systems and discipline engineering for spacecraft, instruments, launch systems, and ground systems.",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 5,
+   "firm_answer": "Sooner Systems has no systems engineering, spacecraft engineering, or mission lifecycle capability. The firm's profile covers IT support and cybersecurity staffing only.",
+   "status": "gap",
+   "evidence": "No capability statement or past performance record references mission lifecycle, spacecraft, instruments, or launch systems."
+  },
+  {
+   "requirement_id": "48a0b93b-696cd945-p5-95dc6b83",
+   "quote": "deliver design services such as performance and reliability modeling informed by historical mission data",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 5,
+   "firm_answer": "Sooner Systems does not perform performance/reliability modeling or mission data analysis. No such capability is listed in the profile.",
+   "status": "gap",
+   "evidence": "Firm profile lists no modeling, reliability, or mission data analysis capability."
+  },
+  {
+   "requirement_id": "48a0b93b-696cd945-p6-ee7258b5",
+   "quote": "The Contractor shall perform conceptual design, analysis, and development studies for systems, subsystems, information technology, software, and operational capabilities supporting Flight Operations requirements.",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 6,
+   "firm_answer": "Sooner Systems does not perform conceptual design or development studies for flight operations systems. IT support and cybersecurity staffing are the firm's core services.",
+   "status": "gap",
+   "evidence": "No capability or past performance in the profile covers conceptual design or flight operations analysis."
+  },
+  {
+   "requirement_id": "48a0b93b-696cd945-p6-299832be",
+   "quote": "The Contractor shall support the identification and evaluation of: a. scientific objectives b. mission requirements c. operational concepts d. technical approaches e. architectures f. business processes g. information technology solutions h. software solutions i. emerging technologies j. other concepts supporting current and future mission needs.",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 6,
+   "firm_answer": "Sooner Systems has no documented capability in mission requirements, operational concepts, or architecture evaluation. The firm can address information technology solutions in a limited IT-support context only.",
+   "status": "gap",
+   "evidence": "Firm profile covers IT support and cybersecurity; no mission architecture or scientific evaluation capability listed."
+  },
+  {
+   "requirement_id": "48a0b93b-696cd945-p6-21d35082",
+   "quote": "The Contractor shall apply appropriate engineering, analytical, and management methodologies identified in the task order to evaluate: a. technical feasibility b. interoperability c. implementation approaches",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 6,
+   "firm_answer": "Sooner Systems has no documented engineering or analytical methodology capability for technical feasibility or interoperability evaluation in a spaceflight context.",
+   "status": "gap",
+   "evidence": "No capability statement or past performance references engineering analysis or interoperability evaluation."
+  },
+  {
+   "requirement_id": "48a0b93b-696cd945-p7-f8accf26",
+   "quote": "The Contractor shall deliver end‑to‑end capabilities for organization-unique software applications and automated information systems, including: a. design b. development c. integration d. testing e. deployment f. hosting g. operations h. sustainment",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 7,
+   "firm_answer": "Sooner Systems does not perform software design, development, integration, or testing. The firm administers Microsoft 365 and Azure and provides IT support, but has no software development lifecycle capability.",
+   "status": "gap",
+   "evidence": "Systems administration and Microsoft 365 migration past performance covers administration only, not software development lifecycle."
+  },
+  {
+   "requirement_id": "48a0b93b-696cd945-p8-1dcb123e",
+   "quote": "5.4 Functional Area 4 - Advanced R&D Support The Contractor shall provide advanced, exploratory prototype software and supporting hardware development and technology research in pursuit of next-generation mission operations design solutions.",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 8,
+   "firm_answer": "Sooner Systems has no R&D, prototype software development, or hardware development capability. The firm profile does not reference any research or advanced technology work.",
+   "status": "gap",
+   "evidence": "No capability or past performance in the profile covers R&D or advanced technology development."
+  },
+  {
+   "requirement_id": "48a0b93b-696cd945-p8-21370c0a",
+   "quote": "The Contractor shall explore and introduce new technologies that improve the effectiveness and efficiency of mission operations and deliver advanced technologies and highly specialized custom software solutions into mission operations systems",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 8,
+   "firm_answer": "Sooner Systems has no capability to deliver advanced technologies or custom software solutions for mission operations systems.",
+   "status": "gap",
+   "evidence": "No capability or past performance in the profile references advanced technology insertion or custom mission software."
+  },
+  {
+   "requirement_id": "48a0b93b-696cd945-p7-df9f3994",
+   "quote": "The Contractor shall provide mission support services, including but not limited to: a. end-user (i.e. domestic, international, and on-orbit) support services b. help desk services c. quick turnaround multi-media products to support organization unique training and mission needs",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 7,
+   "firm_answer": "Sooner Systems provides Tier 1-3 help desk and end-user support (domestic). No international or on-orbit support experience is documented. No multimedia production capability exists.",
+   "status": "partial",
+   "evidence": "IT help desk and desktop support (Army Corps of Engineers, 2022-2025); Network administration and cybersecurity support (FAA, 2021-2024). Help desk and end-user support confirmed; international/on-orbit and multimedia are gaps."
+  },
+  {
+   "requirement_id": "48a0b93b-696cd945-p4-e2f0806d",
+   "quote": "The Contractor shall comply with NPD 2810.1, NASA Information Security Policy in concurrence with JSC and FOD IT security programs.",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 4,
+   "firm_answer": "Sooner Systems has RMF/ATO documentation, ACAS/Nessus vulnerability management, CMMC Level 2 self-assessed, and 22 Secret-cleared staff. NPD 2810.1 is NASA-specific and not referenced in the profile, but the underlying cybersecurity posture is strong.",
+   "status": "partial",
+   "evidence": "Network administration and cybersecurity support (FAA, 2021-2024): RMF, ATO, ACAS, STIG keywords. CMMC Level 2 self-assessed listed in capabilities."
+  },
+  {
+   "requirement_id": "48a0b93b-696cd945-p4-58940eac",
+   "quote": "4.6 Disclosure Agreements (NDA) The Contractor shall provide a company nondisclosure statement, signed individual nondisclosure statements for each person supporting Government-identified tasks, and a summary of the information control and protection procedures applicable to all personnel supporting those tasks.",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 4,
+   "firm_answer": "Sooner Systems can provide NDAs as a standard business practice. The profile does not explicitly reference NDA procedures, but this is a standard administrative requirement the firm can meet.",
+   "status": "meets",
+   "evidence": "Standard administrative capability; 22 cleared staff with established security procedures implied by Secret clearances and CMMC Level 2."
+  },
+  {
+   "requirement_id": "48a0b93b-696cd945-p3-3d88d246",
+   "quote": "4.1 Contract Management For each awarded task order, the Contractor shall provide leadership, management oversight, direction, and problem resolution for all functions performed.",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 3,
+   "firm_answer": "Sooner Systems has managed multiple federal contracts with leadership and problem resolution responsibilities.",
+   "status": "meets",
+   "evidence": "IT help desk and desktop support (Army Corps, 2022-2025); Network administration and cybersecurity support (FAA, 2021-2024)."
+  },
+  {
+   "requirement_id": "48a0b93b-696cd945-p4-7d4ef2b3",
+   "quote": "4.4 Change Management The Contractor shall implement changes to hardware and software components managed under the task orders.",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 4,
+   "firm_answer": "Sooner Systems implements IT hardware and software changes under ITIL 4 change management processes. Spaceflight hardware is outside scope.",
+   "status": "partial",
+   "evidence": "ITIL 4 across the bench; Systems administration and Microsoft 365 migration past performance."
+  },
+  {
+   "requirement_id": "48a0b93b-696cd945-p5-46e5352e",
+   "quote": "4.9 Software Development Standards The Contractor shall adhere to the standards and processes specified in JSC 63756, Flight Operations Directorate Software Management Plan (SMP), and CA-WI-54, FOD Software Standards for all FOD software and supporting data files",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 5,
+   "firm_answer": "Sooner Systems has no documented experience with JSC 63756, the FOD Software Management Plan, or CA-WI-54 FOD Software Standards. The firm does not perform software development.",
+   "status": "gap",
+   "evidence": "No software development capability or NASA-specific standards experience referenced in the firm profile."
+  },
+  {
+   "requirement_id": "48a0b93b-696cd945-p3-58896189",
+   "quote": "3.0 APPLICABLE DOCUMENTS The contractor shall comply with the latest revision of the Flight Operations Requirements documentation in Attachment [J-XX].",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 3,
+   "firm_answer": "Sooner Systems has no documented familiarity with NASA Flight Operations Requirements documentation.",
+   "status": "gap",
+   "evidence": "No NASA-specific documentation experience referenced in the firm profile."
+  },
+  {
+   "requirement_id": "48a0b93b-696cd945-p3-0875ba9a",
+   "quote": "The Contractor shall serve as the primary interface to the Contracting Officer (CO) and Contracting Officer's Representative (COR).",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 3,
+   "firm_answer": "Sooner Systems has managed federal contracts with CO/COR interfaces at Army Corps of Engineers and FAA.",
+   "status": "meets",
+   "evidence": "IT help desk and desktop support (Army Corps, 2022-2025); Network administration and cybersecurity support (FAA, 2021-2024)."
+  },
+  {
+   "requirement_id": "48a0b93b-696cd945-p5-57eb437b",
+   "quote": "The Contractor shall develop and implement a safety and health program under a NASA-approved Safety and Health Plan",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 5,
+   "firm_answer": "Sooner Systems has no documented NASA-approved Safety and Health Plan or experience developing one.",
+   "status": "gap",
+   "evidence": "No safety and health program or NASA safety plan experience referenced in the firm profile."
+  },
+  {
+   "requirement_id": "48a0b93b-696cd945-p8-f5478893",
+   "quote": "provide services to perform testing b. provide services for calibration c. provide services for system integration d. manage preventive maintenance to ensure assets remain fully operational e. manage corrective maintenance to ensure assets remain fully operational",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 8,
+   "firm_answer": "Sooner Systems has no documented capability in hardware testing, calibration, or system integration for spaceflight or mission assets.",
+   "status": "gap",
+   "evidence": "No testing, calibration, or hardware integration capability referenced in the firm profile."
+  },
+  {
+   "requirement_id": "48a0b93b-696cd945-p8-1bff0cf4",
+   "quote": "5.3.3 The Contractor shall be responsible for planning and executing the safe relocation, installation, commissioning, and ongoing maintenance of NASA assets.",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 8,
+   "firm_answer": "Sooner Systems has no documented capability for physical relocation, installation, or commissioning of NASA assets.",
+   "status": "gap",
+   "evidence": "No physical asset relocation or commissioning capability referenced in the firm profile."
+  },
+  {
+   "requirement_id": "48a0b93b-696cd945-p4-b0185fd9",
+   "quote": "The Contractor shall update all related documentation when changes are released.",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 4,
+   "firm_answer": "Sooner Systems maintains documentation under ITIL 4 processes and RMF/ATO documentation practices.",
+   "status": "meets",
+   "evidence": "RMF/ATO documentation capability listed; ITIL 4 across the bench in capabilities."
+  },
+  {
+   "requirement_id": "48a0b93b-descript-p0-25e06605",
+   "quote": "All responses must be submitted electronically via email to the Contracting Officer at jsc-orbit-procurement@mail.nasa.gov no later than 5:00 PM CENTRAL DAYLIGHT TIME on October 05, 2026.",
+   "source_file": "description",
+   "page": 0,
+   "firm_answer": "Sooner Systems can submit an electronic capability statement by the October 5, 2026 deadline. 21.5 days remain.",
+   "status": "meets",
+   "evidence": "Administrative submission requirement; no technical capability needed."
+  },
+  {
+   "requirement_id": "48a0b93b-descript-p0-be095495",
+   "quote": "Company-Specific Information - Responses must include the following:",
+   "source_file": "description",
+   "page": 0,
+   "firm_answer": "Sooner Systems can provide company name, address, point of contact, NAICS 541512, SDVOSB set-aside eligibility, and DUNS/SAM registration as standard company information.",
+   "status": "meets",
+   "evidence": "Firm profile provides name (Sooner Systems LLC), location (Norman, OK), NAICS 541512, SDVOSB status."
+  }
+ ],
+ "matrix_dropped": 12,
+ "matrix_dropped_rows": [
+  {
+   "requirement_id": "48a0b93b-696cd945-p4-b6239329",
+   "quote": "The Contractor shall protect classified and sensitive information as well as Privacy Act information, proprietary data, export-controlled data, and technology embargoed from foreign dissemination that is transmitted, stored, or processed.",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 4,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "48a0b93b-696cd945-p4-30de5921",
+   "quote": "restrict access to employees with a need to know, and establish procedures and controls to prevent disclosure outside the scope of the applicable task order",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 4,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "48a0b93b-696cd945-p3-dcb84ba1",
+   "quote": "The Contractor shall provide the management, supervision, personnel, materials, equipment, facilities (except as Government-furnished), and other resources necessary to perform services in one or more of the functional areas described in Section 5.0, as ordered through individual task orders.",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 3,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "48a0b93b-696cd945-p3-4-4-1",
+   "quote": "4.1 Contract Management For each awarded task order, the Contractor shall provide leadership, management oversight, direction, and problem resolution for all functions performed.",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 3,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "48a0b93b-696cd945-p4-2712f3cc",
+   "quote": "These changes shall include corrections of issues documented in deficiency reports, sustaining engineering change requests, and any other change authorized by the Government.",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 4,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "48a0b93b-696cd945-p4-696cd945-p4-7d4ef2b3",
+   "quote": "4.4 Change Management The Contractor shall implement changes to hardware and software components managed under the task orders.",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 4,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "48a0b93b-696cd945-p4-696cd945",
+   "quote": "The Contractor shall integrate with and utilize the NASA-established change and discrepancy reporting program and systems for the submittal, status, review, ranking, and reporting of changes and discrepancies, including, but not limited to, Change Requests (CR), Incident Reports (IR), and Problem Reports (PR).",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 4,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "48a0b93b-696cd945-p4-d6b7dc53",
+   "quote": "The Contractor shall integrate with and utilize the NASA-established change and discrepancy reporting program and systems for the submittal, status, review, ranking, and reporting of changes and discrepancies, including, but not limited to, Change Requests (CR), Incident Reports (IR), and Problem Reports (PR).",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 4,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "48a0b93b-696cd945-p2-352c904d",
+   "quote": "services shall be responsive to dynamic schedules and, where specified by task order, to users in remote and international locations.",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 2,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "48a0b93b-696cd945-p4-cdaff8a4",
+   "quote": "the Contractor shall conduct financial studies and research; evaluate project funding plans and changes; provide comments and recommendations for program guidance; and provide project budgeting and cost estimating support upon NASA Request.",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 4,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "48a0b93b-696cd945-p4-9544c410",
+   "quote": "The Contractor will have access to, be furnished with, or use recorded information including: (a) third-party information subject to limited or restricted rights; (b) third-party information NASA has agreed to handle under protective arrangements; (c) information whose use and dissemination NASA intends to control; and (d) information governed by the Privacy Act of 1974, 5 U.S.C. § 552a.",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 4,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "48a0b93b-696cd945-p5-6f1f7a40",
+   "quote": "The Contractor shall perform all work in a manner that protects personnel, property, equipment, and the environment, in compliance with applicable NASA policies and federal, state, and local regulations for safety, health, environmental protection, and fire protection.",
+   "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+   "page": 5,
+   "reason": "not_verbatim"
+  }
+ ],
+ "fit_score_code": 0.3261,
+ "drafts": {
+  "capability_statement": "Sooner Systems LLC — Capability Statement\nNAICS 541512 | Total Small Business | SAM.gov Registered | Norman, OK\n\nSooner Systems LLC is a small business IT services firm with demonstrated federal experience in Tier 1–3 help desk and end-user support, network administration, and cybersecurity. Our core capabilities align directly with ORBIT Functional Area 3 (Specialized IT and Operations).\n\nHelp Desk & End-User Support: Sooner Systems delivered Tier 1–3 service desk and desktop support for the U.S. Army Corps of Engineers, Tulsa District (2022–2025, NAICS 541512), supporting a geographically distributed federal workforce under ITIL 4 service management processes including incident, change, and problem management.\n\nCybersecurity & IT Security Compliance: Under a network administration and cybersecurity contract at the FAA Mike Monroney Aeronautical Center (2021–2024, NAICS 541519), Sooner Systems performed RMF/ATO documentation, ACAS/Nessus vulnerability scanning, STIG implementation, SIEM/SOAR operations, and incident response. Our cybersecurity posture supports compliance with federal IT security policy frameworks analogous to NPD 2810.1.\n\nSecurity Posture: 22 personnel hold active Secret clearances. The firm is CMMC Level 2 self-assessed and maintains established information protection and NDA procedures for all personnel supporting government tasks.\n\nIT Administration: Sooner Systems administers Microsoft 365 and Azure environments and supports ITIL 4 change management for hardware and software components.\n\nWe respectfully submit this capability statement in response to the ORBIT Sources Sought and welcome the opportunity to support NASA JSC's Functional Area 3 mission.\n\nPoint of Contact: [Name] | jsc-orbit-procurement@mail.nasa.gov response | Sooner Systems LLC, Norman, OK",
+  "questions_for_co": [
+   "Will NASA accept capability statements that address only one Functional Area (e.g., FA3 Specialized IT and Operations), or must respondents demonstrate capability across all four functional areas to be considered for award? [48a0b93b-696cd945-p2-3b37fcad]",
+   "Is it anticipated that ORBIT task orders will be competed among all awardees across all functional areas, or will individual awardees be scoped to the functional areas they demonstrated capability in during the source selection? [48a0b93b-696cd945-p5-288e4774]",
+   "Will the Government consider teaming arrangements where a prime covers FA3 and subcontractors cover FA1, FA2, and FA4, and if so, what minimum prime-contractor performance requirements apply? [48a0b93b-696cd945-p8-1dcb123e]",
+   "Attachment J-XX (Flight Operations Requirements documentation) is referenced in Section 3.0 but not included in this RFI package — will that attachment be released with the formal solicitation, and can NASA provide a summary of the IT-relevant requirements within it now? [48a0b93b-696cd945-p3-58896189]",
+   "Does the NASA-approved Safety and Health Plan requirement (Section 4.x) apply to all awardees regardless of functional area, or only to contractors performing on-site physical or hardware work under FA3 asset relocation and maintenance task orders? [48a0b93b-696cd945-p5-57eb437b]",
+   "For FA3 end-user support, what is the anticipated volume of supported users, the geographic distribution (domestic, international, on-orbit), and whether on-orbit and international support will be scoped to separate task orders from domestic help desk work? [48a0b93b-696cd945-p7-df9f3994]"
+  ],
+  "calendar_entries": [
+   {
+    "title": "Response (Capability Statement) Due",
+    "date": "2026-10-05",
+    "note": "Capability statements must be submitted via email to jsc-orbit-procurement@mail.nasa.gov by 5:00 PM CDT. No later than 10 pages.",
+    "source_quote": "All responses must be submitted electronically via email to the Contracting Officer at jsc-orbit-procurement@mail.nasa.gov no later than 5:00 PM CENTRAL DAYLIGHT TIME on October 05, 2026."
+   },
+   {
+    "title": "Decide By (Internal Go/No-Go)",
+    "date": "2026-10-03",
+    "note": "Two business days before the response deadline — last day for Sooner Systems LLC to make a final bid/no-bid decision and begin finalizing the capability statement.",
+    "source_quote": "All responses must be submitted electronically via email to the Contracting Officer at jsc-orbit-procurement@mail.nasa.gov no later than 5:00 PM CENTRAL DAYLIGHT TIME on October 05, 2026."
+   }
+  ]
+ },
+ "reader": {
+  "notice_id": "48a0b93b561a44369a6ee01f3e47e2f9",
+  "key_requirement_ids": [
+   "48a0b93b-696cd945-p7-df9f3994",
+   "48a0b93b-696cd945-p7-f8accf26",
+   "48a0b93b-696cd945-p4-e2f0806d",
+   "48a0b93b-696cd945-p2-3b37fcad",
+   "48a0b93b-696cd945-p3-dcb84ba1",
+   "48a0b93b-696cd945-p2-352c904d",
+   "48a0b93b-696cd945-p5-288e4774",
+   "48a0b93b-696cd945-p6-ee7258b5",
+   "48a0b93b-696cd945-p6-299832be",
+   "48a0b93b-696cd945-p8-1dcb123e",
+   "48a0b93b-696cd945-p8-21370c0a",
+   "48a0b93b-696cd945-p4-b6239329",
+   "48a0b93b-696cd945-p4-30de5921",
+   "48a0b93b-descript-p0-25e06605",
+   "48a0b93b-descript-p0-be095495"
+  ],
+  "scope_summary": "NASA JSC Flight Operations Directorate is seeking specialized support services across four functional areas: Mission and Systems Engineering Support, Technical Evaluation and Independent Assessment, Specialized IT and Operations, and Advanced Mission R&D, to enable flight operations organizations to plan, train, and execute NASA space missions including ISS, Artemis, and future endeavors. The contract is anticipated to be a multiple-award IDIQ vehicle with Firm-Fixed-Price task orders, structured as a follow-on to the expiring Mission Enabling Support Contract (MESC-IDIQ) vehicles scheduled to expire September 30, 2027. Functional Area 3 (Specialized IT and Operations) is directly relevant to Sooner Systems, encompassing end-user and help desk support services, organization-unique software applications, and security management for a highly mobile and operationally demanding customer community.",
+  "evaluation_basis": "not stated",
+  "incumbent_or_history": "This acquisition will establish a follow-on contract vehicle to succeed the Mission Enabling Support Contract MESC-IDIQ contracts, encompassing the legacy and a subset of those requirements including partial scope of MESC-B, which are scheduled to expire on September 30, 2027.",
+  "quotes": [
+   "The Contractor shall provide specialized support services that enable flight operations organizations and their affiliates to plan, train, and execute NASA space missions, including missions aboard the International Space Station (ISS), Artemis, and future NASA space endeavors.",
+   "It is anticipated that the ORBIT will be a multiple-award Indefinite-Delivery/Indefinite-Quantity (IDIQ) contract vehicle with Firm-Fixed-Price (FFP) task orders.",
+   "This acquisition will establish a follow-on contract vehicle to succeed the Mission Enabling Support Contract MESC-IDIQ contracts, encompassing the legacy and a subset of those requirements including partial scope of MESC-B, which are scheduled to expire on September 30, 2027.",
+   "5.3.2 The Contractor shall provide mission support services, including but not limited to: a. end-user (i.e. domestic, international, and on-orbit) support services b. help desk services c. quick turnaround multi-media products to support organization unique training and mission needs",
+   "5.3.1 The Contractor shall deliver end‑to‑end capabilities for organization-unique software applications and automated information systems, including: a. design b. development c. integration d. testing e. deployment f. hosting g. operations h. sustainment The contractor shall also: a. modernize legacy systems b. migrate legacy systems c. creat e new applications d. upgrade existing systems e. provide systems engineering f. provide operations support g. provide data management h. provide infrastructure support i. provide infrastructure administration j. provide security management.",
+   "The Contractor shall comply with NPD 2810.1, NASA Information Security Policy in concurrence with JSC and FOD IT security programs.",
+   "The supported customer com munity is highly mobile, schedule-com pressed, and operationally demanding; serv ices shall be responsive to dynamic schedules and, where specified by task order, to users in remote and international locations.",
+   "All responses must be submitted electronically via email to the Contracting Officer at jsc-orbit-procurement@mail.nasa.gov no later than 5:00 PM CENTRAL DAYLIGHT TIME on October 05, 2026.",
+   "The Contractor shall protect classified and sensitive information as well as Pr ivacy Act information, proprietary data, export-controlled data, and technology embargoed from foreign dissemination that is transmitted, stored, or processed."
+  ]
+ },
+ "fit": {
+  "notice_id": "48a0b93b561a44369a6ee01f3e47e2f9",
+  "fit_score": 0.27,
+  "matched_past_performance": [
+   "IT help desk and desktop support | customer US Army Corps of Engineers, Tulsa District | naics 541512 | 2100000 USD | 2022-2025 | keywords: help desk, desktop, tier 1, tier 2, service desk, ITIL, ticketing, end user, information technology, IT services, IT support",
+   "Network administration and cybersecurity support | customer FAA Mike Monroney Aeronautical Center | naics 541519 | 1650000 USD | 2021-2024 | keywords: network, cybersecurity, cyber, security, SOC, SIEM, SOAR, incident response, RMF, ATO, vulnerability, ACAS, STIG, firewall, ISSO"
+  ],
+  "strengths": [
+   "SDVOSB set-aside eligibility matches total small business set-aside",
+   "NAICS 541512 exact match",
+   "Help desk and end-user support capability directly maps to FA3 mission support services (5.3.2)",
+   "RMF/ATO and cybersecurity capability supports NPD 2810.1 IT security compliance requirement",
+   "22 Secret-cleared staff supports information protection and NDA requirements",
+   "CMMC Level 2 self-assessed and ACAS/Nessus vulnerability management demonstrate security posture",
+   "Two qualifying past-performance records (Army Corps help desk; FAA cybersecurity) satisfy ss-pp rule",
+   "ITIL 4 across the bench aligns with service desk and change management processes"
+  ],
+  "gaps": [
+   "No spaceflight, ISS, Artemis, or mission engineering experience whatsoever",
+   "No systems or discipline engineering for spacecraft, instruments, launch, or ground systems (FA1)",
+   "No technical evaluation, independent assessment, or mission architecture capability (FA2)",
+   "No advanced R&D, prototype software, or next-generation mission operations capability (FA4)",
+   "No software development lifecycle (design, dev, integration, testing, deployment) capability",
+   "No legacy system modernization or migration at mission-operations scale",
+   "No financial studies, cost estimating, or program budgeting support capability",
+   "No NASA-specific processes: NPD 2810.1, JSC 63756 SMP, FOD Software Standards",
+   "No experience with NASA change/discrepancy reporting systems (CR, IR, PR)",
+   "No support for remote/international/on-orbit users at operationally demanding tempo",
+   "Contract value history ($2.1M, $1.65M, $740K) far below anticipated IDIQ scale",
+   "No Houston, TX presence; firm is Norman, OK based",
+   "Only two past-performance records; breadth of ORBIT functional areas requires much wider coverage"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "48a0b93b-696cd945-p2-3b37fcad",
+    "quote": "The Contractor shall provide specialized support services that enable flight operations organizations and their affiliates to plan, train, and execute NASA space missions, including missions aboard the International Space Station (ISS), Artemis, and future NASA space endeavors.",
+    "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+    "page": 2,
+    "firm_answer": "Sooner Systems has no spaceflight, ISS, Artemis, or mission operations experience. The firm provides IT help desk, cybersecurity staffing, and network administration for non-space federal customers.",
+    "status": "gap",
+    "evidence": "No relevant capability or past performance in the firm profile covers flight operations or space mission support."
+   },
+   {
+    "requirement_id": "48a0b93b-696cd945-p5-288e4774",
+    "quote": "The Contractor shall provide end-to-end engineering support across the mission life cycle, including mission concept development, formulation, and systems and discipline engineering for spacecraft, instruments, launch systems, and ground systems.",
+    "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+    "page": 5,
+    "firm_answer": "Sooner Systems has no systems engineering, spacecraft engineering, or mission lifecycle capability. The firm's profile covers IT support and cybersecurity staffing only.",
+    "status": "gap",
+    "evidence": "No capability statement or past performance record references mission lifecycle, spacecraft, instruments, or launch systems."
+   },
+   {
+    "requirement_id": "48a0b93b-696cd945-p5-95dc6b83",
+    "quote": "deliver design services such as performance and reliability modeling informed by historical mission data",
+    "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+    "page": 5,
+    "firm_answer": "Sooner Systems does not perform performance/reliability modeling or mission data analysis. No such capability is listed in the profile.",
+    "status": "gap",
+    "evidence": "Firm profile lists no modeling, reliability, or mission data analysis capability."
+   },
+   {
+    "requirement_id": "48a0b93b-696cd945-p6-ee7258b5",
+    "quote": "The Contractor shall perform conceptual design, analysis, and development studies for systems, subsystems, information technology, software, and operational capabilities supporting Flight Operations requirements.",
+    "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+    "page": 6,
+    "firm_answer": "Sooner Systems does not perform conceptual design or development studies for flight operations systems. IT support and cybersecurity staffing are the firm's core services.",
+    "status": "gap",
+    "evidence": "No capability or past performance in the profile covers conceptual design or flight operations analysis."
+   },
+   {
+    "requirement_id": "48a0b93b-696cd945-p6-299832be",
+    "quote": "The Contractor shall support the identification and evaluation of: a. scientific objectives b. mission requirements c. operational concepts d. technical approaches e. architectures f. business processes g. information technology solutions h. software solutions i. emerging technologies j. other concepts supporting current and future mission needs.",
+    "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+    "page": 6,
+    "firm_answer": "Sooner Systems has no documented capability in mission requirements, operational concepts, or architecture evaluation. The firm can address information technology solutions in a limited IT-support context only.",
+    "status": "gap",
+    "evidence": "Firm profile covers IT support and cybersecurity; no mission architecture or scientific evaluation capability listed."
+   },
+   {
+    "requirement_id": "48a0b93b-696cd945-p6-21d35082",
+    "quote": "The Contractor shall apply appropriate engineering, analytical, and management methodologies identified in the task order to evaluate: a. technical feasibility b. interoperability c. implementation approaches",
+    "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+    "page": 6,
+    "firm_answer": "Sooner Systems has no documented engineering or analytical methodology capability for technical feasibility or interoperability evaluation in a spaceflight context.",
+    "status": "gap",
+    "evidence": "No capability statement or past performance references engineering analysis or interoperability evaluation."
+   },
+   {
+    "requirement_id": "48a0b93b-696cd945-p7-f8accf26",
+    "quote": "The Contractor shall deliver end‑to‑end capabilities for organization-unique software applications and automated information systems, including: a. design b. development c. integration d. testing e. deployment f. hosting g. operations h. sustainment",
+    "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+    "page": 7,
+    "firm_answer": "Sooner Systems does not perform software design, development, integration, or testing. The firm administers Microsoft 365 and Azure and provides IT support, but has no software development lifecycle capability.",
+    "status": "gap",
+    "evidence": "Systems administration and Microsoft 365 migration past performance covers administration only, not software development lifecycle."
+   },
+   {
+    "requirement_id": "48a0b93b-696cd945-p8-1dcb123e",
+    "quote": "5.4 Functional Area 4 - Advanced R&D Support The Contractor shall provide advanced, exploratory prototype software and supporting hardware development and technology research in pursuit of next-generation mission operations design solutions.",
+    "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+    "page": 8,
+    "firm_answer": "Sooner Systems has no R&D, prototype software development, or hardware development capability. The firm profile does not reference any research or advanced technology work.",
+    "status": "gap",
+    "evidence": "No capability or past performance in the profile covers R&D or advanced technology development."
+   },
+   {
+    "requirement_id": "48a0b93b-696cd945-p8-21370c0a",
+    "quote": "The Contractor shall explore and introduce new technologies that improve the effectiveness and efficiency of mission operations and deliver advanced technologies and highly specialized custom software solutions into mission operations systems",
+    "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+    "page": 8,
+    "firm_answer": "Sooner Systems has no capability to deliver advanced technologies or custom software solutions for mission operations systems.",
+    "status": "gap",
+    "evidence": "No capability or past performance in the profile references advanced technology insertion or custom mission software."
+   },
+   {
+    "requirement_id": "48a0b93b-696cd945-p7-df9f3994",
+    "quote": "The Contractor shall provide mission support services, including but not limited to: a. end-user (i.e. domestic, international, and on-orbit) support services b. help desk services c. quick turnaround multi-media products to support organization unique training and mission needs",
+    "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+    "page": 7,
+    "firm_answer": "Sooner Systems provides Tier 1-3 help desk and end-user support (domestic). No international or on-orbit support experience is documented. No multimedia production capability exists.",
+    "status": "partial",
+    "evidence": "IT help desk and desktop support (Army Corps of Engineers, 2022-2025); Network administration and cybersecurity support (FAA, 2021-2024). Help desk and end-user support confirmed; international/on-orbit and multimedia are gaps."
+   },
+   {
+    "requirement_id": "48a0b93b-696cd945-p4-e2f0806d",
+    "quote": "The Contractor shall comply with NPD 2810.1, NASA Information Security Policy in concurrence with JSC and FOD IT security programs.",
+    "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+    "page": 4,
+    "firm_answer": "Sooner Systems has RMF/ATO documentation, ACAS/Nessus vulnerability management, CMMC Level 2 self-assessed, and 22 Secret-cleared staff. NPD 2810.1 is NASA-specific and not referenced in the profile, but the underlying cybersecurity posture is strong.",
+    "status": "partial",
+    "evidence": "Network administration and cybersecurity support (FAA, 2021-2024): RMF, ATO, ACAS, STIG keywords. CMMC Level 2 self-assessed listed in capabilities."
+   },
+   {
+    "requirement_id": "48a0b93b-696cd945-p4-58940eac",
+    "quote": "4.6 Disclosure Agreements (NDA) The Contractor shall provide a company nondisclosure statement, signed individual nondisclosure statements for each person supporting Government-identified tasks, and a summary of the information control and protection procedures applicable to all personnel supporting those tasks.",
+    "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+    "page": 4,
+    "firm_answer": "Sooner Systems can provide NDAs as a standard business practice. The profile does not explicitly reference NDA procedures, but this is a standard administrative requirement the firm can meet.",
+    "status": "meets",
+    "evidence": "Standard administrative capability; 22 cleared staff with established security procedures implied by Secret clearances and CMMC Level 2."
+   },
+   {
+    "requirement_id": "48a0b93b-696cd945-p3-3d88d246",
+    "quote": "4.1 Contract Management For each awarded task order, the Contractor shall provide leadership, management oversight, direction, and problem resolution for all functions performed.",
+    "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+    "page": 3,
+    "firm_answer": "Sooner Systems has managed multiple federal contracts with leadership and problem resolution responsibilities.",
+    "status": "meets",
+    "evidence": "IT help desk and desktop support (Army Corps, 2022-2025); Network administration and cybersecurity support (FAA, 2021-2024)."
+   },
+   {
+    "requirement_id": "48a0b93b-696cd945-p4-7d4ef2b3",
+    "quote": "4.4 Change Management The Contractor shall implement changes to hardware and software components managed under the task orders.",
+    "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+    "page": 4,
+    "firm_answer": "Sooner Systems implements IT hardware and software changes under ITIL 4 change management processes. Spaceflight hardware is outside scope.",
+    "status": "partial",
+    "evidence": "ITIL 4 across the bench; Systems administration and Microsoft 365 migration past performance."
+   },
+   {
+    "requirement_id": "48a0b93b-696cd945-p5-46e5352e",
+    "quote": "4.9 Software Development Standards The Contractor shall adhere to the standards and processes specified in JSC 63756, Flight Operations Directorate Software Management Plan (SMP), and CA-WI-54, FOD Software Standards for all FOD software and supporting data files",
+    "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+    "page": 5,
+    "firm_answer": "Sooner Systems has no documented experience with JSC 63756, the FOD Software Management Plan, or CA-WI-54 FOD Software Standards. The firm does not perform software development.",
+    "status": "gap",
+    "evidence": "No software development capability or NASA-specific standards experience referenced in the firm profile."
+   },
+   {
+    "requirement_id": "48a0b93b-696cd945-p3-58896189",
+    "quote": "3.0 APPLICABLE DOCUMENTS The contractor shall comply with the latest revision of the Flight Operations Requirements documentation in Attachment [J-XX].",
+    "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+    "page": 3,
+    "firm_answer": "Sooner Systems has no documented familiarity with NASA Flight Operations Requirements documentation.",
+    "status": "gap",
+    "evidence": "No NASA-specific documentation experience referenced in the firm profile."
+   },
+   {
+    "requirement_id": "48a0b93b-696cd945-p3-0875ba9a",
+    "quote": "The Contractor shall serve as the primary interface to the Contracting Officer (CO) and Contracting Officer's Representative (COR).",
+    "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+    "page": 3,
+    "firm_answer": "Sooner Systems has managed federal contracts with CO/COR interfaces at Army Corps of Engineers and FAA.",
+    "status": "meets",
+    "evidence": "IT help desk and desktop support (Army Corps, 2022-2025); Network administration and cybersecurity support (FAA, 2021-2024)."
+   },
+   {
+    "requirement_id": "48a0b93b-696cd945-p5-57eb437b",
+    "quote": "The Contractor shall develop and implement a safety and health program under a NASA-approved Safety and Health Plan",
+    "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+    "page": 5,
+    "firm_answer": "Sooner Systems has no documented NASA-approved Safety and Health Plan or experience developing one.",
+    "status": "gap",
+    "evidence": "No safety and health program or NASA safety plan experience referenced in the firm profile."
+   },
+   {
+    "requirement_id": "48a0b93b-696cd945-p8-f5478893",
+    "quote": "provide services to perform testing b. provide services for calibration c. provide services for system integration d. manage preventive maintenance to ensure assets remain fully operational e. manage corrective maintenance to ensure assets remain fully operational",
+    "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+    "page": 8,
+    "firm_answer": "Sooner Systems has no documented capability in hardware testing, calibration, or system integration for spaceflight or mission assets.",
+    "status": "gap",
+    "evidence": "No testing, calibration, or hardware integration capability referenced in the firm profile."
+   },
+   {
+    "requirement_id": "48a0b93b-696cd945-p8-1bff0cf4",
+    "quote": "5.3.3 The Contractor shall be responsible for planning and executing the safe relocation, installation, commissioning, and ongoing maintenance of NASA assets.",
+    "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+    "page": 8,
+    "firm_answer": "Sooner Systems has no documented capability for physical relocation, installation, or commissioning of NASA assets.",
+    "status": "gap",
+    "evidence": "No physical asset relocation or commissioning capability referenced in the firm profile."
+   },
+   {
+    "requirement_id": "48a0b93b-696cd945-p4-b0185fd9",
+    "quote": "The Contractor shall update all related documentation when changes are released.",
+    "source_file": "696cd94590694ec8b6cfc19eb9ea1523.pdf",
+    "page": 4,
+    "firm_answer": "Sooner Systems maintains documentation under ITIL 4 processes and RMF/ATO documentation practices.",
+    "status": "meets",
+    "evidence": "RMF/ATO documentation capability listed; ITIL 4 across the bench in capabilities."
+   },
+   {
+    "requirement_id": "48a0b93b-descript-p0-25e06605",
+    "quote": "All responses must be submitted electronically via email to the Contracting Officer at jsc-orbit-procurement@mail.nasa.gov no later than 5:00 PM CENTRAL DAYLIGHT TIME on October 05, 2026.",
+    "source_file": "description",
+    "page": 0,
+    "firm_answer": "Sooner Systems can submit an electronic capability statement by the October 5, 2026 deadline. 21.5 days remain.",
+    "status": "meets",
+    "evidence": "Administrative submission requirement; no technical capability needed."
+   },
+   {
+    "requirement_id": "48a0b93b-descript-p0-be095495",
+    "quote": "Company-Specific Information - Responses must include the following:",
+    "source_file": "description",
+    "page": 0,
+    "firm_answer": "Sooner Systems can provide company name, address, point of contact, NAICS 541512, SDVOSB set-aside eligibility, and DUNS/SAM registration as standard company information.",
+    "status": "meets",
+    "evidence": "Firm profile provides name (Sooner Systems LLC), location (Norman, OK), NAICS 541512, SDVOSB status."
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "48a0b93b561a44369a6ee01f3e47e2f9",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-10-05T17:00:00-05:00",
+   "site_visit": null,
+   "period_of_performance": null,
+   "source_quotes": [
+    "All responses must be submitted electronically via email to the Contracting Officer at jsc-orbit-procurement@mail.nasa.gov no later than 5:00 PM CENTRAL DAYLIGHT TIME on October 05, 2026."
+   ]
+  },
+  "days_to_close": 21.453185018576388,
+  "set_aside_note": "ELIGIBLE — The notice is set aside for Total Small Business. Sooner Systems LLC qualifies as a small business (SBA set-aside listed in firm profile), so the firm may respond.",
+  "amendment_note": "no amendment",
+  "calendar_entries": [
+   {
+    "title": "Response (Capability Statement) Due",
+    "date": "2026-10-05",
+    "note": "Capability statements must be submitted via email to jsc-orbit-procurement@mail.nasa.gov by 5:00 PM CDT. No later than 10 pages.",
+    "source_quote": "All responses must be submitted electronically via email to the Contracting Officer at jsc-orbit-procurement@mail.nasa.gov no later than 5:00 PM CENTRAL DAYLIGHT TIME on October 05, 2026."
+   },
+   {
+    "title": "Decide By (Internal Go/No-Go)",
+    "date": "2026-10-03",
+    "note": "Two business days before the response deadline — last day for Sooner Systems LLC to make a final bid/no-bid decision and begin finalizing the capability statement.",
+    "source_quote": "All responses must be submitted electronically via email to the Contracting Officer at jsc-orbit-procurement@mail.nasa.gov no later than 5:00 PM CENTRAL DAYLIGHT TIME on October 05, 2026."
+   }
+  ]
+ },
+ "model_calls": 5,
+ "tokens_in": 48972,
+ "tokens_out": 13702,
+ "seconds": 117.57,
+ "produced_at": "2026-09-14T06:09:22.388172-05:00"
+}

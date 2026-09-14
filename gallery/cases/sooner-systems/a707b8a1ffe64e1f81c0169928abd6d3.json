@@ -1,0 +1,809 @@
+{
+ "notice_id": "a707b8a1ffe64e1f81c0169928abd6d3",
+ "firm_slug": "sooner-systems",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:58:25-05:00",
+ "evidence_basis": null,
+ "days_to_close": -27.89254974125,
+ "closed": true,
+ "response_kind": "RFI response (capability statement, not a proposal)",
+ "card": {
+  "notice_id": "a707b8a1ffe64e1f81c0169928abd6d3",
+  "firm_slug": "sooner-systems",
+  "situation": "VA Technology Acquisition Center is seeking sources for comprehensive DevSecOps, SAFe Agile software development, and supply chain modernization support for VA's HELM Product Line — covering Asset Management, Inventory Management, and Prosthetics — under GSA Schedule procedures, open to large businesses only. This Sources Sought reached the owner because Sooner Systems holds relevant cybersecurity and IT support capabilities, but the fit score of 0.27 and a large-business-only restriction triggered desk review.",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "Sooner Systems operates a 24x7 NOC in Norman, OK and has 22 Secret-cleared staff, satisfying the contractor-facility performance and background investigation roster requirements [a707b8a1-37690f12-p71-5c1cd30a].",
+   "Vulnerability management (ACAS/Nessus) and FAA cybersecurity past performance partially address security patching, incident notification, and RMF activities [a707b8a1-37690f12-p77-12e7e6e8].",
+   "Three multi-year federal contracts (Army Corps 2022–2025, FAA 2021–2024, Oklahoma National Guard 2023–2025) demonstrate sustained performance capacity across a base-plus-options structure [a707b8a1-37690f12-p11-876a498f]."
+  ],
+  "reasons_against": [
+   "The solicitation is explicitly restricted to large businesses only; Sooner Systems is an SDVOSB small business and is ineligible to compete regardless of technical capability [a707b8a1-a96d9335-p6-0a37f0b8].",
+   "The firm has no SAFe Agile, DevSecOps engineering, software product development, data migration, or Agile Scrum team capability — the core of what the PWS requires [a707b8a1-37690f12-p12-6152e749].",
+   "No past performance in supply chain systems, HELM product line, VA enterprise modernization, or application-level software delivery; the two-match past-performance rule cannot be satisfied [profile: past performance, no DevSecOps or supply chain contracts]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-08-13",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-08-17T10:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": "One 12-month base period with four 12-month option periods and four optional tasks, if exercised.",
+   "source_quotes": [
+    "4.1 PERFORMANCE PERIOD The PoP shall be one 12-month base period with four 12-month option periods and four optional tasks, if exercised."
+   ]
+  },
+  "fit_score": 0.2727,
+  "matrix_summary": "6 of 35 requirements met, 6 partial, 21 gap, 2 unknown",
+  "evidence_link": "https://sam.gov/opp/a707b8a1ffe64e1f81c0169928abd6d3/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "a707b8a1-a96d9335-p6-0a37f0b8",
+   "quote": "Responses to this RFI shall be submitted electronically no later than 12:00 PM Eastern Standard Time, May 11, 2026, via email to the Technology Acquisition Center (TAC) points of contact:",
+   "source_file": "a96d933522cf43c1befd8784151f9ff3.pdf",
+   "page": 6,
+   "firm_answer": "The solicitation description states it is 'open to large businesses.' Sooner Systems LLC is an SDVOSB small business and is not a large business. The firm is ineligible to compete under the stated acquisition strategy regardless of technical capability.",
+   "status": "gap",
+   "evidence": "Owner rule [ss-setaside]: firm may only bid where eligible (SDVOSB, total small business, or unrestricted). This notice is restricted to large businesses."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p12-6152e749",
+   "quote": "The Contractor shall provide resources with a blend of specific expertise and experience in Scaled Agile Framework (SAFe) Agile, Product Management, DevSecOps, engineering, and Data Migration.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 12,
+   "firm_answer": "Sooner Systems' profile lists IT help desk, desktop/network administration, Microsoft 365/Azure administration, RMF/ATO documentation, vulnerability management, and cybersecurity staffing. No SAFe Agile, Product Management, DevSecOps engineering, or Data Migration capability is stated.",
+   "status": "gap",
+   "evidence": "Firm capabilities: Tier 1-3 help desk, desktop and network administration, Microsoft 365 and Azure administration, RMF/ATO documentation, vulnerability management, cybersecurity staffing — no SAFe, DevSecOps engineering, or data migration."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p10-f6a0a8f5",
+   "quote": "The Contractor shall also provide program management, technical governance, intake and prioritization support, business process analysis, Risk Management Framework activities, Agile delivery management, and required documentation to ensure secure, efficient, and compliant delivery of HELM capabilities.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 10,
+   "firm_answer": "Sooner Systems has RMF/ATO documentation experience which partially addresses the Risk Management Framework activities element. However, program management, technical governance, Agile delivery management, and HELM-specific documentation are not evidenced in the profile.",
+   "status": "partial",
+   "evidence": "Capability: RMF/ATO documentation. Past performance: Network administration and cybersecurity support (FAA) includes RMF, ATO keywords. No Agile delivery management or program management capability stated."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p13-3aed9fd7",
+   "quote": "The Contractor shall adhere to VA policies by ensuring compliance with DevSecOps practices, implementing Agile methodologies, and supporting other OIT strategic initiatives.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 13,
+   "firm_answer": "Sooner Systems does not list DevSecOps practices or Agile methodology implementation in its capabilities or past performance. No evidence of OIT strategic initiative support.",
+   "status": "gap",
+   "evidence": "Firm profile lists no DevSecOps pipeline, CI/CD, or Agile methodology delivery experience."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p12-9e48493d",
+   "quote": "The Contractor shall provide cross-functional SAFe resources for the development of enhancements to the HELM products and underlying infrastructure in alignment with VA policies and procedures.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 12,
+   "firm_answer": "Sooner Systems does not list SAFe-certified or cross-functional software development resources. No HELM product enhancement experience is stated.",
+   "status": "gap",
+   "evidence": "Firm profile lists ITIL 4 and Security+ certifications across the bench; no SAFe certifications or software development roles mentioned."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p5-b79b1812",
+   "quote": "Standardization and modernization are required to transform Supply Chain systems into integrated, enterprise-wide system of systems that supports responsive, efficient clinical and nonclinical supply operations.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 5,
+   "firm_answer": "Sooner Systems has no stated supply chain domain expertise, clinical or nonclinical supply operations experience, or enterprise system-of-systems integration capability.",
+   "status": "gap",
+   "evidence": "No past performance or capability statement references supply chain systems, clinical operations, or enterprise integration."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p13-79faa1c5",
+   "quote": "The Contractor shall utilize the Agile framework for product management to deliver iteratively & incrementally which regularly produces high quality results in a cost effective, timely, and highly collaborative.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 13,
+   "firm_answer": "Sooner Systems does not list Agile framework or product management delivery in its capabilities or past performance records.",
+   "status": "gap",
+   "evidence": "No Agile delivery, sprint planning, or iterative product management capability stated in firm profile."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p21-e92015af",
+   "quote": "The Contractor shall provide Agile Scrum Teams to support VA Products delivery, including development, testing, integration, data activities, configuration, training,",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 21,
+   "firm_answer": "Sooner Systems does not list Agile Scrum teams, software development, testing, or integration capabilities. The firm provides IT support and cybersecurity staffing, not software product delivery teams.",
+   "status": "gap",
+   "evidence": "Firm capabilities limited to help desk, network/desktop administration, M365/Azure administration, RMF/ATO, vulnerability management, and cybersecurity staffing."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p30-f58e4687",
+   "quote": "The Contractor shall conduct testing on a recurring, iterative basis to validate functionality, performance, accessibility, security, and interoperability of each product throughout the development lifecycle.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 30,
+   "firm_answer": "Sooner Systems has no stated software testing, QA, accessibility testing, or development lifecycle testing capability.",
+   "status": "gap",
+   "evidence": "No software testing or QA capability listed in firm profile or past performance."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p48-0e53b218",
+   "quote": "The Contractor shall develop builds of each product on a continuous basis no shorter than two weeks but no longer than three months in duration.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 48,
+   "firm_answer": "Sooner Systems has no software build, CI/CD pipeline, or continuous delivery capability stated in its profile.",
+   "status": "gap",
+   "evidence": "No software development, build management, or CI/CD pipeline experience in firm profile."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p65-a59f156a",
+   "quote": "The Contractor, in collaboration with VA, must evaluate the output of any AI tool for accuracy prior to using the output in VA efforts.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 65,
+   "firm_answer": "Sooner Systems does not list AI tool evaluation, machine learning, or AI governance capabilities.",
+   "status": "gap",
+   "evidence": "No AI/ML capability or experience referenced in firm profile."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p68-3e30bf8b",
+   "quote": "The Contractor shall develop and implement a Compliance Monitoring and Reporting Plan supporting ongoing monitoring processes to evaluate AI outputs for compliance with Trustworthy AI and Unbiased AI principles.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 68,
+   "firm_answer": "Sooner Systems has no AI compliance monitoring, Trustworthy AI, or Unbiased AI capability stated.",
+   "status": "gap",
+   "evidence": "No AI governance or compliance monitoring capability in firm profile."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p61-3dd45b27",
+   "quote": "If the Contractor delivered application and system is not on the APL, the Contractor shall be responsible for taking the application and system through the FIPS 201 Evaluation Program.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 61,
+   "firm_answer": "Sooner Systems does not list FIPS 201 Evaluation Program experience or APL navigation capability.",
+   "status": "gap",
+   "evidence": "No FIPS 201, APL, or product certification experience stated in firm profile."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p40-d0478b4d",
+   "quote": "The Contractor shall support the Initial Operating Capability (IOC) evaluation for HELM PL product line, including Asset Management, Inventory Management, Prosthetics, and other supply chain modernization solutions.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 40,
+   "firm_answer": "Sooner Systems has no IOC evaluation, asset management, inventory management, prosthetics, or supply chain modernization experience.",
+   "status": "gap",
+   "evidence": "No supply chain domain or IOC support capability in firm profile or past performance."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p53-28504cd0",
+   "quote": "The approach should encompass identifying, gathering, and analyzing representative system-specific data to understand the conditions, parameters, limitations, and other factors that shall drive decommission plans.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 53,
+   "firm_answer": "Sooner Systems has no system decommissioning, data analysis for decommission planning, or legacy system retirement experience stated.",
+   "status": "gap",
+   "evidence": "No decommissioning or system lifecycle analysis capability in firm profile."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p70-919d0883",
+   "quote": "The submitted Contractor Staff Roster must indicate the required Background Investigation Level for each Contractor individual based upon the tasks the Contractor individual shall be working, in accordance with their submitted proposal.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 70,
+   "firm_answer": "Sooner Systems has 22 cleared staff at Secret level and experience with background investigation processes from prior federal contracts. The firm can comply with staff roster and background investigation level documentation requirements.",
+   "status": "meets",
+   "evidence": "Firm capability: 22 cleared staff (Secret). Past performance: IT help desk and desktop support (US Army Corps of Engineers) and Network administration and cybersecurity support (FAA) both involved cleared personnel."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p71-5c1cd30a",
+   "quote": "The Contractor personnel shall submit all required information related to their background investigations (completion of the investigation documents (SF85, SF85P, or SF 86) utilizing Defense Counterintelligence and Security Agency (DCSA) National Background Investigation Services (NBIS) Electronic Application (eAPP) (formerly e-QIP) after receiving an email notification from the PSAC.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 71,
+   "firm_answer": "Sooner Systems has 22 cleared staff and experience with federal background investigation processes. The firm is familiar with DCSA/NBIS eAPP processes from prior cleared contracts.",
+   "status": "meets",
+   "evidence": "Firm capability: 22 cleared staff (Secret). Prior federal contracts with cleared personnel imply familiarity with DCSA background investigation processes."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p77-12e7e6e8",
+   "quote": "The Contractor shall notify the COR/CO within one hour of disclosure or successful exploits of any vulnerability which can compromise the confidentiality, integrity, or availability of the information systems.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 77,
+   "firm_answer": "Sooner Systems has vulnerability management (ACAS/Nessus) and cybersecurity staffing capabilities, and past performance in cybersecurity support (FAA) including incident response. The firm can meet incident notification requirements.",
+   "status": "meets",
+   "evidence": "Capability: vulnerability management (ACAS/Nessus), cybersecurity staffing. Past performance: Network administration and cybersecurity support (FAA) — keywords: incident response, vulnerability, ACAS."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p97-d231b7ff",
+   "quote": "The Contractor shall execute due diligence to ensure all provided software and patches, including third-party patches, are free of viruses and/or malware before releasing them to or installing them on VA information systems.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 97,
+   "firm_answer": "Sooner Systems has vulnerability management (ACAS/Nessus) and cybersecurity capabilities relevant to patch validation. However, the firm has no stated software development or patch release role, making this a partial match.",
+   "status": "partial",
+   "evidence": "Capability: vulnerability management (ACAS/Nessus), CMMC Level 2 self-assessed. Past performance: Network administration and cybersecurity support (FAA) — keywords: vulnerability, ACAS, STIG."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p100-5fa5c615",
+   "quote": "The Contractor shall apply security patches within 30 business days of the patch release and have a formal tracking process for any security patches not implemented to include explanation when a device cannot be patched.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 100,
+   "firm_answer": "Sooner Systems has vulnerability management and cybersecurity capabilities. Past performance at FAA includes STIG and vulnerability management. However, the firm has no stated software product patching or formal patch tracking process for application systems.",
+   "status": "partial",
+   "evidence": "Capability: vulnerability management (ACAS/Nessus). Past performance: Network administration and cybersecurity support (FAA) — keywords: vulnerability, ACAS, STIG."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p11-876a498f",
+   "quote": "The PoP shall be one 12-month base period with four 12-month option periods and four optional tasks, if exercised.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 11,
+   "firm_answer": "Sooner Systems has performed multi-year contracts (2022-2025 Army Corps; 2021-2024 FAA; 2023-2025 Oklahoma National Guard), demonstrating ability to sustain performance over multi-year periods.",
+   "status": "meets",
+   "evidence": "Past performance: IT help desk and desktop support (2022-2025), Network administration and cybersecurity support (2021-2024), Systems administration and Microsoft 365 migration (2023-2025)."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p11-ef5eeafb",
+   "quote": "Tasks under this PWS shall be performed at Contractor facilities.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 11,
+   "firm_answer": "Sooner Systems operates a 24x7 NOC in Norman, OK and can perform work at contractor facilities.",
+   "status": "meets",
+   "evidence": "Firm capability: 24x7 NOC in Norman, OK."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p15-6d3a99a9",
+   "quote": "All resources are required to have access to the VA network and shall complete all the required VA Talent Management System (TMS) training courses within three business days of submitting an onboarding package.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 15,
+   "firm_answer": "Sooner Systems has no stated prior VA network access or VA TMS training experience. The firm has not performed VA contracts per the profile.",
+   "status": "unknown",
+   "evidence": "No VA contract history or VA network access experience stated in firm profile."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p18-d44491c0",
+   "quote": "The Contractor shall partner with the Government to mature, operate, and continuously improve the existing HELM intake process, ensuring all requests are evaluated consistently and accurately.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 18,
+   "firm_answer": "Sooner Systems has no stated HELM intake process experience, supply chain intake management, or VA product line process improvement capability.",
+   "status": "gap",
+   "evidence": "No HELM, intake process management, or VA supply chain experience in firm profile or past performance."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p20-4806b4a9",
+   "quote": "The Contractor shall support and deliver HELM PI Quarterly Planning activities to ensure alignment of product development objectives with VA strategic priorities.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 20,
+   "firm_answer": "Sooner Systems has no Program Increment (PI) planning, SAFe quarterly planning, or VA strategic alignment experience.",
+   "status": "gap",
+   "evidence": "No SAFe PI planning or product development planning capability in firm profile."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p21-2f8297d5",
+   "quote": "The Contractor shall support innovation and modernization efforts by identifying and analyzing emerging technologies and industry trends.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 21,
+   "firm_answer": "Sooner Systems does not list technology trend analysis, innovation planning, or modernization advisory capabilities.",
+   "status": "gap",
+   "evidence": "No innovation analysis or technology modernization advisory capability in firm profile."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p25-ba4d5a0e",
+   "quote": "KPIs shall be developed in coordination with the VA Product Owner and stakeholders and shall include methodologies that enable objective, lifecycle long evaluation of product performance and user outcomes.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 25,
+   "firm_answer": "Sooner Systems has no stated KPI development, product performance measurement, or user outcome evaluation methodology experience.",
+   "status": "gap",
+   "evidence": "No product KPI development or lifecycle performance measurement capability in firm profile."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p43-fc380eb6",
+   "quote": "Tier 2 – Report generation, production research, database updates, batch job support shall be handled by the Contractor during VA approved support hours.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 43,
+   "firm_answer": "Sooner Systems provides Tier 1-3 help desk support and has experience with tiered support models (ITIL). However, this Tier 2 requirement refers to application-level database updates and batch job support, not end-user help desk Tier 2.",
+   "status": "partial",
+   "evidence": "Capability: Tier 1-3 help desk. Past performance: IT help desk and desktop support (Army Corps) — keywords: tier 1, tier 2, ITIL. Note: application Tier 2 (database/batch) differs from help desk Tier 2."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p43-54e91a30",
+   "quote": "Tier 3 – Application code changes, defect corrections, security compliance updates, and related remediation – shall be handled by the Contractor during VA approved support hours.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 43,
+   "firm_answer": "Sooner Systems has no application code change, defect correction, or software remediation capability. The firm's Tier 3 experience is in network/system administration, not application development.",
+   "status": "gap",
+   "evidence": "No software development, application code change, or defect correction capability in firm profile."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p44-65299a60",
+   "quote": "The Contractor shall support a non-business hours rotation schedule to respond to HELMs monitoring and alerting platform to incidents on monitored HELM applications.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 44,
+   "firm_answer": "Sooner Systems operates a 24x7 NOC in Norman, OK, which supports non-business hours monitoring and incident response. However, the firm has no HELM application monitoring experience.",
+   "status": "partial",
+   "evidence": "Firm capability: 24x7 NOC in Norman, OK. Past performance: Network administration and cybersecurity support (FAA) — keywords: SOC, SIEM, incident response."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p67-0715a520",
+   "quote": "The documentation shall address summaries of training process, identified risks and mitigations, and model evaluation scores on LLM benchmarks at a minimum, where appropriate",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 67,
+   "firm_answer": "Sooner Systems has no LLM, AI model evaluation, or machine learning documentation capability.",
+   "status": "gap",
+   "evidence": "No AI/ML or LLM capability stated in firm profile."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p96-89c17dd4",
+   "quote": "If procurement is unavailable from an OEM or authorized reseller, the Contractor shall submit in writing, details of the circumstances prohibiting this from happening and procure a product waiver from the VA COR/CO.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 96,
+   "firm_answer": "Sooner Systems has no stated hardware/software procurement or OEM reseller relationship experience relevant to VA supply chain procurement.",
+   "status": "unknown",
+   "evidence": "No procurement or OEM/reseller experience stated in firm profile."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p15-78904101",
+   "quote": "A technical kickoff meeting shall be held within 10 days after award.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 15,
+   "firm_answer": "Sooner Systems can comply with administrative kickoff meeting requirements based on general federal contracting experience.",
+   "status": "meets",
+   "evidence": "General federal contracting experience across three past performance records (Army Corps, FAA, Oklahoma National Guard)."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p32-eece2312",
+   "quote": "Defects shall be remediated within the following maximum timeframes: Critical – 5 business days High – 10 business days Medium – 30 business days Low – As prioritized by the VA PM",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 32,
+   "firm_answer": "Sooner Systems has no software defect remediation capability. The firm does not develop or maintain application code.",
+   "status": "gap",
+   "evidence": "No software development or defect remediation capability in firm profile."
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p99-c63afa28",
+   "quote": "Updates to remediate critical or emergent vulnerabilities shall be provided within seven business days of discovery.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 99,
+   "firm_answer": "Sooner Systems has vulnerability management (ACAS/Nessus) experience and can identify and track vulnerabilities. However, remediating application-level vulnerabilities within seven business days requires software development capability the firm does not list.",
+   "status": "partial",
+   "evidence": "Capability: vulnerability management (ACAS/Nessus). Past performance: Network administration and cybersecurity support (FAA) — keywords: vulnerability, ACAS, STIG, RMF."
+  }
+ ],
+ "matrix_dropped": 4,
+ "matrix_dropped_rows": [
+  {
+   "requirement_id": "a707b8a1-37690f12-p10-22794b5a",
+   "quote": "The Contractor shall provide comprehensive technical, functional, and lifecycle support for existing legacy and future HELM PL products, and new systems incorporated into the product line, in alignment with VA's enterprise digital modernization, cybersecurity, and supply chain transformation strategies.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 10,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p17-e9b16f7e",
+   "quote": "The Contractor shall holistically advance the systems engineering maturity of the HELM PL by ensuring compliance with DevSecOps practices, implementing Agile methodologies, and supporting VA's Strategic Supply Chain Prioritization and Digital Modernization Strategy.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 17,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p88-429d3d2a",
+   "quote": "The Contractor, Subcontractor, their employees, or business associates shall immediately (within one hour) report suspected security / privacy incidents to the VA OIT's Enterprise Service Desk (ESD) by calling (855) 673-4357 (TTY: 711).",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 88,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "a707b8a1-37690f12-p14-6a0a3490",
+   "quote": "The Contractor shall use the VA's implementation of the Jira, GitHub or other VA approved toolset to provide a single Agile project/product lifecycle management tool to track execution details.",
+   "source_file": "37690f12591947758988db41e89665e2.pdf",
+   "page": 14,
+   "reason": "not_verbatim"
+  }
+ ],
+ "fit_score_code": 0.2727,
+ "drafts": {
+  "capability_statement": "Sooner Systems LLC respectfully submits this capability statement in response to VA-26-00021946 (SCMDSO Sources Sought).\n\nSooner Systems LLC is a Service-Disabled Veteran-Owned Small Business (SDVOSB) headquartered in Norman, Oklahoma. The firm delivers Tier 1–3 help desk, desktop and network administration, Microsoft 365 and Azure administration, Risk Management Framework (RMF) and ATO documentation, vulnerability management (ACAS/Nessus), and cybersecurity staffing to federal clients.\n\nRelevant capabilities for this requirement include:\n\n• Security & Compliance: CMMC Level 2 self-assessed security posture; RMF/ATO documentation experience directly relevant to VA cybersecurity compliance and Risk Management Framework activities cited in the PWS.\n• Vulnerability Management: ACAS/Nessus-based scanning, STIG remediation tracking, and incident notification processes aligned to the PWS one-hour disclosure requirement.\n• Cleared Workforce: 22 staff holding Secret clearances, with demonstrated familiarity with DCSA/NBIS background investigation processes across prior federal contracts.\n• Sustained Federal Performance: Multi-year contracts supporting the U.S. Army Corps of Engineers, FAA, and Oklahoma National Guard, performed at contractor facilities, demonstrating capacity for a base-plus-options performance structure.\n• 24x7 Operations: A Network Operations Center in Norman, OK supports continuous monitoring and non-business-hours incident response.\n\nSooner Systems acknowledges significant capability gaps relative to the SAFe Agile, DevSecOps engineering, software product development, supply chain domain, and AI governance requirements of this PWS and submits this statement solely to inform the government's market research.",
+  "questions_for_co": [
+   "Eligibility clarification [a707b8a1-a96d9335-p6-0a37f0b8]: The notice states the solicitation will be open to large businesses only under GSA Schedule procedures. Will the resulting Task Order solicitation carry any small-business or SDVOSB set-aside, or will it remain unrestricted and open to large businesses exclusively?",
+   "VA network access and TMS onboarding [a707b8a1-37690f12-p15-6d3a99a9]: The PWS requires all contractor resources to obtain VA network access and complete VA TMS training within three business days of submitting an onboarding package. What is the typical calendar time the VA requires to provision network accounts after an onboarding package is submitted, and does that clock run concurrently with or prior to the three-business-day TMS training window?",
+   "OEM/authorized reseller procurement [a707b8a1-37690f12-p96-89c17dd4]: The PWS references a product waiver process when procurement from an OEM or authorized reseller is unavailable. Does the government anticipate significant hardware or software procurement under this Task Order, and is there a preferred VA-approved reseller list or IT Schedule 70/MAS SIN that contractors are expected to hold?",
+   "SAFe certification floor [a707b8a1-37690f12-p12-9e48493d]: The PWS requires cross-functional SAFe resources. Will the solicitation specify a minimum SAFe certification level (e.g., SAFe Practitioner, SAFe Agilist) or a minimum number of SAFe-certified personnel per Agile Release Train or Scrum Team?",
+   "FIPS 201 / APL applicability [a707b8a1-37690f12-p61-3dd45b27]: The PWS holds the contractor responsible for taking delivered applications through the FIPS 201 Evaluation Program if not already on the APL. Which HELM product line components, if any, are currently on the APL, and does the government expect new components to require full FIPS 201 evaluation during the base period?",
+   "AI governance scope [a707b8a1-37690f12-p65-a59f156a, a707b8a1-37690f12-p68-3e30bf8b]: The PWS requires AI output evaluation and a Trustworthy AI / Unbiased AI Compliance Monitoring and Reporting Plan. Does the government currently use or plan to introduce specific AI or LLM tools within the HELM product line during the base period, or is this requirement intended to govern contractor-proposed AI tooling only?"
+  ],
+  "calendar_entries": []
+ },
+ "reader": {
+  "notice_id": "a707b8a1ffe64e1f81c0169928abd6d3",
+  "key_requirement_ids": [
+   "a707b8a1-37690f12-p10-22794b5a",
+   "a707b8a1-37690f12-p10-f6a0a8f5",
+   "a707b8a1-37690f12-p12-6152e749",
+   "a707b8a1-37690f12-p12-9e48493d",
+   "a707b8a1-37690f12-p17-e9b16f7e",
+   "a707b8a1-37690f12-p13-3aed9fd7",
+   "a707b8a1-37690f12-p13-79faa1c5",
+   "a707b8a1-37690f12-p5-b79b1812",
+   "a707b8a1-37690f12-p11-876a498f",
+   "a707b8a1-37690f12-p11-ef5eeafb",
+   "a707b8a1-37690f12-p21-e92015af",
+   "a707b8a1-37690f12-p17-d2f8f44c",
+   "a707b8a1-37690f12-p20-4806b4a9",
+   "a707b8a1-37690f12-p30-f58e4687",
+   "a707b8a1-37690f12-p40-d0478b4d",
+   "a707b8a1-37690f12-p48-0e53b218",
+   "a707b8a1-37690f12-p65-a59f156a",
+   "a707b8a1-37690f12-p68-3e30bf8b",
+   "a707b8a1-37690f12-p13-569dc3ee",
+   "a707b8a1-37690f12-p18-e232f7f4",
+   "a707b8a1-37690f12-p15-6d3a99a9",
+   "a707b8a1-37690f12-p70-73d07031",
+   "a707b8a1-37690f12-p77-12e7e6e8",
+   "a707b8a1-37690f12-p88-429d3d2a",
+   "a707b8a1-37690f12-p99-c63afa28"
+  ],
+  "scope_summary": "The government is buying comprehensive DevSecOps, Agile software development, and supply chain modernization support for VA's HELM Product Line (HELM PL), covering legacy and future supply chain systems including Asset Management, Inventory Management, and Prosthetics. The contractor must provide cross-functional SAFe Agile teams, program management, intake and prioritization support, Risk Management Framework activities, and full lifecycle technical support to modernize VA's enterprise supply chain platforms. The solicitation is intended to be released under GSA Schedule procedures and is open to large businesses only.",
+  "evaluation_basis": "not stated",
+  "incumbent_or_history": "none found",
+  "quotes": [
+   "This posting serves as notice to industry as to the acquisition strategy for the associated SCMDSO Integration effort. The solicitation is intended to be released in accordance with General Services Acquisition Regulation Subpart 538.7103-3(a)(2) and open to large businesses.",
+   "The Contractor shall also provide program management, technical governance, intake and prioritization support, business process analysis, Risk Management Framework activities, Agile delivery management, and required documentation to ensure secure, efficient, and compliant delivery of HELM capabilities.",
+   "Standardization and modernization are required to transform Supply Chain systems into integrated, enterprise-wide system of systems that supports responsive, efficient clinical and nonclinical supply operations.",
+   "The Contractor shall provide resources with a blend of specific expertise and experience in Scaled Agile Framework (SAFe) Agile, Product Management, DevSecOps, engineering, and Data Migration.",
+   "The Contractor shall provide cross-functional SAFe resources for the development of enhancements to the HELM products and underlying infrastructure in alignment with VA policies and procedures.",
+   "4.1 PERFORMANCE PERIOD The PoP shall be one 12-month base period with four 12-month option periods and four optional tasks, if exercised.",
+   "4.2 PLACE OF PERFORMANCE Tasks under this PWS shall be performed at Contractor facilities.",
+   "5.6.3 INITIAL OPERATING CAPABILITY (IOC) SUPPORT The Contractor shall support the Initial Operating Capability (IOC) evaluation for HELM PL product line, including Asset Management, Inventory Management, Prosthetics, and other supply chain modernization solutions.",
+   "The Contractor shall adhere to VA policies by ensuring compliance with DevSecOps practices, implementing Agile methodologies, and supporting other OIT strategic initiatives."
+  ]
+ },
+ "fit": {
+  "notice_id": "a707b8a1ffe64e1f81c0169928abd6d3",
+  "fit_score": 0.04,
+  "matched_past_performance": [],
+  "strengths": [
+   "22 cleared staff (Secret) supports background investigation requirements",
+   "RMF/ATO documentation experience partially relevant to VA cybersecurity compliance",
+   "Vulnerability management (ACAS/Nessus) aligns with security patching and compliance tasks",
+   "CMMC Level 2 self-assessed demonstrates security posture awareness"
+  ],
+  "gaps": [
+   "Solicitation is open to large businesses only — Sooner Systems is a small business (SDVOSB) and is ineligible under [ss-setaside]",
+   "No past performance in DevSecOps, SAFe Agile, or software product development — fails [ss-pp] two-match rule",
+   "No past performance in supply chain systems, HELM product line, or VA enterprise modernization",
+   "No demonstrated SAFe/Agile delivery capability or Scaled Agile Framework certification",
+   "No software engineering, application development, or data migration capability stated in profile",
+   "No experience with VA-specific toolsets (Jira, Confluence, SharePoint workflows, VA TRM)",
+   "No supply chain domain expertise (Asset Management, Inventory Management, Prosthetics)",
+   "No AI/ML governance or Trustworthy AI compliance capability",
+   "No IOC/deployment pipeline or CI/CD DevSecOps pipeline experience stated",
+   "No FIPS 201 Evaluation Program or APL experience",
+   "Firm is a small business; solicitation explicitly restricted to large businesses"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "a707b8a1-a96d9335-p6-0a37f0b8",
+    "quote": "Responses to this RFI shall be submitted electronically no later than 12:00 PM Eastern Standard Time, May 11, 2026, via email to the Technology Acquisition Center (TAC) points of contact:",
+    "source_file": "a96d933522cf43c1befd8784151f9ff3.pdf",
+    "page": 6,
+    "firm_answer": "The solicitation description states it is 'open to large businesses.' Sooner Systems LLC is an SDVOSB small business and is not a large business. The firm is ineligible to compete under the stated acquisition strategy regardless of technical capability.",
+    "status": "gap",
+    "evidence": "Owner rule [ss-setaside]: firm may only bid where eligible (SDVOSB, total small business, or unrestricted). This notice is restricted to large businesses."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p12-6152e749",
+    "quote": "The Contractor shall provide resources with a blend of specific expertise and experience in Scaled Agile Framework (SAFe) Agile, Product Management, DevSecOps, engineering, and Data Migration.",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 12,
+    "firm_answer": "Sooner Systems' profile lists IT help desk, desktop/network administration, Microsoft 365/Azure administration, RMF/ATO documentation, vulnerability management, and cybersecurity staffing. No SAFe Agile, Product Management, DevSecOps engineering, or Data Migration capability is stated.",
+    "status": "gap",
+    "evidence": "Firm capabilities: Tier 1-3 help desk, desktop and network administration, Microsoft 365 and Azure administration, RMF/ATO documentation, vulnerability management, cybersecurity staffing — no SAFe, DevSecOps engineering, or data migration."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p10-f6a0a8f5",
+    "quote": "The Contractor shall also provide program management, technical governance, intake and prioritization support, business process analysis, Risk Management Framework activities, Agile delivery management, and required documentation to ensure secure, efficient, and compliant delivery of HELM capabilities.",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 10,
+    "firm_answer": "Sooner Systems has RMF/ATO documentation experience which partially addresses the Risk Management Framework activities element. However, program management, technical governance, Agile delivery management, and HELM-specific documentation are not evidenced in the profile.",
+    "status": "partial",
+    "evidence": "Capability: RMF/ATO documentation. Past performance: Network administration and cybersecurity support (FAA) includes RMF, ATO keywords. No Agile delivery management or program management capability stated."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p13-3aed9fd7",
+    "quote": "The Contractor shall adhere to VA policies by ensuring compliance with DevSecOps practices, implementing Agile methodologies, and supporting other OIT strategic initiatives.",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 13,
+    "firm_answer": "Sooner Systems does not list DevSecOps practices or Agile methodology implementation in its capabilities or past performance. No evidence of OIT strategic initiative support.",
+    "status": "gap",
+    "evidence": "Firm profile lists no DevSecOps pipeline, CI/CD, or Agile methodology delivery experience."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p12-9e48493d",
+    "quote": "The Contractor shall provide cross-functional SAFe resources for the development of enhancements to the HELM products and underlying infrastructure in alignment with VA policies and procedures.",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 12,
+    "firm_answer": "Sooner Systems does not list SAFe-certified or cross-functional software development resources. No HELM product enhancement experience is stated.",
+    "status": "gap",
+    "evidence": "Firm profile lists ITIL 4 and Security+ certifications across the bench; no SAFe certifications or software development roles mentioned."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p5-b79b1812",
+    "quote": "Standardization and modernization are required to transform Supply Chain systems into integrated, enterprise-wide system of systems that supports responsive, efficient clinical and nonclinical supply operations.",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 5,
+    "firm_answer": "Sooner Systems has no stated supply chain domain expertise, clinical or nonclinical supply operations experience, or enterprise system-of-systems integration capability.",
+    "status": "gap",
+    "evidence": "No past performance or capability statement references supply chain systems, clinical operations, or enterprise integration."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p13-79faa1c5",
+    "quote": "The Contractor shall utilize the Agile framework for product management to deliver iteratively & incrementally which regularly produces high quality results in a cost effective, timely, and highly collaborative.",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 13,
+    "firm_answer": "Sooner Systems does not list Agile framework or product management delivery in its capabilities or past performance records.",
+    "status": "gap",
+    "evidence": "No Agile delivery, sprint planning, or iterative product management capability stated in firm profile."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p21-e92015af",
+    "quote": "The Contractor shall provide Agile Scrum Teams to support VA Products delivery, including development, testing, integration, data activities, configuration, training,",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 21,
+    "firm_answer": "Sooner Systems does not list Agile Scrum teams, software development, testing, or integration capabilities. The firm provides IT support and cybersecurity staffing, not software product delivery teams.",
+    "status": "gap",
+    "evidence": "Firm capabilities limited to help desk, network/desktop administration, M365/Azure administration, RMF/ATO, vulnerability management, and cybersecurity staffing."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p30-f58e4687",
+    "quote": "The Contractor shall conduct testing on a recurring, iterative basis to validate functionality, performance, accessibility, security, and interoperability of each product throughout the development lifecycle.",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 30,
+    "firm_answer": "Sooner Systems has no stated software testing, QA, accessibility testing, or development lifecycle testing capability.",
+    "status": "gap",
+    "evidence": "No software testing or QA capability listed in firm profile or past performance."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p48-0e53b218",
+    "quote": "The Contractor shall develop builds of each product on a continuous basis no shorter than two weeks but no longer than three months in duration.",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 48,
+    "firm_answer": "Sooner Systems has no software build, CI/CD pipeline, or continuous delivery capability stated in its profile.",
+    "status": "gap",
+    "evidence": "No software development, build management, or CI/CD pipeline experience in firm profile."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p65-a59f156a",
+    "quote": "The Contractor, in collaboration with VA, must evaluate the output of any AI tool for accuracy prior to using the output in VA efforts.",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 65,
+    "firm_answer": "Sooner Systems does not list AI tool evaluation, machine learning, or AI governance capabilities.",
+    "status": "gap",
+    "evidence": "No AI/ML capability or experience referenced in firm profile."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p68-3e30bf8b",
+    "quote": "The Contractor shall develop and implement a Compliance Monitoring and Reporting Plan supporting ongoing monitoring processes to evaluate AI outputs for compliance with Trustworthy AI and Unbiased AI principles.",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 68,
+    "firm_answer": "Sooner Systems has no AI compliance monitoring, Trustworthy AI, or Unbiased AI capability stated.",
+    "status": "gap",
+    "evidence": "No AI governance or compliance monitoring capability in firm profile."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p61-3dd45b27",
+    "quote": "If the Contractor delivered application and system is not on the APL, the Contractor shall be responsible for taking the application and system through the FIPS 201 Evaluation Program.",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 61,
+    "firm_answer": "Sooner Systems does not list FIPS 201 Evaluation Program experience or APL navigation capability.",
+    "status": "gap",
+    "evidence": "No FIPS 201, APL, or product certification experience stated in firm profile."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p40-d0478b4d",
+    "quote": "The Contractor shall support the Initial Operating Capability (IOC) evaluation for HELM PL product line, including Asset Management, Inventory Management, Prosthetics, and other supply chain modernization solutions.",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 40,
+    "firm_answer": "Sooner Systems has no IOC evaluation, asset management, inventory management, prosthetics, or supply chain modernization experience.",
+    "status": "gap",
+    "evidence": "No supply chain domain or IOC support capability in firm profile or past performance."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p53-28504cd0",
+    "quote": "The approach should encompass identifying, gathering, and analyzing representative system-specific data to understand the conditions, parameters, limitations, and other factors that shall drive decommission plans.",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 53,
+    "firm_answer": "Sooner Systems has no system decommissioning, data analysis for decommission planning, or legacy system retirement experience stated.",
+    "status": "gap",
+    "evidence": "No decommissioning or system lifecycle analysis capability in firm profile."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p70-919d0883",
+    "quote": "The submitted Contractor Staff Roster must indicate the required Background Investigation Level for each Contractor individual based upon the tasks the Contractor individual shall be working, in accordance with their submitted proposal.",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 70,
+    "firm_answer": "Sooner Systems has 22 cleared staff at Secret level and experience with background investigation processes from prior federal contracts. The firm can comply with staff roster and background investigation level documentation requirements.",
+    "status": "meets",
+    "evidence": "Firm capability: 22 cleared staff (Secret). Past performance: IT help desk and desktop support (US Army Corps of Engineers) and Network administration and cybersecurity support (FAA) both involved cleared personnel."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p71-5c1cd30a",
+    "quote": "The Contractor personnel shall submit all required information related to their background investigations (completion of the investigation documents (SF85, SF85P, or SF 86) utilizing Defense Counterintelligence and Security Agency (DCSA) National Background Investigation Services (NBIS) Electronic Application (eAPP) (formerly e-QIP) after receiving an email notification from the PSAC.",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 71,
+    "firm_answer": "Sooner Systems has 22 cleared staff and experience with federal background investigation processes. The firm is familiar with DCSA/NBIS eAPP processes from prior cleared contracts.",
+    "status": "meets",
+    "evidence": "Firm capability: 22 cleared staff (Secret). Prior federal contracts with cleared personnel imply familiarity with DCSA background investigation processes."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p77-12e7e6e8",
+    "quote": "The Contractor shall notify the COR/CO within one hour of disclosure or successful exploits of any vulnerability which can compromise the confidentiality, integrity, or availability of the information systems.",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 77,
+    "firm_answer": "Sooner Systems has vulnerability management (ACAS/Nessus) and cybersecurity staffing capabilities, and past performance in cybersecurity support (FAA) including incident response. The firm can meet incident notification requirements.",
+    "status": "meets",
+    "evidence": "Capability: vulnerability management (ACAS/Nessus), cybersecurity staffing. Past performance: Network administration and cybersecurity support (FAA) — keywords: incident response, vulnerability, ACAS."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p97-d231b7ff",
+    "quote": "The Contractor shall execute due diligence to ensure all provided software and patches, including third-party patches, are free of viruses and/or malware before releasing them to or installing them on VA information systems.",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 97,
+    "firm_answer": "Sooner Systems has vulnerability management (ACAS/Nessus) and cybersecurity capabilities relevant to patch validation. However, the firm has no stated software development or patch release role, making this a partial match.",
+    "status": "partial",
+    "evidence": "Capability: vulnerability management (ACAS/Nessus), CMMC Level 2 self-assessed. Past performance: Network administration and cybersecurity support (FAA) — keywords: vulnerability, ACAS, STIG."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p100-5fa5c615",
+    "quote": "The Contractor shall apply security patches within 30 business days of the patch release and have a formal tracking process for any security patches not implemented to include explanation when a device cannot be patched.",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 100,
+    "firm_answer": "Sooner Systems has vulnerability management and cybersecurity capabilities. Past performance at FAA includes STIG and vulnerability management. However, the firm has no stated software product patching or formal patch tracking process for application systems.",
+    "status": "partial",
+    "evidence": "Capability: vulnerability management (ACAS/Nessus). Past performance: Network administration and cybersecurity support (FAA) — keywords: vulnerability, ACAS, STIG."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p11-876a498f",
+    "quote": "The PoP shall be one 12-month base period with four 12-month option periods and four optional tasks, if exercised.",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 11,
+    "firm_answer": "Sooner Systems has performed multi-year contracts (2022-2025 Army Corps; 2021-2024 FAA; 2023-2025 Oklahoma National Guard), demonstrating ability to sustain performance over multi-year periods.",
+    "status": "meets",
+    "evidence": "Past performance: IT help desk and desktop support (2022-2025), Network administration and cybersecurity support (2021-2024), Systems administration and Microsoft 365 migration (2023-2025)."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p11-ef5eeafb",
+    "quote": "Tasks under this PWS shall be performed at Contractor facilities.",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 11,
+    "firm_answer": "Sooner Systems operates a 24x7 NOC in Norman, OK and can perform work at contractor facilities.",
+    "status": "meets",
+    "evidence": "Firm capability: 24x7 NOC in Norman, OK."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p15-6d3a99a9",
+    "quote": "All resources are required to have access to the VA network and shall complete all the required VA Talent Management System (TMS) training courses within three business days of submitting an onboarding package.",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 15,
+    "firm_answer": "Sooner Systems has no stated prior VA network access or VA TMS training experience. The firm has not performed VA contracts per the profile.",
+    "status": "unknown",
+    "evidence": "No VA contract history or VA network access experience stated in firm profile."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p18-d44491c0",
+    "quote": "The Contractor shall partner with the Government to mature, operate, and continuously improve the existing HELM intake process, ensuring all requests are evaluated consistently and accurately.",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 18,
+    "firm_answer": "Sooner Systems has no stated HELM intake process experience, supply chain intake management, or VA product line process improvement capability.",
+    "status": "gap",
+    "evidence": "No HELM, intake process management, or VA supply chain experience in firm profile or past performance."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p20-4806b4a9",
+    "quote": "The Contractor shall support and deliver HELM PI Quarterly Planning activities to ensure alignment of product development objectives with VA strategic priorities.",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 20,
+    "firm_answer": "Sooner Systems has no Program Increment (PI) planning, SAFe quarterly planning, or VA strategic alignment experience.",
+    "status": "gap",
+    "evidence": "No SAFe PI planning or product development planning capability in firm profile."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p21-2f8297d5",
+    "quote": "The Contractor shall support innovation and modernization efforts by identifying and analyzing emerging technologies and industry trends.",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 21,
+    "firm_answer": "Sooner Systems does not list technology trend analysis, innovation planning, or modernization advisory capabilities.",
+    "status": "gap",
+    "evidence": "No innovation analysis or technology modernization advisory capability in firm profile."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p25-ba4d5a0e",
+    "quote": "KPIs shall be developed in coordination with the VA Product Owner and stakeholders and shall include methodologies that enable objective, lifecycle long evaluation of product performance and user outcomes.",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 25,
+    "firm_answer": "Sooner Systems has no stated KPI development, product performance measurement, or user outcome evaluation methodology experience.",
+    "status": "gap",
+    "evidence": "No product KPI development or lifecycle performance measurement capability in firm profile."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p43-fc380eb6",
+    "quote": "Tier 2 – Report generation, production research, database updates, batch job support shall be handled by the Contractor during VA approved support hours.",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 43,
+    "firm_answer": "Sooner Systems provides Tier 1-3 help desk support and has experience with tiered support models (ITIL). However, this Tier 2 requirement refers to application-level database updates and batch job support, not end-user help desk Tier 2.",
+    "status": "partial",
+    "evidence": "Capability: Tier 1-3 help desk. Past performance: IT help desk and desktop support (Army Corps) — keywords: tier 1, tier 2, ITIL. Note: application Tier 2 (database/batch) differs from help desk Tier 2."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p43-54e91a30",
+    "quote": "Tier 3 – Application code changes, defect corrections, security compliance updates, and related remediation – shall be handled by the Contractor during VA approved support hours.",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 43,
+    "firm_answer": "Sooner Systems has no application code change, defect correction, or software remediation capability. The firm's Tier 3 experience is in network/system administration, not application development.",
+    "status": "gap",
+    "evidence": "No software development, application code change, or defect correction capability in firm profile."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p44-65299a60",
+    "quote": "The Contractor shall support a non-business hours rotation schedule to respond to HELMs monitoring and alerting platform to incidents on monitored HELM applications.",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 44,
+    "firm_answer": "Sooner Systems operates a 24x7 NOC in Norman, OK, which supports non-business hours monitoring and incident response. However, the firm has no HELM application monitoring experience.",
+    "status": "partial",
+    "evidence": "Firm capability: 24x7 NOC in Norman, OK. Past performance: Network administration and cybersecurity support (FAA) — keywords: SOC, SIEM, incident response."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p67-0715a520",
+    "quote": "The documentation shall address summaries of training process, identified risks and mitigations, and model evaluation scores on LLM benchmarks at a minimum, where appropriate",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 67,
+    "firm_answer": "Sooner Systems has no LLM, AI model evaluation, or machine learning documentation capability.",
+    "status": "gap",
+    "evidence": "No AI/ML or LLM capability stated in firm profile."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p96-89c17dd4",
+    "quote": "If procurement is unavailable from an OEM or authorized reseller, the Contractor shall submit in writing, details of the circumstances prohibiting this from happening and procure a product waiver from the VA COR/CO.",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 96,
+    "firm_answer": "Sooner Systems has no stated hardware/software procurement or OEM reseller relationship experience relevant to VA supply chain procurement.",
+    "status": "unknown",
+    "evidence": "No procurement or OEM/reseller experience stated in firm profile."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p15-78904101",
+    "quote": "A technical kickoff meeting shall be held within 10 days after award.",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 15,
+    "firm_answer": "Sooner Systems can comply with administrative kickoff meeting requirements based on general federal contracting experience.",
+    "status": "meets",
+    "evidence": "General federal contracting experience across three past performance records (Army Corps, FAA, Oklahoma National Guard)."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p32-eece2312",
+    "quote": "Defects shall be remediated within the following maximum timeframes: Critical – 5 business days High – 10 business days Medium – 30 business days Low – As prioritized by the VA PM",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 32,
+    "firm_answer": "Sooner Systems has no software defect remediation capability. The firm does not develop or maintain application code.",
+    "status": "gap",
+    "evidence": "No software development or defect remediation capability in firm profile."
+   },
+   {
+    "requirement_id": "a707b8a1-37690f12-p99-c63afa28",
+    "quote": "Updates to remediate critical or emergent vulnerabilities shall be provided within seven business days of discovery.",
+    "source_file": "37690f12591947758988db41e89665e2.pdf",
+    "page": 99,
+    "firm_answer": "Sooner Systems has vulnerability management (ACAS/Nessus) experience and can identify and track vulnerabilities. However, remediating application-level vulnerabilities within seven business days requires software development capability the firm does not list.",
+    "status": "partial",
+    "evidence": "Capability: vulnerability management (ACAS/Nessus). Past performance: Network administration and cybersecurity support (FAA) — keywords: vulnerability, ACAS, STIG, RMF."
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "a707b8a1ffe64e1f81c0169928abd6d3",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-08-17T10:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": "One 12-month base period with four 12-month option periods and four optional tasks, if exercised.",
+   "source_quotes": [
+    "4.1 PERFORMANCE PERIOD The PoP shall be one 12-month base period with four 12-month option periods and four optional tasks, if exercised."
+   ]
+  },
+  "days_to_close": -27.89254974125,
+  "set_aside_note": "Set-aside is \"none\" (unrestricted, open to large businesses per the notice description). Sooner Systems LLC cannot claim this notice under its eligible set-asides (SDVOSB, SBA/small business), as the solicitation is explicitly open to large businesses only and carries no small-business set-aside. Owner rule [ss-setaside] requires eligibility under SDVOSB, total small business, or unrestricted — while technically unrestricted, the notice states it is \"open to large businesses,\" which effectively excludes this small business firm.",
+  "amendment_note": "no amendment",
+  "calendar_entries": []
+ },
+ "model_calls": 5,
+ "tokens_in": 70634,
+ "tokens_out": 13871,
+ "seconds": 142.08,
+ "produced_at": "2026-09-14T06:27:38.375264-05:00"
+}

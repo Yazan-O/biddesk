@@ -1,0 +1,7 @@
+{
+ "runtime_arn": "arn:aws:bedrock-agentcore:us-east-1:<account>:runtime/biddesk_runtime-sBS5N4G0Fo",
+ "runtime_id": "biddesk_runtime-sBS5N4G0Fo",
+ "status": "READY",
+ "region": "us-east-1",
+ "code": "s3://biddesk-agentcore-code-<account>/biddesk_runtime/biddesk_runtime.zip"
+}

@@ -1,0 +1,786 @@
+{
+ "notice_id": "ccf5e9659c194671a36bfc391bb023e0",
+ "firm_slug": "red-cedar",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:30:43-05:00",
+ "evidence_basis": null,
+ "days_to_close": -13.819723164618056,
+ "closed": true,
+ "response_kind": "proposal",
+ "card": {
+  "notice_id": "ccf5e9659c194671a36bfc391bb023e0",
+  "firm_slug": "red-cedar",
+  "situation": "VA Network Contract Office 19 solicitation for janitorial services at Oklahoma City Main VAMC, Lawton Main Clinic, Lawton North Clinic, and Stillwater CBOC — base year 09-01-2026 through 08-31-2027 with four option years, unrestricted but award restricted to certified SDVOSB. Reached the owner because NAICS 561720 is an exact match and the firm holds direct VA Oklahoma City housekeeping past performance (2023–2025).",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "Red Cedar holds an exact NAICS 561720 match and direct VA Oklahoma City Health Care System housekeeping past performance (2023–2025), demonstrating proven capability in the precise setting required [profile: past performance, Housekeeping support, outpatient clinic].",
+   "Operational capacity is strong: 38 W-2 employees, two-shift coverage capability, OSHA 30 supervisors aligned to 29 CFR 1910 training requirements, and CIMS-GB certification supporting quality standards [ccf5e965-42587fc3-p1-d0087bb7].",
+   "Fit score of 0.7037 reflects 16 of 32 requirements fully met and only 5 hard gaps — the technical and past-performance foundation is solid if the eligibility barrier were resolved [matrix_summary: 16 of 32 requirements met, 6 partial, 5 gap, 5 unknown]."
+  ],
+  "reasons_against": [
+   "The solicitation mandates award exclusively to a certified SDVOSB listed in the SBA certification database; Red Cedar holds only WOSB, EDWOSB, and SBA certifications — SDVOSB is absent, making the firm ineligible for award [ccf5e965-42587fc3-p1-5f011c82].",
+   "Red Cedar cannot execute the required SDVOSB compliance agreement under VAAR subpart 819.70 and 13 CFR parts 121 and 125, as that agreement is only available to certified SDVOSBs — submitting an offer would be a false certification [ccf5e965-42587fc3-p1-c29f7f5f].",
+   "The opportunity is already past its response deadline by approximately 14 days (days to close: -13.8), so a proposal cannot be submitted in time regardless of eligibility [profile: days to close -13.819723164618056]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-08-27",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-08-31T10:00:00-05:00",
+   "site_visit": null,
+   "period_of_performance": "09-01-2026 to 08-31-2027",
+   "source_quotes": []
+  },
+  "fit_score": 0.7037,
+  "matrix_summary": "16 of 32 requirements met, 6 partial, 5 gap, 5 unknown",
+  "evidence_link": "https://sam.gov/opp/ccf5e9659c194671a36bfc391bb023e0/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-5f011c82",
+   "quote": "Any award resulting from this solicitation shall be made to a certified SDVOSB listed in the SBA certification database who is eligible at the time of submission of offer(s) and at the time of award.",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "firm_answer": "Red Cedar holds WOSB, EDWOSB, and SBA certifications. SDVOSB certification is not listed in the firm profile. The firm is ineligible for award under this set-aside.",
+   "status": "gap",
+   "evidence": "Firm profile set-asides: WOSB, EDWOSB, SBA — SDVOSB absent. Owner rule [rc-setaside] bars bidding where firm is not eligible."
+  },
+  {
+   "requirement_id": "ccf5e965-71b0ae7c-p1-39319060",
+   "quote": "Any award resulting from this solicitation shall be made to a certified SDVOSB listed in the SBA certification database who is eligible at the time of submission of offer(s) and at the time of award.",
+   "source_file": "71b0ae7c052942e8a1ecf337bec2705a.docx",
+   "page": 1,
+   "firm_answer": "Same as above — SDVOSB certification not held. Firm is ineligible.",
+   "status": "gap",
+   "evidence": "Firm profile set-asides: WOSB, EDWOSB, SBA — SDVOSB absent."
+  },
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-c29f7f5f",
+   "quote": "an SDVOSB agrees that in the performance of the contract, the SDVOSB shall comply with requirements in VAAR subpart 819.70 and SBA regulations on small business size, and government contracting programs at 13 CFR part 121 and part 125, including the non-manufacturer rule and limitations on subcontracting (LOS) requirements",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "firm_answer": "Firm cannot make this agreement as it is not an SDVOSB. Ineligible.",
+   "status": "gap",
+   "evidence": "Firm profile set-asides: WOSB, EDWOSB, SBA — SDVOSB absent."
+  },
+  {
+   "requirement_id": "ccf5e965-71b0ae7c-p1-0bd9d7ab",
+   "quote": "an SDVOSB agrees that in the performance of the contract, the SDVOSB shall comply with requirements in VAAR subpart 819.70 and SBA regulations on small business size, and government contracting programs at 13 CFR part 121 and part 125, including the non-manufacturer rule and limitations on subcontracting (LOS) requirements",
+   "source_file": "71b0ae7c052942e8a1ecf337bec2705a.docx",
+   "page": 1,
+   "firm_answer": "Firm cannot make this agreement as it is not an SDVOSB. Ineligible.",
+   "status": "gap",
+   "evidence": "Firm profile set-asides: WOSB, EDWOSB, SBA — SDVOSB absent."
+  },
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-192a10c9",
+   "quote": "All floors shall be swept, vacuumed, dust mopped, and damp mopped daily and as needed, to ensure floors are free from dirt, debris, dust, discoloration, scuff, heel marks, stains, and other foreign matter.",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "firm_answer": "Red Cedar lists floor care as a core capability. Past performance includes floor care at GSA OKC Federal Building and janitorial at state office complex.",
+   "status": "meets",
+   "evidence": "Capabilities: floor care. Past performance: Custodial services, Oklahoma City Federal Building (keywords: floor care); Janitorial, state office complex (keywords: carpet)."
+  },
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-0d27fe06",
+   "quote": "All trash containers shall be emptied, wiped down exterior and interior with a facility approved EPA registered hospital cleaner/ disinfectant then returned to their initial location.",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "firm_answer": "Trash removal is a standard custodial task covered in past performance at GSA OKC Federal Building and VA OKC clinic. Green cleaning program and EPA-registered products align with this requirement.",
+   "status": "meets",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building (keywords: trash, recycling); Housekeeping support, outpatient clinic (keywords: housekeeping, clinic). Capabilities: green cleaning program."
+  },
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-3f0f4798",
+   "quote": "Blood and other body fluids and/or excretion on any surface shall be cleaned immediately with facility approved EPA registered hospital cleaner/ disinfectants.",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "firm_answer": "VA OKC clinic past performance explicitly includes infection control and terminal cleaning in a healthcare setting.",
+   "status": "meets",
+   "evidence": "Past performance: Housekeeping support, outpatient clinic (keywords: infection control, terminal cleaning, medical)."
+  },
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-885aa7a2",
+   "quote": "Reusable Medical Equipment (RME) Closets: RME Closets shall be cleaned in accordance with facility established SOPs.",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "firm_answer": "VA OKC clinic past performance covers healthcare housekeeping including infection control. Specific RME SOP compliance is not explicitly mentioned in the profile but is implied by healthcare housekeeping experience.",
+   "status": "partial",
+   "evidence": "Past performance: Housekeeping support, outpatient clinic (keywords: housekeeping, clinic, infection control, terminal cleaning, medical). RME-specific SOP compliance not explicitly stated."
+  },
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-34b13e7d",
+   "quote": "RME closet logs shall be signed by contractor personnel daily, and all logs will be turned in to the COR, alternate COR(s), and designated officials on the last working day of each month.",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "firm_answer": "QC inspections are logged in a CMMS, demonstrating a documentation culture. Daily log signing and monthly COR submission is an administrative process the firm can implement.",
+   "status": "partial",
+   "evidence": "Capabilities: QC inspections logged in a CMMS. No explicit mention of RME closet log procedures in profile."
+  },
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-e96a1a42",
+   "quote": "TRAINING: Contractor-Furnished Training: At a minimum Contractor shall cover the following topics listed in 29 Code of Federal Regulation (Labor) 1910.l-1910.1450 which is to be conducted not less than two (2) full days from date of contract award.",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "firm_answer": "OSHA 30 supervisors are on staff, indicating familiarity with 29 CFR 1910 standards. Firm can deliver contractor-furnished training.",
+   "status": "meets",
+   "evidence": "Capabilities: OSHA 30 supervisors — directly aligned with 29 CFR 1910 training topics."
+  },
+  {
+   "requirement_id": "ccf5e965-71b0ae7c-p1-03a08936",
+   "quote": "TRAINING: Contractor-Furnished Training: At a minimum Contractor shall cover the following topics listed in 29 Code of Federal Regulation (Labor) 1910.l-1910.1450 which is to be conducted not less than two (2) full days from date of contract award.",
+   "source_file": "71b0ae7c052942e8a1ecf337bec2705a.docx",
+   "page": 1,
+   "firm_answer": "OSHA 30 supervisors on staff support delivery of 29 CFR 1910-based training within required timeframe.",
+   "status": "meets",
+   "evidence": "Capabilities: OSHA 30 supervisors."
+  },
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-fa7794df",
+   "quote": "The Contractor shall ensure that a minimum of 20 hours of job-specific training is conducted during the period of performance.",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "firm_answer": "OSHA 30 supervisors and a structured training capability are implied. No explicit 20-hour training program is described in the profile.",
+   "status": "partial",
+   "evidence": "Capabilities: OSHA 30 supervisors. No explicit 20-hour job-specific training program documented in profile."
+  },
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-d0087bb7",
+   "quote": "The Contractor shall perform services required by this contract Monday through Friday from the hours of 6:00am-2:30pm and from 3:00pm-11:30pm.",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "firm_answer": "38 W-2 employees available. Two-shift coverage (6am–2:30pm and 3pm–11:30pm) is operationally feasible for a firm of this size serving multiple Oklahoma locations.",
+   "status": "meets",
+   "evidence": "Capabilities: 38 W-2 employees; janitorial and custodial for federal facilities in Oklahoma."
+  },
+  {
+   "requirement_id": "ccf5e965-ae1a6119-p1-3902bea6",
+   "quote": "Personnel must be present during entire shift other than during schedule breaks/lunch etc",
+   "source_file": "ae1a6119ba68462585a5dd22e0501540.xlsx",
+   "page": 1,
+   "firm_answer": "38 W-2 employees support on-site staffing for full shifts. No profile gap identified for this operational requirement.",
+   "status": "meets",
+   "evidence": "Capabilities: 38 W-2 employees; federal facility janitorial operations."
+  },
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-735ed401",
+   "quote": "All horizontal and vertical surfaces to include but not limited to cabinets, furniture, base of interior flag poles, shelves, handrails, windowsills, light fixtures, top of pictures/ plaques, top of ice machine/ water dispensing units, refrigerators, bulletin boards, fire extinguishers, exit signs, vents, and doorframes shall be wet dusted or cleaned to eliminate dust collection.",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "firm_answer": "General dusting and custodial cleaning of all surfaces is a standard scope item covered by the firm's custodial and janitorial capabilities and past performance.",
+   "status": "meets",
+   "evidence": "Capabilities: janitorial, custodial. Past performance: Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic."
+  },
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-1e345db7",
+   "quote": "After glass cleaning, there shall be no traces of film, dirt, streaks, smudges, water, or other debris.",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "firm_answer": "Window cleaning is explicitly listed as a firm capability.",
+   "status": "meets",
+   "evidence": "Capabilities: window cleaning."
+  },
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-b170d1b4",
+   "quote": "All other safety/protective clothing shall be provided and maintained by the Contractor and worn when appropriate.",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "firm_answer": "OSHA 30 supervisors and healthcare housekeeping past performance imply PPE provision. Profile does not explicitly state PPE supply program.",
+   "status": "partial",
+   "evidence": "Capabilities: OSHA 30 supervisors. Past performance: Housekeeping support, outpatient clinic (infection control). No explicit PPE supply program stated."
+  },
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-821580f5",
+   "quote": "Within 48 hours of reporting the lost/stolen PIV/identification card, the Contractor shall submit to the Program Manager an incident report that describes the relevant facts and circumstances regarding the loss/theft.",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "firm_answer": "Profile does not mention PIV card management or incident reporting procedures. This is an administrative compliance requirement the firm would need to implement.",
+   "status": "unknown",
+   "evidence": "No mention of PIV card management or incident reporting procedures in firm profile."
+  },
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-708b6321",
+   "quote": "If the loss/theft was reported by the Contractor to the local police, the Contractor shall further submit a copy of the final police report to the Program Manager within 48 hours of the report being made available by the local police department.",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "firm_answer": "Profile is silent on police report submission procedures. Standard administrative compliance item.",
+   "status": "unknown",
+   "evidence": "No mention of PIV/police report procedures in firm profile."
+  },
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-fdeb3686",
+   "quote": "All Invoices from the contractor shall be submitted electronically in accordance with VAAR Clause 852.232-72 Electronic Submission of Payment Requests.",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "firm_answer": "Firm has prior VA contract (VA OKC Health Care System, 2023-2025), indicating familiarity with VA electronic invoicing requirements.",
+   "status": "meets",
+   "evidence": "Past performance: Housekeeping support, outpatient clinic (VA Oklahoma City Health Care System, 2023-2025)."
+  },
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-6c461140",
+   "quote": "the contractor must pay all covered workers at least $13.65 per hour (or the applicable wage rate listed on this wage determination, if it is higher) for all hours spent performing on the contract from May 11, 2026, through December 31, 2026.",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "firm_answer": "Profile does not explicitly address SCA/Executive Order wage compliance. Firm has federal contracts subject to these requirements but no explicit wage compliance program is stated.",
+   "status": "unknown",
+   "evidence": "No explicit SCA or Executive Order wage compliance program mentioned in firm profile."
+  },
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-53b80f7e",
+   "quote": "the contractor must provide employees with 1 hour of paid sick leave for every 30 hours they work, up to 56 hours of paid sick leave each year.",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "firm_answer": "Profile does not explicitly address Executive Order 13706 paid sick leave compliance. Firm has 38 W-2 employees and federal contract experience but no explicit policy stated.",
+   "status": "unknown",
+   "evidence": "No explicit paid sick leave policy mentioned in firm profile."
+  },
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-34ebd09c",
+   "quote": "all contractors and subcontractors subject to this wage determination shall (in the absence of a bona fide collective bargaining agreement providing for a different amount, or the furnishing of contrary affirmative proof as to the actual cost), reimburse all employees for such cleaning and maintenance at a rate of $3.35 per week",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "firm_answer": "Profile is silent on uniform reimbursement policy. Standard SCA compliance item for janitorial contractors.",
+   "status": "unknown",
+   "evidence": "No uniform reimbursement policy mentioned in firm profile."
+  },
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-9a445703",
+   "quote": "The Contractor shall submit a status report to PIV Sponsor within 5 working days after the end of each calendar quarter and as requested by the Government in order to initiate contract closeout procedures.",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "firm_answer": "QC inspections logged in CMMS support reporting capability. Quarterly PIV status reporting is an administrative process the firm can implement.",
+   "status": "partial",
+   "evidence": "Capabilities: QC inspections logged in a CMMS. No explicit PIV sponsor reporting process mentioned."
+  },
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-f116f4e4",
+   "quote": "the concern must qualify as a small business concern under the size standard corresponding to the NAICS code assigned to the contract and be listed as an SDVOSB participant in the SBA certification database as set forth in 13 CFR 128.",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "firm_answer": "Firm qualifies as a small business under NAICS 561720 but is NOT listed as an SDVOSB in the SBA certification database. Ineligible to submit an offer.",
+   "status": "gap",
+   "evidence": "Firm profile set-asides: WOSB, EDWOSB, SBA. SDVOSB not listed. Owner rule [rc-setaside] bars this bid."
+  },
+  {
+   "requirement_id": "ccf5e965-ae1a6119-p1-d16d4872",
+   "quote": "Each line item is structured on a monthly basis, which means the contractor must perform satisfactorily during that specific month in order to be entitled to payment for that month.",
+   "source_file": "ae1a6119ba68462585a5dd22e0501540.xlsx",
+   "page": 1,
+   "firm_answer": "Monthly performance-based invoicing is consistent with firm's prior federal contract experience. CMMS-logged QC inspections support documentation of satisfactory performance.",
+   "status": "meets",
+   "evidence": "Capabilities: QC inspections logged in a CMMS. Past performance: Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic."
+  },
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-6bce146f",
+   "quote": "Other [x] After satisfactory performance -Contractor Must Perform",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "firm_answer": "Firm's CIMS-GB certification and CMMS-based QC program demonstrate commitment to performance standards required for payment.",
+   "status": "meets",
+   "evidence": "Capabilities: CIMS-GB certified; QC inspections logged in a CMMS."
+  },
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-6e357280",
+   "quote": "The Contracting Officer Representative (COR) or their designee shall be notified of any unlocked doors or windows during his/her duty hours.",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "firm_answer": "Standard security protocol for federal facility janitorial contractors. Firm has federal building and VA clinic experience where such protocols apply.",
+   "status": "meets",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic (VA OKC)."
+  },
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-2b7127e0",
+   "quote": "Keys provided to the contractor shall not be duplicated.",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "firm_answer": "Standard key control requirement for federal facility access. Firm's federal building and VA clinic experience implies familiarity with key control policies.",
+   "status": "meets",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic (VA OKC)."
+  },
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-d3a9e252",
+   "quote": "Contractor will be responsible for tracking and monitoring the replacement and cleanliness of curtains in their assigned areas.",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "firm_answer": "Healthcare housekeeping past performance at VA OKC clinic covers similar tracking responsibilities. CMMS supports tracking functions.",
+   "status": "partial",
+   "evidence": "Past performance: Housekeeping support, outpatient clinic (VA OKC). Capabilities: QC inspections logged in a CMMS. Curtain tracking not explicitly mentioned."
+  },
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-9df3cc36",
+   "quote": "Descaling shall be performed every week as a minimum and as often as needed to keep areas free of scale, soap films, and other deposits.",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "firm_answer": "Restroom descaling is a standard custodial task. Past performance at GSA OKC Federal Building includes restroom cleaning.",
+   "status": "meets",
+   "evidence": "Past performance: Custodial services, Oklahoma City Federal Building (keywords: restrooms); Housekeeping support, outpatient clinic."
+  },
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-75dd794f",
+   "quote": "The Contractor will be responsible for cleaning/ disinfecting high touch surfaces such as the door, door handle, shelves, benches/ chairs, and tables with facility approved EPA registered hospital cleaner/ disinfectant.",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "firm_answer": "Healthcare housekeeping at VA OKC clinic includes infection control and terminal cleaning with EPA-registered disinfectants. Green cleaning program aligns.",
+   "status": "meets",
+   "evidence": "Past performance: Housekeeping support, outpatient clinic (keywords: infection control, terminal cleaning, medical). Capabilities: green cleaning program."
+  }
+ ],
+ "matrix_dropped": 7,
+ "matrix_dropped_rows": [
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-e7e086f2",
+   "quote": "the contractor shall provide all management, supervision, and labor necessary to ensure that janitorial services are performed for the interior spaces at the Oklahoma City Main VA Medical Center, Lawton Main Clinic, Lawton North Clinic, and Stillwater CBOC",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-12c97a4d",
+   "quote": "The Contractor shall strip, scrub, burnish, and finish/ wax floors in accordance with manufacturer's recommendations or supervisor's instructions for floor care procedures.",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-b180e28e",
+   "quote": "Carpets shall be cleaned in accordance with manufacturer's recommendations or supervisor's instructions for carpet care procedures.",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "ccf5e965-ae1a6119-p1-53b27b34",
+   "quote": "Personnel must be present during entire shift.",
+   "source_file": "ae1a6119ba68462585a5dd22e0501540.xlsx",
+   "page": 1,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-42fe023b",
+   "quote": "Invoices shall be submitted in arrears",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-9b279289",
+   "quote": "The Offeror shall review the list of excluded parties in the System for Award Management (SAM) at https://www.sam.gov for entities excluded from receiving federal awards for \"covered telecommunications equipment or services.\"",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "ccf5e965-42587fc3-p1-879d295d",
+   "quote": "The formal certification must be completed, signed and returned with the offeror's bid, quotation, or proposal.",
+   "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+   "page": 1,
+   "reason": "not_verbatim"
+  }
+ ],
+ "fit_score_code": 0.7037,
+ "drafts": {
+  "capability_statement": "Red Cedar Facility Services — Capability Statement\nNAICS 561720 | WOSB | EDWOSB | SBA Certified Small Business\n\nRed Cedar Facility Services provides comprehensive janitorial and custodial services to federal healthcare and administrative facilities across Oklahoma. Our directly relevant experience includes housekeeping support at the VA Oklahoma City Health Care System (2023–2025) and custodial services at the Oklahoma City Federal Building (GSA Region 7), giving us proven familiarity with VA protocols, federal security requirements, and multi-site operations in the Oklahoma City metro area.\n\nOur 38 W-2 employees support two-shift daily coverage (6:00 am–2:30 pm and 3:00 pm–11:30 pm) across multiple locations without reliance on subcontractors for core labor. Supervisors hold OSHA 30 certifications, enabling contractor-furnished training aligned to 29 CFR 1910 standards within required timeframes. Our CIMS-GB certification demonstrates adherence to industry quality benchmarks, and our CMMS-based QC inspection program provides the documented daily and monthly reporting discipline required for RME closet logs and COR submissions.\n\nWe deploy EPA-registered hospital-grade disinfectants and maintain a green cleaning program consistent with VA infection control requirements, including immediate response to blood and body fluid incidents and high-touch surface disinfection. Floor care capabilities include strip, scrub, burnish, wax, and carpet extraction. Window cleaning is a listed core service.\n\nRed Cedar is enrolled in e-Verify and has performed under VA electronic invoicing requirements (VAAR 852.232-72) on prior contracts.\n\nPoint of Contact: [Owner Name] | [Phone] | [Email]",
+  "questions_for_co": [
+   "SDVOSB eligibility — The solicitation states award shall be made only to a certified SDVOSB listed in the SBA certification database [ccf5e965-42587fc3-p1-5f011c82]. Is there any possibility the set-aside designation will be amended to unrestricted or to a different socioeconomic category before proposal due date, or is SDVOSB certification a firm, non-waivable condition of award?",
+   "Wage determination applicability — The solicitation references a minimum wage rate of $13.65 per hour through December 31, 2026 [ccf5e965-42587fc3-p1-6c461140]. Which specific WD number and revision applies to this contract, and does a separate rate apply for the Lawton and Stillwater locations given their different counties?",
+   "Uniform and equipment reimbursement — The wage determination requires reimbursement to employees for cleaning and maintenance of required uniforms [ccf5e965-42587fc3-p1-34ebd09c]. Can the Contracting Officer confirm the exact uniform specification and whether a government-furnished uniform allowance is included, or whether the cost must be embedded in the offeror's price?",
+   "PIV / identification card incident reporting — The solicitation requires an incident report to the Program Manager within 48 hours of a lost or stolen PIV card, and a police report copy within 48 hours of its availability [ccf5e965-42587fc3-p1-821580f5; ccf5e965-42587fc3-p1-708b6321]. Is there a government-provided incident report template, and who is the designated Program Manager for this contract?",
+   "RME closet SOP access — The solicitation requires cleaning in accordance with facility-established SOPs for RME closets [ccf5e965-42587fc3-p1-885aa7a2]. Will the government provide copies of the applicable SOPs prior to contract award, or only at the post-award kickoff, and will offerors have an opportunity to review them during site visit?",
+   "Paid sick leave compliance — The solicitation incorporates Executive Order 13706 requiring 1 hour of paid sick leave per 30 hours worked, up to 56 hours annually [ccf5e965-42587fc3-p1-53b80f7e]. Does the government require offerors to submit a written paid sick leave policy with their proposal, or is a certification of compliance sufficient?"
+  ],
+  "calendar_entries": []
+ },
+ "reader": {
+  "notice_id": "ccf5e9659c194671a36bfc391bb023e0",
+  "key_requirement_ids": [
+   "ccf5e965-42587fc3-p1-5f011c82",
+   "ccf5e965-71b0ae7c-p1-39319060",
+   "ccf5e965-42587fc3-p1-e7e086f2",
+   "ccf5e965-42587fc3-p1-d0087bb7",
+   "ccf5e965-ae1a6119-p1-d16d4872",
+   "ccf5e965-42587fc3-p1-e96a1a42",
+   "ccf5e965-42587fc3-p1-fa7794df",
+   "ccf5e965-71b0ae7c-p1-151682d7",
+   "ccf5e965-42587fc3-p1-192a10c9",
+   "ccf5e965-42587fc3-p1-0d27fe06",
+   "ccf5e965-42587fc3-p1-3f0f4798",
+   "ccf5e965-42587fc3-p1-885aa7a2",
+   "ccf5e965-42587fc3-p1-12c97a4d",
+   "ccf5e965-42587fc3-p1-b180e28e",
+   "ccf5e965-42587fc3-p1-735ed401",
+   "ccf5e965-42587fc3-p1-9df3cc36",
+   "ccf5e965-ae1a6119-p1-3902bea6",
+   "ccf5e965-ae1a6119-p1-27b34c3d",
+   "ccf5e965-42587fc3-p1-6c461140",
+   "ccf5e965-42587fc3-p1-53b80f7e",
+   "ccf5e965-42587fc3-p1-34b13e7d",
+   "ccf5e965-42587fc3-p1-b170d1b4",
+   "ccf5e965-42587fc3-p1-c29f7f5f",
+   "ccf5e965-42587fc3-p1-879d295d",
+   "ccf5e965-71b0ae7c-p1-d720a8e4"
+  ],
+  "scope_summary": "The government is buying janitorial services covering all interior spaces at the Oklahoma City Main VA Medical Center, Lawton Main Clinic, Lawton North Clinic, and Stillwater CBOC, with the contractor providing all management, supervision, and labor. Services include daily basic cleaning (floors, trash, restrooms, glass, dusting, stairwells, elevators, RME closets) as well as periodic intensive floor maintenance, carpet cleaning, and disinfection using EPA-registered hospital-grade products. Work is performed Monday through Friday across two shifts (6:00am–2:30pm and 3:00pm–11:30pm), with on-site personnel presence required throughout each shift.",
+  "evaluation_basis": "(2) Any award resulting from this solicitation shall be made to a certified SDVOSB listed in the SBA certification database who is eligible at the time of submission of offer(s) and at the time of award.",
+  "incumbent_or_history": "none found",
+  "quotes": [
+   "1.0 GENERAL The contractor shall provide all management, supervision, and labor necessary to ensure that janitorial services are performed for the interior spaces at the Oklahoma City Main VA Medical Center, Lawton Main Clinic, Lawton North Clinic, and Stillwater CBOC (Clinical Based Outpatient Clinic).",
+   "HOURS OF OPERATION The Contractor shall perform services required by this contract Monday through Friday from the hours of 6:00am-2:30pm and from 3:00pm-11:30pm.",
+   "(2) Any award resulting from this solicitation shall be made to a certified SDVOSB listed in the SBA certification database who is eligible at the time of submission of offer(s) and at the time of award.",
+   "23 | Questions in regard to how to invoice related to after satifactory performance: [x] After satisfactory performance | Each line item is structured on a monthly basis, which means the contractor must perform satisfactorily during that specific month in order to be entitled to payment for that month.",
+   "TRAINING: Contractor-Furnished Training: At a minimum Contractor shall cover the following topics listed in 29 Code of Federal Regulation (Labor) 1910.l-1910.1450 which is to be conducted not less than two (2) full days from date of contract award.",
+   "The Contractor shall ensure that a minimum of 20 hours of job-specific training is conducted during the period of performance.",
+   "Blood and other body fluids and/or excretion on any surface shall be cleaned immediately with facility approved EPA registered hospital cleaner/ disinfectants.",
+   "Reusable Medical Equipment (RME) Closets: RME Closets shall be cleaned in accordance with facility established SOPs.",
+   "RME closet logs shall be signed by contractor personnel daily, and all logs will be turned in to the COR, alternate COR(s), and designated officials on the last working day of each month.",
+   "Personnel must be present during entire shift other than during schedule breaks/lunch etc",
+   "If a contract is subject to Executive Order 13658, the contractor must pay all covered workers at least $13.65 per hour (or the applicable wage rate listed on this wage determination, if it is higher) for all hours spent performing on the contract from May 11, 2026, through December 31, 2026.",
+   "If this contract is covered by the EO, the contractor must provide employees with 1 hour of paid sick leave for every 30 hours they work, up to 56 hours of paid sick leave each year.",
+   "When awarded a contract action, including orders under multipleaward contracts, an SDVOSB agrees that in the performance of the contract, the SDVOSB shall comply with requirements in VAAR subpart 819.70 and SBA regulations on small business size, and government contracting programs at 13 CFR part 121 and part 125, including the non-manufacturer rule and limitations on subcontracting (LOS) requirements in 13 CFR 121.406(b) and 13 CFR 125.6.",
+   "All other safety/protective clothing shall be provided and maintained by the Contractor and worn when appropriate."
+  ]
+ },
+ "fit": {
+  "notice_id": "ccf5e9659c194671a36bfc391bb023e0",
+  "fit_score": 0.18,
+  "matched_past_performance": [
+   "Housekeeping support, outpatient clinic",
+   "Custodial services, Oklahoma City Federal Building",
+   "Janitorial, state office complex"
+  ],
+  "strengths": [
+   "NAICS 561720 exact match",
+   "Oklahoma City location — zero distance risk",
+   "Direct VA housekeeping past performance (VA Oklahoma City Health Care System, 2023-2025)",
+   "Federal building custodial experience (GSA Region 7, OKC)",
+   "Healthcare infection control and terminal cleaning experience",
+   "CIMS-GB certification demonstrates janitorial quality standards",
+   "Green cleaning program aligns with EPA-registered disinfectant requirements",
+   "e-Verify enrollment meets federal contractor requirement",
+   "OSHA 30 supervisors support 29 CFR 1910 training requirement",
+   "QC inspections logged in CMMS supports RME closet log and reporting obligations",
+   "Floor care (strip, scrub, burnish, wax) and carpet cleaning capabilities explicitly listed",
+   "38 W-2 employees — sufficient workforce for multi-site coverage",
+   "12-month base period (09-01-2026 to 08-31-2027) satisfies owner rule rc-base"
+  ],
+  "gaps": [
+   "FATAL: Solicitation requires certified SDVOSB; firm holds only WOSB/EDWOSB/SBA — owner rule rc-setaside bars this bid",
+   "Firm is not listed as SDVOSB in SBA certification database — ineligible for award per solicitation terms",
+   "No SDVOSB certification mentioned anywhere in firm profile",
+   "No evidence of PIV/identification card incident reporting procedures in place",
+   "No explicit mention of biohazard/RME closet SOP compliance capability",
+   "No mention of SCA/Davis-Bacon wage compliance program",
+   "Solicitation is past response deadline (days to close: -13.8) — opportunity already closed"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "ccf5e965-42587fc3-p1-5f011c82",
+    "quote": "Any award resulting from this solicitation shall be made to a certified SDVOSB listed in the SBA certification database who is eligible at the time of submission of offer(s) and at the time of award.",
+    "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+    "page": 1,
+    "firm_answer": "Red Cedar holds WOSB, EDWOSB, and SBA certifications. SDVOSB certification is not listed in the firm profile. The firm is ineligible for award under this set-aside.",
+    "status": "gap",
+    "evidence": "Firm profile set-asides: WOSB, EDWOSB, SBA — SDVOSB absent. Owner rule [rc-setaside] bars bidding where firm is not eligible."
+   },
+   {
+    "requirement_id": "ccf5e965-71b0ae7c-p1-39319060",
+    "quote": "Any award resulting from this solicitation shall be made to a certified SDVOSB listed in the SBA certification database who is eligible at the time of submission of offer(s) and at the time of award.",
+    "source_file": "71b0ae7c052942e8a1ecf337bec2705a.docx",
+    "page": 1,
+    "firm_answer": "Same as above — SDVOSB certification not held. Firm is ineligible.",
+    "status": "gap",
+    "evidence": "Firm profile set-asides: WOSB, EDWOSB, SBA — SDVOSB absent."
+   },
+   {
+    "requirement_id": "ccf5e965-42587fc3-p1-c29f7f5f",
+    "quote": "an SDVOSB agrees that in the performance of the contract, the SDVOSB shall comply with requirements in VAAR subpart 819.70 and SBA regulations on small business size, and government contracting programs at 13 CFR part 121 and part 125, including the non-manufacturer rule and limitations on subcontracting (LOS) requirements",
+    "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+    "page": 1,
+    "firm_answer": "Firm cannot make this agreement as it is not an SDVOSB. Ineligible.",
+    "status": "gap",
+    "evidence": "Firm profile set-asides: WOSB, EDWOSB, SBA — SDVOSB absent."
+   },
+   {
+    "requirement_id": "ccf5e965-71b0ae7c-p1-0bd9d7ab",
+    "quote": "an SDVOSB agrees that in the performance of the contract, the SDVOSB shall comply with requirements in VAAR subpart 819.70 and SBA regulations on small business size, and government contracting programs at 13 CFR part 121 and part 125, including the non-manufacturer rule and limitations on subcontracting (LOS) requirements",
+    "source_file": "71b0ae7c052942e8a1ecf337bec2705a.docx",
+    "page": 1,
+    "firm_answer": "Firm cannot make this agreement as it is not an SDVOSB. Ineligible.",
+    "status": "gap",
+    "evidence": "Firm profile set-asides: WOSB, EDWOSB, SBA — SDVOSB absent."
+   },
+   {
+    "requirement_id": "ccf5e965-42587fc3-p1-192a10c9",
+    "quote": "All floors shall be swept, vacuumed, dust mopped, and damp mopped daily and as needed, to ensure floors are free from dirt, debris, dust, discoloration, scuff, heel marks, stains, and other foreign matter.",
+    "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+    "page": 1,
+    "firm_answer": "Red Cedar lists floor care as a core capability. Past performance includes floor care at GSA OKC Federal Building and janitorial at state office complex.",
+    "status": "meets",
+    "evidence": "Capabilities: floor care. Past performance: Custodial services, Oklahoma City Federal Building (keywords: floor care); Janitorial, state office complex (keywords: carpet)."
+   },
+   {
+    "requirement_id": "ccf5e965-42587fc3-p1-0d27fe06",
+    "quote": "All trash containers shall be emptied, wiped down exterior and interior with a facility approved EPA registered hospital cleaner/ disinfectant then returned to their initial location.",
+    "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+    "page": 1,
+    "firm_answer": "Trash removal is a standard custodial task covered in past performance at GSA OKC Federal Building and VA OKC clinic. Green cleaning program and EPA-registered products align with this requirement.",
+    "status": "meets",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building (keywords: trash, recycling); Housekeeping support, outpatient clinic (keywords: housekeeping, clinic). Capabilities: green cleaning program."
+   },
+   {
+    "requirement_id": "ccf5e965-42587fc3-p1-3f0f4798",
+    "quote": "Blood and other body fluids and/or excretion on any surface shall be cleaned immediately with facility approved EPA registered hospital cleaner/ disinfectants.",
+    "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+    "page": 1,
+    "firm_answer": "VA OKC clinic past performance explicitly includes infection control and terminal cleaning in a healthcare setting.",
+    "status": "meets",
+    "evidence": "Past performance: Housekeeping support, outpatient clinic (keywords: infection control, terminal cleaning, medical)."
+   },
+   {
+    "requirement_id": "ccf5e965-42587fc3-p1-885aa7a2",
+    "quote": "Reusable Medical Equipment (RME) Closets: RME Closets shall be cleaned in accordance with facility established SOPs.",
+    "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+    "page": 1,
+    "firm_answer": "VA OKC clinic past performance covers healthcare housekeeping including infection control. Specific RME SOP compliance is not explicitly mentioned in the profile but is implied by healthcare housekeeping experience.",
+    "status": "partial",
+    "evidence": "Past performance: Housekeeping support, outpatient clinic (keywords: housekeeping, clinic, infection control, terminal cleaning, medical). RME-specific SOP compliance not explicitly stated."
+   },
+   {
+    "requirement_id": "ccf5e965-42587fc3-p1-34b13e7d",
+    "quote": "RME closet logs shall be signed by contractor personnel daily, and all logs will be turned in to the COR, alternate COR(s), and designated officials on the last working day of each month.",
+    "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+    "page": 1,
+    "firm_answer": "QC inspections are logged in a CMMS, demonstrating a documentation culture. Daily log signing and monthly COR submission is an administrative process the firm can implement.",
+    "status": "partial",
+    "evidence": "Capabilities: QC inspections logged in a CMMS. No explicit mention of RME closet log procedures in profile."
+   },
+   {
+    "requirement_id": "ccf5e965-42587fc3-p1-e96a1a42",
+    "quote": "TRAINING: Contractor-Furnished Training: At a minimum Contractor shall cover the following topics listed in 29 Code of Federal Regulation (Labor) 1910.l-1910.1450 which is to be conducted not less than two (2) full days from date of contract award.",
+    "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+    "page": 1,
+    "firm_answer": "OSHA 30 supervisors are on staff, indicating familiarity with 29 CFR 1910 standards. Firm can deliver contractor-furnished training.",
+    "status": "meets",
+    "evidence": "Capabilities: OSHA 30 supervisors — directly aligned with 29 CFR 1910 training topics."
+   },
+   {
+    "requirement_id": "ccf5e965-71b0ae7c-p1-03a08936",
+    "quote": "TRAINING: Contractor-Furnished Training: At a minimum Contractor shall cover the following topics listed in 29 Code of Federal Regulation (Labor) 1910.l-1910.1450 which is to be conducted not less than two (2) full days from date of contract award.",
+    "source_file": "71b0ae7c052942e8a1ecf337bec2705a.docx",
+    "page": 1,
+    "firm_answer": "OSHA 30 supervisors on staff support delivery of 29 CFR 1910-based training within required timeframe.",
+    "status": "meets",
+    "evidence": "Capabilities: OSHA 30 supervisors."
+   },
+   {
+    "requirement_id": "ccf5e965-42587fc3-p1-fa7794df",
+    "quote": "The Contractor shall ensure that a minimum of 20 hours of job-specific training is conducted during the period of performance.",
+    "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+    "page": 1,
+    "firm_answer": "OSHA 30 supervisors and a structured training capability are implied. No explicit 20-hour training program is described in the profile.",
+    "status": "partial",
+    "evidence": "Capabilities: OSHA 30 supervisors. No explicit 20-hour job-specific training program documented in profile."
+   },
+   {
+    "requirement_id": "ccf5e965-42587fc3-p1-d0087bb7",
+    "quote": "The Contractor shall perform services required by this contract Monday through Friday from the hours of 6:00am-2:30pm and from 3:00pm-11:30pm.",
+    "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+    "page": 1,
+    "firm_answer": "38 W-2 employees available. Two-shift coverage (6am–2:30pm and 3pm–11:30pm) is operationally feasible for a firm of this size serving multiple Oklahoma locations.",
+    "status": "meets",
+    "evidence": "Capabilities: 38 W-2 employees; janitorial and custodial for federal facilities in Oklahoma."
+   },
+   {
+    "requirement_id": "ccf5e965-ae1a6119-p1-3902bea6",
+    "quote": "Personnel must be present during entire shift other than during schedule breaks/lunch etc",
+    "source_file": "ae1a6119ba68462585a5dd22e0501540.xlsx",
+    "page": 1,
+    "firm_answer": "38 W-2 employees support on-site staffing for full shifts. No profile gap identified for this operational requirement.",
+    "status": "meets",
+    "evidence": "Capabilities: 38 W-2 employees; federal facility janitorial operations."
+   },
+   {
+    "requirement_id": "ccf5e965-42587fc3-p1-735ed401",
+    "quote": "All horizontal and vertical surfaces to include but not limited to cabinets, furniture, base of interior flag poles, shelves, handrails, windowsills, light fixtures, top of pictures/ plaques, top of ice machine/ water dispensing units, refrigerators, bulletin boards, fire extinguishers, exit signs, vents, and doorframes shall be wet dusted or cleaned to eliminate dust collection.",
+    "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+    "page": 1,
+    "firm_answer": "General dusting and custodial cleaning of all surfaces is a standard scope item covered by the firm's custodial and janitorial capabilities and past performance.",
+    "status": "meets",
+    "evidence": "Capabilities: janitorial, custodial. Past performance: Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic."
+   },
+   {
+    "requirement_id": "ccf5e965-42587fc3-p1-1e345db7",
+    "quote": "After glass cleaning, there shall be no traces of film, dirt, streaks, smudges, water, or other debris.",
+    "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+    "page": 1,
+    "firm_answer": "Window cleaning is explicitly listed as a firm capability.",
+    "status": "meets",
+    "evidence": "Capabilities: window cleaning."
+   },
+   {
+    "requirement_id": "ccf5e965-42587fc3-p1-b170d1b4",
+    "quote": "All other safety/protective clothing shall be provided and maintained by the Contractor and worn when appropriate.",
+    "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+    "page": 1,
+    "firm_answer": "OSHA 30 supervisors and healthcare housekeeping past performance imply PPE provision. Profile does not explicitly state PPE supply program.",
+    "status": "partial",
+    "evidence": "Capabilities: OSHA 30 supervisors. Past performance: Housekeeping support, outpatient clinic (infection control). No explicit PPE supply program stated."
+   },
+   {
+    "requirement_id": "ccf5e965-42587fc3-p1-821580f5",
+    "quote": "Within 48 hours of reporting the lost/stolen PIV/identification card, the Contractor shall submit to the Program Manager an incident report that describes the relevant facts and circumstances regarding the loss/theft.",
+    "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+    "page": 1,
+    "firm_answer": "Profile does not mention PIV card management or incident reporting procedures. This is an administrative compliance requirement the firm would need to implement.",
+    "status": "unknown",
+    "evidence": "No mention of PIV card management or incident reporting procedures in firm profile."
+   },
+   {
+    "requirement_id": "ccf5e965-42587fc3-p1-708b6321",
+    "quote": "If the loss/theft was reported by the Contractor to the local police, the Contractor shall further submit a copy of the final police report to the Program Manager within 48 hours of the report being made available by the local police department.",
+    "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+    "page": 1,
+    "firm_answer": "Profile is silent on police report submission procedures. Standard administrative compliance item.",
+    "status": "unknown",
+    "evidence": "No mention of PIV/police report procedures in firm profile."
+   },
+   {
+    "requirement_id": "ccf5e965-42587fc3-p1-fdeb3686",
+    "quote": "All Invoices from the contractor shall be submitted electronically in accordance with VAAR Clause 852.232-72 Electronic Submission of Payment Requests.",
+    "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+    "page": 1,
+    "firm_answer": "Firm has prior VA contract (VA OKC Health Care System, 2023-2025), indicating familiarity with VA electronic invoicing requirements.",
+    "status": "meets",
+    "evidence": "Past performance: Housekeeping support, outpatient clinic (VA Oklahoma City Health Care System, 2023-2025)."
+   },
+   {
+    "requirement_id": "ccf5e965-42587fc3-p1-6c461140",
+    "quote": "the contractor must pay all covered workers at least $13.65 per hour (or the applicable wage rate listed on this wage determination, if it is higher) for all hours spent performing on the contract from May 11, 2026, through December 31, 2026.",
+    "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+    "page": 1,
+    "firm_answer": "Profile does not explicitly address SCA/Executive Order wage compliance. Firm has federal contracts subject to these requirements but no explicit wage compliance program is stated.",
+    "status": "unknown",
+    "evidence": "No explicit SCA or Executive Order wage compliance program mentioned in firm profile."
+   },
+   {
+    "requirement_id": "ccf5e965-42587fc3-p1-53b80f7e",
+    "quote": "the contractor must provide employees with 1 hour of paid sick leave for every 30 hours they work, up to 56 hours of paid sick leave each year.",
+    "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+    "page": 1,
+    "firm_answer": "Profile does not explicitly address Executive Order 13706 paid sick leave compliance. Firm has 38 W-2 employees and federal contract experience but no explicit policy stated.",
+    "status": "unknown",
+    "evidence": "No explicit paid sick leave policy mentioned in firm profile."
+   },
+   {
+    "requirement_id": "ccf5e965-42587fc3-p1-34ebd09c",
+    "quote": "all contractors and subcontractors subject to this wage determination shall (in the absence of a bona fide collective bargaining agreement providing for a different amount, or the furnishing of contrary affirmative proof as to the actual cost), reimburse all employees for such cleaning and maintenance at a rate of $3.35 per week",
+    "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+    "page": 1,
+    "firm_answer": "Profile is silent on uniform reimbursement policy. Standard SCA compliance item for janitorial contractors.",
+    "status": "unknown",
+    "evidence": "No uniform reimbursement policy mentioned in firm profile."
+   },
+   {
+    "requirement_id": "ccf5e965-42587fc3-p1-9a445703",
+    "quote": "The Contractor shall submit a status report to PIV Sponsor within 5 working days after the end of each calendar quarter and as requested by the Government in order to initiate contract closeout procedures.",
+    "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+    "page": 1,
+    "firm_answer": "QC inspections logged in CMMS support reporting capability. Quarterly PIV status reporting is an administrative process the firm can implement.",
+    "status": "partial",
+    "evidence": "Capabilities: QC inspections logged in a CMMS. No explicit PIV sponsor reporting process mentioned."
+   },
+   {
+    "requirement_id": "ccf5e965-42587fc3-p1-f116f4e4",
+    "quote": "the concern must qualify as a small business concern under the size standard corresponding to the NAICS code assigned to the contract and be listed as an SDVOSB participant in the SBA certification database as set forth in 13 CFR 128.",
+    "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+    "page": 1,
+    "firm_answer": "Firm qualifies as a small business under NAICS 561720 but is NOT listed as an SDVOSB in the SBA certification database. Ineligible to submit an offer.",
+    "status": "gap",
+    "evidence": "Firm profile set-asides: WOSB, EDWOSB, SBA. SDVOSB not listed. Owner rule [rc-setaside] bars this bid."
+   },
+   {
+    "requirement_id": "ccf5e965-ae1a6119-p1-d16d4872",
+    "quote": "Each line item is structured on a monthly basis, which means the contractor must perform satisfactorily during that specific month in order to be entitled to payment for that month.",
+    "source_file": "ae1a6119ba68462585a5dd22e0501540.xlsx",
+    "page": 1,
+    "firm_answer": "Monthly performance-based invoicing is consistent with firm's prior federal contract experience. CMMS-logged QC inspections support documentation of satisfactory performance.",
+    "status": "meets",
+    "evidence": "Capabilities: QC inspections logged in a CMMS. Past performance: Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic."
+   },
+   {
+    "requirement_id": "ccf5e965-42587fc3-p1-6bce146f",
+    "quote": "Other [x] After satisfactory performance -Contractor Must Perform",
+    "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+    "page": 1,
+    "firm_answer": "Firm's CIMS-GB certification and CMMS-based QC program demonstrate commitment to performance standards required for payment.",
+    "status": "meets",
+    "evidence": "Capabilities: CIMS-GB certified; QC inspections logged in a CMMS."
+   },
+   {
+    "requirement_id": "ccf5e965-42587fc3-p1-6e357280",
+    "quote": "The Contracting Officer Representative (COR) or their designee shall be notified of any unlocked doors or windows during his/her duty hours.",
+    "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+    "page": 1,
+    "firm_answer": "Standard security protocol for federal facility janitorial contractors. Firm has federal building and VA clinic experience where such protocols apply.",
+    "status": "meets",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic (VA OKC)."
+   },
+   {
+    "requirement_id": "ccf5e965-42587fc3-p1-2b7127e0",
+    "quote": "Keys provided to the contractor shall not be duplicated.",
+    "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+    "page": 1,
+    "firm_answer": "Standard key control requirement for federal facility access. Firm's federal building and VA clinic experience implies familiarity with key control policies.",
+    "status": "meets",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic (VA OKC)."
+   },
+   {
+    "requirement_id": "ccf5e965-42587fc3-p1-d3a9e252",
+    "quote": "Contractor will be responsible for tracking and monitoring the replacement and cleanliness of curtains in their assigned areas.",
+    "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+    "page": 1,
+    "firm_answer": "Healthcare housekeeping past performance at VA OKC clinic covers similar tracking responsibilities. CMMS supports tracking functions.",
+    "status": "partial",
+    "evidence": "Past performance: Housekeeping support, outpatient clinic (VA OKC). Capabilities: QC inspections logged in a CMMS. Curtain tracking not explicitly mentioned."
+   },
+   {
+    "requirement_id": "ccf5e965-42587fc3-p1-9df3cc36",
+    "quote": "Descaling shall be performed every week as a minimum and as often as needed to keep areas free of scale, soap films, and other deposits.",
+    "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+    "page": 1,
+    "firm_answer": "Restroom descaling is a standard custodial task. Past performance at GSA OKC Federal Building includes restroom cleaning.",
+    "status": "meets",
+    "evidence": "Past performance: Custodial services, Oklahoma City Federal Building (keywords: restrooms); Housekeeping support, outpatient clinic."
+   },
+   {
+    "requirement_id": "ccf5e965-42587fc3-p1-75dd794f",
+    "quote": "The Contractor will be responsible for cleaning/ disinfecting high touch surfaces such as the door, door handle, shelves, benches/ chairs, and tables with facility approved EPA registered hospital cleaner/ disinfectant.",
+    "source_file": "42587fc359144c7aa4a192bf50ad0e89.docx",
+    "page": 1,
+    "firm_answer": "Healthcare housekeeping at VA OKC clinic includes infection control and terminal cleaning with EPA-registered disinfectants. Green cleaning program aligns.",
+    "status": "meets",
+    "evidence": "Past performance: Housekeeping support, outpatient clinic (keywords: infection control, terminal cleaning, medical). Capabilities: green cleaning program."
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "ccf5e9659c194671a36bfc391bb023e0",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-08-31T10:00:00-05:00",
+   "site_visit": null,
+   "period_of_performance": "09-01-2026 to 08-31-2027",
+   "source_quotes": []
+  },
+  "days_to_close": -13.819723164618056,
+  "set_aside_note": "Set-aside is 'none' (unrestricted). Firm is eligible under rule [rc-setaside], which permits bidding on unrestricted solicitations.",
+  "amendment_note": "no amendment",
+  "calendar_entries": []
+ },
+ "model_calls": 5,
+ "tokens_in": 73095,
+ "tokens_out": 15482,
+ "seconds": 141.11,
+ "produced_at": "2026-09-14T05:42:45.194564-05:00"
+}

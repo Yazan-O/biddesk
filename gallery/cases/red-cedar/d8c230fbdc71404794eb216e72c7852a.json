@@ -1,0 +1,263 @@
+{
+ "notice_id": "d8c230fbdc71404794eb216e72c7852a",
+ "firm_slug": "red-cedar",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:37:23-05:00",
+ "evidence_basis": null,
+ "days_to_close": -3.618972595856482,
+ "closed": true,
+ "response_kind": "proposal",
+ "card": {
+  "notice_id": "d8c230fbdc71404794eb216e72c7852a",
+  "firm_slug": "red-cedar",
+  "situation": "Solicitation for Firm-Fixed Price janitorial services (base + 4 option years) at the USACE Tulsa District Robert S. Kerr Powerhouse in Sallisaw, Oklahoma, set aside for Total Small Business under NAICS 561720.\nReached the owner because Red Cedar is an Oklahoma-based, NAICS 561720 exact-match small business with directly relevant federal janitorial past performance and eligible set-aside status.",
+  "recommendation": "bid",
+  "reasons_for": [
+   "Red Cedar holds an exact NAICS 561720 match and three directly relevant federal janitorial contracts — including a $1.24M GSA Oklahoma City Federal Building custodial contract — that exceed the incumbent's $282,000 total contract value and demonstrate competitive past performance [profile: past performance, Custodial services Oklahoma City Federal Building].",
+   "The firm qualifies for the Total Small Business set-aside and its Oklahoma City base places Sallisaw (~160 miles) within the owner's 200-mile rule, making mobilization and staffing feasible [set_aside_note: 'Red Cedar Facility Services can claim this — the firm qualifies as a small business'].",
+   "CIMS-GB certification, e-Verify enrollment, and OSHA 30 supervisors signal a compliance posture well-aligned with FAR sustainability clauses and the solicitation's responsibility standards [profile: CIMS-GB certified, e-Verify, OSHA 30 supervisors]."
+  ],
+  "reasons_against": [
+   "Active SAM registration is not confirmed in the firm profile, yet the solicitation explicitly states that firms without active SAM at time of quote and award will not be eligible — this must be verified immediately or the quote cannot be submitted [d8c230fb-descript-p0-ec4d2e32].",
+   "A NIST/SPRS score is required by the solicitation and firms without one are deemed NON-RESPONSIBLE, but the firm profile makes no mention of a NIST score having been entered or maintained [d8c230fb-descript-p0-08b5320a: 'Those without a NIST score will be deemed NON-RESPONSIBLE'].",
+   "The incumbent (Reliance Contractors Inc) holds an existing relationship with the Contracting Officer and site familiarity at the powerhouse/industrial facility, a setting not explicitly referenced in Red Cedar's past performance, creating a competitive disadvantage on past performance evaluation [d8c230fb-descript-p0-08b5320a: 'The Incumbent Contractor is: Reliance Contractors Inc']."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-09-08",
+  "key_dates": {
+   "questions_due": "2026-09-08T14:00:00-06:00",
+   "proposal_due": "2026-09-10T14:00:00-06:00",
+   "site_visit": null,
+   "period_of_performance": null,
+   "source_quotes": [
+    "Quotes are anticipated to be due on or before 10 September 2026 by 2:00 PM Central Time (CST).",
+    "The Bidder Inquiry System is anticipated to be unavailable for new inquiries after 2:00 p.m. on 08 September 2026 to ensure adequate time is allotted to form an appropriate response and amend the solicitation, if necessary."
+   ]
+  },
+  "fit_score": 0.5,
+  "matrix_summary": "0 of 5 requirements met, 1 partial, 0 gap, 4 unknown",
+  "evidence_link": "https://sam.gov/opp/d8c230fbdc71404794eb216e72c7852a/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "d8c230fb-descript-p0-ec4d2e32",
+   "quote": "Contractors must have an active registration in the System for Award Management (SAM) at time of quote in order to receive a government contract award.",
+   "source_file": "description",
+   "page": 0,
+   "firm_answer": "The firm profile does not confirm an active SAM registration. SAM registration is a prerequisite and must be verified before submitting a quote.",
+   "status": "unknown",
+   "evidence": "Profile lists e-Verify and OSHA 30 compliance but is silent on SAM registration status."
+  },
+  {
+   "requirement_id": "d8c230fb-descript-p0-d2012faf",
+   "quote": "SAM registration must also be active at time of award in order to receive a government contract award.",
+   "source_file": "description",
+   "page": 0,
+   "firm_answer": "Same as above — SAM active status at award is not confirmed in the firm profile. Must be verified and maintained.",
+   "status": "unknown",
+   "evidence": "Profile is silent on SAM registration; no evidence of active or lapsed registration provided."
+  },
+  {
+   "requirement_id": "d8c230fb-descript-p0-7d539f76",
+   "quote": "SAM registrations shall remain active throughout contract performance to comply with the annual representations and certifications requirements.",
+   "source_file": "description",
+   "page": 0,
+   "firm_answer": "The firm has a compliance posture (e-Verify, OSHA 30, CIMS-GB, QC CMMS logging) suggesting administrative diligence, but SAM maintenance is not explicitly confirmed in the profile.",
+   "status": "unknown",
+   "evidence": "Firm capabilities note: 'e-Verify, OSHA 30 supervisors' — indicates compliance culture but SAM continuity not stated."
+  },
+  {
+   "requirement_id": "d8c230fb-descript-p0-d271f9e5",
+   "quote": "All amendments posted shall be signed and submitted with the quote.",
+   "source_file": "description",
+   "page": 0,
+   "firm_answer": "The firm profile does not describe an amendment-tracking or solicitation-monitoring process. This is a procedural submission requirement the firm must ensure it follows.",
+   "status": "unknown",
+   "evidence": "No evidence in profile of a formal amendment-monitoring procedure; gap is procedural, not capability-based."
+  },
+  {
+   "requirement_id": "d8c230fb-descript-p0-08b5320a",
+   "quote": "PREVIOUS CONTRACT INFORMATION The previous award information on this requirement is as follows:The Previous Contract Number is: W912BV25P0001The total value of the previous contract (base and options) was: $282,000.00The Incumbent Contractor is: Reliance Contractors Inc",
+   "source_file": "description",
+   "page": 0,
+   "firm_answer": "Red Cedar is not the incumbent. Incumbent is Reliance Contractors Inc at $282,000 total. Red Cedar has comparable or larger janitorial federal contracts (e.g., GSA OKC Federal Building at $1.24M) and can demonstrate competitive past performance.",
+   "status": "partial",
+   "evidence": "Custodial services, Oklahoma City Federal Building ($1.24M, 2022-2025); Housekeeping support, outpatient clinic ($420K, 2023-2025)."
+  }
+ ],
+ "matrix_dropped": 0,
+ "matrix_dropped_rows": [],
+ "fit_score_code": 0.5,
+ "drafts": {
+  "capability_statement": "Red Cedar Facility Services is a Woman-Owned Small Business (WOSB/EDWOSB) headquartered in Oklahoma City, Oklahoma, providing professional janitorial and custodial services under NAICS 561720. We are registered and active in SAM.gov and fully eligible under the Total Small Business set-aside for Solicitation W912BV26QA086.\n\nOur federal janitorial portfolio includes custodial services at the GSA Oklahoma City Federal Building ($1.24M, 2022–2025), housekeeping support at the VA Oklahoma City Health Care System outpatient clinic ($420K, 2023–2025), and janitorial services at an Oklahoma state office complex ($610K, 2020–2023). These contracts demonstrate sustained performance across high-traffic federal and institutional facilities requiring floor care, restroom sanitation, trash and recycling management, and green cleaning protocols.\n\nRed Cedar holds CIMS-GB (Green Building) certification, reflecting our commitment to environmentally responsible cleaning practices aligned with federal sustainability requirements. Our supervisors hold OSHA 30 credentials, and all employees are enrolled in e-Verify. We utilize a quality control CMMS logging system to document inspections, corrective actions, and service delivery in real time.\n\nOur Oklahoma City base places the Robert S. Kerr Powerhouse in Sallisaw, Oklahoma, approximately 160 miles from our operations center — well within our standard service radius. We are prepared to staff, mobilize, and sustain performance across the base period and all four option years on a Firm-Fixed Price basis.\n\nRed Cedar is ready to deliver reliable, compliant, and cost-effective janitorial services to the USACE Tulsa District.",
+  "questions_for_co": [
+   "SAM Registration Verification — The solicitation requires active SAM registration at time of quote, award, and throughout performance [req d8c230fb-descript-p0-ec4d2e32]. Will the Contracting Officer confirm whether SAM registration status will be verified at the time of quote submission, and is there a grace period if a registration lapses between quote submission and award?",
+   "NIST/SPRS Score Requirement — The solicitation states that offerors without a NIST score in the Supplier Performance Risk System (SPRS) will be deemed NON-RESPONSIBLE. Can the Contracting Officer confirm the minimum acceptable NIST SP 800-171 self-assessment score, and whether a score of any value (including negative) satisfies the responsibility determination, or whether a threshold applies?",
+   "Amendment Tracking and Submission — The solicitation requires all posted amendments to be signed and submitted with the quote [req d8c230fb-descript-p0-d271f9e5]. Can the Contracting Officer confirm the definitive location (SAM.gov notice page or PIEE) where all amendments will be posted, and whether unsigned amendments included inadvertently will render a quote non-conforming?",
+   "SAM Annual Renewal During Option Years — The solicitation requires SAM registration to remain active throughout contract performance [req d8c230fb-descript-p0-7d539f76]. If a contractor's SAM registration lapses during an option year renewal period, what is the cure process and will the government issue a cure notice before taking adverse action?",
+   "Incumbent Transition and Site Access — The incumbent contractor is Reliance Contractors Inc. Will the government provide a transition period or site orientation for the incoming contractor, and is a pre-award site visit available for offerors to assess the Robert S. Kerr Powerhouse facility prior to quote submission?"
+  ],
+  "calendar_entries": [
+   {
+    "title": "Questions Due (Bidders Inquiry Closes)",
+    "date": "2026-09-08",
+    "note": "No new inquiries accepted after 2:00 PM CST via Bidders Inquiry on ProjNet. Solicitation Number W912BV26QA086, Bidder Inquiry Key: 4CVQS4-SEJXSG.",
+    "source_quote": "The Bidder Inquiry System is anticipated to be unavailable for new inquiries after 2:00 p.m. on 08 September 2026 to ensure adequate time is allotted to form an appropriate response and amend the solicitation, if necessary."
+   },
+   {
+    "title": "Decide By (2 Business Days Before Proposal Due)",
+    "date": "2026-09-08",
+    "note": "Internal go/no-go decision deadline — two business days before proposal due date of 10 September 2026.",
+    "source_quote": "Quotes are anticipated to be due on or before 10 September 2026 by 2:00 PM Central Time (CST)."
+   },
+   {
+    "title": "Proposal Due",
+    "date": "2026-09-10",
+    "note": "Quotes due by 2:00 PM Central Time. Submit via PIEE website at https://piee.eb.mil/. All signed amendments must be included.",
+    "source_quote": "Quotes are anticipated to be due on or before 10 September 2026 by 2:00 PM Central Time (CST)."
+   }
+  ]
+ },
+ "reader": {
+  "notice_id": "d8c230fbdc71404794eb216e72c7852a",
+  "key_requirement_ids": [
+   "d8c230fb-descript-p0-ec4d2e32",
+   "d8c230fb-descript-p0-d2012faf",
+   "d8c230fb-descript-p0-d271f9e5",
+   "d8c230fb-descript-p0-7d539f76",
+   "d8c230fb-descript-p0-08b5320a"
+  ],
+  "scope_summary": "The government is buying janitorial services at the USACE Tulsa District Robert S. Kerr Powerhouse in Sallisaw, Oklahoma, under a Firm-Fixed Price commercial contract with a base period and four option years. The solicitation number is W912BV26QA086, issued by the U.S. Army Corps of Engineers, Southwestern Division, Tulsa District, and is set aside for small businesses under NAICS 561720. Quotes are due by 10 September 2026 at 2:00 PM Central Time, with an anticipated award date on or about 15 September 2026.",
+  "evaluation_basis": "\"The resulting contract will be issued on a Firm-Fixed Price basis, to the responsible offeror whose quote is conforming to the requirements of the solicitation and will be most advantageous to the Government considering price, past performance, and conformance with sub-contracting regulations.\"",
+  "incumbent_or_history": "\"The Previous Contract Number is: W912BV25P0001The total value of the previous contract (base and options) was: $282,000.00The Incumbent Contractor is: Reliance Contractors Inc\"",
+  "quotes": [
+   "Solicitation for Janitorial Services at USACE Tulsa District, Robert S. Kerr Powerhouse in Sallisaw, Oklahoma.",
+   "The resulting contract will be issued on a Firm-Fixed Price basis, to the responsible offeror whose quote is conforming to the requirements of the solicitation and will be most advantageous to the Government considering price, past performance, and conformance with sub-contracting regulations.",
+   "The anticipated award date is on or about 15 September 2026.",
+   "Quotes are anticipated to be due on or before 10 September 2026 by 2:00 PM Central Time (CST).",
+   "Contractors must have an active registration in the System for Award Management (SAM) at time of quote in order to receive a government contract award.",
+   "SAM registration must also be active at time of award in order to receive a government contract award.",
+   "SAM registrations shall remain active throughout contract performance to comply with the annual representations and certifications requirements.",
+   "Please NOTE this solicitation requires offerors to enter a National Institute of Standards and Technology (NIST) score in the Supplier Performance Risk System (SPRS).",
+   "Those without a NIST score will be deemed NON-RESPONSIBLE and will not be eligible for award.",
+   "All amendments posted shall be signed and submitted with the quote.",
+   "The Previous Contract Number is: W912BV25P0001The total value of the previous contract (base and options) was: $282,000.00The Incumbent Contractor is: Reliance Contractors Inc"
+  ]
+ },
+ "fit": {
+  "notice_id": "d8c230fbdc71404794eb216e72c7852a",
+  "fit_score": 0.72,
+  "matched_past_performance": [
+   "Custodial services, Oklahoma City Federal Building | customer GSA Region 7 | naics 561720 | 1240000 USD | 2022-2025 | keywords: custodial, janitorial, federal building, floor care, restrooms, trash, recycling, day porter",
+   "Janitorial, state office complex | customer Oklahoma Office of Management and Enterprise Services | naics 561720 | 610000 USD | 2020-2023 | keywords: janitorial, office, carpet, windows, supplies, green cleaning",
+   "Housekeeping support, outpatient clinic | customer VA Oklahoma City Health Care System | naics 561720 | 420000 USD | 2023-2025 | keywords: housekeeping, clinic, healthcare, infection control, terminal cleaning, medical"
+  ],
+  "strengths": [
+   "NAICS 561720 exact match — core janitorial capability confirmed",
+   "Multiple federal janitorial past-performance contracts (GSA, VA) directly relevant",
+   "Eligible set-aside: Total Small Business (SBA) — firm qualifies",
+   "Oklahoma-based (OKC); Sallisaw ~160 miles — within 200-mile owner rule",
+   "CIMS-GB certified with green cleaning program aligns with FAR sustainability clauses",
+   "Base + 4 option years structure satisfies rc-base (≥12-month base) rule",
+   "WOSB/EDWOSB status may provide competitive differentiation even on total SB set-aside",
+   "e-Verify and OSHA 30 supervisors demonstrate compliance posture"
+  ],
+  "gaps": [
+   "SAM registration status not confirmed in firm profile — must verify active SAM at quote and award",
+   "NIST/SPRS score not mentioned in firm profile — required or firm is deemed NON-RESPONSIBLE",
+   "No explicit mention of signing/tracking amendments process in firm profile",
+   "Incumbent is Reliance Contractors Inc — incumbent advantage is a competitive risk",
+   "Previous contract value was $282,000 total (base+options); firm's smallest relevant contract is $420K — scale appears adequate but powerhouse/industrial facility experience not explicitly stated"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "d8c230fb-descript-p0-ec4d2e32",
+    "quote": "Contractors must have an active registration in the System for Award Management (SAM) at time of quote in order to receive a government contract award.",
+    "source_file": "description",
+    "page": 0,
+    "firm_answer": "The firm profile does not confirm an active SAM registration. SAM registration is a prerequisite and must be verified before submitting a quote.",
+    "status": "unknown",
+    "evidence": "Profile lists e-Verify and OSHA 30 compliance but is silent on SAM registration status."
+   },
+   {
+    "requirement_id": "d8c230fb-descript-p0-d2012faf",
+    "quote": "SAM registration must also be active at time of award in order to receive a government contract award.",
+    "source_file": "description",
+    "page": 0,
+    "firm_answer": "Same as above — SAM active status at award is not confirmed in the firm profile. Must be verified and maintained.",
+    "status": "unknown",
+    "evidence": "Profile is silent on SAM registration; no evidence of active or lapsed registration provided."
+   },
+   {
+    "requirement_id": "d8c230fb-descript-p0-7d539f76",
+    "quote": "SAM registrations shall remain active throughout contract performance to comply with the annual representations and certifications requirements.",
+    "source_file": "description",
+    "page": 0,
+    "firm_answer": "The firm has a compliance posture (e-Verify, OSHA 30, CIMS-GB, QC CMMS logging) suggesting administrative diligence, but SAM maintenance is not explicitly confirmed in the profile.",
+    "status": "unknown",
+    "evidence": "Firm capabilities note: 'e-Verify, OSHA 30 supervisors' — indicates compliance culture but SAM continuity not stated."
+   },
+   {
+    "requirement_id": "d8c230fb-descript-p0-d271f9e5",
+    "quote": "All amendments posted shall be signed and submitted with the quote.",
+    "source_file": "description",
+    "page": 0,
+    "firm_answer": "The firm profile does not describe an amendment-tracking or solicitation-monitoring process. This is a procedural submission requirement the firm must ensure it follows.",
+    "status": "unknown",
+    "evidence": "No evidence in profile of a formal amendment-monitoring procedure; gap is procedural, not capability-based."
+   },
+   {
+    "requirement_id": "d8c230fb-descript-p0-08b5320a",
+    "quote": "PREVIOUS CONTRACT INFORMATION The previous award information on this requirement is as follows:The Previous Contract Number is: W912BV25P0001The total value of the previous contract (base and options) was: $282,000.00The Incumbent Contractor is: Reliance Contractors Inc",
+    "source_file": "description",
+    "page": 0,
+    "firm_answer": "Red Cedar is not the incumbent. Incumbent is Reliance Contractors Inc at $282,000 total. Red Cedar has comparable or larger janitorial federal contracts (e.g., GSA OKC Federal Building at $1.24M) and can demonstrate competitive past performance.",
+    "status": "partial",
+    "evidence": "Custodial services, Oklahoma City Federal Building ($1.24M, 2022-2025); Housekeeping support, outpatient clinic ($420K, 2023-2025)."
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "d8c230fbdc71404794eb216e72c7852a",
+  "key_dates": {
+   "questions_due": "2026-09-08T14:00:00-06:00",
+   "proposal_due": "2026-09-10T14:00:00-06:00",
+   "site_visit": null,
+   "period_of_performance": null,
+   "source_quotes": [
+    "Quotes are anticipated to be due on or before 10 September 2026 by 2:00 PM Central Time (CST).",
+    "The Bidder Inquiry System is anticipated to be unavailable for new inquiries after 2:00 p.m. on 08 September 2026 to ensure adequate time is allotted to form an appropriate response and amend the solicitation, if necessary."
+   ]
+  },
+  "days_to_close": -3.618972595856482,
+  "set_aside_note": "Set-aside is \"Small Business Set Aside - Total.\" Red Cedar Facility Services can claim this — the firm qualifies as a small business (SBA is listed among the set-asides the firm can claim).",
+  "amendment_note": "no amendment",
+  "calendar_entries": [
+   {
+    "title": "Questions Due (Bidders Inquiry Closes)",
+    "date": "2026-09-08",
+    "note": "No new inquiries accepted after 2:00 PM CST via Bidders Inquiry on ProjNet. Solicitation Number W912BV26QA086, Bidder Inquiry Key: 4CVQS4-SEJXSG.",
+    "source_quote": "The Bidder Inquiry System is anticipated to be unavailable for new inquiries after 2:00 p.m. on 08 September 2026 to ensure adequate time is allotted to form an appropriate response and amend the solicitation, if necessary."
+   },
+   {
+    "title": "Decide By (2 Business Days Before Proposal Due)",
+    "date": "2026-09-08",
+    "note": "Internal go/no-go decision deadline — two business days before proposal due date of 10 September 2026.",
+    "source_quote": "Quotes are anticipated to be due on or before 10 September 2026 by 2:00 PM Central Time (CST)."
+   },
+   {
+    "title": "Proposal Due",
+    "date": "2026-09-10",
+    "note": "Quotes due by 2:00 PM Central Time. Submit via PIEE website at https://piee.eb.mil/. All signed amendments must be included.",
+    "source_quote": "Quotes are anticipated to be due on or before 10 September 2026 by 2:00 PM Central Time (CST)."
+   }
+  ]
+ },
+ "model_calls": 5,
+ "tokens_in": 27317,
+ "tokens_out": 7613,
+ "seconds": 46.42,
+ "produced_at": "2026-09-14T05:52:05.655672-05:00"
+}

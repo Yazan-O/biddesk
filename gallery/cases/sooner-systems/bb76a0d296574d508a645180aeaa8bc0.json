@@ -1,0 +1,408 @@
+{
+ "notice_id": "bb76a0d296574d508a645180aeaa8bc0",
+ "firm_slug": "sooner-systems",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:54:17-05:00",
+ "evidence_basis": null,
+ "days_to_close": 18.362680395567132,
+ "closed": false,
+ "response_kind": "RFI response (capability statement, not a proposal)",
+ "card": {
+  "notice_id": "bb76a0d296574d508a645180aeaa8bc0",
+  "firm_slug": "sooner-systems",
+  "situation": "DISA Sources Sought for Enterprise Messaging Modernization and Engineering Support — a 24/7/365 DevSecOps-driven effort to modernize DoD's enterprise messaging infrastructure across unclassified and classified environments, requiring WSDL-based services, publish/subscribe messaging, interoperability certifications, and a Secret Facility Clearance.\nReached the owner because Sooner Systems LLC matches the solicitation NAICS (541512), holds 22 Secret-cleared staff, and performs RMF/ATO and cybersecurity work — but the fit score of 0.39 and eight capability gaps flag this as a high-risk response candidate.",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "NAICS 541512 is an exact match and the firm qualifies as a small business well under the $34M size standard, making it eligible to respond to this unrestricted notice [bb76a0d2-896e1443-p1-fbc272fd].",
+   "RMF/ATO documentation, ACAS/Nessus vulnerability management, and CMMC Level 2 self-assessment directly address the RMF and cybersecurity compliance requirement, providing a credible partial narrative [bb76a0d2-896e1443-p1-2cf8c73d].",
+   "A 24x7 NOC and 22 Secret-cleared staff demonstrate continuous operational support capability and personnel readiness that partially align with the 24/7/365 support and clearance-level expectations [profile: 24x7 NOC; profile: 22 cleared staff (Secret)]."
+  ],
+  "reasons_against": [
+   "The firm has no Secret Facility Clearance (FCL) issued by the DCSA Facility Clearance Branch — individual staff clearances do not satisfy this threshold eligibility requirement [bb76a0d2-896e1443-p1-856025bd].",
+   "Eight of fourteen requirements are gaps, including the core technical disciplines — WSDL/SOA proficiency, publish/subscribe enterprise messaging, DevSecOps methodology, PDR/CDR engineering lifecycle, and classified DevSecOps environments — none of which appear anywhere in the firm's profile or past performance [bb76a0d2-896e1443-p1-199bb228; bb76a0d2-896e1443-p1-c1f1cff7; bb76a0d2-896e1443-p1-4e002a30; bb76a0d2-896e1443-p1-fe67fa9b; bb76a0d2-896e1443-p1-729531d2].",
+   "The firm holds no prime contract vehicles (ENCORE III, SETI, OASIS, ALLIANT II, VETS II, STARS III, etc.) and has no enterprise messaging or systems engineering past performance, leaving the capability statement unable to meet the two past-performance matches required by owner rule [bb76a0d2-896e1443-p1-5b1b2482; profile: owner rule ss-pp]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-09-30",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-10-02T16:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": null,
+   "source_quotes": []
+  },
+  "fit_score": 0.3929,
+  "matrix_summary": "5 of 14 requirements met, 1 partial, 8 gap, 0 unknown",
+  "evidence_link": "https://sam.gov/opp/bb76a0d296574d508a645180aeaa8bc0/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "bb76a0d2-896e1443-p1-856025bd",
+   "quote": "Contractors must have a final Secret Facility Clearance from the Defense Counterintelligence and Security Agency Facility Clearance Branch at the time of proposal submission.",
+   "source_file": "896e14432e554641899b590da568d92c.docx",
+   "page": 1,
+   "firm_answer": "The profile lists 22 cleared staff at the Secret level but does not mention a Secret Facility Clearance (FCL) issued by the DCSA Facility Clearance Branch. Individual clearances are not equivalent to an FCL.",
+   "status": "gap",
+   "evidence": "Profile states '22 cleared staff (Secret)' — no FCL is listed anywhere in the profile."
+  },
+  {
+   "requirement_id": "bb76a0d2-896e1443-p1-fbc272fd",
+   "quote": "The North American Industry Classification System Code (NAICS) for this requirement is 541512 with the corresponding size standard of $34,000,000.00",
+   "source_file": "896e14432e554641899b590da568d92c.docx",
+   "page": 1,
+   "firm_answer": "Sooner Systems LLC is registered under NAICS 541512 and is an SDVOSB small business, well under the $34M size standard based on disclosed contract values.",
+   "status": "meets",
+   "evidence": "Firm profile lists NAICS 541512 and 541519; SDVOSB designation confirms small business status."
+  },
+  {
+   "requirement_id": "bb76a0d2-896e1443-p1-199bb228",
+   "quote": "Interested parties must demonstrate proficiency in supporting environments where producers and consumers invoke services via a Web Services Description Language (WSDL) file, allowing clients and servers to communicate natively without forcing end-users to drastically modify their software base or convert to web-based languages.",
+   "source_file": "896e14432e554641899b590da568d92c.docx",
+   "page": 1,
+   "firm_answer": "The firm profile does not mention WSDL, web services, SOA, or any service-oriented architecture experience. No past performance references this capability.",
+   "status": "gap",
+   "evidence": "No WSDL, SOA, or web services capability or past performance found in profile."
+  },
+  {
+   "requirement_id": "bb76a0d2-896e1443-p1-c1f1cff7",
+   "quote": "The sustained solution must seamlessly support authorized publishers transmitting unaddressed messages—such as special reports, alerts, and briefs—while enabling authorized consumers to create synchronous or asynchronous subscriptions to these topics.",
+   "source_file": "896e14432e554641899b590da568d92c.docx",
+   "page": 1,
+   "firm_answer": "The firm has no stated experience with publish/subscribe messaging architectures, enterprise messaging platforms, or topic-based subscription management. No relevant past performance exists.",
+   "status": "gap",
+   "evidence": "No publish/subscribe, enterprise messaging, or messaging middleware capability listed in profile or past performance."
+  },
+  {
+   "requirement_id": "bb76a0d2-896e1443-p1-4e002a30",
+   "quote": "Additionally, the scope of this contract shall require the use of a DevSecOps methodology.",
+   "source_file": "896e14432e554641899b590da568d92c.docx",
+   "page": 1,
+   "firm_answer": "The firm profile does not mention DevSecOps methodology, CI/CD pipelines, container orchestration, or any software development lifecycle tooling. Capabilities are limited to help desk, network administration, and cybersecurity staffing.",
+   "status": "gap",
+   "evidence": "No DevSecOps methodology, toolchain, or pipeline experience stated anywhere in the firm profile."
+  },
+  {
+   "requirement_id": "bb76a0d2-896e1443-p1-fe67fa9b",
+   "quote": "The DevSecOps processes shall incorporate the Design Activity and inform both Preliminary Design Reviews (PDR) and Critical Design Reviews (CDR).",
+   "source_file": "896e14432e554641899b590da568d92c.docx",
+   "page": 1,
+   "firm_answer": "The firm profile contains no reference to systems engineering design activities, PDRs, or CDRs. This is a systems/software engineering lifecycle requirement the firm cannot demonstrate.",
+   "status": "gap",
+   "evidence": "No PDR, CDR, design review, or systems engineering experience listed in profile or past performance."
+  },
+  {
+   "requirement_id": "bb76a0d2-896e1443-p1-729531d2",
+   "quote": "The respective unclassified and classified DevSecOps environments shall provide full end-to-end functionality.",
+   "source_file": "896e14432e554641899b590da568d92c.docx",
+   "page": 1,
+   "firm_answer": "The firm has no stated experience operating or supporting classified DevSecOps environments. Staff hold Secret clearances but no classified development environment capability is described.",
+   "status": "gap",
+   "evidence": "Profile mentions 22 cleared staff (Secret) but no classified DevSecOps environment or development capability is listed."
+  },
+  {
+   "requirement_id": "bb76a0d2-896e1443-p1-8dd17569",
+   "quote": "The contractor shall achieve interoperability certifications and information assurance accreditations, while providing the support required to sustain the fielded solution.",
+   "source_file": "896e14432e554641899b590da568d92c.docx",
+   "page": 1,
+   "firm_answer": "The firm performs RMF/ATO documentation and vulnerability management, which partially supports IA accreditation work. However, no interoperability certification experience is listed, and sustaining a fielded enterprise messaging solution is outside the firm's stated scope.",
+   "status": "partial",
+   "evidence": "RMF/ATO documentation and ACAS/Nessus vulnerability management listed in capabilities; Network administration and cybersecurity support past performance (FAA)."
+  },
+  {
+   "requirement_id": "bb76a0d2-896e1443-p1-2cf8c73d",
+   "quote": "Finally, all activities shall comply with Risk Management Framework (RMF), cybersecurity requirements and industry security best practices.",
+   "source_file": "896e14432e554641899b590da568d92c.docx",
+   "page": 1,
+   "firm_answer": "Sooner Systems LLC explicitly lists RMF/ATO documentation, vulnerability management (ACAS/Nessus), CMMC Level 2 self-assessed, and Security+ certifications. This compliance requirement is met in principle.",
+   "status": "meets",
+   "evidence": "Capabilities: 'RMF/ATO documentation, vulnerability management (ACAS/Nessus)'; Past performance: 'Network administration and cybersecurity support' (FAA, keywords: RMF, ATO, ACAS, STIG)."
+  },
+  {
+   "requirement_id": "bb76a0d2-896e1443-p1-bec56203",
+   "quote": "Capable sources must also possess the technical ability to manage diverse, hierarchically organized messaging topics and channels that govern EM data flow.",
+   "source_file": "896e14432e554641899b590da568d92c.docx",
+   "page": 1,
+   "firm_answer": "The firm has no stated experience with enterprise messaging topic/channel management, message brokers, or hierarchical data flow governance. This is a core technical requirement the profile does not address.",
+   "status": "gap",
+   "evidence": "No enterprise messaging, topic management, or EM data flow capability or past performance found in profile."
+  },
+  {
+   "requirement_id": "bb76a0d2-896e1443-p1-5b1b2482",
+   "quote": "Prime contract vehicles; to include ENCORE III, SETI, NIH CIO-SP4, NASA SEWP V, GSA: OASIS, ALLIANT II, VETS II, STARS III, MAS (including applicable SIN(s), groups or pools)",
+   "source_file": "896e14432e554641899b590da568d92c.docx",
+   "page": 1,
+   "firm_answer": "The firm profile lists no prime contract vehicles. None of the listed vehicles (ENCORE III, SETI, NIH CIO-SP4, NASA SEWP V, GSA OASIS, ALLIANT II, VETS II, STARS III, MAS) are mentioned.",
+   "status": "gap",
+   "evidence": "No prime contract vehicles listed anywhere in the firm profile."
+  },
+  {
+   "requirement_id": "bb76a0d2-896e1443-p1-29183446",
+   "quote": "Proprietary information and trade secrets, if any, shall be clearly marked on all materials.",
+   "source_file": "896e14432e554641899b590da568d92c.docx",
+   "page": 1,
+   "firm_answer": "This is an administrative submission requirement. The firm can comply by marking any proprietary content in its response accordingly.",
+   "status": "meets",
+   "evidence": "Administrative compliance requirement; no specialized capability needed."
+  },
+  {
+   "requirement_id": "bb76a0d2-896e1443-p1-b78746e5",
+   "quote": "The Government shall not be held liable for any damages incurred if proprietary information is not properly identified.",
+   "source_file": "896e14432e554641899b590da568d92c.docx",
+   "page": 1,
+   "firm_answer": "This is a government liability disclaimer. The firm must note and comply; no special capability is required.",
+   "status": "meets",
+   "evidence": "Government disclaimer; administrative awareness requirement only."
+  },
+  {
+   "requirement_id": "bb76a0d2-896e1443-p1-f11be463",
+   "quote": "IT DOES NOT CONSTITUTE A SOLICITATION AND SHALL NOT BE CONSTRUED AS A COMMITMENT BY THE GOVERNMENT.",
+   "source_file": "896e14432e554641899b590da568d92c.docx",
+   "page": 1,
+   "firm_answer": "This is a standard Sources Sought disclaimer. No firm capability is required; the firm should note this is a market research notice only.",
+   "status": "meets",
+   "evidence": "Standard government Sources Sought disclaimer; no capability assessment applicable."
+  }
+ ],
+ "matrix_dropped": 2,
+ "matrix_dropped_rows": [
+  {
+   "requirement_id": "bb76a0d2-896e1443-p1-3b6dd9ec",
+   "quote": "The Government shall provide hosting for the fielded solution at the agency's direction.",
+   "source_file": "896e14432e554641899b590da568d92c.docx",
+   "page": 1,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "bb76a0d2-896e1443-p1-f3baf2bb",
+   "quote": "Responses must demonstrate the company's ability to perform in accordance with FAR clause 52.219-14, Limitations on Subcontracting.",
+   "source_file": "896e14432e554641899b590da568d92c.docx",
+   "page": 1,
+   "reason": "not_verbatim"
+  }
+ ],
+ "fit_score_code": 0.3929,
+ "drafts": {
+  "capability_statement": "To the Contracting Officer, Defense Information Systems Agency:\n\nSooner Systems LLC (SDVOSB, NAICS 541512) respectfully submits this capability statement in response to the Enterprise Messaging Modernization and Engineering Support Sources Sought notice (bb76a0d296574d508a645180aeaa8bc0).\n\nSooner Systems is a Service-Disabled Veteran-Owned Small Business registered under NAICS 541512, well within the $34M size standard. Our team of 22 Secret-cleared personnel supports continuous, mission-critical IT operations through a 24x7 Network Operations Center, directly aligned with DISA's requirement for 24/7/365 resilient infrastructure support.\n\nOur cybersecurity and compliance capabilities include Risk Management Framework (RMF) and Authority to Operate (ATO) documentation, vulnerability management using ACAS and Nessus, Security+ certified staff, and CMMC Level 2 self-assessment — supporting the solicitation's RMF and cybersecurity compliance requirements. We have delivered network administration and cybersecurity support for federal customers including the FAA, encompassing RMF, ATO, ACAS, and STIG activities.\n\nWe also bring Microsoft 365 migration and systems administration experience, demonstrating familiarity with enterprise IT modernization efforts in federal environments.\n\nSooner Systems acknowledges capability gaps in WSDL-based service environments, publish/subscribe enterprise messaging platforms, DevSecOps toolchains, and classified development environments, and is actively evaluating teaming arrangements to address these areas for any subsequent solicitation.\n\nWe welcome the opportunity to discuss our capabilities further. Point of contact: [Owner to insert name, phone, and email before submission.]",
+  "questions_for_co": [
+   "Facility Clearance [bb76a0d2-896e1443-p1-856025bd]: The notice states that contractors must have a final Secret Facility Clearance (FCL) from the DCSA Facility Clearance Branch at the time of proposal submission — will this FCL requirement apply equally at the Sources Sought / RFI response stage, or only at the time of a formal proposal submission under any subsequent solicitation?",
+   "WSDL and SOA Scope [bb76a0d2-896e1443-p1-199bb228]: Can DISA describe the extent to which WSDL-based service proficiency is required on day one of contract performance versus a capability that could be developed or transferred during a transition period, and whether teaming with a subcontractor holding this expertise would satisfy the requirement?",
+   "Publish/Subscribe Messaging Platforms [bb76a0d2-896e1443-p1-c1f1cff7]: Which enterprise messaging platforms or middleware (e.g., IBM MQ, Apache Kafka, XMPP, or a DISA-proprietary solution) currently underpin the EM capability, and will the contractor be expected to operate an existing platform, migrate to a new one, or both?",
+   "DevSecOps Environment Access [bb76a0d2-896e1443-p1-4e002a30; bb76a0d2-896e1443-p1-729531d2]: Will DISA provide Government-furnished DevSecOps toolchains and classified environment infrastructure, or is the contractor expected to establish and accredit both unclassified and classified DevSecOps pipelines independently from contract award?",
+   "PDR/CDR Applicability [bb76a0d2-896e1443-p1-fe67fa9b]: Are Preliminary Design Reviews and Critical Design Reviews anticipated for the full modernization effort, for specific task orders, or only for discrete engineering change proposals — and does DISA anticipate issuing a Performance Work Statement or a Statement of Work/Objectives for the follow-on acquisition?",
+   "Contract Vehicle Requirement [bb76a0d2-896e1443-p1-5b1b2482]: Is possession of one of the listed prime contract vehicles (ENCORE III, SETI, OASIS, ALLIANT II, VETS II, STARS III, etc.) expected to be a mandatory eligibility requirement in the subsequent solicitation, or is the list provided solely for market research purposes to understand available ordering channels?"
+  ],
+  "calendar_entries": []
+ },
+ "reader": {
+  "notice_id": "bb76a0d296574d508a645180aeaa8bc0",
+  "key_requirement_ids": [
+   "bb76a0d2-896e1443-p1-856025bd",
+   "bb76a0d2-896e1443-p1-fbc272fd",
+   "bb76a0d2-896e1443-p1-199bb228",
+   "bb76a0d2-896e1443-p1-c1f1cff7",
+   "bb76a0d2-896e1443-p1-4e002a30",
+   "bb76a0d2-896e1443-p1-8dd17569",
+   "bb76a0d2-896e1443-p1-2cf8c73d",
+   "bb76a0d2-896e1443-p1-bec56203",
+   "bb76a0d2-896e1443-p1-fe67fa9b",
+   "bb76a0d2-896e1443-p1-f3baf2bb",
+   "bb76a0d2-896e1443-p1-729531d2",
+   "bb76a0d2-896e1443-p1-5b1b2482"
+  ],
+  "scope_summary": "DISA is seeking contractor support for the comprehensive lifecycle requirements of a modernized Enterprise Messaging (EM) capability that drives DoD information-sharing initiatives and Joint Information Environment goals. The effort requires continuous 24/7/365 support to ensure a resilient, scalable, and highly secure infrastructure, using a DevSecOps methodology across unclassified and classified environments. Contractors must support WSDL-based service environments, manage hierarchical messaging topics and channels, achieve interoperability certifications and information assurance accreditations, and comply with Risk Management Framework cybersecurity requirements.",
+  "evaluation_basis": "not stated",
+  "incumbent_or_history": "none found",
+  "quotes": [
+   "DISA is seeking information, industry insights, and technical capability statements from potential, qualified vendors to support the comprehensive lifecycle requirements of a modernized EM capability.",
+   "Enterprise Messaging is a critical capability driving the Department of Defense (DoD) information-sharing initiatives and Joint Information Environment (JIE) goals.",
+   "the anticipated effort will require continuous 24/7/365 contractor support to ensure a resilient, scalable, and highly secure infrastructure aligned with DISA's operational standards and joint-warfighter requirements.",
+   "To be considered qualified and capable, Contractors must have a final Secret Facility Clearance from the Defense Counterintelligence and Security Agency Facility Clearance Branch at the time of proposal submission.",
+   "Interested parties must demonstrate proficiency in supporting environments where producers and consumers invoke services via a Web Services Description Language (WSDL) file, allowing clients and servers to communicate natively without forcing end-users to drastically modify their software base or convert to web-based languages.",
+   "The sustained solution must seamlessly support authorized publishers transmitting unaddressed messages—such as special reports, alerts, and briefs—while enabling authorized consumers to create synchronous or asynchronous subscriptions to these topics.",
+   "Additionally, the scope of this contract shall require the use of a DevSecOps methodology.",
+   "The respective unclassified and classified DevSecOps environments shall provide full end-to-end functionality.",
+   "The contractor shall achieve interoperability certifications and information assurance accreditations, while providing the support required to sustain the fielded solution.",
+   "Finally, all activities shall comply with Risk Management Framework (RMF), cybersecurity requirements and industry security best practices.",
+   "To make a determination for a small business set-aside, two or more qualified and capable small businesses must submit responses that demonstrate their qualifications."
+  ]
+ },
+ "fit": {
+  "notice_id": "bb76a0d296574d508a645180aeaa8bc0",
+  "fit_score": 0.22,
+  "matched_past_performance": [
+   "Network administration and cybersecurity support",
+   "Systems administration and Microsoft 365 migration"
+  ],
+  "strengths": [
+   "NAICS 541512 matches solicitation NAICS exactly",
+   "22 cleared staff at Secret level supports facility clearance requirement",
+   "RMF/ATO documentation and ACAS/Nessus vulnerability management aligns with RMF compliance requirement",
+   "SDVOSB set-aside eligibility (solicitation is currently unrestricted but status supports future set-aside response)",
+   "24x7 NOC demonstrates continuous operational support capability",
+   "CMMC Level 2 self-assessed supports cybersecurity posture",
+   "ITIL 4 and Security+ certifications across the bench"
+  ],
+  "gaps": [
+   "No Secret Facility Clearance (FCL) listed — firm has cleared staff but no facility clearance from DCSA FCL Branch",
+   "No demonstrated proficiency in WSDL-based web services or service-oriented architecture",
+   "No experience with publish/subscribe enterprise messaging (unaddressed messages, synchronous/asynchronous subscriptions)",
+   "No DevSecOps methodology, toolchain, or pipeline experience stated in profile",
+   "No Preliminary Design Review (PDR) or Critical Design Review (CDR) engineering lifecycle experience",
+   "No interoperability certifications or IA accreditation experience beyond RMF/ATO documentation",
+   "No experience managing hierarchical messaging topics/channels or enterprise messaging platforms (e.g., MQ, Kafka, XMPP)",
+   "No classified DevSecOps environment experience mentioned",
+   "No prime contract vehicles listed (ENCORE III, SETI, NIH CIO-SP4, NASA SEWP V, GSA OASIS, ALLIANT II, VETS II, STARS III, MAS)",
+   "Owner rule [ss-pp] requires two past-performance matches — only marginal/partial matches exist; no true EM/messaging past performance",
+   "Scope is enterprise messaging modernization engineering — firm's profile is help desk and cybersecurity staffing, not software/systems engineering"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "bb76a0d2-896e1443-p1-856025bd",
+    "quote": "Contractors must have a final Secret Facility Clearance from the Defense Counterintelligence and Security Agency Facility Clearance Branch at the time of proposal submission.",
+    "source_file": "896e14432e554641899b590da568d92c.docx",
+    "page": 1,
+    "firm_answer": "The profile lists 22 cleared staff at the Secret level but does not mention a Secret Facility Clearance (FCL) issued by the DCSA Facility Clearance Branch. Individual clearances are not equivalent to an FCL.",
+    "status": "gap",
+    "evidence": "Profile states '22 cleared staff (Secret)' — no FCL is listed anywhere in the profile."
+   },
+   {
+    "requirement_id": "bb76a0d2-896e1443-p1-fbc272fd",
+    "quote": "The North American Industry Classification System Code (NAICS) for this requirement is 541512 with the corresponding size standard of $34,000,000.00",
+    "source_file": "896e14432e554641899b590da568d92c.docx",
+    "page": 1,
+    "firm_answer": "Sooner Systems LLC is registered under NAICS 541512 and is an SDVOSB small business, well under the $34M size standard based on disclosed contract values.",
+    "status": "meets",
+    "evidence": "Firm profile lists NAICS 541512 and 541519; SDVOSB designation confirms small business status."
+   },
+   {
+    "requirement_id": "bb76a0d2-896e1443-p1-199bb228",
+    "quote": "Interested parties must demonstrate proficiency in supporting environments where producers and consumers invoke services via a Web Services Description Language (WSDL) file, allowing clients and servers to communicate natively without forcing end-users to drastically modify their software base or convert to web-based languages.",
+    "source_file": "896e14432e554641899b590da568d92c.docx",
+    "page": 1,
+    "firm_answer": "The firm profile does not mention WSDL, web services, SOA, or any service-oriented architecture experience. No past performance references this capability.",
+    "status": "gap",
+    "evidence": "No WSDL, SOA, or web services capability or past performance found in profile."
+   },
+   {
+    "requirement_id": "bb76a0d2-896e1443-p1-c1f1cff7",
+    "quote": "The sustained solution must seamlessly support authorized publishers transmitting unaddressed messages—such as special reports, alerts, and briefs—while enabling authorized consumers to create synchronous or asynchronous subscriptions to these topics.",
+    "source_file": "896e14432e554641899b590da568d92c.docx",
+    "page": 1,
+    "firm_answer": "The firm has no stated experience with publish/subscribe messaging architectures, enterprise messaging platforms, or topic-based subscription management. No relevant past performance exists.",
+    "status": "gap",
+    "evidence": "No publish/subscribe, enterprise messaging, or messaging middleware capability listed in profile or past performance."
+   },
+   {
+    "requirement_id": "bb76a0d2-896e1443-p1-4e002a30",
+    "quote": "Additionally, the scope of this contract shall require the use of a DevSecOps methodology.",
+    "source_file": "896e14432e554641899b590da568d92c.docx",
+    "page": 1,
+    "firm_answer": "The firm profile does not mention DevSecOps methodology, CI/CD pipelines, container orchestration, or any software development lifecycle tooling. Capabilities are limited to help desk, network administration, and cybersecurity staffing.",
+    "status": "gap",
+    "evidence": "No DevSecOps methodology, toolchain, or pipeline experience stated anywhere in the firm profile."
+   },
+   {
+    "requirement_id": "bb76a0d2-896e1443-p1-fe67fa9b",
+    "quote": "The DevSecOps processes shall incorporate the Design Activity and inform both Preliminary Design Reviews (PDR) and Critical Design Reviews (CDR).",
+    "source_file": "896e14432e554641899b590da568d92c.docx",
+    "page": 1,
+    "firm_answer": "The firm profile contains no reference to systems engineering design activities, PDRs, or CDRs. This is a systems/software engineering lifecycle requirement the firm cannot demonstrate.",
+    "status": "gap",
+    "evidence": "No PDR, CDR, design review, or systems engineering experience listed in profile or past performance."
+   },
+   {
+    "requirement_id": "bb76a0d2-896e1443-p1-729531d2",
+    "quote": "The respective unclassified and classified DevSecOps environments shall provide full end-to-end functionality.",
+    "source_file": "896e14432e554641899b590da568d92c.docx",
+    "page": 1,
+    "firm_answer": "The firm has no stated experience operating or supporting classified DevSecOps environments. Staff hold Secret clearances but no classified development environment capability is described.",
+    "status": "gap",
+    "evidence": "Profile mentions 22 cleared staff (Secret) but no classified DevSecOps environment or development capability is listed."
+   },
+   {
+    "requirement_id": "bb76a0d2-896e1443-p1-8dd17569",
+    "quote": "The contractor shall achieve interoperability certifications and information assurance accreditations, while providing the support required to sustain the fielded solution.",
+    "source_file": "896e14432e554641899b590da568d92c.docx",
+    "page": 1,
+    "firm_answer": "The firm performs RMF/ATO documentation and vulnerability management, which partially supports IA accreditation work. However, no interoperability certification experience is listed, and sustaining a fielded enterprise messaging solution is outside the firm's stated scope.",
+    "status": "partial",
+    "evidence": "RMF/ATO documentation and ACAS/Nessus vulnerability management listed in capabilities; Network administration and cybersecurity support past performance (FAA)."
+   },
+   {
+    "requirement_id": "bb76a0d2-896e1443-p1-2cf8c73d",
+    "quote": "Finally, all activities shall comply with Risk Management Framework (RMF), cybersecurity requirements and industry security best practices.",
+    "source_file": "896e14432e554641899b590da568d92c.docx",
+    "page": 1,
+    "firm_answer": "Sooner Systems LLC explicitly lists RMF/ATO documentation, vulnerability management (ACAS/Nessus), CMMC Level 2 self-assessed, and Security+ certifications. This compliance requirement is met in principle.",
+    "status": "meets",
+    "evidence": "Capabilities: 'RMF/ATO documentation, vulnerability management (ACAS/Nessus)'; Past performance: 'Network administration and cybersecurity support' (FAA, keywords: RMF, ATO, ACAS, STIG)."
+   },
+   {
+    "requirement_id": "bb76a0d2-896e1443-p1-bec56203",
+    "quote": "Capable sources must also possess the technical ability to manage diverse, hierarchically organized messaging topics and channels that govern EM data flow.",
+    "source_file": "896e14432e554641899b590da568d92c.docx",
+    "page": 1,
+    "firm_answer": "The firm has no stated experience with enterprise messaging topic/channel management, message brokers, or hierarchical data flow governance. This is a core technical requirement the profile does not address.",
+    "status": "gap",
+    "evidence": "No enterprise messaging, topic management, or EM data flow capability or past performance found in profile."
+   },
+   {
+    "requirement_id": "bb76a0d2-896e1443-p1-5b1b2482",
+    "quote": "Prime contract vehicles; to include ENCORE III, SETI, NIH CIO-SP4, NASA SEWP V, GSA: OASIS, ALLIANT II, VETS II, STARS III, MAS (including applicable SIN(s), groups or pools)",
+    "source_file": "896e14432e554641899b590da568d92c.docx",
+    "page": 1,
+    "firm_answer": "The firm profile lists no prime contract vehicles. None of the listed vehicles (ENCORE III, SETI, NIH CIO-SP4, NASA SEWP V, GSA OASIS, ALLIANT II, VETS II, STARS III, MAS) are mentioned.",
+    "status": "gap",
+    "evidence": "No prime contract vehicles listed anywhere in the firm profile."
+   },
+   {
+    "requirement_id": "bb76a0d2-896e1443-p1-29183446",
+    "quote": "Proprietary information and trade secrets, if any, shall be clearly marked on all materials.",
+    "source_file": "896e14432e554641899b590da568d92c.docx",
+    "page": 1,
+    "firm_answer": "This is an administrative submission requirement. The firm can comply by marking any proprietary content in its response accordingly.",
+    "status": "meets",
+    "evidence": "Administrative compliance requirement; no specialized capability needed."
+   },
+   {
+    "requirement_id": "bb76a0d2-896e1443-p1-b78746e5",
+    "quote": "The Government shall not be held liable for any damages incurred if proprietary information is not properly identified.",
+    "source_file": "896e14432e554641899b590da568d92c.docx",
+    "page": 1,
+    "firm_answer": "This is a government liability disclaimer. The firm must note and comply; no special capability is required.",
+    "status": "meets",
+    "evidence": "Government disclaimer; administrative awareness requirement only."
+   },
+   {
+    "requirement_id": "bb76a0d2-896e1443-p1-f11be463",
+    "quote": "IT DOES NOT CONSTITUTE A SOLICITATION AND SHALL NOT BE CONSTRUED AS A COMMITMENT BY THE GOVERNMENT.",
+    "source_file": "896e14432e554641899b590da568d92c.docx",
+    "page": 1,
+    "firm_answer": "This is a standard Sources Sought disclaimer. No firm capability is required; the firm should note this is a market research notice only.",
+    "status": "meets",
+    "evidence": "Standard government Sources Sought disclaimer; no capability assessment applicable."
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "bb76a0d296574d508a645180aeaa8bc0",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-10-02T16:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": null,
+   "source_quotes": []
+  },
+  "days_to_close": 18.362680395567132,
+  "set_aside_note": "The notice has no set-aside (unrestricted). Sooner Systems LLC can claim SDVOSB and SBA set-asides, and unrestricted opportunities are open to all firms, so the firm is eligible to respond.",
+  "amendment_note": "no amendment",
+  "calendar_entries": []
+ },
+ "model_calls": 5,
+ "tokens_in": 32191,
+ "tokens_out": 9511,
+ "seconds": 70.0,
+ "produced_at": "2026-09-14T06:18:54.414943-05:00"
+}

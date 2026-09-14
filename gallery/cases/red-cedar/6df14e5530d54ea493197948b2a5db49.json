@@ -1,0 +1,831 @@
+{
+ "notice_id": "6df14e5530d54ea493197948b2a5db49",
+ "firm_slug": "red-cedar",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:24:50-05:00",
+ "evidence_basis": null,
+ "days_to_close": -4.557821878692129,
+ "closed": true,
+ "response_kind": "proposal",
+ "card": {
+  "notice_id": "6df14e5530d54ea493197948b2a5db49",
+  "firm_slug": "red-cedar",
+  "situation": "Combined Synopsis/Solicitation from NPS/Interior for hazardous tree, palm, mangrove, and woody vegetation pruning/trimming at Biscayne National Park – Convoy Point, FL; FFP, 30-day performance, Total Small Business set-aside under NAICS 561730.\nReached the owner because Red Cedar holds NAICS 561730 and qualifies as a small business, but the matrix flagged 18 gaps and two owner-rule violations (rc-distance, rc-base).",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "Red Cedar holds NAICS 561730 and qualifies under the Total Small Business set-aside, satisfying the threshold eligibility requirement [6df14e55-ebf10ea5-p8-d5a2c82b].",
+   "Firm has demonstrated FFP federal contract experience (GSA Region 7 $1.24M, Tinker AFB $880K) and can meet administrative pricing and COR-notification obligations [6df14e55-ebf10ea5-p4-b6876145].",
+   "Active federal past performance in grounds maintenance (Tinker AFB) and controlled-access federal facilities shows familiarity with access controls, QC protocols, and federal invoicing [6df14e55-ba3d6b51-p6-c9b3ee4b]."
+  ],
+  "reasons_against": [
+   "Firm has no ISA Certified Arborist on staff — a hard solicitation staffing requirement that must be satisfied before work begins and is central to the technical evaluation [6df14e55-ba3d6b51-p7-911fc93c].",
+   "Firm has no Professional Mangrove Trimmer qualification or any Florida environmental compliance experience, violating a Florida statutory requirement (§§403.9321–403.9334) that cannot be waived [6df14e55-ba3d6b51-p7-2557bd00].",
+   "Owner rules rc-distance and rc-base are both violated: the work site is ~1,300 miles from Oklahoma City (exceeds 200-mile limit) and the 30-calendar-day performance period falls far below the required 12-month base [6df14e55-ebf10ea5-p5-a4965574]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-09-07",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-09-09T17:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": "30 calendar days after award",
+   "source_quotes": [
+    "Closing Response Date/Time: Quotes must be received no later than Friday, September 9, 2026, at 5:00 PM Eastern.",
+    "The period of performance shall be complete within thirty (30) calendar days after award, unless otherwise modified in writing by the Contracting Officer."
+   ]
+  },
+  "fit_score": 0.2759,
+  "matrix_summary": "5 of 35 requirements met, 6 partial, 18 gap, 6 unknown",
+  "evidence_link": "https://sam.gov/opp/6df14e5530d54ea493197948b2a5db49/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "6df14e55-ebf10ea5-p5-a4965574",
+   "quote": "The period of performance shall be complete within thirty (30) calendar days after award, unless otherwise modified in writing by the Contracting Officer.",
+   "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+   "page": 5,
+   "firm_answer": "30-calendar-day performance period confirmed. Firm can schedule and complete short-duration work, but this triggers the rc-base owner-rule disqualification.",
+   "status": "gap",
+   "evidence": "Owner rule [rc-base] prohibits bids under a 12-month base period."
+  },
+  {
+   "requirement_id": "6df14e55-ba3d6b51-p7-911fc93c",
+   "quote": "The Contractor shall provide current certification information for the assigned ISA Certified Arborist before work begins and shall promptly notify the COR of any proposed personnel substitution.",
+   "source_file": "ba3d6b51343c4d3ca17750705304f2e6.pdf",
+   "page": 7,
+   "firm_answer": "Firm profile lists no ISA Certified Arborist. This is a hard staffing requirement and cannot be met based on the profile.",
+   "status": "gap",
+   "evidence": "Firm capabilities list CIMS-GB, OSHA 30, and green cleaning — no arborist certification mentioned."
+  },
+  {
+   "requirement_id": "6df14e55-ebf10ea5-p5-6668f210",
+   "quote": "The Contractor shall provide required ISA Certified Arborist coverage, comply with applicable ANSI arboricultural and safety standards, protect visitors and park resources, comply with mangrove and environmental requirements, and remove all Contractor-generated debris from Government property each workday.",
+   "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+   "page": 5,
+   "firm_answer": "Firm has no ISA Certified Arborist, no documented ANSI A300 compliance, and no mangrove experience. Multiple elements of this compound requirement cannot be met.",
+   "status": "gap",
+   "evidence": "Firm profile is silent on arboricultural certifications, ANSI standards, and mangrove work."
+  },
+  {
+   "requirement_id": "6df14e55-ba3d6b51-p7-2557bd00",
+   "quote": "The Contractor shall ensure mangrove trimming is supervised or performed by personnel who meet applicable professional mangrove trimmer qualifications.",
+   "source_file": "ba3d6b51343c4d3ca17750705304f2e6.pdf",
+   "page": 7,
+   "firm_answer": "Firm profile lists no Professional Mangrove Trimmer qualification. Florida Statutes §§403.9321–403.9334 require this credential. Cannot be met based on profile.",
+   "status": "gap",
+   "evidence": "Firm profile is entirely silent on mangrove trimming qualifications or Florida environmental credentials."
+  },
+  {
+   "requirement_id": "6df14e55-8949ed58-p2-6052786f",
+   "quote": "The Contractor shall comply with all applicable Federal, State, and local requirements governing mangrove trimming and shall ensure that mangrove-related work is performed or supervised by individuals meeting the applicable Professional Mangrove Trimmer qualification and registration requirements.",
+   "source_file": "8949ed58ead247fc95a55e17d0be9805.pdf",
+   "page": 2,
+   "firm_answer": "Firm has no documented Florida mangrove trimmer qualification or registration. Cannot comply based on profile.",
+   "status": "gap",
+   "evidence": "Firm profile is silent on Florida environmental law compliance and mangrove trimmer registration."
+  },
+  {
+   "requirement_id": "6df14e55-ba3d6b51-p7-eebd21b5",
+   "quote": "Mangrove work shall comply with the Florida Mangrove Trimming and Preservation Act, sections 403.9321 through 403.9334, Florida Statutes, applicable Florida Department of Environmental Protection requirements, and applicable Miami-Dade County delegated requirements.",
+   "source_file": "ba3d6b51343c4d3ca17750705304f2e6.pdf",
+   "page": 7,
+   "firm_answer": "Firm has no documented experience with Florida Mangrove Trimming and Preservation Act, FDEP requirements, or Miami-Dade County requirements. Cannot be confirmed from profile.",
+   "status": "gap",
+   "evidence": "Firm profile describes Oklahoma and neighboring-state operations only; no Florida regulatory experience documented."
+  },
+  {
+   "requirement_id": "6df14e55-ebf10ea5-p4-5cd6d6a9",
+   "quote": "Independently, and not as an agent of the Government, the Contractor shall furnish all supervision, labor, equipment, tools, materials, transportation, and incidentals necessary to perform hazardous tree, palm, mangrove, and woody vegetation pruning/trimming at Biscayne National Park - Convoy Point within the nine mapped work areas identified in Attachment 1 - Statement of Work and Appendix A.",
+   "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+   "page": 4,
+   "firm_answer": "Firm profile describes grounds maintenance (mowing, trimming, irrigation) but not hazardous tree work, palm pruning, mangrove trimming, or arboricultural services. Core scope cannot be confirmed.",
+   "status": "gap",
+   "evidence": "Grounds maintenance capability at Tinker AFB covers mowing and trimming but not arboricultural tree/palm/mangrove work."
+  },
+  {
+   "requirement_id": "6df14e55-8949ed58-p4-4f7997e8",
+   "quote": "If the Contractor's ISA Certified Arborist determines that a tree is dead, structurally compromised, or presents an immediate safety concern that cannot reasonably be mitigated through the pruning activities authorized by the SOW, the Contractor shall: Stop work on the affected tree before performing work beyond the authorized pruning scope.",
+   "source_file": "8949ed58ead247fc95a55e17d0be9805.pdf",
+   "page": 4,
+   "firm_answer": "Firm has no ISA Certified Arborist to make these determinations. Requirement cannot be met based on profile.",
+   "status": "gap",
+   "evidence": "Firm profile lists no arborist or tree-risk assessment capability."
+  },
+  {
+   "requirement_id": "6df14e55-ba3d6b51-p7-2474744e",
+   "quote": "The arborist shall oversee pruning methods and cuts, confirm work is consistent with ANSI A300 and the SOW, and supervise mangrove trimming to the extent required by applicable law.",
+   "source_file": "ba3d6b51343c4d3ca17750705304f2e6.pdf",
+   "page": 7,
+   "firm_answer": "No ISA Certified Arborist and no ANSI A300 compliance documented in firm profile. Cannot be met.",
+   "status": "gap",
+   "evidence": "Firm profile is silent on ANSI A300 arboricultural standards and arborist oversight."
+  },
+  {
+   "requirement_id": "6df14e55-ebf10ea5-p8-d5a2c82b",
+   "quote": "Offerors must qualify as a small business under NAICS 561730 - Landscaping Services.",
+   "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+   "page": 8,
+   "firm_answer": "Firm lists NAICS 561730 in its profile and qualifies as a small business (WOSB/SBA). This requirement is met.",
+   "status": "meets",
+   "evidence": "Firm profile: naics 561720, 561730; set-asides: WOSB, EDWOSB, SBA."
+  },
+  {
+   "requirement_id": "6df14e55-ebf10ea5-p3-9cab2c8d",
+   "quote": "Your company must also be registered in the System for Award Management (SAM) and be considered a small business for the size standard associated with NAICS 561730.",
+   "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+   "page": 3,
+   "firm_answer": "Firm is SBA-eligible and presumably SAM-registered (e-Verify enrollment implies federal compliance posture), but SAM registration is not explicitly confirmed in the profile.",
+   "status": "partial",
+   "evidence": "Firm profile lists SBA set-aside eligibility and e-Verify; SAM registration not explicitly stated."
+  },
+  {
+   "requirement_id": "6df14e55-ebf10ea5-p3-1c7217bd",
+   "quote": "To be considered for award your company must obtain a Unique Entity Identifier (UEI).",
+   "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+   "page": 3,
+   "firm_answer": "UEI not mentioned in firm profile. Unknown whether obtained, though likely for a firm with federal past performance.",
+   "status": "unknown",
+   "evidence": "Firm profile is silent on UEI; federal past performance with GSA and DoD suggests likely registration."
+  },
+  {
+   "requirement_id": "6df14e55-ebf10ea5-p4-944daa79",
+   "quote": "The quoted Firm-Fixed-Price shall include all costs necessary to perform the complete requirement in accordance with the Statement of Work, including all nine mapped work areas, mobilization, travel, labor, supervision, equipment, insurance, safety controls, debris removal and disposal, and incidentals.",
+   "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+   "page": 4,
+   "firm_answer": "Firm can structure a FFP quote administratively, but mobilization from Oklahoma to Florida (~1,300 miles) and lack of arboricultural equipment would make pricing non-competitive and the scope unperformable.",
+   "status": "gap",
+   "evidence": "rc-distance owner rule violation; no arboricultural equipment in profile; no Florida presence."
+  },
+  {
+   "requirement_id": "6df14e55-ebf10ea5-p4-329342fb",
+   "quote": "Offerors shall provide one firm-fixed price for the complete requirement covering all nine (9) mapped work areas in Attachment 1 - Statement of Work.",
+   "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+   "page": 4,
+   "firm_answer": "Firm can submit a single FFP administratively, but cannot credibly price arboricultural tree/palm/mangrove work across nine areas without relevant capability or Florida presence.",
+   "status": "gap",
+   "evidence": "No arboricultural scope capability in firm profile."
+  },
+  {
+   "requirement_id": "6df14e55-ebf10ea5-p8-58af1cd6",
+   "quote": "The following factors shall be evaluated: Factor 1 - Technical Capability/Approach The Government will evaluate the offeror's understanding of the hazardous tree-work requirement and the feasibility of its approach to performing the Statement of Work.",
+   "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+   "page": 8,
+   "firm_answer": "Firm has no documented hazardous tree-work experience, no ISA Certified Arborist, and no arboricultural approach to offer. Technical capability evaluation would likely result in an unacceptable rating.",
+   "status": "gap",
+   "evidence": "Firm capabilities cover janitorial and grounds maintenance (mowing, trimming, irrigation) — not arboricultural hazardous tree work."
+  },
+  {
+   "requirement_id": "6df14e55-ebf10ea5-p9-0830e850",
+   "quote": "Offerors shall provide three (3) relevant references.",
+   "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+   "page": 9,
+   "firm_answer": "Firm has four past performance records, but all are janitorial or general grounds maintenance. None involve hazardous tree work, arboriculture, palm pruning, or mangrove trimming. References would not be considered relevant to this scope.",
+   "status": "gap",
+   "evidence": "Past performance: Custodial services OKC Federal Building; Grounds maintenance Tinker AFB; Janitorial state office complex; Housekeeping VA clinic — none are arboricultural."
+  },
+  {
+   "requirement_id": "6df14e55-ba3d6b51-p5-194cd245",
+   "quote": "Essential Contractor personnel, including the individual(s) serving as superintendent/foreman and ISA Certified Arborist, shall participate.",
+   "source_file": "ba3d6b51343c4d3ca17750705304f2e6.pdf",
+   "page": 5,
+   "firm_answer": "Firm profile lists 38 W-2 employees with OSHA 30 supervisors but no ISA Certified Arborist. Cannot meet this staffing requirement.",
+   "status": "gap",
+   "evidence": "Firm profile: OSHA 30 supervisors listed; ISA Certified Arborist absent from profile."
+  },
+  {
+   "requirement_id": "6df14e55-ba3d6b51-p2-780f936e",
+   "quote": "The work shall reduce hazardous conditions and excessive wind loading, improve tree and palm structure, provide required building/sign/light/dock clearances, and improve designated vistas without unnecessary damage to trees, mangroves, other vegetation, wildlife, park property, or visitor facilities.",
+   "source_file": "ba3d6b51343c4d3ca17750705304f2e6.pdf",
+   "page": 2,
+   "firm_answer": "Firm has no documented capability in hazard reduction pruning, wind-load management, structural tree/palm pruning, or mangrove work. Core technical scope is unmet.",
+   "status": "gap",
+   "evidence": "Firm capabilities: mowing, trimming, irrigation, snow removal — no arboricultural or hazard-tree work described."
+  },
+  {
+   "requirement_id": "6df14e55-8949ed58-p3-e5c220cd",
+   "quote": "Will the Contractor be permitted to stage heavy operational equipment (such as wood chippers, aerial lifts, and dump trailers) overnight in the designated staging area or Maintenance Yard (Area 2) for the duration of the 30-calendar-day performance period, or must all equipment be demobilized off-site at the end of each workday? Government Response Yes.",
+   "source_file": "8949ed58ead247fc95a55e17d0be9805.pdf",
+   "page": 3,
+   "firm_answer": "Firm profile does not list wood chippers, aerial lifts, or dump trailers. Arboricultural heavy equipment is not part of the firm's documented capability.",
+   "status": "gap",
+   "evidence": "Firm profile describes grounds maintenance equipment implicitly (mowing, trimming) but no arboricultural heavy equipment."
+  },
+  {
+   "requirement_id": "6df14e55-ba3d6b51-p5-02de7aa7",
+   "quote": "Pruning shall maintain the natural form of the vegetation and shall not include clearing, grubbing, or whole-plant removal.",
+   "source_file": "ba3d6b51343c4d3ca17750705304f2e6.pdf",
+   "page": 5,
+   "firm_answer": "Firm has no documented arboricultural pruning methodology. Cannot confirm compliance with natural-form pruning standards from profile.",
+   "status": "unknown",
+   "evidence": "Firm profile is silent on pruning methodology or ANSI A300 compliance."
+  },
+  {
+   "requirement_id": "6df14e55-ba3d6b51-p4-9aced434",
+   "quote": "Palms in Areas 1 through 9 shall have dead/dying or broken fronds and seed pods removed and shall be pruned to the specified 9-to-3 profile.",
+   "source_file": "ba3d6b51343c4d3ca17750705304f2e6.pdf",
+   "page": 4,
+   "firm_answer": "Firm has no documented palm pruning experience or knowledge of the 9-to-3 pruning profile standard. Cannot be confirmed from profile.",
+   "status": "gap",
+   "evidence": "Firm profile is silent on palm pruning; grounds maintenance at Tinker AFB (Oklahoma) would not involve palm trees."
+  },
+  {
+   "requirement_id": "6df14e55-ebf10ea5-p10-b4386331",
+   "quote": "The Contractor shall procure and maintain during the term of this contract and any extension thereof liability insurance in form satisfactory to the Contracting Officer by an insurance company which is acceptable to the Contracting Officer.",
+   "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+   "page": 10,
+   "firm_answer": "Firm profile does not mention liability insurance. As a federal contractor with prior GSA and DoD work, insurance is likely carried, but cannot be confirmed from the profile.",
+   "status": "unknown",
+   "evidence": "Firm profile is silent on liability insurance coverage levels."
+  },
+  {
+   "requirement_id": "6df14e55-ebf10ea5-p10-14fc7b33",
+   "quote": "The amounts of the insurance shall be not less than as follows: $100,000.00 each person $500,000.00 each occurrence $500,000.00 property damage",
+   "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+   "page": 10,
+   "firm_answer": "Specific insurance minimums ($100K/$500K/$500K) not confirmed in firm profile. Unknown whether current coverage meets these thresholds.",
+   "status": "unknown",
+   "evidence": "Firm profile is silent on insurance coverage amounts."
+  },
+  {
+   "requirement_id": "6df14e55-ebf10ea5-p3-73b461cc",
+   "quote": "Registration must be active in SAM at the time quotations are due, at the time of award, and throughout contract performance.",
+   "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+   "page": 3,
+   "firm_answer": "SAM registration not explicitly confirmed in profile, but firm's federal past performance with GSA Region 7 and Tinker AFB strongly implies active SAM registration.",
+   "status": "partial",
+   "evidence": "Federal past performance: Custodial services GSA Region 7; Grounds maintenance Tinker AFB (72 ABW)."
+  },
+  {
+   "requirement_id": "6df14e55-ebf10ea5-p4-b6876145",
+   "quote": "Pricing shall remain firm for the entire 30calendar-day performance period.",
+   "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+   "page": 4,
+   "firm_answer": "Firm has experience with firm-fixed-price federal contracts and can commit to fixed pricing for a 30-day period administratively.",
+   "status": "meets",
+   "evidence": "Past performance includes FFP federal contracts: GSA Region 7 ($1.24M), Tinker AFB ($880K)."
+  },
+  {
+   "requirement_id": "6df14e55-ba3d6b51-p3-d14597d2",
+   "quote": "Contractor personnel shall wear appropriate work clothing and visible company identification.",
+   "source_file": "ba3d6b51343c4d3ca17750705304f2e6.pdf",
+   "page": 3,
+   "firm_answer": "Firm has federal facility experience with visitor-facing environments and QC inspection protocols. Likely compliant with personnel identification requirements.",
+   "status": "meets",
+   "evidence": "Firm capabilities: QC inspections logged in CMMS; federal building custodial experience with GSA and VA."
+  },
+  {
+   "requirement_id": "6df14e55-ba3d6b51-p6-c9b3ee4b",
+   "quote": "The Contractor shall comply with access controls applicable to restricted or staff-only areas and shall ensure personnel remain within authorized work and staging areas.",
+   "source_file": "ba3d6b51343c4d3ca17750705304f2e6.pdf",
+   "page": 6,
+   "firm_answer": "Firm has experience operating in controlled federal environments (GSA federal building, Tinker AFB, VA clinic) and is familiar with access control requirements.",
+   "status": "meets",
+   "evidence": "Past performance: Grounds maintenance Tinker AFB (military installation access controls); Custodial services OKC Federal Building; Housekeeping VA clinic."
+  },
+  {
+   "requirement_id": "6df14e55-ba3d6b51-p3-66f4a336",
+   "quote": "Disposal shall be off site and in accordance with applicable laws and regulations.",
+   "source_file": "ba3d6b51343c4d3ca17750705304f2e6.pdf",
+   "page": 3,
+   "firm_answer": "Firm has experience with debris and waste disposal in federal contracts (trash, recycling at federal building; grounds debris at Tinker AFB), but no documented experience with arboricultural debris disposal in Florida.",
+   "status": "partial",
+   "evidence": "Past performance: Grounds maintenance Tinker AFB (keywords: grounds, landscaping); Custodial OKC Federal Building (keywords: trash, recycling)."
+  },
+  {
+   "requirement_id": "6df14e55-ba3d6b51-p3-aa3a2a5b",
+   "quote": "If the Contractor is unable to work due to site-specific weather conditions, the Contractor shall notify the COR no later than 7:00 a.m. that day.",
+   "source_file": "ba3d6b51343c4d3ca17750705304f2e6.pdf",
+   "page": 3,
+   "firm_answer": "Firm has experience with weather-related work stoppages (snow and ice removal contracts) and federal COR notification protocols. Administrative compliance is likely.",
+   "status": "meets",
+   "evidence": "Firm capabilities: snow and ice removal for federal/state facilities; federal COR coordination experience."
+  },
+  {
+   "requirement_id": "6df14e55-ba3d6b51-p7-9b674971",
+   "quote": "The Contractor shall correct nonconforming or incomplete work at no additional cost to the Government within the period of performance or other time authorized by the Contracting Officer.",
+   "source_file": "ba3d6b51343c4d3ca17750705304f2e6.pdf",
+   "page": 7,
+   "firm_answer": "Firm has QC inspection protocols (CMMS-logged) and federal contract experience. Administrative compliance with rework provisions is likely, but arboricultural rework capability is absent.",
+   "status": "partial",
+   "evidence": "Firm capabilities: QC inspections logged in CMMS; federal past performance with GSA and VA."
+  },
+  {
+   "requirement_id": "6df14e55-ebf10ea5-p9-5dfcd1bf",
+   "quote": "The Contractor must use the IPP website to register access and use IPP for submitting requests for payment.",
+   "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+   "page": 9,
+   "firm_answer": "Firm has multiple federal contracts (GSA, DoD, VA) and is likely familiar with IPP invoicing, but IPP use is not explicitly confirmed in the profile.",
+   "status": "unknown",
+   "evidence": "Federal past performance with GSA Region 7, Tinker AFB, and VA Oklahoma City implies familiarity with federal invoicing systems."
+  },
+  {
+   "requirement_id": "6df14e55-8949ed58-p3-c1b80964",
+   "quote": "Equipment shall be maintained in a condition that prevents fuel, hydraulic fluid, oil, or other contaminants from being released onto Government property.",
+   "source_file": "8949ed58ead247fc95a55e17d0be9805.pdf",
+   "page": 3,
+   "firm_answer": "Firm has a green cleaning program and federal facility experience, suggesting environmental awareness, but no arboricultural equipment maintenance protocols are documented.",
+   "status": "partial",
+   "evidence": "Firm capabilities: green cleaning program; federal facility operations at GSA and VA."
+  },
+  {
+   "requirement_id": "6df14e55-8949ed58-p3-553e8b15",
+   "quote": "No mangrove trimming shall begin until the COR confirms that the applicable environmental requirements for the affected work area have been satisfied.",
+   "source_file": "8949ed58ead247fc95a55e17d0be9805.pdf",
+   "page": 3,
+   "firm_answer": "Firm has no mangrove trimming experience and no documented familiarity with Florida environmental pre-work confirmation requirements. Cannot be confirmed from profile.",
+   "status": "gap",
+   "evidence": "Firm profile is entirely silent on mangrove work and Florida environmental compliance protocols."
+  },
+  {
+   "requirement_id": "6df14e55-ba3d6b51-p3-772201c7",
+   "quote": "Tropical storms and hurricanes: When directed by NPS, the Contractor shall suspend operations and secure or remove equipment, debris, materials, and other items that could become hazards.",
+   "source_file": "ba3d6b51343c4d3ca17750705304f2e6.pdf",
+   "page": 3,
+   "firm_answer": "Firm has no documented experience operating in a tropical storm/hurricane environment. Oklahoma-based operations involve snow/ice but not hurricane protocols.",
+   "status": "unknown",
+   "evidence": "Firm profile: snow and ice removal experience; no hurricane or tropical storm protocols documented."
+  },
+  {
+   "requirement_id": "6df14e55-ebf10ea5-p7-f2ba431c",
+   "quote": "All interested parties shall be registered in the System for Award Management or SAM at time an offer or quotation is submitted.",
+   "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+   "page": 7,
+   "firm_answer": "SAM registration not explicitly stated in profile but strongly implied by active federal contracts with GSA Region 7, Tinker AFB, and VA.",
+   "status": "partial",
+   "evidence": "Federal past performance: Custodial services GSA Region 7 (2022-2025); Grounds maintenance Tinker AFB (2021-2024); Housekeeping VA Oklahoma City (2023-2025)."
+  }
+ ],
+ "matrix_dropped": 2,
+ "matrix_dropped_rows": [
+  {
+   "requirement_id": "rc-distance",
+   "quote": "No bids over 200 miles from Oklahoma City.",
+   "source_file": "owner_rules",
+   "page": 0,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "rc-base",
+   "quote": "No bids under a 12-month base period.",
+   "source_file": "owner_rules",
+   "page": 0,
+   "reason": "unknown_requirement"
+  }
+ ],
+ "fit_score_code": 0.2759,
+ "drafts": {
+  "capability_statement": "Red Cedar Facility Services is a Woman-Owned Small Business (WOSB) registered under NAICS 561730 – Landscaping Services, fully eligible under this Total Small Business set-aside. We self-perform grounds maintenance, vegetation management, and facility support services for federal and state clients, including active contracts at Tinker Air Force Base (72nd Air Base Wing) and GSA Region 7 federal facilities.\n\nOur workforce includes OSHA 30-certified supervisors experienced in federal safety protocols, controlled-access environments, and COR coordination. We operate under a documented Quality Control program with CMMS-logged inspections, and our green cleaning and environmental compliance posture reflects familiarity with federal and state regulatory requirements.\n\nWe have demonstrated the ability to price and execute firm-fixed-price federal contracts, manage debris and waste removal in compliance with applicable regulations, and meet personnel identification, access control, and weather-related notification requirements at active federal installations.\n\nRed Cedar is enrolled in e-Verify, maintains an active federal compliance posture, and has a track record of on-time, within-scope performance on multi-year federal grounds and facility contracts.\n\nWe welcome the opportunity to discuss how our small business capabilities align with the National Park Service's requirements at Biscayne National Park – Convoy Point and are prepared to respond to any questions from the Contracting Officer regarding our approach, personnel, or past performance references.",
+  "questions_for_co": [
+   "ISA Certified Arborist staffing: The solicitation requires an ISA Certified Arborist to be assigned before work begins [6df14e55-ba3d6b51-p7-911fc93c]. Will the Government accept a teaming arrangement or subcontract under which the prime contractor provides an ISA Certified Arborist through a qualified subcontractor, or must the arborist be a direct W-2 employee of the prime?",
+   "Professional Mangrove Trimmer qualification: The SOW requires mangrove trimming to be supervised or performed by personnel meeting Florida's Professional Mangrove Trimmer qualification and registration requirements [6df14e55-ba3d6b51-p7-2557bd00]. May this qualified individual be furnished by a subcontractor, and if so, must the subcontractor be identified in the quote?",
+   "Relevant references: The solicitation requires three relevant references [6df14e55-ebf10ea5-p9-0830e850]. Will the Government consider federal grounds maintenance contracts (e.g., mowing, trimming, debris removal at military installations) as relevant, or are references limited to arboricultural or tree-work contracts specifically?",
+   "Equipment staging: The SOW references wood chippers, aerial lifts, and dump trailers as operational equipment [6df14e55-8949ed58-p3-e5c220cd]. Will the Government confirm whether overnight staging of such equipment in the Maintenance Yard (Area 2) is permitted for the full 30-calendar-day performance period, or must equipment be demobilized off-site each day?",
+   "Insurance requirements: The solicitation specifies minimum liability insurance of $100,000 per person / $500,000 per occurrence / $500,000 property damage [6df14e55-ebf10ea5-p10-14fc7b33]. Must proof of current coverage at these levels be submitted with the quote, or is a certificate of insurance required only upon award?",
+   "Hurricane and tropical storm protocols: The SOW requires the contractor to suspend operations and secure or remove equipment when directed by NPS due to tropical storms or hurricanes [6df14e55-ba3d6b51-p3-772201c7]. Will the Government provide advance notice thresholds (e.g., NWS watch vs. warning) that trigger the suspension directive, and is there a contract adjustment mechanism for days lost to NPS-directed weather suspensions within the 30-calendar-day performance period?"
+  ],
+  "calendar_entries": [
+   {
+    "title": "Proposal Due",
+    "date": "2026-09-09",
+    "note": "Quotes must be received by 5:00 PM Eastern. Submit electronically to noelli_medinamarin@ios.doi.gov with subject line 'Offer - Solicitation No. 140P5426Q0032'.",
+    "source_quote": "Closing Response Date/Time: Quotes must be received no later than Friday, September 9, 2026, at 5:00 PM Eastern."
+   },
+   {
+    "title": "Decide By (2 business days before proposal due)",
+    "date": "2026-09-04",
+    "note": "Internal go/no-go decision deadline. Two business days before proposal due date of Sept 9; Sept 7 is Labor Day (federal holiday), so the prior business day is Friday Sept 4.",
+    "source_quote": "Closing Response Date/Time: Quotes must be received no later than Friday, September 9, 2026, at 5:00 PM Eastern."
+   }
+  ]
+ },
+ "reader": {
+  "notice_id": "6df14e5530d54ea493197948b2a5db49",
+  "key_requirement_ids": [
+   "6df14e55-ebf10ea5-p4-5cd6d6a9",
+   "6df14e55-ebf10ea5-p8-d5a2c82b",
+   "6df14e55-ebf10ea5-p4-329342fb",
+   "6df14e55-ebf10ea5-p5-a4965574",
+   "6df14e55-ebf10ea5-p8-58af1cd6",
+   "6df14e55-ebf10ea5-p8-d5a2c82b",
+   "6df14e55-ba3d6b51-p7-2557bd00",
+   "6df14e55-ba3d6b51-p7-911fc93c",
+   "6df14e55-ebf10ea5-p5-6668f210",
+   "6df14e55-8949ed58-p2-6052786f",
+   "6df14e55-ba3d6b51-p7-eebd21b5",
+   "6df14e55-8949ed58-p4-4f7997e8",
+   "6df14e55-ebf10ea5-p4-944daa79",
+   "6df14e55-ebf10ea5-p3-9cab2c8d",
+   "6df14e55-ebf10ea5-p3-73b461cc",
+   "6df14e55-ebf10ea5-p10-b4386331",
+   "6df14e55-ebf10ea5-p10-14fc7b33",
+   "6df14e55-ebf10ea5-p4-b6876145",
+   "6df14e55-ba3d6b51-p2-780f936e",
+   "6df14e55-8949ed58-p3-553e8b15",
+   "6df14e55-ebf10ea5-p9-0830e850",
+   "6df14e55-ba3d6b51-p5-194cd245",
+   "6df14e55-8949ed58-p4-b0eaead2",
+   "6df14e55-ba3d6b51-p4-9aced434",
+   "6df14e55-ebf10ea5-p3-6aa65826"
+  ],
+  "scope_summary": "The government is buying hazardous tree, palm, mangrove, and woody vegetation pruning/trimming at Biscayne National Park - Convoy Point, covering all nine mapped work areas identified in the Statement of Work and Appendix A. The work shall reduce hazardous conditions and excessive wind loading, improve tree and palm structure, provide required building/sign/light/dock clearances, and improve designated vistas without unnecessary damage to trees, mangroves, other vegetation, wildlife, park property, or visitor facilities. The contractor must furnish all supervision, labor, equipment, tools, materials, transportation, and incidentals, and complete all work within thirty (30) calendar days after award.",
+  "evaluation_basis": "The Government will evaluate quotes and make award to the responsible offeror whose quotation represents the best value to the Government. Factor 1 is Technical Capability/Approach, under which the Government will evaluate the offeror's understanding of the hazardous tree-work requirement and the feasibility of its approach to performing the Statement of Work. Offerors must qualify as a small business under NAICS 561730 - Landscaping Services.",
+  "incumbent_or_history": "none found",
+  "quotes": [
+   "Independently, and not as an agent of the Government, the Contractor shall furnish all supervision, labor, equipment, tools, materials, transportation, and incidentals necessary to perform hazardous tree, palm, mangrove, and woody vegetation pruning/trimming at Biscayne National Park - Convoy Point within the nine mapped work areas identified in Attachment 1 - Statement of Work and Appendix A.",
+   "The Government will evaluate quotes and make award to the responsible offeror whose quotation represents the best value to the Government.",
+   "The following factors shall be evaluated: Factor 1 - Technical Capability/Approach The Government will evaluate the offeror's understanding of the hazardous tree-work requirement and the feasibility of its approach to performing the Statement of Work.",
+   "Offerors must qualify as a small business under NAICS 561730 - Landscaping Services.",
+   "The period of performance shall be complete within thirty (30) calendar days after award, unless otherwise modified in writing by the Contracting Officer.",
+   "The Contractor shall provide required ISA Certified Arborist coverage, comply with applicable ANSI arboricultural and safety standards, protect visitors and park resources, comply with mangrove and environmental requirements, and remove all Contractor-generated debris from Government property each workday.",
+   "The Contractor shall ensure mangrove trimming is supervised or performed by personnel who meet applicable professional mangrove trimmer qualifications.",
+   "Mangrove work shall comply with the Florida Mangrove Trimming and Preservation Act, sections 403.9321 through 403.9334, Florida Statutes, applicable Florida Department of Environmental Protection requirements, and applicable Miami-Dade County delegated requirements.",
+   "The Contractor shall comply with all applicable Federal, State, and local requirements governing mangrove trimming and shall ensure that mangrove-related work is performed or supervised by individuals meeting the applicable Professional Mangrove Trimmer qualification and registration requirements.",
+   "The quoted Firm-Fixed-Price shall include all costs necessary to perform the complete requirement in accordance with the Statement of Work, including all nine mapped work areas, mobilization, travel, labor, supervision, equipment, insurance, safety controls, debris removal and disposal, and incidentals.",
+   "Pricing shall remain firm for the entire 30calendar-day performance period.",
+   "The work shall reduce hazardous conditions and excessive wind loading, improve tree and palm structure, provide required building/sign/light/dock clearances, and improve designated vistas without unnecessary damage to trees, mangroves, other vegetation, wildlife, park property, or visitor facilities.",
+   "No mangrove trimming shall begin until the COR confirms that the applicable environmental requirements for the affected work area have been satisfied.",
+   "The Contractor shall not remove a whole tree without written authorization from the Contracting Officer.",
+   "Quotes must be received no later than Friday, September 9, 2026, at 5:00 PM Eastern."
+  ]
+ },
+ "fit": {
+  "notice_id": "6df14e5530d54ea493197948b2a5db49",
+  "fit_score": 0.05,
+  "matched_past_performance": [
+   "Grounds maintenance, cantonment area"
+  ],
+  "strengths": [
+   "Holds NAICS 561730 which matches the solicitation NAICS",
+   "Qualifies as small business under total small business set-aside",
+   "OSHA 30 supervisors on staff",
+   "Active grounds maintenance past performance (Tinker AFB)",
+   "e-Verify and SAM-eligible compliance posture"
+  ],
+  "gaps": [
+   "Owner rule rc-distance violated: Homestead FL is ~1,300 miles from Oklahoma City OK, exceeding 200-mile limit",
+   "Owner rule rc-base violated: 30-calendar-day performance period is far below required 12-month base",
+   "No ISA Certified Arborist on staff or in profile — hard solicitation requirement",
+   "No Professional Mangrove Trimmer qualification — Florida statutory requirement for this work",
+   "No hazardous tree pruning or arboricultural capability described in profile",
+   "No experience with ANSI A300 arboricultural standards",
+   "No arboricultural equipment (wood chippers, aerial lifts, dump trailers) mentioned",
+   "Firm operates only in Oklahoma and neighboring states — no Florida presence or experience",
+   "No mangrove or coastal/subtropical vegetation experience",
+   "No relevant references for tree/arboricultural work to satisfy 3-reference requirement"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "6df14e55-ebf10ea5-p5-a4965574",
+    "quote": "The period of performance shall be complete within thirty (30) calendar days after award, unless otherwise modified in writing by the Contracting Officer.",
+    "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+    "page": 5,
+    "firm_answer": "30-calendar-day performance period confirmed. Firm can schedule and complete short-duration work, but this triggers the rc-base owner-rule disqualification.",
+    "status": "gap",
+    "evidence": "Owner rule [rc-base] prohibits bids under a 12-month base period."
+   },
+   {
+    "requirement_id": "6df14e55-ba3d6b51-p7-911fc93c",
+    "quote": "The Contractor shall provide current certification information for the assigned ISA Certified Arborist before work begins and shall promptly notify the COR of any proposed personnel substitution.",
+    "source_file": "ba3d6b51343c4d3ca17750705304f2e6.pdf",
+    "page": 7,
+    "firm_answer": "Firm profile lists no ISA Certified Arborist. This is a hard staffing requirement and cannot be met based on the profile.",
+    "status": "gap",
+    "evidence": "Firm capabilities list CIMS-GB, OSHA 30, and green cleaning — no arborist certification mentioned."
+   },
+   {
+    "requirement_id": "6df14e55-ebf10ea5-p5-6668f210",
+    "quote": "The Contractor shall provide required ISA Certified Arborist coverage, comply with applicable ANSI arboricultural and safety standards, protect visitors and park resources, comply with mangrove and environmental requirements, and remove all Contractor-generated debris from Government property each workday.",
+    "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+    "page": 5,
+    "firm_answer": "Firm has no ISA Certified Arborist, no documented ANSI A300 compliance, and no mangrove experience. Multiple elements of this compound requirement cannot be met.",
+    "status": "gap",
+    "evidence": "Firm profile is silent on arboricultural certifications, ANSI standards, and mangrove work."
+   },
+   {
+    "requirement_id": "6df14e55-ba3d6b51-p7-2557bd00",
+    "quote": "The Contractor shall ensure mangrove trimming is supervised or performed by personnel who meet applicable professional mangrove trimmer qualifications.",
+    "source_file": "ba3d6b51343c4d3ca17750705304f2e6.pdf",
+    "page": 7,
+    "firm_answer": "Firm profile lists no Professional Mangrove Trimmer qualification. Florida Statutes §§403.9321–403.9334 require this credential. Cannot be met based on profile.",
+    "status": "gap",
+    "evidence": "Firm profile is entirely silent on mangrove trimming qualifications or Florida environmental credentials."
+   },
+   {
+    "requirement_id": "6df14e55-8949ed58-p2-6052786f",
+    "quote": "The Contractor shall comply with all applicable Federal, State, and local requirements governing mangrove trimming and shall ensure that mangrove-related work is performed or supervised by individuals meeting the applicable Professional Mangrove Trimmer qualification and registration requirements.",
+    "source_file": "8949ed58ead247fc95a55e17d0be9805.pdf",
+    "page": 2,
+    "firm_answer": "Firm has no documented Florida mangrove trimmer qualification or registration. Cannot comply based on profile.",
+    "status": "gap",
+    "evidence": "Firm profile is silent on Florida environmental law compliance and mangrove trimmer registration."
+   },
+   {
+    "requirement_id": "6df14e55-ba3d6b51-p7-eebd21b5",
+    "quote": "Mangrove work shall comply with the Florida Mangrove Trimming and Preservation Act, sections 403.9321 through 403.9334, Florida Statutes, applicable Florida Department of Environmental Protection requirements, and applicable Miami-Dade County delegated requirements.",
+    "source_file": "ba3d6b51343c4d3ca17750705304f2e6.pdf",
+    "page": 7,
+    "firm_answer": "Firm has no documented experience with Florida Mangrove Trimming and Preservation Act, FDEP requirements, or Miami-Dade County requirements. Cannot be confirmed from profile.",
+    "status": "gap",
+    "evidence": "Firm profile describes Oklahoma and neighboring-state operations only; no Florida regulatory experience documented."
+   },
+   {
+    "requirement_id": "6df14e55-ebf10ea5-p4-5cd6d6a9",
+    "quote": "Independently, and not as an agent of the Government, the Contractor shall furnish all supervision, labor, equipment, tools, materials, transportation, and incidentals necessary to perform hazardous tree, palm, mangrove, and woody vegetation pruning/trimming at Biscayne National Park - Convoy Point within the nine mapped work areas identified in Attachment 1 - Statement of Work and Appendix A.",
+    "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+    "page": 4,
+    "firm_answer": "Firm profile describes grounds maintenance (mowing, trimming, irrigation) but not hazardous tree work, palm pruning, mangrove trimming, or arboricultural services. Core scope cannot be confirmed.",
+    "status": "gap",
+    "evidence": "Grounds maintenance capability at Tinker AFB covers mowing and trimming but not arboricultural tree/palm/mangrove work."
+   },
+   {
+    "requirement_id": "6df14e55-8949ed58-p4-4f7997e8",
+    "quote": "If the Contractor's ISA Certified Arborist determines that a tree is dead, structurally compromised, or presents an immediate safety concern that cannot reasonably be mitigated through the pruning activities authorized by the SOW, the Contractor shall: Stop work on the affected tree before performing work beyond the authorized pruning scope.",
+    "source_file": "8949ed58ead247fc95a55e17d0be9805.pdf",
+    "page": 4,
+    "firm_answer": "Firm has no ISA Certified Arborist to make these determinations. Requirement cannot be met based on profile.",
+    "status": "gap",
+    "evidence": "Firm profile lists no arborist or tree-risk assessment capability."
+   },
+   {
+    "requirement_id": "6df14e55-ba3d6b51-p7-2474744e",
+    "quote": "The arborist shall oversee pruning methods and cuts, confirm work is consistent with ANSI A300 and the SOW, and supervise mangrove trimming to the extent required by applicable law.",
+    "source_file": "ba3d6b51343c4d3ca17750705304f2e6.pdf",
+    "page": 7,
+    "firm_answer": "No ISA Certified Arborist and no ANSI A300 compliance documented in firm profile. Cannot be met.",
+    "status": "gap",
+    "evidence": "Firm profile is silent on ANSI A300 arboricultural standards and arborist oversight."
+   },
+   {
+    "requirement_id": "6df14e55-ebf10ea5-p8-d5a2c82b",
+    "quote": "Offerors must qualify as a small business under NAICS 561730 - Landscaping Services.",
+    "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+    "page": 8,
+    "firm_answer": "Firm lists NAICS 561730 in its profile and qualifies as a small business (WOSB/SBA). This requirement is met.",
+    "status": "meets",
+    "evidence": "Firm profile: naics 561720, 561730; set-asides: WOSB, EDWOSB, SBA."
+   },
+   {
+    "requirement_id": "6df14e55-ebf10ea5-p3-9cab2c8d",
+    "quote": "Your company must also be registered in the System for Award Management (SAM) and be considered a small business for the size standard associated with NAICS 561730.",
+    "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+    "page": 3,
+    "firm_answer": "Firm is SBA-eligible and presumably SAM-registered (e-Verify enrollment implies federal compliance posture), but SAM registration is not explicitly confirmed in the profile.",
+    "status": "partial",
+    "evidence": "Firm profile lists SBA set-aside eligibility and e-Verify; SAM registration not explicitly stated."
+   },
+   {
+    "requirement_id": "6df14e55-ebf10ea5-p3-1c7217bd",
+    "quote": "To be considered for award your company must obtain a Unique Entity Identifier (UEI).",
+    "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+    "page": 3,
+    "firm_answer": "UEI not mentioned in firm profile. Unknown whether obtained, though likely for a firm with federal past performance.",
+    "status": "unknown",
+    "evidence": "Firm profile is silent on UEI; federal past performance with GSA and DoD suggests likely registration."
+   },
+   {
+    "requirement_id": "6df14e55-ebf10ea5-p4-944daa79",
+    "quote": "The quoted Firm-Fixed-Price shall include all costs necessary to perform the complete requirement in accordance with the Statement of Work, including all nine mapped work areas, mobilization, travel, labor, supervision, equipment, insurance, safety controls, debris removal and disposal, and incidentals.",
+    "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+    "page": 4,
+    "firm_answer": "Firm can structure a FFP quote administratively, but mobilization from Oklahoma to Florida (~1,300 miles) and lack of arboricultural equipment would make pricing non-competitive and the scope unperformable.",
+    "status": "gap",
+    "evidence": "rc-distance owner rule violation; no arboricultural equipment in profile; no Florida presence."
+   },
+   {
+    "requirement_id": "6df14e55-ebf10ea5-p4-329342fb",
+    "quote": "Offerors shall provide one firm-fixed price for the complete requirement covering all nine (9) mapped work areas in Attachment 1 - Statement of Work.",
+    "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+    "page": 4,
+    "firm_answer": "Firm can submit a single FFP administratively, but cannot credibly price arboricultural tree/palm/mangrove work across nine areas without relevant capability or Florida presence.",
+    "status": "gap",
+    "evidence": "No arboricultural scope capability in firm profile."
+   },
+   {
+    "requirement_id": "6df14e55-ebf10ea5-p8-58af1cd6",
+    "quote": "The following factors shall be evaluated: Factor 1 - Technical Capability/Approach The Government will evaluate the offeror's understanding of the hazardous tree-work requirement and the feasibility of its approach to performing the Statement of Work.",
+    "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+    "page": 8,
+    "firm_answer": "Firm has no documented hazardous tree-work experience, no ISA Certified Arborist, and no arboricultural approach to offer. Technical capability evaluation would likely result in an unacceptable rating.",
+    "status": "gap",
+    "evidence": "Firm capabilities cover janitorial and grounds maintenance (mowing, trimming, irrigation) — not arboricultural hazardous tree work."
+   },
+   {
+    "requirement_id": "6df14e55-ebf10ea5-p9-0830e850",
+    "quote": "Offerors shall provide three (3) relevant references.",
+    "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+    "page": 9,
+    "firm_answer": "Firm has four past performance records, but all are janitorial or general grounds maintenance. None involve hazardous tree work, arboriculture, palm pruning, or mangrove trimming. References would not be considered relevant to this scope.",
+    "status": "gap",
+    "evidence": "Past performance: Custodial services OKC Federal Building; Grounds maintenance Tinker AFB; Janitorial state office complex; Housekeeping VA clinic — none are arboricultural."
+   },
+   {
+    "requirement_id": "6df14e55-ba3d6b51-p5-194cd245",
+    "quote": "Essential Contractor personnel, including the individual(s) serving as superintendent/foreman and ISA Certified Arborist, shall participate.",
+    "source_file": "ba3d6b51343c4d3ca17750705304f2e6.pdf",
+    "page": 5,
+    "firm_answer": "Firm profile lists 38 W-2 employees with OSHA 30 supervisors but no ISA Certified Arborist. Cannot meet this staffing requirement.",
+    "status": "gap",
+    "evidence": "Firm profile: OSHA 30 supervisors listed; ISA Certified Arborist absent from profile."
+   },
+   {
+    "requirement_id": "6df14e55-ba3d6b51-p2-780f936e",
+    "quote": "The work shall reduce hazardous conditions and excessive wind loading, improve tree and palm structure, provide required building/sign/light/dock clearances, and improve designated vistas without unnecessary damage to trees, mangroves, other vegetation, wildlife, park property, or visitor facilities.",
+    "source_file": "ba3d6b51343c4d3ca17750705304f2e6.pdf",
+    "page": 2,
+    "firm_answer": "Firm has no documented capability in hazard reduction pruning, wind-load management, structural tree/palm pruning, or mangrove work. Core technical scope is unmet.",
+    "status": "gap",
+    "evidence": "Firm capabilities: mowing, trimming, irrigation, snow removal — no arboricultural or hazard-tree work described."
+   },
+   {
+    "requirement_id": "6df14e55-8949ed58-p3-e5c220cd",
+    "quote": "Will the Contractor be permitted to stage heavy operational equipment (such as wood chippers, aerial lifts, and dump trailers) overnight in the designated staging area or Maintenance Yard (Area 2) for the duration of the 30-calendar-day performance period, or must all equipment be demobilized off-site at the end of each workday? Government Response Yes.",
+    "source_file": "8949ed58ead247fc95a55e17d0be9805.pdf",
+    "page": 3,
+    "firm_answer": "Firm profile does not list wood chippers, aerial lifts, or dump trailers. Arboricultural heavy equipment is not part of the firm's documented capability.",
+    "status": "gap",
+    "evidence": "Firm profile describes grounds maintenance equipment implicitly (mowing, trimming) but no arboricultural heavy equipment."
+   },
+   {
+    "requirement_id": "6df14e55-ba3d6b51-p5-02de7aa7",
+    "quote": "Pruning shall maintain the natural form of the vegetation and shall not include clearing, grubbing, or whole-plant removal.",
+    "source_file": "ba3d6b51343c4d3ca17750705304f2e6.pdf",
+    "page": 5,
+    "firm_answer": "Firm has no documented arboricultural pruning methodology. Cannot confirm compliance with natural-form pruning standards from profile.",
+    "status": "unknown",
+    "evidence": "Firm profile is silent on pruning methodology or ANSI A300 compliance."
+   },
+   {
+    "requirement_id": "6df14e55-ba3d6b51-p4-9aced434",
+    "quote": "Palms in Areas 1 through 9 shall have dead/dying or broken fronds and seed pods removed and shall be pruned to the specified 9-to-3 profile.",
+    "source_file": "ba3d6b51343c4d3ca17750705304f2e6.pdf",
+    "page": 4,
+    "firm_answer": "Firm has no documented palm pruning experience or knowledge of the 9-to-3 pruning profile standard. Cannot be confirmed from profile.",
+    "status": "gap",
+    "evidence": "Firm profile is silent on palm pruning; grounds maintenance at Tinker AFB (Oklahoma) would not involve palm trees."
+   },
+   {
+    "requirement_id": "6df14e55-ebf10ea5-p10-b4386331",
+    "quote": "The Contractor shall procure and maintain during the term of this contract and any extension thereof liability insurance in form satisfactory to the Contracting Officer by an insurance company which is acceptable to the Contracting Officer.",
+    "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+    "page": 10,
+    "firm_answer": "Firm profile does not mention liability insurance. As a federal contractor with prior GSA and DoD work, insurance is likely carried, but cannot be confirmed from the profile.",
+    "status": "unknown",
+    "evidence": "Firm profile is silent on liability insurance coverage levels."
+   },
+   {
+    "requirement_id": "6df14e55-ebf10ea5-p10-14fc7b33",
+    "quote": "The amounts of the insurance shall be not less than as follows: $100,000.00 each person $500,000.00 each occurrence $500,000.00 property damage",
+    "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+    "page": 10,
+    "firm_answer": "Specific insurance minimums ($100K/$500K/$500K) not confirmed in firm profile. Unknown whether current coverage meets these thresholds.",
+    "status": "unknown",
+    "evidence": "Firm profile is silent on insurance coverage amounts."
+   },
+   {
+    "requirement_id": "6df14e55-ebf10ea5-p3-73b461cc",
+    "quote": "Registration must be active in SAM at the time quotations are due, at the time of award, and throughout contract performance.",
+    "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+    "page": 3,
+    "firm_answer": "SAM registration not explicitly confirmed in profile, but firm's federal past performance with GSA Region 7 and Tinker AFB strongly implies active SAM registration.",
+    "status": "partial",
+    "evidence": "Federal past performance: Custodial services GSA Region 7; Grounds maintenance Tinker AFB (72 ABW)."
+   },
+   {
+    "requirement_id": "6df14e55-ebf10ea5-p4-b6876145",
+    "quote": "Pricing shall remain firm for the entire 30calendar-day performance period.",
+    "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+    "page": 4,
+    "firm_answer": "Firm has experience with firm-fixed-price federal contracts and can commit to fixed pricing for a 30-day period administratively.",
+    "status": "meets",
+    "evidence": "Past performance includes FFP federal contracts: GSA Region 7 ($1.24M), Tinker AFB ($880K)."
+   },
+   {
+    "requirement_id": "6df14e55-ba3d6b51-p3-d14597d2",
+    "quote": "Contractor personnel shall wear appropriate work clothing and visible company identification.",
+    "source_file": "ba3d6b51343c4d3ca17750705304f2e6.pdf",
+    "page": 3,
+    "firm_answer": "Firm has federal facility experience with visitor-facing environments and QC inspection protocols. Likely compliant with personnel identification requirements.",
+    "status": "meets",
+    "evidence": "Firm capabilities: QC inspections logged in CMMS; federal building custodial experience with GSA and VA."
+   },
+   {
+    "requirement_id": "6df14e55-ba3d6b51-p6-c9b3ee4b",
+    "quote": "The Contractor shall comply with access controls applicable to restricted or staff-only areas and shall ensure personnel remain within authorized work and staging areas.",
+    "source_file": "ba3d6b51343c4d3ca17750705304f2e6.pdf",
+    "page": 6,
+    "firm_answer": "Firm has experience operating in controlled federal environments (GSA federal building, Tinker AFB, VA clinic) and is familiar with access control requirements.",
+    "status": "meets",
+    "evidence": "Past performance: Grounds maintenance Tinker AFB (military installation access controls); Custodial services OKC Federal Building; Housekeeping VA clinic."
+   },
+   {
+    "requirement_id": "6df14e55-ba3d6b51-p3-66f4a336",
+    "quote": "Disposal shall be off site and in accordance with applicable laws and regulations.",
+    "source_file": "ba3d6b51343c4d3ca17750705304f2e6.pdf",
+    "page": 3,
+    "firm_answer": "Firm has experience with debris and waste disposal in federal contracts (trash, recycling at federal building; grounds debris at Tinker AFB), but no documented experience with arboricultural debris disposal in Florida.",
+    "status": "partial",
+    "evidence": "Past performance: Grounds maintenance Tinker AFB (keywords: grounds, landscaping); Custodial OKC Federal Building (keywords: trash, recycling)."
+   },
+   {
+    "requirement_id": "6df14e55-ba3d6b51-p3-aa3a2a5b",
+    "quote": "If the Contractor is unable to work due to site-specific weather conditions, the Contractor shall notify the COR no later than 7:00 a.m. that day.",
+    "source_file": "ba3d6b51343c4d3ca17750705304f2e6.pdf",
+    "page": 3,
+    "firm_answer": "Firm has experience with weather-related work stoppages (snow and ice removal contracts) and federal COR notification protocols. Administrative compliance is likely.",
+    "status": "meets",
+    "evidence": "Firm capabilities: snow and ice removal for federal/state facilities; federal COR coordination experience."
+   },
+   {
+    "requirement_id": "6df14e55-ba3d6b51-p7-9b674971",
+    "quote": "The Contractor shall correct nonconforming or incomplete work at no additional cost to the Government within the period of performance or other time authorized by the Contracting Officer.",
+    "source_file": "ba3d6b51343c4d3ca17750705304f2e6.pdf",
+    "page": 7,
+    "firm_answer": "Firm has QC inspection protocols (CMMS-logged) and federal contract experience. Administrative compliance with rework provisions is likely, but arboricultural rework capability is absent.",
+    "status": "partial",
+    "evidence": "Firm capabilities: QC inspections logged in CMMS; federal past performance with GSA and VA."
+   },
+   {
+    "requirement_id": "6df14e55-ebf10ea5-p9-5dfcd1bf",
+    "quote": "The Contractor must use the IPP website to register access and use IPP for submitting requests for payment.",
+    "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+    "page": 9,
+    "firm_answer": "Firm has multiple federal contracts (GSA, DoD, VA) and is likely familiar with IPP invoicing, but IPP use is not explicitly confirmed in the profile.",
+    "status": "unknown",
+    "evidence": "Federal past performance with GSA Region 7, Tinker AFB, and VA Oklahoma City implies familiarity with federal invoicing systems."
+   },
+   {
+    "requirement_id": "6df14e55-8949ed58-p3-c1b80964",
+    "quote": "Equipment shall be maintained in a condition that prevents fuel, hydraulic fluid, oil, or other contaminants from being released onto Government property.",
+    "source_file": "8949ed58ead247fc95a55e17d0be9805.pdf",
+    "page": 3,
+    "firm_answer": "Firm has a green cleaning program and federal facility experience, suggesting environmental awareness, but no arboricultural equipment maintenance protocols are documented.",
+    "status": "partial",
+    "evidence": "Firm capabilities: green cleaning program; federal facility operations at GSA and VA."
+   },
+   {
+    "requirement_id": "6df14e55-8949ed58-p3-553e8b15",
+    "quote": "No mangrove trimming shall begin until the COR confirms that the applicable environmental requirements for the affected work area have been satisfied.",
+    "source_file": "8949ed58ead247fc95a55e17d0be9805.pdf",
+    "page": 3,
+    "firm_answer": "Firm has no mangrove trimming experience and no documented familiarity with Florida environmental pre-work confirmation requirements. Cannot be confirmed from profile.",
+    "status": "gap",
+    "evidence": "Firm profile is entirely silent on mangrove work and Florida environmental compliance protocols."
+   },
+   {
+    "requirement_id": "6df14e55-ba3d6b51-p3-772201c7",
+    "quote": "Tropical storms and hurricanes: When directed by NPS, the Contractor shall suspend operations and secure or remove equipment, debris, materials, and other items that could become hazards.",
+    "source_file": "ba3d6b51343c4d3ca17750705304f2e6.pdf",
+    "page": 3,
+    "firm_answer": "Firm has no documented experience operating in a tropical storm/hurricane environment. Oklahoma-based operations involve snow/ice but not hurricane protocols.",
+    "status": "unknown",
+    "evidence": "Firm profile: snow and ice removal experience; no hurricane or tropical storm protocols documented."
+   },
+   {
+    "requirement_id": "6df14e55-ebf10ea5-p7-f2ba431c",
+    "quote": "All interested parties shall be registered in the System for Award Management or SAM at time an offer or quotation is submitted.",
+    "source_file": "ebf10ea59da84536bec4a401cbb7ab0f.pdf",
+    "page": 7,
+    "firm_answer": "SAM registration not explicitly stated in profile but strongly implied by active federal contracts with GSA Region 7, Tinker AFB, and VA.",
+    "status": "partial",
+    "evidence": "Federal past performance: Custodial services GSA Region 7 (2022-2025); Grounds maintenance Tinker AFB (2021-2024); Housekeeping VA Oklahoma City (2023-2025)."
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "6df14e5530d54ea493197948b2a5db49",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-09-09T17:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": "30 calendar days after award",
+   "source_quotes": [
+    "Closing Response Date/Time: Quotes must be received no later than Friday, September 9, 2026, at 5:00 PM Eastern.",
+    "The period of performance shall be complete within thirty (30) calendar days after award, unless otherwise modified in writing by the Contracting Officer."
+   ]
+  },
+  "days_to_close": -4.557821878692129,
+  "set_aside_note": "Set-aside is Total Small Business. Red Cedar Facility Services qualifies as a small business (SBA is listed among the firm's claimable set-asides), so the firm IS eligible to bid.",
+  "amendment_note": "no amendment",
+  "calendar_entries": [
+   {
+    "title": "Proposal Due",
+    "date": "2026-09-09",
+    "note": "Quotes must be received by 5:00 PM Eastern. Submit electronically to noelli_medinamarin@ios.doi.gov with subject line 'Offer - Solicitation No. 140P5426Q0032'.",
+    "source_quote": "Closing Response Date/Time: Quotes must be received no later than Friday, September 9, 2026, at 5:00 PM Eastern."
+   },
+   {
+    "title": "Decide By (2 business days before proposal due)",
+    "date": "2026-09-04",
+    "note": "Internal go/no-go decision deadline. Two business days before proposal due date of Sept 9; Sept 7 is Labor Day (federal holiday), so the prior business day is Friday Sept 4.",
+    "source_quote": "Closing Response Date/Time: Quotes must be received no later than Friday, September 9, 2026, at 5:00 PM Eastern."
+   }
+  ]
+ },
+ "model_calls": 5,
+ "tokens_in": 65817,
+ "tokens_out": 14197,
+ "seconds": 127.92,
+ "produced_at": "2026-09-14T05:25:23.733647-05:00"
+}

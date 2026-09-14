@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
+<defs><marker id="rp-arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><polygon points="0 0, 10 4, 0 8" fill="#9AA3AD"/></marker></defs>
+<rect x="0" y="0" width="900" height="260" fill="#14181D"/>
+<text x="24" y="34" fill="#F2A93B" font-size="14" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" letter-spacing="0.18em">BIDDESK  ·  REQUEST PATH</text>
+<text x="24" y="62" fill="#9AA3AD" font-size="14" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">One tap on the live link, end to end. Region us-east-1.</text>
+
+<rect x="24" y="88" width="148" height="86" rx="8" fill="rgba(233,228,216,0.04)" stroke="rgba(233,228,216,0.18)" stroke-width="1"/>
+<text x="98" y="124" text-anchor="middle" fill="#E9E4D8" font-size="16" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-weight="600">Phone</text>
+<text x="98" y="148" text-anchor="middle" fill="#9AA3AD" font-size="14" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">QR code, cellular</text>
+
+<rect x="200" y="88" width="148" height="86" rx="8" fill="rgba(233,228,216,0.04)" stroke="rgba(233,228,216,0.18)" stroke-width="1"/>
+<text x="274" y="124" text-anchor="middle" fill="#E9E4D8" font-size="16" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-weight="600">CloudFront</text>
+<text x="274" y="148" text-anchor="middle" fill="#9AA3AD" font-size="14" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">static page + JSON</text>
+
+<rect x="376" y="88" width="148" height="86" rx="8" fill="rgba(233,228,216,0.04)" stroke="rgba(233,228,216,0.18)" stroke-width="1"/>
+<text x="450" y="124" text-anchor="middle" fill="#E9E4D8" font-size="16" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-weight="600">Lambda URL</text>
+<text x="450" y="148" text-anchor="middle" fill="#9AA3AD" font-size="14" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace">biddesk-proxy</text>
+
+<rect x="552" y="88" width="148" height="86" rx="8" fill="rgba(242,169,59,0.10)" stroke="#F2A93B" stroke-width="1"/>
+<text x="626" y="124" text-anchor="middle" fill="#E9E4D8" font-size="16" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-weight="600">AgentCore</text>
+<text x="626" y="148" text-anchor="middle" fill="#F2A93B" font-size="14" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace">biddesk_runtime</text>
+
+<rect x="728" y="88" width="148" height="86" rx="8" fill="rgba(233,228,216,0.04)" stroke="rgba(233,228,216,0.18)" stroke-width="1"/>
+<text x="802" y="118" text-anchor="middle" fill="#E9E4D8" font-size="16" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-weight="600">Bedrock</text>
+<text x="802" y="141" text-anchor="middle" fill="#9AA3AD" font-size="14" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">Sonnet 4.6</text>
+<text x="802" y="162" text-anchor="middle" fill="#9AA3AD" font-size="14" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">Haiku 4.5 fallback</text>
+
+<line x1="172" y1="131" x2="194" y2="131" stroke="#9AA3AD" stroke-width="1.6" marker-end="url(#rp-arrow)"/>
+<line x1="348" y1="131" x2="370" y2="131" stroke="#9AA3AD" stroke-width="1.6" marker-end="url(#rp-arrow)"/>
+<line x1="524" y1="131" x2="546" y2="131" stroke="#9AA3AD" stroke-width="1.6" marker-end="url(#rp-arrow)"/>
+<line x1="700" y1="131" x2="722" y2="131" stroke="#9AA3AD" stroke-width="1.6" marker-end="url(#rp-arrow)"/>
+
+<rect x="552" y="198" width="148" height="44" rx="8" fill="rgba(233,228,216,0.04)" stroke="rgba(233,228,216,0.18)" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="626" y="226" text-anchor="middle" fill="#9AA3AD" font-size="14" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">SAM.gov API</text>
+<line x1="626" y1="174" x2="626" y2="192" stroke="#9AA3AD" stroke-width="1.6" marker-end="url(#rp-arrow)"/>
+
+<text x="24" y="226" fill="#9AA3AD" font-size="14" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">SigV4 from the proxy to the Runtime. The page draws first from committed gallery JSON.</text>
+</svg>

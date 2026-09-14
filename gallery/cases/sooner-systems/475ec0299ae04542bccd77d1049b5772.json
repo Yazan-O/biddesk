@@ -1,0 +1,893 @@
+{
+ "notice_id": "475ec0299ae04542bccd77d1049b5772",
+ "firm_slug": "sooner-systems",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:54:56-05:00",
+ "evidence_basis": null,
+ "days_to_close": -10.848077293333333,
+ "closed": true,
+ "response_kind": "proposal",
+ "card": {
+  "notice_id": "475ec0299ae04542bccd77d1049b5772",
+  "firm_slug": "sooner-systems",
+  "situation": "Central Plant Computer System (CPCS) Maintenance solicitation (FA255026R0026) at Schriever Space Force Base, CO — Total Small Business Set-Aside, period of performance 1 Sep 2026 – 1 Mar 2032 (~66 months).\nReached the owner because the firm is SBA-eligible, holds an exact NAICS 541512 match, has two active federal past-performance records, and 22 Secret-cleared staff; fit score 0.7895 against 38 validated requirements.",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "Firm is eligible under the Total Small Business Set-Aside with active SAM registration and exact NAICS 541512 match, clearing the threshold gate [475ec029-0be6051f-p3-05e3cca6].",
+   "Twenty-two Secret-cleared staff make base-access and site-visit requirements achievable with no administrative barrier [475ec029-0be6051f-p5-ac02b98d].",
+   "Two active federal contracts (~$3.75M combined) support a credible statement of financial responsibility and WAWF/FAR compliance [475ec029-descript-p0-e7d2176a]."
+  ],
+  "reasons_against": [
+   "Core scope is CPCS/building-automation maintenance (BAS/SCADA/industrial controls); neither past-performance record involves plant-control systems, leaving the technical evaluation factor critically exposed [475ec029-49e8eb1a-p21-333bafaf].",
+   "Firm is based in Norman, OK with no stated Colorado office or on-site staffing capability, creating a sustained-presence risk across a 66-month period of performance at Schriever SFB [475ec029-49e8eb1a-p14-32023d56].",
+   "The PWS is not publicly available and the questions deadline has already passed (days-to-close: −10.8), so the firm cannot clarify hidden technical requirements before the 3 Sep 2026 proposal due date [475ec029-descript-p0-df3d5ab8]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-09-01",
+  "key_dates": {
+   "questions_due": "2026-08-17T09:00:00-06:00",
+   "proposal_due": "2026-09-03T09:00:00-06:00",
+   "site_visit": "2026-08-13T09:00:00-06:00",
+   "period_of_performance": "1 September 2026 – 1 March 2032",
+   "source_quotes": [
+    "Questions must be received on or before 17 August 2026, 9:00 AM MT.",
+    "On Thursday, 13 August 2026 at 0900 (9:00 AM) Mountain Time (MT) there will be a site visit.",
+    "Proposals submitted in response to this solicitation shall be submitted via email no later than Thursday, 3 September 2026, 9:00 AM MT.",
+    "The period of Performance is 1 September 2026 - 1 March 2032."
+   ]
+  },
+  "fit_score": 0.7895,
+  "matrix_summary": "25 of 38 requirements met, 10 partial, 3 gap, 0 unknown",
+  "evidence_link": "https://sam.gov/opp/475ec0299ae04542bccd77d1049b5772/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "475ec029-descript-p0-909e97d6",
+   "quote": "Proposals submitted in response to this solicitation shall be submitted via email no later than Thursday, 3 September 2026, 9:00 AM MT.",
+   "source_file": "description",
+   "page": 0,
+   "firm_answer": "Firm can submit via email by the deadline; no profile barrier.",
+   "status": "meets",
+   "evidence": "Standard administrative capability; no profile constraint identified."
+  },
+  {
+   "requirement_id": "475ec029-descript-p0-75ebb9de",
+   "quote": "At a minimum, vendor shall submit A technical description of the services and or items being proposed in sufficient detail to evaluate compliance with the requirements in the solicitation.",
+   "source_file": "description",
+   "page": 0,
+   "firm_answer": "Firm can write a technical description, but the underlying CPCS maintenance technical content is absent from the profile; description would be thin.",
+   "status": "partial",
+   "evidence": "Profile lists IT support and cybersecurity capabilities but no CPCS/building-controls expertise to describe."
+  },
+  {
+   "requirement_id": "475ec029-descript-p0-e7d2176a",
+   "quote": "Vendors must submit a statement of financial responsibility.",
+   "source_file": "description",
+   "page": 0,
+   "firm_answer": "Firm can provide a self-attestation statement per Level One guidance in the solicitation.",
+   "status": "meets",
+   "evidence": "Small business with two active federal contracts totaling ~$3.75M; self-attestation is the assigned level."
+  },
+  {
+   "requirement_id": "475ec029-descript-p0-bb73ab7c",
+   "quote": "Offerors must submit the CLIN Pricing Schedule.",
+   "source_file": "description",
+   "page": 0,
+   "firm_answer": "Firm can complete a CLIN pricing schedule once the PWS scope is known; no profile barrier to the administrative act.",
+   "status": "partial",
+   "evidence": "PWS not publicly available; cannot price CPCS maintenance without technical scope details."
+  },
+  {
+   "requirement_id": "475ec029-descript-p0-b9b8d338",
+   "quote": "In order to receive the award, your company must be found to have both \"adequate financial resources\" and \"necessary production, construction, and technical equipment and facilities\" to perform the contract (and/or the ability to obtain them).",
+   "source_file": "description",
+   "page": 0,
+   "firm_answer": "Financial resources plausible; however, 'necessary production, construction, and technical equipment and facilities' for CPCS maintenance are not evidenced in the profile.",
+   "status": "partial",
+   "evidence": "Profile lists 24x7 NOC and cleared staff but no plant-control or industrial-systems equipment/facilities."
+  },
+  {
+   "requirement_id": "475ec029-0be6051f-p3-05e3cca6",
+   "quote": "To be eligible for contract award, the vendor and/or the furniture manufacturer shall have an active System for Award Management (SAM) account.",
+   "source_file": "0be6051f620d4b01ad69bb376ad7f112.pdf",
+   "page": 3,
+   "firm_answer": "Profile states firm is SBA-registered; SAM registration is a prerequisite for SBA eligibility, so active SAM account is presumed.",
+   "status": "meets",
+   "evidence": "SBA set-aside eligibility listed in firm profile implies active SAM registration."
+  },
+  {
+   "requirement_id": "475ec029-15a3ef3b-p6-aa6227d8",
+   "quote": "To be eligible for contract award, the vendor and/or the furniture manufacturer shall have an active System for Award Management (SAM) account.",
+   "source_file": "15a3ef3bb200425bbae36d5a20e58295.pdf",
+   "page": 6,
+   "firm_answer": "Same as above — active SAM account presumed from SBA eligibility.",
+   "status": "meets",
+   "evidence": "SBA set-aside eligibility listed in firm profile implies active SAM registration."
+  },
+  {
+   "requirement_id": "475ec029-49e8eb1a-p18-f25c0290",
+   "quote": "To be eligible for contract award, the vendor and/or the furniture manufacturer shall have an active System for Award Management (SAM) account.",
+   "source_file": "49e8eb1a324240b882432e01f3c2e141.pdf",
+   "page": 18,
+   "firm_answer": "Active SAM account presumed from SBA eligibility.",
+   "status": "meets",
+   "evidence": "SBA set-aside eligibility listed in firm profile implies active SAM registration."
+  },
+  {
+   "requirement_id": "475ec029-descript-p0-3102354e",
+   "quote": "Assumptions/Exceptions: The offeror shall state any assumptions and exceptions to the requirements and terms and conditions contained in the RFP in their proposal.",
+   "source_file": "description",
+   "page": 0,
+   "firm_answer": "Firm can include an assumptions/exceptions section; no profile barrier.",
+   "status": "meets",
+   "evidence": "Standard proposal writing capability; no constraint in profile."
+  },
+  {
+   "requirement_id": "475ec029-descript-p0-2522c249",
+   "quote": "Quotes must be valid for 60 days from the response deadline.",
+   "source_file": "description",
+   "page": 0,
+   "firm_answer": "Firm can commit to 60-day quote validity; no profile barrier.",
+   "status": "meets",
+   "evidence": "Administrative requirement; no profile constraint identified."
+  },
+  {
+   "requirement_id": "475ec029-descript-p0-dd7a95eb",
+   "quote": "Vendor shall also include terms of any warranty, price and discount terms, and an acknowledgement of Solicitation Amendments.",
+   "source_file": "description",
+   "page": 0,
+   "firm_answer": "Firm can include warranty terms, pricing, and amendment acknowledgement in proposal.",
+   "status": "meets",
+   "evidence": "Standard proposal element; no profile constraint."
+  },
+  {
+   "requirement_id": "475ec029-0be6051f-p3-7b9ce489",
+   "quote": "The vendor must provide all of the following at the time of submitting a quote: a.",
+   "source_file": "0be6051f620d4b01ad69bb376ad7f112.pdf",
+   "page": 3,
+   "firm_answer": "Firm can assemble required quote package; specific sub-items depend on PWS which is not publicly available.",
+   "status": "partial",
+   "evidence": "Administrative capability present; CPCS-specific technical content is the gap."
+  },
+  {
+   "requirement_id": "475ec029-15a3ef3b-p6-fe199b7b",
+   "quote": "The vendor must provide all of the following at the time of submitting a quote: a.",
+   "source_file": "15a3ef3bb200425bbae36d5a20e58295.pdf",
+   "page": 6,
+   "firm_answer": "Same as above.",
+   "status": "partial",
+   "evidence": "Administrative capability present; CPCS-specific technical content is the gap."
+  },
+  {
+   "requirement_id": "475ec029-49e8eb1a-p18-cf1da650",
+   "quote": "The vendor must provide all of the following at the time of submitting a quote: a.",
+   "source_file": "49e8eb1a324240b882432e01f3c2e141.pdf",
+   "page": 18,
+   "firm_answer": "Same as above.",
+   "status": "partial",
+   "evidence": "Administrative capability present; CPCS-specific technical content is the gap."
+  },
+  {
+   "requirement_id": "475ec029-0be6051f-p4-53d5d696",
+   "quote": "Past performance must include a summary of work conducted with it. ii.",
+   "source_file": "0be6051f620d4b01ad69bb376ad7f112.pdf",
+   "page": 4,
+   "firm_answer": "Firm has two past-performance records with summaries, but neither involves CPCS or plant-control systems maintenance.",
+   "status": "partial",
+   "evidence": "IT help desk and desktop support (Army Corps of Engineers); Network administration and cybersecurity support (FAA) — neither matches CPCS scope."
+  },
+  {
+   "requirement_id": "475ec029-15a3ef3b-p7-7568c840",
+   "quote": "Past performance must include a summary of work conducted with it. ii.",
+   "source_file": "15a3ef3bb200425bbae36d5a20e58295.pdf",
+   "page": 7,
+   "firm_answer": "Same as above — two records available but neither is relevant to CPCS maintenance.",
+   "status": "partial",
+   "evidence": "IT help desk and desktop support (Army Corps of Engineers); Network administration and cybersecurity support (FAA)."
+  },
+  {
+   "requirement_id": "475ec029-49e8eb1a-p19-d513edf5",
+   "quote": "Past performance must include a summary of work conducted with it. ii.",
+   "source_file": "49e8eb1a324240b882432e01f3c2e141.pdf",
+   "page": 19,
+   "firm_answer": "Same as above.",
+   "status": "partial",
+   "evidence": "IT help desk and desktop support (Army Corps of Engineers); Network administration and cybersecurity support (FAA)."
+  },
+  {
+   "requirement_id": "475ec029-49e8eb1a-p13-4a6e7c76",
+   "quote": "The option provision may be exercised more than once, but the total extension of performance hereunder shall not exceed 6 months.",
+   "source_file": "49e8eb1a324240b882432e01f3c2e141.pdf",
+   "page": 13,
+   "firm_answer": "Firm can contractually accept option clauses; no profile barrier to the clause itself.",
+   "status": "meets",
+   "evidence": "Standard contract clause acceptance; no profile constraint."
+  },
+  {
+   "requirement_id": "475ec029-49e8eb1a-p14-32023d56",
+   "quote": "The total duration of this contract, including the exercise of any options under this clause, shall not exceed 66 Months(months) (years).",
+   "source_file": "49e8eb1a324240b882432e01f3c2e141.pdf",
+   "page": 14,
+   "firm_answer": "Period of performance 1 Sep 2026 – 1 Mar 2032 (~66 months) is a long commitment; firm has no stated Colorado on-site presence to sustain.",
+   "status": "partial",
+   "evidence": "Firm is based in Norman, OK; no Colorado office or on-site staffing capability stated in profile."
+  },
+  {
+   "requirement_id": "475ec029-0be6051f-p5-ac02b98d",
+   "quote": "You must bring two forms of identiﬁcations (ex. driver's license and passport) and valid car insurance (pertaining to the vehicle you will be using to access base).",
+   "source_file": "0be6051f620d4b01ad69bb376ad7f112.pdf",
+   "page": 5,
+   "firm_answer": "Firm staff can bring required IDs and insurance for site visit; 22 cleared staff (Secret) supports base access.",
+   "status": "meets",
+   "evidence": "22 cleared staff (Secret) listed in firm profile."
+  },
+  {
+   "requirement_id": "475ec029-15a3ef3b-p8-e89678ca",
+   "quote": "You must bring two forms of identiﬁcations (ex. driver's license and passport) and valid car insurance (pertaining to the vehicle you will be using to access base).",
+   "source_file": "15a3ef3bb200425bbae36d5a20e58295.pdf",
+   "page": 8,
+   "firm_answer": "Same as above.",
+   "status": "meets",
+   "evidence": "22 cleared staff (Secret) listed in firm profile."
+  },
+  {
+   "requirement_id": "475ec029-49e8eb1a-p20-841e1d94",
+   "quote": "You must bring two forms of identiﬁcations (ex. driver's license and passport) and valid car insurance (pertaining to the vehicle you will be using to access base).",
+   "source_file": "49e8eb1a324240b882432e01f3c2e141.pdf",
+   "page": 20,
+   "firm_answer": "Same as above.",
+   "status": "meets",
+   "evidence": "22 cleared staff (Secret) listed in firm profile."
+  },
+  {
+   "requirement_id": "475ec029-49e8eb1a-p16-bfbb2a46",
+   "quote": "The Offeror shall review the list of excluded parties in the System for Award Management (SAM) at https://www.sam.gov for entities that are excluded when providing any equipment, system, or service to carry out covered missions that uses covered defense telecommunications equipment or services as a substantial or essential component of any system, or as critical technology as part of any system, unless a waiver is granted.",
+   "source_file": "49e8eb1a324240b882432e01f3c2e141.pdf",
+   "page": 16,
+   "firm_answer": "Firm can review SAM excluded parties list; no profile indication of covered defense telecom equipment use.",
+   "status": "meets",
+   "evidence": "No covered defense telecommunications equipment listed in firm profile capabilities."
+  },
+  {
+   "requirement_id": "475ec029-49e8eb1a-p16-89ba42b5",
+   "quote": "If in its annual representations and certiﬁcations in SAM the Offeror has represented in paragraph (c) of the provision at 252.204-7016, Covered Defense Telecommunications Equipment or Services-Representation, that it \"does\" provide covered defense telecommunications equipment or services as a part of its offered products or services to the Government in the performance of any contract, subcontract, or other contractual instrument, then the Offeror shall complete the following additional representation",
+   "source_file": "49e8eb1a324240b882432e01f3c2e141.pdf",
+   "page": 16,
+   "firm_answer": "Profile does not indicate firm provides covered defense telecommunications equipment; additional representation likely not required.",
+   "status": "meets",
+   "evidence": "Firm profile describes IT support, help desk, and cybersecurity staffing — no covered defense telecom equipment."
+  },
+  {
+   "requirement_id": "475ec029-49e8eb1a-p11-c8606b74",
+   "quote": "The Contractor shall use the following information when submitting payment requests and receiving reports in WAWF for this contract or task or delivery order:",
+   "source_file": "49e8eb1a324240b882432e01f3c2e141.pdf",
+   "page": 11,
+   "firm_answer": "Firm can register and use WAWF for payment requests; standard DoD contractor requirement.",
+   "status": "meets",
+   "evidence": "Firm has prior DoD-adjacent federal contracts (Army Corps of Engineers); WAWF use is standard."
+  },
+  {
+   "requirement_id": "475ec029-49e8eb1a-p11-b92b8889",
+   "quote": "The Contractor shall submit payment requests using the following document type(s):",
+   "source_file": "49e8eb1a324240b882432e01f3c2e141.pdf",
+   "page": 11,
+   "firm_answer": "Firm can comply with specified WAWF document types.",
+   "status": "meets",
+   "evidence": "Standard WAWF compliance; no profile constraint."
+  },
+  {
+   "requirement_id": "475ec029-49e8eb1a-p12-a93b9170",
+   "quote": "The Contractor shall ensure a receiving report meets the requirements of DFARS Appendix F.",
+   "source_file": "49e8eb1a324240b882432e01f3c2e141.pdf",
+   "page": 12,
+   "firm_answer": "Firm can produce DFARS Appendix F-compliant receiving reports; standard DoD contractor obligation.",
+   "status": "meets",
+   "evidence": "Prior federal contracts with Army Corps of Engineers imply familiarity with federal reporting requirements."
+  },
+  {
+   "requirement_id": "475ec029-0be6051f-p1-b2e13e3b",
+   "quote": "Offers must acknowledge receipt of this amendment prior to the hour and date speciﬁed in the solicitation or as amended, by one of the following methods:",
+   "source_file": "0be6051f620d4b01ad69bb376ad7f112.pdf",
+   "page": 1,
+   "firm_answer": "Firm can acknowledge amendments in proposal submission.",
+   "status": "meets",
+   "evidence": "Standard administrative requirement; no profile constraint."
+  },
+  {
+   "requirement_id": "475ec029-15a3ef3b-p1-42f404eb",
+   "quote": "Offers must acknowledge receipt of this amendment prior to the hour and date speciﬁed in the solicitation or as amended, by one of the following methods:",
+   "source_file": "15a3ef3bb200425bbae36d5a20e58295.pdf",
+   "page": 1,
+   "firm_answer": "Same as above.",
+   "status": "meets",
+   "evidence": "Standard administrative requirement; no profile constraint."
+  },
+  {
+   "requirement_id": "475ec029-descript-p0-0bf84e16",
+   "quote": "Questions: Offerors must submit all questions concerning this solicitation in writing electronically to Kaitlyn Guldan, CO, kaitlyn.guldan@spaceforce.mil.",
+   "source_file": "description",
+   "page": 0,
+   "firm_answer": "Firm can submit questions via email to the CO.",
+   "status": "meets",
+   "evidence": "Standard administrative capability."
+  },
+  {
+   "requirement_id": "475ec029-49e8eb1a-p21-333bafaf",
+   "quote": "Evaluation Factors: The following factors shall be used to evaluate quotes:",
+   "source_file": "49e8eb1a324240b882432e01f3c2e141.pdf",
+   "page": 21,
+   "firm_answer": "Evaluation factors not fully enumerated in available text; firm's technical approach for CPCS maintenance would be weak given no plant-control background.",
+   "status": "gap",
+   "evidence": "No CPCS, BAS, SCADA, or industrial control system capability or past performance in firm profile."
+  },
+  {
+   "requirement_id": "475ec029-0be6051f-p6-7cbe10e5",
+   "quote": "Evaluation Factors: The following factors shall be used to evaluate quotes:",
+   "source_file": "0be6051f620d4b01ad69bb376ad7f112.pdf",
+   "page": 6,
+   "firm_answer": "Same as above — technical evaluation factor would expose absence of CPCS expertise.",
+   "status": "gap",
+   "evidence": "No CPCS, BAS, SCADA, or industrial control system capability or past performance in firm profile."
+  },
+  {
+   "requirement_id": "475ec029-49e8eb1a-p12-286a2111",
+   "quote": "The Contractor shall ensure a payment request includes documentation appropriate to the type of payment request in accordance with the payment clause, contract ﬁnancing clause, or Federal Acquisition Regulation 52.216-7, Allowable Cost and Payment, as applicable.",
+   "source_file": "49e8eb1a324240b882432e01f3c2e141.pdf",
+   "page": 12,
+   "firm_answer": "Firm can comply with FAR payment documentation requirements.",
+   "status": "meets",
+   "evidence": "Standard federal contracting compliance; prior federal contracts demonstrate familiarity."
+  },
+  {
+   "requirement_id": "475ec029-descript-p0-df3d5ab8",
+   "quote": "Questions must be received on or before 17 August 2026, 9:00 AM MT.",
+   "source_file": "description",
+   "page": 0,
+   "firm_answer": "Deadline has passed (17 Aug 2026); firm cannot submit questions at this stage.",
+   "status": "gap",
+   "evidence": "Notice days-to-close is -10.8, confirming the solicitation deadline has passed."
+  },
+  {
+   "requirement_id": "475ec029-49e8eb1a-p10-db1f37ac",
+   "quote": "(b) Before consulting with an ombudsman, interested parties must ﬁrst address their concerns, issues, disagreements, and/ or recommendations to the contracting ofﬁcer for resolution.",
+   "source_file": "49e8eb1a324240b882432e01f3c2e141.pdf",
+   "page": 10,
+   "firm_answer": "Firm can comply with ombudsman process requirements.",
+   "status": "meets",
+   "evidence": "Standard contract administration clause; no profile constraint."
+  },
+  {
+   "requirement_id": "475ec029-49e8eb1a-p1-cc954a40",
+   "quote": "CONTRACTOR IS REQUIRED TO SIGN THIS DOCUMENT AND RETURN COPIES TO ISSUING OFFICE.",
+   "source_file": "49e8eb1a324240b882432e01f3c2e141.pdf",
+   "page": 1,
+   "firm_answer": "Firm can sign and return contract documents.",
+   "status": "meets",
+   "evidence": "Standard contract execution requirement; no profile constraint."
+  },
+  {
+   "requirement_id": "475ec029-0be6051f-p1-912bbb1f",
+   "quote": "IMPORTANT: Contractor is not is required to sign this document and return copies to the issuing ofﬁce.",
+   "source_file": "0be6051f620d4b01ad69bb376ad7f112.pdf",
+   "page": 1,
+   "firm_answer": "Amendment document; no signature required per this instruction.",
+   "status": "meets",
+   "evidence": "Standard amendment handling; no profile constraint."
+  },
+  {
+   "requirement_id": "475ec029-15a3ef3b-p1-9cda7530",
+   "quote": "IMPORTANT: Contractor is not is required to sign this document and return copies to the issuing ofﬁce.",
+   "source_file": "15a3ef3bb200425bbae36d5a20e58295.pdf",
+   "page": 1,
+   "firm_answer": "Same as above.",
+   "status": "meets",
+   "evidence": "Standard amendment handling; no profile constraint."
+  }
+ ],
+ "matrix_dropped": 0,
+ "matrix_dropped_rows": [],
+ "fit_score_code": 0.7895,
+ "drafts": {
+  "capability_statement": "Sooner Systems LLC — Capability Statement\nSubmitted in response to FA255026R0026, Central Plant Computer System (CPCS) Maintenance, Schriever Space Force Base, CO\n\nSooner Systems LLC is a Small Business Administration-registered small business with an exact NAICS 541512 match to this solicitation. We are eligible to compete under the Total Small Business Set-Aside and hold an active SAM registration.\n\nOur workforce includes 22 personnel holding Secret-level clearances, supporting base-access requirements at Schriever SFB without administrative delay. We maintain a 24×7 network operations center (NOC) capability and have demonstrated sustained performance on federal IT contracts.\n\nPast Performance:\n• IT Help Desk and Desktop Support — U.S. Army Corps of Engineers, Tulsa District | NAICS 541512 | ~$2.1M | 2022–2025. Delivered Tier 1/Tier 2 service desk, end-user support, and ITIL-aligned ticketing operations.\n• Network Administration and Cybersecurity Support — FAA Mike Monroney Aeronautical Center | NAICS 541519 | ~$1.65M | 2021–2024. Provided RMF/ATO support, vulnerability management (ACAS/STIG), SIEM/SOAR operations, and ISSO services in a federal aviation environment.\n\nCombined past federal contract value: approximately $3.75M. Both contracts were performed on schedule and within budget.\n\nSooner Systems LLC is prepared to provide a statement of financial responsibility, complete the CLIN pricing schedule, and submit a full technical proposal by the 3 September 2026 deadline.\n\nPoint of Contact: [Name], [Title]\nPhone: [Phone] | Email: [Email]\nSAM UEI: [UEI] | CAGE: [CAGE]",
+  "questions_for_co": [
+   "The Performance Work Statement (PWS) is available only via DoD SAFE request. Can the PWS be provided immediately, and what is the turnaround time for DoD SAFE distribution, given the proposal deadline of 3 September 2026? [475ec029-descript-p0-df3d5ab8]",
+   "The solicitation references evaluation factors in SF1449 clause 52.212-2 but does not reproduce them in the publicly available text. Can the government provide the complete list of evaluation factors and their relative weights or order of importance so offerors can structure their technical proposals accordingly? [475ec029-49e8eb1a-p21-333bafaf, 475ec029-0be6051f-p6-7cbe10e5]",
+   "The solicitation states offerors must demonstrate 'necessary production, construction, and technical equipment and facilities' for CPCS maintenance. Can the government specify what equipment, tools, or facilities are minimally required to satisfy this determination for the CPCS scope at Schriever SFB? [475ec029-descript-p0-b9b8d338]",
+   "Does the government require past performance specifically in Central Plant Computer System, building automation system (BAS), SCADA, or industrial control system maintenance, or will relevant IT systems maintenance and federal contract experience be considered comparable? [475ec029-0be6051f-p4-53d5d696]",
+   "Will the government accept a teaming arrangement or subcontracting plan that brings CPCS-specific technical expertise, and if so, what documentation is required to demonstrate the subcontractor's qualifications in the proposal? [475ec029-descript-p0-75ebb9de]",
+   "Is on-site presence at Schriever SFB required on a daily or scheduled basis throughout the period of performance, or is the work primarily response-based with defined response-time windows specified in the PWS? [475ec029-49e8eb1a-p14-32023d56]"
+  ],
+  "calendar_entries": [
+   {
+    "title": "Site Visit",
+    "date": "2026-08-13",
+    "note": "Optional (but highly encouraged) site visit at Schriever Space Force Base, Restricted Area, North Portal. Participants must meet at the visitors center no later than 08:15 AM MT. Email CO to confirm attendance by 12 August 2026, 3:00 PM MT.",
+    "source_quote": "On Thursday, 13 August 2026 at 0900 (9:00 AM) Mountain Time (MT) there will be a site visit. The location will be held on Schriever Space Force Base within the Restricted Area. North Portal area."
+   },
+   {
+    "title": "Questions Due",
+    "date": "2026-08-17",
+    "note": "All questions must be submitted in writing electronically to Kaitlyn Guldan, CO, kaitlyn.guldan@spaceforce.mil by 9:00 AM MT.",
+    "source_quote": "Questions must be received on or before 17 August 2026, 9:00 AM MT."
+   },
+   {
+    "title": "Decide By (2 business days before proposal due)",
+    "date": "2026-09-01",
+    "note": "Internal bid/no-bid decision deadline — 2 business days before proposal due date of 3 September 2026.",
+    "source_quote": "Proposals submitted in response to this solicitation shall be submitted via email no later than Thursday, 3 September 2026, 9:00 AM MT."
+   },
+   {
+    "title": "Proposal Due",
+    "date": "2026-09-03",
+    "note": "Proposals must be submitted via email to Kaitlyn Guldan by 9:00 AM MT. Quotes must be valid for 60 days from this deadline. This is the final due date after Amendment 0002 extended it from 28 August 2026.",
+    "source_quote": "Proposals submitted in response to this solicitation shall be submitted via email no later than Thursday, 3 September 2026, 9:00 AM MT."
+   }
+  ]
+ },
+ "reader": {
+  "notice_id": "475ec0299ae04542bccd77d1049b5772",
+  "key_requirement_ids": [
+   "475ec029-descript-p0-909e97d6",
+   "475ec029-descript-p0-a43e715c",
+   "475ec029-descript-p0-75ebb9de",
+   "475ec029-descript-p0-e7d2176a",
+   "475ec029-descript-p0-bb73ab7c",
+   "475ec029-descript-p0-b9b8d338",
+   "475ec029-descript-p0-3102354e",
+   "475ec029-descript-p0-dd7a95eb",
+   "475ec029-descript-p0-2522c249",
+   "475ec029-49e8eb1a-p21-333bafaf",
+   "475ec029-0be6051f-p6-7cbe10e5",
+   "475ec029-49e8eb1a-p18-f25c0290",
+   "475ec029-0be6051f-p3-05e3cca6",
+   "475ec029-49e8eb1a-p14-32023d56",
+   "475ec029-49e8eb1a-p13-4a6e7c76",
+   "475ec029-15a3ef3b-p7-7568c840",
+   "475ec029-49e8eb1a-p19-d513edf5",
+   "475ec029-15a3ef3b-p1-42f404eb",
+   "475ec029-0be6051f-p1-b2e13e3b",
+   "475ec029-descript-p0-0bf84e16"
+  ],
+  "scope_summary": "The government is acquiring Central Plant Computer System (CPCS) maintenance services at Schriever Space Force Base (SSFB) in Colorado Springs, CO, under solicitation FA255026R0026. The period of performance is 1 September 2026 through 1 March 2032, with a total contract duration not to exceed 66 months including any options. The full description of services is contained in a Performance Work Statement (PWS) available via DoD SAFE upon request from the contracting officer.",
+  "evaluation_basis": "Evaluation criteria is included in the SF1449 in 52.212-2; the solicitation states \"Evaluation Factors: The following factors shall be used to evaluate quotes:\" but the specific factors are not reproduced in the provided text. Offerors must also be found to have \"adequate financial resources\" and \"necessary production, construction, and technical equipment and facilities\" to perform the contract. Active SAM registration is required for award eligibility.",
+  "incumbent_or_history": "none found",
+  "quotes": [
+   "Proposals submitted in response to this solicitation shall be submitted via email no later than Thursday, 3 September 2026, 9:00 AM MT.",
+   "The period of Performance is 1 September 2026 - 1 March 2032.",
+   "(c) The total duration of this contract, including the exercise of any options under this clause, shall not exceed 66 Months(months) (years).",
+   "The option provision may be exercised more than once, but the total extension of performance hereunder shall not exceed 6 months.",
+   "At a minimum, vendor shall submit A technical description of the services and or items being proposed in sufficient detail to evaluate compliance with the requirements in the solicitation.",
+   "Vendors must submit a statement of financial responsibility.",
+   "Offerors must submit the CLIN Pricing Schedule.",
+   "In order to receive the award, your company must be found to have both \"adequate financial resources\" and \"necessary production, construction, and technical equipment and facilities\" to perform the contract (and/or the ability to obtain them).",
+   "Evlauation criteria is included in the SF1449 in 52.212-2.",
+   "Evaluation Factors: The following factors shall be used to evaluate quotes:",
+   "To be eligible for contract award, the vendor and/or the furniture manufacturer shall have an active System for Award Management (SAM) account.",
+   "Assumptions/Exceptions: The offeror shall state any assumptions and exceptions to the requirements and terms and conditions contained in the RFP in their proposal.",
+   "Vendor shall also include terms of any warranty, price and discount terms, and an acknowledgement of Solicitation Amendments.",
+   "Quotes must be valid for 60 days from the response deadline.",
+   "This requirment is a 100% Small Business Set-Aisde.",
+   "Past performance must include a summary of work conducted with it. ii."
+  ]
+ },
+ "fit": {
+  "notice_id": "475ec0299ae04542bccd77d1049b5772",
+  "fit_score": 0.27,
+  "matched_past_performance": [
+   "IT help desk and desktop support | customer US Army Corps of Engineers, Tulsa District | naics 541512 | 2100000 USD | 2022-2025 | keywords: help desk, desktop, tier 1, tier 2, service desk, ITIL, ticketing, end user, information technology, IT services, IT support",
+   "Network administration and cybersecurity support | customer FAA Mike Monroney Aeronautical Center | naics 541519 | 1650000 USD | 2021-2024 | keywords: network, cybersecurity, cyber, security, SOC, SIEM, SOAR, incident response, RMF, ATO, vulnerability, ACAS, STIG, firewall, ISSO"
+  ],
+  "strengths": [
+   "Eligible for Total Small Business set-aside (SBA-registered)",
+   "NAICS 541512 matches solicitation NAICS exactly",
+   "22 cleared staff at Secret level — base access feasible",
+   "Two past-performance records exist (meets owner rule ss-pp threshold)",
+   "CMMC Level 2 self-assessed and RMF/ATO experience relevant to DoD IT environment",
+   "Solicitation is a real solicitation (not award notice/J&A), satisfying owner rule ss-types"
+  ],
+  "gaps": [
+   "Core scope is Central Plant Computer System (CPCS) maintenance — industrial/building-controls IT, not help desk or cybersecurity staffing; firm has no CPCS or building-automation past performance",
+   "No evidence of HVAC/BAS/SCADA or industrial control system expertise in profile",
+   "Place of performance is Schriever SFB, Colorado Springs CO; firm is based in Norman OK with no stated Colorado presence or on-site capability",
+   "PWS not publicly available — full technical scope unknown, increasing risk of hidden requirements firm cannot meet",
+   "No past performance directly involving Space Force or similar plant-control systems",
+   "Past-performance keyword sets (help desk, cybersecurity) do not align with CPCS maintenance keywords",
+   "Owner rule ss-pp requires two matching past-performance records; neither existing record matches CPCS/plant-control scope"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "475ec029-descript-p0-909e97d6",
+    "quote": "Proposals submitted in response to this solicitation shall be submitted via email no later than Thursday, 3 September 2026, 9:00 AM MT.",
+    "source_file": "description",
+    "page": 0,
+    "firm_answer": "Firm can submit via email by the deadline; no profile barrier.",
+    "status": "meets",
+    "evidence": "Standard administrative capability; no profile constraint identified."
+   },
+   {
+    "requirement_id": "475ec029-descript-p0-75ebb9de",
+    "quote": "At a minimum, vendor shall submit A technical description of the services and or items being proposed in sufficient detail to evaluate compliance with the requirements in the solicitation.",
+    "source_file": "description",
+    "page": 0,
+    "firm_answer": "Firm can write a technical description, but the underlying CPCS maintenance technical content is absent from the profile; description would be thin.",
+    "status": "partial",
+    "evidence": "Profile lists IT support and cybersecurity capabilities but no CPCS/building-controls expertise to describe."
+   },
+   {
+    "requirement_id": "475ec029-descript-p0-e7d2176a",
+    "quote": "Vendors must submit a statement of financial responsibility.",
+    "source_file": "description",
+    "page": 0,
+    "firm_answer": "Firm can provide a self-attestation statement per Level One guidance in the solicitation.",
+    "status": "meets",
+    "evidence": "Small business with two active federal contracts totaling ~$3.75M; self-attestation is the assigned level."
+   },
+   {
+    "requirement_id": "475ec029-descript-p0-bb73ab7c",
+    "quote": "Offerors must submit the CLIN Pricing Schedule.",
+    "source_file": "description",
+    "page": 0,
+    "firm_answer": "Firm can complete a CLIN pricing schedule once the PWS scope is known; no profile barrier to the administrative act.",
+    "status": "partial",
+    "evidence": "PWS not publicly available; cannot price CPCS maintenance without technical scope details."
+   },
+   {
+    "requirement_id": "475ec029-descript-p0-b9b8d338",
+    "quote": "In order to receive the award, your company must be found to have both \"adequate financial resources\" and \"necessary production, construction, and technical equipment and facilities\" to perform the contract (and/or the ability to obtain them).",
+    "source_file": "description",
+    "page": 0,
+    "firm_answer": "Financial resources plausible; however, 'necessary production, construction, and technical equipment and facilities' for CPCS maintenance are not evidenced in the profile.",
+    "status": "partial",
+    "evidence": "Profile lists 24x7 NOC and cleared staff but no plant-control or industrial-systems equipment/facilities."
+   },
+   {
+    "requirement_id": "475ec029-0be6051f-p3-05e3cca6",
+    "quote": "To be eligible for contract award, the vendor and/or the furniture manufacturer shall have an active System for Award Management (SAM) account.",
+    "source_file": "0be6051f620d4b01ad69bb376ad7f112.pdf",
+    "page": 3,
+    "firm_answer": "Profile states firm is SBA-registered; SAM registration is a prerequisite for SBA eligibility, so active SAM account is presumed.",
+    "status": "meets",
+    "evidence": "SBA set-aside eligibility listed in firm profile implies active SAM registration."
+   },
+   {
+    "requirement_id": "475ec029-15a3ef3b-p6-aa6227d8",
+    "quote": "To be eligible for contract award, the vendor and/or the furniture manufacturer shall have an active System for Award Management (SAM) account.",
+    "source_file": "15a3ef3bb200425bbae36d5a20e58295.pdf",
+    "page": 6,
+    "firm_answer": "Same as above — active SAM account presumed from SBA eligibility.",
+    "status": "meets",
+    "evidence": "SBA set-aside eligibility listed in firm profile implies active SAM registration."
+   },
+   {
+    "requirement_id": "475ec029-49e8eb1a-p18-f25c0290",
+    "quote": "To be eligible for contract award, the vendor and/or the furniture manufacturer shall have an active System for Award Management (SAM) account.",
+    "source_file": "49e8eb1a324240b882432e01f3c2e141.pdf",
+    "page": 18,
+    "firm_answer": "Active SAM account presumed from SBA eligibility.",
+    "status": "meets",
+    "evidence": "SBA set-aside eligibility listed in firm profile implies active SAM registration."
+   },
+   {
+    "requirement_id": "475ec029-descript-p0-3102354e",
+    "quote": "Assumptions/Exceptions: The offeror shall state any assumptions and exceptions to the requirements and terms and conditions contained in the RFP in their proposal.",
+    "source_file": "description",
+    "page": 0,
+    "firm_answer": "Firm can include an assumptions/exceptions section; no profile barrier.",
+    "status": "meets",
+    "evidence": "Standard proposal writing capability; no constraint in profile."
+   },
+   {
+    "requirement_id": "475ec029-descript-p0-2522c249",
+    "quote": "Quotes must be valid for 60 days from the response deadline.",
+    "source_file": "description",
+    "page": 0,
+    "firm_answer": "Firm can commit to 60-day quote validity; no profile barrier.",
+    "status": "meets",
+    "evidence": "Administrative requirement; no profile constraint identified."
+   },
+   {
+    "requirement_id": "475ec029-descript-p0-dd7a95eb",
+    "quote": "Vendor shall also include terms of any warranty, price and discount terms, and an acknowledgement of Solicitation Amendments.",
+    "source_file": "description",
+    "page": 0,
+    "firm_answer": "Firm can include warranty terms, pricing, and amendment acknowledgement in proposal.",
+    "status": "meets",
+    "evidence": "Standard proposal element; no profile constraint."
+   },
+   {
+    "requirement_id": "475ec029-0be6051f-p3-7b9ce489",
+    "quote": "The vendor must provide all of the following at the time of submitting a quote: a.",
+    "source_file": "0be6051f620d4b01ad69bb376ad7f112.pdf",
+    "page": 3,
+    "firm_answer": "Firm can assemble required quote package; specific sub-items depend on PWS which is not publicly available.",
+    "status": "partial",
+    "evidence": "Administrative capability present; CPCS-specific technical content is the gap."
+   },
+   {
+    "requirement_id": "475ec029-15a3ef3b-p6-fe199b7b",
+    "quote": "The vendor must provide all of the following at the time of submitting a quote: a.",
+    "source_file": "15a3ef3bb200425bbae36d5a20e58295.pdf",
+    "page": 6,
+    "firm_answer": "Same as above.",
+    "status": "partial",
+    "evidence": "Administrative capability present; CPCS-specific technical content is the gap."
+   },
+   {
+    "requirement_id": "475ec029-49e8eb1a-p18-cf1da650",
+    "quote": "The vendor must provide all of the following at the time of submitting a quote: a.",
+    "source_file": "49e8eb1a324240b882432e01f3c2e141.pdf",
+    "page": 18,
+    "firm_answer": "Same as above.",
+    "status": "partial",
+    "evidence": "Administrative capability present; CPCS-specific technical content is the gap."
+   },
+   {
+    "requirement_id": "475ec029-0be6051f-p4-53d5d696",
+    "quote": "Past performance must include a summary of work conducted with it. ii.",
+    "source_file": "0be6051f620d4b01ad69bb376ad7f112.pdf",
+    "page": 4,
+    "firm_answer": "Firm has two past-performance records with summaries, but neither involves CPCS or plant-control systems maintenance.",
+    "status": "partial",
+    "evidence": "IT help desk and desktop support (Army Corps of Engineers); Network administration and cybersecurity support (FAA) — neither matches CPCS scope."
+   },
+   {
+    "requirement_id": "475ec029-15a3ef3b-p7-7568c840",
+    "quote": "Past performance must include a summary of work conducted with it. ii.",
+    "source_file": "15a3ef3bb200425bbae36d5a20e58295.pdf",
+    "page": 7,
+    "firm_answer": "Same as above — two records available but neither is relevant to CPCS maintenance.",
+    "status": "partial",
+    "evidence": "IT help desk and desktop support (Army Corps of Engineers); Network administration and cybersecurity support (FAA)."
+   },
+   {
+    "requirement_id": "475ec029-49e8eb1a-p19-d513edf5",
+    "quote": "Past performance must include a summary of work conducted with it. ii.",
+    "source_file": "49e8eb1a324240b882432e01f3c2e141.pdf",
+    "page": 19,
+    "firm_answer": "Same as above.",
+    "status": "partial",
+    "evidence": "IT help desk and desktop support (Army Corps of Engineers); Network administration and cybersecurity support (FAA)."
+   },
+   {
+    "requirement_id": "475ec029-49e8eb1a-p13-4a6e7c76",
+    "quote": "The option provision may be exercised more than once, but the total extension of performance hereunder shall not exceed 6 months.",
+    "source_file": "49e8eb1a324240b882432e01f3c2e141.pdf",
+    "page": 13,
+    "firm_answer": "Firm can contractually accept option clauses; no profile barrier to the clause itself.",
+    "status": "meets",
+    "evidence": "Standard contract clause acceptance; no profile constraint."
+   },
+   {
+    "requirement_id": "475ec029-49e8eb1a-p14-32023d56",
+    "quote": "The total duration of this contract, including the exercise of any options under this clause, shall not exceed 66 Months(months) (years).",
+    "source_file": "49e8eb1a324240b882432e01f3c2e141.pdf",
+    "page": 14,
+    "firm_answer": "Period of performance 1 Sep 2026 – 1 Mar 2032 (~66 months) is a long commitment; firm has no stated Colorado on-site presence to sustain.",
+    "status": "partial",
+    "evidence": "Firm is based in Norman, OK; no Colorado office or on-site staffing capability stated in profile."
+   },
+   {
+    "requirement_id": "475ec029-0be6051f-p5-ac02b98d",
+    "quote": "You must bring two forms of identiﬁcations (ex. driver's license and passport) and valid car insurance (pertaining to the vehicle you will be using to access base).",
+    "source_file": "0be6051f620d4b01ad69bb376ad7f112.pdf",
+    "page": 5,
+    "firm_answer": "Firm staff can bring required IDs and insurance for site visit; 22 cleared staff (Secret) supports base access.",
+    "status": "meets",
+    "evidence": "22 cleared staff (Secret) listed in firm profile."
+   },
+   {
+    "requirement_id": "475ec029-15a3ef3b-p8-e89678ca",
+    "quote": "You must bring two forms of identiﬁcations (ex. driver's license and passport) and valid car insurance (pertaining to the vehicle you will be using to access base).",
+    "source_file": "15a3ef3bb200425bbae36d5a20e58295.pdf",
+    "page": 8,
+    "firm_answer": "Same as above.",
+    "status": "meets",
+    "evidence": "22 cleared staff (Secret) listed in firm profile."
+   },
+   {
+    "requirement_id": "475ec029-49e8eb1a-p20-841e1d94",
+    "quote": "You must bring two forms of identiﬁcations (ex. driver's license and passport) and valid car insurance (pertaining to the vehicle you will be using to access base).",
+    "source_file": "49e8eb1a324240b882432e01f3c2e141.pdf",
+    "page": 20,
+    "firm_answer": "Same as above.",
+    "status": "meets",
+    "evidence": "22 cleared staff (Secret) listed in firm profile."
+   },
+   {
+    "requirement_id": "475ec029-49e8eb1a-p16-bfbb2a46",
+    "quote": "The Offeror shall review the list of excluded parties in the System for Award Management (SAM) at https://www.sam.gov for entities that are excluded when providing any equipment, system, or service to carry out covered missions that uses covered defense telecommunications equipment or services as a substantial or essential component of any system, or as critical technology as part of any system, unless a waiver is granted.",
+    "source_file": "49e8eb1a324240b882432e01f3c2e141.pdf",
+    "page": 16,
+    "firm_answer": "Firm can review SAM excluded parties list; no profile indication of covered defense telecom equipment use.",
+    "status": "meets",
+    "evidence": "No covered defense telecommunications equipment listed in firm profile capabilities."
+   },
+   {
+    "requirement_id": "475ec029-49e8eb1a-p16-89ba42b5",
+    "quote": "If in its annual representations and certiﬁcations in SAM the Offeror has represented in paragraph (c) of the provision at 252.204-7016, Covered Defense Telecommunications Equipment or Services-Representation, that it \"does\" provide covered defense telecommunications equipment or services as a part of its offered products or services to the Government in the performance of any contract, subcontract, or other contractual instrument, then the Offeror shall complete the following additional representation",
+    "source_file": "49e8eb1a324240b882432e01f3c2e141.pdf",
+    "page": 16,
+    "firm_answer": "Profile does not indicate firm provides covered defense telecommunications equipment; additional representation likely not required.",
+    "status": "meets",
+    "evidence": "Firm profile describes IT support, help desk, and cybersecurity staffing — no covered defense telecom equipment."
+   },
+   {
+    "requirement_id": "475ec029-49e8eb1a-p11-c8606b74",
+    "quote": "The Contractor shall use the following information when submitting payment requests and receiving reports in WAWF for this contract or task or delivery order:",
+    "source_file": "49e8eb1a324240b882432e01f3c2e141.pdf",
+    "page": 11,
+    "firm_answer": "Firm can register and use WAWF for payment requests; standard DoD contractor requirement.",
+    "status": "meets",
+    "evidence": "Firm has prior DoD-adjacent federal contracts (Army Corps of Engineers); WAWF use is standard."
+   },
+   {
+    "requirement_id": "475ec029-49e8eb1a-p11-b92b8889",
+    "quote": "The Contractor shall submit payment requests using the following document type(s):",
+    "source_file": "49e8eb1a324240b882432e01f3c2e141.pdf",
+    "page": 11,
+    "firm_answer": "Firm can comply with specified WAWF document types.",
+    "status": "meets",
+    "evidence": "Standard WAWF compliance; no profile constraint."
+   },
+   {
+    "requirement_id": "475ec029-49e8eb1a-p12-a93b9170",
+    "quote": "The Contractor shall ensure a receiving report meets the requirements of DFARS Appendix F.",
+    "source_file": "49e8eb1a324240b882432e01f3c2e141.pdf",
+    "page": 12,
+    "firm_answer": "Firm can produce DFARS Appendix F-compliant receiving reports; standard DoD contractor obligation.",
+    "status": "meets",
+    "evidence": "Prior federal contracts with Army Corps of Engineers imply familiarity with federal reporting requirements."
+   },
+   {
+    "requirement_id": "475ec029-0be6051f-p1-b2e13e3b",
+    "quote": "Offers must acknowledge receipt of this amendment prior to the hour and date speciﬁed in the solicitation or as amended, by one of the following methods:",
+    "source_file": "0be6051f620d4b01ad69bb376ad7f112.pdf",
+    "page": 1,
+    "firm_answer": "Firm can acknowledge amendments in proposal submission.",
+    "status": "meets",
+    "evidence": "Standard administrative requirement; no profile constraint."
+   },
+   {
+    "requirement_id": "475ec029-15a3ef3b-p1-42f404eb",
+    "quote": "Offers must acknowledge receipt of this amendment prior to the hour and date speciﬁed in the solicitation or as amended, by one of the following methods:",
+    "source_file": "15a3ef3bb200425bbae36d5a20e58295.pdf",
+    "page": 1,
+    "firm_answer": "Same as above.",
+    "status": "meets",
+    "evidence": "Standard administrative requirement; no profile constraint."
+   },
+   {
+    "requirement_id": "475ec029-descript-p0-0bf84e16",
+    "quote": "Questions: Offerors must submit all questions concerning this solicitation in writing electronically to Kaitlyn Guldan, CO, kaitlyn.guldan@spaceforce.mil.",
+    "source_file": "description",
+    "page": 0,
+    "firm_answer": "Firm can submit questions via email to the CO.",
+    "status": "meets",
+    "evidence": "Standard administrative capability."
+   },
+   {
+    "requirement_id": "475ec029-49e8eb1a-p21-333bafaf",
+    "quote": "Evaluation Factors: The following factors shall be used to evaluate quotes:",
+    "source_file": "49e8eb1a324240b882432e01f3c2e141.pdf",
+    "page": 21,
+    "firm_answer": "Evaluation factors not fully enumerated in available text; firm's technical approach for CPCS maintenance would be weak given no plant-control background.",
+    "status": "gap",
+    "evidence": "No CPCS, BAS, SCADA, or industrial control system capability or past performance in firm profile."
+   },
+   {
+    "requirement_id": "475ec029-0be6051f-p6-7cbe10e5",
+    "quote": "Evaluation Factors: The following factors shall be used to evaluate quotes:",
+    "source_file": "0be6051f620d4b01ad69bb376ad7f112.pdf",
+    "page": 6,
+    "firm_answer": "Same as above — technical evaluation factor would expose absence of CPCS expertise.",
+    "status": "gap",
+    "evidence": "No CPCS, BAS, SCADA, or industrial control system capability or past performance in firm profile."
+   },
+   {
+    "requirement_id": "475ec029-49e8eb1a-p12-286a2111",
+    "quote": "The Contractor shall ensure a payment request includes documentation appropriate to the type of payment request in accordance with the payment clause, contract ﬁnancing clause, or Federal Acquisition Regulation 52.216-7, Allowable Cost and Payment, as applicable.",
+    "source_file": "49e8eb1a324240b882432e01f3c2e141.pdf",
+    "page": 12,
+    "firm_answer": "Firm can comply with FAR payment documentation requirements.",
+    "status": "meets",
+    "evidence": "Standard federal contracting compliance; prior federal contracts demonstrate familiarity."
+   },
+   {
+    "requirement_id": "475ec029-descript-p0-df3d5ab8",
+    "quote": "Questions must be received on or before 17 August 2026, 9:00 AM MT.",
+    "source_file": "description",
+    "page": 0,
+    "firm_answer": "Deadline has passed (17 Aug 2026); firm cannot submit questions at this stage.",
+    "status": "gap",
+    "evidence": "Notice days-to-close is -10.8, confirming the solicitation deadline has passed."
+   },
+   {
+    "requirement_id": "475ec029-49e8eb1a-p10-db1f37ac",
+    "quote": "(b) Before consulting with an ombudsman, interested parties must ﬁrst address their concerns, issues, disagreements, and/ or recommendations to the contracting ofﬁcer for resolution.",
+    "source_file": "49e8eb1a324240b882432e01f3c2e141.pdf",
+    "page": 10,
+    "firm_answer": "Firm can comply with ombudsman process requirements.",
+    "status": "meets",
+    "evidence": "Standard contract administration clause; no profile constraint."
+   },
+   {
+    "requirement_id": "475ec029-49e8eb1a-p1-cc954a40",
+    "quote": "CONTRACTOR IS REQUIRED TO SIGN THIS DOCUMENT AND RETURN COPIES TO ISSUING OFFICE.",
+    "source_file": "49e8eb1a324240b882432e01f3c2e141.pdf",
+    "page": 1,
+    "firm_answer": "Firm can sign and return contract documents.",
+    "status": "meets",
+    "evidence": "Standard contract execution requirement; no profile constraint."
+   },
+   {
+    "requirement_id": "475ec029-0be6051f-p1-912bbb1f",
+    "quote": "IMPORTANT: Contractor is not is required to sign this document and return copies to the issuing ofﬁce.",
+    "source_file": "0be6051f620d4b01ad69bb376ad7f112.pdf",
+    "page": 1,
+    "firm_answer": "Amendment document; no signature required per this instruction.",
+    "status": "meets",
+    "evidence": "Standard amendment handling; no profile constraint."
+   },
+   {
+    "requirement_id": "475ec029-15a3ef3b-p1-9cda7530",
+    "quote": "IMPORTANT: Contractor is not is required to sign this document and return copies to the issuing ofﬁce.",
+    "source_file": "15a3ef3bb200425bbae36d5a20e58295.pdf",
+    "page": 1,
+    "firm_answer": "Same as above.",
+    "status": "meets",
+    "evidence": "Standard amendment handling; no profile constraint."
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "475ec0299ae04542bccd77d1049b5772",
+  "key_dates": {
+   "questions_due": "2026-08-17T09:00:00-06:00",
+   "proposal_due": "2026-09-03T09:00:00-06:00",
+   "site_visit": "2026-08-13T09:00:00-06:00",
+   "period_of_performance": "1 September 2026 – 1 March 2032",
+   "source_quotes": [
+    "Questions must be received on or before 17 August 2026, 9:00 AM MT.",
+    "On Thursday, 13 August 2026 at 0900 (9:00 AM) Mountain Time (MT) there will be a site visit.",
+    "Proposals submitted in response to this solicitation shall be submitted via email no later than Thursday, 3 September 2026, 9:00 AM MT.",
+    "The period of Performance is 1 September 2026 - 1 March 2032."
+   ]
+  },
+  "days_to_close": -10.848077293333333,
+  "set_aside_note": "The notice is set aside as \"Small Business Set Aside - Total.\" Sooner Systems LLC can claim SBA (small business), so the firm IS eligible to bid under this set-aside.",
+  "amendment_note": "no amendment",
+  "calendar_entries": [
+   {
+    "title": "Site Visit",
+    "date": "2026-08-13",
+    "note": "Optional (but highly encouraged) site visit at Schriever Space Force Base, Restricted Area, North Portal. Participants must meet at the visitors center no later than 08:15 AM MT. Email CO to confirm attendance by 12 August 2026, 3:00 PM MT.",
+    "source_quote": "On Thursday, 13 August 2026 at 0900 (9:00 AM) Mountain Time (MT) there will be a site visit. The location will be held on Schriever Space Force Base within the Restricted Area. North Portal area."
+   },
+   {
+    "title": "Questions Due",
+    "date": "2026-08-17",
+    "note": "All questions must be submitted in writing electronically to Kaitlyn Guldan, CO, kaitlyn.guldan@spaceforce.mil by 9:00 AM MT.",
+    "source_quote": "Questions must be received on or before 17 August 2026, 9:00 AM MT."
+   },
+   {
+    "title": "Decide By (2 business days before proposal due)",
+    "date": "2026-09-01",
+    "note": "Internal bid/no-bid decision deadline — 2 business days before proposal due date of 3 September 2026.",
+    "source_quote": "Proposals submitted in response to this solicitation shall be submitted via email no later than Thursday, 3 September 2026, 9:00 AM MT."
+   },
+   {
+    "title": "Proposal Due",
+    "date": "2026-09-03",
+    "note": "Proposals must be submitted via email to Kaitlyn Guldan by 9:00 AM MT. Quotes must be valid for 60 days from this deadline. This is the final due date after Amendment 0002 extended it from 28 August 2026.",
+    "source_quote": "Proposals submitted in response to this solicitation shall be submitted via email no later than Thursday, 3 September 2026, 9:00 AM MT."
+   }
+  ]
+ },
+ "model_calls": 5,
+ "tokens_in": 51408,
+ "tokens_out": 13042,
+ "seconds": 102.31,
+ "produced_at": "2026-09-14T06:22:56.186115-05:00"
+}

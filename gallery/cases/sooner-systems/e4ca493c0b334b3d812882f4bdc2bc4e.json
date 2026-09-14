@@ -1,0 +1,845 @@
+{
+ "notice_id": "e4ca493c0b334b3d812882f4bdc2bc4e",
+ "firm_slug": "sooner-systems",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:38:30-05:00",
+ "evidence_basis": null,
+ "days_to_close": 0.5440404200231481,
+ "closed": false,
+ "response_kind": "proposal",
+ "card": {
+  "notice_id": "e4ca493c0b334b3d812882f4bdc2bc4e",
+  "firm_slug": "sooner-systems",
+  "situation": "SWFPAC (Dept. of the Navy) solicits a firm-fixed-price professional services contract to migrate a legacy Microsoft Access 2003 warehouse/inventory database to the Navy's Microsoft 365 \"Flank Speed\" platform using SharePoint Online, Power Apps, and Power Automate, with UAT support and a Migration Guide, delivered 100% remotely within 180 calendar days.\nThis notice reached the owner because Sooner Systems' NAICS 541512 matches, the firm holds SDVOSB status, and one past-performance record references a Microsoft 365 migration.",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "CMMC Level 2 self-assessed exceeds the contract's CMMC Level 1 (Self) threshold, removing a common DoN compliance barrier [e4ca493c-4379a941-p22-72f61d3e].",
+   "The 100% remote place of performance aligns perfectly with the firm's Norman, OK facility and existing 24x7 NOC delivery model [e4ca493c-4379a941-p7-ff39d287].",
+   "NAICS 541512 matches the solicitation and the firm's SDVOSB status remains valid; the unrestricted set-aside does not disqualify the firm [e4ca493c-4379a941-p20-dec1759d]."
+  ],
+  "reasons_against": [
+   "No Microsoft certifications of any kind are listed in the firm profile, making it impossible to submit the required certification documentation with the quote — a hard submission requirement [e4ca493c-259937fc-p6-7b7c35a5].",
+   "The firm has no stated Power Apps, Power Automate, SharePoint Online architecture, or Access 2003 migration capability; 23 of 37 requirements are gaps directly tied to these missing technical competencies [e4ca493c-259937fc-p5-4a872785].",
+   "Only one past-performance record touches M365 migration (Oklahoma National Guard) and it does not reference Access-to-Power Platform work; the solicitation explicitly requires documented evidence of Access-to-M365/Power Platform migration competency, and the owner's two-PP rule cannot be satisfied [e4ca493c-4379a941-p5-5f3a9177]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-09-10",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-09-14T17:00:00-07:00",
+   "site_visit": null,
+   "period_of_performance": "180 calendar days from date of contract award",
+   "source_quotes": [
+    "5.0 Period of Performance The Period of Performance (PoP) for this effort shall be 180 calendar days from the date of contract award.",
+    "All work required under this contract must be completed within 180 calendar days of contract award.",
+    "The contractor shall be liable for any nonperformance outside of the required 180 calendar day period of performance."
+   ]
+  },
+  "fit_score": 0.2917,
+  "matrix_summary": "8 of 37 requirements met, 5 partial, 23 gap, 1 unknown",
+  "evidence_link": "https://sam.gov/workspace/contract/opp/e4ca493c0b334b3d812882f4bdc2bc4e/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "e4ca493c-4379a941-p5-5f3a9177",
+   "quote": "Interested vendors must provide documented evidence of successful past performance and technical competency in designing, deploying, and supporting migrations from legacy Microsoft Access systems to Microsoft 365/Power Platform environments.",
+   "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+   "page": 5,
+   "firm_answer": "The Oklahoma National Guard past performance references Microsoft 365 and migration but does not mention Microsoft Access, Power Apps, Power Automate, or SharePoint Online data architecture. No second qualifying past-performance record exists in the profile.",
+   "status": "gap",
+   "evidence": "Systems administration and Microsoft 365 migration | customer Oklahoma National Guard — keywords include migration and Microsoft 365 but not Access-to-Power Platform migration"
+  },
+  {
+   "requirement_id": "e4ca493c-259937fc-p6-7b7c35a5",
+   "quote": "Amendment 0001 states that interested vendors must hold Microsoft certifications in Microsoft 365 and SharePoint Online, with certification documentation submitted with quotes.",
+   "source_file": "259937fc0c4d40d7bf57bdf935fc0d92.pdf",
+   "page": 6,
+   "firm_answer": "The firm profile lists no Microsoft certifications of any kind. Certification documentation cannot be submitted.",
+   "status": "gap",
+   "evidence": "No Microsoft certifications listed anywhere in the firm profile"
+  },
+  {
+   "requirement_id": "e4ca493c-2d7b0065-p26-97e56013",
+   "quote": "Amendment 0001, instruction 6, states that interested vendors must hold Microsoft certifications in Microsoft 365 and SharePoint Online and that certification documentation is required with quotes, and SOW paragraph 2.1 asks for past performance migrating Access databases to Microsoft 365.",
+   "source_file": "2d7b00659a444495b2958546dd2c8548.pdf",
+   "page": 26,
+   "firm_answer": "No Microsoft certifications in profile; no Access-to-M365 migration past performance explicitly documented.",
+   "status": "gap",
+   "evidence": "No Microsoft certifications listed; Oklahoma National Guard PP does not reference Access database migration"
+  },
+  {
+   "requirement_id": "e4ca493c-4379a941-p5-943c2ea4",
+   "quote": "The vendor shall provide all necessary personnel, expertise, and services to design and build an application compatible with the Navy's Microsoft 365 platform (often referred to ask \"Flank Speed\") to facilitate the migration of data from an existing Microsoft Access 2003 database to Flank Speed.",
+   "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+   "page": 5,
+   "firm_answer": "Firm lists Microsoft 365 administration as a capability but does not list application design/build, Power Apps development, or Access database migration. Core business is help desk and cybersecurity staffing.",
+   "status": "gap",
+   "evidence": "Capability: Microsoft 365 and Azure administration — does not extend to application development or Access migration"
+  },
+  {
+   "requirement_id": "e4ca493c-4379a941-p14-d91d44ac",
+   "quote": "The required database architecture and user-facing application must be configured, developed, and delivered strictly within the Government's existing, pre-established Microsoft 365 / SharePoint Online (\"Flank Speed\") cloud environment.",
+   "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+   "page": 14,
+   "firm_answer": "Firm has M365 administration experience but no stated capability in SPO data architecture design or Power Platform application development within a GCC High / Flank Speed tenant.",
+   "status": "gap",
+   "evidence": "Capability: Microsoft 365 and Azure administration — SPO architecture and Power Platform development not mentioned"
+  },
+  {
+   "requirement_id": "e4ca493c-7f8ce5c9-p5-9cbcde7f",
+   "quote": "2.1 Vendor Competency Requirements Interested vendors must provide documented evidence of successful past performance and technical competency in designing, deploying, and supporting migrations from legacy Microsoft Access systems to Microsoft 365/Power Platform environments.",
+   "source_file": "7f8ce5c9a5a94957a5bf96eec8208e92.pdf",
+   "page": 5,
+   "firm_answer": "Profile is silent on Power Platform competency and Access database migration. The Oklahoma National Guard record is the only M365-adjacent past performance and does not reference Power Platform or Access.",
+   "status": "gap",
+   "evidence": "Systems administration and Microsoft 365 migration | Oklahoma National Guard — no Power Platform or Access migration keywords"
+  },
+  {
+   "requirement_id": "e4ca493c-9acc1daa-p5-3a913044",
+   "quote": "2.1 Vendor Competency Requirements Interested vendors must provide documented evidence of successful past performance and technical competency in designing, deploying, and supporting migrations from legacy Microsoft Access systems to Microsoft 365/Power Platform environments.",
+   "source_file": "9acc1daafe434f14a9d33b38d3731345.pdf",
+   "page": 5,
+   "firm_answer": "Same as above — no documented Access-to-Power Platform migration competency in profile.",
+   "status": "gap",
+   "evidence": "No Power Platform or Access migration capability or past performance in profile"
+  },
+  {
+   "requirement_id": "e4ca493c-4379a941-p22-72f61d3e",
+   "quote": "Have and maintain for the duration of the contract a current CMMC status at the following CMMC level, or higher: CMMC Level 1 for all (Self)",
+   "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+   "page": 22,
+   "firm_answer": "Firm is CMMC Level 2 self-assessed, which exceeds the CMMC Level 1 (Self) requirement. However, profile does not confirm SPRS posting.",
+   "status": "partial",
+   "evidence": "Capability: CMMC Level 2 self-assessed — exceeds Level 1 threshold but SPRS posting not confirmed in profile"
+  },
+  {
+   "requirement_id": "e4ca493c-259937fc-p7-c8becb27",
+   "quote": "CMMC status must be reflected in the Supplier Performance Risk System (SPRS) at time of award.",
+   "source_file": "259937fc0c4d40d7bf57bdf935fc0d92.pdf",
+   "page": 7,
+   "firm_answer": "CMMC Level 2 self-assessed is listed but profile does not state that results are posted in SPRS.",
+   "status": "partial",
+   "evidence": "Capability: CMMC Level 2 self-assessed — SPRS posting status unknown from profile"
+  },
+  {
+   "requirement_id": "e4ca493c-2d7b0065-p3-adfcaddc",
+   "quote": "CMMC status must be reflected in the Supplier Performance Risk System (SPRS) at time of award.",
+   "source_file": "2d7b00659a444495b2958546dd2c8548.pdf",
+   "page": 3,
+   "firm_answer": "Same as above — CMMC Level 2 self-assessed claimed but SPRS posting not confirmed.",
+   "status": "partial",
+   "evidence": "Capability: CMMC Level 2 self-assessed"
+  },
+  {
+   "requirement_id": "e4ca493c-4379a941-p5-05181f6f",
+   "quote": "The architecture must support full data lifecycle management, ensuring that inactive core records (e.g., separated personnel, retired inventory) can be archived and removed from active views, but securely maintained for a specified timeframe to meet audit requirements prior to permanent deletion.",
+   "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+   "page": 5,
+   "firm_answer": "No data lifecycle management, archiving, or SPO list design capability stated in profile.",
+   "status": "gap",
+   "evidence": "No relevant capability or past performance in profile"
+  },
+  {
+   "requirement_id": "e4ca493c-4379a941-p5-37225637",
+   "quote": "The vendor must facilitate testing cycles, incorporate feedback, and perform any necessary reworks identified by the internal team to guarantee the solution's full operability and alignment with mission requirements.",
+   "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+   "page": 5,
+   "firm_answer": "No UAT facilitation or application development testing capability stated in profile.",
+   "status": "gap",
+   "evidence": "No application development or UAT capability listed in profile"
+  },
+  {
+   "requirement_id": "e4ca493c-4379a941-p6-d4133e0d",
+   "quote": "The design must ensure all core entities effectively correlate, support multiple identifying columns per entity, and detail the document library structure and proposed permission groupings/restrictions.",
+   "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+   "page": 6,
+   "firm_answer": "No SPO data schema design or document library architecture capability stated in profile.",
+   "status": "gap",
+   "evidence": "No SPO architecture or data modeling capability in profile"
+  },
+  {
+   "requirement_id": "e4ca493c-4379a941-p6-36e80562",
+   "quote": "The interface must support capturing multiple identifying columns (including serial numbers where applicable) for each entity, maintain effective relational correlations, and provide adaptable sorting/filtering views for easy data retrieval during audits.",
+   "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+   "page": 6,
+   "firm_answer": "No Power Apps interface development or relational data UI design capability stated in profile.",
+   "status": "gap",
+   "evidence": "No Power Apps or application UI development capability in profile"
+  },
+  {
+   "requirement_id": "e4ca493c-4379a941-p6-3b3eb79a",
+   "quote": "The system must support the secure archiving of historical transactional data as well as inactive core records (e.g., It personnel, inventory), maintaining them for a designated timeframe to satisfy audit requirements before permanent removal.",
+   "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+   "page": 6,
+   "firm_answer": "No inventory management system or transactional archiving capability stated in profile.",
+   "status": "gap",
+   "evidence": "No inventory or transactional archiving capability in profile"
+  },
+  {
+   "requirement_id": "e4ca493c-2d7b0065-p23-9e08e639",
+   "quote": "At a minimum, the vendor shall provide an on-call engineer during the agreed cutover window to support issue resolution, troubleshooting, and coordination with the Government team.",
+   "source_file": "2d7b00659a444495b2958546dd2c8548.pdf",
+   "page": 23,
+   "firm_answer": "Firm has a 24x7 NOC and cleared staff capable of on-call support, but no Power Platform or SPO engineering capability is stated.",
+   "status": "partial",
+   "evidence": "Capability: 24x7 NOC in Norman, OK; 22 cleared staff — on-call posture exists but not for Power Platform engineering"
+  },
+  {
+   "requirement_id": "e4ca493c-2d7b0065-p23-9465c5e9",
+   "quote": "The vendor shall support post-migration validation and reconciliation of migrated data in production, to include assisting the Government in identifying and resolving migration-related discrepancies",
+   "source_file": "2d7b00659a444495b2958546dd2c8548.pdf",
+   "page": 23,
+   "firm_answer": "No data migration validation or reconciliation capability for SPO/Power Platform stated in profile.",
+   "status": "gap",
+   "evidence": "No data migration validation capability in profile"
+  },
+  {
+   "requirement_id": "e4ca493c-259937fc-p5-4a872785",
+   "quote": "The Statement of Work states that the vendor shall construct the SharePoint Online architecture and develop the Power Apps and Power Automate components, while also stating that the vendor will not be provided access to live data.",
+   "source_file": "259937fc0c4d40d7bf57bdf935fc0d92.pdf",
+   "page": 5,
+   "firm_answer": "Firm lists M365 administration but not SharePoint Online architecture construction, Power Apps development, or Power Automate workflow development.",
+   "status": "gap",
+   "evidence": "No Power Apps or Power Automate development capability in profile"
+  },
+  {
+   "requirement_id": "e4ca493c-259937fc-p3-4c75419f",
+   "quote": "The SOW states the vendor will not be provided access to live data and must evaluate the legacy Access 2003 database structure to propose an optimized target architecture.",
+   "source_file": "259937fc0c4d40d7bf57bdf935fc0d92.pdf",
+   "page": 3,
+   "firm_answer": "No database architecture evaluation or Access 2003 analysis capability stated in profile.",
+   "status": "gap",
+   "evidence": "No database design or legacy Access evaluation capability in profile"
+  },
+  {
+   "requirement_id": "e4ca493c-259937fc-p1-662e637a",
+   "quote": "Offerors shall propose the staffing and level of effort they determine necessary to satisfy the SOW within the firm-fixed-price structure and period of performance.",
+   "source_file": "259937fc0c4d40d7bf57bdf935fc0d92.pdf",
+   "page": 1,
+   "firm_answer": "Firm can propose staffing under a firm-fixed-price structure; FFP contracting is not precluded by the profile.",
+   "status": "meets",
+   "evidence": "General contracting capability implied; firm has existing government contracts"
+  },
+  {
+   "requirement_id": "e4ca493c-4379a941-p7-f6632d51",
+   "quote": "5.0 Period of Performance The Period of Performance (PoP) for this effort shall be from the date of contract award.180 calendar days",
+   "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+   "page": 7,
+   "firm_answer": "180-day PoP is a standard commercial term; firm has no stated constraint preventing performance within this window.",
+   "status": "meets",
+   "evidence": "No PoP constraint in profile; prior contracts span multi-year periods"
+  },
+  {
+   "requirement_id": "e4ca493c-4379a941-p7-ff39d287",
+   "quote": "4.0 Place of Performance The place of performance shall be 100% remote at the Vendor's facility.",
+   "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+   "page": 7,
+   "firm_answer": "Firm is based in Norman, OK with a 24x7 NOC; 100% remote performance is fully compatible.",
+   "status": "meets",
+   "evidence": "24x7 NOC in Norman, OK; remote delivery model consistent with firm's existing contracts"
+  },
+  {
+   "requirement_id": "e4ca493c-4379a941-p15-65e8e427",
+   "quote": "YOUR COMPANY MUST BE REGISTERED WITH **SAM** SYSTEM AWARD FOR MANAGEMENT IN ORDER TO RECEIVE A GOVERNMENT AWARD.",
+   "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+   "page": 15,
+   "firm_answer": "Firm holds active government contracts (Army Corps of Engineers, FAA, Oklahoma National Guard), implying active SAM registration, but SAM registration is not explicitly confirmed in the profile.",
+   "status": "partial",
+   "evidence": "Active government contracts imply SAM registration; not explicitly stated in profile"
+  },
+  {
+   "requirement_id": "e4ca493c-4379a941-p14-7c84db0a",
+   "quote": "All offer information is required to be emailed to the Contracting Officer at both the following email addresses: Tabbatha Austin, Contracting Officer Tabbatha.austin@swfpac.navy.mil and Tabbatha.l.austin.civ@us.navy.mil",
+   "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+   "page": 14,
+   "firm_answer": "Firm can comply with email submission instructions; no constraint in profile.",
+   "status": "meets",
+   "evidence": "Standard administrative submission requirement; no profile constraint"
+  },
+  {
+   "requirement_id": "e4ca493c-4379a941-p14-f12f4fd4",
+   "quote": "7. \"EXCEPTIONS: All quotes MUST clearly note all exceptions from the solicitation's terms, conditions, specifications, and/or the statement of work if any.",
+   "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+   "page": 14,
+   "firm_answer": "Firm can comply with exception-noting requirement in its quote.",
+   "status": "meets",
+   "evidence": "Standard administrative requirement; no profile constraint"
+  },
+  {
+   "requirement_id": "e4ca493c-2d7b0065-p18-3675ec7f",
+   "quote": "For proposal purposes, offerors should assume a single approval level for transactions that affect inventory status, custody, or assignment.",
+   "source_file": "2d7b00659a444495b2958546dd2c8548.pdf",
+   "page": 18,
+   "firm_answer": "Firm has no Power Automate approval routing capability stated; this is a scoping clarification but the underlying capability is absent.",
+   "status": "gap",
+   "evidence": "No Power Automate or approval workflow capability in profile"
+  },
+  {
+   "requirement_id": "e4ca493c-2d7b0065-p21-101ac2c4",
+   "quote": "If an offeror believes Dataverse is necessary or beneficial, that dependency and its licensing and environment implications must be clearly identified in the proposal.",
+   "source_file": "2d7b00659a444495b2958546dd2c8548.pdf",
+   "page": 21,
+   "firm_answer": "Firm has no Dataverse capability stated; cannot evaluate or propose Dataverse-based architecture.",
+   "status": "unknown",
+   "evidence": "No Dataverse or Power Platform data layer capability in profile"
+  },
+  {
+   "requirement_id": "e4ca493c-259937fc-p5-da680a70",
+   "quote": "If a proposed solution depends on premium licensing, premium connectors, Dataverse, AI Builder, or other non-standard capabilities, the offeror shall clearly identify those requirements in the proposal.",
+   "source_file": "259937fc0c4d40d7bf57bdf935fc0d92.pdf",
+   "page": 5,
+   "firm_answer": "Firm cannot meaningfully respond to this requirement without Power Platform solution design capability.",
+   "status": "gap",
+   "evidence": "No Power Platform solution design capability in profile"
+  },
+  {
+   "requirement_id": "e4ca493c-4379a941-p20-dec1759d",
+   "quote": "The Contractor represents that it Service-disabled veteran-owned small business (SDVOSB) joint venture eligible under the SDVOSB Program is, is not an SDVOSB joint venture eligible under the SDVOSB Program",
+   "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+   "page": 20,
+   "firm_answer": "Firm is a Service-disabled veteran-owned small business (SDVOSB) as stated in the profile.",
+   "status": "meets",
+   "evidence": "Capability: Service-disabled veteran-owned small business (SDVOSB)"
+  },
+  {
+   "requirement_id": "e4ca493c-9acc1daa-p5-5cf07c45",
+   "quote": "Scope of Work The vendor shall provide all necessary personnel, expertise, and services to design and build an application compatible with the Navy's Microsoft 365 platform (often referred to ask \"Flank Speed\") to facilitate the migration of data from an existing Microsoft Access 2003 database to Flank Speed.",
+   "source_file": "9acc1daafe434f14a9d33b38d3731345.pdf",
+   "page": 5,
+   "firm_answer": "Core competency is help desk, desktop support, and cybersecurity staffing. Application design and build for Flank Speed is not a stated capability.",
+   "status": "gap",
+   "evidence": "No application development or Flank Speed solution delivery capability in profile"
+  },
+  {
+   "requirement_id": "e4ca493c-2d7b0065-p1-5a4dc544",
+   "quote": "Section 2.2 states the vendor will not be provided access to live data and must evaluate the legacy Access 2003 database structure to propose a target architecture.",
+   "source_file": "2d7b00659a444495b2958546dd2c8548.pdf",
+   "page": 1,
+   "firm_answer": "No legacy database evaluation or target architecture proposal capability stated in profile.",
+   "status": "gap",
+   "evidence": "No database architecture or Access 2003 evaluation capability in profile"
+  },
+  {
+   "requirement_id": "e4ca493c-4379a941-p14-b23b3186",
+   "quote": "Certification documentation is required to be submitted with quotes.",
+   "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+   "page": 14,
+   "firm_answer": "No Microsoft certifications listed in profile; firm cannot submit required certification documentation.",
+   "status": "gap",
+   "evidence": "No Microsoft certifications of any kind listed in firm profile"
+  },
+  {
+   "requirement_id": "e4ca493c-2d7b0065-p4-e97a466a",
+   "quote": "Certification documentation is required to be submitted with quotes.\" Please clarify the specific Microsoft certification(s) the Government requires.",
+   "source_file": "2d7b00659a444495b2958546dd2c8548.pdf",
+   "page": 4,
+   "firm_answer": "Regardless of which specific Microsoft certifications are required, the firm lists none in its profile.",
+   "status": "gap",
+   "evidence": "No Microsoft certifications listed in firm profile"
+  },
+  {
+   "requirement_id": "e4ca493c-2d7b0065-p11-99a352de",
+   "quote": "The solution must support generation of monthly reporting, but no additional complex reporting volume assumptions are established in the solicitation.",
+   "source_file": "2d7b00659a444495b2958546dd2c8548.pdf",
+   "page": 11,
+   "firm_answer": "No Power Automate or SPO-based automated reporting capability stated in profile.",
+   "status": "gap",
+   "evidence": "No automated reporting or Power Platform capability in profile"
+  },
+  {
+   "requirement_id": "e4ca493c-2d7b0065-p23-ed2d46b4",
+   "quote": "SOW 2.2 Data Architecture, Test Environment, & Migration Support Please describe the existing Microsoft Access 2003 application, including its database structure, forms, reports, queries, macros/VBA, business logic, and any interfaces or integrations with external systems",
+   "source_file": "2d7b00659a444495b2958546dd2c8548.pdf",
+   "page": 23,
+   "firm_answer": "No Access 2003 database analysis, VBA, or legacy application assessment capability stated in profile.",
+   "status": "gap",
+   "evidence": "No legacy database or VBA/Access capability in profile"
+  },
+  {
+   "requirement_id": "e4ca493c-4379a941-p26-3b782032",
+   "quote": "The Offeror shall review the list of excluded parties in the System for Award Management (SAM) at for Procedures https://www.sam.gov entities that are excluded when providing any equipment, system, or service to carry out covered missions",
+   "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+   "page": 26,
+   "firm_answer": "Standard compliance requirement; firm can comply as part of proposal preparation.",
+   "status": "meets",
+   "evidence": "Standard FAR compliance requirement applicable to all offerors"
+  },
+  {
+   "requirement_id": "e4ca493c-4379a941-p20-60a7629b",
+   "quote": "If the Contractor does not have representations and certifications in SAM, or does not have a representation in SAM for the NAICS code applicable to this contract, the Contractor is required to complete the following rerepresentation",
+   "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+   "page": 20,
+   "firm_answer": "Firm's NAICS codes include 541512 which matches the solicitation NAICS; SAM representation should be current given active contracts.",
+   "status": "meets",
+   "evidence": "NAICS 541512 listed in firm profile; active government contracts imply current SAM registration"
+  }
+ ],
+ "matrix_dropped": 2,
+ "matrix_dropped_rows": [
+  {
+   "requirement_id": "e4ca493c-2d7b0065-p14-63c44e5e",
+   "quote": "Offerors should base their proposal on standard capabilities available within the Government's Flank Speed environment under current licensing.",
+   "source_file": "2d7b00659a444495b2958546dd2c8548.pdf",
+   "page": 14,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "e4ca493c-2d7b0065-p22-d818b2f1",
+   "quote": "Invoices shall be submitted via Wide Area Workflow (WAWF) as a \"Combo\" invoice, not a 2in1.",
+   "source_file": "2d7b00659a444495b2958546dd2c8548.pdf",
+   "page": 22,
+   "reason": "not_verbatim"
+  }
+ ],
+ "fit_score_code": 0.2917,
+ "drafts": {
+  "capability_statement": "Sooner Systems LLC\nCapability Statement — Microsoft 365 Data Migration Project\nNotice ID: e4ca493c0b334b3d812882f4bdc2bc4e\n\nSubmitted to: Tabbatha Austin, Contracting Officer\nTabbatha.austin@swfpac.navy.mil | Tabbatha.l.austin.civ@us.navy.mil\n\nSooner Systems LLC is a Service-Disabled Veteran-Owned Small Business (SDVOSB) headquartered in Norman, Oklahoma, operating under NAICS 541512 (Computer Systems Design Services). We provide information technology professional services to federal government customers including the U.S. Army Corps of Engineers, the FAA, and the Oklahoma National Guard.\n\nCore capabilities relevant to this solicitation:\n• Microsoft 365 and Azure administration, including tenant configuration and user migration support\n• Systems administration and network engineering\n• Cybersecurity services, including CMMC Level 2 self-assessed compliance reflected in SPRS\n• 24x7 Network Operations Center (NOC) staffing in Norman, OK, supporting fully remote delivery\n• 22 personnel holding active Secret clearances available for sensitive government work\n\nPast Performance: Sooner Systems successfully supported a Microsoft 365 and Active Directory migration for the Oklahoma National Guard (2023–2025, $740,000, NAICS 541512), encompassing systems administration, Exchange migration, and Azure integration.\n\nWe are an unrestricted offeror with active SAM registration, NAICS 541512 represented, and current SDVOSB certification. Our Norman, OK facility supports 100% remote performance consistent with the solicitation's place-of-performance requirement.\n\nSooner Systems LLC | Norman, OK | SDVOSB | NAICS 541512 | CMMC Level 2 (Self)",
+  "questions_for_co": [
+   "Amendment 0001 requires Microsoft certifications in Microsoft 365 and SharePoint Online to be submitted with quotes — will the Government accept a teaming arrangement in which a subcontractor holds the required certifications and provides the certified personnel, or must the prime offeror itself hold all certifications? [e4ca493c-259937fc-p6-7b7c35a5]",
+   "SOW paragraph 2.1 requires documented past performance in migrating legacy Microsoft Access systems to Microsoft 365/Power Platform environments — will the Government accept past performance from a proposed subcontractor or key personnel in lieu of, or in addition to, prime contractor past performance? [e4ca493c-4379a941-p5-5f3a9177]",
+   "The SOW states the vendor will not be provided access to live data and must evaluate the legacy Access 2003 database structure to propose a target architecture — will the Government provide a sanitized or anonymized schema export, an entity-relationship diagram, or a written description of the existing tables, forms, queries, macros/VBA, and external integrations to support proposal development? [e4ca493c-259937fc-p3-4c75419f]",
+   "The solicitation asks offerors to identify any dependency on Dataverse, premium connectors, AI Builder, or other non-standard capabilities — can the Government confirm whether the existing Flank Speed tenant is licensed for Power Apps per-app or per-user plans, and whether any premium connector licenses are already available, so offerors can scope a solution within existing licensing? [e4ca493c-2d7b0065-p21-101ac2c4]",
+   "The SOW requires the architecture to support secure archiving of inactive records for a specified timeframe to meet audit requirements — can the Government specify the required retention period (e.g., number of years) and the applicable records-management authority or NARA schedule that governs this data? [e4ca493c-4379a941-p6-3b3eb79a]",
+   "The solution must support generation of monthly reporting, but no reporting volume or complexity assumptions are established — can the Government describe the number of distinct report types required, the intended consumers (e.g., command leadership, auditors), and whether reports must be exported to a specific format such as PDF or Excel? [e4ca493c-2d7b0065-p11-99a352de]"
+  ],
+  "calendar_entries": []
+ },
+ "reader": {
+  "notice_id": "e4ca493c0b334b3d812882f4bdc2bc4e",
+  "key_requirement_ids": [
+   "e4ca493c-4379a941-p5-5f3a9177",
+   "e4ca493c-259937fc-p6-7b7c35a5",
+   "e4ca493c-2d7b0065-p2-15bc84fb",
+   "e4ca493c-4379a941-p14-b23b3186",
+   "e4ca493c-4379a941-p5-943c2ea4",
+   "e4ca493c-4379a941-p14-d91d44ac",
+   "e4ca493c-2d7b0065-p14-63c44e5e",
+   "e4ca493c-4379a941-p22-72f61d3e",
+   "e4ca493c-259937fc-p7-c8becb27",
+   "e4ca493c-4379a941-p7-f6632d51",
+   "e4ca493c-259937fc-p1-662e637a",
+   "e4ca493c-4379a941-p5-05181f6f",
+   "e4ca493c-4379a941-p5-37225637",
+   "e4ca493c-4379a941-p6-d4133e0d",
+   "e4ca493c-4379a941-p6-36e80562",
+   "e4ca493c-4379a941-p6-3b3eb79a",
+   "e4ca493c-259937fc-p5-da680a70",
+   "e4ca493c-2d7b0065-p18-3675ec7f",
+   "e4ca493c-4379a941-p7-ff39d287",
+   "e4ca493c-4379a941-p14-7c84db0a",
+   "e4ca493c-4379a941-p14-f12f4fd4",
+   "e4ca493c-2d7b0065-p3-f144d298",
+   "e4ca493c-2d7b0065-p23-9e08e639",
+   "e4ca493c-2d7b0065-p23-9465c5e9",
+   "e4ca493c-4379a941-p15-65e8e427"
+  ],
+  "scope_summary": "SWFPAC requires professional services to migrate a mission-critical Microsoft Access 2003 warehouse and inventory management database to the Navy's Microsoft 365 \"Flank Speed\" platform, using SharePoint Online as the primary data repository and Microsoft Power Platform (Power Apps and Power Automate) for user interfaces, relational workflows, and automated document generation. The vendor must evaluate the legacy database structure, propose and build an optimized SPO data architecture populated with synthetic test data, facilitate User Acceptance Testing cycles, and deliver a Migration Guide so the Government's internal team can execute the live data transfer. The entire solution must be configured and delivered strictly within the Government's existing Flank Speed cloud environment, 100% remotely, within 180 calendar days of contract award.",
+  "evaluation_basis": "not stated",
+  "incumbent_or_history": "none found",
+  "quotes": [
+   "Interested vendors must provide documented evidence of successful past performance and technical competency in designing, deploying, and supporting migrations from legacy Microsoft Access systems to Microsoft 365/Power Platform environments.",
+   "Amendment 0001 states that interested vendors must hold Microsoft certifications in Microsoft 365 and SharePoint Online, with certification documentation submitted with quotes.",
+   "Certification documentation is required to be submitted with quotes.",
+   "The required database architecture and user-facing application must be configured, developed, and delivered strictly within the Government's existing, pre-established Microsoft 365 / SharePoint Online (\"Flank Speed\") cloud environment.",
+   "If a proposed solution depends on premium licensing, premium connectors, Dataverse, AI Builder, or other non-standard capabilities, the offeror shall clearly identify those requirements in the proposal.",
+   "The Contractor shall- Requirements (1)(i) Have and maintain for the duration of the contract a current CMMC status at the following CMMC level, or higher: CMMC Level 1 for all (Self) Contracting Officer insert: CMMC Level 1 (Self); CMMC Level 2 (Self); CMMC Level 2 (C3PAO); or CMMC Level 3 (DIBCAC) information systems used in performance of the contract, task order, or delivery order that process, store, or transmit FCI or CUI; and (ii) Consult 32 CFR 170.23 related to the flowdown of the CMMC requirements, and flow down the correct CMMC level to subcontracts and other contractual instruments;",
+   "CMMC status must be reflected in the Supplier Performance Risk System (SPRS) at time of award.",
+   "5.0 Period of Performance The Period of Performance (PoP) for this effort shall be from the date of contract award.180 calendar days",
+   "Offerors shall propose the staffing and level of effort they determine necessary to satisfy the SOW within the firm-fixed-price structure and period of performance.",
+   "4.0 Place of Performance The place of performance shall be 100% remote at the Vendor's facility.",
+   "The architecture must support full data lifecycle management, ensuring that inactive core records (e.g., separated personnel, retired inventory) can be archived and removed from active views, but securely maintained for a specified timeframe to meet audit requirements prior to permanent deletion.",
+   "The vendor must facilitate testing cycles, incorporate feedback, and perform any necessary reworks identified by the internal team to guarantee the solution's full operability and alignment with mission requirements.",
+   "The vendor will not be provided access to live data, nor will they have on-site access to the Government facility, therefore, a FCL is not required and CUI or classified information will not be provided to the vendor.",
+   "For proposal purposes, offerors should assume a single approval level for transactions that affect inventory status, custody, or assignment.",
+   "All offer information is required to be emailed to the Contracting Officer at both the following email addresses: Tabbatha Austin, Contracting Officer Tabbatha.austin@swfpac.navy.mil and Tabbatha.l.austin.civ@us.navy.mil A courtesy copy can be emailed to: Lacy Campochiaro, Contracting Specialist Lacy.campochiaro@swfpac.navy.mil",
+   "7. \"EXCEPTIONS: All quotes MUST clearly note all exceptions from the solicitation's terms, conditions, specifications, and/or the statement of work if any."
+  ]
+ },
+ "fit": {
+  "notice_id": "e4ca493c0b334b3d812882f4bdc2bc4e",
+  "fit_score": 0.27,
+  "matched_past_performance": [
+   "Systems administration and Microsoft 365 migration | customer Oklahoma National Guard | naics 541512 | 740000 USD | 2023-2025 | keywords: systems administration, Microsoft 365, Azure, migration, Active Directory, Exchange"
+  ],
+  "strengths": [
+   "SDVOSB status satisfies set-aside eligibility (unrestricted solicitation, SDVOSB still valid)",
+   "NAICS 541512 matches solicitation NAICS",
+   "CMMC Level 2 self-assessed exceeds CMMC Level 1 (Self) contract requirement",
+   "Microsoft 365 and Azure administration listed as a capability",
+   "One past-performance record references Microsoft 365 migration (Oklahoma National Guard)",
+   "100% remote place of performance aligns with firm's Norman, OK location",
+   "22 cleared staff (Secret) available if needed"
+  ],
+  "gaps": [
+   "No documented Microsoft Access 2003 to Power Platform/SharePoint Online migration experience in profile",
+   "No Power Apps or Power Automate development capability stated in profile",
+   "No SharePoint Online data architecture or SPO list/library design capability stated",
+   "Microsoft certifications in Microsoft 365 and SharePoint Online required with quote — none listed in profile",
+   "Only one past-performance record touches M365 migration; owner rule [ss-pp] requires two past-performance matches — second match is absent",
+   "No evidence of warehouse/inventory management application development",
+   "No Power Automate workflow or automated document generation capability stated",
+   "No UAT facilitation or application development lifecycle experience stated",
+   "Core competency is help desk, cybersecurity staffing, and network admin — not application development or database migration"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "e4ca493c-4379a941-p5-5f3a9177",
+    "quote": "Interested vendors must provide documented evidence of successful past performance and technical competency in designing, deploying, and supporting migrations from legacy Microsoft Access systems to Microsoft 365/Power Platform environments.",
+    "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+    "page": 5,
+    "firm_answer": "The Oklahoma National Guard past performance references Microsoft 365 and migration but does not mention Microsoft Access, Power Apps, Power Automate, or SharePoint Online data architecture. No second qualifying past-performance record exists in the profile.",
+    "status": "gap",
+    "evidence": "Systems administration and Microsoft 365 migration | customer Oklahoma National Guard — keywords include migration and Microsoft 365 but not Access-to-Power Platform migration"
+   },
+   {
+    "requirement_id": "e4ca493c-259937fc-p6-7b7c35a5",
+    "quote": "Amendment 0001 states that interested vendors must hold Microsoft certifications in Microsoft 365 and SharePoint Online, with certification documentation submitted with quotes.",
+    "source_file": "259937fc0c4d40d7bf57bdf935fc0d92.pdf",
+    "page": 6,
+    "firm_answer": "The firm profile lists no Microsoft certifications of any kind. Certification documentation cannot be submitted.",
+    "status": "gap",
+    "evidence": "No Microsoft certifications listed anywhere in the firm profile"
+   },
+   {
+    "requirement_id": "e4ca493c-2d7b0065-p26-97e56013",
+    "quote": "Amendment 0001, instruction 6, states that interested vendors must hold Microsoft certifications in Microsoft 365 and SharePoint Online and that certification documentation is required with quotes, and SOW paragraph 2.1 asks for past performance migrating Access databases to Microsoft 365.",
+    "source_file": "2d7b00659a444495b2958546dd2c8548.pdf",
+    "page": 26,
+    "firm_answer": "No Microsoft certifications in profile; no Access-to-M365 migration past performance explicitly documented.",
+    "status": "gap",
+    "evidence": "No Microsoft certifications listed; Oklahoma National Guard PP does not reference Access database migration"
+   },
+   {
+    "requirement_id": "e4ca493c-4379a941-p5-943c2ea4",
+    "quote": "The vendor shall provide all necessary personnel, expertise, and services to design and build an application compatible with the Navy's Microsoft 365 platform (often referred to ask \"Flank Speed\") to facilitate the migration of data from an existing Microsoft Access 2003 database to Flank Speed.",
+    "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+    "page": 5,
+    "firm_answer": "Firm lists Microsoft 365 administration as a capability but does not list application design/build, Power Apps development, or Access database migration. Core business is help desk and cybersecurity staffing.",
+    "status": "gap",
+    "evidence": "Capability: Microsoft 365 and Azure administration — does not extend to application development or Access migration"
+   },
+   {
+    "requirement_id": "e4ca493c-4379a941-p14-d91d44ac",
+    "quote": "The required database architecture and user-facing application must be configured, developed, and delivered strictly within the Government's existing, pre-established Microsoft 365 / SharePoint Online (\"Flank Speed\") cloud environment.",
+    "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+    "page": 14,
+    "firm_answer": "Firm has M365 administration experience but no stated capability in SPO data architecture design or Power Platform application development within a GCC High / Flank Speed tenant.",
+    "status": "gap",
+    "evidence": "Capability: Microsoft 365 and Azure administration — SPO architecture and Power Platform development not mentioned"
+   },
+   {
+    "requirement_id": "e4ca493c-7f8ce5c9-p5-9cbcde7f",
+    "quote": "2.1 Vendor Competency Requirements Interested vendors must provide documented evidence of successful past performance and technical competency in designing, deploying, and supporting migrations from legacy Microsoft Access systems to Microsoft 365/Power Platform environments.",
+    "source_file": "7f8ce5c9a5a94957a5bf96eec8208e92.pdf",
+    "page": 5,
+    "firm_answer": "Profile is silent on Power Platform competency and Access database migration. The Oklahoma National Guard record is the only M365-adjacent past performance and does not reference Power Platform or Access.",
+    "status": "gap",
+    "evidence": "Systems administration and Microsoft 365 migration | Oklahoma National Guard — no Power Platform or Access migration keywords"
+   },
+   {
+    "requirement_id": "e4ca493c-9acc1daa-p5-3a913044",
+    "quote": "2.1 Vendor Competency Requirements Interested vendors must provide documented evidence of successful past performance and technical competency in designing, deploying, and supporting migrations from legacy Microsoft Access systems to Microsoft 365/Power Platform environments.",
+    "source_file": "9acc1daafe434f14a9d33b38d3731345.pdf",
+    "page": 5,
+    "firm_answer": "Same as above — no documented Access-to-Power Platform migration competency in profile.",
+    "status": "gap",
+    "evidence": "No Power Platform or Access migration capability or past performance in profile"
+   },
+   {
+    "requirement_id": "e4ca493c-4379a941-p22-72f61d3e",
+    "quote": "Have and maintain for the duration of the contract a current CMMC status at the following CMMC level, or higher: CMMC Level 1 for all (Self)",
+    "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+    "page": 22,
+    "firm_answer": "Firm is CMMC Level 2 self-assessed, which exceeds the CMMC Level 1 (Self) requirement. However, profile does not confirm SPRS posting.",
+    "status": "partial",
+    "evidence": "Capability: CMMC Level 2 self-assessed — exceeds Level 1 threshold but SPRS posting not confirmed in profile"
+   },
+   {
+    "requirement_id": "e4ca493c-259937fc-p7-c8becb27",
+    "quote": "CMMC status must be reflected in the Supplier Performance Risk System (SPRS) at time of award.",
+    "source_file": "259937fc0c4d40d7bf57bdf935fc0d92.pdf",
+    "page": 7,
+    "firm_answer": "CMMC Level 2 self-assessed is listed but profile does not state that results are posted in SPRS.",
+    "status": "partial",
+    "evidence": "Capability: CMMC Level 2 self-assessed — SPRS posting status unknown from profile"
+   },
+   {
+    "requirement_id": "e4ca493c-2d7b0065-p3-adfcaddc",
+    "quote": "CMMC status must be reflected in the Supplier Performance Risk System (SPRS) at time of award.",
+    "source_file": "2d7b00659a444495b2958546dd2c8548.pdf",
+    "page": 3,
+    "firm_answer": "Same as above — CMMC Level 2 self-assessed claimed but SPRS posting not confirmed.",
+    "status": "partial",
+    "evidence": "Capability: CMMC Level 2 self-assessed"
+   },
+   {
+    "requirement_id": "e4ca493c-4379a941-p5-05181f6f",
+    "quote": "The architecture must support full data lifecycle management, ensuring that inactive core records (e.g., separated personnel, retired inventory) can be archived and removed from active views, but securely maintained for a specified timeframe to meet audit requirements prior to permanent deletion.",
+    "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+    "page": 5,
+    "firm_answer": "No data lifecycle management, archiving, or SPO list design capability stated in profile.",
+    "status": "gap",
+    "evidence": "No relevant capability or past performance in profile"
+   },
+   {
+    "requirement_id": "e4ca493c-4379a941-p5-37225637",
+    "quote": "The vendor must facilitate testing cycles, incorporate feedback, and perform any necessary reworks identified by the internal team to guarantee the solution's full operability and alignment with mission requirements.",
+    "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+    "page": 5,
+    "firm_answer": "No UAT facilitation or application development testing capability stated in profile.",
+    "status": "gap",
+    "evidence": "No application development or UAT capability listed in profile"
+   },
+   {
+    "requirement_id": "e4ca493c-4379a941-p6-d4133e0d",
+    "quote": "The design must ensure all core entities effectively correlate, support multiple identifying columns per entity, and detail the document library structure and proposed permission groupings/restrictions.",
+    "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+    "page": 6,
+    "firm_answer": "No SPO data schema design or document library architecture capability stated in profile.",
+    "status": "gap",
+    "evidence": "No SPO architecture or data modeling capability in profile"
+   },
+   {
+    "requirement_id": "e4ca493c-4379a941-p6-36e80562",
+    "quote": "The interface must support capturing multiple identifying columns (including serial numbers where applicable) for each entity, maintain effective relational correlations, and provide adaptable sorting/filtering views for easy data retrieval during audits.",
+    "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+    "page": 6,
+    "firm_answer": "No Power Apps interface development or relational data UI design capability stated in profile.",
+    "status": "gap",
+    "evidence": "No Power Apps or application UI development capability in profile"
+   },
+   {
+    "requirement_id": "e4ca493c-4379a941-p6-3b3eb79a",
+    "quote": "The system must support the secure archiving of historical transactional data as well as inactive core records (e.g., It personnel, inventory), maintaining them for a designated timeframe to satisfy audit requirements before permanent removal.",
+    "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+    "page": 6,
+    "firm_answer": "No inventory management system or transactional archiving capability stated in profile.",
+    "status": "gap",
+    "evidence": "No inventory or transactional archiving capability in profile"
+   },
+   {
+    "requirement_id": "e4ca493c-2d7b0065-p23-9e08e639",
+    "quote": "At a minimum, the vendor shall provide an on-call engineer during the agreed cutover window to support issue resolution, troubleshooting, and coordination with the Government team.",
+    "source_file": "2d7b00659a444495b2958546dd2c8548.pdf",
+    "page": 23,
+    "firm_answer": "Firm has a 24x7 NOC and cleared staff capable of on-call support, but no Power Platform or SPO engineering capability is stated.",
+    "status": "partial",
+    "evidence": "Capability: 24x7 NOC in Norman, OK; 22 cleared staff — on-call posture exists but not for Power Platform engineering"
+   },
+   {
+    "requirement_id": "e4ca493c-2d7b0065-p23-9465c5e9",
+    "quote": "The vendor shall support post-migration validation and reconciliation of migrated data in production, to include assisting the Government in identifying and resolving migration-related discrepancies",
+    "source_file": "2d7b00659a444495b2958546dd2c8548.pdf",
+    "page": 23,
+    "firm_answer": "No data migration validation or reconciliation capability for SPO/Power Platform stated in profile.",
+    "status": "gap",
+    "evidence": "No data migration validation capability in profile"
+   },
+   {
+    "requirement_id": "e4ca493c-259937fc-p5-4a872785",
+    "quote": "The Statement of Work states that the vendor shall construct the SharePoint Online architecture and develop the Power Apps and Power Automate components, while also stating that the vendor will not be provided access to live data.",
+    "source_file": "259937fc0c4d40d7bf57bdf935fc0d92.pdf",
+    "page": 5,
+    "firm_answer": "Firm lists M365 administration but not SharePoint Online architecture construction, Power Apps development, or Power Automate workflow development.",
+    "status": "gap",
+    "evidence": "No Power Apps or Power Automate development capability in profile"
+   },
+   {
+    "requirement_id": "e4ca493c-259937fc-p3-4c75419f",
+    "quote": "The SOW states the vendor will not be provided access to live data and must evaluate the legacy Access 2003 database structure to propose an optimized target architecture.",
+    "source_file": "259937fc0c4d40d7bf57bdf935fc0d92.pdf",
+    "page": 3,
+    "firm_answer": "No database architecture evaluation or Access 2003 analysis capability stated in profile.",
+    "status": "gap",
+    "evidence": "No database design or legacy Access evaluation capability in profile"
+   },
+   {
+    "requirement_id": "e4ca493c-259937fc-p1-662e637a",
+    "quote": "Offerors shall propose the staffing and level of effort they determine necessary to satisfy the SOW within the firm-fixed-price structure and period of performance.",
+    "source_file": "259937fc0c4d40d7bf57bdf935fc0d92.pdf",
+    "page": 1,
+    "firm_answer": "Firm can propose staffing under a firm-fixed-price structure; FFP contracting is not precluded by the profile.",
+    "status": "meets",
+    "evidence": "General contracting capability implied; firm has existing government contracts"
+   },
+   {
+    "requirement_id": "e4ca493c-4379a941-p7-f6632d51",
+    "quote": "5.0 Period of Performance The Period of Performance (PoP) for this effort shall be from the date of contract award.180 calendar days",
+    "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+    "page": 7,
+    "firm_answer": "180-day PoP is a standard commercial term; firm has no stated constraint preventing performance within this window.",
+    "status": "meets",
+    "evidence": "No PoP constraint in profile; prior contracts span multi-year periods"
+   },
+   {
+    "requirement_id": "e4ca493c-4379a941-p7-ff39d287",
+    "quote": "4.0 Place of Performance The place of performance shall be 100% remote at the Vendor's facility.",
+    "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+    "page": 7,
+    "firm_answer": "Firm is based in Norman, OK with a 24x7 NOC; 100% remote performance is fully compatible.",
+    "status": "meets",
+    "evidence": "24x7 NOC in Norman, OK; remote delivery model consistent with firm's existing contracts"
+   },
+   {
+    "requirement_id": "e4ca493c-4379a941-p15-65e8e427",
+    "quote": "YOUR COMPANY MUST BE REGISTERED WITH **SAM** SYSTEM AWARD FOR MANAGEMENT IN ORDER TO RECEIVE A GOVERNMENT AWARD.",
+    "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+    "page": 15,
+    "firm_answer": "Firm holds active government contracts (Army Corps of Engineers, FAA, Oklahoma National Guard), implying active SAM registration, but SAM registration is not explicitly confirmed in the profile.",
+    "status": "partial",
+    "evidence": "Active government contracts imply SAM registration; not explicitly stated in profile"
+   },
+   {
+    "requirement_id": "e4ca493c-4379a941-p14-7c84db0a",
+    "quote": "All offer information is required to be emailed to the Contracting Officer at both the following email addresses: Tabbatha Austin, Contracting Officer Tabbatha.austin@swfpac.navy.mil and Tabbatha.l.austin.civ@us.navy.mil",
+    "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+    "page": 14,
+    "firm_answer": "Firm can comply with email submission instructions; no constraint in profile.",
+    "status": "meets",
+    "evidence": "Standard administrative submission requirement; no profile constraint"
+   },
+   {
+    "requirement_id": "e4ca493c-4379a941-p14-f12f4fd4",
+    "quote": "7. \"EXCEPTIONS: All quotes MUST clearly note all exceptions from the solicitation's terms, conditions, specifications, and/or the statement of work if any.",
+    "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+    "page": 14,
+    "firm_answer": "Firm can comply with exception-noting requirement in its quote.",
+    "status": "meets",
+    "evidence": "Standard administrative requirement; no profile constraint"
+   },
+   {
+    "requirement_id": "e4ca493c-2d7b0065-p18-3675ec7f",
+    "quote": "For proposal purposes, offerors should assume a single approval level for transactions that affect inventory status, custody, or assignment.",
+    "source_file": "2d7b00659a444495b2958546dd2c8548.pdf",
+    "page": 18,
+    "firm_answer": "Firm has no Power Automate approval routing capability stated; this is a scoping clarification but the underlying capability is absent.",
+    "status": "gap",
+    "evidence": "No Power Automate or approval workflow capability in profile"
+   },
+   {
+    "requirement_id": "e4ca493c-2d7b0065-p21-101ac2c4",
+    "quote": "If an offeror believes Dataverse is necessary or beneficial, that dependency and its licensing and environment implications must be clearly identified in the proposal.",
+    "source_file": "2d7b00659a444495b2958546dd2c8548.pdf",
+    "page": 21,
+    "firm_answer": "Firm has no Dataverse capability stated; cannot evaluate or propose Dataverse-based architecture.",
+    "status": "unknown",
+    "evidence": "No Dataverse or Power Platform data layer capability in profile"
+   },
+   {
+    "requirement_id": "e4ca493c-259937fc-p5-da680a70",
+    "quote": "If a proposed solution depends on premium licensing, premium connectors, Dataverse, AI Builder, or other non-standard capabilities, the offeror shall clearly identify those requirements in the proposal.",
+    "source_file": "259937fc0c4d40d7bf57bdf935fc0d92.pdf",
+    "page": 5,
+    "firm_answer": "Firm cannot meaningfully respond to this requirement without Power Platform solution design capability.",
+    "status": "gap",
+    "evidence": "No Power Platform solution design capability in profile"
+   },
+   {
+    "requirement_id": "e4ca493c-4379a941-p20-dec1759d",
+    "quote": "The Contractor represents that it Service-disabled veteran-owned small business (SDVOSB) joint venture eligible under the SDVOSB Program is, is not an SDVOSB joint venture eligible under the SDVOSB Program",
+    "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+    "page": 20,
+    "firm_answer": "Firm is a Service-disabled veteran-owned small business (SDVOSB) as stated in the profile.",
+    "status": "meets",
+    "evidence": "Capability: Service-disabled veteran-owned small business (SDVOSB)"
+   },
+   {
+    "requirement_id": "e4ca493c-9acc1daa-p5-5cf07c45",
+    "quote": "Scope of Work The vendor shall provide all necessary personnel, expertise, and services to design and build an application compatible with the Navy's Microsoft 365 platform (often referred to ask \"Flank Speed\") to facilitate the migration of data from an existing Microsoft Access 2003 database to Flank Speed.",
+    "source_file": "9acc1daafe434f14a9d33b38d3731345.pdf",
+    "page": 5,
+    "firm_answer": "Core competency is help desk, desktop support, and cybersecurity staffing. Application design and build for Flank Speed is not a stated capability.",
+    "status": "gap",
+    "evidence": "No application development or Flank Speed solution delivery capability in profile"
+   },
+   {
+    "requirement_id": "e4ca493c-2d7b0065-p1-5a4dc544",
+    "quote": "Section 2.2 states the vendor will not be provided access to live data and must evaluate the legacy Access 2003 database structure to propose a target architecture.",
+    "source_file": "2d7b00659a444495b2958546dd2c8548.pdf",
+    "page": 1,
+    "firm_answer": "No legacy database evaluation or target architecture proposal capability stated in profile.",
+    "status": "gap",
+    "evidence": "No database architecture or Access 2003 evaluation capability in profile"
+   },
+   {
+    "requirement_id": "e4ca493c-4379a941-p14-b23b3186",
+    "quote": "Certification documentation is required to be submitted with quotes.",
+    "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+    "page": 14,
+    "firm_answer": "No Microsoft certifications listed in profile; firm cannot submit required certification documentation.",
+    "status": "gap",
+    "evidence": "No Microsoft certifications of any kind listed in firm profile"
+   },
+   {
+    "requirement_id": "e4ca493c-2d7b0065-p4-e97a466a",
+    "quote": "Certification documentation is required to be submitted with quotes.\" Please clarify the specific Microsoft certification(s) the Government requires.",
+    "source_file": "2d7b00659a444495b2958546dd2c8548.pdf",
+    "page": 4,
+    "firm_answer": "Regardless of which specific Microsoft certifications are required, the firm lists none in its profile.",
+    "status": "gap",
+    "evidence": "No Microsoft certifications listed in firm profile"
+   },
+   {
+    "requirement_id": "e4ca493c-2d7b0065-p11-99a352de",
+    "quote": "The solution must support generation of monthly reporting, but no additional complex reporting volume assumptions are established in the solicitation.",
+    "source_file": "2d7b00659a444495b2958546dd2c8548.pdf",
+    "page": 11,
+    "firm_answer": "No Power Automate or SPO-based automated reporting capability stated in profile.",
+    "status": "gap",
+    "evidence": "No automated reporting or Power Platform capability in profile"
+   },
+   {
+    "requirement_id": "e4ca493c-2d7b0065-p23-ed2d46b4",
+    "quote": "SOW 2.2 Data Architecture, Test Environment, & Migration Support Please describe the existing Microsoft Access 2003 application, including its database structure, forms, reports, queries, macros/VBA, business logic, and any interfaces or integrations with external systems",
+    "source_file": "2d7b00659a444495b2958546dd2c8548.pdf",
+    "page": 23,
+    "firm_answer": "No Access 2003 database analysis, VBA, or legacy application assessment capability stated in profile.",
+    "status": "gap",
+    "evidence": "No legacy database or VBA/Access capability in profile"
+   },
+   {
+    "requirement_id": "e4ca493c-4379a941-p26-3b782032",
+    "quote": "The Offeror shall review the list of excluded parties in the System for Award Management (SAM) at for Procedures https://www.sam.gov entities that are excluded when providing any equipment, system, or service to carry out covered missions",
+    "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+    "page": 26,
+    "firm_answer": "Standard compliance requirement; firm can comply as part of proposal preparation.",
+    "status": "meets",
+    "evidence": "Standard FAR compliance requirement applicable to all offerors"
+   },
+   {
+    "requirement_id": "e4ca493c-4379a941-p20-60a7629b",
+    "quote": "If the Contractor does not have representations and certifications in SAM, or does not have a representation in SAM for the NAICS code applicable to this contract, the Contractor is required to complete the following rerepresentation",
+    "source_file": "4379a9414fa24b6ead7c3a4ebc5114bf.pdf",
+    "page": 20,
+    "firm_answer": "Firm's NAICS codes include 541512 which matches the solicitation NAICS; SAM representation should be current given active contracts.",
+    "status": "meets",
+    "evidence": "NAICS 541512 listed in firm profile; active government contracts imply current SAM registration"
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "e4ca493c0b334b3d812882f4bdc2bc4e",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-09-14T17:00:00-07:00",
+   "site_visit": null,
+   "period_of_performance": "180 calendar days from date of contract award",
+   "source_quotes": [
+    "5.0 Period of Performance The Period of Performance (PoP) for this effort shall be 180 calendar days from the date of contract award.",
+    "All work required under this contract must be completed within 180 calendar days of contract award.",
+    "The contractor shall be liable for any nonperformance outside of the required 180 calendar day period of performance."
+   ]
+  },
+  "days_to_close": 0.5440404200231481,
+  "set_aside_note": "No set-aside is used on this notice (unrestricted). Sooner Systems LLC can bid as an unrestricted offeror; the firm's SDVOSB and SBA set-asides are not required here but do not disqualify it.",
+  "amendment_note": "no amendment",
+  "calendar_entries": []
+ },
+ "model_calls": 5,
+ "tokens_in": 79014,
+ "tokens_out": 13185,
+ "seconds": 122.53,
+ "produced_at": "2026-09-14T05:58:37.437012-05:00"
+}

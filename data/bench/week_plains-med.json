@@ -1,0 +1,212 @@
+{
+ "firm": "plains-med",
+ "name": "Plains Med Staffing",
+ "as_of": "2026-09-14T07:13:03-05:00",
+ "bench_as_of": "2026-09-13T20:14:45-05:00",
+ "snapshot_written_at": "2026-09-13T20:14:45-05:00",
+ "gallery_produced_at": "2026-09-14T07:12:57.081266-05:00",
+ "window": {
+  "first_posted": "2026-09-07",
+  "last_posted": "2026-09-11",
+  "days_with_notices": 5
+ },
+ "model_calls": 0,
+ "sources": {
+  "snapshot": "data/snapshot/plains-med.json",
+  "bench": "data/bench/tiering_plains-med.json",
+  "gallery": "gallery/index.json",
+  "public_notice_cache": "data/raw/pub_*.json"
+ },
+ "days": [
+  {
+   "date": "2026-09-07",
+   "posted": 1,
+   "filed_by_rule": 1,
+   "by_rule": {
+    "pm-setaside": 1
+   },
+   "filed_by_model": 0,
+   "sent_to_desk": 0,
+   "surfaced": [],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-09-08",
+   "posted": 1,
+   "filed_by_rule": 1,
+   "by_rule": {
+    "pm-days": 1
+   },
+   "filed_by_model": 0,
+   "sent_to_desk": 0,
+   "surfaced": [],
+   "no_card": [],
+   "amendments": []
+  },
+  {
+   "date": "2026-09-09",
+   "posted": 2,
+   "filed_by_rule": 2,
+   "by_rule": {
+    "pm-setaside": 1,
+    "pm-types": 1
+   },
+   "filed_by_model": 0,
+   "sent_to_desk": 0,
+   "surfaced": [],
+   "no_card": [],
+   "amendments": [
+    {
+     "notice_id": "8a487ff97a4442d0baea5e4f582d358d",
+     "title": "IDARNG Dental /Medical Services Amendment",
+     "why": "type Combined Synopsis/Solicitation on base type Special Notice; 'amend' in the title",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": "2026-09-15T16:00:00-06:00",
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    },
+    {
+     "notice_id": "1308054b2df24235825b1e782266e190",
+     "title": "Multiple Award Schedule",
+     "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+     "parent_opportunity_id": null,
+     "public_json_cached": true,
+     "previous_deadline": null,
+     "current_deadline": "2026-09-09T11:12:13-05:00",
+     "deadline_moved": null,
+     "note": "no parent.opportunityId in the cached public JSON"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "posted": 4,
+   "filed_by_rule": 4,
+   "by_rule": {
+    "pm-setaside": 2,
+    "pm-types": 1,
+    "pm-days": 1
+   },
+   "filed_by_model": 0,
+   "sent_to_desk": 0,
+   "surfaced": [],
+   "no_card": [],
+   "amendments": [
+    {
+     "notice_id": "d9cebba572094ed3b1e41704bfe4ed72",
+     "title": "Roleplayer Services",
+     "why": "type Award Notice on base type Solicitation",
+     "parent_opportunity_id": null,
+     "public_json_cached": false,
+     "previous_deadline": null,
+     "current_deadline": null,
+     "deadline_moved": null,
+     "note": "public JSON for this notice is not cached"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-11",
+   "posted": 2,
+   "filed_by_rule": 2,
+   "by_rule": {
+    "pm-days": 1,
+    "pm-types": 1
+   },
+   "filed_by_model": 0,
+   "sent_to_desk": 0,
+   "surfaced": [],
+   "no_card": [],
+   "amendments": []
+  }
+ ],
+ "totals": {
+  "days": 5,
+  "posted": 10,
+  "filed_by_rule": 10,
+  "filed_by_model": 0,
+  "sent_to_desk": 0,
+  "surfaced": 0,
+  "no_card": 0,
+  "amendments_seen": 3,
+  "by_rule": {
+   "pm-setaside": 4,
+   "pm-days": 3,
+   "pm-types": 3
+  }
+ },
+ "amendments": {
+  "detected": 3,
+  "with_parent_id": 0,
+  "previous_version_cached": 0,
+  "deadline_moved": 0,
+  "rows": [
+   {
+    "notice_id": "8a487ff97a4442d0baea5e4f582d358d",
+    "title": "IDARNG Dental /Medical Services Amendment",
+    "why": "type Combined Synopsis/Solicitation on base type Special Notice; 'amend' in the title",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": "2026-09-15T16:00:00-06:00",
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "1308054b2df24235825b1e782266e190",
+    "title": "Multiple Award Schedule",
+    "why": "type Award Notice on base type Combined Synopsis/Solicitation",
+    "parent_opportunity_id": null,
+    "public_json_cached": true,
+    "previous_deadline": null,
+    "current_deadline": "2026-09-09T11:12:13-05:00",
+    "deadline_moved": null,
+    "note": "no parent.opportunityId in the cached public JSON"
+   },
+   {
+    "notice_id": "d9cebba572094ed3b1e41704bfe4ed72",
+    "title": "Roleplayer Services",
+    "why": "type Award Notice on base type Solicitation",
+    "parent_opportunity_id": null,
+    "public_json_cached": false,
+    "previous_deadline": null,
+    "current_deadline": null,
+    "deadline_moved": null,
+    "note": "public JSON for this notice is not cached"
+   }
+  ]
+ },
+ "invariants": {
+  "all_ok": true,
+  "checks": [
+   {
+    "name": "every surfaced id is a gallery case",
+    "ok": true,
+    "detail": "0 surfaced, 0 gallery cards"
+   },
+   {
+    "name": "every gallery case surfaces exactly once",
+    "ok": true,
+    "detail": "0 distinct surfaced ids"
+   },
+   {
+    "name": "no tier-0 or tier-1 notice surfaces",
+    "ok": true,
+    "detail": "none"
+   },
+   {
+    "name": "per-day counts sum to the bench counts",
+    "ok": true,
+    "detail": "week posted/filed/model/desk = 10/10/0/0; bench = 10/10/0/0"
+   },
+   {
+    "name": "the replay made no model call",
+    "ok": true,
+    "detail": "0 model calls: every outcome is read from the committed bench"
+   }
+  ]
+ }
+}

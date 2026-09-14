@@ -1,0 +1,814 @@
+{
+ "notice_id": "23123dbc9dc04bae9701caddb03b3f0a",
+ "firm_slug": "red-cedar",
+ "model_used": "us.anthropic.claude-sonnet-4-6",
+ "fallback_used": false,
+ "forced_model": null,
+ "extracted_at": "2026-09-14T01:29:20-05:00",
+ "evidence_basis": null,
+ "days_to_close": 4.351722188148148,
+ "closed": false,
+ "response_kind": "proposal",
+ "card": {
+  "notice_id": "23123dbc9dc04bae9701caddb03b3f0a",
+  "firm_slug": "red-cedar",
+  "situation": "Solicitation R4-PR-Cabo Rojo NWR-126204A4CI0 is a janitorial services contract at Cabo Rojo National Wildlife Refuge, Puerto Rico, issued by U.S. Fish & Wildlife Service (INTERIOR), unrestricted, evaluated Best Value / Trade Off.\nIt reached the owner because Red Cedar Facility Services is an exact NAICS 561720 match with multiple federal janitorial past-performance records and WOSB/EDWOSB eligibility, but the site is ~2,000+ miles from the firm's Oklahoma City base.",
+  "recommendation": "no-bid",
+  "reasons_for": [
+   "NAICS 561720 exact match and small-business size standard ($22M) are fully satisfied, and three qualifying federal/state janitorial references are immediately available [23123dbc-ef2873c4-p2-b1f3c919; 23123dbc-ef2873c4-p5-5a036359].",
+   "CIMS-GB certification, CMMS-logged QC inspections, and OSHA 30 supervisors directly support the QCP, professional-standards, and OSHA 29 CFR 1910.141 requirements [23123dbc-d1ab2780-p2-bf2bb22e; 23123dbc-d1ab2780-p1-7224df30].",
+   "Established green cleaning program satisfies the environmentally compliant and non-toxic/low-odor supplies requirements without additional investment [23123dbc-ef2873c4-p4-4fc72b11; 23123dbc-d1ab2780-p5-32063a02]."
+  ],
+  "reasons_against": [
+   "Cabo Rojo NWR (Puerto Rico) is ~2,000+ miles from Oklahoma City, directly violating the firm's 200-mile operating rule, and no Puerto Rico workforce or mobilization capability is stated in the profile [profile: rc-distance 200-mile rule; gap: 23123dbc-d1ab2780-p2-f8de56a3].",
+   "No local workforce exists to guarantee uninterrupted performance, and accurate Puerto Rico pricing (travel, logistics, local labor) cannot be established from the firm's cost basis, making a competitive and compliant price schedule highly uncertain [23123dbc-d1ab2780-p2-f8de56a3; 23123dbc-c8115174-p2-824b084b].",
+   "Multiple unknown compliance items — SAM.gov active registration, background-check program, contract manager designation, IPP electronic invoicing, and anti-trafficking plan — remain unconfirmed in the profile and would need to be resolved in under 4 days [23123dbc-ef2873c4-p4-11bd4c88; 23123dbc-d1ab2780-p3-f216b14c; 23123dbc-ef2873c4-p14-c5f931c8; 23123dbc-ef2873c4-p29-4a2d087c]."
+  ],
+  "default": "filed as no-bid, nothing submitted",
+  "decide_by": "2026-09-16",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-09-18T15:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": null,
+   "source_quotes": []
+  },
+  "fit_score": 0.7692,
+  "matrix_summary": "15 of 35 requirements met, 10 partial, 1 gap, 9 unknown",
+  "evidence_link": "https://sam.gov/opp/23123dbc9dc04bae9701caddb03b3f0a/view"
+ },
+ "matrix": [
+  {
+   "requirement_id": "23123dbc-ef2873c4-p2-b1f3c919",
+   "quote": "The NAICS code is [561720 -Janitorial] and the small business size standard is: $22 Mil",
+   "source_file": "ef2873c429df4a25b1fbe2d104c8ee81.pdf",
+   "page": 2,
+   "firm_answer": "Red Cedar Facility Services lists NAICS 561720 as a primary code and is a small business (WOSB/EDWOSB, SBA-recognized).",
+   "status": "meets",
+   "evidence": "Firm profile: naics 561720, 561730; WOSB, EDWOSB, SBA set-asides"
+  },
+  {
+   "requirement_id": "23123dbc-ef2873c4-p4-6aed1834",
+   "quote": "Factor I - Technical Capabilities Technical experience, capacity, and expertise to perform the required tasks within the period of performance and to meet all goals and objectives on schedule.",
+   "source_file": "ef2873c429df4a25b1fbe2d104c8ee81.pdf",
+   "page": 4,
+   "firm_answer": "Firm has janitorial, custodial, floor care, window cleaning experience on federal buildings. However, no capacity or workforce in Puerto Rico is stated.",
+   "status": "partial",
+   "evidence": "Custodial services, Oklahoma City Federal Building; Janitorial, state office complex; Housekeeping support, outpatient clinic"
+  },
+  {
+   "requirement_id": "23123dbc-ef2873c4-p5-5a036359",
+   "quote": "Factor III - Past Performance: Quote shall provide references for at least three customers where the company has provided the same or very similar work, for evaluation of past performance.",
+   "source_file": "ef2873c429df4a25b1fbe2d104c8ee81.pdf",
+   "page": 5,
+   "firm_answer": "Firm has four past-performance records in NAICS 561720 janitorial/custodial work: GSA Region 7 federal building, Oklahoma OMES state office complex, VA Oklahoma City clinic, and Tinker AFB grounds. Three qualifying janitorial references are available.",
+   "status": "meets",
+   "evidence": "Custodial services, Oklahoma City Federal Building; Janitorial, state office complex; Housekeeping support, outpatient clinic"
+  },
+  {
+   "requirement_id": "23123dbc-ef2873c4-p4-5ab684df",
+   "quote": "Vendor cannot have a termination for fault or default, within the last 7 years.",
+   "source_file": "ef2873c429df4a25b1fbe2d104c8ee81.pdf",
+   "page": 4,
+   "firm_answer": "Profile does not mention any termination for fault or default. No adverse past-performance information stated.",
+   "status": "unknown",
+   "evidence": "No termination for default mentioned in firm profile"
+  },
+  {
+   "requirement_id": "23123dbc-ef2873c4-p4-11bd4c88",
+   "quote": "Vendor must be active in SAMS upon submission of quote.",
+   "source_file": "ef2873c429df4a25b1fbe2d104c8ee81.pdf",
+   "page": 4,
+   "firm_answer": "Profile does not explicitly confirm active SAM.gov registration. e-Verify enrollment is mentioned but SAM status is not stated.",
+   "status": "unknown",
+   "evidence": "Profile lists e-Verify but does not confirm SAM registration"
+  },
+  {
+   "requirement_id": "23123dbc-d1ab2780-p1-96140714",
+   "quote": "The contractor shall provide all personnel, equipment, supplies, facilities, transportation, tools, materials, supervision, and other items and non-personal services necessary to perform janitorial services as defined in this PWS",
+   "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+   "page": 1,
+   "firm_answer": "Firm provides janitorial services including all supplies and equipment for federal buildings. However, no Puerto Rico workforce or logistics capability is stated.",
+   "status": "partial",
+   "evidence": "Firm capabilities: janitorial, custodial, floor care, window cleaning for federal and state facilities; 38 W-2 employees"
+  },
+  {
+   "requirement_id": "23123dbc-d1ab2780-p1-7224df30",
+   "quote": "Services shall ensure the facility remains clean, sanitary, safe, and presentable for staff and visitors, and shall be performed in accordance with professional commercial janitorial standards and all applicable laws, regulations, and safety requirements (including OSHA 29 CFR 1910.141).",
+   "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+   "page": 1,
+   "firm_answer": "Firm has OSHA 30 supervisors and CIMS-GB certification, demonstrating adherence to professional janitorial standards and OSHA safety requirements.",
+   "status": "meets",
+   "evidence": "Firm capabilities: CIMS-GB certified, OSHA 30 supervisors"
+  },
+  {
+   "requirement_id": "23123dbc-d1ab2780-p2-bf2bb22e",
+   "quote": "The Contractor shall develop and maintain an effective Quality Control Plan (QCP) to ensure services are performed in accordance with this PWS.",
+   "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+   "page": 2,
+   "firm_answer": "Firm uses CMMS-logged QC inspections and has a green cleaning program, indicating an existing QC framework that can be formalized into a QCP.",
+   "status": "meets",
+   "evidence": "Firm capabilities: QC inspections logged in a CMMS"
+  },
+  {
+   "requirement_id": "23123dbc-d1ab2780-p2-35121e0e",
+   "quote": "The QCP shall be provided to the Government prior to the start of work.",
+   "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+   "page": 2,
+   "firm_answer": "Firm has CMMS-based QC inspection capability; can produce and submit a QCP. No explicit statement of prior QCP submission experience, but capability is implied.",
+   "status": "partial",
+   "evidence": "Firm capabilities: QC inspections logged in a CMMS"
+  },
+  {
+   "requirement_id": "23123dbc-d1ab2780-p2-26d05754",
+   "quote": "The QCP shall include internal inspection schedules, supervisory oversight procedures, corrective action protocols, and documentation of deficiencies and resolutions.",
+   "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+   "page": 2,
+   "firm_answer": "CMMS-logged QC inspections and OSHA 30 supervisors support internal inspection schedules and supervisory oversight. Corrective action protocols not explicitly described.",
+   "status": "partial",
+   "evidence": "Firm capabilities: QC inspections logged in a CMMS, OSHA 30 supervisors"
+  },
+  {
+   "requirement_id": "23123dbc-d1ab2780-p3-f216b14c",
+   "quote": "Contractor personnel performing work under this contract must have a [back ground check]at time of the proposal submission, and must maintain the level of security required for the life of the contract.",
+   "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+   "page": 3,
+   "firm_answer": "Profile does not mention a background check program or personnel security screening process.",
+   "status": "unknown",
+   "evidence": "No background check program mentioned in firm profile"
+  },
+  {
+   "requirement_id": "23123dbc-d1ab2780-p4-2b1786ef",
+   "quote": "The contractor shall provide a contract manager who shall be responsible for the performance of the work.",
+   "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+   "page": 4,
+   "firm_answer": "Profile does not explicitly describe a contract manager role or designation process, though 38 W-2 employees and supervisory structure are implied.",
+   "status": "unknown",
+   "evidence": "Firm profile: 38 W-2 employees, OSHA 30 supervisors — supervisory structure implied but contract manager not named"
+  },
+  {
+   "requirement_id": "23123dbc-d1ab2780-p4-bccb6b6d",
+   "quote": "The name of this person and an alternate who shall act for the contractor when the manager is absent shall be designated in writing to the contracting officer.",
+   "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+   "page": 4,
+   "firm_answer": "Profile does not describe a contract manager designation or alternate designation process.",
+   "status": "unknown",
+   "evidence": "No contract manager designation process described in firm profile"
+  },
+  {
+   "requirement_id": "23123dbc-d1ab2780-p5-32063a02",
+   "quote": "Cleaning products must be non-toxic, lowodor, and environmentally preferred whenever possible.",
+   "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+   "page": 5,
+   "firm_answer": "Firm has an established green cleaning program, directly supporting use of non-toxic, low-odor, environmentally preferred products.",
+   "status": "meets",
+   "evidence": "Firm capabilities: green cleaning program"
+  },
+  {
+   "requirement_id": "23123dbc-ef2873c4-p4-4fc72b11",
+   "quote": "Cleaning supplies shall be environmentally compliant.",
+   "source_file": "ef2873c429df4a25b1fbe2d104c8ee81.pdf",
+   "page": 4,
+   "firm_answer": "Firm's green cleaning program and past-performance keyword 'green cleaning' confirm use of environmentally compliant supplies.",
+   "status": "meets",
+   "evidence": "Firm capabilities: green cleaning program; Janitorial, state office complex keywords: green cleaning"
+  },
+  {
+   "requirement_id": "23123dbc-d1ab2780-p5-b88006b8",
+   "quote": "The Contractor shall comply with all federal, state, and local regulations, including OSHA safety standards and EPA chemical handling requirements.",
+   "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+   "page": 5,
+   "firm_answer": "Firm has OSHA 30 supervisors and a green cleaning program indicating EPA-compliant chemical handling awareness.",
+   "status": "meets",
+   "evidence": "Firm capabilities: OSHA 30 supervisors, green cleaning program"
+  },
+  {
+   "requirement_id": "23123dbc-d1ab2780-p5-e22ab51a",
+   "quote": "Contractor personnel must use appropriate personal protective equipment (PPE) while on site.",
+   "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+   "page": 5,
+   "firm_answer": "OSHA 30 supervisors on staff implies PPE training and enforcement capability.",
+   "status": "meets",
+   "evidence": "Firm capabilities: OSHA 30 supervisors"
+  },
+  {
+   "requirement_id": "23123dbc-d1ab2780-p2-c9a8c8b5",
+   "quote": "When hiring personnel, the Contractor shall keep in mind that the stability and continuity of the workforce are essential.",
+   "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+   "page": 2,
+   "firm_answer": "Firm employs 38 W-2 employees (not 1099/temp), indicating a stable, direct-hire workforce model.",
+   "status": "meets",
+   "evidence": "Firm capabilities: 38 W-2 employees"
+  },
+  {
+   "requirement_id": "23123dbc-d1ab2780-p2-f8de56a3",
+   "quote": "The Contractor must at all times maintain an adequate workforce for the uninterrupted performance of all tasks defined within this PWS when the Government facility is not closed for the above reasons.",
+   "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+   "page": 2,
+   "firm_answer": "Firm has 38 W-2 employees in Oklahoma. No Puerto Rico workforce exists per the profile, making uninterrupted performance at Cabo Rojo NWR highly uncertain.",
+   "status": "gap",
+   "evidence": "Firm capabilities: 38 W-2 employees in Oklahoma and neighboring states only"
+  },
+  {
+   "requirement_id": "23123dbc-d1ab2780-p2-b69698df",
+   "quote": "If a Federal holiday, inclement weather closure, or emergency event occurs on a scheduled cleaning day, the Contractor shall coordinate to reschedule within seven (7) days; no additional compensation will be paid for holiday or rescheduled visits.",
+   "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+   "page": 2,
+   "firm_answer": "Firm has experience with federal building schedules and holiday coordination per GSA Region 7 contract. Rescheduling capability is implied but no Puerto Rico logistics are described.",
+   "status": "partial",
+   "evidence": "Custodial services, Oklahoma City Federal Building"
+  },
+  {
+   "requirement_id": "23123dbc-d1ab2780-p7-4bae7ae3",
+   "quote": "4.1 General The Contractor shall furnish all supplies, equipment, facilities, and services required to perform work under this contract that are not listed under Part 3.",
+   "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+   "page": 7,
+   "firm_answer": "Firm provides all supplies and equipment for janitorial services per its capabilities statement.",
+   "status": "meets",
+   "evidence": "Firm capabilities: janitorial, custodial, floor care, window cleaning for federal and state facilities"
+  },
+  {
+   "requirement_id": "23123dbc-d1ab2780-p7-a4457ca6",
+   "quote": "4.4 Equipment Contractor shall furnish all necessary equipment not provided by the Government to meet this PWS.",
+   "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+   "page": 7,
+   "firm_answer": "Firm furnishes its own equipment for janitorial operations. Transporting or procuring equipment in Puerto Rico is not addressed in the profile.",
+   "status": "partial",
+   "evidence": "Firm capabilities: janitorial, custodial, floor care, window cleaning — equipment provision implied"
+  },
+  {
+   "requirement_id": "23123dbc-d1ab2780-p1-94249b05",
+   "quote": "Contractor will be responsible to restock paper products and soap dispensers.",
+   "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+   "page": 1,
+   "firm_answer": "Restocking consumables (paper products, soap) is standard in the firm's custodial and janitorial past performance.",
+   "status": "meets",
+   "evidence": "Custodial services, Oklahoma City Federal Building keywords: restrooms, trash, recycling"
+  },
+  {
+   "requirement_id": "23123dbc-92b91d75-p1-99a614b6",
+   "quote": "PAST EXPERIENCE & REFERENCES REFERENCES This form must be completed by all quoters/bidders in order to receive consideration.",
+   "source_file": "92b91d7530ae4bdb874d82b822c6d616.pdf",
+   "page": 1,
+   "firm_answer": "Firm has four past-performance records in NAICS 561720/561730 and can complete the references form with at least three janitorial references.",
+   "status": "meets",
+   "evidence": "Custodial services, Oklahoma City Federal Building; Janitorial, state office complex; Housekeeping support, outpatient clinic"
+  },
+  {
+   "requirement_id": "23123dbc-ef2873c4-p1-b76bb0d5",
+   "quote": "Any representations and/or certifications attached to this Request for Quotation must be completed by the quoter.",
+   "source_file": "ef2873c429df4a25b1fbe2d104c8ee81.pdf",
+   "page": 1,
+   "firm_answer": "Firm is a registered small business (WOSB, EDWOSB, SBA) and can complete standard reps and certs. SAM registration status not confirmed in profile.",
+   "status": "partial",
+   "evidence": "Firm profile: WOSB, EDWOSB, SBA set-asides listed"
+  },
+  {
+   "requirement_id": "23123dbc-ef2873c4-p46-52f56351",
+   "quote": "The Offeror shall represent its small business size status for each one of the NAICS codes assigned to this acquisition under which it is submitting an offer.",
+   "source_file": "ef2873c429df4a25b1fbe2d104c8ee81.pdf",
+   "page": 46,
+   "firm_answer": "Firm is a WOSB/EDWOSB small business under NAICS 561720, within the $22M size standard.",
+   "status": "meets",
+   "evidence": "Firm profile: WOSB, EDWOSB, SBA; naics 561720"
+  },
+  {
+   "requirement_id": "23123dbc-ef2873c4-p14-c5f931c8",
+   "quote": "Payment requests must be submitted electronically through the U.",
+   "source_file": "ef2873c429df4a25b1fbe2d104c8ee81.pdf",
+   "page": 14,
+   "firm_answer": "Profile does not mention IPP (Invoice Processing Platform) registration or electronic invoicing capability.",
+   "status": "unknown",
+   "evidence": "No IPP or electronic invoicing capability mentioned in firm profile"
+  },
+  {
+   "requirement_id": "23123dbc-ef2873c4-p29-4a2d087c",
+   "quote": "The Contractor shall maintain a compliance plan during the performance of the contract that is appropriate-",
+   "source_file": "ef2873c429df4a25b1fbe2d104c8ee81.pdf",
+   "page": 29,
+   "firm_answer": "Profile does not describe an anti-trafficking compliance plan. This is a standard FAR 52.222-50 requirement that the firm would need to develop.",
+   "status": "unknown",
+   "evidence": "No anti-trafficking compliance plan mentioned in firm profile"
+  },
+  {
+   "requirement_id": "23123dbc-d1ab2780-p3-271632dc",
+   "quote": "The Contractor shall be responsible for safeguarding all Government equipment, information, and property provided for Contractor use.",
+   "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+   "page": 3,
+   "firm_answer": "Standard federal contract requirement; firm has federal building experience (GSA, VA, Tinker AFB) implying familiarity with property safeguarding obligations.",
+   "status": "partial",
+   "evidence": "Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic"
+  },
+  {
+   "requirement_id": "23123dbc-d1ab2780-p1-93f97a29",
+   "quote": "The Government will furnish certain consumables and equipment; the Contractor will furnish all other required supplies and equipment.",
+   "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+   "page": 1,
+   "firm_answer": "Firm furnishes its own supplies and equipment for janitorial operations per its capabilities statement.",
+   "status": "meets",
+   "evidence": "Firm capabilities: janitorial, custodial, floor care, window cleaning for federal and state facilities"
+  },
+  {
+   "requirement_id": "23123dbc-c8115174-p2-824b084b",
+   "quote": "Total Base and All Option Years __________ $ **Incomplete Price Schedules will not be considered: Offerors MUST provide pricing for each item.",
+   "source_file": "c811517402a64e43a27e85d22dac3e8d.pdf",
+   "page": 2,
+   "firm_answer": "Firm can complete a price schedule for janitorial services. However, accurate pricing for Puerto Rico operations (travel, logistics, local labor) would be highly uncertain given no local presence.",
+   "status": "partial",
+   "evidence": "Firm capabilities: janitorial services for federal buildings — pricing experience exists but no Puerto Rico cost basis"
+  },
+  {
+   "requirement_id": "23123dbc-ef2873c4-p5-34deaa09",
+   "quote": "References shall include the company name, contact person, phone number, physical address, and e-mail address (if available)",
+   "source_file": "ef2873c429df4a25b1fbe2d104c8ee81.pdf",
+   "page": 5,
+   "firm_answer": "Firm has four past-performance records with named customers (GSA Region 7, Tinker AFB, Oklahoma OMES, VA Oklahoma City) from which contact references can be provided.",
+   "status": "meets",
+   "evidence": "Custodial services, Oklahoma City Federal Building; Janitorial, state office complex; Housekeeping support, outpatient clinic; Grounds maintenance, cantonment area"
+  },
+  {
+   "requirement_id": "23123dbc-ef2873c4-p39-e6775be0",
+   "quote": "The Offeror shall review the list of excluded parties in the System for Award Management (SAM) (https://www.sam.gov) for entities excluded from receiving federal awards for \"covered telecommunications equipment or services.\"",
+   "source_file": "ef2873c429df4a25b1fbe2d104c8ee81.pdf",
+   "page": 39,
+   "firm_answer": "Standard SAM exclusion check requirement. Firm provides janitorial services and is unlikely to use covered telecom equipment, but SAM registration status is not confirmed in profile.",
+   "status": "unknown",
+   "evidence": "No SAM registration or telecom equipment usage mentioned in firm profile"
+  },
+  {
+   "requirement_id": "23123dbc-ef2873c4-p11-b004035e",
+   "quote": "The Contractor shall make available at its offices at all reasonable times the records, materials, and other evidence for examination, audit, or reproduction, until 3 years after final payment under this contract",
+   "source_file": "ef2873c429df4a25b1fbe2d104c8ee81.pdf",
+   "page": 11,
+   "firm_answer": "Standard federal records retention requirement. Firm has federal contract experience (GSA, VA, Tinker AFB) implying familiarity with audit and records obligations.",
+   "status": "partial",
+   "evidence": "Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic"
+  },
+  {
+   "requirement_id": "23123dbc-d1ab2780-p4-e6023f31",
+   "quote": "The contract manager or alternate shall be available between 8:00 a.m. and 3:00 p.m., Monday through Friday, except Federal holidays or Government closures.",
+   "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+   "page": 4,
+   "firm_answer": "Profile does not describe a contract manager availability schedule. Time zone difference between Oklahoma (CDT) and Puerto Rico (AST) could create availability complications not addressed in the profile.",
+   "status": "unknown",
+   "evidence": "No contract manager availability or time zone coverage described in firm profile"
+  }
+ ],
+ "matrix_dropped": 4,
+ "matrix_dropped_rows": [
+  {
+   "requirement_id": "rc-distance",
+   "quote": "No bids over 200 miles from Oklahoma City.",
+   "source_file": "owner_rules",
+   "page": 0,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "23123dbc-ef2873c4-p4-ef2873c4",
+   "quote": "The proposal shall include a narrative explaining how the work will be carried out in terms of the techniques, procedures, and schedule.",
+   "source_file": "ef2873c429df4a25b1fbe2d104c8ee81.pdf",
+   "page": 4,
+   "reason": "unknown_requirement"
+  },
+  {
+   "requirement_id": "23123dbc-d1ab2780-p1-2b52184b",
+   "quote": "The Government shall not exercise any supervision or control over the contractor's service providers performing the services herein.",
+   "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+   "page": 1,
+   "reason": "not_verbatim"
+  },
+  {
+   "requirement_id": "23123dbc-d1ab2780-p2-1cd5a036",
+   "quote": "The Contractor shall notify the Contracting Officer immediately whenever it becomes aware that such access or participation may result in any actual prepotential and shall promptly submit a plan to the Contracting Officer to avoid or mitigate any such OCI.",
+   "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+   "page": 4,
+   "reason": "unknown_requirement"
+  }
+ ],
+ "fit_score_code": 0.7692,
+ "drafts": {
+  "capability_statement": "Red Cedar Facility Services is a Woman-Owned Small Business (WOSB) and Economically Disadvantaged Woman-Owned Small Business (EDWOSB) operating under NAICS 561720 (Janitorial Services), well within the $22M small-business size standard.\n\nWe provide comprehensive non-personal janitorial and custodial services for federal and state facilities, furnishing all personnel, supplies, equipment, and supervision required for uninterrupted performance. Our service lines include daily and periodic cleaning, restroom sanitation, consumable restocking, floor care, and window cleaning — all performed to professional commercial janitorial standards and in full compliance with OSHA 29 CFR 1910.141.\n\nOur quality assurance framework is built around a Computerized Maintenance Management System (CMMS) that logs every inspection, deficiency, and corrective action — directly supporting the Quality Control Plan requirement in this PWS. All field supervisors hold OSHA 30 certification, ensuring rigorous PPE enforcement and safety compliance on every shift.\n\nRed Cedar's established green cleaning program ensures that all chemical products used on-site are non-toxic, low-odor, and environmentally preferred, satisfying the EPA-compliant chemical handling and environmentally compliant supplies requirements of this solicitation.\n\nOur workforce of 38 direct W-2 employees — not temporary or 1099 labor — reflects the stable, continuous staffing model the Government requires. We hold CIMS-GB certification, demonstrating adherence to industry-recognized janitorial management standards.\n\nWe are prepared to submit a minimum of three past-performance references for same or similar federal and state janitorial work upon request.\n\nRed Cedar Facility Services respectfully requests the opportunity to support the U.S. Fish and Wildlife Service at Cabo Rojo National Wildlife Refuge.",
+  "questions_for_co": [
+   "Workforce mobilization — The PWS requires the contractor to maintain an adequate workforce for uninterrupted performance at all times [23123dbc-d1ab2780-p2-f8de56a3]. Will the Government consider offerors who propose to recruit and hire locally in Puerto Rico prior to the period of performance start date, and if so, is there a minimum lead time between award and the first required service day?",
+   "Background check standard — The PWS states that contractor personnel must have a background check at the time of proposal submission [23123dbc-d1ab2780-p3-f216b14c]. Please clarify: (a) what type or level of background check is required (e.g., NACI, e-Verify, state criminal), (b) whether this applies to proposed key personnel only or all anticipated employees, and (c) which agency or office administers the check.",
+   "Contract manager availability and time zone — The PWS requires the contract manager or alternate to be available 8:00 a.m. to 3:00 p.m., Monday through Friday [23123dbc-d1ab2780-p4-e6023f31]. Please confirm whether those hours are Atlantic Standard Time (AST, Puerto Rico) or another time zone, and whether remote availability (phone/email) satisfies this requirement.",
+   "Electronic payment platform — The solicitation references electronic submission of payment requests [23123dbc-ef2873c4-p14-c5f931c8]. Please confirm the specific platform required (e.g., IPP — Invoice Processing Platform) and whether first-time users must register prior to proposal submission or prior to first invoice.",
+   "Anti-trafficking compliance plan — The solicitation references a contractor compliance plan appropriate to the contract [23123dbc-ef2873c4-p29-4a2d087c]. Please confirm whether a written FAR 52.222-50 anti-trafficking compliance plan must be submitted with the proposal or only maintained during performance, and whether a template or minimum content standard is provided.",
+   "Period of performance and option years — The solicitation does not specify the base period length or number of option years in the documents reviewed. Please confirm the base period start date, duration, and the number and length of any option periods so that offerors can provide complete pricing for all years on the attached price schedule [23123dbc-c8115174-p2-824b084b]."
+  ],
+  "calendar_entries": []
+ },
+ "reader": {
+  "notice_id": "23123dbc9dc04bae9701caddb03b3f0a",
+  "key_requirement_ids": [
+   "23123dbc-ef2873c4-p4-55ecaa72",
+   "23123dbc-ef2873c4-p4-6aed1834",
+   "23123dbc-ef2873c4-p5-5a036359",
+   "23123dbc-ef2873c4-p5-f0311a29",
+   "23123dbc-ef2873c4-p5-5676e664",
+   "23123dbc-ef2873c4-p4-5ab684df",
+   "23123dbc-ef2873c4-p4-11bd4c88",
+   "23123dbc-ef2873c4-p2-b1f3c919",
+   "23123dbc-ef2873c4-p4-9a19b136",
+   "23123dbc-c8115174-p2-824b084b",
+   "23123dbc-d1ab2780-p1-96140714",
+   "23123dbc-d1ab2780-p1-7224df30",
+   "23123dbc-d1ab2780-p2-bf2bb22e",
+   "23123dbc-d1ab2780-p2-35121e0e",
+   "23123dbc-d1ab2780-p3-f216b14c",
+   "23123dbc-d1ab2780-p5-b88006b8",
+   "23123dbc-d1ab2780-p5-32063a02",
+   "23123dbc-ef2873c4-p4-4fc72b11",
+   "23123dbc-92b91d75-p1-99a614b6",
+   "23123dbc-d1ab2780-p2-26d05754",
+   "23123dbc-d1ab2780-p4-2b1786ef",
+   "23123dbc-d1ab2780-p2-b69698df",
+   "23123dbc-d1ab2780-p1-94249b05",
+   "23123dbc-ef2873c4-p5-34deaa09",
+   "23123dbc-d1ab2780-p1-93f97a29"
+  ],
+  "scope_summary": "The contractor shall provide all personnel, equipment, supplies, facilities, transportation, tools, materials, supervision, and other items and non-personal services necessary to perform janitorial services as defined in this PWS, except for those items specified as Government-furnished property and services. Services shall ensure the facility remains clean, sanitary, safe, and presentable for staff and visitors, and shall be performed in accordance with professional commercial janitorial standards and all applicable laws, regulations, and safety requirements (including OSHA 29 CFR 1910.141). The contractor shall perform cleaning services according to the specific schedules in the attached PWS.",
+  "evaluation_basis": "Best Value / Trade Off; Factor I – Technical Capability (technical experience, capacity, and expertise), Factor II – Price (using attached price schedule), Factor III – Past Performance (at least three references for same or similar work); technical and past performance, when combined, are more important than price alone.",
+  "incumbent_or_history": "none found",
+  "quotes": [
+   "The following factors shall be used to evaluate offers: Basis for award: Best Value / Trade Off",
+   "The following factors shall be used to evaluate offers: M.3 Evaluation Factors Factor I - Technical Capability Factor II Price Factor III- Past Performance Best Value/Trade Off Factor I - Technical Capabilities Technical experience, capacity, and expertise to perform the required tasks within the period of performance and to meet all goals and objectives on schedule.",
+   "Technical and past performance, when combined, are more important than price alone.",
+   "Factor III - Past Performance: Quote shall provide references for at least three customers where the company has provided the same or very similar work, for evaluation of past performance.",
+   "The NAICS code is [561720 -Janitorial] and the small business size standard is: $22 Mil All responsible small business sources may submit a quote, which shall be considered by the agency.",
+   "Quote Submission must be complete, all required forms turned in and filled out properly, Vendor cannot have a termination for fault or default, within the last 7 years.",
+   "Vendor must be active in SAMS upon submission of quote.",
+   "The contractor shall provide all personnel, equipment, supplies, facilities, transportation, tools, materials, supervision, and other items and non-personal services necessary to perform janitorial services as defined in this PWS, except for those items specified as Government-furnished property and services.",
+   "Services shall ensure the facility remains clean, sanitary, safe, and presentable for staff and visitors, and shall be performed in accordance with professional commercial janitorial standards and all applicable laws, regulations, and safety requirements (including OSHA 29 CFR 1910.141).",
+   "The Contractor shall develop and maintain an effective Quality Control Plan (QCP) to ensure services are performed in accordance with this PWS.",
+   "Contractor personnel performing work under this contract must have a [back ground check]at time of the proposal submission, and must maintain the level of security required for the life of the contract.",
+   "Cleaning products must be non-toxic, lowodor, and environmentally preferred whenever possible.",
+   "Total Base and All Option Years __________ $ **Incomplete Price Schedules will not be considered: Offerors MUST provide pricing for each item.",
+   "The proposal shall include a narrative explaining how the work will be carried out in terms of the techniques, procedures, and schedule.",
+   "The Contractor shall comply with all federal, state, and local regulations, including OSHA safety standards and EPA chemical handling requirements."
+  ]
+ },
+ "fit": {
+  "notice_id": "23123dbc9dc04bae9701caddb03b3f0a",
+  "fit_score": 0.12,
+  "matched_past_performance": [
+   "Custodial services, Oklahoma City Federal Building",
+   "Janitorial, state office complex",
+   "Housekeeping support, outpatient clinic"
+  ],
+  "strengths": [
+   "NAICS 561720 exact match",
+   "Multiple federal janitorial past-performance records",
+   "WOSB/EDWOSB set-aside eligibility (unrestricted solicitation)",
+   "Green cleaning program aligns with environmentally compliant supplies requirement",
+   "CIMS-GB certification and CMMS-logged QC inspections support QCP requirement",
+   "OSHA 30 supervisors support safety/PPE compliance",
+   "e-Verify enrollment supports staffing compliance"
+  ],
+  "gaps": [
+   "DISQUALIFYING: Cabo Rojo NWR (Puerto Rico) is ~2,000+ miles from Oklahoma City — violates rc-distance 200-mile rule",
+   "No presence, workforce, or mobilization capability in Puerto Rico stated in profile",
+   "No evidence of background-check program for personnel security requirement",
+   "No contract manager or alternate designation process described in profile",
+   "Base period length not confirmed in requirements shown — rc-base compliance unknown",
+   "No IPP electronic invoicing experience mentioned in profile",
+   "No evidence of anti-trafficking compliance plan in profile"
+  ],
+  "matrix": [
+   {
+    "requirement_id": "23123dbc-ef2873c4-p2-b1f3c919",
+    "quote": "The NAICS code is [561720 -Janitorial] and the small business size standard is: $22 Mil",
+    "source_file": "ef2873c429df4a25b1fbe2d104c8ee81.pdf",
+    "page": 2,
+    "firm_answer": "Red Cedar Facility Services lists NAICS 561720 as a primary code and is a small business (WOSB/EDWOSB, SBA-recognized).",
+    "status": "meets",
+    "evidence": "Firm profile: naics 561720, 561730; WOSB, EDWOSB, SBA set-asides"
+   },
+   {
+    "requirement_id": "23123dbc-ef2873c4-p4-6aed1834",
+    "quote": "Factor I - Technical Capabilities Technical experience, capacity, and expertise to perform the required tasks within the period of performance and to meet all goals and objectives on schedule.",
+    "source_file": "ef2873c429df4a25b1fbe2d104c8ee81.pdf",
+    "page": 4,
+    "firm_answer": "Firm has janitorial, custodial, floor care, window cleaning experience on federal buildings. However, no capacity or workforce in Puerto Rico is stated.",
+    "status": "partial",
+    "evidence": "Custodial services, Oklahoma City Federal Building; Janitorial, state office complex; Housekeeping support, outpatient clinic"
+   },
+   {
+    "requirement_id": "23123dbc-ef2873c4-p5-5a036359",
+    "quote": "Factor III - Past Performance: Quote shall provide references for at least three customers where the company has provided the same or very similar work, for evaluation of past performance.",
+    "source_file": "ef2873c429df4a25b1fbe2d104c8ee81.pdf",
+    "page": 5,
+    "firm_answer": "Firm has four past-performance records in NAICS 561720 janitorial/custodial work: GSA Region 7 federal building, Oklahoma OMES state office complex, VA Oklahoma City clinic, and Tinker AFB grounds. Three qualifying janitorial references are available.",
+    "status": "meets",
+    "evidence": "Custodial services, Oklahoma City Federal Building; Janitorial, state office complex; Housekeeping support, outpatient clinic"
+   },
+   {
+    "requirement_id": "23123dbc-ef2873c4-p4-5ab684df",
+    "quote": "Vendor cannot have a termination for fault or default, within the last 7 years.",
+    "source_file": "ef2873c429df4a25b1fbe2d104c8ee81.pdf",
+    "page": 4,
+    "firm_answer": "Profile does not mention any termination for fault or default. No adverse past-performance information stated.",
+    "status": "unknown",
+    "evidence": "No termination for default mentioned in firm profile"
+   },
+   {
+    "requirement_id": "23123dbc-ef2873c4-p4-11bd4c88",
+    "quote": "Vendor must be active in SAMS upon submission of quote.",
+    "source_file": "ef2873c429df4a25b1fbe2d104c8ee81.pdf",
+    "page": 4,
+    "firm_answer": "Profile does not explicitly confirm active SAM.gov registration. e-Verify enrollment is mentioned but SAM status is not stated.",
+    "status": "unknown",
+    "evidence": "Profile lists e-Verify but does not confirm SAM registration"
+   },
+   {
+    "requirement_id": "23123dbc-d1ab2780-p1-96140714",
+    "quote": "The contractor shall provide all personnel, equipment, supplies, facilities, transportation, tools, materials, supervision, and other items and non-personal services necessary to perform janitorial services as defined in this PWS",
+    "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+    "page": 1,
+    "firm_answer": "Firm provides janitorial services including all supplies and equipment for federal buildings. However, no Puerto Rico workforce or logistics capability is stated.",
+    "status": "partial",
+    "evidence": "Firm capabilities: janitorial, custodial, floor care, window cleaning for federal and state facilities; 38 W-2 employees"
+   },
+   {
+    "requirement_id": "23123dbc-d1ab2780-p1-7224df30",
+    "quote": "Services shall ensure the facility remains clean, sanitary, safe, and presentable for staff and visitors, and shall be performed in accordance with professional commercial janitorial standards and all applicable laws, regulations, and safety requirements (including OSHA 29 CFR 1910.141).",
+    "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+    "page": 1,
+    "firm_answer": "Firm has OSHA 30 supervisors and CIMS-GB certification, demonstrating adherence to professional janitorial standards and OSHA safety requirements.",
+    "status": "meets",
+    "evidence": "Firm capabilities: CIMS-GB certified, OSHA 30 supervisors"
+   },
+   {
+    "requirement_id": "23123dbc-d1ab2780-p2-bf2bb22e",
+    "quote": "The Contractor shall develop and maintain an effective Quality Control Plan (QCP) to ensure services are performed in accordance with this PWS.",
+    "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+    "page": 2,
+    "firm_answer": "Firm uses CMMS-logged QC inspections and has a green cleaning program, indicating an existing QC framework that can be formalized into a QCP.",
+    "status": "meets",
+    "evidence": "Firm capabilities: QC inspections logged in a CMMS"
+   },
+   {
+    "requirement_id": "23123dbc-d1ab2780-p2-35121e0e",
+    "quote": "The QCP shall be provided to the Government prior to the start of work.",
+    "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+    "page": 2,
+    "firm_answer": "Firm has CMMS-based QC inspection capability; can produce and submit a QCP. No explicit statement of prior QCP submission experience, but capability is implied.",
+    "status": "partial",
+    "evidence": "Firm capabilities: QC inspections logged in a CMMS"
+   },
+   {
+    "requirement_id": "23123dbc-d1ab2780-p2-26d05754",
+    "quote": "The QCP shall include internal inspection schedules, supervisory oversight procedures, corrective action protocols, and documentation of deficiencies and resolutions.",
+    "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+    "page": 2,
+    "firm_answer": "CMMS-logged QC inspections and OSHA 30 supervisors support internal inspection schedules and supervisory oversight. Corrective action protocols not explicitly described.",
+    "status": "partial",
+    "evidence": "Firm capabilities: QC inspections logged in a CMMS, OSHA 30 supervisors"
+   },
+   {
+    "requirement_id": "23123dbc-d1ab2780-p3-f216b14c",
+    "quote": "Contractor personnel performing work under this contract must have a [back ground check]at time of the proposal submission, and must maintain the level of security required for the life of the contract.",
+    "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+    "page": 3,
+    "firm_answer": "Profile does not mention a background check program or personnel security screening process.",
+    "status": "unknown",
+    "evidence": "No background check program mentioned in firm profile"
+   },
+   {
+    "requirement_id": "23123dbc-d1ab2780-p4-2b1786ef",
+    "quote": "The contractor shall provide a contract manager who shall be responsible for the performance of the work.",
+    "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+    "page": 4,
+    "firm_answer": "Profile does not explicitly describe a contract manager role or designation process, though 38 W-2 employees and supervisory structure are implied.",
+    "status": "unknown",
+    "evidence": "Firm profile: 38 W-2 employees, OSHA 30 supervisors — supervisory structure implied but contract manager not named"
+   },
+   {
+    "requirement_id": "23123dbc-d1ab2780-p4-bccb6b6d",
+    "quote": "The name of this person and an alternate who shall act for the contractor when the manager is absent shall be designated in writing to the contracting officer.",
+    "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+    "page": 4,
+    "firm_answer": "Profile does not describe a contract manager designation or alternate designation process.",
+    "status": "unknown",
+    "evidence": "No contract manager designation process described in firm profile"
+   },
+   {
+    "requirement_id": "23123dbc-d1ab2780-p5-32063a02",
+    "quote": "Cleaning products must be non-toxic, lowodor, and environmentally preferred whenever possible.",
+    "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+    "page": 5,
+    "firm_answer": "Firm has an established green cleaning program, directly supporting use of non-toxic, low-odor, environmentally preferred products.",
+    "status": "meets",
+    "evidence": "Firm capabilities: green cleaning program"
+   },
+   {
+    "requirement_id": "23123dbc-ef2873c4-p4-4fc72b11",
+    "quote": "Cleaning supplies shall be environmentally compliant.",
+    "source_file": "ef2873c429df4a25b1fbe2d104c8ee81.pdf",
+    "page": 4,
+    "firm_answer": "Firm's green cleaning program and past-performance keyword 'green cleaning' confirm use of environmentally compliant supplies.",
+    "status": "meets",
+    "evidence": "Firm capabilities: green cleaning program; Janitorial, state office complex keywords: green cleaning"
+   },
+   {
+    "requirement_id": "23123dbc-d1ab2780-p5-b88006b8",
+    "quote": "The Contractor shall comply with all federal, state, and local regulations, including OSHA safety standards and EPA chemical handling requirements.",
+    "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+    "page": 5,
+    "firm_answer": "Firm has OSHA 30 supervisors and a green cleaning program indicating EPA-compliant chemical handling awareness.",
+    "status": "meets",
+    "evidence": "Firm capabilities: OSHA 30 supervisors, green cleaning program"
+   },
+   {
+    "requirement_id": "23123dbc-d1ab2780-p5-e22ab51a",
+    "quote": "Contractor personnel must use appropriate personal protective equipment (PPE) while on site.",
+    "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+    "page": 5,
+    "firm_answer": "OSHA 30 supervisors on staff implies PPE training and enforcement capability.",
+    "status": "meets",
+    "evidence": "Firm capabilities: OSHA 30 supervisors"
+   },
+   {
+    "requirement_id": "23123dbc-d1ab2780-p2-c9a8c8b5",
+    "quote": "When hiring personnel, the Contractor shall keep in mind that the stability and continuity of the workforce are essential.",
+    "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+    "page": 2,
+    "firm_answer": "Firm employs 38 W-2 employees (not 1099/temp), indicating a stable, direct-hire workforce model.",
+    "status": "meets",
+    "evidence": "Firm capabilities: 38 W-2 employees"
+   },
+   {
+    "requirement_id": "23123dbc-d1ab2780-p2-f8de56a3",
+    "quote": "The Contractor must at all times maintain an adequate workforce for the uninterrupted performance of all tasks defined within this PWS when the Government facility is not closed for the above reasons.",
+    "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+    "page": 2,
+    "firm_answer": "Firm has 38 W-2 employees in Oklahoma. No Puerto Rico workforce exists per the profile, making uninterrupted performance at Cabo Rojo NWR highly uncertain.",
+    "status": "gap",
+    "evidence": "Firm capabilities: 38 W-2 employees in Oklahoma and neighboring states only"
+   },
+   {
+    "requirement_id": "23123dbc-d1ab2780-p2-b69698df",
+    "quote": "If a Federal holiday, inclement weather closure, or emergency event occurs on a scheduled cleaning day, the Contractor shall coordinate to reschedule within seven (7) days; no additional compensation will be paid for holiday or rescheduled visits.",
+    "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+    "page": 2,
+    "firm_answer": "Firm has experience with federal building schedules and holiday coordination per GSA Region 7 contract. Rescheduling capability is implied but no Puerto Rico logistics are described.",
+    "status": "partial",
+    "evidence": "Custodial services, Oklahoma City Federal Building"
+   },
+   {
+    "requirement_id": "23123dbc-d1ab2780-p7-4bae7ae3",
+    "quote": "4.1 General The Contractor shall furnish all supplies, equipment, facilities, and services required to perform work under this contract that are not listed under Part 3.",
+    "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+    "page": 7,
+    "firm_answer": "Firm provides all supplies and equipment for janitorial services per its capabilities statement.",
+    "status": "meets",
+    "evidence": "Firm capabilities: janitorial, custodial, floor care, window cleaning for federal and state facilities"
+   },
+   {
+    "requirement_id": "23123dbc-d1ab2780-p7-a4457ca6",
+    "quote": "4.4 Equipment Contractor shall furnish all necessary equipment not provided by the Government to meet this PWS.",
+    "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+    "page": 7,
+    "firm_answer": "Firm furnishes its own equipment for janitorial operations. Transporting or procuring equipment in Puerto Rico is not addressed in the profile.",
+    "status": "partial",
+    "evidence": "Firm capabilities: janitorial, custodial, floor care, window cleaning — equipment provision implied"
+   },
+   {
+    "requirement_id": "23123dbc-d1ab2780-p1-94249b05",
+    "quote": "Contractor will be responsible to restock paper products and soap dispensers.",
+    "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+    "page": 1,
+    "firm_answer": "Restocking consumables (paper products, soap) is standard in the firm's custodial and janitorial past performance.",
+    "status": "meets",
+    "evidence": "Custodial services, Oklahoma City Federal Building keywords: restrooms, trash, recycling"
+   },
+   {
+    "requirement_id": "23123dbc-92b91d75-p1-99a614b6",
+    "quote": "PAST EXPERIENCE & REFERENCES REFERENCES This form must be completed by all quoters/bidders in order to receive consideration.",
+    "source_file": "92b91d7530ae4bdb874d82b822c6d616.pdf",
+    "page": 1,
+    "firm_answer": "Firm has four past-performance records in NAICS 561720/561730 and can complete the references form with at least three janitorial references.",
+    "status": "meets",
+    "evidence": "Custodial services, Oklahoma City Federal Building; Janitorial, state office complex; Housekeeping support, outpatient clinic"
+   },
+   {
+    "requirement_id": "23123dbc-ef2873c4-p1-b76bb0d5",
+    "quote": "Any representations and/or certifications attached to this Request for Quotation must be completed by the quoter.",
+    "source_file": "ef2873c429df4a25b1fbe2d104c8ee81.pdf",
+    "page": 1,
+    "firm_answer": "Firm is a registered small business (WOSB, EDWOSB, SBA) and can complete standard reps and certs. SAM registration status not confirmed in profile.",
+    "status": "partial",
+    "evidence": "Firm profile: WOSB, EDWOSB, SBA set-asides listed"
+   },
+   {
+    "requirement_id": "23123dbc-ef2873c4-p46-52f56351",
+    "quote": "The Offeror shall represent its small business size status for each one of the NAICS codes assigned to this acquisition under which it is submitting an offer.",
+    "source_file": "ef2873c429df4a25b1fbe2d104c8ee81.pdf",
+    "page": 46,
+    "firm_answer": "Firm is a WOSB/EDWOSB small business under NAICS 561720, within the $22M size standard.",
+    "status": "meets",
+    "evidence": "Firm profile: WOSB, EDWOSB, SBA; naics 561720"
+   },
+   {
+    "requirement_id": "23123dbc-ef2873c4-p14-c5f931c8",
+    "quote": "Payment requests must be submitted electronically through the U.",
+    "source_file": "ef2873c429df4a25b1fbe2d104c8ee81.pdf",
+    "page": 14,
+    "firm_answer": "Profile does not mention IPP (Invoice Processing Platform) registration or electronic invoicing capability.",
+    "status": "unknown",
+    "evidence": "No IPP or electronic invoicing capability mentioned in firm profile"
+   },
+   {
+    "requirement_id": "23123dbc-ef2873c4-p29-4a2d087c",
+    "quote": "The Contractor shall maintain a compliance plan during the performance of the contract that is appropriate-",
+    "source_file": "ef2873c429df4a25b1fbe2d104c8ee81.pdf",
+    "page": 29,
+    "firm_answer": "Profile does not describe an anti-trafficking compliance plan. This is a standard FAR 52.222-50 requirement that the firm would need to develop.",
+    "status": "unknown",
+    "evidence": "No anti-trafficking compliance plan mentioned in firm profile"
+   },
+   {
+    "requirement_id": "23123dbc-d1ab2780-p3-271632dc",
+    "quote": "The Contractor shall be responsible for safeguarding all Government equipment, information, and property provided for Contractor use.",
+    "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+    "page": 3,
+    "firm_answer": "Standard federal contract requirement; firm has federal building experience (GSA, VA, Tinker AFB) implying familiarity with property safeguarding obligations.",
+    "status": "partial",
+    "evidence": "Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic"
+   },
+   {
+    "requirement_id": "23123dbc-d1ab2780-p1-93f97a29",
+    "quote": "The Government will furnish certain consumables and equipment; the Contractor will furnish all other required supplies and equipment.",
+    "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+    "page": 1,
+    "firm_answer": "Firm furnishes its own supplies and equipment for janitorial operations per its capabilities statement.",
+    "status": "meets",
+    "evidence": "Firm capabilities: janitorial, custodial, floor care, window cleaning for federal and state facilities"
+   },
+   {
+    "requirement_id": "23123dbc-c8115174-p2-824b084b",
+    "quote": "Total Base and All Option Years __________ $ **Incomplete Price Schedules will not be considered: Offerors MUST provide pricing for each item.",
+    "source_file": "c811517402a64e43a27e85d22dac3e8d.pdf",
+    "page": 2,
+    "firm_answer": "Firm can complete a price schedule for janitorial services. However, accurate pricing for Puerto Rico operations (travel, logistics, local labor) would be highly uncertain given no local presence.",
+    "status": "partial",
+    "evidence": "Firm capabilities: janitorial services for federal buildings — pricing experience exists but no Puerto Rico cost basis"
+   },
+   {
+    "requirement_id": "23123dbc-ef2873c4-p5-34deaa09",
+    "quote": "References shall include the company name, contact person, phone number, physical address, and e-mail address (if available)",
+    "source_file": "ef2873c429df4a25b1fbe2d104c8ee81.pdf",
+    "page": 5,
+    "firm_answer": "Firm has four past-performance records with named customers (GSA Region 7, Tinker AFB, Oklahoma OMES, VA Oklahoma City) from which contact references can be provided.",
+    "status": "meets",
+    "evidence": "Custodial services, Oklahoma City Federal Building; Janitorial, state office complex; Housekeeping support, outpatient clinic; Grounds maintenance, cantonment area"
+   },
+   {
+    "requirement_id": "23123dbc-ef2873c4-p39-e6775be0",
+    "quote": "The Offeror shall review the list of excluded parties in the System for Award Management (SAM) (https://www.sam.gov) for entities excluded from receiving federal awards for \"covered telecommunications equipment or services.\"",
+    "source_file": "ef2873c429df4a25b1fbe2d104c8ee81.pdf",
+    "page": 39,
+    "firm_answer": "Standard SAM exclusion check requirement. Firm provides janitorial services and is unlikely to use covered telecom equipment, but SAM registration status is not confirmed in profile.",
+    "status": "unknown",
+    "evidence": "No SAM registration or telecom equipment usage mentioned in firm profile"
+   },
+   {
+    "requirement_id": "23123dbc-ef2873c4-p11-b004035e",
+    "quote": "The Contractor shall make available at its offices at all reasonable times the records, materials, and other evidence for examination, audit, or reproduction, until 3 years after final payment under this contract",
+    "source_file": "ef2873c429df4a25b1fbe2d104c8ee81.pdf",
+    "page": 11,
+    "firm_answer": "Standard federal records retention requirement. Firm has federal contract experience (GSA, VA, Tinker AFB) implying familiarity with audit and records obligations.",
+    "status": "partial",
+    "evidence": "Custodial services, Oklahoma City Federal Building; Housekeeping support, outpatient clinic"
+   },
+   {
+    "requirement_id": "23123dbc-d1ab2780-p4-e6023f31",
+    "quote": "The contract manager or alternate shall be available between 8:00 a.m. and 3:00 p.m., Monday through Friday, except Federal holidays or Government closures.",
+    "source_file": "d1ab278010c243ba94f68888e9a0b533.pdf",
+    "page": 4,
+    "firm_answer": "Profile does not describe a contract manager availability schedule. Time zone difference between Oklahoma (CDT) and Puerto Rico (AST) could create availability complications not addressed in the profile.",
+    "status": "unknown",
+    "evidence": "No contract manager availability or time zone coverage described in firm profile"
+   }
+  ]
+ },
+ "deadlines": {
+  "notice_id": "23123dbc9dc04bae9701caddb03b3f0a",
+  "key_dates": {
+   "questions_due": null,
+   "proposal_due": "2026-09-18T15:00:00-04:00",
+   "site_visit": null,
+   "period_of_performance": null,
+   "source_quotes": []
+  },
+  "days_to_close": 4.351722188148148,
+  "set_aside_note": "The notice has no set-aside (unrestricted). Red Cedar Facility Services can claim WOSB, EDWOSB, and SBA set-asides; an unrestricted/no-set-aside solicitation is open to all responsible small businesses, which the firm qualifies as. The firm is eligible to bid under owner rule [rc-setaside].",
+  "amendment_note": "no amendment",
+  "calendar_entries": []
+ },
+ "model_calls": 5,
+ "tokens_in": 69845,
+ "tokens_out": 13239,
+ "seconds": 131.49,
+ "produced_at": "2026-09-14T05:35:42.692741-05:00"
+}
