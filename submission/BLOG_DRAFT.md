@@ -110,4 +110,4 @@ The desk runs on Bedrock AgentCore Runtime in `us-east-1`, direct code deploymen
 
 Put the deterministic layer first and its counter on screen. Keep the rules in code, where they cannot be argued with. Write one validator both models must clear. And when the upstream API rate-limits you mid-demo, which it did, show the cached banner with its date instead of pretending, then find the second real route (the unkeyed search the sam.gov site itself uses) and let the page name which route answered. Honest degradation reads as competence.
 
-Repo, MIT licensed: (not published yet). Live demo: <https://dpnzgd4gtjs45.cloudfront.net/web/>.
+Repo, MIT licensed: <https://github.com/Yazan-O/biddesk>. Live demo: <https://dpnzgd4gtjs45.cloudfront.net/web/>.

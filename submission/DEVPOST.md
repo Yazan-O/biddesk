@@ -108,5 +108,5 @@ The eval bench (`evals/BENCH.md`) has three parts. Two are deterministic and run
 
 - Live demo URL: <https://dpnzgd4gtjs45.cloudfront.net/web/> (CloudFront `EJS7ZC1JONY7Z` over a private S3 bucket; the phone-on-cellular check is still an owner action)
 - Video URL: (not recorded yet)
-- Repository URL: (repo not published yet)
+- Repository URL: <https://github.com/Yazan-O/biddesk>
 - Architecture diagram: [`submission/architecture.svg`](architecture.svg), [`submission/architecture.png`](architecture.png)
